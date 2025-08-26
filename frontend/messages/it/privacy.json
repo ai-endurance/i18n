@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "title": "Informativa sulla Privacy",
+        "description": "Informativa sulla Privacy di AI Endurance"
+    },
+    "sections": {
+        "protectingData": {
+            "title": "1. Protezione dei tuoi dati",
+            "intro": "In AI Endurance, rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Per fornirti i nostri servizi di fitness personalizzati, raccogliamo le seguenti informazioni con il tuo esplicito consenso:",
+            "list": {
+                "exerciseData": "Dati che inserisci manualmente in AI Endurance riguardo al tuo regime di allenamento.",
+                "activityData": "Dati di attività e sonno da Garmin, Coros, Suunto, Polar, Wahoo, Intervals.icu, Strava, Whoop, Oura e TrainingPeaks a cui autorizzi AI Endurance ad accedere.",
+                "usageData": "Dettagli di utilizzo sulle funzionalità con cui interagisci per migliorare la tua esperienza utente."
+            },
+            "consent": "Tratteremo e conserveremo le tue informazioni finché manterrai il consenso. Se decidi di revocare il tuo consenso, contattaci all'indirizzo <email>info@aiendurance.com</email>."
+        },
+        "emailAddress": {
+            "title": "2. Il tuo indirizzo email",
+            "content": "Il tuo indirizzo email è al sicuro con noi. Non lo condivideremo mai con terze parti e lo utilizzeremo esclusivamente per comunicare con te riguardo alle tue interazioni con AI Endurance."
+        },
+        "googleAnalytics": {
+            "title": "3. Google Analytics",
+            "content": "Utilizziamo Google Analytics per tracciare in modo anonimo le visite e le visualizzazioni di pagina per aiutarci a comprendere il comportamento degli utenti e a perfezionare i nostri servizi di conseguenza. Questo tracciamento viene condotto senza raccogliere alcun identificatore personale. Per maggiori dettagli, visita <googlePrivacyLink>https://policies.google.com/privacy</googlePrivacyLink>."
+        },
+        "contactUs": {
+            "title": "4. Contattaci",
+            "content": "Se hai domande o dubbi riguardo alla tua privacy, non esitare a contattarci all'indirizzo <email>info@aiendurance.com</email>."
+        }
+    }
+}

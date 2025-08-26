@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Nutrición",
+        "description": "Ajusta tu nutrición con nuestro Dashboard de nutrición."
+    },
+    "layout": {
+        "title": "Nutrición",
+        "description": "Ajusta tu nutrición con nuestro Dashboard de nutrición."
+    },
+    "nutritionCard": {
+        "title": "Tu modelo de nutrición"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Ingesta diaria promedio",
+        "calories": "Calorías",
+        "protein": "Proteínas",
+        "carbs": "Carbohidratos",
+        "fat": "Grasas"
+    },
+    "mealPlanCard": {
+        "title": "Tu plan de comidas"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Preferencias dietéticas",
+        "dateForMealPlan": "Fecha para el plan de comidas",
+        "placeholder": "sin gluten, vegano, etc.",
+        "requestMealPlan": "Solicitar plan de comidas",
+        "dismissCurrentMealPlan": "Descartar plan de comidas actual"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "No hay plan de comidas disponible. ¡Crea uno ahora!",
+        "mealPlanFor": "Plan de comidas para el {date}",
+        "plannedWorkout": "Entrenamiento planificado:",
+        "specialDietaryRequests": "Solicitudes o preferencias dietéticas especiales: {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Creando plan de comidas..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Total:",
+            "protein": "Proteínas:",
+            "carbs": "Carbohidratos:",
+            "fat": "Grasas:",
+            "workout": "Entrenamiento:"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Tu gasto energético diario (kilocalorías) y de macronutrientes basado en tus actividades pasadas completadas, tus actividades futuras planificadas y tu tasa metabólica en reposo estimada.",
+            "paragraph2": "Aunque estos se han estimado utilizando ecuaciones basadas en evidencia específicas para el tipo de ejercicio, la medición o predicción precisa de los requerimientos energéticos es inherentemente compleja y propensa a errores, independientemente de la metodología elegida. Las estimaciones deben usarse como una guía aproximada, teniendo en cuenta que el verdadero costo energético del ejercicio probablemente varíe según factores como la edad, el sexo, el estado de salud y la condición física del individuo, la masa y composición corporal, el estilo de vida y la genética, entre otros.",
+            "paragraph3": "Debido a las complejidades, los desafíos y el potencial de errores relacionados con la estimación de todos estos componentes, las estimaciones se proporcionan como un rango para permitir flexibilidad y ajuste.",
+            "learnMore": "Saber más."
+        },
+        "mealplan": {
+            "paragraph1": "Obtén un plan de comidas con IA que respeta el costo calórico de tus entrenamientos pasados y planificados. Puedes añadir solicitudes dietéticas como 'soy vegetariano' o preferencias como 'hoy me apetece pescado'. Este plan de comidas se ajusta a las calorías y los requerimientos de macronutrientes modelados por nuestros modelos de nutrición basados en evidencia.",
+            "learnMore": "Saber más."
+        }
+    }
+}

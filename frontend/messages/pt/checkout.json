@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Pagamento",
+        "description": "Finalize a compra para continuar usando o AI Endurance"
+    },
+    "title": "Finalize a compra para continuar usando o AI Endurance",
+    "subscriptionTypes": {
+        "monthly": "Mensal",
+        "yearly": "Anual"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "Você ainda não assinou nenhum plano.",
+        "yearlyPlan": "Você assina o plano anual. Se você comprar uma nova assinatura, sua assinatura antiga será cancelada e substituída pela nova.",
+        "monthlyPlan": "Você assina o plano mensal. Se você comprar uma nova assinatura, sua assinatura antiga será cancelada e substituída pela nova."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Plano Mensal",
+            "prices": "por mês",
+            "billing": "Cobrado mensalmente em {currency}"
+        },
+        "yearly": {
+            "title": "Plano Anual",
+            "prices": "por ano",
+            "billing": "Cobrado anualmente em {currency}",
+            "save": "Economize {currencySymbol}{savings}!"
+        },
+        "bestValue": "Melhor Custo-Benefício!",
+        "select": "Selecionar",
+        "selected": "Selecionado"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Sua assinatura começará agora",
+        "creditApplied": "Um crédito de ${credit} USD será aplicado.",
+        "amountDue": "Valor a pagar agora:",
+        "subscriptionType": "Tipo de assinatura:",
+        "nameLabel": "Nome e Sobrenome",
+        "couponLabel": "Código de Cupom",
+        "subscribe": "Assinar",
+        "errors": {
+            "invalidCoupon": "Seu código de cupom é inválido.",
+            "fillRequiredFields": "Por favor, preencha todos os campos obrigatórios.",
+            "stripeFailed": "O Stripe falhou ao carregar",
+            "paymentFailed": "Pagamento falhou {message}",
+            "successMessage": "Você assinou com sucesso! Bem-vindo(a)!"
+        }
+    }
+}

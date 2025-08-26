@@ -1,0 +1,94 @@
+{
+    "banner": {
+        "title": "How Does AI Endurance Work?",
+        "description": "AI Endurance is the only truly Artificial Intelligence-powered training platform out there. We don't adapt predefined training plans for our athletes. Our platform is incredibly individualized for each athlete that uses it, learning your physiology on a very deep level. We take into account things like how quickly you recover, which types of intervals you respond best to, and your specific goals to create plans that are uniquely crafted for your body and your goals."
+    },
+    "buttons": {
+        "getStarted": "Get Started!"
+    },
+    "rows": {
+        "scientific": {
+            "title": "Truly scientific, data-driven and predictive",
+            "text": "Does your current app tell you by how much their athletes have improved? Or by how much you are going to improve? If not it's because it either doesn't work, or they don't know and don't care for a scientific and data-driven approach. Don't waste your valuable training time with a plan that is based on someone's opinion without taking all your data into account. We know AI Endurance works because not only have we compared it to the most recent peer-reviewed research in exercise physiology, we have shown how our AI optimized training easily outperforms even the best one-size-fits-all approach current research has to offer.",
+            "ctaButton": "Get Started!",
+            "outlinedButton": "This Is How We Know"
+        },
+        "personalized": {
+            "title": "Your personalized plan",
+            "text": "AI Endurance applies machine learning to the data collected from your GPS watch, smartphone and power meter. The result is a training plan personalized and optimized for you, your sport, and your goal race. We help you achieve your goals through our scientific approach and data-driven training, utilizing the newest advances in AI. Train smarter with a data-driven, results-oriented, easy to use training plan. Artificial intelligence is your edge.",
+            "ctaButton": "Get Started!",
+            "outlinedButton": "How Personalized?"
+        },
+        "recovery": {
+            "title": "Recovery and Readiness to train",
+            "text": "Before every workout you should know if you're actually ready for it. Everyone responds differently to stress, bad sleep and exercise fatigue - our new recovery model makes data driven decisions about when you should train and when you shouldn't. We use a combination of your workout feedback, feedback on soreness of important muscle groups, HRV, and resting heart rate to give you a simple, easy to understand recovery score and offer training plan modifications if needed.",
+            "ctaButton": "Get Started!",
+            "outlinedButton": "How Does Recovery Work?"
+        },
+        "adaptation": {
+            "title": "Adapt your plan to your life",
+            "text": "Long workdays, unforeseen events, travel, and illness can disrupt serious training. How do you stay on track when life intervenes? Our AI adapts your training plan on-the-fly, suggesting workout modifications in case of suboptimal recovery or missed sessions, ensuring you remain focused on your goal. We understand that no plan unfolds perfectly and strive to meet you where you are, accommodating the unpredictable nature of daily life.",
+            "ctaButton": "Get Started!",
+            "outlinedButton": "How Does It Adapt?"
+        },
+        "runningPower": {
+            "title": "Running Power",
+            "text": "Already using running power and looking for a personalized training plan to optimize your critical running power? We got you covered! We predict your gains in your critical running power if you stick to our adaptive AI training plan. Want to crush your next ultra? We are the only app that directly optimizes your ultra endurance power, the power at your aerobic threshold. We use the newest heart rate variability technology - DFA alpha 1 - to measure your aerobic threshold. Simply export your running power plan to TrainingPeaks or Suunto Guides and execute your workouts directly from your watch.",
+            "ctaButton": "Get Started!",
+            "outlinedButton": "What is DFA alpha 1?"
+        },
+        "nutrition": {
+            "title": "Sports Nutrition",
+            "text": "We have worked with leading sports nutritionists to provide you a range of calories and macronutrients you need on a daily basis depending on your past and planned training. On top of that, we craft an AI-powered meal plan to help you fuel for optimal performance every day. Utilizing the power of Large Language Models (think ChatGPT), simply describe what type of meal plan you'd like. We support vegetarian, vegan, gluten free, or any other dietary needs or preferences.",
+            "ctaButton": "Get Started!",
+            "outlinedButton": "More About Sports Nutrition"
+        },
+        "integrations": {
+            "title": "Integrations",
+            "text": "We integrate with many popular training platforms. We can import your training and recovery data from Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop and Stryd, and export your workouts to Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift, or our own platform at AI Endurance. This way, you can utilize AI Endurance in the way that works best for you! If Zwift's workout library is getting boring, our you're hooked on the data analysis in Intervals.icu, we can help!",
+            "ctaButton": "Get Started!"
+        }
+    },
+    "fourCards": {
+        "title": "State-of-the-art data analysis",
+        "cards": {
+            "zoneDetection": {
+                "title": "Automatic Zone Detection",
+                "text": "AI Endurance automatically detects your training zones via automatic aerobic and anaerobic threshold detection, using HRV and other important variables."
+            },
+            "noTests": {
+                "title": "No Tests Required",
+                "text": "We use your training data to predict your performance and optimize your training plan. No need for a ramp tests, time trial or 20 minute tests."
+            },
+            "predictions": {
+                "title": "Accurate Predictions",
+                "text": "Our AI models predict and optimize your performance by analyzing every second of your workout history, covering everything from 5k pace and FTP to Ironman and endurance power."
+            },
+            "hrv": {
+                "title": "Heart Rate Variability",
+                "text": "We are pioneering exciting new science around HRV, and embracing DFA alpha 1 as a valuable training metric for threshold detection, readiness to train and durability."
+            }
+        }
+    },
+    "threeCards": {
+        "optimize": {
+            "title": "Optimize your training plan",
+            "text": "There are so many ways to train: short/long intervals, hard/easy workouts, long/short recovery. How do you know what is right for you? Our AI finds the plan that enables your best performance in the time you have to train. Every workout you do is a goldmine of data; our AI uses it to predict your future performance and create a workout plan that closes the gap between your current and your optimal race performance.",
+            "button": "How We Optimize"
+        },
+        "simplify": {
+            "title": "Simplify your training focus",
+            "text": "Many factors, small and large, affect performance on any given day. It's overwhelming to consider them all. What do you really need to know to train efficiently? Our AI identifies which workouts to do, on what day. The focus is using the time you have today to achieve your goal performance, in your goal race. We also have a Maintenance plan to keep you in shape.",
+            "button": "Which Training Really Works"
+        },
+        "adapt": {
+            "title": "Our plan adapts with you",
+            "text": "No matter if you follow the plan or not - every workout you do is used to calculate your optimal plan. Every day. We let you know if we found a better option for your goal. Or - if life gets in the way too much - when it's time to reset and start a new plan.",
+            "button": "How We Adapt To You"
+        }
+    },
+    "metadata": {
+        "title": "How Does {partner} Work? | {partner}",
+        "description": "{partner} is the only true AI-powered training platform. No generic, predefined plans here."
+    }
+}

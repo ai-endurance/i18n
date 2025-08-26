@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Calendario",
+        "description": "Gestiona tu plan de entrenamiento con nuestro calendario interactivo."
+    },
+    "layout": {
+        "title": "Calendario"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Como estás en un periodo de prueba gratuito, solo mostramos las primeras 8 semanas de tu plan de entrenamiento.",
+        "getTheWholeThing": "Obtén acceso completo"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Volver al plan anterior",
+        "confirmationText": "¿Seguro que quieres volver a tu plan anterior? Esto eliminará tu plan actual.",
+        "successMessage": "¡Has vuelto al plan anterior!",
+        "errorMessage": "¡Error al volver al plan anterior!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Omitir entrenamiento",
+        "confirmationText": "¿Seguro que quieres omitir este entrenamiento? Esta acción no se puede deshacer. También puedes reordenar los entrenamientos haciendo clic y arrastrándolos.",
+        "successMessage": "Entrenamiento omitido",
+        "errorMessage": "Error al omitir el entrenamiento"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Marcar como completado",
+        "markAsNotCompleted": "Marcar como no completado",
+        "successCompleted": "Entrenamiento marcado como completado",
+        "successNotCompleted": "Entrenamiento marcado como no completado",
+        "errorMessage": "Error al marcar el entrenamiento"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Completado",
+        "skipped": "Omitido",
+        "done": "Hecho"
+    },
+    "commentButton": {
+        "dialogTitle": "Tus comentarios para el {date}",
+        "done": "Hecho"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Fecha",
+            "distance": "Distancia",
+            "duration": "Duración",
+            "calories": "Calorías"
+        },
+        "buttons": {
+            "deleteActivity": "Eliminar actividad",
+            "analysis": "Análisis",
+            "done": "Hecho"
+        },
+        "confirmationText": "¿Seguro que quieres eliminar esta actividad? Esta acción no se puede deshacer.",
+        "successMessage": "Actividad eliminada correctamente",
+        "errorMessage": "Error al eliminar la actividad"
+    },
+    "workoutDetails": {
+        "date": "Fecha",
+        "totalTime": "Tiempo total",
+        "timeAtIntensity": "Tiempo en intensidad",
+        "estDistance": "Distancia est.",
+        "avgPower": "Power promedio",
+        "avgPace": "Pace promedio",
+        "order": "Orden",
+        "estTime": "Tiempo est.",
+        "distance": "Distancia"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Brazos/hombros",
+            "coreSoreness": "Dolor en el core",
+            "legSoreness": "Dolor en las piernas",
+            "soreness": "Dolor muscular"
+        },
+        "labels": {
+            "yourCheckIn": "Tu check-in:",
+            "aiCoachFeedback": "Feedback del entrenador IA:"
+        },
+        "buttons": {
+            "deleteFeedback": "Eliminar feedback"
+        },
+        "confirmationText": "¿Seguro que quieres eliminar este feedback? Esta acción no se puede deshacer.",
+        "successMessage": "Feedback eliminado correctamente",
+        "errorMessages": {
+            "deleteError": "Error al eliminar el feedback",
+            "fetchError": "Error al obtener los detalles del feedback"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "ESS total",
+        "totalDuration": "Duración total",
+        "runEss": "ESS de carrera",
+        "runDuration": "Duración de carrera",
+        "rideEss": "ESS de salida en bici",
+        "rideDuration": "Duración de la salida en bici",
+        "swimEss": "ESS de natación",
+        "swimDistance": "Distancia de natación",
+        "noDataMessage": "¡No tienes datos para esta semana!"
+    },
+    "labels": {
+        "calendar": "Puedes mover los entrenamientos planificados arrastrándolos y soltándolos.",
+        "scheduledWorkout": "Puedes marcar o desmarcar un entrenamiento como completado. Si quieres eliminar un entrenamiento de tu plan, puedes hacer clic en 'Omitir entrenamiento'. En caso de que omitas un entrenamiento, tomamos nota y podríamos sugerir ajustes en tu plan para mantenerte en el camino hacia tu objetivo. Estos ajustes se entregan a través de nuestras notificaciones."
+    }
+}

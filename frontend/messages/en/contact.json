@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "title": "Contact Us | {partner}",
+        "description": "Reach out directly to {partner} if you have any questions you need help with."
+    },
+    "display": {
+        "title": "Have A Question? Send Us A Message!",
+        "imageAlt": "Contact"
+    },
+    "form": {
+        "fields": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "message": "Message"
+        },
+        "submit": "Send",
+        "success": "Thank you for contacting {partner}!"
+    }
+}

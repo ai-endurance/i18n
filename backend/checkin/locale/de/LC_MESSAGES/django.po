@@ -1,0 +1,81 @@
+# German translations for AI Endurance
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: German\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mysite/checkin/get_feedback.py:60
+msgid "You give encouraging feedback. You don't ask questions, you don't offer follow up, you don't make recommendations."
+msgstr "Du gibst ermutigendes Feedback. Du stellst keine Fragen, bietest keine weiteren Informationen an und gibst keine Empfehlungen."
+
+#: mysite/checkin/get_feedback.py:62
+msgid "You give encouraging feedback. Respond in the same language as the user's input. You don't ask questions, you don't offer follow up, you don't make recommendations."
+msgstr "Du gibst ermutigendes Feedback. Antworte in derselben Sprache wie die Eingabe des Benutzers. Du stellst keine Fragen, bietest keine weiteren Informationen an und gibst keine Empfehlungen."
+
+#: mysite/checkin/get_feedback.py:68
+msgid "How do you feel about exercising today?"
+msgstr "Wie fühlst du dich heute beim Training?"
+
+#: mysite/checkin/get_feedback.py:76
+msgid "What is your sentiment?"
+msgstr "Was ist deine Stimmung?"
+
+#: mysite/checkin/get_feedback.py:89
+msgid "What is your %(r_name)s recovery status?"
+msgstr "Was ist dein %(r_name)s Recovery Status?"
+
+#: mysite/checkin/get_feedback.py:95
+msgid "It's %(percentage)s%%."
+msgstr "Es sind %(percentage)s%%."
+
+#: mysite/checkin/get_feedback.py:109
+msgid "Is your body temperature elevated in a way that would make it inadvisable to exercise today?"
+msgstr "Ist deine Körpertemperatur so erhöht, dass es nicht ratsam wäre, heute zu trainieren?"
+
+#: mysite/checkin/get_feedback.py:114
+msgid "Yes, by more than one degree."
+msgstr "Ja, um mehr als ein Grad."
+
+#: mysite/checkin/get_feedback.py:119
+msgid "Please summarize each of my recovery statuses and highlight the importance of the smallest value in deciding my activities for today."
+msgstr "Bitte fasse jeden meiner Recovery Statuses zusammen und hebe die Bedeutung des kleinsten Wertes für die Entscheidung über meine heutigen Aktivitäten hervor."
+
+#: mysite/checkin/get_feedback.py:123
+msgid "Also, summarize my sentiment and explain how it may affect my readiness."
+msgstr "Fasse auch meine Stimmung zusammen und erkläre, wie sie meine readiness beeinflussen kann."
+
+#: mysite/checkin/get_feedback.py:132
+msgid "Please summarize my sentiment and explain how it may affect my readiness."
+msgstr "Bitte fasse meine Stimmung zusammen und erkläre, wie sie meine readiness beeinflussen kann."
+
+#: mysite/checkin/get_feedback.py:155
+msgid "Today's workout is %(workout)s."
+msgstr "Das heutige Workout ist %(workout)s."
+
+#: mysite/checkin/get_feedback.py:164
+msgid "Today's workouts are: %(workouts)s."
+msgstr "Die heutigen Workouts sind: %(workouts)s."
+
+#: mysite/checkin/get_feedback.py:170
+msgid "There is no workout planned today."
+msgstr "Für heute ist kein Workout geplant."
+
+#: mysite/checkin/get_feedback.py:189
+msgid "Explain why it may be beneficial to skip today's %(workout)s."
+msgstr "Erkläre, warum es vorteilhaft sein könnte, das heutige %(workout)s auszulassen."
+
+#: mysite/checkin/get_feedback.py:201
+msgid "Explain why it may be a good idea to replace today's %(workout)s with an easy Endurance %(act_type)s."
+msgstr "Erkläre, warum es eine gute Idee sein könnte, das heutige %(workout)s durch ein leichtes Endurance %(act_type)s zu ersetzen."
+
+#: mysite/checkin/get_feedback.py:210
+msgid "Explain why it may be a good idea to reduce the duration of today's %(workout)s."
+msgstr "Erkläre, warum es eine gute Idee sein könnte, die Dauer des heutigen %(workout)s zu reduzieren."
+
+#: mysite/checkin/get_feedback.py:226
+msgid "I have apparently done too much %(zone)s work. Explain why it may be a good idea to replace today's %(workout)s with an Endurance %(act_type)s."
+msgstr "Ich habe anscheinend zu viel %(zone)s Arbeit geleistet. Erkläre, warum es eine gute Idee sein könnte, das heutige %(workout)s durch ein Endurance %(act_type)s zu ersetzen."

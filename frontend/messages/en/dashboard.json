@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "title": "Dashboard",
+        "description": "Dive into your data here in the {partnerTitle} dashboard."
+    },
+    "recalculatingPlan": {
+        "creatingPredictions": "Creating plan predictions...",
+        "creatingWorkouts": "Creating workouts...",
+        "recalculatingPlan": "Recalculating your plan"
+    },
+    "notifications": {
+        "messages": {
+            "notificationActionSuccessful": "Notification action successful!",
+            "notificationDeclined": "Notification declined!",
+            "feedbackDismissed": "Feedback dismissed!",
+            "failedToRefresh": "Failed to refresh notifications"
+        },
+        "display": {
+            "title": "Notifications",
+            "allSet": "You're all set!",
+            "nothingNeedsAttention": "You've got nothing that needs your attention right now",
+            "done": "Done"
+        },
+        "item": {
+            "accept": "Accept",
+            "decline": "Decline",
+            "dismiss": "Dismiss",
+            "acceptChange": "Accept Change",
+            "declineTooltip": "Decline",
+            "dismissTooltip": "Dismiss",
+            "feedbackFromCoach": "Feedback from your AI coach"
+        }
+    },
+    "event": {
+        "yourPredictions": "Your Predictions",
+        "mainGoalEvent": "Main Goal Event",
+        "eventDate": "Event Date",
+        "predicted": "Predicted {discipline}",
+        "weeks": "{weeks} weeks",
+        "displayed": "Displayed",
+        "weight": "Weight: {weight}",
+        "morePredictions": "More Predictions",
+        "upperMargin": "Upper Margin:",
+        "prediction": "Prediction:",
+        "lowerMargin": "Lower Margin:"
+    },
+    "history": {
+        "lastFourWeeks": "Last 4 Weeks",
+        "calendar": "Calendar",
+        "yearHistory": "365 Day History",
+        "date": "Date:",
+        "duration": "Duration:",
+        "na": "N/A"
+    },
+    "nextWorkout": {
+        "noWorkoutsScheduled": "You don't have any workouts scheduled yet!",
+        "nextWorkout": "Next Workout",
+        "calendar": "Calendar",
+        "warmup": "Warmup",
+        "mainSet": "Main Set",
+        "cooldown": "Cooldown",
+        "date": "Date",
+        "totalTime": "Total Time",
+        "estDistance": "Est. Distance",
+        "timeAtIntensity": "Time At Intensity",
+        "avgPace": "Avg. Pace",
+        "avgPower": "Avg. Power",
+        "estTime": "Est. Time",
+        "distance": "Distance"
+    },
+    "recovery": {
+        "connectHeartRateData": "Connect your heart rate data to see your recovery",
+        "history": "History",
+        "dataNotUpToDate": "Data not looking up-to-date?",
+        "refreshData": "Refresh Data",
+        "recoveryDataRefreshed": "Recovery data refreshed!",
+        "failedToRefresh": "Failed to refresh recovery data",
+        "notUsingDfa": "You're not using DFA a₁!",
+        "notTrackingHrv": "You're not tracking HRV!",
+        "notTrackingRestingHr": "You're not tracking your resting HR!",
+        "notTrainingOrNoHrData": "You're not training, or you haven't connected HR data!",
+        "makeMostOfAiEndurance": "Make the most of AI Endurance",
+        "essOn": "ESS on {date}"
+    },
+    "thisWeek": {
+        "title": "This Week's Training",
+        "viewFullCalendar": "View Full Calendar"
+    },
+    "checkIn": {
+        "title": "Check In",
+        "dismiss": "Dismiss",
+        "feedbackTitle": "Feedback on your check-in",
+        "howDoYouFeel": "How do you feel today?",
+        "forMoreDiscussion": "For more detailed discussion -",
+        "tryOurAiChat": "Try our AI Chat",
+        "answerHere": "Answer here",
+        "enterHrvManually": "Enter HRV values manually",
+        "restingHeartRate": "Resting Heart Rate",
+        "submit": "Submit",
+        "checkinSubmitted": "Checkin submitted successfully",
+        "feedbackDismissed": "Feedback dismissed!",
+        "sorenessQuestions": {
+            "armsShoulders": "How sore are your arms/shoulders? (0-10)",
+            "core": "How sore is your core? (0-10)",
+            "legs": "How sore are your legs? (0-10)",
+            "cyclingSoreness": "What's your cycling soreness? (0-10)",
+            "runningSoreness": "What's your running soreness? (0-10)"
+        }
+    },
+    "latestWorkout": {
+        "title": "Most Recent Workout",
+        "noWorkoutsYet": "Looks like you don't have any workouts yet!",
+        "noWorkoutsDescription": "Either connect your data to AI Endurance, or go out and log your first activity!",
+        "analysis": "Analysis"
+    },
+    "activityDetails": {
+        "startTime": "Start Time",
+        "distance": "Distance",
+        "time": "Time",
+        "elevationGain": "Elevation Gain",
+        "averagePower": "Average Power",
+        "noDetails": "No Details"
+    },
+    "checkInSnackbar": {
+        "notCheckedInRecently": "You haven't checked in recently!",
+        "checkIn": "Check In",
+        "dismiss": "Dismiss"
+    },
+    "freeTrial": {
+        "trialActive": "You are currently on a free trial! Your trial ends in {daysLeft} days.",
+        "trialEnded": "Your free trial has ended! Subscribe to keep using AI Endurance!",
+        "subscribeNow": "Subscribe Now!"
+    },
+    "languageDisclaimer": {
+        "translationWarning": "We're working on improving the {language} version of AI Endurance. We appreciate any feedback - please send to ",
+        "emailSubject": "Feedback on AI Endurance App",
+        "emailBody": "Hi AI Endurance Team:\n\nHere's what's wrong with your {language} app text:"
+    },
+    "labels": {
+        "recoveryDisplay": "Your historical recovery values based on your HRV at rest data (RMSSD/SDNN and Resting HR) and DFA a₁ workout data. If your Garmin watch collects HRV data at night, connect your Garmin Connect account and check 'Daily Health Stats'. Garmin will send your data automatically after you wake up. If you are using the Oura ring or Whoop, connect your Oura or Whoop account. If you are using a Suunto, Coros or Polar watch that records overnight HRV, connect your Suunto, Coros or Polar account. To get other HRV at rest data into AI Endurance, connect your favourite HRV app to TrainingPeaks and connect TrainingPeaks to AI Endurance. Based on the most recent data from your connected apps.",
+        "prediction": "The AI predictions for your future performance if you follow your training plan. These include the prediction error for your machine learning model - your digital twin.",
+        "checkIn": "Tell us your soreness and motivation and we will adapt your plan in case you're not ready for a workout. We use ChatGPT to evaluate your motivation to exercise and give you feedback on your training day. Tell us how you feel, just like you would tell a coach or a friend. For example: 'Work is really stressful right now' or 'I'm so tired' or 'I'm really not feeling it today' or 'Ready to crush it today!'. We also take into account your HRV at rest data (RMSSD/SDNN and Resting HR) and DFA a₁ workout data. You can check in every 12 hours.",
+        "recoveryAerobic": "Your aerobic recovery score. This is the lowest value of your DFA a₁ recovery score, RMSSD/SDNN recovery score, HR rest recovery score, and ESS induced recovery score.",
+        "recoveryMuscleJoint": "Your muscle and joint recovery score. We model the impact of each workout on your muscles and joints based on your historic training data. Depending on the workout type, intensity, and duration, we calculate the muscle and joint recovery score.",
+        "recoveryAlpha1": "The lower your DFA a₁ values for a given pace/power, the lower your recovery score. We compare a rolling average of your last 7 day's values to a 60 day normal to assess your DFA a₁ recovery score. If you're tracking DFA a₁ and not seeing a result, it may be because a) you did not complete an activity with DFA a₁ today or b) we need at least 10 days of measurements to establish a reliable trend.",
+        "recoveryRmssd": "The lower your root mean square of successive differences (RMSSD) of your heart rate variability (HRV), the lower your recovery score. We compare a rolling average of your last 7 day's values to a 60 day normal to assess your RMSSD recovery score. If you're tracking HRV at rest and not seeing a result, it may be because we need at least 10 days of measurements to establish a reliable trend.",
+        "recoverySdnn": "The lower your standard deviation of NN intervals (SDNN) of your heart rate variability (HRV), the lower your recovery score. We compare a rolling average of your last 7 day's values to a 60 day normal to assess your SDNN recovery score. If you're tracking HRV at rest and not seeing a result, it may be because we need at least 10 days of measurements to establish a reliable trend.",
+        "recoveryHrRest": "The higher your resting heart rate compared to your usual resting heart rate, the lower your recovery score. We compare today's value to a 30 day normal to assess the deviation of your resting heart rate from the usual. If you're tracking resting heart rate and not seeing a result, it may be because we need at least 10 days of measurements to establish a reliable trend.",
+        "recoveryEss": "The External Stress Score (ESS) from your past activities directly impacts your overall recovery score. Higher ESS accumulation results in a greater reduction in recovery. This reduction is calculated using our personalized recovery model, which is tailored to your unique historical exercise and recovery data. To generate an accurate recovery score, we require at least 10 days of activities with measured ESS to train your recovery model.",
+        "lastFourWeeks": "Your last four weeks of training data. Your compliance score is 100% if in a given week you have completed all the planned workouts exactly as prescribed. If you have completed the workouts but not exactly as prescribed, your compliance score is lower. This gives you an indication of how well you are following your training plan. If you're seeing N/A, it means your plan hadn't started yet or we don't have enough data to calculate your compliance score yet.",
+        "yearHistory": "Your last year of training data. Each block represents a day and the color represents the total duration of your training on each day.",
+        "learnMore": "Learn more."
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Kasse",
+        "description": "Gehe zur Kasse, um AI Endurance weiterhin zu nutzen"
+    },
+    "title": "Gehe zur Kasse, um AI Endurance weiterhin zu nutzen",
+    "subscriptionTypes": {
+        "monthly": "Monatlich",
+        "yearly": "Jährlich"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "Du hast noch kein Abonnement abgeschlossen.",
+        "yearlyPlan": "Du hast das Jahresabonnement abonniert. Wenn du ein neues Abonnement kaufst, wird dein altes Abonnement gekündigt und durch das neue ersetzt.",
+        "monthlyPlan": "Du hast das Monatsabonnement abonniert. Wenn du ein neues Abonnement kaufst, wird dein altes Abonnement gekündigt und durch das neue ersetzt."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Monatsabo",
+            "prices": "pro Monat",
+            "billing": "Monatliche Abrechnung in {currency}"
+        },
+        "yearly": {
+            "title": "Jahresabo",
+            "prices": "pro Jahr",
+            "billing": "Jährliche Abrechnung in {currency}",
+            "save": "Spare {currencySymbol}{savings}!"
+        },
+        "bestValue": "Bestes Preis-Leistungs-Verhältnis!",
+        "select": "Auswählen",
+        "selected": "Ausgewählt"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Dein Abonnement beginnt jetzt",
+        "creditApplied": "Ein Guthaben von ${credit} USD wird angerechnet.",
+        "amountDue": "Jetzt fälliger Betrag:",
+        "subscriptionType": "Abonnement-Typ:",
+        "nameLabel": "Vor- und Nachname",
+        "couponLabel": "Gutscheincode",
+        "subscribe": "Abonnieren",
+        "errors": {
+            "invalidCoupon": "Dein Gutscheincode ist ungültig.",
+            "fillRequiredFields": "Bitte fülle alle erforderlichen Felder aus.",
+            "stripeFailed": "Stripe konnte nicht geladen werden",
+            "paymentFailed": "Zahlung fehlgeschlagen {message}",
+            "successMessage": "Du hast erfolgreich abonniert! Willkommen!"
+        }
+    }
+}

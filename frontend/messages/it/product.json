@@ -1,0 +1,94 @@
+{
+    "banner": {
+        "title": "Come funziona AI Endurance?",
+        "description": "AI Endurance è l'unica piattaforma di allenamento là fuori basata su una vera Intelligenza Artificiale. Non adattiamo piani di allenamento predefiniti per i nostri atleti. La nostra piattaforma è incredibilmente personalizzata per ogni atleta che la utilizza, imparando a conoscere la tua fisiologia a un livello molto profondo. Teniamo conto di fattori come la velocità con cui recuperi, i tipi di intervalli a cui rispondi meglio e i tuoi obiettivi specifici per creare piani unici, su misura per il tuo corpo e i tuoi traguardi."
+    },
+    "buttons": {
+        "getStarted": "Inizia subito!"
+    },
+    "rows": {
+        "scientific": {
+            "title": "Veramente scientifico, basato sui dati e predittivo",
+            "text": "La tua app attuale ti dice di quanto sono migliorati i suoi atleti? O di quanto migliorerai tu? Se non lo fa, è perché non funziona, oppure non lo sanno e non si curano di un approccio scientifico e basato sui dati. Non sprecare il tuo prezioso tempo di allenamento con un piano basato sull'opinione di qualcuno, senza tenere conto di tutti i tuoi dati. Sappiamo che AI Endurance funziona perché non solo l'abbiamo confrontato con le più recenti ricerche scientifiche sulla fisiologia dell'esercizio, ma abbiamo anche dimostrato come il nostro allenamento ottimizzato dall'IA superi facilmente anche il miglior approccio 'taglia unica' che la ricerca attuale possa offrire.",
+            "ctaButton": "Inizia subito!",
+            "outlinedButton": "Ecco come lo sappiamo"
+        },
+        "personalized": {
+            "title": "Il tuo piano personalizzato",
+            "text": "AI Endurance applica l'apprendimento automatico ai dati raccolti dal tuo orologio GPS, smartphone e misuratore di potenza. Il risultato è un piano di allenamento personalizzato e ottimizzato per te, il tuo sport e la tua gara obiettivo. Ti aiutiamo a raggiungere i tuoi obiettivi attraverso il nostro approccio scientifico e un allenamento basato sui dati, sfruttando i più recenti progressi dell'IA. Allenati in modo più intelligente con un piano di allenamento basato sui dati, orientato ai risultati e facile da usare. L'intelligenza artificiale è il tuo vantaggio.",
+            "ctaButton": "Inizia subito!",
+            "outlinedButton": "Quanto è personalizzato?"
+        },
+        "recovery": {
+            "title": "Recupero e Readiness all'allenamento",
+            "text": "Prima di ogni allenamento dovresti sapere se sei davvero pronto ad affrontarlo. Ognuno risponde in modo diverso allo stress, alla mancanza di sonno e alla fatica dell'esercizio: il nostro nuovo modello di recupero prende decisioni basate sui dati su quando dovresti allenarti e quando no. Utilizziamo una combinazione del tuo feedback sull'allenamento, del feedback sull'indolenzimento dei gruppi muscolari importanti, dell'HRV e della frequenza cardiaca a riposo per darti un punteggio di recupero semplice e di facile comprensione e, se necessario, proporti modifiche al piano di allenamento.",
+            "ctaButton": "Inizia subito!",
+            "outlinedButton": "Come funziona il recupero?"
+        },
+        "adaptation": {
+            "title": "Adatta il tuo piano alla tua vita",
+            "text": "Lunghe giornate di lavoro, imprevisti, viaggi e malattie possono interrompere un allenamento serio. Come fai a rimanere in carreggiata quando la vita si mette di mezzo? La nostra IA adatta il tuo piano di allenamento al volo, suggerendo modifiche all'allenamento in caso di recupero non ottimale o sessioni saltate, assicurandoti di rimanere concentrato sul tuo obiettivo. Comprendiamo che nessun piano si svolge alla perfezione e cerchiamo di venirti incontro, adattandoci all'imprevedibilità della vita quotidiana.",
+            "ctaButton": "Inizia subito!",
+            "outlinedButton": "Come si adatta?"
+        },
+        "runningPower": {
+            "title": "Running Power",
+            "text": "Usi già il running power e cerchi un piano di allenamento personalizzato per ottimizzare la tua critical running power? Ci pensiamo noi! Prevediamo i tuoi guadagni nella tua critical running power se segui il nostro piano di allenamento adattivo basato sull'IA. Vuoi spaccare alla tua prossima ultra? Siamo l'unica app che ottimizza direttamente la tua ultra endurance power, la potenza alla tua soglia aerobica. Usiamo la più recente tecnologia di variabilità della frequenza cardiaca - DFA alpha 1 - per misurare la tua soglia aerobica. Esporta semplicemente il tuo piano di running power su TrainingPeaks o Suunto Guides ed esegui i tuoi allenamenti direttamente dal tuo orologio.",
+            "ctaButton": "Inizia subito!",
+            "outlinedButton": "Cos'è DFA alpha 1?"
+        },
+        "nutrition": {
+            "title": "Nutrizione sportiva",
+            "text": "Abbiamo collaborato con i migliori nutrizionisti sportivi per fornirti un intervallo di calorie e macronutrienti di cui hai bisogno quotidianamente, a seconda dei tuoi allenamenti passati e pianificati. Inoltre, creiamo un piano alimentare basato sull'IA per aiutarti a fare il pieno di energia per una performance ottimale ogni giorno. Sfruttando la potenza dei Large Language Models (pensa a ChatGPT), descrivi semplicemente che tipo di piano alimentare desideri. Supportiamo diete vegetariane, vegane, senza glutine o qualsiasi altra esigenza o preferenza alimentare.",
+            "ctaButton": "Inizia subito!",
+            "outlinedButton": "Di più sulla nutrizione sportiva"
+        },
+        "integrations": {
+            "title": "Integrazioni",
+            "text": "Ci integriamo con molte piattaforme di allenamento popolari. Possiamo importare i tuoi dati di allenamento e recupero da Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop e Stryd, ed esportare i tuoi allenamenti su Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift o sulla nostra stessa piattaforma AI Endurance. In questo modo, puoi utilizzare AI Endurance nel modo che funziona meglio per te! Se la libreria di allenamenti di Zwift sta diventando noiosa, o se sei appassionato dell'analisi dati di Intervals.icu, possiamo aiutarti!",
+            "ctaButton": "Inizia subito!"
+        }
+    },
+    "fourCards": {
+        "title": "Analisi dati all'avanguardia",
+        "cards": {
+            "zoneDetection": {
+                "title": "Rilevamento automatico delle zone",
+                "text": "AI Endurance rileva automaticamente le tue zone di allenamento tramite il rilevamento automatico della soglia aerobica e anaerobica, utilizzando l'HRV e altre variabili importanti."
+            },
+            "noTests": {
+                "title": "Nessun test richiesto",
+                "text": "Utilizziamo i tuoi dati di allenamento per prevedere la tua performance e ottimizzare il tuo piano di allenamento. Non c'è bisogno di ramp test, prove a cronometro o test da 20 minuti."
+            },
+            "predictions": {
+                "title": "Previsioni accurate",
+                "text": "I nostri modelli di IA prevedono e ottimizzano la tua performance analizzando ogni secondo della tua cronologia di allenamenti, coprendo tutto, dal passo sui 5k e FTP fino all'Ironman e all'endurance power."
+            },
+            "hrv": {
+                "title": "Heart Rate Variability",
+                "text": "Siamo pionieri di una nuova ed entusiasmante scienza sull'HRV e stiamo adottando il DFA alpha 1 come metrica di allenamento preziosa per il rilevamento della threshold, la readiness all'allenamento e la durability."
+            }
+        }
+    },
+    "threeCards": {
+        "optimize": {
+            "title": "Ottimizza il tuo piano di allenamento",
+            "text": "Ci sono tanti modi per allenarsi: intervalli brevi/lunghi, allenamenti duri/facili, recupero lungo/corto. Come fai a sapere cosa è giusto per te? La nostra IA trova il piano che ti permette di ottenere la tua migliore performance nel tempo che hai a disposizione per allenarti. Ogni allenamento che fai è una miniera d'oro di dati; la nostra IA li usa per prevedere la tua performance futura e creare un piano di allenamento che colmi il divario tra la tua performance attuale e quella ottimale in gara.",
+            "button": "Come ottimizziamo"
+        },
+        "simplify": {
+            "title": "Semplifica il focus del tuo allenamento",
+            "text": "Molti fattori, piccoli e grandi, influenzano la performance in un dato giorno. È difficile prenderli tutti in considerazione. Cosa devi sapere veramente per allenarti in modo efficiente? La nostra IA identifica quali allenamenti fare e in quale giorno. L'obiettivo è usare il tempo che hai oggi per raggiungere la tua performance desiderata, nella tua gara obiettivo. Abbiamo anche un piano di mantenimento per tenerti in forma.",
+            "button": "Quale allenamento funziona davvero"
+        },
+        "adapt": {
+            "title": "Il nostro piano si adatta con te",
+            "text": "Non importa se segui il piano o no: ogni allenamento che fai viene utilizzato per calcolare il tuo piano ottimale. Ogni giorno. Ti facciamo sapere se abbiamo trovato un'opzione migliore per il tuo obiettivo. O, se la vita si mette troppo di mezzo, quando è il momento di resettare e iniziare un nuovo piano.",
+            "button": "Come ci adattiamo a te"
+        }
+    },
+    "metadata": {
+        "title": "Come funziona {partner}? | {partner}",
+        "description": "{partner} è l'unica vera piattaforma di allenamento basata sull'IA. Nessun piano generico e predefinito qui."
+    }
+}

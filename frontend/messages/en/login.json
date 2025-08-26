@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "title": "Login",
+        "description": "Login to get access to your dashboard"
+    },
+    "form": {
+        "title": "Login to AI Endurance",
+        "fields": {
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Password"
+            }
+        },
+        "buttons": {
+            "login": "Log In",
+            "goToRegister": "Go to Sign Up",
+            "forgotPassword": "Forgot your password?"
+        },
+        "errors": {
+            "generic": "An error occurred, please try again or reach out if this persists",
+            "invalidCredentials": "Invalid email or password"
+        }
+    }
+}

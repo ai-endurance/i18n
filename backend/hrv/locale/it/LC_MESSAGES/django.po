@@ -1,0 +1,48 @@
+# Italian translations for AI Endurance HRV module
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "No a₁ data available for recovery calculation."
+msgstr "Nessun dato a₁ disponibile per il calcolo del Recovery."
+
+msgid "No power data available for a₁ recovery calculation."
+msgstr "Nessun dato di Power disponibile per il calcolo del Recovery a₁."
+
+msgid "Power data is derived from heart rate and can't be used for a₁ recovery calculation."
+msgstr "I dati di Power sono derivati dalla frequenza cardiaca e non possono essere utilizzati per il calcolo del Recovery a₁."
+
+msgid "Artifact percentage is too high (greater than 10%) for a₁ recovery calculation."
+msgstr "La percentuale di artefatti è troppo alta (maggiore del 10%) per il calcolo del Recovery a₁."
+
+msgid "Not suffient power and or a₁ data available for recovery calculation from your latest activity."
+msgstr "Dati insufficienti di Power e/o a₁ disponibili per il calcolo del Recovery dalla tua attività più recente."
+
+msgid "Not suffient pace and or a₁ data available for recovery calculation from your latest activity."
+msgstr "Dati insufficienti di Pace e/o a₁ disponibili per il calcolo del Recovery dalla tua attività più recente."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient power and or a₁ data available to calculate recovery."
+msgstr "Attività insufficienti negli ultimi 21 giorni con percentuale di artefatti sotto il 10% e dati sufficienti di Power e/o a₁ disponibili per calcolare il Recovery."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient pace and or a₁ data available to calculate recovery."
+msgstr "Attività insufficienti negli ultimi 21 giorni con percentuale di artefatti sotto il 10% e dati sufficienti di Pace e/o a₁ disponibili per calcolare il Recovery."
+
+msgid "Your latest activity is not within the support of the past activities, i.e. it is not similar enough in power and a₁ to meaningfully calculate recovery."
+msgstr "La tua attività più recente non è all'interno del supporto delle attività passate, cioè non è abbastanza simile in Power e a₁ per calcolare significativamente il Recovery."
+
+msgid "Your latest activity is not within the support of the past activities, i.e. it is not similar enough in pace and a₁ to meaningfully calculate recovery."
+msgstr "La tua attività più recente non è all'interno del supporto delle attività passate, cioè non è abbastanza simile in Pace e a₁ per calcolare significativamente il Recovery."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% to calculate recovery. Currently, you have {current} activities available, but at least {required} are required."
+msgstr "Attività insufficienti negli ultimi 21 giorni con percentuale di artefatti sotto il 10% per calcolare il Recovery. Attualmente, hai {current} attività disponibili, ma almeno {required} sono richieste."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient power and or a₁ data available to calculate recovery. Currently, you have {current} activities available, but at least {required} are required."
+msgstr "Attività insufficienti negli ultimi 21 giorni con percentuale di artefatti sotto il 10% e dati sufficienti di Power e/o a₁ disponibili per calcolare il Recovery. Attualmente, hai {current} attività disponibili, ma almeno {required} sono richieste."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient pace and or a₁ data available to calculate recovery. Currently, you have {current} activities available, but at least {required} are required."
+msgstr "Attività insufficienti negli ultimi 21 giorni con percentuale di artefatti sotto il 10% e dati sufficienti di Pace e/o a₁ disponibili per calcolare il Recovery. Attualmente, hai {current} attività disponibili, ma almeno {required} sono richieste."

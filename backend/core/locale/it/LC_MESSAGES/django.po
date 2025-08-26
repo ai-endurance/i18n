@@ -1,0 +1,187 @@
+# Italian translations for AI Endurance - Workout Generation
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# IMPORTANT: when adding new languages it's CRUCIAL pace doesn't get translated
+# to a different string in that language because otherwise in
+# core.save_future_workout_static the swim instructions will get screwed up.
+
+# Duration formatting - complete sentences
+msgid "{} minutes"
+msgstr "{} minuti"
+
+msgid "{} seconds"
+msgstr "{} secondi"
+
+msgid "{} hours"
+msgstr "{} ore"
+
+msgid "Duration: {}."
+msgstr "Durata: {}."
+
+# Workout descriptions - complete sentences
+msgid "Warm up for {} minutes at {}."
+msgstr "Riscaldati per {} minuti a {}."
+
+msgid "Cool down for {} minutes at {}."
+msgstr "Raffredda per {} minuti a {}."
+
+msgid "{} for {} at {}."
+msgstr "{} per {} a {}."
+
+msgid "{} a {} time trial to test your current performance level."
+msgstr "{} una cronometro di {} per testare il tuo livello di prestazione attuale."
+
+msgid " No target power, try to maximize your {} average power."
+msgstr " Nessun Power obiettivo, cerca di massimizzare il tuo Power medio di {}."
+
+msgid " No target pace, try to maximize your {} average pace."
+msgstr " Nessun Pace obiettivo, cerca di massimizzare il tuo Pace medio di {}."
+
+msgid "Do {} {} intervals of {} {} on {} recovery {}."
+msgstr "Fai {} intervalli di {} di {} {} con {} di recupero {}."
+
+msgid " {} for {} at {}."
+msgstr " {} per {} a {}."
+
+# Intensity ranges - complete phrases
+msgid "less than {} W"
+msgstr "meno di {} W"
+
+msgid "slower than {} {} pace"
+msgstr "più lento di {} {} pace"
+
+msgid "(more than {} W)"
+msgstr "(più di {} W)"
+
+msgid "({} - {} W)"
+msgstr "({} - {} W)"
+
+msgid "(less than {} W)"
+msgstr "(meno di {} W)"
+
+msgid "(faster than {} {})"
+msgstr "(più veloce di {} {})"
+
+msgid "({} - {} {})"
+msgstr "({} - {} {})"
+
+msgid "(slower than {} {})"
+msgstr "(più lento di {} {})"
+
+# Swimming descriptions - complete sentences
+msgid "Warm up for {}"
+msgstr "Riscaldati per {}"
+
+msgid "Main set {}:"
+msgstr "Serie principale {}:"
+
+msgid "Preparation set {}:"
+msgstr "Serie di preparazione {}:"
+
+msgid "Cool down for {}"
+msgstr "Raffredda per {}"
+
+msgid "{} seconds rest. "
+msgstr "{} secondi di riposo. "
+
+# Swim interval descriptions - complete sentences
+msgid "{} at {} pace {}"
+msgstr "{} a {} pace {}"
+
+msgid " at {} pace {}."
+msgstr " a {} pace {}."
+
+msgid " Recommended as free ride."
+msgstr " Raccomandato come pedalata libera."
+
+msgid " or less than "
+msgstr " o meno di "
+
+msgid "pace"
+msgstr "pace"
+
+# Gear list email translations
+msgid "How to get the most out of AI Endurance, {}"
+msgstr "Come ottenere il massimo da AI Endurance, {}"
+
+msgid "Dear {},"
+msgstr "Caro/a {},"
+
+msgid "We'd like to provide you with guidance on how to effectively utilise AI Endurance to enhance your athletic performance."
+msgstr "Vorremmo fornirti una guida su come utilizzare efficacemente AI Endurance per migliorare le tue prestazioni atletiche."
+
+msgid "Our training philosophy is data-driven, so ensuring accurate data collection is essential. Here are some recommendations to ensure optimal data integration with AI Endurance:"
+msgstr "La nostra filosofia di allenamento è basata sui dati, quindi garantire una raccolta accurata dei dati è essenziale. Ecco alcune raccomandazioni per garantire un'integrazione ottimale dei dati con AI Endurance:"
+
+msgid "Gear checklist for optimal data flow into AI Endurance"
+msgstr "Lista di controllo delle attrezzature per un flusso di dati ottimale in AI Endurance"
+
+msgid "Best wishes,"
+msgstr "I migliori auguri,"
+
+msgid "The AI Endurance Team"
+msgstr "Il team di AI Endurance"
+
+# Welcome email translations
+msgid "Welcome to AI Endurance!"
+msgstr "Benvenuto/a in AI Endurance!"
+
+msgid "Hi {},"
+msgstr "Ciao {},"
+
+msgid "Thank you for signing up for AI Endurance! Your 14-day free trial has begun. After the trial, you can continue your subscription for {}/month or {}/year."
+msgstr "Grazie per esserti iscritto/a ad AI Endurance! La tua prova gratuita di 14 giorni è iniziata. Dopo la prova, puoi continuare il tuo abbonamento per {}/mese o {}/anno."
+
+msgid "We are currently completing your profile to provide you with accurate performance predictions and a personalized training plan. Here are the steps we are taking:"
+msgstr "Stiamo attualmente completando il tuo profilo per fornirti previsioni accurate delle prestazioni e un piano di allenamento personalizzato. Ecco i passaggi che stiamo seguendo:"
+
+msgid "Importing your training data (if you have connected Garmin, Suunto, Strava, Coros, Polar, Wahoo or Intervals.icu.)"
+msgstr "Importando i tuoi dati di allenamento (se hai connesso Garmin, Suunto, Strava, Coros, Polar, Wahoo o Intervals.icu.)"
+
+msgid "Training our machine learning algorithm with your unique data to create your digital twin"
+msgstr "Addestrando il nostro algoritmo di apprendimento automatico con i tuoi dati unici per creare il tuo Digital Twin"
+
+msgid "Developing a personalized training plan that optimizes your performance based on the time you have available to train"
+msgstr "Sviluppando un piano di allenamento personalizzato che ottimizza le tue prestazioni basato sul tempo che hai a disposizione per allenarti"
+
+msgid "This process can take up to a few hours, depending on the amount of training data. We will notify you via email once your training plan is ready."
+msgstr "Questo processo può richiedere fino a qualche ora, a seconda della quantità di dati di allenamento. Ti avviseremo via email una volta che il tuo piano di allenamento sarà pronto."
+
+msgid "If you have any questions, please feel free to reach out to us at info@aiendurance.com."
+msgstr "Se hai domande, non esitare a contattarci all'indirizzo info@aiendurance.com."
+
+# Ready email translations
+msgid "Your AI Endurance training plan is ready!"
+msgstr "Il tuo piano di allenamento di AI Endurance è pronto!"
+
+msgid "Great news! Your training plan is ready. Click the link below to check it out and get started:"
+msgstr "Ottime notizie! Il tuo piano di allenamento è pronto. Clicca sul link qui sotto per verificarlo e iniziare:"
+
+msgid "View your training plan"
+msgstr "Visualizza il tuo piano di allenamento"
+
+msgid "We're excited to see you begin your journey with us. If you have any questions or feedback, please let us know."
+msgstr "Siamo entusiasti di vederti iniziare il tuo viaggio con noi. Se hai domande o feedback, faccelo sapere."
+
+# Password reset email translations
+msgid "Password Reset - AI Endurance"
+msgstr "Reset password - AI Endurance"
+
+msgid "To initiate the password reset process for your AI Endurance account, click the link below:"
+msgstr "Per avviare il processo di reset della password per il tuo account AI Endurance, clicca sul link qui sotto:"
+
+msgid "Reset Your Password"
+msgstr "Resetta la tua password"
+
+msgid "If clicking the link above doesn't work, please copy and paste the URL in a new browser window instead."
+msgstr "Se cliccare sul link sopra non funziona, copia e incolla l'URL in una nuova finestra del browser."
+
+msgid "Sincerely,"
+msgstr "Cordiali saluti,"

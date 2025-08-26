@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Checkout",
+        "description": "Checkout to continue using AI Endurance"
+    },
+    "title": "Checkout to continue using AI Endurance",
+    "subscriptionTypes": {
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "You are not subscribed to any plan yet.",
+        "yearlyPlan": "You are subscribed to the yearly plan. If you purchase a new subscription, your old subscription will be cancelled and replaced with the new subscription.",
+        "monthlyPlan": "You are subscribed to the monthly plan. If you purchase a new subscription, your old subscription will be cancelled and replaced with the new subscription."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Monthly Plan",
+            "prices": "per month",
+            "billing": "Billed monthly in {currency}"
+        },
+        "yearly": {
+            "title": "Yearly Plan",
+            "prices": "per year",
+            "billing": "Billed yearly in {currency}",
+            "save": "Save {currencySymbol}{savings}!"
+        },
+        "bestValue": "Best Value!",
+        "select": "Select",
+        "selected": "Selected"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Your subscription will start now",
+        "creditApplied": "A credit of ${credit} USD will be applied.",
+        "amountDue": "Amount due now:",
+        "subscriptionType": "Subscription type:",
+        "nameLabel": "First and Last Name",
+        "couponLabel": "Coupon Code",
+        "subscribe": "Subscribe",
+        "errors": {
+            "invalidCoupon": "Your coupon code is invalid.",
+            "fillRequiredFields": "Please fill in all required fields.",
+            "stripeFailed": "Stripe failed to load",
+            "paymentFailed": "Payment failed {message}",
+            "successMessage": "You've successfully subscribed! Welcome!"
+        }
+    }
+}

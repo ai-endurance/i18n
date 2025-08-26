@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Calendário",
+        "description": "Gerencie seu plano de treino com nosso calendário interativo."
+    },
+    "layout": {
+        "title": "Calendário"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Como você está em um período de teste gratuito, estamos exibindo apenas as primeiras 8 semanas do seu plano de treino.",
+        "getTheWholeThing": "Obtenha Acesso Completo"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Voltar ao Plano Anterior",
+        "confirmationText": "Tem certeza de que deseja voltar ao seu plano anterior? Isso excluirá seu plano atual.",
+        "successMessage": "De volta ao Plano Anterior!",
+        "errorMessage": "Falha ao voltar ao Plano Anterior!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Pular Treino",
+        "confirmationText": "Tem certeza de que deseja pular este treino? Esta ação não pode ser desfeita. Você também pode reordenar os treinos clicando e arrastando-os.",
+        "successMessage": "Treino pulado",
+        "errorMessage": "Falha ao pular o treino"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Marcar como Concluído",
+        "markAsNotCompleted": "Marcar como Não Concluído",
+        "successCompleted": "Treino marcado como concluído",
+        "successNotCompleted": "Treino marcado como não concluído",
+        "errorMessage": "Falha ao marcar o treino"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Concluído",
+        "skipped": "Pulado",
+        "done": "Feito"
+    },
+    "commentButton": {
+        "dialogTitle": "Seu feedback para {date}",
+        "done": "Feito"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Data",
+            "distance": "Distância",
+            "duration": "Duração",
+            "calories": "Calorias"
+        },
+        "buttons": {
+            "deleteActivity": "Excluir Atividade",
+            "analysis": "Análise",
+            "done": "Feito"
+        },
+        "confirmationText": "Tem certeza de que deseja excluir esta atividade? Esta ação não pode ser desfeita.",
+        "successMessage": "Atividade excluída com sucesso",
+        "errorMessage": "Erro ao excluir atividade"
+    },
+    "workoutDetails": {
+        "date": "Data",
+        "totalTime": "Tempo Total",
+        "timeAtIntensity": "Tempo em Intensidade",
+        "estDistance": "Dist. Estimada",
+        "avgPower": "Power médio",
+        "avgPace": "Pace médio",
+        "order": "Ordem",
+        "estTime": "Tempo Estimado",
+        "distance": "Distância"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Braços/ombros",
+            "coreSoreness": "Dores no core",
+            "legSoreness": "Dores nas pernas",
+            "soreness": "Dores musculares"
+        },
+        "labels": {
+            "yourCheckIn": "Seu check-in:",
+            "aiCoachFeedback": "Feedback do Treinador IA:"
+        },
+        "buttons": {
+            "deleteFeedback": "Excluir Feedback"
+        },
+        "confirmationText": "Tem certeza de que deseja excluir este feedback? Esta ação não pode ser desfeita.",
+        "successMessage": "Feedback excluído com sucesso",
+        "errorMessages": {
+            "deleteError": "Erro ao excluir o Feedback",
+            "fetchError": "Erro ao buscar detalhes do feedback"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "ESS Total",
+        "totalDuration": "Duração Total",
+        "runEss": "ESS de Corrida",
+        "runDuration": "Duração da Corrida",
+        "rideEss": "ESS de Ciclismo",
+        "rideDuration": "Duração de Ciclismo",
+        "swimEss": "ESS de Natação",
+        "swimDistance": "Distância de Natação",
+        "noDataMessage": "Você não tem dados para esta semana!"
+    },
+    "labels": {
+        "calendar": "Você pode mover os treinos planejados arrastando e soltando.",
+        "scheduledWorkout": "Você pode marcar ou desmarcar um treino como concluído. Se quiser excluir um treino do seu plano de treino, pode clicar em 'Pular Treino'. Caso pule um treino, nós anotamos e podemos sugerir ajustes no seu plano para mantê-lo no caminho certo para seu objetivo. Esses ajustes são entregues por meio de nossas notificações."
+    }
+}

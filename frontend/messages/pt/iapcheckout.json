@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "title": "Finalizar Compra da Apple",
+        "description": "Finalizar Compra"
+    },
+    "subscriptionSelectForm": {
+        "title": "Finalize a compra para continuar usando o AI Endurance",
+        "manageSubscription": "Gerencie sua assinatura no site do AI Endurance",
+        "planStatus": {
+            "notSubscribed": "Você ainda não está inscrito em nenhum plano.",
+            "yearlySubscribed": "Você está inscrito no plano anual. Se você comprar uma nova assinatura, sua assinatura antiga será cancelada e substituída pela nova.",
+            "monthlySubscribed": "Você está inscrito no plano mensal. Se você comprar uma nova assinatura, sua assinatura antiga será cancelada e substituída pela nova."
+        },
+        "errors": {
+            "processingError": "Ocorreu um erro ao processar sua assinatura. Por favor, tente novamente.",
+            "purchaseCanceled": "Compra cancelada."
+        },
+        "links": {
+            "privacyPolicy": "Política de Privacidade",
+            "termsOfUse": "Termos de Uso (EULA)"
+        }
+    },
+    "subscriptionCard": {
+        "monthly": "Cobrado mensalmente",
+        "yearly": "Cobrado anualmente",
+        "perMonth": "por mês",
+        "perYear": "por ano",
+        "save17": "Economize 17%!",
+        "purchase": "Comprar",
+        "bestValue": "Melhor Custo-Benefício!",
+        "plan": "Plan"
+    }
+}

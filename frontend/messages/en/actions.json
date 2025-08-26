@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "An error occurred. Please try again.",
+        "networkError": "Network error. Please check your connection and try again.",
+        "userDataNotFound": "User data not found",
+        "pleaseFilOutForm": "Please fill out the form",
+        "invalidHrvInput": "Invalid HRV input",
+        "noValidQueryString": "No valid query string found",
+        "invalidEventDate": "Invalid event date",
+        "noEventType": "No event type selected",
+        "userIdNotProvided": "User ID not provided for subscription completion"
+    },
+    "notifications": {
+        "dismissNotification": "Failed to dismiss notification.",
+        "cleanupFailed": "Notification clean up failed",
+        "switchWorkoutsFailed": "Switch workouts task trigger failed",
+        "updateZonesFailed": "Update zones failed",
+        "findNewPlanFailed": "Find new plan failed",
+        "notSupported": "Notification not supported"
+    },
+    "account": {
+        "updateFailed": "Failed to update account",
+        "deleteError": "An error occurred while deleting your account",
+        "reactivateSubscriptionFailed": "Failed to reactivate subscription"
+    },
+    "activity": {
+        "changeNameFailed": "Failed to change activity name",
+        "changeRaceStatusFailed": "Failed to change activity race status",
+        "deleteFailed": "Failed to delete activity"
+    },
+    "auth": {
+        "logoutFailed": "Logout failed"
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Go back to previous plan failed"
+    },
+    "data": {
+        "addExclusionsFailed": "Failed to add data exclusions",
+        "deleteExclusionsFailed": "Failed to delete data exclusions",
+        "exclusionsSavedSuccessfully": "Data exclusions saved successfully",
+        "submitTaskFailed": "Failed to submit task",
+        "noExclusionsChanged": "No exclusions added or deleted"
+    },
+    "events": {
+        "deleteFailed": "Failed to delete event",
+        "storeFailed": "Failed to store event"
+    },
+    "feedback": {
+        "dismissFailed": "Failed to dismiss checkin",
+        "deleteFailed": "Failed to delete feedback",
+        "resetFailed": "Failed to reset checkin"
+    },
+    "onboarding": {
+        "connectToAppFailed": "Connect to {appName} failed",
+        "connectToStrava": "Connect to Strava failed",
+        "connectToGarmin": "Connect to Garmin failed",
+        "connectToOura": "Connect to Oura failed",
+        "connectToPolar": "Connect to Polar failed",
+        "connectToCoros": "Connect to Coros failed",
+        "connectToIntervalsicu": "Connect to Intervals.icu failed",
+        "connectToNolio": "Connect to Nolio failed",
+        "connectToTp": "Connect to TP failed",
+        "connectToSuunto": "Connect to Suunto failed",
+        "connectToWahoo": "Connect to Wahoo failed",
+        "connectToWhoop": "Connect to Whoop failed",
+        "stravaPermissions": "Tick all boxes when connecting with Strava",
+        "garminPermissions": "Select 'Agree' when connecting with Garmin",
+        "ouraPermissions": "Tick all boxes when connecting with Oura",
+        "handleNewUserFailed": "Handle new user task trigger failed",
+        "onboardingPostFailed": "Onboarding complete post failed",
+        "invalidForm": "Invalid form",
+        "submitFailed": "Submit form failed"
+    },
+    "password": {
+        "resetError": "An error occurred while resetting your password. Please try again later."
+    },
+    "payment": {
+        "noPaymentMethod": "No payment method provided",
+        "createSubscriptionFailed": "Failed to create subscription",
+        "paymentDeclined": "Payment failed, your card was declined",
+        "paymentFailed": "Payment failed",
+        "iapActivationFailed": "IAP Subscription activation did not complete."
+    },
+    "recovery": {
+        "refreshFailed": "Failed to refresh recovery data",
+        "fetchModelDetailFailed": "Failed to fetch recovery model detail data"
+    },
+    "register": {
+        "emailRequired": "Email is required. ",
+        "passwordRequired": "Password is required. ",
+        "firstNameRequired": "First name is required. ",
+        "lastNameRequired": "Last name is required. ",
+        "passwordValidation": "Password must be at least 8 characters long and contain at least one number, one uppercase letter, one lowercase letter, and one special character.",
+        "createAccountFailed": "Unable to create account. If you already have an account, please sign in or use the forgot password option."
+    },
+    "subscriptions": {
+        "endFailed": "Failed to end subscription",
+        "activationFailed": "Subscription activation did not complete."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Failed to refresh exports"
+    },
+    "workouts": {
+        "skipFailed": "Failed to skip workout",
+        "completeFailed": "Failed to complete workout",
+        "autoCalcFailed": "Auto calculation failed",
+        "createFailed": "An unexpected error occurred while creating the workout",
+        "fetchDetailsFailed": "Failed to fetch created workout details"
+    },
+    "zones": {
+        "resetFailed": "Error resetting zones"
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Failed to fetch Zwift workouts data"
+    }
+}

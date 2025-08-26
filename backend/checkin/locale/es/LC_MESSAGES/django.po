@@ -1,0 +1,81 @@
+# Spanish translations for AI Endurance - Check-in
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mysite/checkin/get_feedback.py:60
+msgid "You give encouraging feedback. You don't ask questions, you don't offer follow up, you don't make recommendations."
+msgstr "Das comentarios alentadores. No haces preguntas, no ofreces seguimiento, no haces recomendaciones."
+
+#: mysite/checkin/get_feedback.py:62
+msgid "You give encouraging feedback. Respond in the same language as the user's input. You don't ask questions, you don't offer follow up, you don't make recommendations."
+msgstr "Das comentarios alentadores. Responde en el mismo idioma que la entrada del usuario. No haces preguntas, no ofreces seguimiento, no haces recomendaciones."
+
+#: mysite/checkin/get_feedback.py:68
+msgid "How do you feel about exercising today?"
+msgstr "¿Cómo te sientes acerca de hacer ejercicio hoy?"
+
+#: mysite/checkin/get_feedback.py:76
+msgid "What is your sentiment?"
+msgstr "¿Cuál es tu sentimiento?"
+
+#: mysite/checkin/get_feedback.py:89
+msgid "What is your %(r_name)s recovery status?"
+msgstr "¿Cuál es tu estado de Recovery %(r_name)s?"
+
+#: mysite/checkin/get_feedback.py:95
+msgid "It's %(percentage)s%%."
+msgstr "Es %(percentage)s%%."
+
+#: mysite/checkin/get_feedback.py:109
+msgid "Is your body temperature elevated in a way that would make it inadvisable to exercise today?"
+msgstr "¿Está tu temperatura corporal elevada de una manera que haría desaconsejable hacer ejercicio hoy?"
+
+#: mysite/checkin/get_feedback.py:114
+msgid "Yes, by more than one degree."
+msgstr "Sí, por más de un grado."
+
+#: mysite/checkin/get_feedback.py:119
+msgid "Please summarize each of my recovery statuses and highlight the importance of the smallest value in deciding my activities for today."
+msgstr "Por favor resume cada uno de mis estados de Recovery y destaca la importancia del valor más pequeño al decidir mis actividades para hoy."
+
+#: mysite/checkin/get_feedback.py:123
+msgid "Also, summarize my sentiment and explain how it may affect my readiness."
+msgstr "Además, resume mi sentimiento y explica cómo puede afectar mi Readiness."
+
+#: mysite/checkin/get_feedback.py:132
+msgid "Please summarize my sentiment and explain how it may affect my readiness."
+msgstr "Por favor resume mi sentimiento y explica cómo puede afectar mi Readiness."
+
+#: mysite/checkin/get_feedback.py:155
+msgid "Today's workout is %(workout)s."
+msgstr "El entrenamiento de hoy es %(workout)s."
+
+#: mysite/checkin/get_feedback.py:164
+msgid "Today's workouts are: %(workouts)s."
+msgstr "Los entrenamientos de hoy son: %(workouts)s."
+
+#: mysite/checkin/get_feedback.py:170
+msgid "There is no workout planned today."
+msgstr "No hay entrenamiento planeado para hoy."
+
+#: mysite/checkin/get_feedback.py:189
+msgid "Explain why it may be beneficial to skip today's %(workout)s."
+msgstr "Explica por qué puede ser beneficioso omitir el %(workout)s de hoy."
+
+#: mysite/checkin/get_feedback.py:201
+msgid "Explain why it may be a good idea to replace today's %(workout)s with an easy Endurance %(act_type)s."
+msgstr "Explica por qué puede ser una buena idea reemplazar el %(workout)s de hoy con un %(act_type)s de Endurance fácil."
+
+#: mysite/checkin/get_feedback.py:210
+msgid "Explain why it may be a good idea to reduce the duration of today's %(workout)s."
+msgstr "Explica por qué puede ser una buena idea reducir la duración del %(workout)s de hoy."
+
+#: mysite/checkin/get_feedback.py:226
+msgid "I have apparently done too much %(zone)s work. Explain why it may be a good idea to replace today's %(workout)s with an Endurance %(act_type)s."
+msgstr "Aparentemente he hecho demasiado trabajo de %(zone)s. Explica por qué puede ser una buena idea reemplazar el %(workout)s de hoy con un %(act_type)s de Endurance."

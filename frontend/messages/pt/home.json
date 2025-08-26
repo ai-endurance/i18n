@@ -1,0 +1,46 @@
+{
+    "metadata": {
+        "title": "{partner}: Treinador de Corrida, Ciclismo e Triatlo com IA",
+        "description": "Obtenha os resultados que você deseja. O {partner} usa inteligência artificial para criar planos de treino personalizados para corredores, ciclistas e triatletas."
+    },
+    "whatIsAI": {
+        "title": "O que é o AI Endurance?",
+        "text": "Desbloqueie seu desempenho máximo com o AI Endurance! Nossa IA de ponta analisa seus dados de condicionamento físico para criar um plano de treino sob medida para você. Diga adeus aos cronogramas genéricos e adote um programa de IA otimizado para sua fisiologia única. Com a confiança de ciclistas, corredores e triatletas de todo o mundo, o AI Endurance é sua arma secreta para resultados superiores. Junte-se a nós e treine de forma mais inteligente, não mais difícil!",
+        "button": "Saiba Como Funciona"
+    },
+    "integrations": {
+        "title": "Nossas Integrações",
+        "text": "Desbloqueie treinos de elite com o AI Endurance! Analisamos profundamente seus dados do Garmin, Suunto, Coros, Polar, Wahoo, Intervals.icu, Strava, Oura, Whoop e Stryd. Em seguida, enviamos automaticamente treinos otimizados diretamente para Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio e Zwift. Mergulhe em insights avançados de IA e execute com precisão em suas plataformas favoritas. AI Endurance - onde os dados se transformam em desempenho máximo.",
+        "button": "Vamos Lá!"
+    },
+    "banner": {
+        "title1": "Treino Potencializado por IA.",
+        "title2": "Individualizado para Você.",
+        "subtitle": "Um plano de treino científico e baseado em dados que realmente melhora seu desempenho - e temos os dados para comprovar. Seja você um corredor, ciclista ou triatleta, o treino com IA é a sua vantagem.",
+        "cta": "Comece Agora!",
+        "secondary": "O que é?"
+    },
+    "stepper": {
+        "connect": "CONECTE",
+        "learn": "APRENDA",
+        "train": "TREINE"
+    },
+    "quotes": {
+        "title": "O que as Pessoas Estão Dizendo?"
+    },
+    "connectPane": {
+        "title": "Conecte seus dados",
+        "text": "Use um de nossos aplicativos integrados para importar seus dados de exercícios anteriores para o AI Endurance, para que possamos aprender como você responde, se recupera e se adapta a diferentes treinos. Se você está apenas começando, sem problemas! Temos um protocolo de aprendizado curto envolvendo diferentes testes de aptidão física para que possamos começar o mais rápido possível.",
+        "button": "Todas as Integrações"
+    },
+    "learnPane": {
+        "title": "O AI Endurance conhece você",
+        "text": "Depois que seus dados de treino são importados para o AI Endurance, criamos um modelo de IA personalizado e específico para você. Este modelo analisará os dados que você forneceu e aprenderá como você responde a certos tipos de treinos, quão rápido você se recupera e seu nível geral de condicionamento físico. Este modelo será sempre específico para você, não é um gerador de planos de treino genéricos. Os treinos fornecidos serão sempre baseados na sua fisiologia específica e nos seus objetivos.",
+        "button": "Aprofunde-se"
+    },
+    "trainPane": {
+        "title": "Receba seus treinos",
+        "text": "Após preencher um rápido questionário sobre seus objetivos, sua disponibilidade para treinar e algumas outras coisas, seu modelo fornecerá um cronograma de treinos e uma estimativa de melhoria. Você pode usar nosso dashboard e portal de análises, ou pode exportar seus treinos para qualquer uma de nossas integrações de exportação. O último passo? Treine duro e divirta-se!",
+        "button": "Vamos Lá!"
+    }
+}

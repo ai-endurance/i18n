@@ -1,0 +1,24 @@
+# Italian translations for AI Endurance - TrainingPeaks Integration
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Set your TrainingPeaks Bike Power Threshold Value to "
+msgstr "Imposta il tuo valore di soglia di Power della Bicicletta di TrainingPeaks a "
+
+msgid "Set your TrainingPeaks Run Power Threshold Value "
+msgstr "Imposta il tuo valore di soglia di Running Power di TrainingPeaks "
+
+msgid "and your Stryd CP to "
+msgstr "e il tuo Stryd CP a "
+
+msgid "Set your TrainingPeaks Pace Threshold Value to "
+msgstr "Imposta il tuo valore di soglia di Pace di TrainingPeaks a "
+
+msgid "Set your TrainingPeaks Swim Speed Threshold to "
+msgstr "Imposta la tua soglia di velocità di nuoto di TrainingPeaks a "

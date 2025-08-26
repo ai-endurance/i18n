@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Términos",
+        "privacy": "Privacidad"
+    },
+    "confirmationPopup": {
+        "yes": "Sí",
+        "no": "No"
+    },
+    "expiredDisplay": {
+        "title": "¡No dejes que tu estado de forma caduque! <br />Suscríbete a un plan para seguir progresando.",
+        "cta": "¡Empezar!"
+    },
+    "infoBox": {
+        "defaultTitle": "Para que lo sepas...",
+        "done": "Hecho"
+    }
+}

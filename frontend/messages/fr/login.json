@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "title": "Login",
+        "description": "Login pour accéder à ton tableau de bord"
+    },
+    "form": {
+        "title": "Login à AI Endurance",
+        "fields": {
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Mot de passe"
+            }
+        },
+        "buttons": {
+            "login": "Log In",
+            "goToRegister": "Aller à l'inscription",
+            "forgotPassword": "Mot de passe oublié ?"
+        },
+        "errors": {
+            "generic": "Une erreur s'est produite, essaie à nouveau ou contacte-nous si cela persiste",
+            "invalidCredentials": "Email ou mot de passe invalide"
+        }
+    }
+}

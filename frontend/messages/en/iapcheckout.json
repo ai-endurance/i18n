@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "title": "Apple Checkout",
+        "description": "Checkout"
+    },
+    "subscriptionSelectForm": {
+        "title": "Checkout to continue using AI Endurance",
+        "manageSubscription": "Manage your subscription on the AI Endurance website",
+        "planStatus": {
+            "notSubscribed": "You are not subscribed to any plan yet.",
+            "yearlySubscribed": "You are subscribed to the yearly plan. If you purchase a new subscription, your old subscription will be cancelled and replaced with the new subscription.",
+            "monthlySubscribed": "You are subscribed to the monthly plan. If you purchase a new subscription, your old subscription will be cancelled and replaced with the new subscription."
+        },
+        "errors": {
+            "processingError": "There was an error processing your subscription. Please try again.",
+            "purchaseCanceled": "Purchase canceled."
+        },
+        "links": {
+            "privacyPolicy": "Privacy Policy",
+            "termsOfUse": "Terms of Use (EULA)"
+        }
+    },
+    "subscriptionCard": {
+        "monthly": "Billed monthly",
+        "yearly": "Billed yearly",
+        "perMonth": "per month",
+        "perYear": "per year",
+        "save17": "Save 17%!",
+        "purchase": "Purchase",
+        "bestValue": "Best Value!",
+        "plan": "Plan"
+    }
+}

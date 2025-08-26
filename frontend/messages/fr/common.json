@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Conditions",
+        "privacy": "Confidentialité"
+    },
+    "confirmationPopup": {
+        "yes": "Oui",
+        "no": "Non"
+    },
+    "expiredDisplay": {
+        "title": "Ne laisse pas ta forme expirer ! <br />Inscris-toi à un plan pour continuer ta progression.",
+        "cta": "Commence !"
+    },
+    "infoBox": {
+        "defaultTitle": "Pour que tu saches...",
+        "done": "Terminé"
+    }
+}

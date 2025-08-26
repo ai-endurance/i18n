@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "title": "Plandetails",
+        "description": "Überprüfe und passe deine Plandetails an"
+    },
+    "primaryEvents": {
+        "title": "Hauptziele",
+        "noGoals": "Du hast keine Hauptziele festgelegt!",
+        "updateButton": "Hauptziel aktualisieren"
+    },
+    "secondaryEvents": {
+        "title": "B/C Ziele",
+        "noGoals": "Du hast keine B/C Ziele festgelegt!",
+        "addButton": "Neues Event hinzufügen"
+    },
+    "submitButton": {
+        "requestPlan": "Plan anfordern",
+        "confirmationTitle": "Bist du sicher, dass du einen neuen Plan anfordern möchtest? Dies wird deinen aktuellen Plan überschreiben.",
+        "planSearchStarted": "Plansuche gestartet",
+        "errorUpdatingPlan": "Fehler beim Aktualisieren des Plans"
+    },
+    "modals": {
+        "close": "Schließen",
+        "event": "Event",
+        "customName": "Benutzerdefinierter Name",
+        "overwritePrimaryEvent": "Hauptziel überschreiben",
+        "addSecondaryEvent": "B/C Ziel hinzufügen",
+        "updatePrimaryEvent": "Hauptziel aktualisieren"
+    },
+    "messages": {
+        "cEventAdded": "C-Event zum Kalender hinzugefügt",
+        "cEventDeleted": "C-Event aus dem Kalender gelöscht",
+        "failedToDeleteCEvent": "Fehler beim Löschen des C-Events aus dem Kalender"
+    },
+    "validation": {
+        "dateRange": "Das Datum muss zwischen dem {minDate} und dem {maxDate} liegen.",
+        "secondaryEventDateRange": "Das Datum muss zwischen dem {minDate} und dem {maxDate} liegen. B/C-Events müssen mindestens 2 Wochen vor dem Hauptevent stattfinden, um das Tapering nicht zu stören. Du kannst keine B/C-Events nach dem Hauptevent hinzufügen."
+    },
+    "availabilityHours": {
+        "title": "Plankonfiguration",
+        "description": "Mit welchem Volumen möchtest du trainieren? Dein Modell wird versuchen, auf dieses Volumen hinzuarbeiten, und dabei sicherstellen, dass du nicht zu viel zu früh machst.",
+        "hoursPerWeek": "Wie viele Stunden pro Woche möchtest du {sport}?",
+        "sports": {
+            "bike": "Rad fahren",
+            "run": "laufen",
+            "swim": "schwimmen",
+            "ride": "Rad fahren"
+        }
+    },
+    "availabilityDay": {
+        "weekDays": {
+            "mon": "Mo",
+            "tue": "Di",
+            "wed": "Mi",
+            "thu": "Do",
+            "fri": "Fr",
+            "sat": "Sa",
+            "sun": "So"
+        },
+        "timeFormat": {
+            "zeroHours": "0 Std",
+            "hour": "Std",
+            "hours": "Std",
+            "minute": "Min",
+            "minutes": "Min"
+        },
+        "enableSportMessage": "Aktiviere eine Sportart, um die stündliche Verfügbarkeit zu wählen"
+    },
+    "advanced": {
+        "title": "Erweitert",
+        "maintenanceMode": "Maintenance Mode"
+    },
+    "planFindingControls": {
+        "preferEnduranceWorkouts": "Endurance Workouts bevorzugen",
+        "matchRequestedTrainingTime": "Angefragte Trainingszeit abgleichen"
+    },
+    "sportSelectButtons": {
+        "enable": "Aktivieren",
+        "disable": "Deaktivieren",
+        "sports": {
+            "swim": "Schwimmen",
+            "ride": "Fahrrad",
+            "run": "Laufen"
+        }
+    },
+    "customConfigForm": {
+        "customName": "Benutzerdefinierter Name",
+        "expectedDuration": "Erwartete Dauer (hh:mm)",
+        "invalidFormat": "Ungültiges Format. Verwende hh:mm.",
+        "template": "Vorlage",
+        "discipline": "Disziplin"
+    },
+    "availabilityWeek": {
+        "title": "Tägliche Verfügbarkeit",
+        "description": "Wie viele Stunden pro Tag stehst du für das Training zur Verfügung? Dies stellt sicher, dass das Modell nur Workouts erstellt, die in deinen Zeitplan passen. Du kannst Workouts auch im Kalender verschieben.",
+        "descriptionTriathlete": "Wie viele Stunden pro Tag stehst du für das Training in jeder Sportart zur Verfügung? Dies stellt sicher, dass das Modell nur Workouts erstellt, die in deinen Zeitplan passen. Du kannst Workouts auch im Kalender verschieben.",
+        "schedulerFailMessage": "Wir konnten keinen ausgewogenen Trainingsplan für deine Verfügbarkeitseinstellungen erstellen. Bitte erhöhe deine bisherigen täglichen Verfügbarkeitseinstellungen.",
+        "availabilitySettingsOK": "Verfügbarkeitseinstellungen OK"
+    },
+    "labels": {
+        "goalSelect": {
+            "cyclist": "Optimiere deine FTP (Functional Threshold Power), Critical Cycling Power oder deine Ultra Endurance Power – deine Power bei DFA a₁ = 0,75, deiner aeroben HRV-Schwelle. Du kannst auch dein eigenes Ziel-Event anpassen und benutzerdefinierte Gewichtungen für jedes Ziel konfigurieren, um eine Disziplin gegenüber den anderen zu priorisieren. Eine Gewichtung von 1 bedeutet, dass die Disziplin am stärksten priorisiert wird, während eine Gewichtung von 0 bedeutet, dass sie überhaupt nicht priorisiert wird.",
+            "runnerWithPower": "Optimiere deine Critical Running Power oder deine Ultra Endurance Power – deine Power bei DFA a₁ = 0,75, deiner aeroben HRV-Schwelle. Du kannst auch dein eigenes Ziel-Event anpassen und benutzerdefinierte Gewichtungen für jedes Ziel konfigurieren, um eine Disziplin gegenüber den anderen zu priorisieren. Eine Gewichtung von 1 bedeutet, dass die Disziplin am stärksten priorisiert wird, während eine Gewichtung von 0 bedeutet, dass sie überhaupt nicht priorisiert wird.",
+            "runnerWithoutPower": "Wähle von 5k bis hin zur Marathondistanz. Oder optimiere deine Ultra Endurance Pace – deine Pace bei DFA a₁ = 0,75, deiner aeroben HRV-Schwelle. Du kannst auch dein eigenes Ziel-Event anpassen und benutzerdefinierte Gewichtungen für jedes Ziel konfigurieren, um eine Disziplin gegenüber den anderen zu priorisieren. Eine Gewichtung von 1 bedeutet, dass die Disziplin am stärksten priorisiert wird, während eine Gewichtung von 0 bedeutet, dass sie überhaupt nicht priorisiert wird.",
+            "triathlete": "Wähle von der Sprintdistanz bis hin zur vollen Ironman-Distanz. Für die Sprint- und Olympische Distanz optimieren wir deine Critical Cycling Power und deine {runTextSprintOlympic}. Für den Halb-Ironman und Ironman optimieren wir deine Aerobe Cycling Power und deine {runTextHalfIronman}. Du kannst auch dein eigenes Ziel-Event anpassen und benutzerdefinierte Gewichtungen für jedes Ziel konfigurieren, um eine Disziplin gegenüber den anderen zu priorisieren. Eine Gewichtung von 1 bedeutet, dass die Disziplin am stärksten priorisiert wird, während eine Gewichtung von 0 bedeutet, dass sie überhaupt nicht priorisiert wird.",
+            "runTextSprintOlympic": "Critical Running Power",
+            "runTextSprintOlympicNoPower": "5k oder 10k Pace",
+            "runTextHalfIronman": "Aerobe Running Power",
+            "runTextHalfIronmanNoPower": "Halbmarathon- oder Marathon-Pace"
+        },
+        "secondaryEvent": {
+            "paragraph1": "Füge B- und C-Events hinzu, um dein Hauptevent zu ergänzen. Bei B-Events optimiert die AI dein Training mit moderatem Schwerpunkt und sorgt für ein kurzes Tapering vor und Erholungstage nach dem Event. C-Events ersetzen das geplante Workout am Tag des Events, wobei am Tag davor und danach keine Workouts geplant sind.",
+            "paragraph2": "Bei Events mit Custom Configuration kannst du jede Disziplin in deinem Trainingsplan priorisieren, indem du Gewichtungen zwischen 0 (niedrige Priorität) und 1 (hohe Priorität) zuweist.",
+            "paragraph3": "C-Events werden direkt zu deinem Kalender hinzugefügt, während A- und B-Events das Klicken auf &apos;Plan anfordern&apos; erfordern, um deinen Trainingsplan für diese Events neu zu berechnen und zu optimieren.",
+            "paragraph4": "Wenn du ein C-Event hinzufügst und keinen neuen Plan anforderst, musst du möglicherweise einige Workouts am oder um das Datum des C-Events herum löschen."
+        },
+        "availability": {
+            "base": "Lege deine Verfügbarkeit für das Training entsprechend deiner zeitlichen Einschränkungen für jeden Wochentag fest.",
+            "triathleteSuffix": " Du kannst eine Sportart für einen Tag blockieren, indem du auf ihr Symbol klickst."
+        },
+        "maintenance": {
+            "paragraph1": "Im Maintenance Mode findet unsere AI einen Trainingsplan, mit dem du dein aktuelles Leistungsniveau beibehalten kannst, anstatt es zu optimieren. Du kannst diese Option wählen, wenn du in deiner aktuellen Form bleiben möchtest und nicht für ein Event trainierst.",
+            "learnMore": "Erfahre mehr."
+        },
+        "dataCollection": "Der Datensammlungsplan ermöglicht es dir, Daten für unsere AI zu sammeln, damit sie lernt, wie du auf verschiedene Trainingsroutinen reagierst. Er ist nicht vorhersagend.",
+        "preferEndurance": "Drehe diesen Regler hoch, wenn du die Anzahl der Intervall-Workouts in deinem Trainingsplan reduzieren möchtest. Je höher der von dir gewählte Wert, desto mehr wird die AI leichtere Endurance-Workouts gegenüber Intervall-Workouts in deinem Plan bevorzugen. Der Standardwert ist 50.",
+        "matchRequested": "Dieser Regler steuert, wie genau dein tatsächliches Trainingsvolumen mit den wöchentlichen Stunden übereinstimmt, die du in der Plankonfiguration ausgewählt hast. Dein tatsächliches Trainingsvolumen wird immer geringer sein als die von dir konfigurierten Stunden pro Woche, und wir stellen sicher, dass du nicht zu viel zu früh machst. Wenn du diesen Regler auf 0 stellst, wählen wir ein Trainingsvolumen, das dein Ziel optimal unterstützt, mit der einzigen Einschränkung, dass das Volumen geringer sein muss als deine ausgewählten Wochenstunden. Wenn er auf 100 eingestellt ist, zielen wir darauf ab, dein angefordertes Trainingsvolumen in der Plankonfiguration genau zu erreichen. Die Standardeinstellung ist 80. Nach einer möglichen Anlaufphase, abhängig von deinen längsten Workouts und dem Gesamtvolumen der letzten 6 Wochen, streben wir bei der Bestimmung deines optimalen Trainingsvolumens in der Regel mindestens zwei Drittel deiner angeforderten Wochenstunden an.",
+        "extrapolation": "Wähle aus, wie weit wir deine zukünftigen Workouts aus deinen historischen Trainingsdaten extrapolieren sollen. Es geht uns darum, deine Leistung genau vorherzusagen und aus diesen Vorhersagen den bestmöglichen Trainingsplan auszuwählen. Vorhersagen können nur in angemessener Nähe zu deinen historischen Daten genau sein. Für die konservativste Extrapolationseinstellung wähle 0, wenn du dich abenteuerlustig fühlst, wähle 100. Der Standardwert ist 20."
+    },
+    "availabilityErrors": {
+        "overallAvailabilityTooLow": "Deine Gesamtverfügbarkeit ist zu gering für einen ausgewogenen Plan. Erhöhe deine Verfügbarkeit oder reduziere deine Trainingsstunden.",
+        "sportAvailabilityTooLow": "Deine {sport}-Verfügbarkeit ist zu gering für einen ausgewogenen Plan. Erhöhe deine Verfügbarkeit oder reduziere deine {sport}-Trainingsstunden.",
+        "tooManyOffDays": "Du hast zu viele trainingsfreie Tage geplant. Wir können deine wöchentlichen Trainingsstunden nicht in einem ausgewogenen Plan unterbringen.",
+        "tooManySwimmingOffDays": "Du hast zu viele schwimmfreie Tage geplant. Wir können deine wöchentlichen Schwimm-Trainingsstunden nicht in einem ausgewogenen Plan unterbringen.",
+        "tooManyCyclingOffDays": "Du hast zu viele radfreie Tage geplant. Wir können deine wöchentlichen Rad-Trainingsstunden nicht in einem ausgewogenen Plan unterbringen.",
+        "tooManyRunningOffDays": "Du hast zu viele lauffreie Tage geplant. Wir können deine wöchentlichen Lauf-Trainingsstunden nicht in einem ausgewogenen Plan unterbringen.",
+        "needMoreDoubleSportDays": "Du musst mehr Tage mit mindestens 2 verschiedenen Sportarten planen, damit wir deine wöchentlichen Trainingsstunden in einem ausgewogenen Plan unterbringen können.",
+        "sports": {
+            "cycling": "Rad",
+            "running": "Lauf",
+            "swimming": "Schwimm"
+        }
+    }
+}

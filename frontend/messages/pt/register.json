@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "title": "Cadastro",
+        "description": "Cadastre-se na AI Endurance"
+    },
+    "form": {
+        "title": "Cadastre-se na AI Endurance",
+        "fields": {
+            "firstName": {
+                "label": "Nome"
+            },
+            "lastName": {
+                "label": "Sobrenome"
+            },
+            "email": {
+                "label": "E-mail"
+            },
+            "password": {
+                "label": "Senha",
+                "error": "A senha deve ter no mínimo 8 caracteres e conter pelo menos um número, uma letra maiúscula, uma letra minúscula e um caractere especial."
+            },
+            "confirmPassword": {
+                "label": "Confirmar Senha",
+                "error": "As senhas não coincidem."
+            },
+            "referral": {
+                "label": "Como você nos conheceu?"
+            }
+        },
+        "terms": {
+            "text": "Eu concordo com a",
+            "privacyPolicy": "Política de Privacidade",
+            "and": "e",
+            "termsOfService": "Termos de Serviço",
+            "error": "Por favor, aceite a política de privacidade e os termos de serviço."
+        },
+        "buttons": {
+            "signUp": "Cadastrar",
+            "goToLogin": "Ir para Log In"
+        },
+        "errors": {
+            "generic": "Ocorreu um erro."
+        }
+    }
+}

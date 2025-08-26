@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "title": "Plan Details",
+        "description": "Review and tune your plan details"
+    },
+    "primaryEvents": {
+        "title": "Goal Events",
+        "noGoals": "You have no primary goals set!",
+        "updateButton": "Update Goal Event"
+    },
+    "secondaryEvents": {
+        "title": "Secondary Events",
+        "noGoals": "You have no secondary goals set!",
+        "addButton": "Add New Event"
+    },
+    "submitButton": {
+        "requestPlan": "Request Plan",
+        "confirmationTitle": "Are you sure you want to request a new plan? This will overwrite your current plan.",
+        "planSearchStarted": "Plan search started",
+        "errorUpdatingPlan": "Error updating plan"
+    },
+    "modals": {
+        "close": "Close",
+        "event": "Event",
+        "customName": "Custom Name",
+        "overwritePrimaryEvent": "Overwrite Primary Event",
+        "addSecondaryEvent": "Add Secondary Event",
+        "updatePrimaryEvent": "Update Primary Event"
+    },
+    "messages": {
+        "cEventAdded": "C Event added to calendar",
+        "cEventDeleted": "C Event deleted from calendar",
+        "failedToDeleteCEvent": "Failed to delete C Event from calendar"
+    },
+    "validation": {
+        "dateRange": "Date must be between {minDate} and {maxDate}.",
+        "secondaryEventDateRange": "Date must be between {minDate} and {maxDate}. B/C events must be at least 2 weeks before the main event to not interfere with tapering. You cannot add B/C events after the main event."
+    },
+    "availabilityHours": {
+        "title": "Plan Configuration",
+        "description": "What is the volume that you'd like to train at? Your model will aim to work towards that volume, while making sure you're not doing too much too soon.",
+        "hoursPerWeek": "How many hours per week would you like to {sport}?",
+        "sports": {
+            "bike": "bike",
+            "run": "run",
+            "swim": "swim",
+            "ride": "ride"
+        }
+    },
+    "availabilityDay": {
+        "weekDays": {
+            "mon": "Mon",
+            "tue": "Tue",
+            "wed": "Wed",
+            "thu": "Thu",
+            "fri": "Fri",
+            "sat": "Sat",
+            "sun": "Sun"
+        },
+        "timeFormat": {
+            "zeroHours": "0 hrs",
+            "hour": "hr",
+            "hours": "hrs",
+            "minute": "min",
+            "minutes": "mins"
+        },
+        "enableSportMessage": "Enable a sport to choose hourly availability"
+    },
+    "advanced": {
+        "title": "Advanced",
+        "maintenanceMode": "Maintenance Mode"
+    },
+    "planFindingControls": {
+        "preferEnduranceWorkouts": "Prefer Endurance Workouts",
+        "matchRequestedTrainingTime": "Match Requested Training Time"
+    },
+    "sportSelectButtons": {
+        "enable": "Enable",
+        "disable": "Disable",
+        "sports": {
+            "swim": "swim",
+            "ride": "ride",
+            "run": "run"
+        }
+    },
+    "customConfigForm": {
+        "customName": "Custom Name",
+        "expectedDuration": "Expected Duration (hh:mm)",
+        "invalidFormat": "Invalid format. Use hh:mm.",
+        "template": "Template",
+        "discipline": "Discipline"
+    },
+    "availabilityWeek": {
+        "title": "Daily Availability",
+        "description": "How many hours per day are you available to train? This will ensure the model only creates workouts that fit your schedule. You can also reschedule workouts in the calendar.",
+        "descriptionTriathlete": "How many hours per day are you available to train for each sport? This will ensure the model only creates workouts that fit your schedule. You can also reschedule workouts in the calendar.",
+        "schedulerFailMessage": "We were not able to create a balanced training plan for your availability settings. Please increase your previous daily availability settings.",
+        "availabilitySettingsOK": "Availability settings OK"
+    },
+    "labels": {
+        "goalSelect": {
+            "cyclist": "Optimize FTP (Functional Threshold Power), Critical Cycling Power or your Ultra Endurance Power - your power at DFA a₁ = 0.75, your aerobic HRV threshold. You can also customize your own goal event and configure custom weights for each goal to prioritize one discipline relative to the others. A weight of 1 means the discipline is prioritized the most, while a weight of 0 means it is not prioritized at all.",
+            "runnerWithPower": "Optimize your Critical Running Power or your Ultra Endurance Power - your power at DFA a₁ = 0.75, your aerobic HRV threshold. You can also customize your own goal event and configure custom weights for each goal to prioritize one discipline relative to the others. A weight of 1 means the discipline is prioritized the most, while a weight of 0 means it is not prioritized at all.",
+            "runnerWithoutPower": "Choose from 5k all the way up to Marathon distance. Or optimize your Ultra Endurance Pace - your pace at DFA a₁ = 0.75, your aerobic HRV threshold. You can also customize your own goal event and configure custom weights for each goal to prioritize one discipline relative to the others. A weight of 1 means the discipline is prioritized the most, while a weight of 0 means it is not prioritized at all.",
+            "triathlete": "Choose from Sprint distance all the way up to full Ironman distance. For Sprint and Olympic distance, we optimize your Critical Cycling Power and your {runTextSprintOlympic}. For Half-Ironman and Ironman, we optimize your Aerobic Cycling Power and your {runTextHalfIronman}. You can also customize your own goal event and configure custom weights for each goal to prioritize one discipline relative to the others. A weight of 1 means the discipline is prioritized the most, while a weight of 0 means it is not prioritized at all.",
+            "runTextSprintOlympic": "Critical Running Power",
+            "runTextSprintOlympicNoPower": "5k or 10k pace",
+            "runTextHalfIronman": "Aerobic Running Power",
+            "runTextHalfIronmanNoPower": "Half-Marathon or Marathon pace"
+        },
+        "secondaryEvent": {
+            "paragraph1": "Add B and C events to complement your main event. For B events, the AI optimizes your training with moderate emphasis, providing a short taper before and recovery days after the event. C events replace the scheduled workout on the day of the event, with no workouts planned the day before or after.",
+            "paragraph2": "For Custom Configuration events, you can prioritize each discipline in your training plan by assigning weights between 0 (low priority) and 1 (high priority).",
+            "paragraph3": "C events are added directly to your calendar, while A and B events require clicking &apos;Request Plan&apos; to recalculate and optimize your training schedule for these events.",
+            "paragraph4": "If you add a C event and don&apos;t request a new plan you may have to delete some workouts on or around the C event date."
+        },
+        "availability": {
+            "base": "Set your availability to train according to your time constraints for every week day.",
+            "triathleteSuffix": " You can block a sport for a day by clicking on its symbol."
+        },
+        "maintenance": {
+            "paragraph1": "In Maintenance Mode, our AI finds a training plan that lets you maintain your current performance level as opposed to optimizing it. You may select this option if you want to stay in your current shape and are not training for an event.",
+            "learnMore": "Learn more."
+        },
+        "dataCollection": "The data collection plan lets you collect data for our AI to learn how you respond to different training routines. It is not predictive.",
+        "preferEndurance": "Dial this up if you want to reduce the amount of interval workouts in your training plan. The higher the value you select, the more the AI will prefer easier Endurance workouts over interval workouts in your plan. The default value is 50.",
+        "matchRequested": "This dial controls how closely your actual training volume aligns with the weekly hours you selected in Plan Configuration. Your actual training volume will always be less than the hours per week you configured and we make sure you&apos;re not doing too much too soon. If you set this dial to 0 we&apos;ll choose a training volume that optimally supports your goal, with the only constraint that the volume has to be less than your selected weekly hours. If set to 100, we&apos;ll aim to match your requested training volume in Plan Configuration exactly. The default setting is 80. After a possible ramp-up phase, depending on your longest workouts and total volume over the past 6 weeks, we typically target at least two-thirds of your requested weekly hours when determining your optimal training volume.",
+        "extrapolation": "Select how far you want us to extrapolate your future workouts from your historical training data. We are all about accurately predicting your performance and selecting the best possible training plan from these predictions. Predictions can only be accurate reasonably close to your historical data. For the most conservative extrapolation setting select 0, if you feel adventurous select 100. The default value is 20."
+    },
+    "availabilityErrors": {
+        "overallAvailabilityTooLow": "Your overall availability is too low for a balanced plan. Increase your availability or reduce your training hours.",
+        "sportAvailabilityTooLow": "Your {sport} availability is too low for a balanced plan. Increase your availability or reduce your {sport} training hours.",
+        "tooManyOffDays": "You have scheduled too many off days. We can't accommodate your weekly training hours in a balanced plan.",
+        "tooManySwimmingOffDays": "You have scheduled too many swimming off days. We can't accommodate your weekly swimming training hours in a balanced plan.",
+        "tooManyCyclingOffDays": "You have scheduled too many cycling off days. We can't accommodate your weekly cycling training hours in a balanced plan.",
+        "tooManyRunningOffDays": "You have scheduled too many running off days. We can't accommodate your weekly running training hours in a balanced plan.",
+        "needMoreDoubleSportDays": "You need to schedule more days with at least 2 different sports so we can accommodate your weekly training hours in a balanced plan.",
+        "sports": {
+            "cycling": "cycling",
+            "running": "running",
+            "swimming": "swimming"
+        }
+    }
+}

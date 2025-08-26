@@ -1,0 +1,164 @@
+{
+    "metadata": {
+        "title": "Account",
+        "description": "Gestiona aquí la configuración de tu cuenta"
+    },
+    "accountSettings": "Configuración de la cuenta",
+    "weight": "Peso (kg)",
+    "height": "Altura (cm)",
+    "language": "Idioma",
+    "updateStravaDescription": "Actualizar descripción de Strava",
+    "useDataForResearch": "Usar datos para investigación",
+    "useRunningPower": "Usar Running Power",
+    "useHrvDerivedThresholds": "Usar umbrales derivados de HRV",
+    "controlGarminWorkoutsWithLapButton": "Controlar entrenamientos de Garmin con el botón de vuelta",
+    "controlIntervalsicuWorkoutsWithLapButton": "Controlar entrenamientos de Intervals.icu con el botón de vuelta",
+    "estimatePowerFromHr": "Estimar Power a partir de la FC",
+    "useSecondaryLayerOfTrainingForDigitalTwin": "Usar capa secundaria de entrenamiento para el Digital Twin",
+    "useSdnnInsteadOfRmssdHrv": "Usar SDNN en lugar de RMSSD HRV",
+    "manuallySetZones": "Establecer zonas manualmente",
+    "cyclingZones": "Zonas de ciclismo (W)",
+    "runningPowerZones": "Zonas de Running Power (W)",
+    "runningZones": "Zonas de carrera (min{unit})",
+    "enduranceCeiling": "Techo de Endurance",
+    "tempoCeiling": "Techo de Tempo",
+    "thresholdCeiling": "Techo de Threshold",
+    "vo2maxCeiling": "Techo de VO2Max",
+    "detectedAerobicThresholdForCycling": "Umbral aeróbico detectado para ciclismo:",
+    "detectedAerobicThresholdForRunning": "Umbral aeróbico detectado para carrera:",
+    "changeUserType": "Cambiar tipo de usuario",
+    "runner": "Corredor",
+    "cyclist": "Ciclista",
+    "triathlete": "Triatleta",
+    "saveChanges": "Guardar cambios",
+    "accountUpdated": "¡Cuenta actualizada!",
+    "accountUpdateFailed": "Error al actualizar la cuenta",
+    "pleaseWaitForPlanSearch": "Por favor, espera a que termine la búsqueda de plan actual para guardar cualquier cambio.",
+    "confirmRunningPowerChange": "¿Seguro que quieres cambiar tu configuración de Running Power? Esto eliminará tu plan de entrenamiento actual y creará uno nuevo basado en tu nueva configuración de Running Power. Podrás editar el plan una vez que la configuración de Running Power se haya actualizado. Como es posible que tengamos que entrenar un nuevo modelo de IA para esto, puede tardar unos minutos. Por favor, actualiza esta página unos minutos después de guardar los cambios.",
+    "confirmUserTypeChange": "¿Seguro que quieres cambiar tu tipo de usuario? Esto eliminará tu plan de entrenamiento actual y creará un plan de entrenamiento predeterminado de 6 semanas para tu nuevo tipo de usuario. Podrás editar el plan una vez que se haya completado el cambio de tipo de usuario. Como tenemos que entrenar un nuevo modelo de IA para esto, puede tardar unos minutos. Por favor, actualiza esta página unos minutos después de guardar los cambios.",
+    "resetCheckIn": "Reiniciar Check In",
+    "reset": "Reiniciar",
+    "checkInReset": "¡Check In reiniciado!",
+    "checkInResetFailed": "¡Error al reiniciar el Check In!",
+    "referAFriend": "Invitar a amigos",
+    "referralBodyText": "Gana 10 $ USD de crédito por cada amigo que invites y se convierta en suscriptor de pago. Comparte tu enlace de invitación único y empieza a ahorrar en tu suscripción hoy mismo. Tu enlace de invitación:",
+    "referralLinkCopied": "¡Enlace de invitación copiado!",
+    "subscription": "Suscripción",
+    "pleaseWaitForPlanSearchToManageSubscription": "Por favor, espera a que termine la búsqueda de plan actual para gestionar tu suscripción",
+    "manageSubscriptionInAppleIosApp": "Gestiona tu suscripción en la app de Apple para iOS",
+    "manageSubscriptionOnAiEnduranceWebsite": "Gestiona tu suscripción en el sitio web de AI Endurance",
+    "youHaveCreditOf": "Tienes un crédito de ${credit} USD",
+    "notSubscribedToAnyPlan": "No estás suscrito a ningún plan",
+    "onTheYearlyPlan": "Tienes el plan anual",
+    "onTheMonthlyPlan": "Tienes el plan mensual",
+    "downloadRecoveryHistory": "Descargar historial de Recovery",
+    "download": "Descargar",
+    "dangerZone": "ZONA DE PELIGRO",
+    "deleteAccount": "Eliminar cuenta",
+    "pleaseWaitForPlanSearchToDeleteAccount": "Por favor, espera a que termine la búsqueda de plan actual para eliminar tu cuenta",
+    "errorDeletingAccount": "Error al eliminar la cuenta",
+    "confirmDeleteAccount": "Si hay algún problema con tu cuenta, por favor, contacta primero con soporte. No la elimines para volver a crear una cuenta. Garmin solo permite importar tu historial una vez. Es posible que no puedas volver a importar tus datos. ¿Seguro que quieres eliminar tu cuenta?",
+    "poolLength": "Largo de la piscina",
+    "unit": "Unidad",
+    "setPerformanceLevels": "Establecer niveles de rendimiento",
+    "performanceOn": "Rendimiento el",
+    "swimmingData": "Datos de natación",
+    "autocalcCss": "Autocalcular CSS",
+    "pleaseWaitForPlanSearchToUpdateCss": "Por favor, espera a que termine la búsqueda de plan actual para actualizar el CSS",
+    "criticalSwimSpeed": "Critical Swim Speed",
+    "per100m": "por 100m",
+    "per100yd": "por 100yd",
+    "criticalSwimSpeedUpdated": "¡Critical Swim Speed actualizado!",
+    "criticalSwimSpeedUpdateFailed": "¡Error al actualizar el Critical Swim Speed!",
+    "billing": "Facturación",
+    "billingSettings": "Configuración de facturación",
+    "errorConnectingToStripe": "Error al conectar con Stripe",
+    "cancelSubscription": "Cancelar suscripción",
+    "confirmCancelSubscription": "¿Seguro que quieres cancelar tu suscripción?",
+    "subscriptionCancelledSuccessfully": "Suscripción cancelada correctamente",
+    "failedToCancelSubscription": "Error al cancelar la suscripción",
+    "subscriptionCanceledMessage": "Tu suscripción ha sido cancelada y permanecerá activa hasta el final del ciclo de facturación actual.",
+    "reactivateSubscription": "Reactivar suscripción",
+    "subscriptionReactivated": "¡Suscripción reactivada!",
+    "failedToReactivateSubscription": "Error al reactivar la suscripción",
+    "successfullyResubscribed": "¡Te has vuelto a suscribir correctamente! ¡Bienvenido de nuevo!",
+    "subscriptionExpiresMessage": "Has cancelado tu suscripción, que expirará al final del ciclo de facturación actual.",
+    "calculateZones": "Calcular zonas",
+    "pleaseWaitForPlanSearchToRecalculateZones": "Por favor, espera a que termine la búsqueda de plan actual antes de recalcular las zonas.",
+    "autocalcZones": "Autocalcular zonas",
+    "failedToAutocalculateZones": "Error al autocalcular las zonas. Por favor, inténtalo de nuevo más tarde.",
+    "successfullyAutocalculatedZones": "Zonas autocalculadas correctamente.",
+    "changeSubscription": "Cambiar suscripción",
+    "subscribe": "Suscribirse",
+    "units": "Unidades",
+    "imperial": "Imperial",
+    "metric": "Métrico",
+    "labels": {
+        "zonesLabel": {
+            "paragraph1": "Puedes establecer manualmente tus zonas de intensidad. Los umbrales de frecuencia cardíaca aeróbica se calculan a partir de tus datos de DFA a₁ si existen en los últimos 90 días. Para más información, consulta",
+            "learnMore": "explicación de las zonas de entrenamiento."
+        },
+        "autocalcZonesLabel": {
+            "paragraph1": "Podemos calcular automáticamente tus zonas a partir de tus datos históricos. Usamos el siguiente sistema para estimar tus zonas: Primero, buscamos rendimientos en tests recientes y niveles de rendimiento que hayas establecido manualmente en los últimos 14 días.",
+            "paragraph2": "Segundo, si estás usando umbrales derivados de HRV, intentamos encontrar suficientes datos de umbral de DFA a₁ para establecer tus zonas. Lo intentamos con los datos de los últimos 30 días y, si no hay suficientes, usamos los datos de los últimos 90 días.",
+            "paragraph3": "Tercero, usamos mediciones de Critical Power de las últimas 4 semanas para establecer tus zonas.",
+            "paragraph4": "Cuarto, usamos la distribución de tus datos históricos de Power/Pace de los últimos meses para establecer tus zonas.",
+            "paragraph5": "En un último paso, realizamos varias comprobaciones de consistencia con tus rendimientos recientes para asegurar que las zonas sean precisas. Esto incluye establecer tu zona de Endurance de forma independiente a través de los datos del umbral aeróbico de DFA a₁ si están disponibles.",
+            "paragraph6": "El proceso completo puede tardar unos minutos.",
+            "paragraph7": "Alternativamente, puedes usar el Chat para establecer tus zonas basándote en actividades recientes seleccionadas y otras entradas personalizadas. Esta es la opción más personalizable disponible."
+        },
+        "researchLabel": {
+            "paragraph1": "Permítenos usar tus datos para publicar estudios de investigación sobre la efectividad del entrenamiento de resistencia que pueden ayudar a avanzar en la investigación del ejercicio y ayudar a tus compañeros atletas a alcanzar sus objetivos. Somos extremadamente conscientes de tus preocupaciones sobre la privacidad. Tus datos siempre permanecerán anónimos, es decir, tu nombre o cualquier valor de rendimiento nunca serán publicados. Los datos solo se publicarán de forma agregada, como: 'De media, una composición de entrenamiento x ayudó a los atletas a mejorar en un y por ciento'. Por defecto, esta casilla está desmarcada, es decir, tus datos nunca entrarán en ninguna investigación pública sin tu consentimiento. Para ver un estudio de ejemplo, consulta",
+            "learnMore": "este estudio."
+        },
+        "hrvThresholdsLabel": {
+            "paragraph1": "Si está marcada, usamos tus umbrales de DFA a₁ derivados de tus datos de HRV para entrenar tu modelo de IA y predecir tu rendimiento.",
+            "learnMore": "Saber más."
+        },
+        "swimmingLabel": {
+            "paragraph1": "Podemos calcular automáticamente tu Critical Swim Speed (CSS) a partir de la distribución histórica de tu ritmo de natación. O puedes ajustar manualmente tu CSS. Tu CSS es el ritmo que teóricamente puedes mantener sin agotamiento.",
+            "learnMore": "Saber más sobre un test de CSS."
+        },
+        "disciplineLabel": {
+            "paragraph1": "Puedes establecer manualmente los niveles de rendimiento si sientes que los datos no representan bien tu estado de forma, por ejemplo, si no has hecho un test durante un tiempo. Esto debe usarse con moderación. Nuestra IA detecta automáticamente la mayoría de los rendimientos en carreras y tests (ver FAQ). Para más información, consulta",
+            "learnMore": "explicación de las zonas de entrenamiento."
+        },
+        "phrLabel": {
+            "appended": "Nuestra IA puede predecir tu Power en ciclismo a partir de tu frecuencia cardíaca, Cadence y/o DFA a₁ para salidas en bici sin medidor de potencia. Si hay datos de Cadence o a₁, la precisión del Power estimado generalmente mejora significativamente. A veces, las mediciones de frecuencia cardíaca son muy imprecisas, por ejemplo, con sensores ópticos de muñeca. Esto puede causar a su vez estimaciones de Power muy imprecisas. En este caso, puedes desactivar esta función y solo tendremos en cuenta para nuestra IA las salidas en bici con mediciones de un medidor de potencia. Para poder predecir el Power a partir de la frecuencia cardíaca, requerimos al menos 1 hora de tiempo de actividad con datos de Power y frecuencia cardíaca en tu historial.",
+            "learnMore": "Saber más.",
+            "estimationError": "Tu error de estimación:",
+            "fromHeartRateCadenceDfa": "de frecuencia cardíaca + Cadence + DFA a₁",
+            "fromHeartRateDfa": "de frecuencia cardíaca + DFA a₁",
+            "fromHeartRateCadence": "de frecuencia cardíaca + Cadence",
+            "fromHeartRateOnly": "solo de frecuencia cardíaca"
+        },
+        "runningPowerLabel": {
+            "base": "Si está marcada, basamos tu entrenamiento en Running Power. De lo contrario, usamos GAP (Grade Adjusted Pace). Si cambias tu configuración de Running Power, esto eliminará tu plan de entrenamiento actual y creará un nuevo plan basado en tu nueva configuración de Running Power una vez que confirmes los cambios. Es posible que tengamos que entrenar un nuevo modelo de IA en caso de que cambies tu configuración. Por favor, actualiza después de unos minutos. Actualmente tienes {nRunningPower} carreras con Running Power de tus {nRunning} carreras totales en AI Endurance.",
+            "insufficientData": " Actualmente no tienes suficientes datos de Running Power, por lo que hemos vuelto a usar GAP por defecto. Necesitas algunas carreras con Power durante algunas semanas para poder usar Running Power en AI Endurance."
+        },
+        "pretrainLabel": {
+            "paragraph1": "Si está marcada, pre-entrenamos tu modelo de aprendizaje automático Digital Twin con los datos acumulados de {userType}s que son similares a ti en edad, peso, género y nivel de forma física general. Si no está marcada, tu Digital Twin se entrena solo con tus datos. Habilitar el pre-entrenamiento puede resultar en una mayor discrepancia entre los niveles de rendimiento detectados y predichos, ya que la respuesta al entrenamiento modelada a través de datos acumulados puede diferir de tu respuesta personal."
+        },
+        "garminLapLabel": {
+            "paragraph1": "Si está marcada, tus partes de Warmup, Cooldown y descanso de tu intervalo terminarán cuando presiones el botón de vuelta en lugar de cuando termine su duración respectiva. Esto puede ser útil si estás haciendo tu entrenamiento al aire libre y quieres más control sobre la hora de inicio de tu intervalo, por ejemplo, debido a restricciones de la ruta o del tráfico."
+        },
+        "intervalsicuLapLabel": {
+            "paragraph1": "Si está marcada, tus partes de Warmup, Cooldown y descanso de tu intervalo terminarán cuando presiones el botón de vuelta en lugar de cuando termine su duración respectiva. Esto puede ser útil si estás haciendo tu entrenamiento al aire libre y quieres más control sobre la hora de inicio de tu intervalo, por ejemplo, debido a restricciones de la ruta o del tráfico."
+        },
+        "userTypeLabel": {
+            "paragraph1": "Esto eliminará tu plan de entrenamiento actual. Cambia tu tipo de atleta para tener acceso a diferentes eventos objetivo. Ciclista: FTP; Corredor: 5k, 10k, (Media)Maratón; Triatleta: Sprint, Olímpico, (Medio)Ironman. El cambio creará un plan de entrenamiento de 6 semanas que puedes editar en la página del plan. Es posible que tengamos que entrenar un nuevo modelo de IA; actualiza esta página unos minutos después de guardar los cambios."
+        },
+        "checkinLabel": {
+            "paragraph1": "Normalmente te ofrecemos un check in cada 12 horas. Sin embargo, si quieres hacer un check in adicional o has descartado accidentalmente el check in, puedes reiniciar el horario de check in aquí y el check in volverá a aparecer en la parte superior de tu Dashboard."
+        },
+        "referralLabel": {
+            "paragraph1": "Nuestro programa de invitación de amigos es una forma simple pero efectiva de ganar crédito para tu suscripción a AI Endurance. Al compartir un código de invitación único con tus amigos, no solo les presentas una herramienta que puede ayudarles a alcanzar sus objetivos de fitness, sino que también ganas 10 $ USD de crédito por cada amigo que se registre y se convierta en suscriptor de pago. Este crédito reduce directamente los costos de tu suscripción; solo se puede aplicar a futuros pagos de suscripción y no se puede pagar en efectivo. Es una situación en la que todos ganan, tanto tú como tus amigos. Cuantos más amigos invites, más ahorras, sin límite superior en la cantidad de crédito que puedes acumular. Este programa es nuestra forma de agradecerte por ser un miembro valioso de la comunidad de AI Endurance y por ayudarnos a crecer."
+        },
+        "recoveryHistoryLabel": {
+            "paragraph1": "Descarga tus datos históricos de Recovery en formato csv."
+        },
+        "useSdnnInsteadRmssd": {
+            "paragraph1": "Si estás recopilando datos de HRV nocturnos con un Apple Watch, es posible que quieras usar SDNN en lugar de RMSSD para tus datos de HRV. Esto se debe a que el Apple Watch no proporciona datos de RMSSD. SDNN es una medida de la variabilidad en la frecuencia cardíaca que no está relacionada con el ciclo respiratorio. Es un buen indicador del Stress y la Recovery generales. Si estás usando un dispositivo diferente, deberías usar RMSSD."
+        }
+    }
+}

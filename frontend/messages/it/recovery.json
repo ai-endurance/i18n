@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Dettagli sul Recovery",
+        "description": "Dettagli sul tuo stato di recovery."
+    },
+    "titles": {
+        "yourRecovery": "Il tuo Recovery",
+        "yourDfaReadiness": "La tua Readiness DFA a₁",
+        "yourRecoveryMeasurements": "Le tue misurazioni di Recovery",
+        "yourRmssdTrends": "I tuoi trend RMSSD",
+        "yourSdnnTrends": "I tuoi trend SDNN",
+        "yourHrRestTrends": "I tuoi trend HR Rest"
+    },
+    "recovery": {
+        "todaysAerobicRecovery": "Aerobic<linebreak>Recovery</linebreak>di oggi",
+        "todaysMuscleJointRecovery": "Muscle/Joint<linebreak>Recovery</linebreak>di oggi",
+        "noRecoveryDataAvailable": "Nessun dato di recovery disponibile. Per visualizzare il tuo aerobic e muscle/joint recovery, raccogli i dati HRV notturni con un dispositivo compatibile e inizia a usare la funzione di check-in di AI Endurance.",
+        "makeTheMostOfAiEndurance": "Sfrutta al massimo AI Endurance",
+        "noRecoveryMetricsFound": "Nessuna metrica di recovery trovata"
+    },
+    "measurements": {
+        "source": "Fonte",
+        "delete": "Elimina",
+        "measurementDeletedSuccessfully": "Misurazione eliminata con successo",
+        "errorDeletingMeasurement": "Errore durante l'eliminazione della misurazione",
+        "deleteConfirmation": "Sei sicuro di voler eliminare questa misurazione? L'operazione non può essere annullata."
+    },
+    "chart": {
+        "measuredA1": "a₁ misurato",
+        "expectedA1": "a₁ previsto"
+    },
+    "labels": {
+        "a1Readiness": {
+            "paragraph1": "La Readiness si basa sulle misurazioni HRV (DFA a₁) delle attività recenti, utilizzando solo quelle con una corruzione degli artefatti inferiore al 10%. Viene calcolata tramite un modello di regressione lineare (linea rossa continua) che mette in relazione la potenza/ritmo medio effettivo (‹Power/Pace›) e i valori effettivi di DFA a₁ (‹a₁›) dei primi 10 minuti di corsa o 20 minuti di ciclismo nei tuoi ultimi 21 allenamenti (croci rosse, con barre di errore che rappresentano la variabilità dei dati). I valori effettivi escludono i periodi in cui ‹Power/Pace› è zero, garantendo l'utilizzo di dati significativi. Il Pace si riferisce sempre al GAP (Grade Adjusted Pace).",
+            "paragraph2": "Per l'ultimo allenamento, ‹Power/Pace› e ‹a₁› vengono confrontati con il modello di regressione. La Readiness riflette la deviazione relativa (linea rossa tratteggiata verticale) del valore ‹a₁› osservato (croce blu) rispetto al valore ‹a₁› previsto allo stesso ‹Power/Pace› (punto rosso).",
+            "paragraph3": "La Readiness non viene calcolata se: la corruzione degli artefatti dell'allenamento corrente è maggiore o uguale al 10%; esistono meno di 4 attività valide negli ultimi 21 giorni; ‹a₁› supera 1.4 (per evitare che attività molto al di fuori del range dinamico di a₁ influenzino il modello); il valore ‹a₁› o ‹Power/Pace› dell'allenamento corrente si discosta di oltre il 20% dai dati storici; o il tempo a ‹Power/Pace› zero/in coasting supera i 5 minuti durante i primi 10 minuti (corsa) o 20 minuti (ciclismo), escluso il tempo in pausa.",
+            "learnMore": "Scopri di più."
+        },
+        "rmssdNormalVsBaseline": {
+            "paragraph1": "Il tuo recovery viene valutato utilizzando la radice quadrata della media delle differenze successive al quadrato (RMSSD) della tua variabilità della frequenza cardiaca. La linea di base RMSSD (linea rossa) è calcolata come media mobile su 7 giorni dei tuoi valori RMSSD individuali (barre blu). Questa linea di base viene confrontata con il tuo intervallo RMSSD normale (fascia grigia), che rappresenta la media mobile su 60 giorni più e meno una deviazione standard. Il Recovery è considerato basso quando la tua linea di base RMSSD scende al di sotto dell'intervallo RMSSD normale.",
+            "learnMore": "Scopri di più."
+        },
+        "sdnnNormalVsBaseline": {
+            "paragraph1": "Il tuo recovery viene valutato utilizzando la deviazione standard degli intervalli NN (SDNN) della tua variabilità della frequenza cardiaca. La linea di base SDNN (linea rossa) è calcolata come media mobile su 7 giorni dei tuoi valori SDNN individuali (barre blu). Questa linea di base viene confrontata con il tuo intervallo SDNN normale (fascia grigia), che rappresenta la media mobile su 60 giorni più e meno una deviazione standard. Il Recovery è considerato basso quando la tua linea di base SDNN scende al di sotto dell'intervallo SDNN normale.",
+            "learnMore": "Scopri di più."
+        },
+        "hrRestNormalVsBaseline": {
+            "paragraph1": "Il tuo recovery viene valutato utilizzando la tua frequenza cardiaca a riposo. La tua frequenza cardiaca a riposo del giorno (barra blu) viene confrontata con il tuo intervallo normale di frequenza cardiaca a riposo (fascia grigia), che rappresenta la media mobile su 30 giorni più e meno una deviazione standard. Il Recovery è considerato basso quando la tua frequenza cardiaca a riposo supera l'intervallo normale.",
+            "learnMore": "Scopri di più."
+        },
+        "recoveryMetricInspection": {
+            "paragraph1": "Qui sono riassunti i tuoi dati di recovery degli ultimi 14 giorni, incluse le letture notturne di FC/HRV da app di terze parti come Oura, Whoop, Garmin, Suunto, Coros e Polar, così come i check-in di FC/HRV registrati in AI Endurance. Sono incluse anche le metriche sincronizzate da Intervals.icu o TrainingPeaks. Puoi rimuovere qualsiasi misurazione che ritieni imprecisa o non rappresentativa del tuo stato di recovery.",
+            "paragraph2": "Garmin, in particolare, potrebbe fornire più misurazioni al giorno. Tuttavia, questo non è un problema perché, per ogni giorno, utilizziamo solo la frequenza cardiaca a riposo più bassa (HR Rest) e il valore HRV più alto (RMSSD per impostazione predefinita, o SDNN se lo hai selezionato nelle impostazioni del tuo account) nel tuo modello di recovery. Tieni presente che l'eliminazione di una misurazione non aggiornerà retroattivamente i valori di recovery passati."
+        }
+    }
+}

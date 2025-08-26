@@ -1,0 +1,55 @@
+# German translations for connect_intervalsicu package.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the connect_intervalsicu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: connect_intervalsicu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: export_intervalsicu.py:467
+msgid "Set your Intervals.icu threshold pace to %(css)s/100%(unit)s"
+msgstr "Stelle deine Intervals.icu Threshold-Pace auf %(css)s/100%(unit)s ein"
+
+#: export_intervalsicu.py:473
+msgid "pool length: %(length)s%(unit)s"
+msgstr "Beckenlänge: %(length)s%(unit)s"
+
+#: export_intervalsicu.py:183
+msgid "All pace targets in this workout are relative to a reference threshold pace of %(thr_pace)s. Please set your Intervals.icu threshold pace to %(thr_pace)s to work at your intended personalized pace."
+msgstr "Alle Pace-Ziele in diesem Workout beziehen sich auf eine Referenz-Threshold-Pace von %(thr_pace)s. Bitte stelle deine Intervals.icu Threshold-Pace auf %(thr_pace)s ein, um mit deiner persönlichen Pace zu trainieren."
+
+#: export_intervalsicu.py:192
+msgid "Secondary target: stay below your aerobic cycling heart rate threshold of %(hr)s bpm.\n\n"
+msgstr "Sekundärziel: Bleibe unter deiner aeroben Fahrrad-Herzfrequenzschwelle von %(hr)s bpm.\n\n"
+
+#: export_intervalsicu.py:198
+msgid "Secondary target: stay below your aerobic running heart rate threshold of %(hr)s bpm.\n\n"
+msgstr "Sekundärziel: Bleibe unter deiner aeroben Lauf-Herzfrequenzschwelle von %(hr)s bpm.\n\n"
+
+#: intervalsicu_export_ramp.py:35
+msgid "DFA alpha1 cycling ramp test"
+msgstr "DFA alpha1 Fahrrad Ramp Test"
+
+#: intervalsicu_export_ramp.py:36
+msgid "Ramp test to determine your power and heart rate zones via ventilatory thresholds from HRV data (DFA alpha1)"
+msgstr "Ramp Test zur Bestimmung deiner Power und Herzfrequenzzonen über ventilatorische Schwellen aus HRV-Daten (DFA alpha1)"
+
+#: intervalsicu_export_ramp.py:39
+msgid "DFA alpha1 running ramp test"
+msgstr "DFA alpha1 Lauf Ramp Test"
+
+#: intervalsicu_export_ramp.py:41
+msgid "run power"
+msgstr "Lauf Power"
+
+#: intervalsicu_export_ramp.py:44
+msgid "Ramp test to determine your %(power_str)s and heart rate zones via ventilatory thresholds from HRV data (DFA alpha1)"
+msgstr "Ramp Test zur Bestimmung deiner %(power_str)s und Herzfrequenzzonen über ventilatorische Schwellen aus HRV-Daten (DFA alpha1)"

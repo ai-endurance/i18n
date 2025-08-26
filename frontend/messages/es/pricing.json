@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "title": "Precios",
+        "description": "Prueba {partner} gratis durante 2 semanas y luego continúa tu viaje por una fracción del coste de un entrenador tradicional"
+    },
+    "banner": {
+        "title": "¿Cuánto cuesta AI Endurance?",
+        "description": "Bueno, para empezar, es gratis durante 14 días. No se requiere información de pago, puedes empezar a usar AI Endurance gratis hoy mismo. Después de probarlo, puedes optar por continuar con una suscripción mensual o anual. Incluso mes a mes, AI Endurance cuesta una fracción del precio de un entrenador tradicional. ¡Pruébalo hoy mismo!",
+        "cta": "¡Empieza ya!",
+        "imageAlt": "Ciclista de carretera"
+    },
+    "cards": {
+        "title": "¿Qué plan te gustaría?"
+    },
+    "card": {
+        "types": {
+            "monthly": "Mensual",
+            "yearly": "Anual"
+        },
+        "monthly": {
+            "price": "{price} al mes",
+            "billing": "Facturado mensualmente en {currency}"
+        },
+        "yearly": {
+            "price": "{price} al año",
+            "billing": "Facturado anualmente en {currency}",
+            "savings": "¡Ahorra {currency}{amount}!"
+        },
+        "cta": "Pruébalo gratis",
+        "bestValue": "¡Mejor oferta!"
+    }
+}

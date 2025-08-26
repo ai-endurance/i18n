@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "Une erreur est survenue. Essaie à nouveau.",
+        "networkError": "Erreur réseau. Vérifie ta connexion et essaie à nouveau.",
+        "userDataNotFound": "Données utilisateur non trouvées",
+        "pleaseFilOutForm": "Merci de remplir le formulaire",
+        "invalidHrvInput": "Saisie HRV invalide",
+        "noValidQueryString": "Aucune chaîne de requête valide trouvée",
+        "invalidEventDate": "Date de l'événement invalide",
+        "noEventType": "Aucun type d'événement sélectionné",
+        "userIdNotProvided": "ID utilisateur non fourni pour la finalisation de l'abonnement"
+    },
+    "notifications": {
+        "dismissNotification": "Échec de la suppression de la notification.",
+        "cleanupFailed": "Échec du nettoyage des notifications",
+        "switchWorkoutsFailed": "Échec du déclenchement de la tâche de changement d'entraînements",
+        "updateZonesFailed": "Échec de la mise à jour des zones",
+        "findNewPlanFailed": "Échec de la recherche d'un nouveau plan",
+        "notSupported": "Notification non prise en charge"
+    },
+    "account": {
+        "updateFailed": "Échec de la mise à jour du compte",
+        "deleteError": "Une erreur est survenue lors de la suppression de ton compte",
+        "reactivateSubscriptionFailed": "Échec de la réactivation de l'abonnement"
+    },
+    "activity": {
+        "changeNameFailed": "Échec du changement de nom de l'activité",
+        "changeRaceStatusFailed": "Échec du changement du statut de course de l'activité",
+        "deleteFailed": "Échec de la suppression de l'activité"
+    },
+    "auth": {
+        "logoutFailed": "Échec de la déconnexion"
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Échec du retour au plan précédent"
+    },
+    "data": {
+        "addExclusionsFailed": "Échec de l'ajout des exclusions de données",
+        "deleteExclusionsFailed": "Échec de la suppression des exclusions de données",
+        "exclusionsSavedSuccessfully": "Exclusions de données enregistrées avec succès",
+        "submitTaskFailed": "Échec de la soumission de la tâche",
+        "noExclusionsChanged": "Aucune exclusion ajoutée ou supprimée"
+    },
+    "events": {
+        "deleteFailed": "Échec de la suppression de l'événement",
+        "storeFailed": "Échec de l'enregistrement de l'événement"
+    },
+    "feedback": {
+        "dismissFailed": "Échec de la suppression du check-in",
+        "deleteFailed": "Échec de la suppression du feedback",
+        "resetFailed": "Échec de la réinitialisation du check-in"
+    },
+    "onboarding": {
+        "connectToAppFailed": "Échec de la connexion à {appName}",
+        "connectToStrava": "Échec de la connexion à Strava",
+        "connectToGarmin": "Échec de la connexion à Garmin",
+        "connectToOura": "Échec de la connexion à Oura",
+        "connectToPolar": "Échec de la connexion à Polar",
+        "connectToCoros": "Échec de la connexion à Coros",
+        "connectToIntervalsicu": "Échec de la connexion à Intervals.icu",
+        "connectToNolio": "Échec de la connexion à Nolio",
+        "connectToTp": "Échec de la connexion à TP",
+        "connectToSuunto": "Échec de la connexion à Suunto",
+        "connectToWahoo": "Échec de la connexion à Wahoo",
+        "connectToWhoop": "Échec de la connexion à Whoop",
+        "stravaPermissions": "Coche toutes les cases lors de la connexion avec Strava",
+        "garminPermissions": "Sélectionne 'Accepter' lors de la connexion avec Garmin",
+        "ouraPermissions": "Coche toutes les cases lors de la connexion avec Oura",
+        "handleNewUserFailed": "Échec du déclenchement de la tâche de gestion du nouvel utilisateur",
+        "onboardingPostFailed": "Échec de la publication de fin d'onboarding",
+        "invalidForm": "Formulaire invalide",
+        "submitFailed": "Échec de la soumission du formulaire"
+    },
+    "password": {
+        "resetError": "Une erreur est survenue lors de la réinitialisation de ton mot de passe. Essaie à nouveau plus tard."
+    },
+    "payment": {
+        "noPaymentMethod": "Aucun moyen de paiement fourni",
+        "createSubscriptionFailed": "Échec de la création de l'abonnement",
+        "paymentDeclined": "Paiement échoué, ta carte a été refusée",
+        "paymentFailed": "Paiement échoué",
+        "iapActivationFailed": "L'activation de l'abonnement IAP n'a pas abouti."
+    },
+    "recovery": {
+        "refreshFailed": "Échec de l'actualisation des données de Recovery",
+        "fetchModelDetailFailed": "Échec de la récupération des données détaillées du modèle de Recovery"
+    },
+    "register": {
+        "emailRequired": "L'email est requis. ",
+        "passwordRequired": "Le mot de passe est requis. ",
+        "firstNameRequired": "Le prénom est requis. ",
+        "lastNameRequired": "Le nom de famille est requis. ",
+        "passwordValidation": "Le mot de passe doit comporter au moins 8 caractères et contenir au moins un chiffre, une lettre majuscule, une lettre minuscule et un caractère spécial.",
+        "createAccountFailed": "Impossible de créer le compte. Si tu as déjà un compte, connecte-toi ou utilise l'option mot de passe oublié."
+    },
+    "subscriptions": {
+        "endFailed": "Échec de la résiliation de l'abonnement",
+        "activationFailed": "L'activation de l'abonnement n'a pas abouti."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Échec de l'actualisation des exports"
+    },
+    "workouts": {
+        "skipFailed": "Échec de l'omission de l'entraînement",
+        "completeFailed": "Échec de la finalisation de l'entraînement",
+        "autoCalcFailed": "Échec du calcul automatique",
+        "createFailed": "Une erreur inattendue est survenue lors de la création de l'entraînement",
+        "fetchDetailsFailed": "Échec de la récupération des détails de l'entraînement créé"
+    },
+    "zones": {
+        "resetFailed": "Erreur lors de la réinitialisation des zones"
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Échec de la récupération des données des Zwift Workouts"
+    }
+}

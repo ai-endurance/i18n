@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Nutrition",
+        "description": "Optimise ta nutrition avec notre tableau de bord nutritionnel."
+    },
+    "layout": {
+        "title": "Nutrition",
+        "description": "Optimise ta nutrition avec notre tableau de bord nutritionnel."
+    },
+    "nutritionCard": {
+        "title": "Ton Modèle Nutritionnel"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Apport Quotidien Moyen",
+        "calories": "Calories",
+        "protein": "Protéines",
+        "carbs": "Glucides",
+        "fat": "Lipides"
+    },
+    "mealPlanCard": {
+        "title": "Ton Plan de Repas"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Préférences alimentaires",
+        "dateForMealPlan": "Date pour le plan de repas",
+        "placeholder": "sans gluten, végétalien, etc.",
+        "requestMealPlan": "Demander un Plan de Repas",
+        "dismissCurrentMealPlan": "Rejeter le Plan de Repas Actuel"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "Aucun plan de repas disponible. Crées-en un maintenant !",
+        "mealPlanFor": "Plan de repas pour le {date}",
+        "plannedWorkout": "Entraînement prévu :",
+        "specialDietaryRequests": "Demandes ou préférences alimentaires spéciales : {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Création du plan de repas..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Total :",
+            "protein": "Protéines :",
+            "carbs": "Glucides :",
+            "fat": "Lipides :",
+            "workout": "Entraînement :"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Tes dépenses quotidiennes en énergie (kilocalories) et en macronutriments basées sur tes activités passées terminées, tes activités futures planifiées et ton métabolisme de base estimé.",
+            "paragraph2": "Bien que ces estimations aient été calculées à l'aide d'équations fondées sur des données probantes et spécifiques au type d'exercice, la mesure ou la prédiction précise des besoins énergétiques est intrinsèquement complexe et sujette à des erreurs, quelle que soit la méthodologie choisie. Les estimations doivent être utilisées comme une ligne directrice approximative, en gardant à l'esprit que le coût énergétique réel de l'exercice est susceptible de varier en fonction de facteurs tels que l'âge, le sexe, l'état de santé et de forme physique de l'individu, la masse et la composition corporelle, le mode de vie, la génétique, etc.",
+            "paragraph3": "En raison des complexités, des défis et des erreurs potentielles liés à l'estimation de toutes ces composantes, les estimations sont données sous forme de fourchette pour permettre une flexibilité et un ajustement.",
+            "learnMore": "En savoir plus."
+        },
+        "mealplan": {
+            "paragraph1": "Obtiens un plan de repas par IA qui respecte le coût calorique de tes entraînements passés et planifiés. Tu peux ajouter des demandes alimentaires comme 'Je suis végétarien' ou des préférences comme 'J'ai envie de poisson aujourd'hui'. Les besoins en calories et en macronutriments, modélisés par nos modèles nutritionnels basés sur des données probantes, sont pris en compte par ce plan de repas.",
+            "learnMore": "En savoir plus."
+        }
+    }
+}

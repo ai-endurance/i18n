@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Nutrition",
+        "description": "Get your nutrition dialed in with our nutrition dashboard."
+    },
+    "layout": {
+        "title": "Nutrition",
+        "description": "Get your nutrition dialed in with our nutrition dashboard."
+    },
+    "nutritionCard": {
+        "title": "Your Nutrition Model"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Average Daily Intake",
+        "calories": "Calories",
+        "protein": "Protein",
+        "carbs": "Carbs",
+        "fat": "Fat"
+    },
+    "mealPlanCard": {
+        "title": "Your Meal Plan"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Dietary preferences",
+        "dateForMealPlan": "Date for meal plan",
+        "placeholder": "gluten-free, vegan, etc.",
+        "requestMealPlan": "Request Meal Plan",
+        "dismissCurrentMealPlan": "Dismiss Current Meal Plan"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "No meal plan available. Create one now!",
+        "mealPlanFor": "Meal plan for {date}",
+        "plannedWorkout": "Planned workout:",
+        "specialDietaryRequests": "Special dietary requests or preferences: {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Creating meal plan..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Total:",
+            "protein": "Protein:",
+            "carbs": "Carbs:",
+            "fat": "Fat:",
+            "workout": "Workout:"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Your daily energy (kilocalorie) and macronutrient expenditures based on your completed past activities, your planned future activities and your estimated resting metabolic rate.",
+            "paragraph2": "While these have been estimated using evidence-based equations specific to the type of exercise, accurate measurement or prediction of energy requirements is inherently complex and prone to errors regardless of methodology chosen. The estimates should be used as a rough guideline while keeping in mind that the true energy cost of exercise is likely to vary based on factors such as age, sex, health and fitness status of the individual, body mass and composition, lifestyle and genetics, and so on.",
+            "paragraph3": "Because of the complexities, challenges and potential for errors related to estimating all of these components, estimates are given as a range to allow for flexibility and adjustment.",
+            "learnMore": "Learn more."
+        },
+        "mealplan": {
+            "paragraph1": "Get an AI meal plan that respects the calorie cost of your past and planned workouts. You can add dietary requests like 'I am vegetarian' or preferences like 'I feel like fish today'. Calories and macronutrient requirements as modeled by our evidence based nutrition models are accommodated by this meal plan.",
+            "learnMore": "Learn more."
+        }
+    }
+}

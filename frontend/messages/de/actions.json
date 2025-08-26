@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "Ein Fehler ist aufgetreten. Bitte versuche es erneut.",
+        "networkError": "Netzwerkfehler. Bitte überprüfe deine Verbindung und versuche es erneut.",
+        "userDataNotFound": "Benutzerdaten nicht gefunden",
+        "pleaseFilOutForm": "Bitte fülle das Formular aus",
+        "invalidHrvInput": "Ungültige HRV Eingabe",
+        "noValidQueryString": "Kein gültiger Query-String gefunden",
+        "invalidEventDate": "Ungültiges Veranstaltungsdatum",
+        "noEventType": "Kein Veranstaltungstyp ausgewählt",
+        "userIdNotProvided": "Benutzer-ID für den Abschluss des Abonnements nicht angegeben"
+    },
+    "notifications": {
+        "dismissNotification": "Benachrichtigung konnte nicht verworfen werden.",
+        "cleanupFailed": "Bereinigung der Benachrichtigungen fehlgeschlagen",
+        "switchWorkoutsFailed": "Auslösen der Aufgabe zum Wechseln der Workouts fehlgeschlagen",
+        "updateZonesFailed": "Aktualisierung der Zonen fehlgeschlagen",
+        "findNewPlanFailed": "Neuen Plan finden fehlgeschlagen",
+        "notSupported": "Benachrichtigung nicht unterstützt"
+    },
+    "account": {
+        "updateFailed": "Account konnte nicht aktualisiert werden",
+        "deleteError": "Beim Löschen deines Accounts ist ein Fehler aufgetreten",
+        "reactivateSubscriptionFailed": "Reaktivierung des Abonnements fehlgeschlagen"
+    },
+    "activity": {
+        "changeNameFailed": "Änderung des Aktivitätsnamens fehlgeschlagen",
+        "changeRaceStatusFailed": "Änderung des Rennstatus der Aktivität fehlgeschlagen",
+        "deleteFailed": "Löschen der Aktivität fehlgeschlagen"
+    },
+    "auth": {
+        "logoutFailed": "Logout fehlgeschlagen"
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Zurück zum vorherigen Plan fehlgeschlagen"
+    },
+    "data": {
+        "addExclusionsFailed": "Hinzufügen von Datenausschlüssen fehlgeschlagen",
+        "deleteExclusionsFailed": "Löschen von Datenausschlüssen fehlgeschlagen",
+        "exclusionsSavedSuccessfully": "Datenausschlüsse erfolgreich gespeichert",
+        "submitTaskFailed": "Übermittlung der Aufgabe fehlgeschlagen",
+        "noExclusionsChanged": "Keine Ausschlüsse hinzugefügt oder gelöscht"
+    },
+    "events": {
+        "deleteFailed": "Löschen des Events fehlgeschlagen",
+        "storeFailed": "Speichern des Events fehlgeschlagen"
+    },
+    "feedback": {
+        "dismissFailed": "Verwerfen des Check-ins fehlgeschlagen",
+        "deleteFailed": "Löschen des Feedbacks fehlgeschlagen",
+        "resetFailed": "Zurücksetzen des Check-ins fehlgeschlagen"
+    },
+    "onboarding": {
+        "connectToAppFailed": "Verbindung mit {appName} fehlgeschlagen",
+        "connectToStrava": "Verbindung mit Strava fehlgeschlagen",
+        "connectToGarmin": "Verbindung mit Garmin fehlgeschlagen",
+        "connectToOura": "Verbindung mit Oura fehlgeschlagen",
+        "connectToPolar": "Verbindung mit Polar fehlgeschlagen",
+        "connectToCoros": "Verbindung mit Coros fehlgeschlagen",
+        "connectToIntervalsicu": "Verbindung mit Intervals.icu fehlgeschlagen",
+        "connectToNolio": "Verbindung mit Nolio fehlgeschlagen",
+        "connectToTp": "Verbindung mit TP fehlgeschlagen",
+        "connectToSuunto": "Verbindung mit Suunto fehlgeschlagen",
+        "connectToWahoo": "Verbindung mit Wahoo fehlgeschlagen",
+        "connectToWhoop": "Verbindung mit Whoop fehlgeschlagen",
+        "stravaPermissions": "Aktiviere alle Kontrollkästchen, wenn du dich mit Strava verbindest",
+        "garminPermissions": "Wähle 'Zustimmen', wenn du dich mit Garmin verbindest",
+        "ouraPermissions": "Aktiviere alle Kontrollkästchen, wenn du dich mit Oura verbindest",
+        "handleNewUserFailed": "Auslösen der Aufgabe zur Behandlung neuer Benutzer fehlgeschlagen",
+        "onboardingPostFailed": "Post zum Abschluss des Onboardings fehlgeschlagen",
+        "invalidForm": "Ungültiges Formular",
+        "submitFailed": "Übermittlung des Formulars fehlgeschlagen"
+    },
+    "password": {
+        "resetError": "Beim Zurücksetzen deines Passworts ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+    },
+    "payment": {
+        "noPaymentMethod": "Keine Zahlungsmethode angegeben",
+        "createSubscriptionFailed": "Erstellung des Abonnements fehlgeschlagen",
+        "paymentDeclined": "Zahlung fehlgeschlagen, deine Karte wurde abgelehnt",
+        "paymentFailed": "Zahlung fehlgeschlagen",
+        "iapActivationFailed": "Aktivierung des IAP-Abonnements wurde nicht abgeschlossen."
+    },
+    "recovery": {
+        "refreshFailed": "Aktualisierung der Recovery-Daten fehlgeschlagen",
+        "fetchModelDetailFailed": "Abrufen der Recovery-Modelldetaildaten fehlgeschlagen"
+    },
+    "register": {
+        "emailRequired": "E-Mail ist erforderlich. ",
+        "passwordRequired": "Passwort ist erforderlich. ",
+        "firstNameRequired": "Vorname ist erforderlich. ",
+        "lastNameRequired": "Nachname ist erforderlich. ",
+        "passwordValidation": "Das Passwort muss mindestens 8 Zeichen lang sein und mindestens eine Zahl, einen Großbuchstaben, einen Kleinbuchstaben und ein Sonderzeichen enthalten.",
+        "createAccountFailed": "Account konnte nicht erstellt werden. Wenn du bereits einen Account hast, melde dich bitte an oder nutze die Option 'Passwort vergessen'."
+    },
+    "subscriptions": {
+        "endFailed": "Beendigung des Abonnements fehlgeschlagen",
+        "activationFailed": "Aktivierung des Abonnements wurde nicht abgeschlossen."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Aktualisierung der Exporte fehlgeschlagen"
+    },
+    "workouts": {
+        "skipFailed": "Überspringen des Workouts fehlgeschlagen",
+        "completeFailed": "Abschließen des Workouts fehlgeschlagen",
+        "autoCalcFailed": "Automatische Berechnung fehlgeschlagen",
+        "createFailed": "Beim Erstellen des Workouts ist ein unerwarteter Fehler aufgetreten",
+        "fetchDetailsFailed": "Abrufen der Details des erstellten Workouts fehlgeschlagen"
+    },
+    "zones": {
+        "resetFailed": "Fehler beim Zurücksetzen der Zonen"
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Abrufen der Zwift Workouts-Daten fehlgeschlagen"
+    }
+}

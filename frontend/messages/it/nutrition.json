@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Nutrizione",
+        "description": "Metti a punto la tua nutrizione con il nostro dashboard nutrizionale."
+    },
+    "layout": {
+        "title": "Nutrizione",
+        "description": "Metti a punto la tua nutrizione con il nostro dashboard nutrizionale."
+    },
+    "nutritionCard": {
+        "title": "Il tuo modello nutrizionale"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Assunzione media giornaliera",
+        "calories": "Calorie",
+        "protein": "Proteine",
+        "carbs": "Carboidrati",
+        "fat": "Grassi"
+    },
+    "mealPlanCard": {
+        "title": "Il tuo piano alimentare"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Preferenze alimentari",
+        "dateForMealPlan": "Data per il piano alimentare",
+        "placeholder": "senza glutine, vegano, ecc.",
+        "requestMealPlan": "Richiedi piano alimentare",
+        "dismissCurrentMealPlan": "Elimina piano alimentare attuale"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "Nessun piano alimentare disponibile. Creane uno ora!",
+        "mealPlanFor": "Piano alimentare per il {date}",
+        "plannedWorkout": "Allenamento pianificato:",
+        "specialDietaryRequests": "Richieste o preferenze alimentari speciali: {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Creazione del piano alimentare in corso..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Totale:",
+            "protein": "Proteine:",
+            "carbs": "Carboidrati:",
+            "fat": "Grassi:",
+            "workout": "Allenamento:"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Il tuo dispendio energetico giornaliero (chilocalorie) e di macronutrienti basato sulle tue attività passate completate, le tue attività future pianificate e il tuo metabolismo basale stimato.",
+            "paragraph2": "Sebbene queste stime siano state calcolate utilizzando equazioni basate sull'evidenza scientifica e specifiche per il tipo di esercizio, la misurazione o la previsione accurata del fabbisogno energetico è intrinsecamente complessa e soggetta a errori, indipendentemente dalla metodologia scelta. Le stime dovrebbero essere utilizzate come una linea guida approssimativa, tenendo presente che il costo energetico reale dell'esercizio fisico può variare in base a fattori come età, sesso, stato di salute e forma fisica dell'individuo, massa e composizione corporea, stile di vita, genetica e così via.",
+            "paragraph3": "A causa delle complessità, delle sfide e del potenziale di errore legati alla stima di tutte queste componenti, le stime vengono fornite come un intervallo per consentire flessibilità e aggiustamenti.",
+            "learnMore": "Scopri di più."
+        },
+        "mealplan": {
+            "paragraph1": "Ottieni un piano alimentare tramite IA che tiene conto del costo calorico dei tuoi allenamenti passati e pianificati. Puoi aggiungere richieste alimentari come 'Sono vegetariano' o preferenze come 'Oggi ho voglia di pesce'. I requisiti di calorie e macronutrienti, modellati secondo i nostri modelli nutrizionali basati sull'evidenza scientifica, sono soddisfatti da questo piano alimentare.",
+            "learnMore": "Scopri di più."
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "title": "Login",
+        "description": "Login para ter acesso ao seu dashboard"
+    },
+    "form": {
+        "title": "Login na AI Endurance",
+        "fields": {
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Senha"
+            }
+        },
+        "buttons": {
+            "login": "Log In",
+            "goToRegister": "Cadastre-se",
+            "forgotPassword": "Esqueceu sua senha?"
+        },
+        "errors": {
+            "generic": "Ocorreu um erro, por favor, tente novamente ou entre em contato se o problema persistir",
+            "invalidCredentials": "Email ou senha inválidos"
+        }
+    }
+}

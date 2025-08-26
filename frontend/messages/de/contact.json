@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "title": "Kontaktiere uns | {partner}",
+        "description": "Wende dich direkt an {partner}, wenn du Fragen hast, bei denen du Hilfe benötigst."
+    },
+    "display": {
+        "title": "Hast du eine Frage? Sende uns eine Nachricht!",
+        "imageAlt": "Kontakt"
+    },
+    "form": {
+        "fields": {
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "email": "E-Mail",
+            "message": "Nachricht"
+        },
+        "submit": "Senden",
+        "success": "Vielen Dank, dass du {partner} kontaktiert hast!"
+    }
+}

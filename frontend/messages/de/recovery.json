@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Details zur Recovery",
+        "description": "Details zu deinem Recovery-Status."
+    },
+    "titles": {
+        "yourRecovery": "Deine Recovery",
+        "yourDfaReadiness": "Deine DFA a₁ Readiness",
+        "yourRecoveryMeasurements": "Deine Recovery-Messungen",
+        "yourRmssdTrends": "Deine RMSSD-Trends",
+        "yourSdnnTrends": "Deine SDNN-Trends",
+        "yourHrRestTrends": "Deine HR Rest-Trends"
+    },
+    "recovery": {
+        "todaysAerobicRecovery": "Heutige<linebreak>Aerobic</linebreak>Recovery",
+        "todaysMuscleJointRecovery": "Heutige<linebreak>Muscle/Joint</linebreak>Recovery",
+        "noRecoveryDataAvailable": "Keine Recovery-Daten verfügbar. Um deine Aerobic und Muscle/Joint Recovery anzuzeigen, erfasse bitte über Nacht HRV-Daten mit einem kompatiblen Gerät und beginne, die Check-in-Funktion von AI Endurance zu nutzen.",
+        "makeTheMostOfAiEndurance": "Hole das Beste aus AI Endurance heraus",
+        "noRecoveryMetricsFound": "Keine Recovery-Metriken gefunden"
+    },
+    "measurements": {
+        "source": "Quelle",
+        "delete": "Löschen",
+        "measurementDeletedSuccessfully": "Messung erfolgreich gelöscht",
+        "errorDeletingMeasurement": "Fehler beim Löschen der Messung",
+        "deleteConfirmation": "Bist du sicher, dass du diese Messung löschen möchtest? Dies kann nicht rückgängig gemacht werden."
+    },
+    "chart": {
+        "measuredA1": "Gemessener a₁",
+        "expectedA1": "Erwarteter a₁"
+    },
+    "labels": {
+        "a1Readiness": {
+            "paragraph1": "Die Readiness basiert auf HRV (DFA a₁)-Messungen aus kürzlichen Aktivitäten, wobei nur Aktivitäten mit weniger als 10 % Artefakt-Verfälschung verwendet werden. Sie wird mithilfe eines linearen Regressionsmodells (durchgezogene rote Linie) berechnet, das die effektive mittlere Power/Pace (‹Power/Pace›) und die effektiven DFA a₁-Werte (‹a₁›) aus den ersten 10 Minuten beim Laufen oder 20 Minuten beim Radfahren deiner letzten 21 Trainingseinheiten (rote Kreuze, mit Fehlerbalken, die die Datenvariabilität darstellen) in Beziehung setzt. Effektive Werte schließen Zeiträume aus, in denen die ‹Power/Pace› null ist, um sicherzustellen, dass aussagekräftige Daten verwendet werden. Pace bezieht sich immer auf GAP (Grade Adjusted Pace).",
+            "paragraph2": "Für die letzte Trainingseinheit werden ‹Power/Pace› und ‹a₁› mit dem Regressionsmodell verglichen. Die Readiness spiegelt die relative Abweichung (vertikale rote gestrichelte Linie) des beobachteten ‹a₁› (blaues Kreuz) vom vorhergesagten ‹a₁› bei gleicher ‹Power/Pace› (roter Punkt) wider.",
+            "paragraph3": "Die Readiness wird nicht berechnet, wenn: die Artefakt-Verfälschung der aktuellen Trainingseinheit größer oder gleich 10 % ist; in den letzten 21 Tagen weniger als 4 gültige Aktivitäten vorhanden sind; ‹a₁› 1,4 überschreitet (um zu vermeiden, dass Aktivitäten weit außerhalb des dynamischen Bereichs von a₁ das Modell beeinflussen); der ‹a₁›- oder ‹Power/Pace›-Wert der aktuellen Trainingseinheit um mehr als 20 % von den historischen Daten abweicht; oder die Zeit des Rollens/Null-‹Power/Pace› während der ersten 10 Minuten (Laufen) oder 20 Minuten (Radfahren) 5 Minuten überschreitet, exklusive pausierter Zeit.",
+            "learnMore": "Erfahre mehr."
+        },
+        "rmssdNormalVsBaseline": {
+            "paragraph1": "Deine Recovery wird anhand des Root Mean Square of Successive Differences (RMSSD) deiner Herzfrequenzvariabilität bewertet. Der Basis-RMSSD (rote Linie) wird als 7-tägiger gleitender Durchschnitt deiner individuellen RMSSD-Werte (blaue Balken) berechnet. Dieser Basiswert wird mit deinem normalen RMSSD-Bereich (graues Band) verglichen, der den 60-tägigen gleitenden Durchschnitt plus und minus einer Standardabweichung darstellt. Die Recovery gilt als niedrig, wenn dein Basis-RMSSD unter den normalen RMSSD-Bereich fällt.",
+            "learnMore": "Erfahre mehr."
+        },
+        "sdnnNormalVsBaseline": {
+            "paragraph1": "Deine Recovery wird anhand der Standardabweichung der NN-Intervalle (SDNN) deiner Herzfrequenzvariabilität bewertet. Der Basis-SDNN (rote Linie) wird als 7-tägiger gleitender Durchschnitt deiner individuellen SDNN-Werte (blaue Balken) berechnet. Dieser Basiswert wird mit deinem normalen SDNN-Bereich (graues Band) verglichen, der den 60-tägigen gleitenden Durchschnitt plus und minus einer Standardabweichung darstellt. Die Recovery gilt als niedrig, wenn dein Basis-SDNN unter den normalen SDNN-Bereich fällt.",
+            "learnMore": "Erfahre mehr."
+        },
+        "hrRestNormalVsBaseline": {
+            "paragraph1": "Deine Recovery wird anhand deiner Ruheherzfrequenz bewertet. Deine Ruheherzfrequenz des Tages (blauer Balken) wird mit deinem normalen Ruheherzfrequenzbereich (graues Band) verglichen, der den 30-tägigen gleitenden Durchschnitt plus und minus einer Standardabweichung darstellt. Die Recovery gilt als niedrig, wenn deine Ruheherzfrequenz den normalen Bereich überschreitet.",
+            "learnMore": "Erfahre mehr."
+        },
+        "recoveryMetricInspection": {
+            "paragraph1": "Deine Recovery-Daten der letzten 14 Tage sind hier zusammengefasst, einschließlich nächtlicher HR/HRV-Messwerte von Drittanbieter-Apps wie Oura, Whoop, Garmin, Suunto, Coros und Polar sowie HR/HRV-Check-ins, die in AI Endurance aufgezeichnet wurden. Metriken, die von Intervals.icu oder TrainingPeaks synchronisiert wurden, sind ebenfalls enthalten. Du kannst alle Messungen entfernen, die du für ungenau oder nicht repräsentativ für deinen Recovery-Status hältst.",
+            "paragraph2": "Insbesondere Garmin kann mehrere Messungen pro Tag liefern. Dies ist jedoch kein Problem, da wir für jeden Tag nur die niedrigste Ruheherzfrequenz (HR Rest) und den höchsten HRV-Wert (standardmäßig RMSSD oder SDNN, falls du dies in deinen Kontoeinstellungen ausgewählt hast) in deinem Recovery-Modell verwenden. Bitte beachte, dass das Löschen einer Messung vergangene Recovery-Werte nicht rückwirkend aktualisiert."
+        }
+    }
+}

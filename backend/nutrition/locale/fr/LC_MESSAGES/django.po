@@ -1,0 +1,27 @@
+# French translations for AI Endurance
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Language-Team: French\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "These meal plan suggestions are created via AI. Calorie and macronutrient content of ingredients may vary."
+msgstr "Ces suggestions de plan de repas sont créées par AI. Le contenu calorique et en macronutriments des ingrédients peut varier."
+
+msgid "You make meal plans that are generally healthy. You add a disclaimer in the end. Use %(units)s units."
+msgstr "Tu crées des plans de repas généralement sains. Tu ajoutes un avertissement à la fin. Utilise les unités %(units)s."
+
+msgid "You make meal plans that are generally healthy. Respond in the same language as the user's input. You add a disclaimer in the end. Use %(units)s units."
+msgstr "Tu crées des plans de repas généralement sains. Réponds dans la même langue que l'entrée de l'utilisateur. Tu ajoutes un avertissement à la fin. Utilise les unités %(units)s."
+
+msgid "Calorie range: %(kcal_lower)s - %(kcal_upper)s kcal\nProtein range: %(protein_lower)s - %(protein_upper)s g\nFat range: %(fat_lower)s - %(fat_upper)s g\nCarbohydrate range: %(carbs_lower)s - %(carbs_upper)s g"
+msgstr "Gamme de calories: %(kcal_lower)s - %(kcal_upper)s kcal\nGamme de protéines: %(protein_lower)s - %(protein_upper)s g\nGamme de graisses: %(fat_lower)s - %(fat_upper)s g\nGamme de glucides: %(carbs_lower)s - %(carbs_upper)s g"
+
+msgid "Please make meal plan suggestions for a day, considering the following nutritional guidelines:"
+msgstr "Fais des suggestions de plan de repas pour une journée, en tenant compte des directives nutritionnelles suivantes:"
+
+msgid "Double-check for accuracy. Please avoid stating totals, asking questions, or offering follow-up information."
+msgstr "Vérifie l'exactitude. Évite d'indiquer les totaux, de poser des questions ou d'offrir des informations de suivi."

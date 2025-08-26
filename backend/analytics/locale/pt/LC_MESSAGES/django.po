@@ -1,0 +1,75 @@
+# Portuguese translations for AI Endurance - Analytics Notifications
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Language-Team: Portuguese\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "You may want to request a new plan"
+msgstr "Você pode querer solicitar um novo plano"
+
+msgid "Our data indicates you might not have been following your current plan. We give you the option to request a new plan that might be more optimal for where your fitness is at now."
+msgstr "Nossos dados indicam que você pode não ter estado seguindo seu plano atual. Damos a você a opção de solicitar um novo plano que pode ser mais ideal para onde seu condicionamento físico está agora."
+
+msgid "You have done too much %(zone)s work. We recommend an Endurance %(act_type)s instead."
+msgstr "Você fez muito trabalho de %(zone)s. Recomendamos um %(act_type)s de Endurance em vez disso."
+
+msgid "We will replace the workout '%(title)s' on %(date)s with a %(duration)s Endurance %(act_type)s."
+msgstr "Substituiremos o treino '%(title)s' em %(date)s por um %(act_type)s de Endurance de %(duration)s."
+
+msgid "%(intro)s, your zones are significantly different from the zones your current plan was based on. Request a new plan that optimally incorporates your updated zones."
+msgstr "%(intro)s, suas zonas são significativamente diferentes das zonas nas quais seu plano atual foi baseado. Solicite um novo plano que incorpore de forma ideal suas zonas atualizadas."
+
+msgid "You may want to update your cycling zones"
+msgstr "Você pode querer atualizar suas zonas de ciclismo"
+
+msgid "You may want to update your running zones"
+msgstr "Você pode querer atualizar suas zonas de corrida"
+
+msgid "You may want to update your zones"
+msgstr "Você pode querer atualizar suas zonas"
+
+msgid "%(intro)s, we recommend the following zone updates:\n"
+msgstr "%(intro)s, recomendamos as seguintes atualizações de zonas:\n"
+
+msgid "%(zone)s: less than %(new_value)s (currently %(current_value)s)\n"
+msgstr "%(zone)s: menos de %(new_value)s (atualmente %(current_value)s)\n"
+
+msgid "Based on your recent FTP test (%(ftp_value)s W)"
+msgstr "Baseado em seu teste FTP recente (%(ftp_value)s W)"
+
+msgid "Based on your recent %(cp_type)s (%(cp_value)s W)"
+msgstr "Baseado em seu %(cp_type)s recente (%(cp_value)s W)"
+
+msgid "Based on a recent test performance of %(performance)s for %(duration)s minutes"
+msgstr "Baseado em um desempenho de teste recente de %(performance)s por %(duration)s minutos"
+
+msgid "Based on your recent HRV data"
+msgstr "Baseado em seus dados HRV recentes"
+
+msgid "Your training plan has less volume than you requested. We can only accurately predict performance reasonably close to your historical data and you have requested a {percentage}% too high training time for this constraint. If you want to fix this you can go to Account and reduce requested training time or increase extrapolation dial. If you have long periods without any data, these might drag down your average. You can exclude all but recent data under Exclude Import Data in the dashboard."
+msgstr "Seu plano de treinamento tem menos volume do que você solicitou. Só podemos prever com precisão o desempenho razoavelmente próximo aos seus dados históricos e você solicitou {percentage}% muito alto de tempo de treinamento para esta restrição. Se você quiser corrigir isso, pode ir em Account e reduzir o tempo de treinamento solicitado ou aumentar o dial de extrapolação. Se você tem períodos longos sem dados, estes podem arrastar sua média para baixo. Você pode excluir todos os dados, exceto os recentes, em Exclude Import Data no Dashboard."
+
+msgid "Your training plan has more volume than you requested. We can only accurately predict performance reasonably close to your historical data and you have requested a {percentage}% too low training time for this constraint. If you want to fix this go to Account and decrease requested training time or increase extrapolation dial."
+msgstr "Seu plano de treinamento tem mais volume do que você solicitou. Só podemos prever com precisão o desempenho razoavelmente próximo aos seus dados históricos e você solicitou {percentage}% muito baixo de tempo de treinamento para esta restrição. Se você quiser corrigir isso, vá em Account e diminua o tempo de treinamento solicitado ou aumente o dial de extrapolação."
+
+msgid "Since we could not find enough activity data to predict your Endurance threshold performance, we changed your goal from %(old_goal)s to %(new_goal)s."
+msgstr "Como não conseguimos encontrar dados de atividade suficientes para prever seu desempenho de limiar de Endurance, mudamos seu objetivo de %(old_goal)s para %(new_goal)s."
+
+msgid "Since we could not find enough activity data to predict your Endurance threshold performance, we deleted the goal %(goal)s."
+msgstr "Como não conseguimos encontrar dados de atividade suficientes para prever seu desempenho de limiar de Endurance, excluímos o objetivo %(goal)s."
+
+msgid "Since we could not find enough running power data or you are not using running power any longer, we changed your goal from %(old_goal)s to %(new_goal)s."
+msgstr "Como não conseguimos encontrar dados de Running Power suficientes ou você não está mais usando Running Power, mudamos seu objetivo de %(old_goal)s para %(new_goal)s."
+
+msgid "Since we could not find enough running power data or you are not using running power, we deleted the goal %(goal)s."
+msgstr "Como não conseguimos encontrar dados de Running Power suficientes ou você não está usando Running Power, excluímos o objetivo %(goal)s."
+
+msgid "Since you are now using running power data, we changed your goal from %(old_goal)s to %(new_goal)s."
+msgstr "Como você agora está usando dados de Running Power, mudamos seu objetivo de %(old_goal)s para %(new_goal)s."
+
+msgid "Since you are now using running power data, we deleted the goal %(goal)s."
+msgstr "Como você agora está usando dados de Running Power, excluímos o objetivo %(goal)s."

@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "title": "Onboarding Success",
+        "description": "Your onboarding was successful"
+    },
+    "onboardingSuccess": {
+        "title": "Congrats - you've finished setting up your account!",
+        "description": "We'll need a few minutes to a few hours depending on the amount of data we are importing to finish setting up your training plan. In the meantime, go check out our blog! You will be notified via email when your account is available for use.",
+        "checkOutBlog": "Check Out Blog"
+    },
+    "importProgressLog": {
+        "title": "Import & AI Training Progress",
+        "lastUpdated": "Last updated: {timestamp}",
+        "complete": "Complete!",
+        "inProgress": "In progress...",
+        "waiting": "Waiting...",
+        "unknown": "Unknown"
+    }
+}

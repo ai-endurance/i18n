@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "title": "Incorporación exitosa",
+        "description": "Tu incorporación se ha completado con éxito"
+    },
+    "onboardingSuccess": {
+        "title": "¡Enhorabuena! Has terminado de configurar tu account.",
+        "description": "Necesitaremos desde unos minutos hasta unas horas, dependiendo de la cantidad de data que estemos importando, para terminar de configurar tu plan de entrenamiento. Mientras tanto, ¡echa un vistazo a nuestro blog! Se te notificará por correo electrónico cuando tu account esté listo para usar.",
+        "checkOutBlog": "Echa un vistazo al Blog"
+    },
+    "importProgressLog": {
+        "title": "Progreso de la importación y el entrenamiento de la IA",
+        "lastUpdated": "Última actualización: {timestamp}",
+        "complete": "¡Completado!",
+        "inProgress": "En progreso...",
+        "waiting": "Esperando...",
+        "unknown": "Desconocido"
+    }
+}

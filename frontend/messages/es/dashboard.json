@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "title": "Dashboard",
+        "description": "Sumérgete en tus datos aquí en el dashboard de {partnerTitle}."
+    },
+    "recalculatingPlan": {
+        "creatingPredictions": "Creando predicciones del plan...",
+        "creatingWorkouts": "Creando entrenamientos...",
+        "recalculatingPlan": "Recalculando tu plan"
+    },
+    "notifications": {
+        "messages": {
+            "notificationActionSuccessful": "¡Acción de notificación realizada con éxito!",
+            "notificationDeclined": "¡Notificación rechazada!",
+            "feedbackDismissed": "¡Comentario descartado!",
+            "failedToRefresh": "No se pudieron actualizar las notificaciones"
+        },
+        "display": {
+            "title": "Notificaciones",
+            "allSet": "¡Todo listo!",
+            "nothingNeedsAttention": "No hay nada que necesite tu atención en este momento",
+            "done": "Hecho"
+        },
+        "item": {
+            "accept": "Aceptar",
+            "decline": "Rechazar",
+            "dismiss": "Descartar",
+            "acceptChange": "Aceptar cambio",
+            "declineTooltip": "Rechazar",
+            "dismissTooltip": "Descartar",
+            "feedbackFromCoach": "Comentarios de tu entrenador de IA"
+        }
+    },
+    "event": {
+        "yourPredictions": "Tus predicciones",
+        "mainGoalEvent": "Evento principal",
+        "eventDate": "Fecha del evento",
+        "predicted": "Predicción de {discipline}",
+        "weeks": "{weeks} semanas",
+        "displayed": "Mostrado",
+        "weight": "Peso: {weight}",
+        "morePredictions": "Más predicciones",
+        "upperMargin": "Margen superior:",
+        "prediction": "Predicción:",
+        "lowerMargin": "Margen inferior:"
+    },
+    "history": {
+        "lastFourWeeks": "Últimas 4 semanas",
+        "calendar": "Calendario",
+        "yearHistory": "Historial de 365 días",
+        "date": "Fecha:",
+        "duration": "Duración:",
+        "na": "N/A"
+    },
+    "nextWorkout": {
+        "noWorkoutsScheduled": "¡Aún no tienes ningún entrenamiento programado!",
+        "nextWorkout": "Próximo entrenamiento",
+        "calendar": "Calendario",
+        "warmup": "Warmup",
+        "mainSet": "Parte principal",
+        "cooldown": "Cooldown",
+        "date": "Fecha",
+        "totalTime": "Tiempo total",
+        "estDistance": "Distancia est.",
+        "timeAtIntensity": "Tiempo en intensidad",
+        "avgPace": "Pace promedio",
+        "avgPower": "Power promedio",
+        "estTime": "Tiempo est.",
+        "distance": "Distancia"
+    },
+    "recovery": {
+        "connectHeartRateData": "Conecta tus datos de frecuencia cardíaca para ver tu Recovery",
+        "history": "Historial",
+        "dataNotUpToDate": "¿Tus datos no parecen estar actualizados?",
+        "refreshData": "Actualizar datos",
+        "recoveryDataRefreshed": "¡Datos de Recovery actualizados!",
+        "failedToRefresh": "No se pudieron actualizar los datos de Recovery",
+        "notUsingDfa": "¡No estás usando DFA a₁!",
+        "notTrackingHrv": "¡No estás registrando tu HRV!",
+        "notTrackingRestingHr": "¡No estás registrando tu FC en reposo!",
+        "notTrainingOrNoHrData": "¡No estás entrenando o no has conectado tus datos de FC!",
+        "makeMostOfAiEndurance": "Aprovecha al máximo AI Endurance",
+        "essOn": "ESS el {date}"
+    },
+    "thisWeek": {
+        "title": "Entrenamiento de esta semana",
+        "viewFullCalendar": "Ver calendario completo"
+    },
+    "checkIn": {
+        "title": "Check In",
+        "dismiss": "Descartar",
+        "feedbackTitle": "Comentarios sobre tu check-in",
+        "howDoYouFeel": "¿Cómo te sientes hoy?",
+        "forMoreDiscussion": "Para una discusión más detallada -",
+        "tryOurAiChat": "Prueba nuestro AI Chat",
+        "answerHere": "Responde aquí",
+        "enterHrvManually": "Introduce los valores de HRV manualmente",
+        "restingHeartRate": "Frecuencia cardíaca en reposo",
+        "submit": "Enviar",
+        "checkinSubmitted": "Check-in enviado con éxito",
+        "feedbackDismissed": "¡Comentario descartado!",
+        "sorenessQuestions": {
+            "armsShoulders": "¿Qué tan adoloridos están tus brazos/hombros? (0-10)",
+            "core": "¿Qué tan adolorido está tu core? (0-10)",
+            "legs": "¿Qué tan adoloridas están tus piernas? (0-10)",
+            "cyclingSoreness": "¿Cuál es tu nivel de dolor muscular por el ciclismo? (0-10)",
+            "runningSoreness": "¿Cuál es tu nivel de dolor muscular por correr? (0-10)"
+        }
+    },
+    "latestWorkout": {
+        "title": "Entrenamiento más reciente",
+        "noWorkoutsYet": "¡Parece que aún no tienes ningún entrenamiento!",
+        "noWorkoutsDescription": "¡Conecta tus datos a AI Endurance o sal y registra tu primera actividad!",
+        "analysis": "Análisis"
+    },
+    "activityDetails": {
+        "startTime": "Hora de inicio",
+        "distance": "Distancia",
+        "time": "Tiempo",
+        "elevationGain": "Desnivel positivo",
+        "averagePower": "Power promedio",
+        "noDetails": "Sin detalles"
+    },
+    "checkInSnackbar": {
+        "notCheckedInRecently": "¡No has hecho el check-in recientemente!",
+        "checkIn": "Hacer Check In",
+        "dismiss": "Descartar"
+    },
+    "freeTrial": {
+        "trialActive": "¡Actualmente estás en un período de prueba gratuito! Tu prueba termina en {daysLeft} días.",
+        "trialEnded": "¡Tu prueba gratuita ha terminado! ¡Suscríbete para seguir usando AI Endurance!",
+        "subscribeNow": "¡Suscríbete ahora!"
+    },
+    "languageDisclaimer": {
+        "translationWarning": "Estamos trabajando para mejorar la versión en {language} de AI Endurance. Agradecemos cualquier comentario, por favor envíalo a ",
+        "emailSubject": "Comentarios sobre la app AI Endurance",
+        "emailBody": "Hola equipo de AI Endurance:\n\nEsto es lo que está mal en el texto de vuestra app en {language}:"
+    },
+    "labels": {
+        "recoveryDisplay": "Tus valores históricos de Recovery basados en tus datos de HRV en reposo (RMSSD/SDNN y FC en reposo) y datos de entrenamiento de DFA a₁. Si tu reloj Garmin recopila datos de HRV por la noche, conecta tu cuenta de Garmin Connect y marca 'Estadísticas de salud diarias'. Garmin enviará tus datos automáticamente después de que te despiertes. Si usas el anillo Oura o Whoop, conecta tu cuenta de Oura o Whoop. Si usas un reloj Suunto, Coros o Polar que registra HRV durante la noche, conecta tu cuenta de Suunto, Coros o Polar. Para obtener otros datos de HRV en reposo en AI Endurance, conecta tu app de HRV favorita a TrainingPeaks y conecta TrainingPeaks a AI Endurance. Basado en los datos más recientes de tus apps conectadas.",
+        "prediction": "Las predicciones de la IA para tu rendimiento futuro si sigues tu plan de entrenamiento. Estas incluyen el error de predicción de tu modelo de aprendizaje automático: tu Digital Twin.",
+        "checkIn": "Dinos tu nivel de dolor muscular y motivación y adaptaremos tu plan en caso de que no estés listo para un entrenamiento. Usamos ChatGPT para evaluar tu motivación para hacer ejercicio y darte feedback sobre tu día de entrenamiento. Dinos cómo te sientes, tal como se lo dirías a un entrenador o a un amigo. Por ejemplo: 'El trabajo es muy estresante ahora mismo' o 'Estoy muy cansado' o 'Hoy no me apetece nada' o '¡Listo para darlo todo hoy!'. También tenemos en cuenta tus datos de HRV en reposo (RMSSD/SDNN y FC en reposo) y los datos de entrenamiento de DFA a₁. Puedes hacer el check-in cada 12 horas.",
+        "recoveryAerobic": "Tu puntuación de Aerobic Recovery. Este es el valor más bajo de tu puntuación de Recovery de DFA a₁, tu puntuación de Recovery de RMSSD/SDNN, tu puntuación de Recovery de HR Rest y tu puntuación de Recovery inducida por ESS.",
+        "recoveryMuscleJoint": "Tu puntuación de Muscle/Joint Recovery. Modelamos el impacto de cada entrenamiento en tus músculos y articulaciones basándonos en tus datos históricos de entrenamiento. Dependiendo del tipo de entrenamiento, la intensidad y la duración, calculamos la puntuación de Muscle/Joint Recovery.",
+        "recoveryAlpha1": "Cuanto más bajos sean tus valores de DFA a₁ para un Pace/Power determinado, menor será tu puntuación de Recovery. Comparamos una media móvil de tus valores de los últimos 7 días con una normal de 60 días para evaluar tu puntuación de Recovery de DFA a₁. Si estás registrando DFA a₁ y no ves un resultado, puede ser porque a) no completaste una actividad con DFA a₁ hoy o b) necesitamos al menos 10 días de mediciones para establecer una tendencia fiable.",
+        "recoveryRmssd": "Cuanto más bajo sea tu valor de la raíz cuadrada de la media de las diferencias sucesivas al cuadrado (RMSSD) de tu variabilidad de la frecuencia cardíaca (HRV), menor será tu puntuación de Recovery. Comparamos una media móvil de tus valores de los últimos 7 días con una normal de 60 días para evaluar tu puntuación de Recovery de RMSSD. Si estás registrando HRV en reposo y no ves un resultado, puede ser porque necesitamos al menos 10 días de mediciones para establecer una tendencia fiable.",
+        "recoverySdnn": "Cuanto más baja sea tu desviación estándar de los intervalos NN (SDNN) de tu variabilidad de la frecuencia cardíaca (HRV), menor será tu puntuación de Recovery. Comparamos una media móvil de tus valores de los últimos 7 días con una normal de 60 días para evaluar tu puntuación de Recovery de SDNN. Si estás registrando HRV en reposo y no ves un resultado, puede ser porque necesitamos al menos 10 días de mediciones para establecer una tendencia fiable.",
+        "recoveryHrRest": "Cuanto más alta sea tu frecuencia cardíaca en reposo en comparación con tu frecuencia cardíaca en reposo habitual, menor será tu puntuación de Recovery. Comparamos el valor de hoy con una normal de 30 días para evaluar la desviación de tu frecuencia cardíaca en reposo de lo habitual. Si estás registrando la frecuencia cardíaca en reposo y no ves un resultado, puede ser porque necesitamos al menos 10 días de mediciones para establecer una tendencia fiable.",
+        "recoveryEss": "El External Stress Score (ESS) de tus actividades pasadas impacta directamente en tu puntuación general de Recovery. Una mayor acumulación de ESS resulta en una mayor reducción del Recovery. Esta reducción se calcula utilizando nuestro modelo de Recovery personalizado, que se adapta a tus datos históricos únicos de ejercicio y Recovery. Para generar una puntuación de Recovery precisa, requerimos al menos 10 días de actividades con ESS medido para entrenar tu modelo de Recovery.",
+        "lastFourWeeks": "Tus datos de entrenamiento de las últimas cuatro semanas. Tu puntuación de Compliance es del 100% si en una semana determinada has completado todos los entrenamientos planificados exactamente como se prescribieron. Si has completado los entrenamientos pero no exactamente como se prescribieron, tu puntuación de Compliance es más baja. Esto te da una indicación de qué tan bien estás siguiendo tu plan de entrenamiento. Si ves N/A, significa que tu plan aún no había comenzado o que todavía no tenemos suficientes datos para calcular tu puntuación de Compliance.",
+        "yearHistory": "Tus datos de entrenamiento del último año. Cada bloque representa un día y el color representa la duración total de tu entrenamiento en cada día.",
+        "learnMore": "Saber más."
+    }
+}

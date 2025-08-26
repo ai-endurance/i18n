@@ -1,0 +1,118 @@
+{
+    "connectApps": {
+        "title": "Connect your apps to get the most out of your training",
+        "continue": "Continue",
+        "iosMessage": "To complete the sign up, please use the",
+        "webVersion": "Web Version of AI Endurance"
+    },
+    "chooseDiscipline": {
+        "title": "What type of athlete are you?",
+        "disciplines": {
+            "runner": "Runner",
+            "cyclist": "Cyclist",
+            "triathlete": "Triathlete"
+        },
+        "continue": "Continue"
+    },
+    "athleteInformation": {
+        "title": "How much time do you have to train per week?",
+        "selectDiscipline": "Please select your sport discipline!",
+        "goBack": "Go Back",
+        "volumeDescription": "What is the volume that you'd like to train at? Your model will aim to work towards that volume, while making sure you're not doing too much too soon.",
+        "hoursPerWeek": {
+            "run": "How many hours per week are you available to run?",
+            "bike": "How many hours per week are you available to bike?",
+            "swim": "How many hours per week are you available to swim?",
+            "ride": "How many hours per week are you available to ride?"
+        },
+        "gender": "Gender",
+        "birthYear": "Birth Year",
+        "weight": "Weight (kg)",
+        "invalidBirthYear": "Please enter a valid birthyear",
+        "genderOptions": {
+            "male": "Male",
+            "female": "Female",
+            "other": "Non-Binary"
+        },
+        "continue": "Continue",
+        "useRunningPower": "Use Running Power?"
+    },
+    "disciplineTimes": {
+        "title": "What is your current level of fitness?",
+        "selectDiscipline": "Please select your sport discipline!",
+        "selectEvent": "Please select your event!",
+        "goBack": "Go Back",
+        "finish": "Finish"
+    },
+    "validation": {
+        "noUserType": "No user type selected",
+        "noBirthYear": "No birth year entered",
+        "noWeight": "No weight entered",
+        "noHoursPerWeek": "No hours per week entered",
+        "noEventDate": "No event date selected",
+        "noEventType": "No event type selected",
+        "powerValueNotInRange": "Power value is not within range",
+        "pace5kNotInRange": "5k pace value is not within range",
+        "pace10kNotInRange": "10k pace value is not within range"
+    },
+    "appCard": {
+        "disconnectConfirm": "Are you sure you want to disconnect {title}?",
+        "connectedTooltip": "{title} is connected! Click to disconnect",
+        "disconnectSuccess": {
+            "strava": "Strava data successfully disconnected!",
+            "polar": "Polar successfully disconnected!",
+            "oura": "Oura data successfully disconnected!",
+            "intervalsicu": "Intervals.icu successfully disconnected!",
+            "wahoo": "Wahoo successfully disconnected!",
+            "nolio": "Nolio successfully disconnected!",
+            "suunto": "Suunto data successfully disconnected!",
+            "coros": "Coros successfully disconnected!",
+            "trainingpeaks": "TrainingPeaks data successfully disconnected!",
+            "whoop": "Whoop successfully disconnected!",
+            "garmin": "Garmin {type} data successfully disconnected!"
+        }
+    },
+    "labels": {
+        "ftp": "FTP (Functional Threshold Power) the highest power that you can maintain in a steady state for one hour.",
+        "5k": "The 5k time is the time it takes you to run 5 kilometers.",
+        "10k": "The 10k time is the time it takes you to run 10 kilometers."
+    },
+    "disciplineMap": {
+        "ftp": "Current FTP (W)",
+        "5k": "Current 5k time (mm:ss)",
+        "10k": "Current 10k time (mm:ss)",
+        "halfMarathon": "Current half-marathon time (h:mm:ss)",
+        "marathon": "Current marathon time (h:mm:ss)"
+    },
+    "error": {
+        "somethingWentWrong": "Something went wrong!",
+        "returnToDashboard": "Return to dashboard"
+    },
+    "metadata": {
+        "title": "Onboarding",
+        "description": "Let's get your details figured out to complete your signup"
+    },
+    "eventInfo": {
+        "title": "What are you training for?",
+        "continue": "Continue",
+        "selectDiscipline": "Please select your sport discipline!",
+        "goBack": "Go Back",
+        "primaryEventQuestion": "What's primary event you're training for?",
+        "event": "Event",
+        "eventDateQuestion": "What's the date of your next primary event?",
+        "infoTitle": "What do these options mean?",
+        "close": "Close",
+        "details": {
+            "suffix": "After your initial sign up, you can also plan an entire season with B and C events. You can also customize your own goal events and configure custom weights for each goal.",
+            "cyclist": "Optimize FTP (Functional Threshold Power), Critical Cycling Power or your Ultra Endurance Power - your power at DFA a₁ = 0.75, your aerobic HRV threshold.",
+            "runnerPower": "Optimize your Critical Running Power or your Ultra Endurance Power - your power at DFA a₁ = 0.75, your aerobic HRV threshold.",
+            "runnerPace": "Choose from 5k all the way up to Marathon distance. Or optimize your Ultra Endurance Pace - your pace at DFA a₁ = 0.75, your aerobic HRV threshold.",
+            "triathlete": "Choose from Sprint distance all the way up to full Ironman distance. For Sprint and Olympic distance, we optimize your Critical Cycling Power and your {runTextSprintOlympic}. For Half-Ironman and Ironman, we optimize your Aerobic Cycling Power and your {runTextHalfIronman}.",
+            "selectDiscipline": "Please select a discipline to continue.",
+            "runTextSprintOlympicPower": "Critical Running Power",
+            "runTextSprintOlympicPace": "5k or 10k pace",
+            "runTextHalfIronmanPower": "Aerobic Running Power",
+            "runTextHalfIronmanPace": "Half-Marathon or Marathon pace"
+        }
+    }
+}

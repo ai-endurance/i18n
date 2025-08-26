@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Bedingungen",
+        "privacy": "Datenschutz"
+    },
+    "confirmationPopup": {
+        "yes": "Ja",
+        "no": "Nein"
+    },
+    "expiredDisplay": {
+        "title": "Lass deine Fitness nicht verfallen! <br />Melde dich für einen Plan an, um deine Fortschritte beizubehalten.",
+        "cta": "Los geht's!"
+    },
+    "infoBox": {
+        "defaultTitle": "Damit du Bescheid weißt...",
+        "done": "Fertig"
+    }
+}

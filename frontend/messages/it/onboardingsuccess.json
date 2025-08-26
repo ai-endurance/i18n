@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "title": "Onboarding completato",
+        "description": "Il tuo onboarding è stato completato con successo"
+    },
+    "onboardingSuccess": {
+        "title": "Congratulazioni - hai finito di configurare il tuo account!",
+        "description": "A seconda della quantità di dati che stiamo importando, potrebbero essere necessari da pochi minuti a qualche ora per completare la configurazione del tuo piano di allenamento. Nel frattempo, dai un'occhiata al nostro blog! Riceverai una notifica via email quando il tuo account sarà pronto per l'uso.",
+        "checkOutBlog": "Visita il blog"
+    },
+    "importProgressLog": {
+        "title": "Avanzamento importazione e training AI",
+        "lastUpdated": "Ultimo aggiornamento: {timestamp}",
+        "complete": "Completato!",
+        "inProgress": "In corso...",
+        "waiting": "In attesa...",
+        "unknown": "Sconosciuto"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "banner": {
+        "title": "Comment fonctionne AI Endurance ?",
+        "description": "AI Endurance est la seule plateforme d'entraînement véritablement basée sur l'Intelligence Artificielle. Nous n'adaptons pas de plans d'entraînement prédéfinis pour nos athlètes. Notre plateforme est incroyablement individualisée pour chaque athlète qui l'utilise, apprenant ta physiologie à un niveau très profond. Nous prenons en compte des éléments tels que la rapidité avec laquelle tu récupères, les types d'intervalles auxquels tu réagis le mieux, et tes objectifs spécifiques pour créer des plans qui sont uniquement conçus pour ton corps et tes objectifs."
+    },
+    "buttons": {
+        "getStarted": "Commence !"
+    },
+    "rows": {
+        "scientific": {
+            "title": "Vraiment scientifique, basé sur les données et prédictif",
+            "text": "Ton application actuelle te dit-elle de combien ses athlètes se sont améliorés ? Ou de combien tu vas t'améliorer ? Sinon, c'est soit parce qu'elle ne fonctionne pas, soit parce qu'ils ne savent pas et ne se soucient pas d'une approche scientifique et basée sur les données. Ne perds pas ton précieux temps d'entraînement avec un plan basé sur l'opinion de quelqu'un sans prendre en compte toutes tes données. Nous savons qu'AI Endurance fonctionne car non seulement nous l'avons comparé aux recherches les plus récentes évaluées par des pairs en physiologie de l'exercice, mais nous avons aussi démontré comment notre entraînement optimisé par l'IA surpasse facilement même la meilleure approche universelle que la recherche actuelle peut offrir.",
+            "ctaButton": "Commence !",
+            "outlinedButton": "Voici comment nous le savons"
+        },
+        "personalized": {
+            "title": "Ton plan personnalisé",
+            "text": "AI Endurance applique l'apprentissage automatique aux données collectées depuis ta montre GPS, ton smartphone et ton capteur de puissance. Le résultat est un plan d'entraînement personnalisé et optimisé pour toi, ton sport et ta course objectif. Nous t'aidons à atteindre tes objectifs grâce à notre approche scientifique et à un entraînement basé sur les données, en utilisant les dernières avancées en IA. Entraîne-toi plus intelligemment avec un plan d'entraînement basé sur les données, axé sur les résultats et facile à utiliser. L'intelligence artificielle est ton avantage.",
+            "ctaButton": "Commence !",
+            "outlinedButton": "Comment est-ce personnalisé ?"
+        },
+        "recovery": {
+            "title": "Récupération et Préparation à l'entraînement",
+            "text": "Avant chaque entraînement, tu devrais savoir si tu es réellement prêt pour celui-ci. Chacun réagit différemment au stress, au mauvais sommeil et à la fatigue due à l'exercice - notre nouveau modèle de récupération prend des décisions basées sur les données pour déterminer quand tu devrais t'entraîner et quand tu ne devrais pas. Nous utilisons une combinaison de tes retours d'entraînement, des retours sur les courbatures des groupes musculaires importants, de la VFC (Variabilité de la Fréquence Cardiaque) et de ta fréquence cardiaque au repos pour te donner un score de récupération simple et facile à comprendre, et proposer des modifications de plan d'entraînement si nécessaire.",
+            "ctaButton": "Commence !",
+            "outlinedButton": "Comment fonctionne la récupération ?"
+        },
+        "adaptation": {
+            "title": "Adapte ton plan à ta vie",
+            "text": "De longues journées de travail, des événements imprévus, des voyages et des maladies peuvent perturber un entraînement sérieux. Comment restes-tu sur la bonne voie lorsque la vie s'en mêle ? Notre IA adapte ton plan d'entraînement à la volée, suggérant des modifications d'entraînement en cas de récupération sous-optimale ou de séances manquées, t'assurant de rester concentré sur ton objectif. Nous comprenons qu'aucun plan ne se déroule parfaitement et nous nous efforçons de te rejoindre là où tu es, en nous adaptant à la nature imprévisible de la vie quotidienne.",
+            "ctaButton": "Commence !",
+            "outlinedButton": "Comment ça s'adapte ?"
+        },
+        "runningPower": {
+            "title": "Puissance en course à pied",
+            "text": "Tu utilises déjà la puissance en course à pied et tu cherches un plan d'entraînement personnalisé pour optimiser ta puissance critique en course ? On s'occupe de toi ! Nous prédisons tes gains en puissance critique en course si tu suis notre plan d'entraînement adaptatif par IA. Tu veux pulvériser ton prochain ultra ? Nous sommes la seule application qui optimise directement ta puissance d'ultra-endurance, la puissance à ton seuil aérobie. Nous utilisons la technologie la plus récente de variabilité de la fréquence cardiaque - DFA alpha 1 - pour mesurer ton seuil aérobie. Exporte simplement ton plan de puissance en course vers TrainingPeaks ou Suunto Guides et exécute tes entraînements directement depuis ta montre.",
+            "ctaButton": "Commence !",
+            "outlinedButton": "Qu'est-ce que DFA alpha 1 ?"
+        },
+        "nutrition": {
+            "title": "Nutrition sportive",
+            "text": "Nous avons collaboré avec des nutritionnistes sportifs de premier plan pour te fournir une gamme de calories et de macronutriments dont tu as besoin quotidiennement en fonction de ton entraînement passé et planifié. De plus, nous élaborons un plan de repas alimenté par l'IA pour t'aider à t'alimenter pour une performance optimale chaque jour. En utilisant la puissance des Grands Modèles de Langage (pense à ChatGPT), décris simplement le type de plan de repas que tu souhaites. Nous prenons en charge les régimes végétarien, végétalien, sans gluten, ou tout autre besoin ou préférence alimentaire.",
+            "ctaButton": "Commence !",
+            "outlinedButton": "En savoir plus sur la nutrition sportive"
+        },
+        "integrations": {
+            "title": "Intégrations",
+            "text": "Nous nous intégrons à de nombreuses plateformes d'entraînement populaires. Nous pouvons importer tes données d'entraînement et de récupération depuis Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop et Stryd, et exporter tes entraînements vers Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift, ou notre propre plateforme AI Endurance. De cette façon, tu peux utiliser AI Endurance de la manière qui te convient le mieux ! Si la bibliothèque d'entraînements de Zwift devient ennuyeuse, ou si tu es accro à l'analyse de données dans Intervals.icu, nous pouvons t'aider !",
+            "ctaButton": "Commence !"
+        }
+    },
+    "fourCards": {
+        "title": "Analyse de données de pointe",
+        "cards": {
+            "zoneDetection": {
+                "title": "Détection automatique des zones",
+                "text": "AI Endurance détecte automatiquement tes zones d'entraînement via la détection automatique des seuils aérobie et anaérobie, en utilisant la VFC et d'autres variables importantes."
+            },
+            "noTests": {
+                "title": "Aucun test requis",
+                "text": "Nous utilisons tes données d'entraînement pour prédire ta performance et optimiser ton plan d'entraînement. Pas besoin de tests progressifs, de contre-la-montre ou de tests de 20 minutes."
+            },
+            "predictions": {
+                "title": "Prédictions précises",
+                "text": "Nos modèles d'IA prédisent et optimisent ta performance en analysant chaque seconde de ton historique d'entraînement, couvrant tout, du rythme sur 5 km et de la FTP à la puissance d'Ironman et d'endurance."
+            },
+            "hrv": {
+                "title": "Variabilité de la Fréquence Cardiaque",
+                "text": "Nous sommes pionniers dans de nouvelles avancées scientifiques passionnantes autour de la VFC, et adoptons DFA alpha 1 comme une métrique d'entraînement précieuse pour la détection des seuils, la préparation à l'entraînement et la durabilité."
+            }
+        }
+    },
+    "threeCards": {
+        "optimize": {
+            "title": "Optimise ton plan d'entraînement",
+            "text": "Il y a tellement de façons de s'entraîner : intervalles courts/longs, entraînements difficiles/faciles, récupération longue/courte. Comment sais-tu ce qui te convient ? Notre IA trouve le plan qui permet ta meilleure performance dans le temps dont tu disposes pour t'entraîner. Chaque entraînement que tu fais est une mine d'or de données ; notre IA les utilise pour prédire ta performance future et créer un plan d'entraînement qui comble l'écart entre ta performance actuelle et ta performance de course optimale.",
+            "button": "Comment nous optimisons"
+        },
+        "simplify": {
+            "title": "Simplifie ton focus d'entraînement",
+            "text": "De nombreux facteurs, petits et grands, affectent la performance un jour donné. C'est écrasant de tous les considérer. Que dois-tu vraiment savoir pour t'entraîner efficacement ? Notre IA identifie quels entraînements faire, et quel jour. L'objectif est d'utiliser le temps dont tu disposes aujourd'hui pour atteindre ta performance cible, lors de ta course objectif. Nous avons aussi un plan de Maintien pour te garder en forme.",
+            "button": "Quel entraînement fonctionne vraiment"
+        },
+        "adapt": {
+            "title": "Notre plan s'adapte avec toi",
+            "text": "Que tu suives le plan ou non, chaque entraînement que tu fais est utilisé pour calculer ton plan optimal. Chaque jour. Nous te faisons savoir si nous avons trouvé une meilleure option pour ton objectif. Ou - si la vie devient trop envahissante - quand il est temps de réinitialiser et de commencer un nouveau plan.",
+            "button": "Comment nous nous adaptons à toi"
+        }
+    },
+    "metadata": {
+        "title": "Comment fonctionne {partner} ? | {partner}",
+        "description": "{partner} est la seule véritable plateforme d'entraînement basée sur l'IA. Pas de plans génériques et prédéfinis ici."
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "title": "Third Party App Configuration",
+        "description": "Configure your third party app settings here"
+    },
+    "page": {
+        "title": "Third-Party App Connections",
+        "lockedMessage": "Please wait for current plan search to finish to connect third-party apps.",
+        "iosMessage": "To connect third-party apps to AI Endurance, please use the",
+        "webVersionButton": "Web Version of AI Endurance"
+    },
+    "components": {
+        "downloadZwift": {
+            "button": "Download Zwift Workouts"
+        },
+        "uploadFitFile": {
+            "label": "Upload Your .FIT File",
+            "button": "Upload",
+            "maxFilesError": "Maximum 3 files allowed",
+            "uploadSuccess": "File uploaded successfully",
+            "moreFiles": "more file",
+            "moreFilesPlural": "more files"
+        },
+        "rampTests": {
+            "label": "DFA a₁ ramp tests",
+            "zwiftButton": "Download Zwift Ramp Test",
+            "garminButton": "Push To Garmin",
+            "suuntoButton": "Push To Suunto",
+            "intervalsicuButton": "Push To Intervals.icu",
+            "garminSuccess": "Ramp test pushed to Garmin",
+            "suuntoSuccess": "Ramp test pushed to Suunto",
+            "intervalsicuSuccess": "Ramp test pushed to Intervals.icu"
+        },
+        "refreshExports": {
+            "label": "Refresh Exports",
+            "button": "Refresh Exports",
+            "success": "Exports refreshed!",
+            "error": "Failed to refresh exports"
+        },
+        "disconnectSuccess": {
+            "garminHealth": "Garmin Health successfully disconnected!",
+            "garminTraining": "Garmin Training successfully disconnected!",
+            "coros": "Coros successfully disconnected!",
+            "polar": "Polar successfully disconnected!",
+            "intervalsicu": "Intervals.icu successfully disconnected!",
+            "whoop": "Whoop data successfully disconnected!",
+            "nolio": "Nolio successfully disconnected!",
+            "trainingpeaks": "TrainingPeaks successfully disconnected!",
+            "suunto": "Suunto successfully disconnected!",
+            "oura": "Oura data successfully disconnected!",
+            "strava": "Strava data successfully disconnected!",
+            "wahoo": "Wahoo successfully disconnected!"
+        }
+    },
+    "labels": {
+        "apps": {
+            "paragraph1": "Click to connect or disconnect third party apps. We continuously export your workouts to Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu and Nolio up to one week into the future. You may require a TrainingPeaks Premium account to access your AI Endurance workouts in TrainingPeaks.",
+            "paragraph2": "Please note that it can take a while to download your workouts from third party apps and check again after a few hours after you connect if you don't see your past activities in the calendar right away.",
+            "paragraph3": "If you connect your TrainingPeaks account, notice that we do not download your workout history from TrainingPeaks because TrainingPeaks does not provide detailed information about your workouts through their API.",
+            "paragraph4": "We answer common questions about third party apps in our FAQ.",
+            "seeFAQ": "See our FAQ."
+        },
+        "zwift": {
+            "paragraph1": "Simply unpack the downloaded zip file into your Zwift workout folder. All your AI Endurance workouts will now show up under 'Custom Workouts' in Zwift. If you update your AI Endurance plan we will automatically update the files you can download here as well.",
+            "learnMore": "Click here for more detailed instructions."
+        },
+        "dfaRamp": {
+            "paragraph1": "This is a ramp test to determine your ventilatory thresholds from heart rate variability (HRV) data. Your aerobic threshold is where a₁ crosses 0.75. Your anaerobic threshold is where a₁ crosses 0.5. a₁ is calculated from your HRV data via detrended fluctuation analysis (DFA). You can execute the ramp test on Zwift, as a Garmin workout or as a Suunto workout if connected. Don't forget to record this activity with your Garmin or Suunto device with HRV logging enabled as Zwift does not record HRV data. Your Garmin Download or Suunto needs to be connected to AI Endurance to determine your thresholds.",
+            "learnMore": "Learn more."
+        },
+        "fitFile": "You can manually upload a FIT file in case the above import options don't cover your recording device. Please note that we currently only support swimming, cycling or running FIT files.",
+        "refreshExports": "In case your exports are not up to date in your third party apps, you can manually refresh them here."
+    }
+}

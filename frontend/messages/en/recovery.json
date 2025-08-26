@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Recovery Details",
+        "description": "Details around your recovery state."
+    },
+    "titles": {
+        "yourRecovery": "Your Recovery",
+        "yourDfaReadiness": "Your DFA a₁ Readiness",
+        "yourRecoveryMeasurements": "Your Recovery Measurements",
+        "yourRmssdTrends": "Your RMSSD Trends",
+        "yourSdnnTrends": "Your SDNN Trends",
+        "yourHrRestTrends": "Your HR Rest Trends"
+    },
+    "recovery": {
+        "todaysAerobicRecovery": "Today's<linebreak>Aerobic</linebreak>Recovery",
+        "todaysMuscleJointRecovery": "Today's<linebreak>Muscle/Joint</linebreak>Recovery",
+        "noRecoveryDataAvailable": "No recovery data available. To view your aerobic and muscle/joint recovery, please collect overnight HRV data with a compatible device and start using the AI Endurance check-in feature.",
+        "makeTheMostOfAiEndurance": "Make the most of AI Endurance",
+        "noRecoveryMetricsFound": "No recovery metrics found"
+    },
+    "measurements": {
+        "source": "Source",
+        "delete": "Delete",
+        "measurementDeletedSuccessfully": "Measurement deleted successfully",
+        "errorDeletingMeasurement": "Error deleting Measurement",
+        "deleteConfirmation": "Are you sure you want to delete this measurement? This cannot be undone."
+    },
+    "chart": {
+        "measuredA1": "Measured a₁",
+        "expectedA1": "Expected a₁"
+    },
+    "labels": {
+        "a1Readiness": {
+            "paragraph1": "Readiness is based on HRV (DFA a₁) measurements from recent activities, using only activities with less than 10% artifact corruption. It is calculated using a linear regression model (solid red line) that relates effective mean power/pace (‹Power/Pace›) and effective DFA a₁ values (‹a₁›) from the first 10 minutes of running or 20 minutes of cycling in your last 21 workouts (red crosses, with error bars representing data variability). Effective values exclude periods where ‹Power/Pace› is zero, ensuring meaningful data is used. Pace always refers to GAP (Grade Adjusted Pace).",
+            "paragraph2": "For the latest workout, ‹Power/Pace› and ‹a₁› are compared to the regression model. Readiness reflects the relative deviation (vertical red dashed line) of the observed ‹a₁› (blue cross) from the predicted ‹a₁› at the same ‹Power/Pace› (red dot).",
+            "paragraph3": "Readiness is not calculated if: artifact corruption of the current workout is greater or equal 10%; fewer than 4 valid activities exist in the last 21 days; ‹a₁› exceeds 1.4 (to avoid activities way outside the a₁ dynamic range influencing the model); the current workout's ‹a₁› or ‹Power/Pace› deviates by more than 20% from historical data; or coasting/zero ‹Power/Pace› time exceeds 5 minutes during the initial 10 minutes (running) or 20 minutes (cycling), excluding paused time.",
+            "learnMore": "Learn more."
+        },
+        "rmssdNormalVsBaseline": {
+            "paragraph1": "Your recovery is assessed using the root mean square of successive differences (RMSSD) in your heart rate variability. The baseline RMSSD (red line) is calculated as a 7-day rolling average of your individual RMSSD values (blue bars). This baseline is compared to your normal RMSSD range (gray band), which represents the 60-day rolling average plus and minus one standard deviation. Recovery is considered low when your baseline RMSSD falls below the normal RMSSD range.",
+            "learnMore": "Learn more."
+        },
+        "sdnnNormalVsBaseline": {
+            "paragraph1": "Your recovery is assessed using the standard deviation of NN intervals (SDNN) in your heart rate variability. The baseline SDNN (red line) is calculated as a 7-day rolling average of your individual SDNN values (blue bars). This baseline is compared to your normal SDNN range (gray band), which represents the 60-day rolling average plus and minus one standard deviation. Recovery is considered low when your baseline SDNN falls below the normal SDNN range.",
+            "learnMore": "Learn more."
+        },
+        "hrRestNormalVsBaseline": {
+            "paragraph1": "Your recovery is assessed using your resting heart rate. Your resting heart rate of the day (blue bar) is compared to your normal resting heart rate range (gray band), which represents the 30-day rolling average plus and minus one standard deviation. Recovery is considered low when your resting heart rate exceeds the normal range.",
+            "learnMore": "Learn more."
+        },
+        "recoveryMetricInspection": {
+            "paragraph1": "Your recovery data from the past 14 days is summarized here, including overnight HR/HRV readings from third-party apps such as Oura, Whoop, Garmin, Suunto, Coros, and Polar, as well as HR/HRV check-ins recorded in AI Endurance. Metrics synced from Intervals.icu or TrainingPeaks are also included. You can remove any measurements that you feel are inaccurate or not representative of your recovery status.",
+            "paragraph2": "Garmin, in particular, may provide multiple measurements per day. However, this is not an issue because, for each day, we use only the lowest resting heart rate (HR Rest) and the highest HRV value (RMSSD by default, or SDNN if you&apos;ve selected it in your account settings) in your recovery model. Please note that deleting a measurement will not retroactively update past recovery values."
+        }
+    }
+}

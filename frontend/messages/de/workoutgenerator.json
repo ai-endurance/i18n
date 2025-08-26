@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Kostenloser AI Endurance Workout Generator | {partner}",
+        "description": "Die Kraft der AI, kostenlos für dein Training. Probiere {partner} aus und erstelle Workouts, die auf deine einzigartige Physiologie und Ziele zugeschnitten sind."
+    },
+    "description": {
+        "title": "Kostenloser AI Endurance Lauf- und Rad-Workout Generator",
+        "subtitle": "Generiere ein kostenloses Endurance Lauf- oder Rad-Workout mithilfe von künstlicher Intelligenz. Beschreibe dein Workout in Worten und AI Endurance wird GPT-basierte Technologie verwenden, um ein Workout für dich zu erstellen. Du kannst das Workout beliebig oft ändern, indem du beschreibst, wie du es anpassen möchtest. Wenn du mit deinem Workout zufrieden bist, kannst du es auf deine bevorzugte Trainingsplattform exportieren."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "Per prompt",
+            "stress": "Per Stress"
+        }
+    },
+    "formTitle": "Kostenloser AI Endurance Workout Generator",
+    "displayTitle": "Dein Workout",
+    "setZones": "Stelle deine Zonen ein:",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Endurance Obergrenze"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Tempo Obergrenze"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Threshold Obergrenze"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "VO2Max Obergrenze"
+        }
+    },
+    "units": {
+        "label": "Einheiten",
+        "imperial": "Imperial ({unit})",
+        "metric": "Metrisch ({unit})"
+    },
+    "suggestions": {
+        "title": "prompt Vorschläge:",
+        "strength": {
+            "hipWithEquipment": "Gelenkschonendes Hüftstärkungs-Workout (mit Fitnessgeräten)",
+            "hipWithoutEquipment": "Gelenkschonendes Hüftstärkungs-Workout (ohne Fitnessgeräte)",
+            "triathlete": "30-Minuten-Workout zur Maximierung der Kraft für Triathleten",
+            "core": "Core-Workout für Läufer"
+        },
+        "run": {
+            "tempo": "hartes Tempo Workout",
+            "vo2max": "30 Min VO2Max Workout",
+            "threshold": "moderates Threshold Workout"
+        },
+        "ride": {
+            "tempo": "hartes Tempo Workout",
+            "vo2max": "30 Min VO2Max Workout",
+            "threshold": "moderates Threshold Workout"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Workout ändern:",
+            "describe": "Beschreibe dein Workout:"
+        },
+        "label": {
+            "change": "Wie möchtest du dein Workout ändern?",
+            "describe": "Welche Art von Workout suchst du?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Workout ändern:",
+            "describe": "Beschreibe dein Workout:"
+        },
+        "label": {
+            "change": "Wie möchtest du dein Workout ändern?",
+            "describe": "Welche Art von Workout suchst du?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Wähle die Intensität deines Workouts:"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Gib die Anzahl der Intervalle für dein Workout ein (optional):"
+        },
+        "timeAtIntensity": {
+            "title": "Gib die gewünschte Zeit bei Intensität für dein Workout ein:"
+        },
+        "ess": {
+            "title": "Gib den gewünschten Stress Score für dein Workout ein:"
+        }
+    },
+    "submitButton": {
+        "create": "Workout erstellen!",
+        "reset": "Zurücksetzen"
+    },
+    "exportWorkout": {
+        "title": "Exportieren nach:",
+        "signup": "Registrieren!",
+        "appleWatch": {
+            "text": "Apple Watch: Verknüpfe dein",
+            "link": "Watchletic",
+            "suffix": "Konto mit AI Endurance und rufe dann die Workouts in Watchletic ab."
+        },
+        "messages": {
+            "success": "Workout erfolgreich exportiert!",
+            "error": "Fehler beim Exportieren des Workouts"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Gesamtzeit",
+        "estDistance": "Gesch. Distanz",
+        "timeAtIntensity": "Zeit bei Intensität",
+        "target": "Ziel",
+        "avgPace": "Durchschn. Pace"
+    },
+    "steps": {
+        "title": "Schritte:",
+        "run": {
+            "between": "Laufe in einer Pace zwischen {low} und {high} pro {unit} für {duration}",
+            "noFaster": "Laufe in einer Pace nicht schneller als {high} pro {unit} für {duration}"
+        },
+        "ride": {
+            "between": "Fahre mit einer Leistung zwischen {low} und {high} für {duration}",
+            "noHigher": "Fahre mit einer Leistung nicht höher als {high} für {duration}"
+        },
+        "units": {
+            "imperial": "Meile",
+            "metric": "km"
+        }
+    }
+}

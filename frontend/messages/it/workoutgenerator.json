@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Workout Generator AI Endurance Gratuito | {partner}",
+        "description": "La potenza dell'IA, gratuita per il tuo allenamento. Prova {partner} e inizia a creare allenamenti su misura per la tua fisiologia e i tuoi obiettivi unici."
+    },
+    "description": {
+        "title": "Workout Generator AI Endurance Gratuito per Corsa e Ciclismo",
+        "subtitle": "Genera un allenamento Endurance gratuito di corsa o ciclismo usando l'intelligenza artificiale. Descrivi il tuo allenamento a parole e AI Endurance userà la tecnologia basata su GPT per generare un allenamento per te. Puoi modificare l'allenamento quante volte vuoi, descrivendo come desideri cambiarlo. Quando sei soddisfatto del tuo allenamento, puoi esportarlo sulla tua piattaforma di allenamento preferita."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "Tramite Prompt",
+            "stress": "Tramite Stress"
+        }
+    },
+    "formTitle": "Workout Generator AI Endurance Gratuito",
+    "displayTitle": "Il tuo allenamento",
+    "setZones": "Imposta le tue zone:",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Limite superiore Endurance"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Limite superiore Tempo"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Limite superiore Threshold"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "Limite superiore VO2Max"
+        }
+    },
+    "units": {
+        "label": "Unità",
+        "imperial": "Imperiale ({unit})",
+        "metric": "Metrico ({unit})"
+    },
+    "suggestions": {
+        "title": "Suggerimenti di Prompt:",
+        "strength": {
+            "hipWithEquipment": "allenamento a basso impatto per il potenziamento delle anche (con attrezzi da palestra)",
+            "hipWithoutEquipment": "allenamento a basso impatto per il potenziamento delle anche (senza attrezzi da palestra)",
+            "triathlete": "allenamento di 30 min per massimizzare la forza per triatleti",
+            "core": "allenamento per il core per corridori"
+        },
+        "run": {
+            "tempo": "allenamento Tempo intenso",
+            "vo2max": "allenamento VO2Max di 30 min",
+            "threshold": "allenamento Threshold moderato"
+        },
+        "ride": {
+            "tempo": "allenamento Tempo intenso",
+            "vo2max": "allenamento VO2Max di 30 min",
+            "threshold": "allenamento Threshold moderato"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Modifica allenamento:",
+            "describe": "Descrivi il tuo allenamento:"
+        },
+        "label": {
+            "change": "Come vuoi modificare il tuo allenamento?",
+            "describe": "Che tipo di allenamento stai cercando?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Modifica allenamento:",
+            "describe": "Descrivi il tuo allenamento:"
+        },
+        "label": {
+            "change": "Come vuoi modificare il tuo allenamento?",
+            "describe": "Che tipo di allenamento stai cercando?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Seleziona l'intensità del tuo allenamento:"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Inserisci il numero di intervalli per il tuo allenamento (opzionale):"
+        },
+        "timeAtIntensity": {
+            "title": "Inserisci il tempo desiderato ad intensità per il tuo allenamento:"
+        },
+        "ess": {
+            "title": "Inserisci lo Stress Score desiderato per il tuo allenamento:"
+        }
+    },
+    "submitButton": {
+        "create": "Crea Allenamento!",
+        "reset": "Reset"
+    },
+    "exportWorkout": {
+        "title": "Esporta su:",
+        "signup": "Registrati!",
+        "appleWatch": {
+            "text": "Apple Watch: Collega il tuo",
+            "link": "Watchletic",
+            "suffix": "account ad AI Endurance, poi recupera gli allenamenti in Watchletic."
+        },
+        "messages": {
+            "success": "Allenamento esportato con successo!",
+            "error": "Errore durante l'esportazione dell'allenamento"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Tempo totale",
+        "estDistance": "Distanza stimata",
+        "timeAtIntensity": "Tempo ad intensità",
+        "target": "Obiettivo",
+        "avgPace": "Pace medio"
+    },
+    "steps": {
+        "title": "Fasi:",
+        "run": {
+            "between": "Corri a un Pace tra {low} e {high} al {unit} per {duration}",
+            "noFaster": "Corri a un Pace non più veloce di {high} al {unit} per {duration}"
+        },
+        "ride": {
+            "between": "Pedala a una Power tra {low} e {high} per {duration}",
+            "noHigher": "Pedala a una Power non superiore a {high} per {duration}"
+        },
+        "units": {
+            "imperial": "miglio",
+            "metric": "km"
+        }
+    }
+}

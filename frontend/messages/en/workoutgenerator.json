@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Free AI Endurance Workout Generator | {partner}",
+        "description": "The power of AI, free for your training. Give {partner} a shot and start creating workouts that are tailored to your unique physiology and goals."
+    },
+    "description": {
+        "title": "Free AI Endurance Running And Cycling Workout Generator",
+        "subtitle": "Generate a free endurance running or cycling workout using artificial intelligence. Describe your workout in words and AI Endurance will use GPT-powered technology to generate a workout for you. You may amend the workout as many times as you'd like by describing how you'd like to change it. When you are happy with your workout, you can export it to your favorite training platform."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "By Prompt",
+            "stress": "By Stress"
+        }
+    },
+    "formTitle": "Free AI Endurance Workout Generator",
+    "displayTitle": "Your Workout",
+    "setZones": "Set Your Zones:",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Endurance ceiling"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Tempo ceiling"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Threshold ceiling"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "VO2Max ceiling"
+        }
+    },
+    "units": {
+        "label": "Units",
+        "imperial": "Imperial ({unit})",
+        "metric": "Metric ({unit})"
+    },
+    "suggestions": {
+        "title": "Prompt suggestions:",
+        "strength": {
+            "hipWithEquipment": "low-impact hip strengthening workout (with gym equipment)",
+            "hipWithoutEquipment": "low-impact hip strengthening workout (without gym equipment)",
+            "triathlete": "30 min workout to maximize strength for triathletes",
+            "core": "core workout for runners"
+        },
+        "run": {
+            "tempo": "hard tempo workout",
+            "vo2max": "30 min VO2Max workout",
+            "threshold": "moderate threshold workout"
+        },
+        "ride": {
+            "tempo": "hard tempo workout",
+            "vo2max": "30 min VO2Max workout",
+            "threshold": "moderate threshold workout"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Change workout:",
+            "describe": "Describe your workout:"
+        },
+        "label": {
+            "change": "How do you want to change your workout?",
+            "describe": "What kind of workout are you looking for?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Change workout:",
+            "describe": "Describe your workout:"
+        },
+        "label": {
+            "change": "How do you want to change your workout?",
+            "describe": "What kind of workout are you looking for?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Select the intensity of your workout:"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Enter the number of intervals for your workout (optional):"
+        },
+        "timeAtIntensity": {
+            "title": "Enter the desired time at intensity for your workout:"
+        },
+        "ess": {
+            "title": "Enter the desired stress score for your workout:"
+        }
+    },
+    "submitButton": {
+        "create": "Create Workout!",
+        "reset": "Reset"
+    },
+    "exportWorkout": {
+        "title": "Export To:",
+        "signup": "Sign Up!",
+        "appleWatch": {
+            "text": "Apple Watch: Link your",
+            "link": "Watchletic",
+            "suffix": "account to AI Endurance, then fetch the workouts in Watchletic."
+        },
+        "messages": {
+            "success": "Workout exported successfully!",
+            "error": "Error exporting workout"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Total Time",
+        "estDistance": "Est. Distance",
+        "timeAtIntensity": "Time At Intensity",
+        "target": "Target",
+        "avgPace": "Avg. Pace"
+    },
+    "steps": {
+        "title": "Steps:",
+        "run": {
+            "between": "Run at a pace between {low} and {high} per {unit} for {duration}",
+            "noFaster": "Run at a pace no faster than {high} per {unit} for {duration}"
+        },
+        "ride": {
+            "between": "Ride at a power between {low} and {high} for {duration}",
+            "noHigher": "Ride at a power no higher than {high} for {duration}"
+        },
+        "units": {
+            "imperial": "mile",
+            "metric": "km"
+        }
+    }
+}

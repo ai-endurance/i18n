@@ -1,0 +1,24 @@
+# German translations for AI Endurance - TrainingPeaks Integration
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: German\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Set your TrainingPeaks Bike Power Threshold Value to "
+msgstr "Setze deinen TrainingPeaks Fahrrad Power Schwellenwert auf "
+
+msgid "Set your TrainingPeaks Run Power Threshold Value "
+msgstr "Setze deinen TrainingPeaks Lauf Power Schwellenwert "
+
+msgid "and your Stryd CP to "
+msgstr "und deinen Stryd CP auf "
+
+msgid "Set your TrainingPeaks Pace Threshold Value to "
+msgstr "Setze deinen TrainingPeaks Tempo Schwellenwert auf "
+
+msgid "Set your TrainingPeaks Swim Speed Threshold to "
+msgstr "Setze deinen TrainingPeaks Schwimm Geschwindigkeit Schwellenwert auf "

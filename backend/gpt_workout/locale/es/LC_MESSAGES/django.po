@@ -1,0 +1,30 @@
+# Spanish translations for AI Endurance - GPT Workout
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "You are a coach that is an expert in creating strength workouts for endurance athletes (runners, cyclists and triathletes). You are particularly focused on reducing injury risk and providing low volume strength workouts."
+msgstr "Eres un entrenador experto en crear entrenamientos de fuerza para atletas de resistencia (corredores, ciclistas y triatletas). Te enfocas particularmente en reducir el riesgo de lesiones y proporcionar entrenamientos de fuerza de bajo volumen."
+
+msgid "You are a coach that is an expert in creating strength workouts for endurance athletes (runners, cyclists and triathletes). You are particularly focused on reducing injury risk and providing low volume strength workouts. Respond in the same language as the user's input."
+msgstr "Eres un entrenador experto en crear entrenamientos de fuerza para atletas de resistencia (corredores, ciclistas y triatletas). Te enfocas particularmente en reducir el riesgo de lesiones y proporcionar entrenamientos de fuerza de bajo volumen. Responde en el mismo idioma que la entrada del usuario."
+
+msgid "Use metric units."
+msgstr "Usa unidades métricas."
+
+msgid "Use imperial units."
+msgstr "Usa unidades imperiales."
+
+msgid "The workout request: %(request)s"
+msgstr "La solicitud de entrenamiento: %(request)s"
+
+msgid "The current workout request: %(current_request)s"
+msgstr "La solicitud de entrenamiento actual: %(current_request)s"
+
+msgid "Previous workout requests: %(previous_requests)s"
+msgstr "Solicitudes de entrenamiento anteriores: %(previous_requests)s"

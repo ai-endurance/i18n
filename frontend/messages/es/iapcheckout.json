@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "title": "Pago de Apple",
+        "description": "Pago"
+    },
+    "subscriptionSelectForm": {
+        "title": "Realiza el pago para seguir usando AI Endurance",
+        "manageSubscription": "Gestiona tu suscripción en el sitio web de AI Endurance",
+        "planStatus": {
+            "notSubscribed": "Aún no estás suscrito a ningún plan.",
+            "yearlySubscribed": "Estás suscrito al plan anual. Si compras una nueva suscripción, la anterior se cancelará y será reemplazada por la nueva.",
+            "monthlySubscribed": "Estás suscrito al plan mensual. Si compras una nueva suscripción, la anterior se cancelará y será reemplazada por la nueva."
+        },
+        "errors": {
+            "processingError": "Hubo un error al procesar tu suscripción. Por favor, inténtalo de nuevo.",
+            "purchaseCanceled": "Compra cancelada."
+        },
+        "links": {
+            "privacyPolicy": "Política de privacidad",
+            "termsOfUse": "Términos de uso (EULA)"
+        }
+    },
+    "subscriptionCard": {
+        "monthly": "Facturado mensualmente",
+        "yearly": "Facturado anualmente",
+        "perMonth": "al mes",
+        "perYear": "al año",
+        "save17": "¡Ahorra un 17%!",
+        "purchase": "Comprar",
+        "bestValue": "¡Mejor oferta!",
+        "plan": "Plan"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Termini",
+        "privacy": "Privacy"
+    },
+    "confirmationPopup": {
+        "yes": "Sì",
+        "no": "No"
+    },
+    "expiredDisplay": {
+        "title": "Non far scadere la tua forma fisica! <br />Sottoscrivi un piano per continuare a fare progressi.",
+        "cta": "Inizia ora!"
+    },
+    "infoBox": {
+        "defaultTitle": "Da sapere...",
+        "done": "Fatto"
+    }
+}

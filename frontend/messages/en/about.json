@@ -1,0 +1,22 @@
+{
+    "banner": {
+        "title": "What AI Endurance Is About",
+        "description": "At AI Endurance, we believe that everyone deserves a modern method for endurance training. As such, we provide a more personalized, scientific approach to help athletes of all skill levels unlock new potential. And we're doing it at a fraction of the cost of traditional coaching. We specialise in artificial intelligence and we're here to bring it to the forefront of training. We're excited to simplify training and break the mold of \"one size fits all\" training plans. We strive to create training plans that are responsive, individualized and easy to follow.",
+        "ctaButton": "Get Started!"
+    },
+    "team": {
+        "markus": {
+            "title": "Markus Rummel",
+            "text": "Hi, I'm Markus - the founder of AI Endurance and a passionate triathlete (2:06 Olympic distance, 4:34 Half-Ironman), runner and cyclist myself. I'm also a particle physicist, who worked at world leading institutions such as University of Oxford. Ever since I started working with machine learning methods in my physics research, I've been wondering how to leverage these methods to come up with a more data-driven, more predictive and optimized training routine. This is what AI Endurance is about: utilizing the great potential of machine learning and the big data we are collecting everyday in our training to address the challenge of selecting the 'right' training for every athlete with their very individual response to training.",
+            "button": "Learn About Markus"
+        },
+        "chris": {
+            "title": "Chris St. Jean",
+            "text": "Hey! I'm Chris, co-founder of AI Endurance and ultramarathon runner. I'm based in Colorado Springs, CO, with the beautiful Rocky Mountains as my playground. I specialize in 100-mile trail events, but the farthest I've done is 250 miles. I joined AI Endurance to bring my passion for running and my experience in software engineering together. My expertise is in building beautiful UI's, easy-to-use dashboards, and letting you - our users - have the best time possible using our platform. What I want more than anything is for people to have better access to our beautiful world of endurance sports, because it has so profoundly changed my life for the better. I'm excited to be a part of the AI Endurance team and to help you reach your goals!",
+            "button": "Learn About Chris"
+        }
+    },
+    "partners": {
+        "title": "Our Partners"
+    }
+}

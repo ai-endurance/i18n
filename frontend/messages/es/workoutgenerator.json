@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Generador de entrenamientos de Endurance con IA gratuito | {partner}",
+        "description": "El poder de la IA, gratis para tu entrenamiento. Prueba {partner} y empieza a crear entrenamientos adaptados a tu fisiología y objetivos únicos."
+    },
+    "description": {
+        "title": "Generador gratuito de entrenamientos de Endurance con IA para carrera y ciclismo",
+        "subtitle": "Genera un entrenamiento gratuito de Endurance para carrera o ciclismo usando inteligencia artificial. Describe tu entrenamiento con palabras y AI Endurance usará tecnología GPT para generar un entrenamiento para ti. Puedes modificar el entrenamiento tantas veces como quieras describiendo cómo te gustaría cambiarlo. Cuando estés satisfecho con tu entrenamiento, puedes exportarlo a tu plataforma de entrenamiento favorita."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "Por Prompt",
+            "stress": "Por Stress"
+        }
+    },
+    "formTitle": "Generador de entrenamientos de Endurance con IA gratuito",
+    "displayTitle": "Tu entrenamiento",
+    "setZones": "Configura tus zonas:",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Límite de Endurance"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Límite de Tempo"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Límite de Threshold"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "Límite de VO2Max"
+        }
+    },
+    "units": {
+        "label": "Unidades",
+        "imperial": "Imperial ({unit})",
+        "metric": "Métrico ({unit})"
+    },
+    "suggestions": {
+        "title": "Sugerencias de Prompt:",
+        "strength": {
+            "hipWithEquipment": "entrenamiento de fortalecimiento de cadera de bajo impacto (con equipo de gimnasio)",
+            "hipWithoutEquipment": "entrenamiento de fortalecimiento de cadera de bajo impacto (sin equipo de gimnasio)",
+            "triathlete": "entrenamiento de 30 min para maximizar la fuerza para triatletas",
+            "core": "entrenamiento de core para corredores"
+        },
+        "run": {
+            "tempo": "entrenamiento de Tempo duro",
+            "vo2max": "entrenamiento de VO2Max de 30 min",
+            "threshold": "entrenamiento de Threshold moderado"
+        },
+        "ride": {
+            "tempo": "entrenamiento de Tempo duro",
+            "vo2max": "entrenamiento de VO2Max de 30 min",
+            "threshold": "entrenamiento de Threshold moderado"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Cambiar entrenamiento:",
+            "describe": "Describe tu entrenamiento:"
+        },
+        "label": {
+            "change": "¿Cómo quieres cambiar tu entrenamiento?",
+            "describe": "¿Qué tipo de entrenamiento buscas?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Cambiar entrenamiento:",
+            "describe": "Describe tu entrenamiento:"
+        },
+        "label": {
+            "change": "¿Cómo quieres cambiar tu entrenamiento?",
+            "describe": "¿Qué tipo de entrenamiento buscas?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Selecciona la intensidad de tu entrenamiento:"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Introduce el número de intervalos para tu entrenamiento (opcional):"
+        },
+        "timeAtIntensity": {
+            "title": "Introduce el tiempo deseado en intensidad para tu entrenamiento:"
+        },
+        "ess": {
+            "title": "Introduce el Stress Score deseado para tu entrenamiento:"
+        }
+    },
+    "submitButton": {
+        "create": "¡Crear entrenamiento!",
+        "reset": "Reiniciar"
+    },
+    "exportWorkout": {
+        "title": "Exportar a:",
+        "signup": "¡Regístrate!",
+        "appleWatch": {
+            "text": "Apple Watch: Vincula tu",
+            "link": "Watchletic",
+            "suffix": "cuenta a AI Endurance, luego obtén los entrenamientos en Watchletic."
+        },
+        "messages": {
+            "success": "¡Entrenamiento exportado con éxito!",
+            "error": "Error al exportar el entrenamiento"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Tiempo total",
+        "estDistance": "Distancia est.",
+        "timeAtIntensity": "Tiempo en intensidad",
+        "target": "Objetivo",
+        "avgPace": "Pace promedio"
+    },
+    "steps": {
+        "title": "Pasos:",
+        "run": {
+            "between": "Corre a un Pace entre {low} y {high} por {unit} durante {duration}",
+            "noFaster": "Corre a un Pace no más rápido de {high} por {unit} durante {duration}"
+        },
+        "ride": {
+            "between": "Pedalea a una Power entre {low} y {high} durante {duration}",
+            "noHigher": "Pedalea a una Power no superior a {high} durante {duration}"
+        },
+        "units": {
+            "imperial": "milla",
+            "metric": "km"
+        }
+    }
+}

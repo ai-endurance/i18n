@@ -1,0 +1,67 @@
+# Portuguese translations for AI Endurance - Training Engine
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "You missed a workout. Do you want us to adapt your plan?"
+msgstr "Você perdeu um treino. Quer que adaptemos seu plano?"
+
+msgid "You decided to skip a future workout. Do you want us to adapt your plan?"
+msgstr "Você decidiu pular um treino futuro. Quer que adaptemos seu plano?"
+
+msgid "Do you want us to adapt your plan?"
+msgstr "Quer que adaptemos seu plano?"
+
+msgid "We will move the missed workout '%(title)s' originally scheduled for %(original_date)s to %(new_date)s."
+msgstr "Moveremos o treino perdido '%(title)s' originalmente agendado para %(original_date)s para %(new_date)s."
+
+msgid "We will move the skipped workout '%(title)s' originally scheduled for %(original_date)s to %(new_date)s."
+msgstr "Moveremos o treino pulado '%(title)s' originalmente agendado para %(original_date)s para %(new_date)s."
+
+msgid "We will switch the missed workout '%(title)s' with the endurance workout '%(endurance_title)s' originally scheduled for %(date)s."
+msgstr "Trocaremos o treino perdido '%(title)s' com o treino de Endurance '%(endurance_title)s' originalmente agendado para %(date)s."
+
+msgid "We will switch the skipped workout '%(title)s' with the endurance workout '%(endurance_title)s' originally scheduled for %(date)s."
+msgstr "Trocaremos o treino pulado '%(title)s' com o treino de Endurance '%(endurance_title)s' originalmente agendado para %(date)s."
+
+msgid "We will increase the volume of '%(title)s' on %(date)s by %(percentage)s%%."
+msgstr "Aumentaremos o volume de '%(title)s' em %(date)s em %(percentage)s%%."
+
+msgid "Your recovery is lower than expected."
+msgstr "Seu Recovery está menor que o esperado."
+
+msgid "Your sentiment towards exercising is not ideal."
+msgstr "Seu sentimento em relação ao exercício não está ideal."
+
+msgid "Your body temperature is elevated."
+msgstr "Sua temperatura corporal está elevada."
+
+msgid "Do you want to skip today's workout?"
+msgstr "Você quer pular o treino de hoje?"
+
+msgid "We will delete today's workout '%(title)s'."
+msgstr "Excluiremos o treino de hoje '%(title)s'."
+
+msgid "We recommend an Endurance %(act_type)s instead."
+msgstr "Recomendamos um %(act_type)s de Endurance em vez disso."
+
+msgid "We will replace today's workout '%(title)s' with a %(duration)s easy Endurance %(act_type)s."
+msgstr "Substituiremos o treino de hoje '%(title)s' por um %(act_type)s de Endurance fácil de %(duration)s."
+
+msgid "We recommend reducing the duration of today's workout."
+msgstr "Recomendamos reduzir a duração do treino de hoje."
+
+msgid "We will change today's workout '%(title)s' to a %(duration)s easy Endurance %(act_type)s."
+msgstr "Mudaremos o treino de hoje '%(title)s' para um %(act_type)s de Endurance fácil de %(duration)s."
+
+msgid "Your recovery is low. Stay towards the lower end of your zones."
+msgstr "Seu Recovery está baixo. Mantenha-se na extremidade inferior de suas zonas."

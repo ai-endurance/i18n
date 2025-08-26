@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Calendario",
+        "description": "Gestisci il tuo piano di allenamento con il nostro calendario interattivo."
+    },
+    "layout": {
+        "title": "Calendario"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Poiché stai usando la prova gratuita, mostriamo solo le prime 8 settimane del tuo piano di allenamento.",
+        "getTheWholeThing": "Ottieni l'accesso completo"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Torna al piano precedente",
+        "confirmationText": "Sei sicuro di voler tornare al tuo piano precedente? Questa azione eliminerà il tuo piano attuale.",
+        "successMessage": "Tornato al piano precedente!",
+        "errorMessage": "Impossibile tornare al piano precedente!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Salta allenamento",
+        "confirmationText": "Sei sicuro di voler saltare questo allenamento? L'azione non può essere annullata. Puoi anche riordinare gli allenamenti cliccando e trascinandoli.",
+        "successMessage": "Allenamento saltato",
+        "errorMessage": "Impossibile saltare l'allenamento"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Segna come completato",
+        "markAsNotCompleted": "Segna come non completato",
+        "successCompleted": "Allenamento segnato come completato",
+        "successNotCompleted": "Allenamento segnato come non completato",
+        "errorMessage": "Impossibile segnare l'allenamento"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Completato",
+        "skipped": "Saltato",
+        "done": "Fatto"
+    },
+    "commentButton": {
+        "dialogTitle": "Il tuo feedback per il {date}",
+        "done": "Fatto"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Data",
+            "distance": "Distanza",
+            "duration": "Durata",
+            "calories": "Calorie"
+        },
+        "buttons": {
+            "deleteActivity": "Elimina attività",
+            "analysis": "Analisi",
+            "done": "Fatto"
+        },
+        "confirmationText": "Sei sicuro di voler eliminare questa attività? L'azione non può essere annullata.",
+        "successMessage": "Attività eliminata con successo",
+        "errorMessage": "Errore durante l'eliminazione dell'attività"
+    },
+    "workoutDetails": {
+        "date": "Data",
+        "totalTime": "Tempo totale",
+        "timeAtIntensity": "Tempo in intensità",
+        "estDistance": "Distanza stimata",
+        "avgPower": "Power medio",
+        "avgPace": "Pace medio",
+        "order": "Ordine",
+        "estTime": "Tempo stimato",
+        "distance": "Distanza"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Braccia/spalle",
+            "coreSoreness": "Indolenzimento core",
+            "legSoreness": "Indolenzimento gambe",
+            "soreness": "Indolenzimento"
+        },
+        "labels": {
+            "yourCheckIn": "Il tuo check-in:",
+            "aiCoachFeedback": "Feedback del Coach AI:"
+        },
+        "buttons": {
+            "deleteFeedback": "Elimina feedback"
+        },
+        "confirmationText": "Sei sicuro di voler eliminare questo feedback? L'azione non può essere annullata.",
+        "successMessage": "Feedback eliminato con successo",
+        "errorMessages": {
+            "deleteError": "Errore durante l'eliminazione del feedback",
+            "fetchError": "Errore nel recupero dei dettagli del feedback"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "ESS totale",
+        "totalDuration": "Durata totale",
+        "runEss": "ESS Corsa",
+        "runDuration": "Durata Corsa",
+        "rideEss": "ESS Ciclismo",
+        "rideDuration": "Durata Ciclismo",
+        "swimEss": "ESS Nuoto",
+        "swimDistance": "Distanza Nuoto",
+        "noDataMessage": "Non hai dati per questa settimana!"
+    },
+    "labels": {
+        "calendar": "Puoi spostare gli allenamenti pianificati tramite trascinamento.",
+        "scheduledWorkout": "Puoi segnare o deselezionare un allenamento come completato. Se vuoi eliminare un allenamento dal tuo piano, puoi cliccare su 'Salta allenamento'. Se salti un allenamento, ne prendiamo nota e potremmo suggerire modifiche al tuo piano per mantenerti in linea con il tuo obiettivo. Queste modifiche vengono comunicate tramite le nostre notifiche."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "title": "Fale Conosco | {partner}",
+        "description": "Entre em contato diretamente com {partner} se tiver alguma dúvida e precisar de ajuda."
+    },
+    "display": {
+        "title": "Tem alguma dúvida? Envie-nos uma mensagem!",
+        "imageAlt": "Contato"
+    },
+    "form": {
+        "fields": {
+            "firstName": "Nome",
+            "lastName": "Sobrenome",
+            "email": "E-mail",
+            "message": "Mensagem"
+        },
+        "submit": "Enviar",
+        "success": "Obrigado por entrar em contato com {partner}!"
+    }
+}

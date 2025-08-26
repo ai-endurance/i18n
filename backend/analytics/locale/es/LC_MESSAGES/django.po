@@ -1,0 +1,75 @@
+# Spanish translations for AI Endurance - Analytics Notifications
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "You may want to request a new plan"
+msgstr "Puede que quieras solicitar un nuevo plan"
+
+msgid "Our data indicates you might not have been following your current plan. We give you the option to request a new plan that might be more optimal for where your fitness is at now."
+msgstr "Nuestros datos indican que es posible que no hayas estado siguiendo tu plan actual. Te damos la opción de solicitar un nuevo plan que podría ser más óptimo para donde está tu estado físico ahora."
+
+msgid "You have done too much %(zone)s work. We recommend an Endurance %(act_type)s instead."
+msgstr "Has hecho demasiado trabajo de %(zone)s. Recomendamos un %(act_type)s de Endurance en su lugar."
+
+msgid "We will replace the workout '%(title)s' on %(date)s with a %(duration)s Endurance %(act_type)s."
+msgstr "Reemplazaremos el entrenamiento '%(title)s' del %(date)s con un %(act_type)s de Endurance de %(duration)s."
+
+msgid "%(intro)s, your zones are significantly different from the zones your current plan was based on. Request a new plan that optimally incorporates your updated zones."
+msgstr "%(intro)s, tus zonas son significativamente diferentes de las zonas en las que se basó tu plan actual. Solicita un nuevo plan que incorpore óptimamente tus zonas actualizadas."
+
+msgid "You may want to update your cycling zones"
+msgstr "Puede que quieras actualizar tus zonas de ciclismo"
+
+msgid "You may want to update your running zones"
+msgstr "Puede que quieras actualizar tus zonas de carrera"
+
+msgid "You may want to update your zones"
+msgstr "Puede que quieras actualizar tus zonas"
+
+msgid "%(intro)s, we recommend the following zone updates:\n"
+msgstr "%(intro)s, recomendamos las siguientes actualizaciones de zonas:\n"
+
+msgid "%(zone)s: less than %(new_value)s (currently %(current_value)s)\n"
+msgstr "%(zone)s: menos de %(new_value)s (actualmente %(current_value)s)\n"
+
+msgid "Based on your recent FTP test (%(ftp_value)s W)"
+msgstr "Basado en tu prueba FTP reciente (%(ftp_value)s W)"
+
+msgid "Based on your recent %(cp_type)s (%(cp_value)s W)"
+msgstr "Basado en tu %(cp_type)s reciente (%(cp_value)s W)"
+
+msgid "Based on a recent test performance of %(performance)s for %(duration)s minutes"
+msgstr "Basado en un rendimiento de prueba reciente de %(performance)s durante %(duration)s minutos"
+
+msgid "Based on your recent HRV data"
+msgstr "Basado en tus datos HRV recientes"
+
+msgid "Your training plan has less volume than you requested. We can only accurately predict performance reasonably close to your historical data and you have requested a {percentage}% too high training time for this constraint. If you want to fix this you can go to Account and reduce requested training time or increase extrapolation dial. If you have long periods without any data, these might drag down your average. You can exclude all but recent data under Exclude Import Data in the dashboard."
+msgstr "Tu plan de entrenamiento tiene menos volumen del que solicitaste. Solo podemos predecir con precisión el rendimiento razonablemente cerca de tus datos históricos y has solicitado un {percentage}% demasiado alto de tiempo de entrenamiento para esta restricción. Si quieres solucionarlo, puedes ir a Account y reducir el tiempo de entrenamiento solicitado o aumentar el dial de extrapolación. Si tienes períodos largos sin datos, estos podrían arrastrar hacia abajo tu promedio. Puedes excluir todos los datos excepto los recientes en Exclude Import Data en el Dashboard."
+
+msgid "Your training plan has more volume than you requested. We can only accurately predict performance reasonably close to your historical data and you have requested a {percentage}% too low training time for this constraint. If you want to fix this go to Account and decrease requested training time or increase extrapolation dial."
+msgstr "Tu plan de entrenamiento tiene más volumen del que solicitaste. Solo podemos predecir con precisión el rendimiento razonablemente cerca de tus datos históricos y has solicitado un {percentage}% demasiado bajo de tiempo de entrenamiento para esta restricción. Si quieres solucionarlo, ve a Account y disminuye el tiempo de entrenamiento solicitado o aumenta el dial de extrapolación."
+
+msgid "Since we could not find enough activity data to predict your Endurance threshold performance, we changed your goal from %(old_goal)s to %(new_goal)s."
+msgstr "Dado que no pudimos encontrar suficientes datos de actividad para predecir tu rendimiento de umbral de Endurance, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
+
+msgid "Since we could not find enough activity data to predict your Endurance threshold performance, we deleted the goal %(goal)s."
+msgstr "Dado que no pudimos encontrar suficientes datos de actividad para predecir tu rendimiento de umbral de Endurance, eliminamos el objetivo %(goal)s."
+
+msgid "Since we could not find enough running power data or you are not using running power any longer, we changed your goal from %(old_goal)s to %(new_goal)s."
+msgstr "Dado que no pudimos encontrar suficientes datos de Running Power o ya no estás usando Running Power, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
+
+msgid "Since we could not find enough running power data or you are not using running power, we deleted the goal %(goal)s."
+msgstr "Dado que no pudimos encontrar suficientes datos de Running Power o no estás usando Running Power, eliminamos el objetivo %(goal)s."
+
+msgid "Since you are now using running power data, we changed your goal from %(old_goal)s to %(new_goal)s."
+msgstr "Dado que ahora estás usando datos de Running Power, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
+
+msgid "Since you are now using running power data, we deleted the goal %(goal)s."
+msgstr "Dado que ahora estás usando datos de Running Power, eliminamos el objetivo %(goal)s."

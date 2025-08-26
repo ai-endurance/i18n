@@ -1,0 +1,118 @@
+{
+    "connectApps": {
+        "title": "Verbinde deine Apps, um das Beste aus deinem Training herauszuholen",
+        "continue": "Weiter",
+        "iosMessage": "Um die Anmeldung abzuschließen, nutze bitte die",
+        "webVersion": "Webversion von AI Endurance"
+    },
+    "chooseDiscipline": {
+        "title": "Welcher Athletentyp bist du?",
+        "disciplines": {
+            "runner": "Läufer",
+            "cyclist": "Radfahrer",
+            "triathlete": "Triathlet"
+        },
+        "continue": "Weiter"
+    },
+    "athleteInformation": {
+        "title": "Wie viel Zeit hast du pro Woche zum Trainieren?",
+        "selectDiscipline": "Bitte wähle deine Sportdisziplin aus!",
+        "goBack": "Zurück",
+        "volumeDescription": "Mit welchem Umfang möchtest du trainieren? Dein Modell wird darauf hinarbeiten, diesen Umfang zu erreichen, und dabei sicherstellen, dass du nicht zu viel zu früh machst.",
+        "hoursPerWeek": {
+            "run": "Wie viele Stunden pro Woche hast du Zeit zum Laufen?",
+            "bike": "Wie viele Stunden pro Woche hast du Zeit zum Radfahren?",
+            "swim": "Wie viele Stunden pro Woche hast du Zeit zum Schwimmen?",
+            "ride": "Wie viele Stunden pro Woche hast du Zeit zum Radfahren?"
+        },
+        "gender": "Geschlecht",
+        "birthYear": "Geburtsjahr",
+        "weight": "Gewicht (kg)",
+        "invalidBirthYear": "Bitte gib ein gültiges Geburtsjahr ein",
+        "genderOptions": {
+            "male": "Männlich",
+            "female": "Weiblich",
+            "other": "Nicht-binär"
+        },
+        "continue": "Weiter",
+        "useRunningPower": "Running Power verwenden?"
+    },
+    "disciplineTimes": {
+        "title": "Wie ist dein aktuelles Fitnesslevel?",
+        "selectDiscipline": "Bitte wähle deine Sportdisziplin aus!",
+        "selectEvent": "Bitte wähle dein Event aus!",
+        "goBack": "Zurück",
+        "finish": "Abschließen"
+    },
+    "validation": {
+        "noUserType": "Kein Benutzertyp ausgewählt",
+        "noBirthYear": "Kein Geburtsjahr eingegeben",
+        "noWeight": "Kein Gewicht eingegeben",
+        "noHoursPerWeek": "Keine Stunden pro Woche eingegeben",
+        "noEventDate": "Kein Eventdatum ausgewählt",
+        "noEventType": "Kein Eventtyp ausgewählt",
+        "powerValueNotInRange": "Power-Wert liegt nicht im gültigen Bereich",
+        "pace5kNotInRange": "5k Pace-Wert liegt nicht im gültigen Bereich",
+        "pace10kNotInRange": "10k Pace-Wert liegt nicht im gültigen Bereich"
+    },
+    "appCard": {
+        "disconnectConfirm": "Bist du sicher, dass du {title} trennen möchtest?",
+        "connectedTooltip": "{title} ist verbunden! Klicken, um zu trennen",
+        "disconnectSuccess": {
+            "strava": "Strava-Daten erfolgreich getrennt!",
+            "polar": "Polar erfolgreich getrennt!",
+            "oura": "Oura-Daten erfolgreich getrennt!",
+            "intervalsicu": "Intervals.icu erfolgreich getrennt!",
+            "wahoo": "Wahoo erfolgreich getrennt!",
+            "nolio": "Nolio erfolgreich getrennt!",
+            "suunto": "Suunto-Daten erfolgreich getrennt!",
+            "coros": "Coros erfolgreich getrennt!",
+            "trainingpeaks": "TrainingPeaks-Daten erfolgreich getrennt!",
+            "whoop": "Whoop erfolgreich getrennt!",
+            "garmin": "Garmin {type}-Daten erfolgreich getrennt!"
+        }
+    },
+    "labels": {
+        "ftp": "FTP (Functional Threshold Power) ist die höchste Leistung, die du eine Stunde lang im Gleichgewichtszustand aufrechterhalten kannst.",
+        "5k": "Die 5k-Zeit ist die Zeit, die du benötigst, um 5 Kilometer zu laufen.",
+        "10k": "Die 10k-Zeit ist die Zeit, die du benötigst, um 10 Kilometer zu laufen."
+    },
+    "disciplineMap": {
+        "ftp": "Aktuelle FTP (W)",
+        "5k": "Aktuelle 5k-Zeit (mm:ss)",
+        "10k": "Aktuelle 10k-Zeit (mm:ss)",
+        "halfMarathon": "Aktuelle Halbmarathon-Zeit (h:mm:ss)",
+        "marathon": "Aktuelle Marathon-Zeit (h:mm:ss)"
+    },
+    "error": {
+        "somethingWentWrong": "Etwas ist schiefgelaufen!",
+        "returnToDashboard": "Zurück zum Dashboard"
+    },
+    "metadata": {
+        "title": "Onboarding",
+        "description": "Lass uns deine Daten eingeben, um deine Anmeldung abzuschließen"
+    },
+    "eventInfo": {
+        "title": "Wofür trainierst du?",
+        "continue": "Weiter",
+        "selectDiscipline": "Bitte wähle deine Sportdisziplin aus!",
+        "goBack": "Zurück",
+        "primaryEventQuestion": "Was ist das Hauptevent, für das du trainierst?",
+        "event": "Event",
+        "eventDateQuestion": "Wann ist das Datum deines nächsten Hauptevents?",
+        "infoTitle": "Was bedeuten diese Optionen?",
+        "close": "Schließen",
+        "details": {
+            "suffix": "Nach deiner Erstanmeldung kannst du auch eine ganze Saison mit B- und C-Events planen. Du kannst auch deine eigenen Zielevents anpassen und für jedes Ziel individuelle Gewichtungen konfigurieren.",
+            "cyclist": "Optimiere deine FTP (Functional Threshold Power), Critical Cycling Power oder deine Ultra Endurance Power – deine Leistung bei DFA a₁ = 0,75, deiner aeroben HRV-Schwelle.",
+            "runnerPower": "Optimiere deine Critical Running Power oder deine Ultra Endurance Power – deine Leistung bei DFA a₁ = 0,75, deiner aeroben HRV-Schwelle.",
+            "runnerPace": "Wähle von 5k bis zur Marathondistanz. Oder optimiere deine Ultra Endurance Pace – deine Pace bei DFA a₁ = 0,75, deiner aeroben HRV-Schwelle.",
+            "triathlete": "Wähle von der Sprintdistanz bis zur vollen Ironman-Distanz. Für die Sprint- und Olympische Distanz optimieren wir deine Critical Cycling Power und deine {runTextSprintOlympic}. Für den Halb-Ironman und Ironman optimieren wir deine Aerobic Cycling Power und deine {runTextHalfIronman}.",
+            "selectDiscipline": "Bitte wähle eine Disziplin aus, um fortzufahren.",
+            "runTextSprintOlympicPower": "Critical Running Power",
+            "runTextSprintOlympicPace": "5k oder 10k Pace",
+            "runTextHalfIronmanPower": "Aerobic Running Power",
+            "runTextHalfIronmanPace": "Halbmarathon- oder Marathon-Pace"
+        }
+    }
+}

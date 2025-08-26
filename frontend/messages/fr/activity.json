@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Détails de l'activité",
+        "description": "Affiche les informations détaillées de ton activité d'entraînement"
+    },
+    "errors": {
+        "workoutNotFound": "Entraînement non trouvé",
+        "updateFailed": "Échec de la mise à jour du nom de l'activité",
+        "updateSuccess": "Nom de l'activité mis à jour",
+        "deleteFailed": "Erreur lors de la suppression de l'activité",
+        "deleteSuccess": "Activité supprimée avec succès",
+        "raceStatusChangeFailed": "Erreur lors du changement du statut de course",
+        "raceStatusChangeSuccess": "Statut de course changé avec succès"
+    },
+    "sections": {
+        "activityDetails": "Détails de l'activité",
+        "bestEfforts": "Meilleurs efforts",
+        "hrvData": "Données HRV"
+    },
+    "components": {
+        "showActivityButton": {
+            "displayed": "Affiché",
+            "average": "Moy : {average}"
+        },
+        "viewOnStravaCard": {
+            "title": "Voir sur Strava"
+        },
+        "deleteActivityCard": {
+            "title": "Supprimer l'activité",
+            "confirmationText": "Es-tu sûr de vouloir supprimer cette activité ? Cette action est irréversible."
+        },
+        "downloadCSV": {
+            "title": "Télécharger en CSV"
+        },
+        "markAsRace": {
+            "title": "Course"
+        },
+        "sourceCard": {
+            "title": "Source",
+            "manualUpload": "Téléchargement manuel"
+        }
+    },
+    "labels": {
+        "notMoving": "Immobile",
+        "movingTime": "Temps en mouvement",
+        "distance": "Distance",
+        "elevationGain": "Dénivelé positif",
+        "kcal": "kcal",
+        "averagePower": "Power moyen",
+        "averageHeartRate": "Fréquence cardiaque moyenne",
+        "powerEstimation": "Estimation de Power",
+        "averageGap": "GAP moyen",
+        "averagePace": "Pace moyen",
+        "ess": "ESS",
+        "artifactPercentage": "Pourcentage d'artefacts",
+        "artifactPercentageLocal": "Pourcentage d'artefacts local",
+        "iss": "ISS",
+        "averageA1": "a₁ moyen",
+        "enduranceCeilingRamp": "Plafond Endurance rampe",
+        "enduranceCeilingCluster": "Plafond Endurance cluster",
+        "thresholdCeilingRamp": "Plafond Threshold rampe",
+        "thresholdCeilingCluster": "Plafond Threshold cluster",
+        "rAlphaRide": "Rₐ (readiness)",
+        "dAlphaRide": "Dₐ (durability)",
+        "paceRAlpha": "Pace Rₐ (readiness)",
+        "paceDAlpha": "Pace Dₐ (durability)",
+        "powerRAlpha": "Power Rₐ (readiness)",
+        "powerDAlpha": "Power Dₐ (durability)",
+        "best20MinPower": "Meilleur Power sur 20 min",
+        "best15MinPower": "Meilleur Power sur 15 min",
+        "best30MinPower": "Meilleur Power sur 30 min",
+        "best15MinGap": "Meilleur GAP sur 15 min",
+        "best30MinGap": "Meilleur GAP sur 30 min",
+        "detailRecoveryAlpha": {
+            "text": "Ta {pName} readiness à t'entraîner pour cette activité, basée sur le DFA a₁. Des valeurs positives indiquent que tu étais prêt à t'entraîner. Des valeurs négatives peuvent indiquer le contraire, par exemple en raison de la fatigue et/ou du stress.",
+            "learnMore": "En savoir plus."
+        },
+        "detailDriftAlpha": {
+            "text": "Ta {pName} durability pour cette activité, basée sur le DFA a₁. Des valeurs supérieures à -5% peuvent indiquer que tu es bien adapté au type et à la durée de cette activité. Des valeurs négatives importantes peuvent indiquer un manque de durability.",
+            "learnMore": "En savoir plus."
+        },
+        "detailAvAlpha": {
+            "text": "Le DFA a₁ est une mesure des propriétés de corrélation fractale de ton signal de variabilité de la fréquence cardiaque (HRV). Plus ton DFA a₁ est bas, plus l'intensité de ton exercice est élevée. Des valeurs supérieures à 1.0 se produisent à de faibles intensités, des valeurs inférieures à 0.75 correspondent à des intensités au-dessus du aerobic Threshold. Des valeurs inférieures à 0.5 indiquent des intensités Anaerobic.",
+            "learnMore": "En savoir plus."
+        },
+        "detailIss": {
+            "text": "Ton Internal Stress Score (ISS) pour cette activité, dérivé de tes données DFA a₁. Plus l'activité est longue, plus le a₁ est bas et plus l'entraînement est intense, plus l'ISS est élevé. Par exemple, une heure à l'Anaerobic Threshold a₁=0.5 correspond à 100 ISS."
+        },
+        "detailEndHrv": {
+            "text": "La limite supérieure de ta zone d'Endurance, ton aerobic Threshold, est calculée à partir de tes données DFA a₁. C'est l'intensité à laquelle tu franchis l'aerobic Threshold (a₁ = 0.75) lors d'une augmentation d'intensité de type rampe pendant les 30 premières minutes de l'activité.",
+            "learnMore": "En savoir plus."
+        },
+        "detailEndHrvCluster": {
+            "text": "La limite supérieure de ta zone d'Endurance, ton aerobic Threshold, est calculée à partir de tes données DFA a₁. C'est l'intensité où ton power ou ton pace se regroupent (cluster) près de l'aerobic Threshold (a₁ = 0.75) pendant les 30 premières minutes de l'activité.",
+            "learnMore": "En savoir plus."
+        },
+        "detailThrHrv": {
+            "text": "La limite supérieure de ta zone Threshold, ton Anaerobic Threshold, est calculée à partir de tes données DFA a₁. C'est l'intensité à laquelle tu franchis l'Anaerobic Threshold (a₁ = 0.5) lors d'une augmentation d'intensité de type rampe pendant les 30 premières minutes de l'activité.",
+            "learnMore": "En savoir plus."
+        },
+        "detailThrHrvCluster": {
+            "text": "La limite supérieure de ta zone Threshold, ton Anaerobic Threshold, est calculée à partir de tes données DFA a₁. C'est l'intensité où tes métriques se regroupent (cluster) près de l'Anaerobic Threshold (a₁ = 0.5) pendant les 30 premières minutes de l'activité.",
+            "learnMore": "En savoir plus."
+        },
+        "detailArtifacts": {
+            "text": "Le nombre de mesures HRV (variabilité de la fréquence cardiaque) qui contenaient des artefacts et ont dû être corrigées. Les artefacts peuvent être des battements longs, courts, manqués, supplémentaires et ectopiques. Pour une mesure précise, l'activité devrait avoir moins de 5% d'artefacts. Si tu obtiens des pourcentages d'artefacts plus élevés, assure-toi de :\n- utiliser un moniteur de fréquence cardiaque (HRM) Polar H10 ou Suunto\n- connecter ton HRM via Bluetooth plutôt qu'Ant+\n- humidifier les électrodes du HRM avec de la salive ou du gel à ultrasons avant chaque activité\n- rincer la sangle sous l'eau froide après chaque activité et la laver une fois par semaine en machine à basse température, idéalement dans un sac en filet\n- optimiser la position de ta sangle (voir le lien ci-dessous)\nSi tu dois remplacer la pile de ton HRM, utilise des piles neuves de haute qualité.\nUne fois que la sangle atteint la fin de sa durée de vie, tu peux remplacer UNIQUEMENT la sangle et non l'ensemble du HRM.",
+            "learnMore": "En savoir plus sur la position idéale de la sangle HRM."
+        },
+        "detailArtifactsLocal": {
+            "text": "Le pourcentage de mesures HRV qui contenaient des artefacts et ont dû être corrigées uniquement pendant les périodes où les thresholds ou la readiness étaient évalués."
+        },
+        "detailKcal": {
+            "text": "La mesure ou la prédiction précise des besoins énergétiques pendant l'exercice est intrinsèquement complexe et sujette à des erreurs, quelle que soit la méthodologie choisie. Pour les besoins de cette application, le coût énergétique de l'exercice a été estimé à l'aide d'équations fondées sur des preuves, spécifiques au type d'exercice. Ces calculs doivent être utilisés comme une indication approximative du coût énergétique de chaque séance d'exercice, en gardant à l'esprit que le coût énergétique réel de l'exercice est susceptible de varier en fonction de facteurs tels que l'âge, le sexe, l'état de santé et de forme physique de l'individu, la masse et la composition corporelle, le mode de vie, la génétique, etc.",
+            "learnMore": "En savoir plus."
+        },
+        "detailEss": {
+            "text": "Ton External Stress Score (ESS) pour cette activité, dérivé de tes données de power. Plus l'activité est longue, plus la sortie de power est élevée et plus l'entraînement est intense, plus l'ESS est élevé. Par exemple, une heure à l'Anaerobic Threshold correspond à 100 ESS."
+        },
+        "powerSource": {
+            "text": "Ton power est prédit à partir de ta fréquence cardiaque et - si présents - de la cadence et/ou du DFA a₁. Notre IA apprend à prédire ton power à partir de tes activités passées avec power, fréquence cardiaque, cadence et a₁.",
+            "learnMore": "En savoir plus."
+        },
+        "activityTitle": {
+            "text": "Tu peux personnaliser le titre de ton activité pour mettre en évidence un entraînement test ou une course.",
+            "textCycling": "Tu peux personnaliser le titre de ton activité pour mettre en évidence un entraînement test ou une course. Assure-toi que les titres de tes tests FTP incluent à la fois le mot 'test' et la durée du test pour que l'application puisse le reconnaître. Par exemple, utilise 'Test FTP 20 min' pour un test FTP de 20 minutes. Pour les Ramp Tests, inclus 'ramp' et 'test' dans le titre, comme par exemple 'Ramp Test'."
+        },
+        "gap": {
+            "text": "Le Grade Adjusted Pace (GAP) fait référence au pace ajusté pour tenir compte des effets des changements de dénivelé pendant une activité. Au lieu de simplement mesurer la vitesse, le pace moyen ajusté à la pente prend en compte l'impact des montées (côtes) et des descentes sur l'effort requis pour maintenir une certaine vitesse. Par exemple, si tu cours sur une colline escarpée, ton pace brut peut être lent, mais ton GAP peut être élevé car il prend en compte la raideur de la colline. En normalisant le pace en fonction de ces changements de dénivelé, il fournit un reflet plus précis de l'effort fourni sur des terrains variés, ce qui en fait une métrique utile pour comparer les performances sur différents parcours ou pour comprendre l'impact des collines sur ton pace global."
+        },
+        "markAsRace": {
+            "text": "Lorsque tu marques une activité comme une course, le modèle d'IA accorde une plus grande importance aux données de cette activité en augmentant sa pondération lors de l'entraînement du modèle."
+        }
+    }
+}

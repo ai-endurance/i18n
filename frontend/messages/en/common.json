@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Terms",
+        "privacy": "Privacy"
+    },
+    "confirmationPopup": {
+        "yes": "Yes",
+        "no": "No"
+    },
+    "expiredDisplay": {
+        "title": "Don't let your fitness expire! <br />Sign up for a plan to keep your progress going.",
+        "cta": "Get Started!"
+    },
+    "infoBox": {
+        "defaultTitle": "So you know...",
+        "done": "Done"
+    }
+}

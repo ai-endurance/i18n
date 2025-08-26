@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "title": "Preise",
+        "description": "Teste {partner} 2 Wochen lang kostenlos und setze dann deine Reise für einen Bruchteil der Kosten eines traditionellen Coachings fort"
+    },
+    "banner": {
+        "title": "Wie viel kostet AI Endurance?",
+        "description": "Zunächst einmal ist es 14 Tage lang kostenlos. Keine Zahlungsinformationen erforderlich, du kannst noch heute kostenlos mit AI Endurance loslegen. Nachdem du es ausprobiert hast, kannst du dich für ein monatliches oder jährliches Abonnement entscheiden. Selbst bei monatlicher Zahlung kostet AI Endurance nur einen Bruchteil des Preises eines traditionellen Trainers. Probier es noch heute aus!",
+        "cta": "Loslegen!",
+        "imageAlt": "Rennradfahrer"
+    },
+    "cards": {
+        "title": "Welchen Plan möchtest du?"
+    },
+    "card": {
+        "types": {
+            "monthly": "Monatlich",
+            "yearly": "Jährlich"
+        },
+        "monthly": {
+            "price": "{price} pro Monat",
+            "billing": "Monatlich abgerechnet in {currency}"
+        },
+        "yearly": {
+            "price": "{price} pro Jahr",
+            "billing": "Jährlich abgerechnet in {currency}",
+            "savings": "Spare {currency}{amount}!"
+        },
+        "cta": "Kostenlos testen",
+        "bestValue": "Bestes Preis-Leistungs-Verhältnis!"
+    }
+}

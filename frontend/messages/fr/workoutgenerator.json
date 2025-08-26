@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Générateur d'entraînement Endurance IA gratuit | {partner}",
+        "description": "La puissance de l'IA, gratuite pour ton entraînement. Essaie {partner} et commence à créer des entraînements adaptés à ta physiologie et à tes objectifs uniques."
+    },
+    "description": {
+        "title": "Générateur gratuit d'entraînement Endurance IA pour la course à pied et le cyclisme",
+        "subtitle": "Génère un entraînement gratuit d'Endurance pour la course à pied ou le cyclisme en utilisant l'intelligence artificielle. Décris ton entraînement avec tes mots et AI Endurance utilisera la technologie GPT pour générer un entraînement pour toi. Tu peux modifier l'entraînement autant de fois que tu le souhaites en décrivant comment tu voudrais le changer. Lorsque tu es satisfait de ton entraînement, tu peux l'exporter vers ta plateforme d'entraînement préférée."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "Par prompt",
+            "stress": "Par Stress"
+        }
+    },
+    "formTitle": "Générateur d'entraînement Endurance IA gratuit",
+    "displayTitle": "Ton entraînement",
+    "setZones": "Définis tes zones :",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Plafond Endurance"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Plafond Tempo"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Plafond Threshold"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "Plafond VO2Max"
+        }
+    },
+    "units": {
+        "label": "Unités",
+        "imperial": "Impérial ({unit})",
+        "metric": "Métrique ({unit})"
+    },
+    "suggestions": {
+        "title": "Suggestions de prompt :",
+        "strength": {
+            "hipWithEquipment": "entraînement de renforcement des hanches à faible impact (avec équipement de gym)",
+            "hipWithoutEquipment": "entraînement de renforcement des hanches à faible impact (sans équipement de gym)",
+            "triathlete": "entraînement de 30 min pour maximiser la force pour les triathlètes",
+            "core": "entraînement du gainage pour coureurs"
+        },
+        "run": {
+            "tempo": "entraînement Tempo difficile",
+            "vo2max": "entraînement VO2Max de 30 min",
+            "threshold": "entraînement Threshold modéré"
+        },
+        "ride": {
+            "tempo": "entraînement Tempo difficile",
+            "vo2max": "entraînement VO2Max de 30 min",
+            "threshold": "entraînement Threshold modéré"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Modifier l'entraînement :",
+            "describe": "Décris ton entraînement :"
+        },
+        "label": {
+            "change": "Comment veux-tu modifier ton entraînement ?",
+            "describe": "Quel type d'entraînement recherches-tu ?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Modifier l'entraînement :",
+            "describe": "Décris ton entraînement :"
+        },
+        "label": {
+            "change": "Comment veux-tu modifier ton entraînement ?",
+            "describe": "Quel type d'entraînement recherches-tu ?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Sélectionne l'intensité de ton entraînement :"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Saisis le nombre d'intervalles pour ton entraînement (facultatif) :"
+        },
+        "timeAtIntensity": {
+            "title": "Saisis le temps souhaité à intensité pour ton entraînement :"
+        },
+        "ess": {
+            "title": "Saisis le Stress Score souhaité pour ton entraînement :"
+        }
+    },
+    "submitButton": {
+        "create": "Créer l'entraînement !",
+        "reset": "Réinitialiser"
+    },
+    "exportWorkout": {
+        "title": "Exporter vers :",
+        "signup": "Inscris-toi !",
+        "appleWatch": {
+            "text": "Apple Watch : Lie ton",
+            "link": "Watchletic",
+            "suffix": "compte à AI Endurance, puis récupère les entraînements dans Watchletic."
+        },
+        "messages": {
+            "success": "Entraînement exporté avec succès !",
+            "error": "Erreur lors de l'exportation de l'entraînement"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Temps total",
+        "estDistance": "Distance estimée",
+        "timeAtIntensity": "Temps à intensité",
+        "target": "Cible",
+        "avgPace": "Allure moy."
+    },
+    "steps": {
+        "title": "Étapes :",
+        "run": {
+            "between": "Cours à une allure entre {low} et {high} par {unit} pendant {duration}",
+            "noFaster": "Cours à une allure pas plus rapide que {high} par {unit} pendant {duration}"
+        },
+        "ride": {
+            "between": "Roule à une puissance entre {low} et {high} pendant {duration}",
+            "noHigher": "Roule à une puissance pas plus élevée que {high} pendant {duration}"
+        },
+        "units": {
+            "imperial": "mile",
+            "metric": "km"
+        }
+    }
+}

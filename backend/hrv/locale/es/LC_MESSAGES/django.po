@@ -1,0 +1,48 @@
+# Spanish translations for AI Endurance HRV module
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "No a₁ data available for recovery calculation."
+msgstr "No hay datos a₁ disponibles para el cálculo de Recovery."
+
+msgid "No power data available for a₁ recovery calculation."
+msgstr "No hay datos de Power disponibles para el cálculo de Recovery a₁."
+
+msgid "Power data is derived from heart rate and can't be used for a₁ recovery calculation."
+msgstr "Los datos de Power se derivan de la frecuencia cardíaca y no se pueden usar para el cálculo de Recovery a₁."
+
+msgid "Artifact percentage is too high (greater than 10%) for a₁ recovery calculation."
+msgstr "El porcentaje de artefactos es demasiado alto (mayor al 10%) para el cálculo de Recovery a₁."
+
+msgid "Not suffient power and or a₁ data available for recovery calculation from your latest activity."
+msgstr "No hay suficientes datos de Power y/o a₁ disponibles para el cálculo de Recovery de tu actividad más reciente."
+
+msgid "Not suffient pace and or a₁ data available for recovery calculation from your latest activity."
+msgstr "No hay suficientes datos de Pace y/o a₁ disponibles para el cálculo de Recovery de tu actividad más reciente."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient power and or a₁ data available to calculate recovery."
+msgstr "No hay suficientes actividades en los últimos 21 días con porcentaje de artefactos menor al 10% y suficientes datos de Power y/o a₁ disponibles para calcular Recovery."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient pace and or a₁ data available to calculate recovery."
+msgstr "No hay suficientes actividades en los últimos 21 días con porcentaje de artefactos menor al 10% y suficientes datos de Pace y/o a₁ disponibles para calcular Recovery."
+
+msgid "Your latest activity is not within the support of the past activities, i.e. it is not similar enough in power and a₁ to meaningfully calculate recovery."
+msgstr "Tu actividad más reciente no está dentro del soporte de las actividades pasadas, es decir, no es lo suficientemente similar en Power y a₁ para calcular Recovery de manera significativa."
+
+msgid "Your latest activity is not within the support of the past activities, i.e. it is not similar enough in pace and a₁ to meaningfully calculate recovery."
+msgstr "Tu actividad más reciente no está dentro del soporte de las actividades pasadas, es decir, no es lo suficientemente similar en Pace y a₁ para calcular Recovery de manera significativa."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% to calculate recovery. Currently, you have {current} activities available, but at least {required} are required."
+msgstr "No hay suficientes actividades en los últimos 21 días con porcentaje de artefactos menor al 10% para calcular Recovery. Actualmente, tienes {current} actividades disponibles, pero se requieren al menos {required}."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient power and or a₁ data available to calculate recovery. Currently, you have {current} activities available, but at least {required} are required."
+msgstr "No hay suficientes actividades en los últimos 21 días con porcentaje de artefactos menor al 10% y suficientes datos de Power y/o a₁ disponibles para calcular Recovery. Actualmente, tienes {current} actividades disponibles, pero se requieren al menos {required}."
+
+msgid "Not enough activities in the last 21 days with artifact percentage below 10% and sufficient pace and or a₁ data available to calculate recovery. Currently, you have {current} activities available, but at least {required} are required."
+msgstr "No hay suficientes actividades en los últimos 21 días con porcentaje de artefactos menor al 10% y suficientes datos de Pace y/o a₁ disponibles para calcular Recovery. Actualmente, tienes {current} actividades disponibles, pero se requieren al menos {required}."

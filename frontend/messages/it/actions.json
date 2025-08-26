@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "Si è verificato un errore. Riprova.",
+        "networkError": "Errore di rete. Controlla la tua connessione e riprova.",
+        "userDataNotFound": "Dati utente non trovati",
+        "pleaseFilOutForm": "Compila il modulo",
+        "invalidHrvInput": "Input HRV non valido",
+        "noValidQueryString": "Nessuna stringa di query valida trovata",
+        "invalidEventDate": "Data dell'evento non valida",
+        "noEventType": "Nessun tipo di evento selezionato",
+        "userIdNotProvided": "ID utente non fornito per il completamento dell'abbonamento"
+    },
+    "notifications": {
+        "dismissNotification": "Impossibile ignorare la notifica.",
+        "cleanupFailed": "Pulizia delle notifiche non riuscita",
+        "switchWorkoutsFailed": "Attivazione dell'operazione di cambio allenamenti non riuscita",
+        "updateZonesFailed": "Aggiornamento delle zone non riuscito",
+        "findNewPlanFailed": "Ricerca di un nuovo piano non riuscita",
+        "notSupported": "Notifica non supportata"
+    },
+    "account": {
+        "updateFailed": "Aggiornamento dell'account non riuscito",
+        "deleteError": "Si è verificato un errore durante l'eliminazione del tuo account",
+        "reactivateSubscriptionFailed": "Riattivazione dell'abbonamento non riuscita"
+    },
+    "activity": {
+        "changeNameFailed": "Modifica del nome dell'attività non riuscita",
+        "changeRaceStatusFailed": "Modifica dello stato di gara dell'attività non riuscita",
+        "deleteFailed": "Eliminazione dell'attività non riuscita"
+    },
+    "auth": {
+        "logoutFailed": "Logout non riuscito"
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Ritorno al piano precedente non riuscito"
+    },
+    "data": {
+        "addExclusionsFailed": "Aggiunta delle esclusioni dati non riuscita",
+        "deleteExclusionsFailed": "Eliminazione delle esclusioni dati non riuscita",
+        "exclusionsSavedSuccessfully": "Esclusioni dati salvate con successo",
+        "submitTaskFailed": "Invio dell'operazione non riuscito",
+        "noExclusionsChanged": "Nessuna esclusione aggiunta o eliminata"
+    },
+    "events": {
+        "deleteFailed": "Eliminazione dell'evento non riuscita",
+        "storeFailed": "Salvataggio dell'evento non riuscito"
+    },
+    "feedback": {
+        "dismissFailed": "Impossibile ignorare il check-in",
+        "deleteFailed": "Eliminazione del feedback non riuscita",
+        "resetFailed": "Ripristino del check-in non riuscito"
+    },
+    "onboarding": {
+        "connectToAppFailed": "Connessione a {appName} non riuscita",
+        "connectToStrava": "Connessione a Strava non riuscita",
+        "connectToGarmin": "Connessione a Garmin non riuscita",
+        "connectToOura": "Connessione a Oura non riuscita",
+        "connectToPolar": "Connessione a Polar non riuscita",
+        "connectToCoros": "Connessione a Coros non riuscita",
+        "connectToIntervalsicu": "Connessione a Intervals.icu non riuscita",
+        "connectToNolio": "Connessione a Nolio non riuscita",
+        "connectToTp": "Connessione a TP non riuscita",
+        "connectToSuunto": "Connessione a Suunto non riuscita",
+        "connectToWahoo": "Connessione a Wahoo non riuscita",
+        "connectToWhoop": "Connessione a Whoop non riuscita",
+        "stravaPermissions": "Seleziona tutte le caselle quando ti connetti a Strava",
+        "garminPermissions": "Seleziona 'Accetto' quando ti connetti a Garmin",
+        "ouraPermissions": "Seleziona tutte le caselle quando ti connetti a Oura",
+        "handleNewUserFailed": "Attivazione dell'operazione di gestione nuovo utente non riuscita",
+        "onboardingPostFailed": "Invio del post di completamento onboarding non riuscito",
+        "invalidForm": "Modulo non valido",
+        "submitFailed": "Invio del modulo non riuscito"
+    },
+    "password": {
+        "resetError": "Si è verificato un errore durante il ripristino della tua password. Riprova più tardi."
+    },
+    "payment": {
+        "noPaymentMethod": "Nessun metodo di pagamento fornito",
+        "createSubscriptionFailed": "Creazione dell'abbonamento non riuscita",
+        "paymentDeclined": "Pagamento non riuscito, la tua carta è stata rifiutata",
+        "paymentFailed": "Pagamento non riuscito",
+        "iapActivationFailed": "L'attivazione dell'abbonamento IAP non è stata completata."
+    },
+    "recovery": {
+        "refreshFailed": "Aggiornamento dei dati di recovery non riuscito",
+        "fetchModelDetailFailed": "Recupero dei dati di dettaglio del modello di recovery non riuscito"
+    },
+    "register": {
+        "emailRequired": "L'email è obbligatoria. ",
+        "passwordRequired": "La password è obbligatoria. ",
+        "firstNameRequired": "Il nome è obbligatorio. ",
+        "lastNameRequired": "Il cognome è obbligatorio. ",
+        "passwordValidation": "La password deve essere lunga almeno 8 caratteri e contenere almeno un numero, una lettera maiuscola, una lettera minuscola e un carattere speciale.",
+        "createAccountFailed": "Impossibile creare l'account. Se hai già un account, effettua il login o utilizza l'opzione 'password dimenticata'."
+    },
+    "subscriptions": {
+        "endFailed": "Interruzione dell'abbonamento non riuscita",
+        "activationFailed": "L'attivazione dell'abbonamento non è stata completata."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Aggiornamento delle esportazioni non riuscito"
+    },
+    "workouts": {
+        "skipFailed": "Impossibile saltare l'allenamento",
+        "completeFailed": "Completamento dell'allenamento non riuscito",
+        "autoCalcFailed": "Calcolo automatico non riuscito",
+        "createFailed": "Si è verificato un errore imprevisto durante la creazione dell'allenamento",
+        "fetchDetailsFailed": "Recupero dei dettagli dell'allenamento creato non riuscito"
+    },
+    "zones": {
+        "resetFailed": "Errore durante il ripristino delle zone"
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Recupero dei dati degli allenamenti Zwift non riuscito"
+    }
+}

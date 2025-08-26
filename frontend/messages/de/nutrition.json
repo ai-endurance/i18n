@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Ernährung",
+        "description": "Optimiere deine Ernährung mit unserem Ernährungs-Dashboard."
+    },
+    "layout": {
+        "title": "Ernährung",
+        "description": "Optimiere deine Ernährung mit unserem Ernährungs-Dashboard."
+    },
+    "nutritionCard": {
+        "title": "Dein Ernährungsmodell"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Durchschnittliche tägliche Zufuhr",
+        "calories": "Kalorien",
+        "protein": "Protein",
+        "carbs": "Kohlenhydrate",
+        "fat": "Fett"
+    },
+    "mealPlanCard": {
+        "title": "Dein Ernährungsplan"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Ernährungsvorlieben",
+        "dateForMealPlan": "Datum für den Ernährungsplan",
+        "placeholder": "glutenfrei, vegan, etc.",
+        "requestMealPlan": "Ernährungsplan anfordern",
+        "dismissCurrentMealPlan": "Aktuellen Ernährungsplan verwerfen"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "Kein Ernährungsplan verfügbar. Erstelle jetzt einen!",
+        "mealPlanFor": "Ernährungsplan für den {date}",
+        "plannedWorkout": "Geplantes Training:",
+        "specialDietaryRequests": "Spezielle Ernährungswünsche oder -vorlieben: {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Ernährungsplan wird erstellt..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Gesamt:",
+            "protein": "Protein:",
+            "carbs": "Kohlenhydrate:",
+            "fat": "Fett:",
+            "workout": "Training:"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Dein täglicher Energie- (Kilokalorien) und Makronährstoffverbrauch, basierend auf deinen abgeschlossenen vergangenen Aktivitäten, deinen geplanten zukünftigen Aktivitäten und deinem geschätzten Grundumsatz.",
+            "paragraph2": "Obwohl diese Werte anhand von evidenzbasierten, übungsspezifischen Gleichungen geschätzt wurden, ist die genaue Messung oder Vorhersage des Energiebedarfs von Natur aus komplex und fehleranfällig, unabhängig von der gewählten Methodik. Die Schätzungen sollten als grober Richtwert verwendet werden, wobei zu berücksichtigen ist, dass die tatsächlichen Energiekosten des Trainings wahrscheinlich von Faktoren wie Alter, Geschlecht, Gesundheits- und Fitnesszustand der Person, Körpermasse und -zusammensetzung, Lebensstil, Genetik usw. abhängen.",
+            "paragraph3": "Aufgrund der Komplexität, der Herausforderungen und des Fehlerpotenzials bei der Schätzung all dieser Komponenten werden die Schätzungen als Bereich angegeben, um Flexibilität und Anpassungen zu ermöglichen.",
+            "learnMore": "Erfahre mehr."
+        },
+        "mealplan": {
+            "paragraph1": "Erhalte einen AI-Ernährungsplan, der den Kalorienverbrauch deiner vergangenen und geplanten Workouts berücksichtigt. Du kannst Ernährungswünsche wie 'Ich bin Vegetarier' oder Vorlieben wie 'Ich habe heute Lust auf Fisch' hinzufügen. Kalorien- und Makronährstoffanforderungen, wie sie von unseren evidenzbasierten Ernährungsmodellen modelliert werden, werden in diesem Ernährungsplan berücksichtigt.",
+            "learnMore": "Erfahre mehr."
+        }
+    }
+}

@@ -1,0 +1,42 @@
+# French translations for AI Endurance
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Language-Team: French\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Don't forget to set your FTP to %(ftp)s W as the power targets in this workout are defined relative to this value!"
+msgstr "N'oublie pas de régler ta FTP à %(ftp)s W car les objectifs de Power dans cet entraînement sont définis relativement à cette valeur !"
+
+msgid "Don't forget to set your 1-mile pace to 6:00 as the target paces in this workout are defined relative to this pace!"
+msgstr "N'oublie pas de régler ta Pace 1-mile à 6:00 car les Pace cibles dans cet entraînement sont définies relativement à cette Pace !"
+
+msgid "All power targets in this workout are relative to a reference FTP of %(ftp)s W. Please set your %(partner)s FTP to %(ftp)s W to work at your intended personalized power intensity."
+msgstr "Tous les objectifs de Power dans cet entraînement sont relatifs à une FTP de référence de %(ftp)s W. Règle ta FTP %(partner)s à %(ftp)s W pour travailler à ton intensité de Power personnalisée prévue."
+
+msgid "This assumes a 2.5%% outdoor power range in Garmin export settings in Intervals.icu."
+msgstr "Cela suppose une plage de Power extérieure de 2,5%% dans les paramètres d'export Garmin dans Intervals.icu."
+
+msgid "All pace targets in this workout are relative to a reference 1-mile pace of 6:00. Please set your Zwift 1-mile pace to 6:00 to work at your intended personalized pace."
+msgstr "Toutes les Pace cibles dans cet entraînement sont relatives à une Pace 1-mile de référence de 6:00. Règle ta Pace 1-mile Zwift à 6:00 pour travailler à ta Pace personnalisée prévue."
+
+msgid "All power targets in this workout are relative to a reference threshold power of %(thr)s W. Please set your Intervals.icu threshold power to %(thr)s W to work at your intended personalized power intensity."
+msgstr "Tous les objectifs de Power dans cet entraînement sont relatifs à une Threshold Power de référence de %(thr)s W. Règle ta Threshold Power Intervals.icu à %(thr)s W pour travailler à ton intensité de Power personnalisée prévue."
+
+msgid "All pace targets in this workout are relative to a reference threshold pace of %(thr_pace)s. Please set your Intervals.icu threshold pace to %(thr_pace)s to work at your intended personalized pace."
+msgstr "Toutes les Pace cibles dans cet entraînement sont relatives à une Threshold Pace de référence de %(thr_pace)s. Règle ta Threshold Pace Intervals.icu à %(thr_pace)s pour travailler à ta Pace personnalisée prévue."
+
+msgid "This assumes a 2.5%% outdoor pace range in Garmin export settings in Intervals.icu."
+msgstr "Cela suppose une plage de Pace extérieure de 2,5%% dans les paramètres d'export Garmin dans Intervals.icu."
+
+msgid "Don't forget to record this activity with your Garmin device with HRV logging enabled as Zwift does not record HRV data. Your Garmin Connect needs to be connected to AI Endurance to determine your thresholds."
+msgstr "N'oublie pas d'enregistrer cette activité avec ton appareil Garmin avec l'enregistrement HRV activé car Zwift n'enregistre pas les données HRV. Ton Garmin Connect doit être connecté à AI Endurance pour déterminer tes Thresholds."
+
+msgid "This ramp test will be to exahaustion. So don't worry about completing it, just try to make it as far into it as you can. The goal is to reach your anaerobic zone. Your aerobic threshold is where alpha1 crosses 0.75. Your anaerobic threshold is where alpha1 crosses 0.5. alpha1 is calculated from your HRV data via detrended fluctuation analysis (DFA)."
+msgstr "Ce Ramp Test sera jusqu'à épuisement. Ne t'inquiète donc pas de le terminer, essaie juste d'aller aussi loin que possible. L'objectif est d'atteindre ta zone anaerobic. Ton aerobic Threshold est là où alpha1 croise 0,75. Ton anaerobic Threshold est là où alpha1 croise 0,5. alpha1 est calculé à partir de tes données HRV via l'analyse de fluctuation détendue (DFA)."
+
+msgid "This is a ramp test to determine your ventilatory thresholds from heart rate variability (HRV) data. Your aerobic threshold is where alpha1 crosses 0.75. Your anaerobic threshold is where alpha1 crosses 0.5. alpha1 is calculated from your HRV data via detrended fluctuation analysis (DFA)."
+msgstr "Ceci est un Ramp Test pour déterminer tes Thresholds ventilatoires à partir des données de variabilité de fréquence cardiaque (HRV). Ton aerobic Threshold est là où alpha1 croise 0,75. Ton anaerobic Threshold est là où alpha1 croise 0,5. alpha1 est calculé à partir de tes données HRV via l'analyse de fluctuation détendue (DFA)."

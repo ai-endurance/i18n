@@ -1,0 +1,28 @@
+# German translations for connect_coros package.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the connect_coros package.
+msgid ""
+msgstr ""
+"Project-Id-Version: connect_coros\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: export_coros.py:214
+msgid "Rest"
+msgstr "Pause"
+
+#: export_coros.py:220
+msgid "Rest 20s or until ready for next interval"
+msgstr "Pause 20s oder bis du bereit für das nächste Intervall bist"
+
+#: export_coros.py:256
+msgid "s rest"
+msgstr "s Pause"

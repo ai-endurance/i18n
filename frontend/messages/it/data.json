@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "Dettagli dati",
+        "description": "Approfondisci i dati avanzati relativi al tuo digital twin, all'importazione dei dati e all'HRV."
+    },
+    "pastData": {
+        "title": "I tuoi dati passati",
+        "actual": "Effettivo",
+        "morePastData": "Altri dati passati",
+        "displayed": "Visualizzato",
+        "weight": "Peso"
+    },
+    "dataExclusions": {
+        "title": "Esclusioni dati",
+        "saveChanges": "Salva modifiche",
+        "dataExclusionsSaved": "Esclusioni dati salvate",
+        "errorSavingDataExclusions": "Si è verificato un errore nel salvataggio delle esclusioni dati",
+        "startDate": "Data di inizio",
+        "endDate": "Data di fine"
+    },
+    "hrvTrends": {
+        "title": "I tuoi trend HRV a₁",
+        "date": "Data"
+    },
+    "labels": {
+        "alpha": {
+            "paragraph1": "I tuoi trend in pₐ - il prodotto del tuo pace/power moltiplicato per i valori DFA a₁ durante i primi 30 minuti di ogni attività. Valori superiori alla media possono indicare una particolare buona readiness all'allenamento, valori inferiori alla media una sua mancanza. Per vedere le tue soglie HRV aerobica (a₁ = 0.75) e anaerobica (a₁ = 0.5), clicca sulla legenda o seleziona la frequenza cardiaca. Vengono visualizzate le soglie rilevate dai ramp test e dai cluster. Una soglia cluster è la media di tutti i valori di pace/power/frequenza cardiaca registrati durante i primi 30 minuti di un'attività con valori a₁ vicini a 0.75 (0.5). Il trend generale (pₐ smooth) indica le tendenze a lungo termine della tua performance. Vengono visualizzate solo le attività con una corruzione da artefatti inferiore al 10%.",
+            "learnMore": "Scopri di più."
+        },
+        "pastData": {
+            "cyclist": "Il modello di machine learning - il tuo digital twin - è stato addestrato con fino a {nCycling} delle tue pedalate in bici con power o power stimato dalla frequenza cardiaca.",
+            "runnerWithoutPower": "Il modello di machine learning - il tuo digital twin - è stato addestrato con fino a {nRunning} delle tue corse.",
+            "runnerWithPower": "Il modello di machine learning - il tuo digital twin - è stato addestrato con fino a {nRunningPower} delle tue corse con running power.",
+            "triathleteWithoutPower": "Il modello di machine learning - il tuo digital twin - è stato addestrato con fino a {nCycling} delle tue pedalate in bici con power o power stimato dalla frequenza cardiaca e {nRunning} delle tue corse.",
+            "triathleteWithPower": "Il modello di machine learning - il tuo digital twin - è stato addestrato con fino a {nCycling} delle tue pedalate in bici con power o power stimato dalla frequenza cardiaca e {nRunningPower} delle tue corse con running power.",
+            "paragraph4": "Il grafico seguente mostra lo storico delle tue performance nel tempo.",
+            "paragraph5": "Vengono anche mostrate le previsioni del modello di machine learning come AI Fit. Approssimativamente, più le due curve si seguono da vicino, migliore è diventato il modello nel prevedere la tua performance. Se hai abilitato il pre-addestramento per il tuo digital twin (&apos;Usa livello secondario di addestramento per il digital twin&apos;), ciò può comportare una maggiore discrepanza tra i livelli di performance rilevati e previsti, poiché la risposta all'allenamento modellata tramite i dati accumulati potrebbe differire dalla tua risposta personale.",
+            "paragraph6": "Mostriamo anche il peso relativo assegnato a ciascun punto dati nel modello. Un peso di 1 è l'impostazione predefinita. Un peso di 0.1 indica che erano disponibili dati di performance limitati, mentre un peso di 10 riflette una misurazione diretta, come una soglia HRV, un test di fitness, una gara o un inserimento manuale. Inoltre, i punti dati del passato remoto hanno un peso inferiore rispetto a quelli recenti, con pesi minori che rappresentano la loro influenza ridotta."
+        },
+        "dataExclusion": {
+            "paragraph1": "Qui puoi escludere intervalli di tempo passati dall'addestramento dell'algoritmo di IA. Potresti considerare questa opzione per intervalli di tempo in cui hai registrato con un dispositivo mal calibrato, o se sono troppo lontani nel passato per rappresentare le tue attuali capacità fisiche."
+        }
+    }
+}

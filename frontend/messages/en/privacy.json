@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "title": "Privacy Policy",
+        "description": "AI Endurance Privacy Policy"
+    },
+    "sections": {
+        "protectingData": {
+            "title": "1. Protecting Your Data",
+            "intro": "At AI Endurance, we respect your privacy and are committed to protecting your personal data. To provide you with our tailored fitness services, we collect the following information with your explicit consent:",
+            "list": {
+                "exerciseData": "Data that you manually enter into AI Endurance concerning your exercise regime.",
+                "activityData": "Activity and sleep data from Garmin, Coros, Suunto, Polar, Wahoo, Intervals.icu, Strava, Whoop, Oura, and TrainingPeaks that you authorize AI Endurance to access.",
+                "usageData": "Usage details about the features you interact with to enhance your user experience."
+            },
+            "consent": "We will process and store your information as long as you maintain consent. If you choose to withdraw your consent, please reach out to us at <email>info@aiendurance.com</email>."
+        },
+        "emailAddress": {
+            "title": "2. Your Email Address",
+            "content": "Your email address is safe with us. We will never share it with third parties and will use it solely to communicate with you about your interactions with AI Endurance."
+        },
+        "googleAnalytics": {
+            "title": "3. Google Analytics",
+            "content": "We use Google Analytics to anonymously track visits and page views to help us understand user behavior and refine our services accordingly. This tracking is conducted without collecting any personal identifiers. For more details, please visit <googlePrivacyLink>https://policies.google.com/privacy</googlePrivacyLink>."
+        },
+        "contactUs": {
+            "title": "4. Contact Us",
+            "content": "Should you have any questions or concerns regarding your privacy, please don't hesitate to contact us at <email>info@aiendurance.com</email>."
+        }
+    }
+}

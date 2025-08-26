@@ -1,0 +1,18 @@
+{
+    "toolbar": {
+        "getStarted": "Empezar"
+    },
+    "menuButton": {
+        "title": "Menú de navegación"
+    },
+    "logo": {
+        "alt": "Logo de AIEndurance"
+    },
+    "links": {
+        "product": "Producto",
+        "pricing": "Precios",
+        "contact": "Contacto",
+        "calendar": "Calendario",
+        "nutrition": "Nutrición"
+    }
+}

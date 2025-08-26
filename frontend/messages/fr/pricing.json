@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "title": "Tarifs",
+        "description": "Essaie {partner} gratuitement pendant 2 semaines, puis poursuis ton parcours pour une fraction du coût d'un coaching traditionnel"
+    },
+    "banner": {
+        "title": "Combien coûte AI Endurance ?",
+        "description": "Eh bien, pour commencer, c'est gratuit pendant 14 jours. Aucune information de paiement n'est requise, tu peux commencer avec AI Endurance gratuitement dès aujourd'hui. Après l'avoir essayé, tu peux choisir de continuer avec un abonnement mensuel ou annuel. Même en optant pour le mois par mois, AI Endurance coûte une fraction du prix d'un coach traditionnel. Essaie-le dès aujourd'hui !",
+        "cta": "Commence !",
+        "imageAlt": "Cycliste sur route"
+    },
+    "cards": {
+        "title": "Quel forfait souhaites-tu ?"
+    },
+    "card": {
+        "types": {
+            "monthly": "Mensuel",
+            "yearly": "Annuel"
+        },
+        "monthly": {
+            "price": "{price} par mois",
+            "billing": "Facturé mensuellement en {currency}"
+        },
+        "yearly": {
+            "price": "{price} par an",
+            "billing": "Facturé annuellement en {currency}",
+            "savings": "Économise {currency}{amount} !"
+        },
+        "cta": "Essaie-le gratuitement",
+        "bestValue": "Meilleur rapport qualité-prix !"
+    }
+}

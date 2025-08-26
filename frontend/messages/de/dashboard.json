@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        "title": "Dashboard",
+        "description": "Tauche hier im {partnerTitle}-Dashboard in deine Daten ein."
+    },
+    "recalculatingPlan": {
+        "creatingPredictions": "Erstelle Plan-Vorhersagen...",
+        "creatingWorkouts": "Erstelle Workouts...",
+        "recalculatingPlan": "Dein Plan wird neu berechnet"
+    },
+    "event": {
+        "yourPredictions": "Deine Vorhersagen",
+        "mainGoalEvent": "Hauptziel-Event",
+        "eventDate": "Event-Datum",
+        "predicted": "Vorhergesagte {discipline}",
+        "weeks": "{weeks} Wochen",
+        "displayed": "Angezeigt",
+        "weight": "Gewicht: {weight}",
+        "morePredictions": "Weitere Vorhersagen",
+        "upperMargin": "Obere Marge:",
+        "prediction": "Vorhersage:",
+        "lowerMargin": "Untere Marge:"
+    },
+    "history": {
+        "lastFourWeeks": "Letzte 4 Wochen",
+        "calendar": "Kalender",
+        "yearHistory": "365-Tage-Verlauf",
+        "date": "Datum:",
+        "duration": "Dauer:",
+        "na": "N/A"
+    },
+    "nextWorkout": {
+        "noWorkoutsScheduled": "Du hast noch keine Workouts geplant!",
+        "nextWorkout": "Nächstes Workout",
+        "calendar": "Kalender",
+        "warmup": "Warmup",
+        "mainSet": "Hauptteil",
+        "cooldown": "Cooldown",
+        "date": "Datum",
+        "totalTime": "Gesamtzeit",
+        "estDistance": "Gesch. Distanz",
+        "timeAtIntensity": "Zeit bei Intensität",
+        "avgPace": "Durchschn. Pace",
+        "avgPower": "Durchschn. Power",
+        "estTime": "Gesch. Zeit",
+        "distance": "Distanz"
+    },
+    "recovery": {
+        "connectHeartRateData": "Verbinde deine Herzfrequenzdaten, um deine Recovery zu sehen",
+        "history": "Verlauf",
+        "dataNotUpToDate": "Daten nicht aktuell?",
+        "refreshData": "Daten aktualisieren",
+        "recoveryDataRefreshed": "Recovery-Daten aktualisiert!",
+        "failedToRefresh": "Aktualisierung der Recovery-Daten fehlgeschlagen",
+        "notUsingDfa": "Du verwendest DFA a₁ nicht!",
+        "notTrackingHrv": "Du trackst kein HRV!",
+        "notTrackingRestingHr": "Du trackst deine Ruhe-HF nicht!",
+        "notTrainingOrNoHrData": "Du trainierst nicht oder hast keine HF-Daten verbunden!",
+        "makeMostOfAiEndurance": "Hol das Beste aus AI Endurance heraus",
+        "essOn": "ESS am {date}"
+    },
+    "thisWeek": {
+        "title": "Das Training dieser Woche",
+        "viewFullCalendar": "Vollständigen Kalender ansehen"
+    },
+    "checkIn": {
+        "title": "Check-in",
+        "dismiss": "Verwerfen",
+        "feedbackTitle": "Feedback zu deinem Check-in",
+        "howDoYouFeel": "Wie fühlst du dich heute?",
+        "forMoreDiscussion": "Für eine detailliertere Diskussion -",
+        "tryOurAiChat": "Probiere unseren AI-Chat",
+        "answerHere": "Hier antworten",
+        "enterHrvManually": "HRV-Werte manuell eingeben",
+        "restingHeartRate": "Ruheherzfrequenz",
+        "submit": "Senden",
+        "checkinSubmitted": "Check-in erfolgreich übermittelt",
+        "feedbackDismissed": "Feedback verworfen!",
+        "sorenessQuestions": {
+            "armsShoulders": "Wie stark ist dein Muskelkater in Armen/Schultern? (0-10)",
+            "core": "Wie stark ist dein Muskelkater im Rumpf? (0-10)",
+            "legs": "Wie stark ist dein Muskelkater in den Beinen? (0-10)",
+            "cyclingSoreness": "Wie stark ist dein Muskelkater vom Radfahren? (0-10)",
+            "runningSoreness": "Wie stark ist dein Muskelkater vom Laufen? (0-10)"
+        }
+    },
+    "latestWorkout": {
+        "title": "Letztes Workout",
+        "noWorkoutsYet": "Sieht so aus, als hättest du noch keine Workouts!",
+        "noWorkoutsDescription": "Verbinde entweder deine Daten mit AI Endurance oder geh raus und zeichne deine erste Aktivität auf!",
+        "analysis": "Analyse"
+    },
+    "activityDetails": {
+        "startTime": "Startzeit",
+        "distance": "Distanz",
+        "time": "Zeit",
+        "elevationGain": "Höhenmeter",
+        "averagePower": "Durchschnittliche Power",
+        "noDetails": "Keine Details"
+    },
+    "checkInSnackbar": {
+        "notCheckedInRecently": "Du hast dich in letzter Zeit nicht eingecheckt!",
+        "checkIn": "Check-in",
+        "dismiss": "Verwerfen"
+    },
+    "freeTrial": {
+        "trialActive": "Du befindest dich derzeit in einer kostenlosen Testphase! Deine Testphase endet in {daysLeft} Tagen.",
+        "trialEnded": "Deine kostenlose Testphase ist beendet! Abonniere, um AI Endurance weiterhin zu nutzen!",
+        "subscribeNow": "Jetzt abonnieren!"
+    },
+    "languageDisclaimer": {
+        "translationWarning": "Wir arbeiten daran, die {language}-Version von AI Endurance zu verbessern. Wir freuen uns über Feedback - bitte senden an ",
+        "emailSubject": "Feedback zur AI Endurance App",
+        "emailBody": "Hallo AI Endurance Team:\n\nHier ist, was mit Ihrem {language} App-Text nicht stimmt:"
+    },
+    "labels": {
+        "recoveryDisplay": "Deine historischen Recovery-Werte, basierend auf deinen HRV-Ruhedaten (RMSSD/SDNN und HR Rest) und DFA a₁-Trainingsdaten. Wenn deine Garmin-Uhr nachts HRV-Daten sammelt, verbinde dein Garmin Connect-Konto und aktiviere 'Tägliche Gesundheitsstatistiken'. Garmin sendet deine Daten automatisch, nachdem du aufgewacht bist. Wenn du den Oura-Ring oder Whoop verwendest, verbinde dein Oura- oder Whoop-Konto. Wenn du eine Suunto-, Coros- oder Polar-Uhr verwendest, die über Nacht die HRV aufzeichnet, verbinde dein Suunto-, Coros- oder Polar-Konto. Um andere HRV-Ruhedaten in AI Endurance zu importieren, verbinde deine bevorzugte HRV-App mit TrainingPeaks und verbinde TrainingPeaks mit AI Endurance. Basierend auf den neuesten Daten deiner verbundenen Apps.",
+        "prediction": "Die AI-Vorhersagen für deine zukünftige Leistung, wenn du deinem Trainingsplan folgst. Diese beinhalten den Vorhersagefehler für dein Machine-Learning-Modell – deinen Digital Twin.",
+        "checkIn": "Teile uns deinen Muskelkater und deine Motivation mit und wir passen deinen Plan an, falls du nicht bereit für ein Workout bist. Wir verwenden ChatGPT, um deine Trainingsmotivation zu bewerten und dir Feedback zu deinem Trainingstag zu geben. Sag uns, wie du dich fühlst, so wie du es einem Trainer oder einem Freund sagen würdest. Zum Beispiel: 'Die Arbeit ist gerade sehr stressig' oder 'Ich bin so müde' oder 'Ich fühle mich heute wirklich nicht danach' oder 'Bereit, es heute richtig krachen zu lassen!'. Wir berücksichtigen auch deine HRV-Ruhedaten (RMSSD/SDNN und Ruhe-HF) und DFA a₁-Workout-Daten. Du kannst dich alle 12 Stunden einchecken.",
+        "recoveryAerobic": "Dein Aerobic Recovery Score. Dies ist der niedrigste Wert aus deinem DFA a₁ Recovery Score, RMSSD/SDNN Recovery Score, HR Rest Recovery Score und dem durch ESS verursachten Recovery Score.",
+        "recoveryMuscleJoint": "Dein Muscle/Joint Recovery Score. Wir modellieren die Auswirkungen jedes Workouts auf deine Muskeln und Gelenke basierend auf deinen historischen Trainingsdaten. Abhängig von Workout-Typ, Intensität und Dauer berechnen wir den Muscle/Joint Recovery Score.",
+        "recoveryAlpha1": "Je niedriger deine DFA a₁-Werte für eine bestimmte Pace/Power sind, desto niedriger ist dein Recovery Score. Wir vergleichen einen gleitenden Durchschnitt deiner Werte der letzten 7 Tage mit einem 60-Tage-Normalwert, um deinen DFA a₁ Recovery Score zu bewerten. Wenn du DFA a₁ trackst und kein Ergebnis siehst, kann das daran liegen, dass a) du heute keine Aktivität mit DFA a₁ abgeschlossen hast oder b) wir mindestens 10 Tage an Messungen benötigen, um einen zuverlässigen Trend zu etablieren.",
+        "recoveryRmssd": "Je niedriger dein quadratischer Mittelwert der aufeinanderfolgenden Differenzen (RMSSD) deiner Herzfrequenzvariabilität (HRV) ist, desto niedriger ist dein Recovery Score. Wir vergleichen einen gleitenden Durchschnitt deiner Werte der letzten 7 Tage mit einem 60-Tage-Normalwert, um deinen RMSSD Recovery Score zu bewerten. Wenn du HRV in Ruhe trackst und kein Ergebnis siehst, kann das daran liegen, dass wir mindestens 10 Tage an Messungen benötigen, um einen zuverlässigen Trend zu etablieren.",
+        "recoverySdnn": "Je niedriger deine Standardabweichung der NN-Intervalle (SDNN) deiner Herzfrequenzvariabilität (HRV) ist, desto niedriger ist dein Recovery Score. Wir vergleichen einen gleitenden Durchschnitt deiner Werte der letzten 7 Tage mit einem 60-Tage-Normalwert, um deinen SDNN Recovery Score zu bewerten. Wenn du HRV in Ruhe trackst und kein Ergebnis siehst, kann das daran liegen, dass wir mindestens 10 Tage an Messungen benötigen, um einen zuverlässigen Trend zu etablieren.",
+        "recoveryHrRest": "Je höher deine Ruheherzfrequenz im Vergleich zu deiner üblichen Ruheherzfrequenz ist, desto niedriger ist dein Recovery Score. Wir vergleichen den heutigen Wert mit einem 30-Tage-Normalwert, um die Abweichung deiner Ruheherzfrequenz vom Üblichen zu bewerten. Wenn du die Ruheherzfrequenz trackst und kein Ergebnis siehst, kann das daran liegen, dass wir mindestens 10 Tage an Messungen benötigen, um einen zuverlässigen Trend zu etablieren.",
+        "recoveryEss": "Der External Stress Score (ESS) aus deinen vergangenen Aktivitäten beeinflusst direkt deinen gesamten Recovery Score. Eine höhere ESS-Ansammlung führt zu einer stärkeren Reduzierung der Recovery. Diese Reduzierung wird mit unserem personalisierten Recovery-Modell berechnet, das auf deine einzigartigen historischen Trainings- und Recovery-Daten zugeschnitten ist. Um einen genauen Recovery Score zu erstellen, benötigen wir mindestens 10 Tage an Aktivitäten mit gemessenem ESS, um dein Recovery-Modell zu trainieren.",
+        "lastFourWeeks": "Deine Trainingsdaten der letzten vier Wochen. Dein Compliance Score beträgt 100 %, wenn du in einer bestimmten Woche alle geplanten Workouts genau wie vorgeschrieben abgeschlossen hast. Wenn du die Workouts abgeschlossen, aber nicht genau wie vorgeschrieben, ist dein Compliance Score niedriger. Dies gibt dir einen Hinweis darauf, wie gut du deinem Trainingsplan folgst. Wenn du N/A siehst, bedeutet das, dass dein Plan noch nicht begonnen hatte oder wir noch nicht genügend Daten haben, um deinen Compliance Score zu berechnen.",
+        "yearHistory": "Deine Trainingsdaten des letzten Jahres. Jeder Block repräsentiert einen Tag und die Farbe stellt die Gesamtdauer deines Trainings an jedem Tag dar.",
+        "learnMore": "Erfahre mehr."
+    },
+    "notifications": {
+        "messages": {
+            "notificationActionSuccessful": "Benachrichtigungsaktion erfolgreich!",
+            "notificationDeclined": "Benachrichtigung abgelehnt!",
+            "feedbackDismissed": "Feedback verworfen!",
+            "failedToRefresh": "Aktualisierung der Benachrichtigungen fehlgeschlagen"
+        },
+        "display": {
+            "title": "Benachrichtigungen",
+            "allSet": "Alles erledigt!",
+            "nothingNeedsAttention": "Im Moment gibt es nichts, was deine Aufmerksamkeit erfordert",
+            "done": "Erledigt"
+        },
+        "item": {
+            "accept": "Akzeptieren",
+            "decline": "Ablehnen",
+            "dismiss": "Verwerfen",
+            "acceptChange": "Änderung akzeptieren",
+            "declineTooltip": "Ablehnen",
+            "dismissTooltip": "Verwerfen",
+            "feedbackFromCoach": "Feedback von deinem AI-Coach"
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "metadata": {
+        "title": "Chat",
+        "description": "Discute avec ton coach IA ici"
+    },
+    "layout": {
+        "title": "Chat",
+        "description": "Discute avec ton coach IA ici"
+    },
+    "header": {
+        "newChat": "Nouveau Chat"
+    },
+    "overview": {
+        "welcome": "Bienvenue sur ton assistant d'entraînement alimenté par l'IA ! Tu peux poser des questions sur ton plan d'entraînement, tes stratégies de nutrition, ton état de Recovery et analyser tes activités passées. Tu peux aussi lui demander de modifier ton plan d'entraînement, de créer ou de changer des entraînements individuels."
+    },
+    "models": {
+        "small": {
+            "name": "Petit modèle",
+            "description": "Pour les tâches rapides et légères : gemini-2.5-flash"
+        },
+        "large": {
+            "name": "Grand modèle",
+            "description": "Pour les tâches complexes et en plusieurs étapes : gemini-2.5-pro"
+        },
+        "reasoning": {
+            "name": "Modèle de raisonnement",
+            "description": "Utilise un raisonnement avancé"
+        }
+    },
+    "toolConfirmations": {
+        "changeWorkoutDate": {
+            "message": "Changer {title} au {date} ?",
+            "confirmText": "Oui",
+            "denyText": "Non",
+            "confirmResult": "Oui, confirmé.",
+            "denyResult": "Non, refusé."
+        },
+        "skipWorkout": {
+            "message": "Passer {title} ? Cela le supprimera de ton calendrier.",
+            "confirmText": "Passer",
+            "denyText": "Garder",
+            "confirmResult": "Oui, passe-le.",
+            "denyResult": "Non, garde-le."
+        },
+        "createWorkout": {
+            "message": "Créer un entraînement {intensity_type} {act_type} pour le {date_str} ?",
+            "confirmText": "Créer",
+            "denyText": "Annuler",
+            "confirmResult": "Oui, crée-le.",
+            "denyResult": "Non, annule."
+        },
+        "changeWorkoutIntensity": {
+            "message": "Changer l'intensité de {title} à {intensity} ?",
+            "confirmText": "Changer",
+            "denyText": "Annuler",
+            "confirmResult": "Oui, change-la.",
+            "denyResult": "Non, annule."
+        },
+        "setZones": {
+            "message": "Définir les zones {actType} sur :\nEndurance: {endurance}\nTempo: {tempo}\nThreshold: {threshold}\nVO2Max: {vo2max} ?",
+            "confirmText": "Définir les zones",
+            "denyText": "Annuler",
+            "confirmResult": "Oui, définir les zones.",
+            "denyResult": "Non, annuler."
+        },
+        "createSwimWorkout": {
+            "message": "Créer l'entraînement de natation \"{title}\" pour le {date_str} ?",
+            "confirmText": "Créer",
+            "denyText": "Annuler",
+            "confirmResult": "Oui, crée-le.",
+            "denyResult": "Non, annule."
+        },
+        "changeWorkoutAdvice": {
+            "message": "Mettre à jour le conseil d'entraînement : \"{advice}\" ?",
+            "confirmText": "Mettre à jour",
+            "denyText": "Annuler",
+            "confirmResult": "Oui, mets-le à jour.",
+            "denyResult": "Non, annule."
+        }
+    },
+    "sidebar": {
+        "history": "Historique",
+        "newChat": "Nouveau Chat",
+        "delete": "Supprimer",
+        "share": "Partager",
+        "private": "Privé",
+        "public": "Public",
+        "more": "Plus",
+        "toggle": "Basculer la barre latérale"
+    },
+    "sidebarHistory": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "lastWeek": "7 derniers jours",
+        "lastMonth": "30 derniers jours",
+        "older": "Plus ancien",
+        "deleteDialog": {
+            "title": "Es-tu absolument sûr ?",
+            "description": "Cette action est irréversible. Cela supprimera définitivement ton chat et le retirera de nos serveurs.",
+            "cancel": "Annuler",
+            "continue": "Continuer"
+        },
+        "toast": {
+            "deleting": "Suppression du chat...",
+            "deleted": "Chat supprimé avec succès",
+            "failed": "Échec de la suppression du chat"
+        }
+    },
+    "visibility": {
+        "private": "Privé",
+        "public": "Public",
+        "privateDescription": "Seul toi peux accéder à ce chat",
+        "publicDescription": "Toute personne ayant le lien peut accéder à ce chat"
+    },
+    "messageActions": {
+        "copy": "Copier",
+        "copied": "Copié dans le presse-papiers !",
+        "editMessage": "Modifier le message",
+        "upvote": "Voter pour la réponse",
+        "downvote": "Voter contre la réponse",
+        "upvoting": "Vote pour la réponse en cours...",
+        "downvoting": "Vote contre la réponse en cours...",
+        "upvoted": "Vote pour la réponse enregistré !",
+        "downvoted": "Vote contre la réponse enregistré !",
+        "upvoteFailed": "Échec du vote pour la réponse.",
+        "downvoteFailed": "Échec du vote contre la réponse."
+    },
+    "messageEditor": {
+        "cancel": "Annuler",
+        "send": "Envoyer",
+        "sending": "Envoi en cours..."
+    },
+    "multimodalInput": {
+        "placeholder": "Envoyer un message...",
+        "waitForResponse": "Veuillez attendre que le modèle termine sa réponse !"
+    },
+    "suggestedActions": {
+        "weatherWorkout": {
+            "title": "Basé sur les prévisions météo",
+            "label": "devrais-je changer mes dates d'entraînement ?",
+            "action": "Basé sur les prévisions météo, devrais-je changer mes dates d'entraînement ?"
+        },
+        "planProgress": {
+            "title": "Basé sur la progression de mon plan",
+            "label": "modifier les entraînements des 7 prochains jours",
+            "action": "Basé sur la progression de mon plan, modifier les entraînements des 7 prochains jours"
+        },
+        "nutritionStrategy": {
+            "title": "Stratégie de nutrition",
+            "label": "pour ma prochaine course",
+            "action": "Stratégie de nutrition pour ma prochaine course basée sur mes événements objectifs"
+        },
+        "recoveryStatus": {
+            "title": "Résumé détaillé",
+            "label": "de mon état de Recovery actuel",
+            "action": "Résumé détaillé de mon état de Recovery actuel"
+        }
+    },
+    "toolResults": {
+        "accountInfo": "Informations du compte récupérées",
+        "information": "Informations récupérées",
+        "availability": "Calendrier des disponibilités récupéré",
+        "predictions": "Prédictions de performance récupérées",
+        "plannedWorkouts": "Entraînements planifiés récupérés",
+        "cyclingActivities": "Activités de vélo récupérées",
+        "runningActivities": "Activités de course à pied récupérées",
+        "swimmingActivities": "Activités de natation récupérées",
+        "recoveryModel": "Modèle de Recovery récupéré",
+        "goalEvents": "Événements objectifs récupérés",
+        "planProgress": "Progression du plan récupérée",
+        "cyclingActivityDetails": "Détails de l'activité de vélo récupérés",
+        "runningActivityDetails": "Détails de l'activité de course à pied récupérés",
+        "swimmingActivityDetails": "Détails de l'activité de natation récupérés"
+    },
+    "workoutActions": {
+        "dateUpdated": "Date de l'entraînement mise à jour avec succès.",
+        "viewInCalendar": "Voir dans le calendrier",
+        "viewCalendar": "Voir le calendrier",
+        "workoutSkipped": "Entraînement passé avec succès.",
+        "statusUpdated": "Statut de l'entraînement mis à jour.",
+        "workoutCreated": "Entraînement créé avec succès.",
+        "intensityUpdated": "Intensité de l'entraînement mise à jour avec succès.",
+        "zonesUpdated": "Zones d'entraînement mises à jour avec succès.",
+        "swimWorkoutCreated": "Entraînement de natation créé avec succès.",
+        "adviceUpdated": "Le conseil d'entraînement a été mis à jour avec succès."
+    },
+    "confirmation": {
+        "yes": "Oui",
+        "no": "Non",
+        "yesConfirmed": "Oui, confirmé.",
+        "noDenied": "Non, refusé."
+    },
+    "thinking": "Réflexion en cours...",
+    "errors": {
+        "general": "Une erreur est survenue, veuillez réessayer !"
+    }
+}

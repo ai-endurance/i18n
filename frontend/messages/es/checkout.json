@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Pago",
+        "description": "Realiza el pago para seguir usando AI Endurance"
+    },
+    "title": "Realiza el pago para seguir usando AI Endurance",
+    "subscriptionTypes": {
+        "monthly": "Mensual",
+        "yearly": "Anual"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "Aún no estás suscrito a ningún plan.",
+        "yearlyPlan": "Estás suscrito al plan anual. Si compras una nueva suscripción, la anterior se cancelará y será reemplazada por la nueva.",
+        "monthlyPlan": "Estás suscrito al plan mensual. Si compras una nueva suscripción, la anterior se cancelará y será reemplazada por la nueva."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Plan Mensual",
+            "prices": "al mes",
+            "billing": "Facturado mensualmente en {currency}"
+        },
+        "yearly": {
+            "title": "Plan Anual",
+            "prices": "al año",
+            "billing": "Facturado anualmente en {currency}",
+            "save": "¡Ahorra {currencySymbol}{savings}!"
+        },
+        "bestValue": "¡Mejor oferta!",
+        "select": "Seleccionar",
+        "selected": "Seleccionado"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Tu suscripción comenzará ahora",
+        "creditApplied": "Se aplicará un crédito de ${credit} USD.",
+        "amountDue": "Importe a pagar ahora:",
+        "subscriptionType": "Tipo de suscripción:",
+        "nameLabel": "Nombre y Apellidos",
+        "couponLabel": "Código de cupón",
+        "subscribe": "Suscribirse",
+        "errors": {
+            "invalidCoupon": "Tu código de cupón no es válido.",
+            "fillRequiredFields": "Por favor, rellena todos los campos obligatorios.",
+            "stripeFailed": "Stripe no se pudo cargar",
+            "paymentFailed": "Pago fallido {message}",
+            "successMessage": "¡Te has suscrito correctamente! ¡Bienvenido!"
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Calendar",
+        "description": "Manage your training plan with our interactive calendar."
+    },
+    "layout": {
+        "title": "Calendar"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Because you are on a free trial, we're only displaying the first 8 weeks of your training plan.",
+        "getTheWholeThing": "Get Full Access"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Go Back To Previous Plan",
+        "confirmationText": "Are you sure you want to go back to your previous plan? This will delete your current plan.",
+        "successMessage": "Back to Previous Plan!",
+        "errorMessage": "Going back to Previous Plan failed!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Skip Workout",
+        "confirmationText": "Are you sure you want to skip this workout? This cannot be undone. You can also reorder workouts by clicking and dragging them.",
+        "successMessage": "Workout skipped",
+        "errorMessage": "Failed to skip workout"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Mark as Completed",
+        "markAsNotCompleted": "Mark as Not Completed",
+        "successCompleted": "Workout marked as completed",
+        "successNotCompleted": "Workout marked as not completed",
+        "errorMessage": "Failed to mark workout"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Completed",
+        "skipped": "Skipped",
+        "done": "Done"
+    },
+    "commentButton": {
+        "dialogTitle": "Your feedback for {date}",
+        "done": "Done"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Date",
+            "distance": "Distance",
+            "duration": "Duration",
+            "calories": "Calories"
+        },
+        "buttons": {
+            "deleteActivity": "Delete Activity",
+            "analysis": "Analysis",
+            "done": "Done"
+        },
+        "confirmationText": "Are you sure you want to delete this activity? This cannot be undone.",
+        "successMessage": "Activity deleted successfully",
+        "errorMessage": "Error deleting activity"
+    },
+    "workoutDetails": {
+        "date": "Date",
+        "totalTime": "Total Time",
+        "timeAtIntensity": "Time At Intensity",
+        "estDistance": "Est. Distance",
+        "avgPower": "Avg. Power",
+        "avgPace": "Avg. Pace",
+        "order": "Order",
+        "estTime": "Est. Time",
+        "distance": "Distance"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Arms/shoulders",
+            "coreSoreness": "Core soreness",
+            "legSoreness": "Leg soreness",
+            "soreness": "Soreness"
+        },
+        "labels": {
+            "yourCheckIn": "Your check-in:",
+            "aiCoachFeedback": "AI Coach feedback:"
+        },
+        "buttons": {
+            "deleteFeedback": "Delete Feedback"
+        },
+        "confirmationText": "Are you sure you want to delete this feedback? This cannot be undone.",
+        "successMessage": "Feedback deleted successfully",
+        "errorMessages": {
+            "deleteError": "Error deleting Feedback",
+            "fetchError": "Error fetching feedback details"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "Total ESS",
+        "totalDuration": "Total Duration",
+        "runEss": "Run ESS",
+        "runDuration": "Run Duration",
+        "rideEss": "Ride ESS",
+        "rideDuration": "Ride Duration",
+        "swimEss": "Swim ESS",
+        "swimDistance": "Swim Distance",
+        "noDataMessage": "You have no data for this week!"
+    },
+    "labels": {
+        "calendar": "You can move planned workouts via drag and drop.",
+        "scheduledWorkout": "You can mark or unmark a workout as completed. If you want to delete a workout from your training plan, you can click 'Skip Workout'. In case you skip a workout we take note and potentially suggest adjustments to your plan to keep you on track for your goal. These adjustments are delivered via our notifications."
+    }
+}

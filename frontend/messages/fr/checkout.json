@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Paiement",
+        "description": "Passe au paiement pour continuer à utiliser AI Endurance"
+    },
+    "title": "Passe au paiement pour continuer à utiliser AI Endurance",
+    "subscriptionTypes": {
+        "monthly": "Mensuel",
+        "yearly": "Annuel"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "Tu n'es encore abonné à aucun plan.",
+        "yearlyPlan": "Tu es abonné au plan annuel. Si tu achètes un nouvel abonnement, ton ancien abonnement sera annulé et remplacé par le nouveau.",
+        "monthlyPlan": "Tu es abonné au plan mensuel. Si tu achètes un nouvel abonnement, ton ancien abonnement sera annulé et remplacé par le nouveau."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Plan Mensuel",
+            "prices": "par mois",
+            "billing": "Facturé mensuellement en {currency}"
+        },
+        "yearly": {
+            "title": "Plan Annuel",
+            "prices": "par an",
+            "billing": "Facturé annuellement en {currency}",
+            "save": "Économise {currencySymbol}{savings} !"
+        },
+        "bestValue": "Meilleur rapport qualité-prix !",
+        "select": "Sélectionner",
+        "selected": "Sélectionné"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Ton abonnement commencera maintenant",
+        "creditApplied": "Un crédit de ${credit} USD sera appliqué.",
+        "amountDue": "Montant dû maintenant :",
+        "subscriptionType": "Type d'abonnement :",
+        "nameLabel": "Prénom et Nom",
+        "couponLabel": "Code Promo",
+        "subscribe": "S'abonner",
+        "errors": {
+            "invalidCoupon": "Ton code promo est invalide.",
+            "fillRequiredFields": "Merci de remplir tous les champs obligatoires.",
+            "stripeFailed": "Le chargement de Stripe a échoué",
+            "paymentFailed": "Le paiement a échoué {message}",
+            "successMessage": "Tu t'es abonné avec succès ! Bienvenue !"
+        }
+    }
+}

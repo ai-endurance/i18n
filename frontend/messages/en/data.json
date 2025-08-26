@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "Data Details",
+        "description": "Dive into advanced data around your digital twin, data importing, and HRV."
+    },
+    "pastData": {
+        "title": "Your Past Data",
+        "actual": "Actual",
+        "morePastData": "More Past Data",
+        "displayed": "Displayed",
+        "weight": "Weight"
+    },
+    "dataExclusions": {
+        "title": "Data Exclusions",
+        "saveChanges": "Save Changes",
+        "dataExclusionsSaved": "Data exclusions saved",
+        "errorSavingDataExclusions": "There was an error saving your data exclusions",
+        "startDate": "Start Date",
+        "endDate": "End Date"
+    },
+    "hrvTrends": {
+        "title": "Your HRV a₁ Trends",
+        "date": "Date"
+    },
+    "labels": {
+        "alpha": {
+            "paragraph1": "Your trends in pₐ - the product of your pace/power times the DFA a₁ values during the first 30 minutes of each activity. Higher than average values may indicate particular good readiness to train, lower than average values a lack thereof. To see your HRV aerobic (a₁ = 0.75) and anaerobic (a₁ = 0.5) thresholds, click the legend or select heart rate. Thresholds from detected ramps as well as from clusters are displayed. A cluster threshold is the average of all pace/power/heart rate values recorded during the first 30 minutes of an activity with a₁ values close to 0.75 (0.5). The general trend (pₐ smooth) indicates longer term trends in your performance. Only activities with artifact corruption of less than 10% are displayed.",
+            "learnMore": "Learn more."
+        },
+        "pastData": {
+            "cyclist": "The machine learning model - your digital twin - was trained with up to {nCycling} of your bike rides with power or heart rate estimated power.",
+            "runnerWithoutPower": "The machine learning model - your digital twin - was trained with up to {nRunning} of your runs.",
+            "runnerWithPower": "The machine learning model - your digital twin - was trained with up to {nRunningPower} of your runs with running power.",
+            "triathleteWithoutPower": "The machine learning model - your digital twin - was trained with up to {nCycling} of your bike rides with power or heart rate estimated power and {nRunning} of your runs.",
+            "triathleteWithPower": "The machine learning model - your digital twin - was trained with up to {nCycling} of your bike rides with power or heart rate estimated power and {nRunningPower} of your runs with running power.",
+            "paragraph4": "The following chart shows a history of your performances over time.",
+            "paragraph5": "Also displayed are the predictions of the machine learning model as AI Fit. Roughly, the closer the two curves follow each other the better the model has become at predicting your performance. If you have enabled pre-training for your digital twin (&apos;Use secondary layer of training for digital twin&apos;) this can result in larger discrepancy between detected and predicted performance levels as the training response modeled via accumulated data may differ from your personal response.",
+            "paragraph6": "We also display the relative weight assigned to each data point in the model. A weight of 1 is the default. A weight of 0.1 indicates limited performance data was available, while a weight of 10 reflects a direct measurement, such as an HRV threshold, fitness test, race, or manual input. Additionally, data points from the distant past are weighted less than recent ones, with smaller weights representing their reduced influence."
+        },
+        "dataExclusion": {
+            "paragraph1": "Here you can exclude past time intervals from being used to train the AI algorithm. You might consider this option for time intervals where you were recording with a poorly calibrated device, or if it is too far in the past to represent your current physical capabilities."
+        }
+    }
+}

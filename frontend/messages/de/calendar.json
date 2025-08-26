@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Kalender",
+        "description": "Verwalte deinen Trainingsplan mit unserem interaktiven Kalender."
+    },
+    "layout": {
+        "title": "Kalender"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Da du dich in einer kostenlosen Testphase befindest, zeigen wir nur die ersten 8 Wochen deines Trainingsplans an.",
+        "getTheWholeThing": "Erhalte vollen Zugriff"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Zum vorherigen Plan zurückkehren",
+        "confirmationText": "Bist du sicher, dass du zu deinem vorherigen Plan zurückkehren möchtest? Dein aktueller Plan wird dadurch gelöscht.",
+        "successMessage": "Zurück zum vorherigen Plan!",
+        "errorMessage": "Das Zurückkehren zum vorherigen Plan ist fehlgeschlagen!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Training überspringen",
+        "confirmationText": "Bist du sicher, dass du dieses Training überspringen möchtest? Dies kann nicht rückgängig gemacht werden. Du kannst Workouts auch durch Klicken und Ziehen neu anordnen.",
+        "successMessage": "Training übersprungen",
+        "errorMessage": "Überspringen des Trainings fehlgeschlagen"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Als erledigt markieren",
+        "markAsNotCompleted": "Als nicht erledigt markieren",
+        "successCompleted": "Training als erledigt markiert",
+        "successNotCompleted": "Training als nicht erledigt markiert",
+        "errorMessage": "Markieren des Trainings fehlgeschlagen"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Erledigt",
+        "skipped": "Übersprungen",
+        "done": "Fertig"
+    },
+    "commentButton": {
+        "dialogTitle": "Dein Feedback für den {date}",
+        "done": "Fertig"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Datum",
+            "distance": "Distanz",
+            "duration": "Dauer",
+            "calories": "Kalorien"
+        },
+        "buttons": {
+            "deleteActivity": "Aktivität löschen",
+            "analysis": "Analyse",
+            "done": "Fertig"
+        },
+        "confirmationText": "Bist du sicher, dass du diese Aktivität löschen möchtest? Dies kann nicht rückgängig gemacht werden.",
+        "successMessage": "Aktivität erfolgreich gelöscht",
+        "errorMessage": "Fehler beim Löschen der Aktivität"
+    },
+    "workoutDetails": {
+        "date": "Datum",
+        "totalTime": "Gesamtzeit",
+        "timeAtIntensity": "Zeit bei Intensität",
+        "estDistance": "Gesch. Distanz",
+        "avgPower": "Durchschn. Power",
+        "avgPace": "Durchschn. Pace",
+        "order": "Reihenfolge",
+        "estTime": "Gesch. Zeit",
+        "distance": "Distanz"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Arme/Schultern",
+            "coreSoreness": "Rumpfmuskelkater",
+            "legSoreness": "Beinmuskelkater",
+            "soreness": "Muskelkater"
+        },
+        "labels": {
+            "yourCheckIn": "Dein Check-in:",
+            "aiCoachFeedback": "AI Coach Feedback:"
+        },
+        "buttons": {
+            "deleteFeedback": "Feedback löschen"
+        },
+        "confirmationText": "Bist du sicher, dass du dieses Feedback löschen möchtest? Dies kann nicht rückgängig gemacht werden.",
+        "successMessage": "Feedback erfolgreich gelöscht",
+        "errorMessages": {
+            "deleteError": "Fehler beim Löschen des Feedbacks",
+            "fetchError": "Fehler beim Abrufen der Feedback-Details"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "Gesamt ESS",
+        "totalDuration": "Gesamtdauer",
+        "runEss": "Lauf ESS",
+        "runDuration": "Lauf Dauer",
+        "rideEss": "Fahrrad ESS",
+        "rideDuration": "Fahrrad Dauer",
+        "swimEss": "Schwimm ESS",
+        "swimDistance": "Schwimm Distanz",
+        "noDataMessage": "Du hast keine Daten für diese Woche!"
+    },
+    "labels": {
+        "calendar": "Du kannst geplante Workouts per Drag & Drop verschieben.",
+        "scheduledWorkout": "Du kannst ein Training als erledigt markieren oder die Markierung aufheben. Wenn du ein Training aus deinem Trainingsplan löschen möchtest, kannst du auf 'Training überspringen' klicken. Falls du ein Training überspringst, nehmen wir das zur Kenntnis und schlagen möglicherweise Anpassungen an deinem Plan vor, damit du dein Ziel weiterhin erreichst. Diese Anpassungen werden über unsere Benachrichtigungen zugestellt."
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Calendrier",
+        "description": "Gère ton plan d'entraînement avec notre calendrier interactif."
+    },
+    "layout": {
+        "title": "Calendrier"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Comme tu es en période d'essai gratuit, nous n'affichons que les 8 premières semaines de ton plan d'entraînement.",
+        "getTheWholeThing": "Obtenir l'accès complet"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Retourner au plan précédent",
+        "confirmationText": "Es-tu sûr de vouloir retourner à ton plan précédent ? Cela supprimera ton plan actuel.",
+        "successMessage": "Retour au plan précédent !",
+        "errorMessage": "Le retour au plan précédent a échoué !"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Passer l'entraînement",
+        "confirmationText": "Es-tu sûr de vouloir passer cet entraînement ? Cette action est irréversible. Tu peux aussi réorganiser les entraînements en les cliquant et en les faisant glisser.",
+        "successMessage": "Entraînement passé",
+        "errorMessage": "Échec du passage de l'entraînement"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Marquer comme terminé",
+        "markAsNotCompleted": "Marquer comme non terminé",
+        "successCompleted": "Entraînement marqué comme terminé",
+        "successNotCompleted": "Entraînement marqué comme non terminé",
+        "errorMessage": "Échec du marquage de l'entraînement"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Terminé",
+        "skipped": "Passé",
+        "done": "Fait"
+    },
+    "commentButton": {
+        "dialogTitle": "Ton commentaire pour le {date}",
+        "done": "Terminé"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Date",
+            "distance": "Distance",
+            "duration": "Durée",
+            "calories": "Calories"
+        },
+        "buttons": {
+            "deleteActivity": "Supprimer l'activité",
+            "analysis": "Analyse",
+            "done": "Terminé"
+        },
+        "confirmationText": "Es-tu sûr de vouloir supprimer cette activité ? Cette action est irréversible.",
+        "successMessage": "Activité supprimée avec succès",
+        "errorMessage": "Erreur lors de la suppression de l'activité"
+    },
+    "workoutDetails": {
+        "date": "Date",
+        "totalTime": "Temps total",
+        "timeAtIntensity": "Temps à intensité",
+        "estDistance": "Distance est.",
+        "avgPower": "Power moy.",
+        "avgPace": "Pace moy.",
+        "order": "Ordre",
+        "estTime": "Temps est.",
+        "distance": "Distance"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Bras/épaules",
+            "coreSoreness": "Courbatures du tronc",
+            "legSoreness": "Courbatures aux jambes",
+            "soreness": "Courbatures"
+        },
+        "labels": {
+            "yourCheckIn": "Ton check-in :",
+            "aiCoachFeedback": "Commentaire du coach IA :"
+        },
+        "buttons": {
+            "deleteFeedback": "Supprimer le commentaire"
+        },
+        "confirmationText": "Es-tu sûr de vouloir supprimer ce commentaire ? Cette action est irréversible.",
+        "successMessage": "Commentaire supprimé avec succès",
+        "errorMessages": {
+            "deleteError": "Erreur lors de la suppression du commentaire",
+            "fetchError": "Erreur lors de la récupération des détails du commentaire"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "ESS Total",
+        "totalDuration": "Durée totale",
+        "runEss": "Course ESS",
+        "runDuration": "Course Durée",
+        "rideEss": "Vélo ESS",
+        "rideDuration": "Vélo Durée",
+        "swimEss": "Nage ESS",
+        "swimDistance": "Nage Distance",
+        "noDataMessage": "Tu n'as aucune donnée pour cette semaine !"
+    },
+    "labels": {
+        "calendar": "Tu peux déplacer les entraînements planifiés par glisser-déposer.",
+        "scheduledWorkout": "Tu peux marquer ou démarquer un entraînement comme terminé. Si tu veux supprimer un entraînement de ton plan, tu peux cliquer sur 'Passer l'entraînement'. Si tu passes un entraînement, nous en prenons note et pourrions suggérer des ajustements à ton plan pour te maintenir sur la bonne voie vers ton objectif. Ces ajustements sont livrés via nos notifications."
+    }
+}

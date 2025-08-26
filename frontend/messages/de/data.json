@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "Datendetails",
+        "description": "Tauche ein in erweiterte Daten rund um deinen Digital Twin, Datenimport und HRV."
+    },
+    "pastData": {
+        "title": "Deine vergangenen Daten",
+        "actual": "Tatsächlich",
+        "morePastData": "Weitere vergangene Daten",
+        "displayed": "Angezeigt",
+        "weight": "Gewichtung"
+    },
+    "dataExclusions": {
+        "title": "Datenausschlüsse",
+        "saveChanges": "Änderungen speichern",
+        "dataExclusionsSaved": "Datenausschlüsse gespeichert",
+        "errorSavingDataExclusions": "Beim Speichern deiner Datenausschlüsse ist ein Fehler aufgetreten",
+        "startDate": "Startdatum",
+        "endDate": "Enddatum"
+    },
+    "hrvTrends": {
+        "title": "Deine HRV a₁ Trends",
+        "date": "Datum"
+    },
+    "labels": {
+        "alpha": {
+            "paragraph1": "Deine Trends in pₐ – dem Produkt aus deiner Pace/Power und den DFA a₁-Werten während der ersten 30 Minuten jeder Aktivität. Überdurchschnittlich hohe Werte können auf eine besonders gute Readiness für das Training hindeuten, unterdurchschnittlich niedrige Werte auf einen Mangel derselben. Um deine aeroben (a₁ = 0,75) und anaeroben (a₁ = 0,5) HRV Thresholds zu sehen, klicke auf die Legende oder wähle die Herzfrequenz aus. Es werden Thresholds aus erkannten Rampen sowie aus Clustern angezeigt. Ein Cluster Threshold ist der Durchschnitt aller Pace/Power/Herzfrequenz-Werte, die während der ersten 30 Minuten einer Aktivität mit a₁-Werten nahe 0,75 (0,5) aufgezeichnet wurden. Der allgemeine Trend (pₐ smooth) zeigt längerfristige Trends in deiner Leistung an. Es werden nur Aktivitäten mit einer Artefaktkorruption von weniger als 10 % angezeigt.",
+            "learnMore": "Erfahre mehr."
+        },
+        "pastData": {
+            "cyclist": "Das maschinelle Lernmodell – dein Digital Twin – wurde mit bis zu {nCycling} deiner Radfahrten mit Power oder herzfrequenzgeschätzter Power trainiert.",
+            "runnerWithoutPower": "Das maschinelle Lernmodell – dein Digital Twin – wurde mit bis zu {nRunning} deiner Läufe trainiert.",
+            "runnerWithPower": "Das maschinelle Lernmodell – dein Digital Twin – wurde mit bis zu {nRunningPower} deiner Läufe mit Running Power trainiert.",
+            "triathleteWithoutPower": "Das maschinelle Lernmodell – dein Digital Twin – wurde mit bis zu {nCycling} deiner Radfahrten mit Power oder herzfrequenzgeschätzter Power und {nRunning} deiner Läufe trainiert.",
+            "triathleteWithPower": "Das maschinelle Lernmodell – dein Digital Twin – wurde mit bis zu {nCycling} deiner Radfahrten mit Power oder herzfrequenzgeschätzter Power und {nRunningPower} deiner Läufe mit Running Power trainiert.",
+            "paragraph4": "Das folgende Diagramm zeigt einen Verlauf deiner Leistungen über die Zeit.",
+            "paragraph5": "Angezeigt werden auch die Vorhersagen des maschinellen Lernmodells als AI Fit. Grob gesagt, je näher sich die beiden Kurven folgen, desto besser ist das Modell darin geworden, deine Leistung vorherzusagen. Wenn du das Vortraining für deinen Digital Twin aktiviert hast (&apos;Zweite Trainingsebene für Digital Twin verwenden&apos;), kann dies zu einer größeren Diskrepanz zwischen erkannten und vorhergesagten Leistungsniveaus führen, da die über gesammelte Daten modellierte Trainingsantwort von deiner persönlichen Reaktion abweichen kann.",
+            "paragraph6": "Wir zeigen auch die relative Gewichtung an, die jedem Datenpunkt im Modell zugewiesen wird. Eine Gewichtung von 1 ist der Standard. Eine Gewichtung von 0,1 zeigt an, dass nur begrenzte Leistungsdaten verfügbar waren, während eine Gewichtung von 10 eine direkte Messung widerspiegelt, wie z. B. einen HRV Threshold, einen Fitnesstest, ein Rennen oder eine manuelle Eingabe. Zusätzlich werden Datenpunkte aus der ferneren Vergangenheit geringer gewichtet als aktuelle, wobei kleinere Gewichtungen ihren reduzierten Einfluss darstellen."
+        },
+        "dataExclusion": {
+            "paragraph1": "Hier kannst du vergangene Zeitintervalle ausschließen, die für das Training des AI-Algorithmus verwendet werden. Du könntest diese Option für Zeiträume in Betracht ziehen, in denen du mit einem schlecht kalibrierten Gerät aufgezeichnet hast oder wenn sie zu weit in der Vergangenheit liegen, um deine aktuellen körperlichen Fähigkeiten darzustellen."
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "Détails des données",
+        "description": "Plonge dans les données avancées concernant ton digital twin, l'importation de données et la HRV."
+    },
+    "pastData": {
+        "title": "Tes données passées",
+        "actual": "Réel",
+        "morePastData": "Plus de données passées",
+        "displayed": "Affiché",
+        "weight": "Poids"
+    },
+    "dataExclusions": {
+        "title": "Exclusions de données",
+        "saveChanges": "Enregistrer les modifications",
+        "dataExclusionsSaved": "Exclusions de données enregistrées",
+        "errorSavingDataExclusions": "Une erreur est survenue lors de l'enregistrement de tes exclusions de données",
+        "startDate": "Date de début",
+        "endDate": "Date de fin"
+    },
+    "hrvTrends": {
+        "title": "Tes tendances HRV a₁",
+        "date": "Date"
+    },
+    "labels": {
+        "alpha": {
+            "paragraph1": "Tes tendances en pₐ - le produit de tes valeurs de pace/power multiplié par les valeurs DFA a₁ pendant les 30 premières minutes de chaque activité. Des valeurs supérieures à la moyenne peuvent indiquer une particulièrement bonne readiness à l'entraînement, des valeurs inférieures à la moyenne un manque de celle-ci. Pour voir tes thresholds aérobies (a₁ = 0,75) et Anaerobic (a₁ = 0,5) HRV, clique sur la légende ou sélectionne la fréquence cardiaque. Les thresholds issus des rampes détectées ainsi que des clusters sont affichés. Un cluster threshold est la moyenne de toutes les valeurs de pace/power/fréquence cardiaque enregistrées pendant les 30 premières minutes d'une activité avec des valeurs a₁ proches de 0,75 (0,5). La tendance générale (pₐ smooth) indique les tendances à plus long terme de ta performance. Seules les activités avec une corruption d'artefacts de moins de 10 % sont affichées.",
+            "learnMore": "En savoir plus."
+        },
+        "pastData": {
+            "cyclist": "Le modèle d'apprentissage automatique - ton Digital Twin - a été entraîné avec jusqu'à {nCycling} de tes sorties vélo avec Power ou Power estimé par la fréquence cardiaque.",
+            "runnerWithoutPower": "Le modèle d'apprentissage automatique - ton Digital Twin - a été entraîné avec jusqu'à {nRunning} de tes courses.",
+            "runnerWithPower": "Le modèle d'apprentissage automatique - ton Digital Twin - a été entraîné avec jusqu'à {nRunningPower} de tes courses avec Running Power.",
+            "triathleteWithoutPower": "Le modèle d'apprentissage automatique - ton Digital Twin - a été entraîné avec jusqu'à {nCycling} de tes sorties vélo avec Power ou Power estimé par la fréquence cardiaque et {nRunning} de tes courses.",
+            "triathleteWithPower": "Le modèle d'apprentissage automatique - ton Digital Twin - a été entraîné avec jusqu'à {nCycling} de tes sorties vélo avec Power ou Power estimé par la fréquence cardiaque et {nRunningPower} de tes courses avec Running Power.",
+            "paragraph4": "Le graphique suivant montre un historique de tes performances au fil du temps.",
+            "paragraph5": "Sont également affichées les prédictions du modèle d'apprentissage automatique en tant qu'AI Fit. En gros, plus les deux courbes se suivent de près, meilleur est le modèle pour prédire ta performance. Si tu as activé le pré-entraînement pour ton digital twin (&apos;Utiliser une couche secondaire d'entraînement pour le digital twin&apos;), cela peut entraîner un écart plus important entre les niveaux de performance détectés et prédits, car la réponse à l'entraînement modélisée via les données accumulées peut différer de ta réponse personnelle.",
+            "paragraph6": "Nous affichons également le poids relatif attribué à chaque point de données dans le modèle. Un poids de 1 est la valeur par défaut. Un poids de 0,1 indique que des données de performance limitées étaient disponibles, tandis qu'un poids de 10 reflète une mesure directe, comme un HRV threshold, un test de condition physique, une course ou une saisie manuelle. De plus, les points de données du passé lointain sont moins pondérés que les plus récents, des poids plus faibles représentant leur influence réduite."
+        },
+        "dataExclusion": {
+            "paragraph1": "Ici, tu peux exclure des intervalles de temps passés de l'entraînement de l'algorithme d'IA. Tu pourrais envisager cette option pour les intervalles de temps où tu enregistrais avec un appareil mal calibré, ou si c'est trop loin dans le passé pour représenter tes capacités physiques actuelles."
+        }
+    }
+}

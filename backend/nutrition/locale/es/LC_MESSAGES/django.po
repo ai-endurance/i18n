@@ -1,0 +1,27 @@
+# Spanish translations for AI Endurance - Nutrition
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "These meal plan suggestions are created via AI. Calorie and macronutrient content of ingredients may vary."
+msgstr "Estas sugerencias de planes de comidas son creadas mediante AI. El contenido calórico y de macronutrientes de los ingredientes puede variar."
+
+msgid "You make meal plans that are generally healthy. You add a disclaimer in the end. Use %(units)s units."
+msgstr "Haces planes de comidas que son generalmente saludables. Agregas una advertencia al final. Usa unidades %(units)s."
+
+msgid "You make meal plans that are generally healthy. Respond in the same language as the user's input. You add a disclaimer in the end. Use %(units)s units."
+msgstr "Haces planes de comidas que son generalmente saludables. Responde en el mismo idioma que la entrada del usuario. Agregas una advertencia al final. Usa unidades %(units)s."
+
+msgid "Calorie range: %(kcal_lower)s - %(kcal_upper)s kcal\nProtein range: %(protein_lower)s - %(protein_upper)s g\nFat range: %(fat_lower)s - %(fat_upper)s g\nCarbohydrate range: %(carbs_lower)s - %(carbs_upper)s g"
+msgstr "Rango de calorías: %(kcal_lower)s - %(kcal_upper)s kcal\nRango de proteínas: %(protein_lower)s - %(protein_upper)s g\nRango de grasas: %(fat_lower)s - %(fat_upper)s g\nRango de carbohidratos: %(carbs_lower)s - %(carbs_upper)s g"
+
+msgid "Please make meal plan suggestions for a day, considering the following nutritional guidelines:"
+msgstr "Por favor haz sugerencias de planes de comidas para un día, considerando las siguientes pautas nutricionales:"
+
+msgid "Double-check for accuracy. Please avoid stating totals, asking questions, or offering follow-up information."
+msgstr "Verifica la precisión. Por favor evita indicar totales, hacer preguntas u ofrecer información de seguimiento."

@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "title": "Configuración de aplicaciones de terceros",
+        "description": "Configura aquí los ajustes de tus aplicaciones de terceros"
+    },
+    "page": {
+        "title": "Conexiones con aplicaciones de terceros",
+        "lockedMessage": "Por favor, espera a que termine la búsqueda del plan actual para conectar aplicaciones de terceros.",
+        "iosMessage": "Para conectar aplicaciones de terceros a AI Endurance, por favor, utiliza la",
+        "webVersionButton": "Versión web de AI Endurance"
+    },
+    "components": {
+        "downloadZwift": {
+            "button": "Descargar Zwift Workouts"
+        },
+        "uploadFitFile": {
+            "label": "Sube tu archivo .FIT",
+            "button": "Subir",
+            "maxFilesError": "Máximo 3 archivos permitidos",
+            "uploadSuccess": "Archivo subido correctamente",
+            "moreFiles": "archivo más",
+            "moreFilesPlural": "archivos más"
+        },
+        "rampTests": {
+            "label": "DFA a₁ ramp tests",
+            "zwiftButton": "Descargar Zwift Ramp Test",
+            "garminButton": "Enviar a Garmin",
+            "suuntoButton": "Enviar a Suunto",
+            "intervalsicuButton": "Enviar a Intervals.icu",
+            "garminSuccess": "Ramp test enviado a Garmin",
+            "suuntoSuccess": "Ramp test enviado a Suunto",
+            "intervalsicuSuccess": "Ramp test enviado a Intervals.icu"
+        },
+        "refreshExports": {
+            "label": "Actualizar exportaciones",
+            "button": "Actualizar exportaciones",
+            "success": "¡Exportaciones actualizadas!",
+            "error": "Error al actualizar las exportaciones"
+        },
+        "disconnectSuccess": {
+            "garminHealth": "¡Garmin Health desconectado correctamente!",
+            "garminTraining": "¡Garmin Training desconectado correctamente!",
+            "coros": "¡Coros desconectado correctamente!",
+            "polar": "¡Polar desconectado correctamente!",
+            "intervalsicu": "¡Intervals.icu desconectado correctamente!",
+            "whoop": "¡Datos de Whoop desconectados correctamente!",
+            "nolio": "¡Nolio desconectado correctamente!",
+            "trainingpeaks": "¡TrainingPeaks desconectado correctamente!",
+            "suunto": "¡Suunto desconectado correctamente!",
+            "oura": "¡Datos de Oura desconectados correctamente!",
+            "strava": "¡Datos de Strava desconectados correctamente!",
+            "wahoo": "¡Wahoo desconectado correctamente!"
+        }
+    },
+    "labels": {
+        "apps": {
+            "paragraph1": "Haz clic para conectar o desconectar aplicaciones de terceros. Exportamos continuamente tus entrenamientos a Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu y Nolio con hasta una semana de antelación. Es posible que necesites una cuenta de TrainingPeaks Premium para acceder a tus entrenamientos de AI Endurance en TrainingPeaks.",
+            "paragraph2": "Ten en cuenta que la descarga de tus entrenamientos desde aplicaciones de terceros puede tardar un poco. Si no ves tus actividades pasadas en el calendario inmediatamente después de conectar, vuelve a comprobarlo pasadas unas horas.",
+            "paragraph3": "Si conectas tu cuenta de TrainingPeaks, ten en cuenta que no descargamos tu historial de entrenamientos de TrainingPeaks porque no proporcionan información detallada sobre tus entrenamientos a través de su API.",
+            "paragraph4": "Respondemos a las preguntas más comunes sobre aplicaciones de terceros en nuestra sección de FAQ.",
+            "seeFAQ": "Consulta nuestra sección de FAQ."
+        },
+        "zwift": {
+            "paragraph1": "Simplemente descomprime el archivo zip descargado en tu carpeta de entrenamientos de Zwift. Todos tus entrenamientos de AI Endurance aparecerán ahora en 'Entrenamientos personalizados' en Zwift. Si actualizas tu plan de AI Endurance, también actualizaremos automáticamente los archivos que puedes descargar aquí.",
+            "learnMore": "Haz clic aquí para ver instrucciones más detalladas."
+        },
+        "dfaRamp": {
+            "paragraph1": "Este es un ramp test para determinar tus umbrales ventilatorios a partir de los datos de variabilidad de la frecuencia cardíaca (HRV). Tu umbral aeróbico se encuentra donde a₁ cruza 0.75. Tu umbral anaeróbico se encuentra donde a₁ cruza 0.5. a₁ se calcula a partir de tus datos de HRV mediante el análisis de fluctuaciones sin tendencia (DFA). Puedes realizar el ramp test en Zwift, como un entrenamiento de Garmin o como un entrenamiento de Suunto si están conectados. No olvides registrar esta actividad con tu dispositivo Garmin o Suunto con el registro de HRV activado, ya que Zwift no registra datos de HRV. Tu Garmin Download o Suunto debe estar conectado a AI Endurance para determinar tus umbrales.",
+            "learnMore": "Más información."
+        },
+        "fitFile": "Puedes subir manualmente un archivo FIT en caso de que las opciones de importación anteriores no cubran tu dispositivo de grabación. Ten en cuenta que actualmente solo admitimos archivos FIT de natación, ciclismo o carrera.",
+        "refreshExports": "En caso de que tus exportaciones no estén actualizadas en tus aplicaciones de terceros, puedes actualizarlas manualmente aquí."
+    }
+}

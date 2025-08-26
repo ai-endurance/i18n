@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "title": "Terms of Use",
+        "description": "AI Endurance Terms of Use"
+    },
+    "sections": {
+        "privacy": {
+            "title": "1. Privacy",
+            "content": "By accessing or using the services of AI Endurace, you agree that we can collect, store and process your information in accordance with our Privacy Policy."
+        },
+        "conduct": {
+            "title": "2. Conduct Standards",
+            "content": "You may not sell, transfer, assign or license your account or account rights, and you are responsible for keeping your username and password secure. You cannot create an account for anyone else. You cannot solicit, collect or use anyone else's account or login credentials. Do not use the AI Endurance service for any illegal or unauthorized purposes. You must also comply with all applicable laws, rules and governmental regulations (whether federal, state, local or otherwise) when using AI Endurance. You are responsible for your conduct on AI Endurance. You are prohibited from changing, modifying, altering or adapting the AI Endurance service or any other website to imply an association with AI Endurance. You must not disrupt or interfere with the AI Endurance service or any servers or networks associated with it. Do not attempt to restrict anyone else from using or enjoying AI Endurance."
+        },
+        "health": {
+            "title": "3. Health",
+            "content": "The user expressly agrees that AI Endurance is not providing any kind of medical advice through its services. The user declares that he/she is using AI Endurance at his/her own full responsibility. In particular he/she is aware that the information and data available on AI Endurance is not a substitute for consulting a medical doctor. AI Endurance emphasizes that all workouts and training plans could be potentially harmful and cause injuries or death. Therefore AI Endurance emphasizes consulting a medical doctor before using its training. The user voluntarily waives, releases and discharges AI Endurance (which includes, for purposes of this Agreement, its owners, members, directors, officers, employees, agents or volunteers) from any and all claims, liabilities, damages, losses (including but not limited to loss of time, loss of service and loss of income), causes of action, suits, costs, expenses, and attorneys fees related to all potential risks and injuries."
+        },
+        "performance": {
+            "title": "4. Performance predictions",
+            "content": "Our performance predictions are estimations and come together with a prediction error on top of uncontrolled variables such as weather, form on the day, etc. We are not liable in case a performance does not agree with our predictions."
+        },
+        "nutrition": {
+            "title": "5. Nutrition recommendations disclaimer",
+            "content": "Measuring and estimating the energy cost of various forms of human locomotion is inherently challenging and prone to errors. Therefore, the estimated values for energetic requirements for any specific activity as well as for daily maintenance of energy balance provided by AI Endurance are only an approximate estimate of true energy requirements. In addition, macronutrient targets have been given based on the most recent recommendations on nutrition for endurance athletes and activities; while these targets are likely to suit most individuals, you should always consult a sports nutritionist or dietitian for individualised advice.",
+            "additional": "The guidelines and information contained within this app on energetic and nutritional requirements are not intended to be a substitute for individualized professional or medical advice from a medical provider, registered dietitian, or other registered healthcare provider. Although the information provided is evidence-based, it should be treated as purely educational and informative. The information provided within this app is not intended to be nutritional or medical advice nor is it individualised to the user and their specific circumstances (genetics, anthropometrics, lifestyle considerations, etc.). We will not be held responsible for any errors or omissions, and we accept no liability whatsoever for any loss or damage you may incur. Always seek medical or professional advice for your specific circumstances as needed for any questions and concerns you now have or may have in the future."
+        },
+        "apple": {
+            "title": "6. Apple Standard End User License Agreement (EULA)",
+            "content": "If you downloaded the AI Endurance app through the Apple App Store, your use of the app is also subject to Apple's Standard End User License Agreement (EULA), which can be found <appleEulaLink>here</appleEulaLink>."
+        }
+    }
+}

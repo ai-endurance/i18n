@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Termos",
+        "privacy": "Privacidade"
+    },
+    "confirmationPopup": {
+        "yes": "Sim",
+        "no": "Não"
+    },
+    "expiredDisplay": {
+        "title": "Não deixe seu condicionamento físico expirar! <br />Assine um plano para continuar seu progresso.",
+        "cta": "Comece agora!"
+    },
+    "infoBox": {
+        "defaultTitle": "Para você saber...",
+        "done": "Feito"
+    }
+}

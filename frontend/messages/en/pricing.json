@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "title": "Pricing",
+        "description": "Give {partner} a try for free for 2 weeks, then continue your journey for a fraction of the cost of traditional coaching"
+    },
+    "banner": {
+        "title": "How Much Does AI Endurance Cost?",
+        "description": "Well, to begin, it's free for 14 days. No payment info required, you can get started with AI Endurance for free today. After you've given it a shot, you can choose to continue with a monthly or yearly subscription. Even going month-to-month, AI Endurance costs a fraction of the price of a traditional coach. Give it a shot today!",
+        "cta": "Get Started!",
+        "imageAlt": "Road Cyclist"
+    },
+    "cards": {
+        "title": "Which plan would you like?"
+    },
+    "card": {
+        "types": {
+            "monthly": "Monthly",
+            "yearly": "Yearly"
+        },
+        "monthly": {
+            "price": "{price} per month",
+            "billing": "Billed monthly in {currency}"
+        },
+        "yearly": {
+            "price": "{price} per year",
+            "billing": "Billed yearly in {currency}",
+            "savings": "Save {currency}{amount}!"
+        },
+        "cta": "Try it for free",
+        "bestValue": "Best Value!"
+    }
+}

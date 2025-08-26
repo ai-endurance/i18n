@@ -1,0 +1,27 @@
+# Italian translations for AI Endurance - Nutrition
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "These meal plan suggestions are created via AI. Calorie and macronutrient content of ingredients may vary."
+msgstr "Questi suggerimenti di piani pasto sono creati tramite AI. Il contenuto calorico e di macronutrienti degli ingredienti può variare."
+
+msgid "You make meal plans that are generally healthy. You add a disclaimer in the end. Use %(units)s units."
+msgstr "Fai piani pasto che sono generalmente salutari. Aggiungi un disclaimer alla fine. Usa unità %(units)s."
+
+msgid "You make meal plans that are generally healthy. Respond in the same language as the user's input. You add a disclaimer in the end. Use %(units)s units."
+msgstr "Fai piani pasto che sono generalmente salutari. Rispondi nella stessa lingua dell'input dell'utente. Aggiungi un disclaimer alla fine. Usa unità %(units)s."
+
+msgid "Calorie range: %(kcal_lower)s - %(kcal_upper)s kcal\nProtein range: %(protein_lower)s - %(protein_upper)s g\nFat range: %(fat_lower)s - %(fat_upper)s g\nCarbohydrate range: %(carbs_lower)s - %(carbs_upper)s g"
+msgstr "Range calorico: %(kcal_lower)s - %(kcal_upper)s kcal\nRange proteine: %(protein_lower)s - %(protein_upper)s g\nRange grassi: %(fat_lower)s - %(fat_upper)s g\nRange carboidrati: %(carbs_lower)s - %(carbs_upper)s g"
+
+msgid "Please make meal plan suggestions for a day, considering the following nutritional guidelines:"
+msgstr "Per favore fai suggerimenti di piani pasto per un giorno, considerando le seguenti linee guida nutrizionali:"
+
+msgid "Double-check for accuracy. Please avoid stating totals, asking questions, or offering follow-up information."
+msgstr "Ricontrolla l'accuratezza. Per favore evita di indicare totali, fare domande o offrire informazioni di follow-up."

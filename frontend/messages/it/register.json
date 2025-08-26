@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "title": "Registrati",
+        "description": "Registrati ad AI Endurance"
+    },
+    "form": {
+        "title": "Iscriviti ad AI Endurance",
+        "fields": {
+            "firstName": {
+                "label": "Nome"
+            },
+            "lastName": {
+                "label": "Cognome"
+            },
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Password",
+                "error": "La password deve essere lunga almeno 8 caratteri e contenere almeno un numero, una lettera maiuscola, una lettera minuscola e un carattere speciale."
+            },
+            "confirmPassword": {
+                "label": "Conferma Password",
+                "error": "Le password non corrispondono."
+            },
+            "referral": {
+                "label": "Come ci hai conosciuto?"
+            }
+        },
+        "terms": {
+            "text": "Accetto",
+            "privacyPolicy": "l'Informativa sulla Privacy",
+            "and": "e",
+            "termsOfService": "i Termini di Servizio",
+            "error": "Per favore, accetta l'informativa sulla privacy e i termini di servizio."
+        },
+        "buttons": {
+            "signUp": "Iscriviti",
+            "goToLogin": "Vai al Log In"
+        },
+        "errors": {
+            "generic": "Si è verificato un errore."
+        }
+    }
+}

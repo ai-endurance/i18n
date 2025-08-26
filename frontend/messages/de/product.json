@@ -1,0 +1,94 @@
+{
+    "banner": {
+        "title": "Wie funktioniert AI Endurance?",
+        "description": "AI Endurance ist die einzige wirklich AI-gestützte Trainingsplattform. Wir passen keine vordefinierten Trainingspläne für unsere Athleten an. Unsere Plattform ist unglaublich individualisiert für jeden Athleten, der sie nutzt, und lernt deine Physiologie auf einer sehr tiefen Ebene kennen. Wir berücksichtigen Dinge wie, wie schnell du dich erholst, auf welche Arten von Intervallen du am besten ansprichst und deine spezifischen Ziele, um Pläne zu erstellen, die einzigartig auf deinen Körper und deine Ziele zugeschnitten sind."
+    },
+    "buttons": {
+        "getStarted": "Los geht's!"
+    },
+    "rows": {
+        "scientific": {
+            "title": "Wirklich wissenschaftlich, datengesteuert und vorausschauend",
+            "text": "Sagt dir deine aktuelle App, um wie viel sich ihre Athleten verbessert haben? Oder um wie viel du dich verbessern wirst? Wenn nicht, liegt das daran, dass sie entweder nicht funktioniert oder sie es nicht wissen und sich nicht um einen wissenschaftlichen und datengesteuerten Ansatz kümmern. Verschwende deine wertvolle Trainingszeit nicht mit einem Plan, der auf der Meinung von jemandem basiert, ohne all deine Daten zu berücksichtigen. Wir wissen, dass AI Endurance funktioniert, denn wir haben es nicht nur mit den neuesten von Experten begutachteten Forschungsergebnissen in der Sportphysiologie verglichen, sondern auch gezeigt, wie unser AI-optimiertes Training selbst den besten Einheitsansatz, den die aktuelle Forschung zu bieten hat, leicht übertrifft.",
+            "ctaButton": "Los geht's!",
+            "outlinedButton": "So wissen wir das"
+        },
+        "personalized": {
+            "title": "Dein personalisierter Plan",
+            "text": "AI Endurance wendet maschinelles Lernen auf die Daten an, die von deiner GPS-Uhr, deinem Smartphone und deinem Leistungsmesser gesammelt werden. Das Ergebnis ist ein Trainingsplan, der für dich, deinen Sport und dein Zielrennen personalisiert und optimiert ist. Wir helfen dir, deine Ziele durch unseren wissenschaftlichen Ansatz und datengesteuertes Training zu erreichen, indem wir die neuesten Fortschritte in der AI nutzen. Trainiere intelligenter mit einem datengesteuerten, ergebnisorientierten und einfach zu bedienenden Trainingsplan. AI ist dein Vorteil.",
+            "ctaButton": "Los geht's!",
+            "outlinedButton": "Wie personalisiert?"
+        },
+        "recovery": {
+            "title": "Erholung und Trainingsbereitschaft",
+            "text": "Vor jedem Training solltest du wissen, ob du wirklich bereit dafür bist. Jeder reagiert anders auf Stress, schlechten Schlaf und Trainingsermüdung – unser neues Erholungsmodell trifft datengesteuerte Entscheidungen darüber, wann du trainieren solltest und wann nicht. Wir verwenden eine Kombination aus deinem Trainingsfeedback, Feedback zum Muskelkater wichtiger Muskelgruppen, HRV und deiner Ruheherzfrequenz, um dir einen einfachen, leicht verständlichen Erholungswert zu geben und bei Bedarf Anpassungen des Trainingsplans anzubieten.",
+            "ctaButton": "Los geht's!",
+            "outlinedButton": "Wie funktioniert die Erholung?"
+        },
+        "adaptation": {
+            "title": "Passe deinen Plan an dein Leben an",
+            "text": "Lange Arbeitstage, unvorhergesehene Ereignisse, Reisen und Krankheiten können ernsthaftes Training stören. Wie bleibst du auf Kurs, wenn das Leben dazwischenkommt? Unsere AI passt deinen Trainingsplan dynamisch an und schlägt Trainingsänderungen bei suboptimaler Erholung oder verpassten Einheiten vor, um sicherzustellen, dass du dich weiterhin auf dein Ziel konzentrierst. Wir verstehen, dass kein Plan perfekt verläuft, und bemühen uns, dich dort abzuholen, wo du bist, und uns an die unvorhersehbare Natur des täglichen Lebens anzupassen.",
+            "ctaButton": "Los geht's!",
+            "outlinedButton": "Wie passt es sich an?"
+        },
+        "runningPower": {
+            "title": "Laufleistung",
+            "text": "Nutzt du bereits Laufleistung und suchst einen personalisierten Trainingsplan, um deine kritische Laufleistung zu optimieren? Wir haben das Richtige für dich! Wir sagen deine Zuwächse bei deiner kritischen Laufleistung voraus, wenn du dich an unseren adaptiven AI-Trainingsplan hältst. Willst du deinen nächsten Ultra rocken? Wir sind die einzige App, die deine Ultra-Ausdauerleistung, also die Leistung an deiner aeroben Schwelle, direkt optimiert. Wir verwenden die neueste Herzfrequenzvariabilitäts-Technologie – DFA alpha 1 – um deine aerobe Schwelle zu messen. Exportiere einfach deinen Laufleistungsplan zu TrainingPeaks oder Suunto Guides und führe deine Trainingseinheiten direkt von deiner Uhr aus durch.",
+            "ctaButton": "Los geht's!",
+            "outlinedButton": "Was ist DFA alpha 1?"
+        },
+        "nutrition": {
+            "title": "Sporternährung",
+            "text": "Wir haben mit führenden Sporternährungswissenschaftlern zusammengearbeitet, um dir eine Bandbreite an Kalorien und Makronährstoffen zu bieten, die du täglich benötigst, abhängig von deinem vergangenen und geplanten Training. Darüber hinaus erstellen wir einen AI-gestützten Ernährungsplan, der dir hilft, jeden Tag für optimale Leistung zu tanken. Nutze die Leistungsfähigkeit von Großen Sprachmodellen (denk an ChatGPT) und beschreibe einfach, welche Art von Ernährungsplan du möchtest. Wir unterstützen vegetarische, vegane, glutenfreie oder jegliche andere Ernährungsbedürfnisse oder -vorlieben.",
+            "ctaButton": "Los geht's!",
+            "outlinedButton": "Mehr über Sporternährung"
+        },
+        "integrations": {
+            "title": "Integrationen",
+            "text": "Wir integrieren uns mit vielen beliebten Trainingsplattformen. Wir können deine Trainings- und Erholungsdaten von Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop und Stryd importieren und deine Trainingseinheiten zu Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift oder unserer eigenen Plattform bei AI Endurance exportieren. Auf diese Weise kannst du AI Endurance so nutzen, wie es für dich am besten funktioniert! Wenn die Trainingsbibliothek von Zwift langweilig wird oder du von der Datenanalyse in Intervals.icu begeistert bist, können wir helfen!",
+            "ctaButton": "Los geht's!"
+        }
+    },
+    "fourCards": {
+        "title": "Modernste Datenanalyse",
+        "cards": {
+            "zoneDetection": {
+                "title": "Automatische Zonenerkennung",
+                "text": "AI Endurance erkennt automatisch deine Trainingszonen durch automatische aerobe und anaerobe Schwellenwerterkennung unter Verwendung von HRV und anderen wichtigen Variablen."
+            },
+            "noTests": {
+                "title": "Keine Tests erforderlich",
+                "text": "Wir verwenden deine Trainingsdaten, um deine Leistung vorherzusagen und deinen Trainingsplan zu optimieren. Keine Notwendigkeit für Rampentests, Zeitfahren oder 20-Minuten-Tests."
+            },
+            "predictions": {
+                "title": "Genaue Vorhersagen",
+                "text": "Unsere AI-Modelle sagen deine Leistung voraus und optimieren sie, indem sie jede Sekunde deiner Trainingshistorie analysieren – von 5-km-Tempo und FTP bis hin zu Ironman- und Ausdauerleistung."
+            },
+            "hrv": {
+                "title": "Herzfrequenzvariabilität",
+                "text": "Wir leisten Pionierarbeit bei aufregenden neuen wissenschaftlichen Erkenntnissen rund um HRV und nutzen DFA alpha 1 als wertvolle Trainingsmetrik für die Schwellenwerterkennung, Trainingsbereitschaft und Belastbarkeit."
+            }
+        }
+    },
+    "threeCards": {
+        "optimize": {
+            "title": "Optimiere deinen Trainingsplan",
+            "text": "Es gibt so viele Trainingsmethoden: kurze/lange Intervalle, harte/leichte Trainingseinheiten, lange/kurze Erholung. Woher weißt du, was für dich richtig ist? Unsere AI findet den Plan, der deine beste Leistung in der dir zur Verfügung stehenden Trainingszeit ermöglicht. Jedes Training, das du absolvierst, ist eine Goldgrube an Daten; unsere AI nutzt sie, um deine zukünftige Leistung vorherzusagen und einen Trainingsplan zu erstellen, der die Lücke zwischen deiner aktuellen und deiner optimalen Rennleistung schließt.",
+            "button": "Wie wir optimieren"
+        },
+        "simplify": {
+            "title": "Vereinfache deinen Trainingsfokus",
+            "text": "Viele Faktoren, kleine und große, beeinflussen die Leistung an einem bestimmten Tag. Es ist überwältigend, sie alle zu berücksichtigen. Was musst du wirklich wissen, um effizient zu trainieren? Unsere AI identifiziert, welche Trainingseinheiten an welchem Tag zu absolvieren sind. Der Fokus liegt darauf, die Zeit, die du heute hast, zu nutzen, um deine Zielleistung in deinem Zielrennen zu erreichen. Wir haben auch einen Erhaltungsplan, um dich in Form zu halten.",
+            "button": "Welches Training wirklich funktioniert"
+        },
+        "adapt": {
+            "title": "Unser Plan passt sich dir an",
+            "text": "Egal, ob du dem Plan folgst oder nicht – jedes Training, das du absolvierst, wird zur Berechnung deines optimalen Plans verwendet. Jeden Tag. Wir informieren dich, wenn wir eine bessere Option für dein Ziel gefunden haben. Oder – wenn das Leben zu sehr dazwischenkommt – wann es Zeit ist, zurückzusetzen und einen neuen Plan zu starten.",
+            "button": "Wie wir uns an dich anpassen"
+        }
+    },
+    "metadata": {
+        "title": "Wie funktioniert {partner}? | {partner}",
+        "description": "{partner} ist die einzige wirklich AI-gestützte Trainingsplattform. Keine generischen, vordefinierten Pläne hier."
+    }
+}

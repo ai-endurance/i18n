@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Detalhes da Atividade",
+        "description": "Veja informações detalhadas sobre sua atividade de treino"
+    },
+    "errors": {
+        "workoutNotFound": "Treino não encontrado",
+        "updateFailed": "Falha ao atualizar o nome da atividade",
+        "updateSuccess": "Nome da atividade atualizado",
+        "deleteFailed": "Erro ao excluir atividade",
+        "deleteSuccess": "Atividade excluída com sucesso",
+        "raceStatusChangeFailed": "Erro ao alterar o status de prova",
+        "raceStatusChangeSuccess": "Status de prova alterado com sucesso"
+    },
+    "sections": {
+        "activityDetails": "Detalhes da Atividade",
+        "bestEfforts": "Melhores Esforços",
+        "hrvData": "Dados de HRV"
+    },
+    "components": {
+        "showActivityButton": {
+            "displayed": "Exibido",
+            "average": "Méd: {average}"
+        },
+        "viewOnStravaCard": {
+            "title": "Ver no Strava"
+        },
+        "deleteActivityCard": {
+            "title": "Excluir Atividade",
+            "confirmationText": "Tem certeza de que deseja excluir esta atividade? Esta ação não pode ser desfeita."
+        },
+        "downloadCSV": {
+            "title": "Baixar como CSV"
+        },
+        "markAsRace": {
+            "title": "Prova"
+        },
+        "sourceCard": {
+            "title": "Fonte",
+            "manualUpload": "Envio Manual"
+        }
+    },
+    "labels": {
+        "notMoving": "Sem movimento",
+        "movingTime": "Tempo em movimento",
+        "distance": "Distância",
+        "elevationGain": "Ganho de elevação",
+        "kcal": "kcal",
+        "averagePower": "Power médio",
+        "averageHeartRate": "Frequência cardíaca média",
+        "powerEstimation": "Estimativa de Power",
+        "averageGap": "GAP médio",
+        "averagePace": "Pace médio",
+        "ess": "ESS",
+        "artifactPercentage": "Percentual de artefatos",
+        "artifactPercentageLocal": "Percentual de artefatos local",
+        "iss": "ISS",
+        "averageA1": "a₁ médio",
+        "enduranceCeilingRamp": "Teto de Endurance (rampa)",
+        "enduranceCeilingCluster": "Teto de Endurance (cluster)",
+        "thresholdCeilingRamp": "Teto de Threshold (rampa)",
+        "thresholdCeilingCluster": "Teto de Threshold (cluster)",
+        "rAlphaRide": "Rₐ (readiness)",
+        "dAlphaRide": "Dₐ (durability)",
+        "paceRAlpha": "Pace Rₐ (readiness)",
+        "paceDAlpha": "Pace Dₐ (durability)",
+        "powerRAlpha": "Power Rₐ (readiness)",
+        "powerDAlpha": "Power Dₐ (durability)",
+        "best20MinPower": "Melhor Power de 20 min",
+        "best15MinPower": "Melhor Power de 15 min",
+        "best30MinPower": "Melhor Power de 30 min",
+        "best15MinGap": "Melhor GAP de 15 min",
+        "best30MinGap": "Melhor GAP de 30 min",
+        "detailRecoveryAlpha": {
+            "text": "Sua {pName} readiness para treinar para esta atividade com base no DFA a₁. Valores positivos indicam que você estava pronto para treinar. Valores negativos podem indicar o oposto, por exemplo, devido à fadiga e/ou stress.",
+            "learnMore": "Saiba mais."
+        },
+        "detailDriftAlpha": {
+            "text": "Sua {pName} durability para esta atividade com base no DFA a₁. Valores maiores que -5% podem indicar que você está bem adaptado ao tipo e duração desta atividade. Valores negativos grandes podem indicar falta de durability.",
+            "learnMore": "Saiba mais."
+        },
+        "detailAvAlpha": {
+            "text": "O DFA a₁ é uma medida das propriedades de correlação fractal do seu sinal de variabilidade da frequência cardíaca (HRV). Quanto menor o seu DFA a₁, maior a intensidade do exercício. Valores acima de 1.0 ocorrem em baixas intensidades, valores abaixo de 0.75 correspondem a intensidades acima do threshold aeróbico. Valores abaixo de 0.5 indicam intensidades anaeróbicas.",
+            "learnMore": "Saiba mais."
+        },
+        "detailIss": {
+            "text": "Seu internal stress score (ISS) para esta atividade, derivado dos seus dados de DFA a₁. Quanto mais longa a atividade, menor o a₁ e mais intenso o treino, maior o ISS. Como exemplo, uma hora no threshold anaeróbico com a₁=0.5 corresponde a 100 ISS."
+        },
+        "detailEndHrv": {
+            "text": "O limite superior da sua Zona de Endurance, seu threshold aeróbico, é calculado a partir dos seus dados de DFA a₁. É a intensidade na qual você cruza o threshold aeróbico (a₁ = 0.75) em um aumento de intensidade tipo rampa durante os primeiros 30 minutos de atividade.",
+            "learnMore": "Saiba mais."
+        },
+        "detailEndHrvCluster": {
+            "text": "O limite superior da sua Zona de Endurance, seu threshold aeróbico, é calculado a partir dos seus dados de DFA a₁. É a intensidade onde seu power ou pace se agrupa (cluster) perto do threshold aeróbico (a₁ = 0.75) durante os primeiros 30 minutos de atividade.",
+            "learnMore": "Saiba mais."
+        },
+        "detailThrHrv": {
+            "text": "O limite superior da sua Zona de Threshold, seu threshold anaeróbico, é calculado a partir dos seus dados de DFA a₁. É a intensidade na qual você cruza o threshold anaeróbico (a₁ = 0.5) em um aumento de intensidade tipo rampa durante os primeiros 30 minutos de atividade.",
+            "learnMore": "Saiba mais."
+        },
+        "detailThrHrvCluster": {
+            "text": "O limite superior da sua Zona de Threshold, seu threshold anaeróbico, é calculado a partir dos seus dados de DFA a₁. É a intensidade onde suas métricas se agrupam (cluster) perto do threshold anaeróbico (a₁ = 0.5) durante os primeiros 30 minutos de atividade.",
+            "learnMore": "Saiba mais."
+        },
+        "detailArtifacts": {
+            "text": "O número de medições de HRV (variabilidade da frequência cardíaca) que incluíram artefatos e tiveram que ser corrigidas. Artefatos podem ser batimentos longos, curtos, perdidos, extras e ectópicos. Para uma medição precisa, a atividade deve ter menos de 5% de artefatos. Se você está obtendo percentuais de artefatos mais altos, certifique-se de:\n- usar um monitor de frequência cardíaca (HRM) Polar H10 ou Suunto\n- conectar seu HRM via Bluetooth em vez de Ant+\n- umedecer os eletrodos do HRM com saliva ou gel de ultrassom antes de cada atividade\n- enxaguar a cinta em água fria após cada atividade e lavar a cinta uma vez por semana na máquina de lavar em baixa temperatura, idealmente em um saco de malha\n- otimizar a posição da sua cinta (veja o link abaixo)\nSe precisar substituir a bateria do seu HRM, use baterias novas de alta qualidade.\nQuando a cinta atingir o fim de sua vida útil, você pode substituir APENAS a cinta, em vez do HRM inteiro.",
+            "learnMore": "Saiba mais sobre a posição ideal da cinta do HRM."
+        },
+        "detailArtifactsLocal": {
+            "text": "O percentual de medições de HRV que incluíram artefatos e tiveram que ser corrigidas apenas durante os períodos em que os thresholds ou a readiness foram avaliados."
+        },
+        "detailKcal": {
+            "text": "A medição ou previsão precisa das necessidades energéticas durante o exercício é inerentemente complexa e propensa a erros, independentemente da metodologia escolhida. Para os fins deste aplicativo, o custo energético do exercício foi estimado usando equações baseadas em evidências, específicas para o tipo de exercício. Esses cálculos devem ser usados como uma diretriz aproximada do custo energético de cada sessão de exercício, lembrando que o verdadeiro custo energético do exercício provavelmente varia com base em fatores como idade, sexo, estado de saúde e condicionamento físico do indivíduo, massa e composição corporal, estilo de vida, genética, e assim por diante.",
+            "learnMore": "Saiba mais."
+        },
+        "detailEss": {
+            "text": "Seu external stress score (ESS) para esta atividade, derivado dos seus dados de power. Quanto mais longa a atividade, maior a potência e mais intenso o treino, maior o ESS. Como exemplo, uma hora no threshold anaeróbico corresponde a 100 ESS."
+        },
+        "powerSource": {
+            "text": "Seu power é previsto a partir da sua frequência cardíaca e - se presentes - cadence e/ou DFA a₁. Nossa IA aprende a prever seu power a partir de suas atividades passadas com power, frequência cardíaca, cadence e a₁.",
+            "learnMore": "Saiba mais."
+        },
+        "activityTitle": {
+            "text": "Você pode personalizar o título da sua atividade para destacar um treino de teste ou uma prova.",
+            "textCycling": "Você pode personalizar o título da sua atividade para destacar um treino de teste ou uma prova. Certifique-se de que os títulos dos seus testes de FTP incluam tanto a palavra 'teste' quanto a duração do teste para que o aplicativo possa reconhecê-lo. Por exemplo, use 'teste de FTP de 20 min' para um teste de FTP de 20 minutos. Para Ramp Tests, inclua 'ramp' e 'test' no título, como 'Ramp Test'."
+        },
+        "gap": {
+            "text": "Grade Adjusted Pace (GAP) refere-se ao pace ajustado para levar em conta os efeitos das mudanças de elevação durante uma atividade. Em vez de apenas medir a velocidade, o pace ajustado ao gradiente considera como as inclinações (subidas) e declives (descidas) impactam o esforço necessário para manter uma certa velocidade. Por exemplo, se você está correndo em uma subida íngreme, seu pace bruto pode ser lento, mas seu GAP pode ser alto, pois leva em conta a inclinação da subida. Ao normalizar o pace com base nessas mudanças de elevação, ele fornece um reflexo mais preciso do esforço exercido em terrenos variados, tornando-se uma métrica útil para comparar desempenhos em diferentes percursos ou entender o impacto das subidas e descidas no seu pace geral."
+        },
+        "markAsRace": {
+            "text": "Quando você marca uma atividade como prova, o modelo de IA atribui maior importância aos dados dessa atividade, aumentando seu peso durante o treinamento do modelo."
+        }
+    }
+}
