@@ -63,13 +63,13 @@ msgid "Since we could not find enough activity data to predict your Endurance th
 msgstr "Dado que no pudimos encontrar suficientes datos de actividad para predecir tu rendimiento de umbral de Endurance, eliminamos el objetivo %(goal)s."
 
 msgid "Since we could not find enough running power data or you are not using running power any longer, we changed your goal from %(old_goal)s to %(new_goal)s."
-msgstr "Dado que no pudimos encontrar suficientes datos de Running Power o ya no estás usando Running Power, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
+msgstr "Dado que no pudimos encontrar suficientes datos de potencia de carrera o ya no estás usando potencia de carrera, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
 
 msgid "Since we could not find enough running power data or you are not using running power, we deleted the goal %(goal)s."
-msgstr "Dado que no pudimos encontrar suficientes datos de Running Power o no estás usando Running Power, eliminamos el objetivo %(goal)s."
+msgstr "Dado que no pudimos encontrar suficientes datos de potencia de carrera o no estás usando potencia de carrera, eliminamos el objetivo %(goal)s."
 
 msgid "Since you are now using running power data, we changed your goal from %(old_goal)s to %(new_goal)s."
-msgstr "Dado que ahora estás usando datos de Running Power, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
+msgstr "Dado que ahora estás usando datos de potencia de carrera, cambiamos tu objetivo de %(old_goal)s a %(new_goal)s."
 
 msgid "Since you are now using running power data, we deleted the goal %(goal)s."
-msgstr "Dado que ahora estás usando datos de Running Power, eliminamos el objetivo %(goal)s."
+msgstr "Dado que ahora estás usando datos de potencia de carrera, eliminamos el objetivo %(goal)s."

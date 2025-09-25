@@ -42,10 +42,10 @@
     "suggestions": {
         "title": "Suggestions de prompt :",
         "strength": {
-            "hipWithEquipment": "entraînement de renforcement des hanches à faible impact (avec équipement de gym)",
-            "hipWithoutEquipment": "entraînement de renforcement des hanches à faible impact (sans équipement de gym)",
-            "triathlete": "entraînement de 30 min pour maximiser la force pour les triathlètes",
-            "core": "entraînement du gainage pour coureurs"
+            "hipWithEquipment": "renforcement musculaire des hanches à faible impact (avec équipement de gym)",
+            "hipWithoutEquipment": "renforcement musculaire des hanches à faible impact (sans équipement de gym)",
+            "triathlete": "renforcement musculaire de 30 min pour maximiser la force pour les triathlètes",
+            "core": "renforcement musculaire du gainage pour coureurs"
         },
         "run": {
             "tempo": "entraînement Tempo difficile",

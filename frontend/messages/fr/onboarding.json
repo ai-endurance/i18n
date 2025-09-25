@@ -35,7 +35,7 @@
             "other": "Non-binaire"
         },
         "continue": "Continuer",
-        "useRunningPower": "Utiliser la Running Power ?"
+        "useRunningPower": "Utiliser la Puissance de course à pied ?"
     },
     "disciplineTimes": {
         "title": "Quel est ton niveau de forme actuel ?",
@@ -51,9 +51,9 @@
         "noHoursPerWeek": "Aucun nombre d'heures par semaine saisi",
         "noEventDate": "Aucune date d'épreuve sélectionnée",
         "noEventType": "Aucun type d'épreuve sélectionné",
-        "powerValueNotInRange": "La valeur de Power n'est pas dans la plage autorisée",
-        "pace5kNotInRange": "La valeur de Pace 5k n'est pas dans la plage autorisée",
-        "pace10kNotInRange": "La valeur de Pace 10k n'est pas dans la plage autorisée"
+        "powerValueNotInRange": "La valeur de puissance n'est pas dans la plage autorisée",
+        "pace5kNotInRange": "La valeur d'allure 5k n'est pas dans la plage autorisée",
+        "pace10kNotInRange": "La valeur d'allure 10k n'est pas dans la plage autorisée"
     },
     "appCard": {
         "disconnectConfirm": "Es-tu sûr de vouloir déconnecter {title} ?",
@@ -110,9 +110,9 @@
             "triathlete": "Choisis parmi des distances allant du Sprint jusqu'à la distance Ironman complète. Pour les distances Sprint et Olympique, nous optimisons ta Critical Cycling Power et ton/ta {runTextSprintOlympic}. Pour le Demi-Ironman et l'Ironman, nous optimisons ta Puissance Cycliste Aérobie et ton/ta {runTextHalfIronman}.",
             "selectDiscipline": "Sélectionne une discipline pour continuer.",
             "runTextSprintOlympicPower": "Critical Running Power",
-            "runTextSprintOlympicPace": "Pace 5k ou 10k",
+            "runTextSprintOlympicPace": "Allure 5k ou 10k",
             "runTextHalfIronmanPower": "Puissance de Course Aérobie",
-            "runTextHalfIronmanPace": "Pace Semi-Marathon ou Marathon"
+            "runTextHalfIronmanPace": "Allure Semi-Marathon ou Marathon"
         }
     }
 }

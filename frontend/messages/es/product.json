@@ -20,20 +20,20 @@
             "outlinedButton": "¿Cómo de personalizado?"
         },
         "recovery": {
-            "title": "Recovery y Readiness para entrenar",
-            "text": "Antes de cada entrenamiento, deberías saber si realmente estás listo para él. Cada persona responde de manera diferente al stress, al mal sueño y a la fatiga del ejercicio. Nuestro nuevo modelo de recovery toma decisiones basadas en datos sobre cuándo deberías entrenar y cuándo no. Usamos una combinación de tus comentarios sobre el entrenamiento, comentarios sobre el dolor en grupos musculares importantes, HRV y frecuencia cardíaca en reposo para darte una puntuación de recovery simple y fácil de entender, y ofrecer modificaciones en el plan de entrenamiento si es necesario.",
+            "title": "Recuperación y Preparación para entrenar",
+            "text": "Antes de cada entrenamiento, deberías saber si realmente estás listo para él. Cada persona responde de manera diferente al stress, al mal sueño y a la fatiga del ejercicio. Nuestro nuevo modelo de recuperación toma decisiones basadas en datos sobre cuándo deberías entrenar y cuándo no. Usamos una combinación de tus comentarios sobre el entrenamiento, comentarios sobre el dolor en grupos musculares importantes, HRV y frecuencia cardíaca en reposo para darte una puntuación de recuperación simple y fácil de entender, y ofrecer modificaciones en el plan de entrenamiento si es necesario.",
             "ctaButton": "¡Empieza ya!",
-            "outlinedButton": "¿Cómo funciona la Recovery?"
+            "outlinedButton": "¿Cómo funciona la Recuperación?"
         },
         "adaptation": {
             "title": "Adapta tu plan a tu vida",
-            "text": "Largas jornadas de trabajo, imprevistos, viajes y enfermedades pueden interrumpir un entrenamiento serio. ¿Cómo mantienes el rumbo cuando la vida se interpone? Nuestra IA adapta tu plan de entrenamiento sobre la marcha, sugiriendo modificaciones en los entrenamientos en caso de una recovery subóptima o sesiones perdidas, asegurando que te mantengas enfocado en tu objetivo. Entendemos que ningún plan se desarrolla a la perfección y nos esforzamos por adaptarnos a tu situación, acomodando la naturaleza impredecible de la vida diaria.",
+            "text": "Largas jornadas de trabajo, imprevistos, viajes y enfermedades pueden interrumpir un entrenamiento serio. ¿Cómo mantienes el rumbo cuando la vida se interpone? Nuestra IA adapta tu plan de entrenamiento sobre la marcha, sugiriendo modificaciones en los entrenamientos en caso de una recuperación subóptima o sesiones perdidas, asegurando que te mantengas enfocado en tu objetivo. Entendemos que ningún plan se desarrolla a la perfección y nos esforzamos por adaptarnos a tu situación, acomodando la naturaleza impredecible de la vida diaria.",
             "ctaButton": "¡Empieza ya!",
             "outlinedButton": "¿Cómo se adapta?"
         },
         "runningPower": {
-            "title": "Running Power",
-            "text": "¿Ya usas running power y buscas un plan de entrenamiento personalizado para optimizar tu critical running power? ¡Nosotros te cubrimos! Predecimos tus ganancias en tu critical running power si sigues nuestro plan de entrenamiento adaptativo de IA. ¿Quieres arrasar en tu próximo ultra? Somos la única aplicación que optimiza directamente tu ultra endurance power, la potencia en tu umbral aeróbico. Usamos la tecnología más nueva de variabilidad de la frecuencia cardíaca, DFA alpha 1, para medir tu umbral aeróbico. Simplemente exporta tu plan de running power a TrainingPeaks o Suunto Guides y ejecuta tus entrenamientos directamente desde tu reloj.",
+            "title": "Potencia de carrera",
+            "text": "¿Ya usas potencia de carrera y buscas un plan de entrenamiento personalizado para optimizar tu critical running power? ¡Nosotros te cubrimos! Predecimos tus ganancias en tu critical running power si sigues nuestro plan de entrenamiento adaptativo de IA. ¿Quieres arrasar en tu próximo ultra? Somos la única aplicación que optimiza directamente tu ultra endurance power, la potencia en tu umbral aeróbico. Usamos la tecnología más nueva de variabilidad de la frecuencia cardíaca, DFA alpha 1, para medir tu umbral aeróbico. Simplemente exporta tu plan de potencia de carrera a TrainingPeaks o Suunto Guides y ejecuta tus entrenamientos directamente desde tu reloj.",
             "ctaButton": "¡Empieza ya!",
             "outlinedButton": "¿Qué es DFA alpha 1?"
         },
@@ -45,7 +45,7 @@
         },
         "integrations": {
             "title": "Integraciones",
-            "text": "Nos integramos con muchas plataformas de entrenamiento populares. Podemos importar tus datos de entrenamiento y recovery de Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop y Stryd, y exportar tus entrenamientos a Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift o a nuestra propia plataforma en AI Endurance. De esta manera, ¡puedes utilizar AI Endurance de la forma que mejor te funcione! Si la biblioteca de entrenamientos de Zwift se está volviendo aburrida, o estás enganchado al análisis de datos en Intervals.icu, ¡podemos ayudarte!",
+            "text": "Nos integramos con muchas plataformas de entrenamiento populares. Podemos importar tus datos de entrenamiento y recuperación de Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop y Stryd, y exportar tus entrenamientos a Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift o a nuestra propia plataforma en AI Endurance. De esta manera, ¡puedes utilizar AI Endurance de la forma que mejor te funcione! Si la biblioteca de entrenamientos de Zwift se está volviendo aburrida, o estás enganchado al análisis de datos en Intervals.icu, ¡podemos ayudarte!",
             "ctaButton": "¡Empieza ya!"
         }
     },
@@ -62,18 +62,18 @@
             },
             "predictions": {
                 "title": "Predicciones precisas",
-                "text": "Nuestros modelos de IA predicen y optimizan tu rendimiento analizando cada segundo de tu historial de entrenamientos, cubriendo todo, desde el pace de 5k y FTP hasta Ironman y endurance power."
+                "text": "Nuestros modelos de IA predicen y optimizan tu rendimiento analizando cada segundo de tu historial de entrenamientos, cubriendo todo, desde el ritmo de 5k y FTP hasta Ironman y endurance power."
             },
             "hrv": {
                 "title": "Heart Rate Variability",
-                "text": "Somos pioneros en la nueva y emocionante ciencia en torno a HRV, y adoptamos DFA alpha 1 como una métrica de entrenamiento valiosa para la detección del threshold, la readiness para entrenar y la durability."
+                "text": "Somos pioneros en la nueva y emocionante ciencia en torno a HRV, y adoptamos DFA alpha 1 como una métrica de entrenamiento valiosa para la detección del threshold, la preparación para entrenar y la durability."
             }
         }
     },
     "threeCards": {
         "optimize": {
             "title": "Optimiza tu plan de entrenamiento",
-            "text": "Hay muchas formas de entrenar: intervalos cortos/largos, entrenamientos duros/fáciles, recovery larga/corta. ¿Cómo sabes qué es lo adecuado para ti? Nuestra IA encuentra el plan que te permite alcanzar tu mejor rendimiento en el tiempo que tienes para entrenar. Cada entrenamiento que haces es una mina de oro de datos; nuestra IA los utiliza para predecir tu rendimiento futuro y crear un plan de entrenamiento que cierre la brecha entre tu rendimiento actual y el rendimiento óptimo en la carrera.",
+            "text": "Hay muchas formas de entrenar: intervalos cortos/largos, entrenamientos duros/fáciles, recuperación larga/corta. ¿Cómo sabes qué es lo adecuado para ti? Nuestra IA encuentra el plan que te permite alcanzar tu mejor rendimiento en el tiempo que tienes para entrenar. Cada entrenamiento que haces es una mina de oro de datos; nuestra IA los utiliza para predecir tu rendimiento futuro y crear un plan de entrenamiento que cierre la brecha entre tu rendimiento actual y el rendimiento óptimo en la carrera.",
             "button": "Cómo optimizamos"
         },
         "simplify": {

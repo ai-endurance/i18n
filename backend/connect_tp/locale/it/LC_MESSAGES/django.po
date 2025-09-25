@@ -9,16 +9,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Set your TrainingPeaks Bike Power Threshold Value to "
-msgstr "Imposta il tuo valore di soglia di Power della Bicicletta di TrainingPeaks a "
+msgstr "Imposta il tuo valore di soglia di potenza della bicicletta di TrainingPeaks a "
 
 msgid "Set your TrainingPeaks Run Power Threshold Value "
-msgstr "Imposta il tuo valore di soglia di Running Power di TrainingPeaks "
+msgstr "Imposta il tuo valore di soglia di potenza di corsa di TrainingPeaks "
 
 msgid "and your Stryd CP to "
 msgstr "e il tuo Stryd CP a "
 
 msgid "Set your TrainingPeaks Pace Threshold Value to "
-msgstr "Imposta il tuo valore di soglia di Pace di TrainingPeaks a "
+msgstr "Imposta il tuo valore di soglia di passo di TrainingPeaks a"
 
 msgid "Set your TrainingPeaks Swim Speed Threshold to "
 msgstr "Imposta la tua soglia di velocità di nuoto di TrainingPeaks a "

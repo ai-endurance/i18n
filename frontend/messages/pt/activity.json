@@ -46,11 +46,11 @@
         "distance": "Distância",
         "elevationGain": "Ganho de elevação",
         "kcal": "kcal",
-        "averagePower": "Power médio",
+        "averagePower": "Potência média",
         "averageHeartRate": "Frequência cardíaca média",
-        "powerEstimation": "Estimativa de Power",
+        "powerEstimation": "Estimativa de potência",
         "averageGap": "GAP médio",
-        "averagePace": "Pace médio",
+        "averagePace": "Ritmo médio",
         "ess": "ESS",
         "artifactPercentage": "Percentual de artefatos",
         "artifactPercentageLocal": "Percentual de artefatos local",
@@ -60,19 +60,19 @@
         "enduranceCeilingCluster": "Teto de Endurance (cluster)",
         "thresholdCeilingRamp": "Teto de Threshold (rampa)",
         "thresholdCeilingCluster": "Teto de Threshold (cluster)",
-        "rAlphaRide": "Rₐ (readiness)",
+        "rAlphaRide": "Rₐ (prontidão)",
         "dAlphaRide": "Dₐ (durability)",
-        "paceRAlpha": "Pace Rₐ (readiness)",
-        "paceDAlpha": "Pace Dₐ (durability)",
-        "powerRAlpha": "Power Rₐ (readiness)",
-        "powerDAlpha": "Power Dₐ (durability)",
-        "best20MinPower": "Melhor Power de 20 min",
-        "best15MinPower": "Melhor Power de 15 min",
-        "best30MinPower": "Melhor Power de 30 min",
+        "paceRAlpha": "Ritmo Rₐ (prontidão)",
+        "paceDAlpha": "Ritmo Dₐ (durability)",
+        "powerRAlpha": "Potência Rₐ (prontidão)",
+        "powerDAlpha": "Potência Dₐ (durability)",
+        "best20MinPower": "Melhor potência de 20 min",
+        "best15MinPower": "Melhor Potência de 15 min",
+        "best30MinPower": "Melhor Potência de 30 min",
         "best15MinGap": "Melhor GAP de 15 min",
         "best30MinGap": "Melhor GAP de 30 min",
         "detailRecoveryAlpha": {
-            "text": "Sua {pName} readiness para treinar para esta atividade com base no DFA a₁. Valores positivos indicam que você estava pronto para treinar. Valores negativos podem indicar o oposto, por exemplo, devido à fadiga e/ou stress.",
+            "text": "Sua {pName} prontidão para treinar para esta atividade com base no DFA a₁. Valores positivos indicam que você estava pronto para treinar. Valores negativos podem indicar o oposto, por exemplo, devido à fadiga e/ou stress.",
             "learnMore": "Saiba mais."
         },
         "detailDriftAlpha": {
@@ -91,7 +91,7 @@
             "learnMore": "Saiba mais."
         },
         "detailEndHrvCluster": {
-            "text": "O limite superior da sua Zona de Endurance, seu threshold aeróbico, é calculado a partir dos seus dados de DFA a₁. É a intensidade onde seu power ou pace se agrupa (cluster) perto do threshold aeróbico (a₁ = 0.75) durante os primeiros 30 minutos de atividade.",
+            "text": "O limite superior da sua Zona de Endurance, seu threshold aeróbico, é calculado a partir dos seus dados de DFA a₁. É a intensidade onde sua potência ou ritmo se agrupa (cluster) perto do threshold aeróbico (a₁ = 0.75) durante os primeiros 30 minutos de atividade.",
             "learnMore": "Saiba mais."
         },
         "detailThrHrv": {
@@ -107,17 +107,17 @@
             "learnMore": "Saiba mais sobre a posição ideal da cinta do HRM."
         },
         "detailArtifactsLocal": {
-            "text": "O percentual de medições de HRV que incluíram artefatos e tiveram que ser corrigidas apenas durante os períodos em que os thresholds ou a readiness foram avaliados."
+            "text": "O percentual de medições de HRV que incluíram artefatos e tiveram que ser corrigidas apenas durante os períodos em que os thresholds ou a prontidão foram avaliados."
         },
         "detailKcal": {
             "text": "A medição ou previsão precisa das necessidades energéticas durante o exercício é inerentemente complexa e propensa a erros, independentemente da metodologia escolhida. Para os fins deste aplicativo, o custo energético do exercício foi estimado usando equações baseadas em evidências, específicas para o tipo de exercício. Esses cálculos devem ser usados como uma diretriz aproximada do custo energético de cada sessão de exercício, lembrando que o verdadeiro custo energético do exercício provavelmente varia com base em fatores como idade, sexo, estado de saúde e condicionamento físico do indivíduo, massa e composição corporal, estilo de vida, genética, e assim por diante.",
             "learnMore": "Saiba mais."
         },
         "detailEss": {
-            "text": "Seu external stress score (ESS) para esta atividade, derivado dos seus dados de power. Quanto mais longa a atividade, maior a potência e mais intenso o treino, maior o ESS. Como exemplo, uma hora no threshold anaeróbico corresponde a 100 ESS."
+            "text": "Seu external stress score (ESS) para esta atividade, derivado dos seus dados de potência. Quanto mais longa a atividade, maior a potência e mais intenso o treino, maior o ESS. Como exemplo, uma hora no threshold anaeróbico corresponde a 100 ESS."
         },
         "powerSource": {
-            "text": "Seu power é previsto a partir da sua frequência cardíaca e - se presentes - cadence e/ou DFA a₁. Nossa IA aprende a prever seu power a partir de suas atividades passadas com power, frequência cardíaca, cadence e a₁.",
+            "text": "Sua potência é prevista a partir da sua frequência cardíaca e - se presentes - cadence e/ou DFA a₁. Nossa IA aprende a prever sua potência a partir de suas atividades passadas com potência, frequência cardíaca, cadence e a₁.",
             "learnMore": "Saiba mais."
         },
         "activityTitle": {
@@ -125,7 +125,7 @@
             "textCycling": "Você pode personalizar o título da sua atividade para destacar um treino de teste ou uma prova. Certifique-se de que os títulos dos seus testes de FTP incluam tanto a palavra 'teste' quanto a duração do teste para que o aplicativo possa reconhecê-lo. Por exemplo, use 'teste de FTP de 20 min' para um teste de FTP de 20 minutos. Para Ramp Tests, inclua 'ramp' e 'test' no título, como 'Ramp Test'."
         },
         "gap": {
-            "text": "Grade Adjusted Pace (GAP) refere-se ao pace ajustado para levar em conta os efeitos das mudanças de elevação durante uma atividade. Em vez de apenas medir a velocidade, o pace ajustado ao gradiente considera como as inclinações (subidas) e declives (descidas) impactam o esforço necessário para manter uma certa velocidade. Por exemplo, se você está correndo em uma subida íngreme, seu pace bruto pode ser lento, mas seu GAP pode ser alto, pois leva em conta a inclinação da subida. Ao normalizar o pace com base nessas mudanças de elevação, ele fornece um reflexo mais preciso do esforço exercido em terrenos variados, tornando-se uma métrica útil para comparar desempenhos em diferentes percursos ou entender o impacto das subidas e descidas no seu pace geral."
+            "text": "Grade Adjusted Pace (GAP) refere-se ao ritmo ajustado para levar em conta os efeitos das mudanças de elevação durante uma atividade. Em vez de apenas medir a velocidade, o ritmo ajustado ao gradiente considera como as inclinações (subidas) e declives (descidas) impactam o esforço necessário para manter uma certa velocidade. Por exemplo, se você está correndo em uma subida íngreme, seu ritmo bruto pode ser lento, mas seu GAP pode ser alto, pois leva em conta a inclinação da subida. Ao normalizar o ritmo com base nessas mudanças de elevação, ele fornece um reflexo mais preciso do esforço exercido em terrenos variados, tornando-se uma métrica útil para comparar desempenhos em diferentes percursos ou entender o impacto das subidas e descidas no seu ritmo geral."
         },
         "markAsRace": {
             "text": "Quando você marca uma atividade como prova, o modelo de IA atribui maior importância aos dados dessa atividade, aumentando seu peso durante o treinamento do modelo."

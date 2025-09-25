@@ -1,22 +1,22 @@
 {
     "metadata": {
-        "title": "Detalhes da Recovery",
-        "description": "Detalhes sobre o seu estado de recovery."
+        "title": "Detalhes da Recuperação",
+        "description": "Detalhes sobre o seu estado de recuperação."
     },
     "titles": {
-        "yourRecovery": "Sua Recovery",
-        "yourDfaReadiness": "Sua Readiness DFA a₁",
-        "yourRecoveryMeasurements": "Suas Medidas de Recovery",
+        "yourRecovery": "Sua Recuperação",
+        "yourDfaReadiness": "Sua Prontidão DFA a₁",
+        "yourRecoveryMeasurements": "Suas Medidas de Recuperação",
         "yourRmssdTrends": "Suas Tendências de RMSSD",
         "yourSdnnTrends": "Suas Tendências de SDNN",
-        "yourHrRestTrends": "Suas Tendências de HR Rest"
+        "yourHrRestTrends": "Suas Tendências de FC em Repouso"
     },
     "recovery": {
-        "todaysAerobicRecovery": "Aerobic<linebreak>Recovery</linebreak>de Hoje",
-        "todaysMuscleJointRecovery": "Muscle/Joint<linebreak>Recovery</linebreak>de Hoje",
-        "noRecoveryDataAvailable": "Nenhum dado de recovery disponível. Para visualizar sua aerobic e muscle/joint recovery, colete dados de HRV noturnos com um dispositivo compatível e comece a usar o recurso de check-in do AI Endurance.",
+        "todaysAerobicRecovery": "Recuperação<linebreak>Aeróbica</linebreak>de Hoje",
+        "todaysMuscleJointRecovery": "Recuperação<linebreak>Muscular/Articular</linebreak>de Hoje",
+        "noRecoveryDataAvailable": "Nenhum dado de recuperação disponível. Para visualizar sua recuperação aeróbica e muscular/articular, colete dados de HRV noturnos com um dispositivo compatível e comece a usar o recurso de check-in do AI Endurance.",
         "makeTheMostOfAiEndurance": "Aproveite ao máximo o AI Endurance",
-        "noRecoveryMetricsFound": "Nenhuma métrica de recovery encontrada"
+        "noRecoveryMetricsFound": "Nenhuma métrica de recuperação encontrada"
     },
     "measurements": {
         "source": "Fonte",
@@ -27,30 +27,31 @@
     },
     "chart": {
         "measuredA1": "a₁ Medido",
-        "expectedA1": "a₁ Esperado"
+        "expectedA1": "a₁ Esperado",
+        "notCalculatedBecause": "Não calculado para sua última atividade porque: "
     },
     "labels": {
         "a1Readiness": {
-            "paragraph1": "A Readiness é baseada em medições de HRV (DFA a₁) de atividades recentes, usando apenas atividades com menos de 10% de corrupção de artefatos. É calculada usando um modelo de regressão linear (linha vermelha contínua) que relaciona a média efetiva de power/pace (‹Power/Pace›) e os valores efetivos de DFA a₁ (‹a₁›) dos primeiros 10 minutos de corrida ou 20 minutos de ciclismo nos seus últimos 21 treinos (cruzes vermelhas, com barras de erro representando a variabilidade dos dados). Os valores efetivos excluem períodos onde o ‹Power/Pace› é zero, garantindo que dados significativos sejam usados. O Pace sempre se refere ao GAP (Grade Adjusted Pace).",
-            "paragraph2": "Para o treino mais recente, ‹Power/Pace› e ‹a₁› são comparados com o modelo de regressão. A Readiness reflete o desvio relativo (linha tracejada vertical vermelha) do ‹a₁› observado (cruz azul) em relação ao ‹a₁› previsto para o mesmo ‹Power/Pace› (ponto vermelho).",
-            "paragraph3": "A Readiness não é calculada se: a corrupção de artefatos do treino atual for maior ou igual a 10%; existirem menos de 4 atividades válidas nos últimos 21 dias; o ‹a₁› exceder 1.4 (para evitar que atividades muito fora da faixa dinâmica do a₁ influenciem o modelo); o ‹a₁› ou ‹Power/Pace› do treino atual desviar mais de 20% dos dados históricos; ou o tempo de descanso/‹Power/Pace› zero exceder 5 minutos durante os 10 minutos iniciais (corrida) ou 20 minutos (ciclismo), excluindo o tempo pausado.",
+            "paragraph1": "A Prontidão é baseada em medições de HRV (DFA a₁) de atividades recentes, usando apenas atividades com menos de 10% de corrupção de artefatos. É calculada usando um modelo de regressão linear (linha vermelha contínua) que relaciona a média efetiva de potência/ritmo (‹Potência/Ritmo›) e os valores efetivos de DFA a₁ (‹a₁›) dos primeiros 10 minutos de corrida ou 20 minutos de ciclismo nos seus últimos 21 treinos (cruzes vermelhas, com barras de erro representando a variabilidade dos dados). Os valores efetivos excluem períodos onde o ‹Potência/Ritmo› é zero, garantindo que dados significativos sejam usados. O Ritmo sempre se refere ao GAP (Grade Adjusted Pace).",
+            "paragraph2": "Para o treino mais recente, ‹Potência/Ritmo› e ‹a₁› são comparados com o modelo de regressão. A Prontidão reflete o desvio relativo (linha tracejada vertical vermelha) do ‹a₁› observado (cruz azul) em relação ao ‹a₁› previsto para o mesmo ‹Potência/Ritmo› (ponto vermelho).",
+            "paragraph3": "A Prontidão não é calculada se: a corrupção de artefatos do treino atual for maior ou igual a 10%; existirem menos de 4 atividades válidas nos últimos 21 dias; o ‹a₁› exceder 1.4 (para evitar que atividades muito fora da faixa dinâmica do a₁ influenciem o modelo); o ‹a₁› ou ‹Potência/Ritmo› do treino atual desviar mais de 20% dos dados históricos; ou o tempo de descanso/‹Potência/Ritmo› zero exceder 5 minutos durante os 10 minutos iniciais (corrida) ou 20 minutos (ciclismo), excluindo o tempo pausado.",
             "learnMore": "Saiba mais."
         },
         "rmssdNormalVsBaseline": {
-            "paragraph1": "Sua recovery é avaliada usando a raiz quadrada da média dos quadrados das diferenças sucessivas (RMSSD) da sua variabilidade da frequência cardíaca. O RMSSD de base (linha vermelha) é calculado como uma média móvel de 7 dias dos seus valores individuais de RMSSD (barras azuis). Esta base é comparada com a sua faixa normal de RMSSD (faixa cinza), que representa a média móvel de 60 dias mais e menos um desvio padrão. A Recovery é considerada baixa quando o seu RMSSD de base fica abaixo da faixa normal de RMSSD.",
+            "paragraph1": "Sua recuperação é avaliada usando a raiz quadrada da média dos quadrados das diferenças sucessivas (RMSSD) da sua variabilidade da frequência cardíaca. O RMSSD de base (linha vermelha) é calculado como uma média móvel de 7 dias dos seus valores individuais de RMSSD (barras azuis). Esta base é comparada com a sua faixa normal de RMSSD (faixa cinza), que representa a média móvel de 60 dias mais e menos um desvio padrão. A Recuperação é considerada baixa quando o seu RMSSD de base fica abaixo da faixa normal de RMSSD.",
             "learnMore": "Saiba mais."
         },
         "sdnnNormalVsBaseline": {
-            "paragraph1": "Sua recovery é avaliada usando o desvio padrão dos intervalos NN (SDNN) da sua variabilidade da frequência cardíaca. O SDNN de base (linha vermelha) é calculado como uma média móvel de 7 dias dos seus valores individuais de SDNN (barras azuis). Esta base é comparada com a sua faixa normal de SDNN (faixa cinza), que representa a média móvel de 60 dias mais e menos um desvio padrão. A Recovery é considerada baixa quando o seu SDNN de base fica abaixo da faixa normal de SDNN.",
+            "paragraph1": "Sua recuperação é avaliada usando o desvio padrão dos intervalos NN (SDNN) da sua variabilidade da frequência cardíaca. O SDNN de base (linha vermelha) é calculado como uma média móvel de 7 dias dos seus valores individuais de SDNN (barras azuis). Esta base é comparada com a sua faixa normal de SDNN (faixa cinza), que representa a média móvel de 60 dias mais e menos um desvio padrão. A Recuperação é considerada baixa quando o seu SDNN de base fica abaixo da faixa normal de SDNN.",
             "learnMore": "Saiba mais."
         },
         "hrRestNormalVsBaseline": {
-            "paragraph1": "Sua recovery é avaliada usando sua frequência cardíaca de repouso. Sua frequência cardíaca de repouso do dia (barra azul) é comparada com sua faixa normal de frequência cardíaca de repouso (faixa cinza), que representa a média móvel de 30 dias mais e menos um desvio padrão. A Recovery é considerada baixa quando sua frequência cardíaca de repouso excede a faixa normal.",
+            "paragraph1": "Sua recuperação é avaliada usando sua frequência cardíaca de repouso. Sua frequência cardíaca de repouso do dia (barra azul) é comparada com sua faixa normal de frequência cardíaca de repouso (faixa cinza), que representa a média móvel de 30 dias mais e menos um desvio padrão. A Recuperação é considerada baixa quando sua frequência cardíaca de repouso excede a faixa normal.",
             "learnMore": "Saiba mais."
         },
         "recoveryMetricInspection": {
-            "paragraph1": "Seus dados de recovery dos últimos 14 dias estão resumidos aqui, incluindo leituras noturnas de FC/HRV de aplicativos de terceiros como Oura, Whoop, Garmin, Suunto, Coros e Polar, bem como check-ins de FC/HRV registrados no AI Endurance. Métricas sincronizadas do Intervals.icu ou TrainingPeaks também estão incluídas. Você pode remover quaisquer medições que considere imprecisas ou não representativas do seu estado de recovery.",
-            "paragraph2": "A Garmin, em particular, pode fornecer múltiplas medições por dia. No entanto, isso não é um problema porque, para cada dia, usamos apenas a frequência cardíaca de repouso mais baixa (HR Rest) e o valor de HRV mais alto (RMSSD por padrão, ou SDNN se você selecionou nas configurações da sua conta) no seu modelo de recovery. Observe que excluir uma medição não atualizará retroativamente os valores de recovery passados."
+            "paragraph1": "Seus dados de recuperação dos últimos 14 dias estão resumidos aqui, incluindo leituras noturnas de FC/HRV de aplicativos de terceiros como Oura, Whoop, Garmin, Suunto, Coros e Polar, bem como check-ins de FC/HRV registrados no AI Endurance. Métricas sincronizadas do Intervals.icu ou TrainingPeaks também estão incluídas. Você pode remover quaisquer medições que considere imprecisas ou não representativas do seu estado de recuperação.",
+            "paragraph2": "A Garmin, em particular, pode fornecer múltiplas medições por dia. No entanto, isso não é um problema porque, para cada dia, usamos apenas a frequência cardíaca de repouso mais baixa (FC em Repouso) e o valor de HRV mais alto (RMSSD por padrão, ou SDNN se você selecionou nas configurações da sua conta) no seu modelo de recuperação. Observe que excluir uma medição não atualizará retroativamente os valores de recuperação passados."
         }
     }
 }

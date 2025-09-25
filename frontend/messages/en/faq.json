@@ -72,6 +72,10 @@
         "q14": {
             "title": "Can I use imperial units?",
             "content": "Yes, under 'Account' you can choose between metric (min/km) and imperial (min/mile)."
+        },
+        "q15": {
+            "title": "How can I change the language or help with translations?",
+            "content": "<p>You can set your preferred language on the <link>Account page</link>. If your language is not supported, you can help create translations - we'll create the first draft with AI and you can finetune the translations. You can contribute or report translation issues at our <link2>GitHub i18n repository</link2> or by emailing <link3>info@aiendurance.com</link3>.</p>"
         }
     },
     "plans": {

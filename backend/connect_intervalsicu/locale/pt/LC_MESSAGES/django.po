@@ -16,7 +16,7 @@ msgstr ""
 
 #: export_intervalsicu.py:467
 msgid "Set your Intervals.icu threshold pace to %(css)s/100%(unit)s"
-msgstr "Defina seu Pace de limiar do Intervals.icu para %(css)s/100%(unit)s"
+msgstr "Defina seu ritmo de limiar do Intervals.icu para %(css)s/100%(unit)s"
 
 #: export_intervalsicu.py:473
 msgid "pool length: %(length)s%(unit)s"
@@ -24,7 +24,7 @@ msgstr "comprimento da piscina: %(length)s%(unit)s"
 
 #: export_intervalsicu.py:183
 msgid "All pace targets in this workout are relative to a reference threshold pace of %(thr_pace)s. Please set your Intervals.icu threshold pace to %(thr_pace)s to work at your intended personalized pace."
-msgstr "Todos os alvos de Pace neste treino são relativos a um Pace de limiar de referência de %(thr_pace)s. Por favor defina seu Pace de limiar do Intervals.icu para %(thr_pace)s para trabalhar no seu Pace personalizado pretendido."
+msgstr "Todos os alvos de ritmo neste treino são relativos a um ritmo de limiar de referência de %(thr_pace)s. Por favor defina seu ritmo de limiar do Intervals.icu para %(thr_pace)s para trabalhar no seu ritmo personalizado pretendido."
 
 #: export_intervalsicu.py:192
 msgid "Secondary target: stay below your aerobic cycling heart rate threshold of %(hr)s bpm.\n\n"
@@ -40,7 +40,7 @@ msgstr "Teste de rampa de ciclismo DFA alpha1"
 
 #: intervalsicu_export_ramp.py:36
 msgid "Ramp test to determine your power and heart rate zones via ventilatory thresholds from HRV data (DFA alpha1)"
-msgstr "Teste de rampa para determinar suas zonas de Power e frequência cardíaca através de limiares ventilatórios de dados HRV (DFA alpha1)"
+msgstr "Teste de rampa para determinar suas zonas de potência e frequência cardíaca através de limiares ventilatórios de dados HRV (DFA alpha1)"
 
 #: intervalsicu_export_ramp.py:39
 msgid "DFA alpha1 running ramp test"
@@ -48,7 +48,7 @@ msgstr "Teste de rampa de corrida DFA alpha1"
 
 #: intervalsicu_export_ramp.py:41
 msgid "run power"
-msgstr "Running Power"
+msgstr "potência de corrida"
 
 #: intervalsicu_export_ramp.py:44
 msgid "Ramp test to determine your %(power_str)s and heart rate zones via ventilatory thresholds from HRV data (DFA alpha1)"

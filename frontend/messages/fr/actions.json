@@ -82,8 +82,8 @@
         "iapActivationFailed": "L'activation de l'abonnement IAP n'a pas abouti."
     },
     "recovery": {
-        "refreshFailed": "Échec de l'actualisation des données de Recovery",
-        "fetchModelDetailFailed": "Échec de la récupération des données détaillées du modèle de Recovery"
+        "refreshFailed": "Échec de l'actualisation des données de récupération",
+        "fetchModelDetailFailed": "Échec de la récupération des données détaillées du modèle de récupération"
     },
     "register": {
         "emailRequired": "L'email est requis. ",

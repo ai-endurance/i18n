@@ -42,10 +42,10 @@
     "suggestions": {
         "title": "Suggerimenti di Prompt:",
         "strength": {
-            "hipWithEquipment": "allenamento a basso impatto per il potenziamento delle anche (con attrezzi da palestra)",
-            "hipWithoutEquipment": "allenamento a basso impatto per il potenziamento delle anche (senza attrezzi da palestra)",
-            "triathlete": "allenamento di 30 min per massimizzare la forza per triatleti",
-            "core": "allenamento per il core per corridori"
+            "hipWithEquipment": "allenamento di forza delle anche a basso impatto (con attrezzi da palestra)",
+            "hipWithoutEquipment": "allenamento di forza delle anche a basso impatto (senza attrezzi da palestra)",
+            "triathlete": "allenamento di forza di 30 min per massimizzare la forza per triatleti",
+            "core": "allenamento di forza del core per corridori"
         },
         "run": {
             "tempo": "allenamento Tempo intenso",
@@ -114,17 +114,17 @@
         "estDistance": "Distanza stimata",
         "timeAtIntensity": "Tempo ad intensità",
         "target": "Obiettivo",
-        "avgPace": "Pace medio"
+        "avgPace": "Passo medio"
     },
     "steps": {
         "title": "Fasi:",
         "run": {
-            "between": "Corri a un Pace tra {low} e {high} al {unit} per {duration}",
-            "noFaster": "Corri a un Pace non più veloce di {high} al {unit} per {duration}"
+            "between": "Corri a un passo tra {low} e {high} al {unit} per {duration}",
+            "noFaster": "Corri a un passo non più veloce di {high} al {unit} per {duration}"
         },
         "ride": {
-            "between": "Pedala a una Power tra {low} e {high} per {duration}",
-            "noHigher": "Pedala a una Power non superiore a {high} per {duration}"
+            "between": "Pedala a una potenza tra {low} e {high} per {duration}",
+            "noHigher": "Pedala a una potenza non superiore a {high} per {duration}"
         },
         "units": {
             "imperial": "miglio",

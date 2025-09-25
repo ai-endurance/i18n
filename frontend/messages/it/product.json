@@ -20,7 +20,7 @@
             "outlinedButton": "Quanto è personalizzato?"
         },
         "recovery": {
-            "title": "Recupero e Readiness all'allenamento",
+            "title": "Recupero e Prontezza all'allenamento",
             "text": "Prima di ogni allenamento dovresti sapere se sei davvero pronto ad affrontarlo. Ognuno risponde in modo diverso allo stress, alla mancanza di sonno e alla fatica dell'esercizio: il nostro nuovo modello di recupero prende decisioni basate sui dati su quando dovresti allenarti e quando no. Utilizziamo una combinazione del tuo feedback sull'allenamento, del feedback sull'indolenzimento dei gruppi muscolari importanti, dell'HRV e della frequenza cardiaca a riposo per darti un punteggio di recupero semplice e di facile comprensione e, se necessario, proporti modifiche al piano di allenamento.",
             "ctaButton": "Inizia subito!",
             "outlinedButton": "Come funziona il recupero?"
@@ -32,8 +32,8 @@
             "outlinedButton": "Come si adatta?"
         },
         "runningPower": {
-            "title": "Running Power",
-            "text": "Usi già il running power e cerchi un piano di allenamento personalizzato per ottimizzare la tua critical running power? Ci pensiamo noi! Prevediamo i tuoi guadagni nella tua critical running power se segui il nostro piano di allenamento adattivo basato sull'IA. Vuoi spaccare alla tua prossima ultra? Siamo l'unica app che ottimizza direttamente la tua ultra endurance power, la potenza alla tua soglia aerobica. Usiamo la più recente tecnologia di variabilità della frequenza cardiaca - DFA alpha 1 - per misurare la tua soglia aerobica. Esporta semplicemente il tuo piano di running power su TrainingPeaks o Suunto Guides ed esegui i tuoi allenamenti direttamente dal tuo orologio.",
+            "title": "Potenza di corsa",
+            "text": "Usi già la potenza di corsa e cerchi un piano di allenamento personalizzato per ottimizzare la tua critical running power? Ci pensiamo noi! Prevediamo i tuoi guadagni nella tua critical running power se segui il nostro piano di allenamento adattivo basato sull'IA. Vuoi spaccare alla tua prossima ultra? Siamo l'unica app che ottimizza direttamente la tua ultra endurance power, la potenza alla tua soglia aerobica. Usiamo la più recente tecnologia di variabilità della frequenza cardiaca - DFA alpha 1 - per misurare la tua soglia aerobica. Esporta semplicemente il tuo piano di potenza di corsa su TrainingPeaks o Suunto Guides ed esegui i tuoi allenamenti direttamente dal tuo orologio.",
             "ctaButton": "Inizia subito!",
             "outlinedButton": "Cos'è DFA alpha 1?"
         },
@@ -66,7 +66,7 @@
             },
             "hrv": {
                 "title": "Heart Rate Variability",
-                "text": "Siamo pionieri di una nuova ed entusiasmante scienza sull'HRV e stiamo adottando il DFA alpha 1 come metrica di allenamento preziosa per il rilevamento della threshold, la readiness all'allenamento e la durability."
+                "text": "Siamo pionieri di una nuova ed entusiasmante scienza sull'HRV e stiamo adottando il DFA alpha 1 come metrica di allenamento preziosa per il rilevamento della threshold, la prontezza all'allenamento e la durability."
             }
         }
     },

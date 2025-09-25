@@ -25,11 +25,11 @@ msgstr "Test di rampa corsa DFA alpha1"
 
 #: suunto_export_ramp.py:43
 msgid "Ramp test to determine your power and heart rate zones via ventilatory thresholds from HRV data (DFA alpha1)"
-msgstr "Test di rampa per determinare le tue zone di Power e frequenza cardiaca tramite soglie ventilatorie dai dati HRV (DFA alpha1)"
+msgstr "Test di rampa per determinare le tue zone di potenza e frequenza cardiaca tramite soglie ventilatorie dai dati HRV (DFA alpha1)"
 
 #: suunto_export_ramp.py:47
 msgid "run power"
-msgstr "Running Power"
+msgstr "potenza di corsa"
 
 #: suunto_export_ramp.py:50
 msgid "Ramp test to determine your %(p_str)s and heart rate zones via ventilatory thresholds from HRV data (DFA alpha1)"

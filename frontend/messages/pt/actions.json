@@ -82,8 +82,8 @@
         "iapActivationFailed": "A ativação da assinatura IAP não foi concluída."
     },
     "recovery": {
-        "refreshFailed": "Falha ao atualizar os dados de recovery.",
-        "fetchModelDetailFailed": "Falha ao buscar os dados detalhados do modelo de recovery."
+        "refreshFailed": "Falha ao atualizar os dados de recuperação.",
+        "fetchModelDetailFailed": "Falha ao buscar os dados detalhados do modelo de recuperação."
     },
     "register": {
         "emailRequired": "O e-mail é obrigatório. ",

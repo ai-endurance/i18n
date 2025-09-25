@@ -72,6 +72,10 @@
         "q14": {
             "title": "Kann ich imperiale Einheiten verwenden?",
             "content": "Ja, unter 'Konto' kannst du zwischen metrischen (min/km) und imperialen (min/Meile) Einheiten wählen."
+        },
+        "q15": {
+            "title": "Wie kann ich die Sprache ändern oder bei Übersetzungen helfen?",
+            "content": "<p>Du kannst deine bevorzugte Sprache auf der <link>Konto-Seite</link> einstellen. Wenn deine Sprache nicht unterstützt wird, kannst du bei der Erstellung von Übersetzungen helfen - wir erstellen den ersten Entwurf mit KI und du kannst die Übersetzungen verfeinern. Du kannst beitragen oder Übersetzungsprobleme in unserem <link2>GitHub i18n Repository</link2> melden oder per E-Mail an <link3>info@aiendurance.com</link3>.</p>"
         }
     },
     "plans": {

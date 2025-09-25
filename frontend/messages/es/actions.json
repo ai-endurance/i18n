@@ -82,8 +82,8 @@
         "iapActivationFailed": "La activación de la suscripción IAP no se ha completado."
     },
     "recovery": {
-        "refreshFailed": "Error al actualizar los datos de recovery",
-        "fetchModelDetailFailed": "Error al obtener los datos detallados del modelo de recovery"
+        "refreshFailed": "Error al actualizar los datos de recuperación",
+        "fetchModelDetailFailed": "Error al obtener los datos detallados del modelo de recuperación"
     },
     "register": {
         "emailRequired": "El email es obligatorio. ",

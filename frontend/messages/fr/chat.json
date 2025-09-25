@@ -11,7 +11,7 @@
         "newChat": "Nouveau Chat"
     },
     "overview": {
-        "welcome": "Bienvenue sur ton assistant d'entraînement alimenté par l'IA ! Tu peux poser des questions sur ton plan d'entraînement, tes stratégies de nutrition, ton état de Recovery et analyser tes activités passées. Tu peux aussi lui demander de modifier ton plan d'entraînement, de créer ou de changer des entraînements individuels."
+        "welcome": "Bienvenue sur ton assistant d'entraînement alimenté par l'IA ! Tu peux poser des questions sur ton plan d'entraînement, tes stratégies de nutrition, ton état de récupération et analyser tes activités passées. Tu peux aussi lui demander de modifier ton plan d'entraînement, de créer ou de changer des entraînements individuels."
     },
     "models": {
         "small": {
@@ -152,8 +152,8 @@
         },
         "recoveryStatus": {
             "title": "Résumé détaillé",
-            "label": "de mon état de Recovery actuel",
-            "action": "Résumé détaillé de mon état de Recovery actuel"
+            "label": "de mon état de récupération actuel",
+            "action": "Résumé détaillé de mon état de récupération actuel"
         }
     },
     "toolResults": {
@@ -165,7 +165,7 @@
         "cyclingActivities": "Activités de vélo récupérées",
         "runningActivities": "Activités de course à pied récupérées",
         "swimmingActivities": "Activités de natation récupérées",
-        "recoveryModel": "Modèle de Recovery récupéré",
+        "recoveryModel": "Modèle de récupération récupéré",
         "goalEvents": "Événements objectifs récupérés",
         "planProgress": "Progression du plan récupérée",
         "cyclingActivityDetails": "Détails de l'activité de vélo récupérés",

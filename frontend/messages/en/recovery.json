@@ -27,7 +27,8 @@
     },
     "chart": {
         "measuredA1": "Measured a₁",
-        "expectedA1": "Expected a₁"
+        "expectedA1": "Expected a₁",
+        "notCalculatedBecause": "Not calculated for your latest activity because: "
     },
     "labels": {
         "a1Readiness": {

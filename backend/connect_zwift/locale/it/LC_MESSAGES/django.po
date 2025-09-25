@@ -9,28 +9,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Don't forget to set your FTP to %(ftp)s W as the power targets in this workout are defined relative to this value!"
-msgstr "Non dimenticare di impostare il tuo FTP a %(ftp)s W poiché gli obiettivi di Power in questo allenamento sono definiti relativi a questo valore!"
+msgstr "Non dimenticare di impostare il tuo FTP a %(ftp)s W poiché gli obiettivi di potenza in questo allenamento sono definiti relativi a questo valore!"
 
 msgid "Don't forget to set your 1-mile pace to 6:00 as the target paces in this workout are defined relative to this pace!"
-msgstr "Non dimenticare di impostare il tuo Pace di 1 miglio a 6:00 poiché i Pace obiettivo in questo allenamento sono definiti relativi a questo Pace!"
+msgstr "Non dimenticare di impostare il tuo passo di 1 miglio a 6:00 poiché i passo obiettivo in questo allenamento sono definiti relativi a questo passo!"
 
 msgid "All power targets in this workout are relative to a reference FTP of %(ftp)s W. Please set your %(partner)s FTP to %(ftp)s W to work at your intended personalized power intensity."
-msgstr "Tutti gli obiettivi di Power in questo allenamento sono relativi a un FTP di riferimento di %(ftp)s W. Per favore imposta il tuo FTP di %(partner)s a %(ftp)s W per lavorare alla tua intensità di Power personalizzata prevista."
+msgstr "Tutti gli obiettivi di potenza in questo allenamento sono relativi a un FTP di riferimento di %(ftp)s W. Per favore imposta il tuo FTP di %(partner)s a %(ftp)s W per lavorare alla tua intensità di potenza personalizzata prevista."
 
 msgid "This assumes a 2.5%% outdoor power range in Garmin export settings in Intervals.icu."
-msgstr "Questo presuppone un range di Power esterno del 2.5%% nelle impostazioni di esportazione Garmin in Intervals.icu."
+msgstr "Questo presuppone un range di potenza esterno del 2.5%% nelle impostazioni di esportazione Garmin in Intervals.icu."
 
 msgid "All pace targets in this workout are relative to a reference 1-mile pace of 6:00. Please set your Zwift 1-mile pace to 6:00 to work at your intended personalized pace."
-msgstr "Tutti gli obiettivi di Pace in questo allenamento sono relativi a un Pace di riferimento di 1 miglio di 6:00. Per favore imposta il tuo Pace di 1 miglio di Zwift a 6:00 per lavorare al tuo Pace personalizzato previsto."
+msgstr "Tutti gli obiettivi di passo in questo allenamento sono relativi a un passo di riferimento di 1 miglio di 6:00. Per favore imposta il tuo passo di 1 miglio di Zwift a 6:00 per lavorare al tuo passo personalizzato previsto."
 
 msgid "All power targets in this workout are relative to a reference threshold power of %(thr)s W. Please set your Intervals.icu threshold power to %(thr)s W to work at your intended personalized power intensity."
-msgstr "Tutti gli obiettivi di Power in questo allenamento sono relativi a un Power di soglia di riferimento di %(thr)s W. Per favore imposta il tuo Power di soglia di Intervals.icu a %(thr)s W per lavorare alla tua intensità di Power personalizzata prevista."
+msgstr "Tutti gli obiettivi di potenza in questo allenamento sono relativi a una potenza di soglia di riferimento di %(thr)s W. Per favore imposta la tua potenza di soglia di Intervals.icu a %(thr)s W per lavorare alla tua intensità di potenza personalizzata prevista."
 
 msgid "All pace targets in this workout are relative to a reference threshold pace of %(thr_pace)s. Please set your Intervals.icu threshold pace to %(thr_pace)s to work at your intended personalized pace."
-msgstr "Tutti gli obiettivi di Pace in questo allenamento sono relativi a un Pace di soglia di riferimento di %(thr_pace)s. Per favore imposta il tuo Pace di soglia di Intervals.icu a %(thr_pace)s per lavorare al tuo Pace personalizzato previsto."
+msgstr "Tutti gli obiettivi di passo in questo allenamento sono relativi a un passo di soglia di riferimento di %(thr_pace)s. Per favore imposta il tuo passo di soglia di Intervals.icu a %(thr_pace)s per lavorare al tuo passo personalizzato previsto."
 
 msgid "This assumes a 2.5%% outdoor pace range in Garmin export settings in Intervals.icu."
-msgstr "Questo presuppone un range di Pace esterno del 2.5%% nelle impostazioni di esportazione Garmin in Intervals.icu."
+msgstr "Questo presuppone un range di passo esterno del 2.5%% nelle impostazioni di esportazione Garmin in Intervals.icu."
 
 msgid "Don't forget to record this activity with your Garmin device with HRV logging enabled as Zwift does not record HRV data. Your Garmin Connect needs to be connected to AI Endurance to determine your thresholds."
 msgstr "Non dimenticare di registrare questa attività con il tuo dispositivo Garmin con la registrazione HRV abilitata poiché Zwift non registra i dati HRV. Il tuo Garmin Connect deve essere connesso ad AI Endurance per determinare le tue soglie."

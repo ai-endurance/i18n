@@ -35,7 +35,7 @@
             "other": "Non binario"
         },
         "continue": "Continua",
-        "useRunningPower": "Usi il Running Power?"
+        "useRunningPower": "Usi la Potenza di corsa?"
     },
     "disciplineTimes": {
         "title": "Qual è il tuo attuale livello di forma fisica?",
@@ -51,9 +51,9 @@
         "noHoursPerWeek": "Nessun numero di ore settimanali inserito",
         "noEventDate": "Nessuna data dell'evento selezionata",
         "noEventType": "Nessun tipo di evento selezionato",
-        "powerValueNotInRange": "Il valore di Power non è nell'intervallo consentito",
-        "pace5kNotInRange": "Il valore del Pace sui 5k non è nell'intervallo consentito",
-        "pace10kNotInRange": "Il valore del Pace sui 10k non è nell'intervallo consentito"
+        "powerValueNotInRange": "Il valore di potenza non è nell'intervallo consentito",
+        "pace5kNotInRange": "Il valore del passo sui 5k non è nell'intervallo consentito",
+        "pace10kNotInRange": "Il valore del passo sui 10k non è nell'intervallo consentito"
     },
     "appCard": {
         "disconnectConfirm": "Sei sicuro di voler disconnettere {title}?",
@@ -73,7 +73,7 @@
         }
     },
     "labels": {
-        "ftp": "FTP (Functional Threshold Power) è la Power più alta che puoi mantenere in uno stato stazionario per un'ora.",
+        "ftp": "FTP (Functional Threshold Power) è la potenza più alta che puoi mantenere in uno stato stazionario per un'ora.",
         "5k": "Il tempo sui 5k è il tempo che impieghi per correre 5 chilometri.",
         "10k": "Il tempo sui 10k è il tempo che impieghi per correre 10 chilometri."
     },
@@ -110,9 +110,9 @@
             "triathlete": "Scegli dalla distanza Sprint fino all'Ironman completo. Per le distanze Sprint e Olimpico, ottimizziamo la tua Critical Cycling Power e il tuo {runTextSprintOlympic}. Per Mezzo Ironman e Ironman, ottimizziamo la tua Aerobic Cycling Power e il tuo {runTextHalfIronman}.",
             "selectDiscipline": "Seleziona una disciplina per continuare.",
             "runTextSprintOlympicPower": "Critical Running Power",
-            "runTextSprintOlympicPace": "Pace sui 5k o 10k",
+            "runTextSprintOlympicPace": "Passo sui 5k o 10k",
             "runTextHalfIronmanPower": "Aerobic Running Power",
-            "runTextHalfIronmanPace": "Pace sulla mezza maratona o maratona"
+            "runTextHalfIronmanPace": "Passo sulla mezza maratona o maratona"
         }
     }
 }

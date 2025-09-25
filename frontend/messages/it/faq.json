@@ -72,6 +72,10 @@
         "q14": {
             "title": "Posso usare le unità imperiali?",
             "content": "Sì, in 'Account' puoi scegliere tra il sistema metrico (min/km) e quello imperiale (min/miglio)."
+        },
+        "q15": {
+            "title": "Come posso cambiare la lingua o aiutare con le traduzioni?",
+            "content": "<p>Puoi impostare la tua lingua preferita nella <link>pagina Account</link>. Se la tua lingua non è supportata, puoi aiutare a creare traduzioni - creeremo la prima bozza con l'IA e tu potrai perfezionare le traduzioni. Puoi contribuire o segnalare problemi di traduzione nel nostro <link2>repository GitHub i18n</link2> o inviando un'email a <link3>info@aiendurance.com</link3>.</p>"
         }
     },
     "plans": {
@@ -118,7 +122,7 @@
         },
         "q11": {
             "title": "Quando si adatta il piano di allenamento?",
-            "content": "Se la tua readiness non è sufficiente per l'allenamento imminente, raccomandiamo modifiche al tuo programma di allenamento. Se hai saltato un allenamento, proponiamo adattamenti che mantengono la tua forma fisica in linea. Se hai fatto più lavoro a intervalli del previsto, raccomandiamo invece lavoro di endurance per riequilibrare il tuo piano di allenamento. Inoltre, se non hai seguito il tuo piano attuale, potrebbe esserci un'opzione migliore disponibile per il tuo stato di forma attuale. Se l'allenamento prescritto si discosta significativamente dal tuo allenamento effettivo, ti proponiamo di richiedere un nuovo piano che includa le informazioni aggiornate sul tuo stato di forma."
+            "content": "Se la tua prontezza non è sufficiente per l'allenamento imminente, raccomandiamo modifiche al tuo programma di allenamento. Se hai saltato un allenamento, proponiamo adattamenti che mantengono la tua forma fisica in linea. Se hai fatto più lavoro a intervalli del previsto, raccomandiamo invece lavoro di endurance per riequilibrare il tuo piano di allenamento. Inoltre, se non hai seguito il tuo piano attuale, potrebbe esserci un'opzione migliore disponibile per il tuo stato di forma attuale. Se l'allenamento prescritto si discosta significativamente dal tuo allenamento effettivo, ti proponiamo di richiedere un nuovo piano che includa le informazioni aggiornate sul tuo stato di forma."
         },
         "q12": {
             "title": "Perché non ci sono allenamenti di test nel mio piano di allenamento?",
@@ -200,7 +204,7 @@
         },
         "q2": {
             "title": "E la variabilità della frequenza cardiaca (HRV)?",
-            "content": "<p>Tracciamo i dati HRV della tua attività se hai collegato Suunto o Garmin Download e hai abilitato la registrazione HRV sul tuo dispositivo Garmin. Puoi facilmente tracciare le tue soglie aerobiche e anaerobiche dai tuoi dati HRV tramite <link>DFA alpha 1.</link> Per maggiori informazioni, vedi anche <link>questo post del blog.</link></p><p>Usiamo anche DFA alpha 1 per tracciare la tua <link>readiness all'allenamento</link>, la <link>durability</link> e i miglioramenti generali della forma fisica.</p>"
+            "content": "<p>Tracciamo i dati HRV della tua attività se hai collegato Suunto o Garmin Download e hai abilitato la registrazione HRV sul tuo dispositivo Garmin. Puoi facilmente tracciare le tue soglie aerobiche e anaerobiche dai tuoi dati HRV tramite <link>DFA alpha 1.</link> Per maggiori informazioni, vedi anche <link>questo post del blog.</link></p><p>Usiamo anche DFA alpha 1 per tracciare la tua <link>prontezza all'allenamento</link>, la <link>durability</link> e i miglioramenti generali della forma fisica.</p>"
         },
         "q3": {
             "title": "Come posso registrare l'HRV dell'attività con dispositivi Garmin o Suunto?",
@@ -236,7 +240,7 @@
         },
         "q11": {
             "title": "Qual è il limite di qualità per l'analisi dei dati HRV?",
-            "content": "Corruzione degli artefatti del 5-10%. La corruzione degli artefatti indica la qualità dei tuoi dati HRV. Per una minima corruzione degli artefatti, raccomandiamo la fascia cardio Polar H10. Nella pagina della tua attività, mostriamo la tua soglia DFA alpha 1 per qualsiasi corruzione degli artefatti, ma per analizzare la tua readiness all'allenamento prendiamo in considerazione solo le attività con meno del 10% di corruzione. Per essere prese in considerazione per le previsioni dell'IA, richiediamo meno del 5% di corruzione."
+            "content": "Corruzione degli artefatti del 5-10%. La corruzione degli artefatti indica la qualità dei tuoi dati HRV. Per una minima corruzione degli artefatti, raccomandiamo la fascia cardio Polar H10. Nella pagina della tua attività, mostriamo la tua soglia DFA alpha 1 per qualsiasi corruzione degli artefatti, ma per analizzare la tua prontezza all'allenamento prendiamo in considerazione solo le attività con meno del 10% di corruzione. Per essere prese in considerazione per le previsioni dell'IA, richiediamo meno del 5% di corruzione."
         },
         "q12": {
             "title": "Qual è una buona fascia cardio per registrare dati HRV di alta qualità?",
@@ -255,12 +259,12 @@
             "content": "<p>Le <link>FAQ su DFA alpha 1 di Bruce Roger</link> sono un'eccellente risorsa per tutti gli argomenti relativi a DFA alpha 1.</p>"
         },
         "q16": {
-            "title": "Perché il mio punteggio di readiness DFA alpha 1 non è stato calcolato per un'attività specifica?",
-            "content": "Affinché venga calcolato un punteggio di readiness DFA alpha 1, l'attività deve avere una corruzione degli artefatti inferiore al 10%. Inoltre, almeno 4 attività nelle ultime 3 settimane devono avere anch'esse una corruzione degli artefatti inferiore al 10% per consentire un confronto significativo."
+            "title": "Perché il mio punteggio di prontezza DFA alpha 1 non è stato calcolato per un'attività specifica?",
+            "content": "Affinché venga calcolato un punteggio di prontezza DFA alpha 1, l'attività deve avere una corruzione degli artefatti inferiore al 10%. Inoltre, almeno 4 attività nelle ultime 3 settimane devono avere anch'esse una corruzione degli artefatti inferiore al 10% per consentire un confronto significativo."
         },
         "q17": {
-            "title": "Perché il mio punteggio di readiness sulla dashboard non viene calcolato anche se ho collegato i dati di HRV a riposo e/o DFA alpha 1?",
-            "content": "Per calcolare il tuo punteggio di readiness, richiediamo un minimo di 10 giorni di dati di FC/HRV a riposo o dati DFA alpha 1, insieme ad almeno 10 giorni di dati di allenamento che includano i punteggi di stress (ESS) calcolati. Questo assicura che il modello di recupero abbia dati sufficienti per fornire risultati significativi."
+            "title": "Perché il mio punteggio di prontezza sulla dashboard non viene calcolato anche se ho collegato i dati di HRV a riposo e/o DFA alpha 1?",
+            "content": "Per calcolare il tuo punteggio di prontezza, richiediamo un minimo di 10 giorni di dati di FC/HRV a riposo o dati DFA alpha 1, insieme ad almeno 10 giorni di dati di allenamento che includano i punteggi di stress (ESS) calcolati. Questo assicura che il modello di recupero abbia dati sufficienti per fornire risultati significativi."
         }
     },
     "moreSupport": {

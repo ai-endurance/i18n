@@ -23,7 +23,7 @@
         },
         "q2": {
             "title": "Avec quelle précision AI Endurance peut-elle prédire la performance ?",
-            "content": "Nous pouvons prédire ta performance future à environ 5% si tu as au moins 100 courses avec des données GPS ou des sorties à vélo avec des données de Power."
+            "content": "Nous pouvons prédire ta performance future à environ 5% si tu as au moins 100 courses avec des données GPS ou des sorties à vélo avec des données de puissance."
         },
         "q3": {
             "title": "À quelle fréquence l'IA est-elle entraînée ?",
@@ -39,19 +39,19 @@
         },
         "q6": {
             "title": "Qu'est-ce que le GAP et comment AI Endurance l'utilise-t-il ?",
-            "content": "<p><link>Grade Adjusted Pace</link> prend en compte les dénivelés positifs et négatifs pendant ta course et normalise ton allure de course à une allure équivalente sur un parcours plat. Par exemple, si tu cours en montant une colline raide, ton allure brute peut être lente mais ton GAP peut être élevé car il tient compte de la pente de la colline. AI Endurance utilise le GAP pour prédire ta performance en course à pied. Tes instructions d'allure sont toujours en GAP.</p><p>Alternativement au GAP, tu peux utiliser la Power en course à pied.</p>"
+            "content": "<p><link>Grade Adjusted Pace</link> prend en compte les dénivelés positifs et négatifs pendant ta course et normalise ton allure de course à une allure équivalente sur un parcours plat. Par exemple, si tu cours en montant une colline raide, ton allure brute peut être lente mais ton GAP peut être élevé car il tient compte de la pente de la colline. AI Endurance utilise le GAP pour prédire ta performance en course à pied. Tes instructions d'allure sont toujours en GAP.</p><p>Alternativement au GAP, tu peux utiliser la puissance en course à pied.</p>"
         },
         "q7": {
-            "title": "Puis-je utiliser AI Endurance avec la Power en course à pied ?",
-            "content": "<p>Oui. Nous importons tes données de Power en course à pied depuis Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu et Strava.</p><p>Tu peux baser entièrement ton plan d'entraînement sur la Power en course à pied et exporter tes entraînements vers Garmin Connect, Suunto Guides, Coros, TrainingPeaks, Apple Watch via Watchletic, Intervals.icu et Nolio.</p>"
+            "title": "Puis-je utiliser AI Endurance avec la puissance en course à pied ?",
+            "content": "<p>Oui. Nous importons tes données de puissance en course à pied depuis Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu et Strava.</p><p>Tu peux baser entièrement ton plan d'entraînement sur la puissance en course à pied et exporter tes entraînements vers Garmin Connect, Suunto Guides, Coros, TrainingPeaks, Apple Watch via Watchletic, Intervals.icu et Nolio.</p>"
         },
         "q8": {
-            "title": "Comment puis-je utiliser les entraînements de Power en course à pied d'AI Endurance avec Garmin et Stryd ?",
-            "content": "Installe simplement le champ de données Stryd sur ta montre, connecte AI Endurance à Garmin Upload dans les Applications et utilise la Power en course à pied pour ton plan d'entraînement."
+            "title": "Comment puis-je utiliser les entraînements de puissance en course à pied d'AI Endurance avec Garmin et Stryd ?",
+            "content": "Installe simplement le champ de données Stryd sur ta montre, connecte AI Endurance à Garmin Upload dans les Applications et utilise la puissance en course à pied pour ton plan d'entraînement."
         },
         "q9": {
-            "title": "Ai-je besoin de données de Power pour le cyclisme ?",
-            "content": "<p>Oui, au moins pour certaines activités. La Power est la seule métrique en cyclisme que nous avons trouvée prédictive. Il y a trop de variations dans les données de vitesse et de fréquence cardiaque qui ne sont pas indicatives de la performance. Tu n'as pas besoin que toutes tes activités soient enregistrées avec un capteur de Power. Si ton activité a des données de fréquence cardiaque et de Cadence, <link>nous estimons la Power à partir de ces mesures.</link> Nous avons besoin de certaines activités avec au moins des données de Power et de fréquence cardiaque pour pouvoir entraîner un modèle individualisé pour toi qui prédit ta Power à partir de ta fréquence cardiaque et d'autres métriques telles que la Cadence.</p>"
+            "title": "Ai-je besoin de données de puissance pour le cyclisme ?",
+            "content": "<p>Oui, au moins pour certaines activités. La puissance est la seule métrique en cyclisme que nous avons trouvée prédictive. Il y a trop de variations dans les données de vitesse et de fréquence cardiaque qui ne sont pas indicatives de la performance. Tu n'as pas besoin que toutes tes activités soient enregistrées avec un capteur de puissance. Si ton activité a des données de fréquence cardiaque et de Cadence, <link>nous estimons la puissance à partir de ces mesures.</link> Nous avons besoin de certaines activités avec au moins des données de puissance et de fréquence cardiaque pour pouvoir entraîner un modèle individualisé pour toi qui prédit ta puissance à partir de ta fréquence cardiaque et d'autres métriques telles que la Cadence.</p>"
         },
         "q10": {
             "title": "Est-ce qu'AI Endurance détecte mes performances en course et mes tests FTP ?",
@@ -67,11 +67,15 @@
         },
         "q13": {
             "title": "Pourquoi mon erreur de prédiction est-elle importante ?",
-            "content": "<p>Voici quelques raisons possibles :</p><p>1. Données erronées en entrée, résultats erronés en sortie - tes données sont-elles propres, c'est-à-dire provenant d'un appareil GPS ou d'un capteur de Power bien calibré ? Sinon, tu peux exclure les intervalles de temps où de mauvaises données ont été enregistrées sous 'Exclusions de données' dans le Tableau de bord. Un coupable courant sont les courses enregistrées qui sont en fait des sorties à vélo. Tu peux généralement les identifier via des pics d'allure dans ton graphique 'Mes données passées' dans le Tableau de bord.</p><p>2. Pour le cyclisme, as-tu roulé avec plusieurs vélos et tous ne sont pas équipés d'un capteur de Power ? Si tu enregistres une activité sans capteur de Power mais que tu portes ton moniteur de fréquence cardiaque et, de préférence, que tu as un capteur de Cadence installé, nous estimons ta Power à partir de ces mesures. Cependant, s'il y a beaucoup de sorties sans données de fréquence cardiaque, le modèle serait aveugle pour une fraction significative de l'entraînement réel. De même, si tu as/avais plusieurs capteurs de Power/home trainers intelligents et que ceux-ci lisent de manière incohérente les uns par rapport aux autres, cela peut causer des problèmes.</p><p>3. De même, si tu n'enregistres pas toutes tes courses avec un appareil GPS, le modèle est aveugle à ces activités que tu n'enregistres pas.</p>"
+            "content": "<p>Voici quelques raisons possibles :</p><p>1. Données erronées en entrée, résultats erronés en sortie - tes données sont-elles propres, c'est-à-dire provenant d'un appareil GPS ou d'un capteur de puissance bien calibré ? Sinon, tu peux exclure les intervalles de temps où de mauvaises données ont été enregistrées sous 'Exclusions de données' dans le Tableau de bord. Un coupable courant sont les courses enregistrées qui sont en fait des sorties à vélo. Tu peux généralement les identifier via des pics d'allure dans ton graphique 'Mes données passées' dans le Tableau de bord.</p><p>2. Pour le cyclisme, as-tu roulé avec plusieurs vélos et tous ne sont pas équipés d'un capteur de puissance ? Si tu enregistres une activité sans capteur de puissance mais que tu portes ton moniteur de fréquence cardiaque et, de préférence, que tu as un capteur de Cadence installé, nous estimons ta puissance à partir de ces mesures. Cependant, s'il y a beaucoup de sorties sans données de fréquence cardiaque, le modèle serait aveugle pour une fraction significative de l'entraînement réel. De même, si tu as/avais plusieurs capteurs de puissance/home trainers intelligents et que ceux-ci lisent de manière incohérente les uns par rapport aux autres, cela peut causer des problèmes.</p><p>3. De même, si tu n'enregistres pas toutes tes courses avec un appareil GPS, le modèle est aveugle à ces activités que tu n'enregistres pas.</p>"
         },
         "q14": {
             "title": "Puis-je utiliser les unités impériales ?",
             "content": "Oui, sous 'Compte', tu peux choisir entre le système métrique (min/km) et impérial (min/mile)."
+        },
+        "q15": {
+            "title": "Comment puis-je changer la langue ou aider avec les traductions ?",
+            "content": "<p>Tu peux définir ta langue préférée sur la <link>page Compte</link>. Si ta langue n'est pas prise en charge, tu peux aider à créer des traductions - nous créerons la première version avec l'IA et tu pourras affiner les traductions. Tu peux contribuer ou signaler des problèmes de traduction sur notre <link2>dépôt GitHub i18n</link2> ou en envoyant un e-mail à <link3>info@aiendurance.com</link3>.</p>"
         }
     },
     "plans": {
@@ -86,7 +90,7 @@
         },
         "q3": {
             "title": "Comment les entraînements sont-ils prescrits ?",
-            "content": "Nous prescrivons principalement les entraînements via l'allure/GAP ou la Power en course à pied (course à pied), la Power (cyclisme) et l'allure (natation). Pour les entraînements de course à pied et de cyclisme d'Endurance à faible intensité, nous prescrivons également des cibles de fréquence cardiaque secondaires si tu collectes des données HRV de haute qualité qui nous permettent de déterminer ta fréquence cardiaque au seuil aérobie. Les cibles principales d'allure ou de Power sont toujours les cibles les plus importantes à suivre, tandis que la fréquence cardiaque peut être utilisée comme guide secondaire, en particulier si le terrain rend difficile le suivi précis de la cible principale."
+            "content": "Nous prescrivons principalement les entraînements via l'allure/GAP ou la puissance en course à pied (course à pied), la puissance (cyclisme) et l'allure (natation). Pour les entraînements de course à pied et de cyclisme d'Endurance à faible intensité, nous prescrivons également des cibles de fréquence cardiaque secondaires si tu collectes des données HRV de haute qualité qui nous permettent de déterminer ta fréquence cardiaque au seuil aérobie. Les cibles principales d'allure ou de puissance sont toujours les cibles les plus importantes à suivre, tandis que la fréquence cardiaque peut être utilisée comme guide secondaire, en particulier si le terrain rend difficile le suivi précis de la cible principale."
         },
         "q4": {
             "title": "Dois-je suivre le plan d'entraînement si je suis blessé(e) ou en convalescence ?",
@@ -118,7 +122,7 @@
         },
         "q11": {
             "title": "Quand le plan d'entraînement s'adapte-t-il ?",
-            "content": "Si ta readiness n'est pas suffisante pour l'entraînement à venir, nous recommandons des modifications à ton programme d'entraînement. Si tu as manqué un entraînement, nous proposons des adaptations qui maintiennent ta forme sur la bonne voie. Si tu as fait plus de travail fractionné que prescrit, nous recommandons plutôt un travail d'Endurance pour rééquilibrer ton plan d'entraînement. De plus, si tu n'as pas suivi ton plan actuel, il pourrait y avoir une meilleure option disponible pour ton état de forme actuel. Si ton entraînement prescrit s'écarte considérablement de ton entraînement réel, nous te proposons de demander un nouveau plan qui inclut les informations mises à jour sur ton état de forme."
+            "content": "Si ta préparation n'est pas suffisante pour l'entraînement à venir, nous recommandons des modifications à ton programme d'entraînement. Si tu as manqué un entraînement, nous proposons des adaptations qui maintiennent ta forme sur la bonne voie. Si tu as fait plus de travail fractionné que prescrit, nous recommandons plutôt un travail d'Endurance pour rééquilibrer ton plan d'entraînement. De plus, si tu n'as pas suivi ton plan actuel, il pourrait y avoir une meilleure option disponible pour ton état de forme actuel. Si ton entraînement prescrit s'écarte considérablement de ton entraînement réel, nous te proposons de demander un nouveau plan qui inclut les informations mises à jour sur ton état de forme."
         },
         "q12": {
             "title": "Pourquoi n'y a-t-il pas d'entraînements de test dans mon plan d'entraînement ?",
@@ -126,7 +130,7 @@
         },
         "q13": {
             "title": "Comment mes zones d'entraînement de course à pied et de cyclisme sont-elles calculées automatiquement ?",
-            "content": "Nous pouvons calculer automatiquement tes zones de course à pied et de cyclisme à partir de tes données historiques. Nous utilisons le système suivant pour estimer tes zones : d'abord, nous essayons de trouver suffisamment de données de seuil DFA a₁ pour définir tes zones. Dans un deuxième temps, nous utilisons la distribution de tes données historiques de Power/Pace pour définir tes zones. Tu peux également ajuster manuellement tes zones."
+            "content": "Nous pouvons calculer automatiquement tes zones de course à pied et de cyclisme à partir de tes données historiques. Nous utilisons le système suivant pour estimer tes zones : d'abord, nous essayons de trouver suffisamment de données de seuil DFA a₁ pour définir tes zones. Dans un deuxième temps, nous utilisons la distribution de tes données historiques de Puissance/Allure pour définir tes zones. Tu peux également ajuster manuellement tes zones."
         },
         "q14": {
             "title": "Comment mes zones d'entraînement de natation sont-elles calculées automatiquement ?",
@@ -142,7 +146,7 @@
         },
         "q17": {
             "title": "Si je m'entraîne pour un marathon ou un autre événement de longue distance, la durée de ma sortie longue est-elle développée ?",
-            "content": "<p>Oui, si nous savons que tu t'entraînes pour un (Semi-)Marathon ou un (Semi-)Ironman ou un événement d'ultra Endurance, nous essaierons d'intégrer une augmentation progressive de la durée de ta sortie longue. Nous essaierons généralement de planifier la sortie longue le jour où tu as la plus grande disponibilité pour la course à pied. Si tu as un jour spécifique que tu préfères pour ta sortie longue, tu peux le définir sur la page 'Plan' sous 'Disponibilité quotidienne'. Le point de départ de la durée de ta sortie longue dépend de ta plus longue course au cours des 6 dernières semaines. La durée maximale de ta sortie longue est déterminée par le temps final qu'AI Endurance estime pour ton événement cible.</p><p>Si tu utilises la Power en course à pied et que tu t'entraînes pour un (Semi-)Marathon, assure-toi de mettre le mot \"(Semi-)Marathon\" dans le champ du nom de ton événement cible, par exemple \"Marathon de Berlin\". Ceci est nécessaire car pour la Power en course à pied, nous ne prédisons pas directement ton temps final et optimisons plutôt la Critical Power et/ou l'Endurance Power, donc nous ne saurons pas directement que tu t'entraînes pour un événement particulier à moins que tu ne nous le dises.</p>"
+            "content": "<p>Oui, si nous savons que tu t'entraînes pour un (Semi-)Marathon ou un (Semi-)Ironman ou un événement d'ultra Endurance, nous essaierons d'intégrer une augmentation progressive de la durée de ta sortie longue. Nous essaierons généralement de planifier la sortie longue le jour où tu as la plus grande disponibilité pour la course à pied. Si tu as un jour spécifique que tu préfères pour ta sortie longue, tu peux le définir sur la page 'Plan' sous 'Disponibilité quotidienne'. Le point de départ de la durée de ta sortie longue dépend de ta plus longue course au cours des 6 dernières semaines. La durée maximale de ta sortie longue est déterminée par le temps final qu'AI Endurance estime pour ton événement cible.</p><p>Si tu utilises la puissance en course à pied et que tu t'entraînes pour un (Semi-)Marathon, assure-toi de mettre le mot \"(Semi-)Marathon\" dans le champ du nom de ton événement cible, par exemple \"Marathon de Berlin\". Ceci est nécessaire car pour la puissance en course à pied, nous ne prédisons pas directement ton temps final et optimisons plutôt la Critical Power et/ou l'Endurance Power, donc nous ne saurons pas directement que tu t'entraînes pour un événement particulier à moins que tu ne nous le dises.</p>"
         },
         "q18": {
             "title": "Pourquoi l'option 'Utiliser une couche secondaire d'entraînement pour le jumeau numérique' est-elle activée automatiquement ?",
@@ -184,8 +188,8 @@
             "content": "S'il manque un entraînement Garmin, tu peux télécharger le fichier FIT original depuis Garmin Connect et le télécharger manuellement en utilisant l'option de téléchargement de fichier FIT sur la <link>page Applications.</link>"
         },
         "q6": {
-            "title": "Comment enregistrer les données de Power en course à pied Stryd et non les données de Power en course à pied Garmin ?",
-            "content": "Si tu utilises Stryd et une montre Garmin qui enregistre la Power en course à pied native de Garmin, les deux enregistrements de Power seront stockés dans le fichier FIT de tes activités. Pour désactiver la Power en course à pied de Garmin, va dans 'Sélectionner l'activité de course' -> 'Paramètres de l'activité de course' -> 'Désactiver l'enregistrement des données de Power en course à pied Garmin'. Nous te recommandons de t'en tenir systématiquement à une seule source de Power, car différents fabricants ont des algorithmes différents pour calculer la Power en course à pied, ce qui peut donner des valeurs très différentes."
+            "title": "Comment enregistrer les données de puissance en course à pied Stryd et non les données de puissance en course à pied Garmin ?",
+            "content": "Si tu utilises Stryd et une montre Garmin qui enregistre la puissance en course à pied native de Garmin, les deux enregistrements de puissance seront stockés dans le fichier FIT de tes activités. Pour désactiver la puissance en course à pied de Garmin, va dans 'Sélectionner l'activité de course' -> 'Paramètres de l'activité de course' -> 'Désactiver l'enregistrement des données de puissance en course à pied Garmin'. Nous te recommandons de t'en tenir systématiquement à une seule source de puissance, car différents fabricants ont des algorithmes différents pour calculer la puissance en course à pied, ce qui peut donner des valeurs très différentes."
         },
         "q7": {
             "title": "Pourquoi mes données d'activité ne sont-elles pas importées depuis TrainingPeaks ?",
@@ -196,11 +200,11 @@
         "title": "Fréquence cardiaque et variabilité de la fréquence cardiaque",
         "q1": {
             "title": "Qu'en est-il de la fréquence cardiaque ?",
-            "content": "<p>Nous utilisons tes données de fréquence cardiaque pour évaluer ta performance. Par exemple, si tu as pu courir à 5 min/km ou à 200 W pendant une heure avec une fréquence cardiaque significativement plus basse que la semaine dernière, l'IA le remarque comme une amélioration de ta performance. Cependant, la fréquence cardiaque est généralement un bien moins bon prédicteur de performance que la Power et le GAP.</p><p>Nous calculons tes seuils de fréquence cardiaque aérobie et anaérobie à partir de tes données DFA alpha 1, voir <link>cet article de blog.</link></p><p>Pour tes activités de cyclisme sans Power, nous utilisons la fréquence cardiaque et la Cadence pour estimer ta Power grâce à un <link>modèle d'apprentissage automatique personnalisé.</link></p>"
+            "content": "<p>Nous utilisons tes données de fréquence cardiaque pour évaluer ta performance. Par exemple, si tu as pu courir à 5 min/km ou à 200 W pendant une heure avec une fréquence cardiaque significativement plus basse que la semaine dernière, l'IA le remarque comme une amélioration de ta performance. Cependant, la fréquence cardiaque est généralement un bien moins bon prédicteur de performance que la puissance et le GAP.</p><p>Nous calculons tes seuils de fréquence cardiaque aérobie et anaérobie à partir de tes données DFA alpha 1, voir <link>cet article de blog.</link></p><p>Pour tes activités de cyclisme sans puissance, nous utilisons la fréquence cardiaque et la Cadence pour estimer ta puissance grâce à un <link>modèle d'apprentissage automatique personnalisé.</link></p>"
         },
         "q2": {
             "title": "Qu'en est-il de la variabilité de la fréquence cardiaque (HRV) ?",
-            "content": "<p>Nous suivons tes données HRV d'activité si tu as connecté Suunto ou Garmin Download et si l'enregistrement HRV est activé sur ton appareil Garmin. Tu peux facilement suivre tes seuils aérobie et anaérobie à partir de tes données HRV via <link>DFA alpha 1.</link> Pour plus d'informations, voir aussi <link>cet article de blog.</link></p><p>Nous utilisons également DFA alpha 1 pour suivre ta <link>readiness à t'entraîner</link>, ta <link>durability</link> et tes améliorations globales de forme physique.</p>"
+            "content": "<p>Nous suivons tes données HRV d'activité si tu as connecté Suunto ou Garmin Download et si l'enregistrement HRV est activé sur ton appareil Garmin. Tu peux facilement suivre tes seuils aérobie et anaérobie à partir de tes données HRV via <link>DFA alpha 1.</link> Pour plus d'informations, voir aussi <link>cet article de blog.</link></p><p>Nous utilisons également DFA alpha 1 pour suivre ta <link>préparation à t'entraîner</link>, ta <link>durability</link> et tes améliorations globales de forme physique.</p>"
         },
         "q3": {
             "title": "Comment puis-je enregistrer la HRV d'activité avec des appareils Garmin ou Suunto ?",
@@ -223,7 +227,7 @@
             "content": "Malheureusement, à ce stade, Strava ne transmet pas les données HRV d'activité. Si tu souhaites suivre tes données HRV, connecte directement Garmin Connect ou Suunto à AI Endurance."
         },
         "q8": {
-            "title": "Comment puis-je déterminer mon seuil de Power/Pace/fréquence cardiaque DFA alpha 1 ?",
+            "title": "Comment puis-je déterminer mon seuil de Puissance/Allure/fréquence cardiaque DFA alpha 1 ?",
             "content": "<p>Nous tentons automatiquement de détecter ton seuil DFA alpha 1 pour chaque activité avec des données HRV que tu importes dans AI Endurance. Pour un test de seuil, exporte simplement le test progressif DFA alpha 1 vers Zwift ou ton appareil Garmin depuis la <link>page Applications.</link></p>"
         },
         "q9": {
@@ -231,12 +235,12 @@
             "content": "<p>Rends-toi sur la <link>page Compte</link> et définis tes zones d'intensité.</p><p>- Si ton plafond d'Endurance (aérobie/VT1) a été déterminé, règle la première pastille (limite Endurance - Tempo) sur la valeur déterminée.</p><p>- Si ton plafond de Threshold (anaérobie/VT2) a été déterminé, règle la troisième pastille (limite Threshold - VO2Max) sur la valeur déterminée.</p><p>Nous suivons également automatiquement si tes seuils ne sont pas en phase avec tes zones actuelles et te notifions si une mise à jour est appropriée.</p>"
         },
         "q10": {
-            "title": "Pourquoi mon seuil de Power/Pace/fréquence cardiaque DFA alpha 1 n'a-t-il pas été calculé automatiquement ?",
-            "content": "<p>Afin de détecter automatiquement les seuils DFA alpha 1, AI Endurance doit détecter une rampe d'intensité pendant ton activité, car c'est la méthode qui est soutenue par <link>la recherche actuelle sur la détection du seuil DFA alpha 1.</link> Notre algorithme doit être capable d'identifier une période qui remplit les critères suivants pour la détection automatique du seuil :</p><p>1. Augmentation constante et progressive de l'intensité, c'est-à-dire des valeurs alpha 1 diminuant de manière monotone et des valeurs de Pace/Power augmentant de manière monotone.</p><p>2. Suffisamment de points de données des deux côtés du seuil, par ex. alpha 1 < 0,5 et alpha 1 > 0,5 pour la détection du seuil anaérobie.</p><p>3. Une vitesse de rampe pas trop élevée pour augmenter l'intensité. Si tu augmentes l'intensité trop rapidement, il y a un délai dans ta réponse cardiovasculaire par rapport à ta Power/Pace, ce qui conduirait à des seuils de Power/Pace surestimés.</p><p>Tu as également la possibilité de télécharger les données d'activité depuis la page d'activité sous forme de fichier csv et d'effectuer manuellement la détection de la rampe.</p>"
+            "title": "Pourquoi mon seuil de Puissance/Allure/fréquence cardiaque DFA alpha 1 n'a-t-il pas été calculé automatiquement ?",
+            "content": "<p>Afin de détecter automatiquement les seuils DFA alpha 1, AI Endurance doit détecter une rampe d'intensité pendant ton activité, car c'est la méthode qui est soutenue par <link>la recherche actuelle sur la détection du seuil DFA alpha 1.</link> Notre algorithme doit être capable d'identifier une période qui remplit les critères suivants pour la détection automatique du seuil :</p><p>1. Augmentation constante et progressive de l'intensité, c'est-à-dire des valeurs alpha 1 diminuant de manière monotone et des valeurs d'Allure/Puissance augmentant de manière monotone.</p><p>2. Suffisamment de points de données des deux côtés du seuil, par ex. alpha 1 < 0,5 et alpha 1 > 0,5 pour la détection du seuil anaérobie.</p><p>3. Une vitesse de rampe pas trop élevée pour augmenter l'intensité. Si tu augmentes l'intensité trop rapidement, il y a un délai dans ta réponse cardiovasculaire par rapport à ta Puissance/Allure, ce qui conduirait à des seuils de Puissance/Allure surestimés.</p><p>Tu as également la possibilité de télécharger les données d'activité depuis la page d'activité sous forme de fichier csv et d'effectuer manuellement la détection de la rampe.</p>"
         },
         "q11": {
             "title": "Quel est le seuil de qualité pour l'analyse des données HRV ?",
-            "content": "Corruption d'artefacts de 5 à 10 %. La corruption d'artefacts indique la qualité de tes données HRV. Pour une corruption d'artefacts minimale, nous recommandons le moniteur de fréquence cardiaque Polar H10. Sur ta page d'activité, nous affichons ton seuil DFA alpha 1 pour toute corruption d'artefacts, mais pour analyser ta readiness à t'entraîner, nous ne prenons en compte que les activités avec moins de 10 % de corruption. Pour être prises en compte dans les prédictions de l'IA, nous exigeons moins de 5 % de corruption."
+            "content": "Corruption d'artefacts de 5 à 10 %. La corruption d'artefacts indique la qualité de tes données HRV. Pour une corruption d'artefacts minimale, nous recommandons le moniteur de fréquence cardiaque Polar H10. Sur ta page d'activité, nous affichons ton seuil DFA alpha 1 pour toute corruption d'artefacts, mais pour analyser ta préparation à t'entraîner, nous ne prenons en compte que les activités avec moins de 10 % de corruption. Pour être prises en compte dans les prédictions de l'IA, nous exigeons moins de 5 % de corruption."
         },
         "q12": {
             "title": "Quel est un bon moniteur de fréquence cardiaque pour enregistrer des données HRV de haute qualité ?",
@@ -255,12 +259,12 @@
             "content": "<p>La <link>FAQ DFA alpha 1 de Bruce Roger</link> est une excellente ressource pour tous les sujets liés à DFA alpha 1.</p>"
         },
         "q16": {
-            "title": "Pourquoi mon score de readiness DFA alpha 1 n'a-t-il pas été calculé pour une activité spécifique ?",
-            "content": "Pour qu'un score de readiness DFA alpha 1 soit calculé, l'activité doit présenter moins de 10 % de corruption d'artefacts. De plus, au moins 4 activités au cours des 3 dernières semaines doivent également présenter une corruption d'artefacts inférieure à 10 % pour permettre une comparaison significative."
+            "title": "Pourquoi mon score de préparation DFA alpha 1 n'a-t-il pas été calculé pour une activité spécifique ?",
+            "content": "Pour qu'un score de préparation DFA alpha 1 soit calculé, l'activité doit présenter moins de 10 % de corruption d'artefacts. De plus, au moins 4 activités au cours des 3 dernières semaines doivent également présenter une corruption d'artefacts inférieure à 10 % pour permettre une comparaison significative."
         },
         "q17": {
-            "title": "Pourquoi mon score de readiness du tableau de bord n'est-il pas calculé même si j'ai connecté des données HRV au repos et/ou DFA alpha 1 ?",
-            "content": "Pour calculer ton score de readiness, nous avons besoin d'un minimum de 10 jours de données de FC/HRV au repos ou de données DFA alpha 1, ainsi que d'au moins 10 jours de données d'entraînement incluant des scores de Stress calculés (ESS). Cela garantit que le modèle de récupération dispose de suffisamment de données pour fournir des résultats significatifs."
+            "title": "Pourquoi mon score de préparation du tableau de bord n'est-il pas calculé même si j'ai connecté des données HRV au repos et/ou DFA alpha 1 ?",
+            "content": "Pour calculer ton score de préparation, nous avons besoin d'un minimum de 10 jours de données de FC/HRV au repos ou de données DFA alpha 1, ainsi que d'au moins 10 jours de données d'entraînement incluant des scores de Stress calculés (ESS). Cela garantit que le modèle de récupération dispose de suffisamment de données pour fournir des résultats significatifs."
         }
     },
     "moreSupport": {

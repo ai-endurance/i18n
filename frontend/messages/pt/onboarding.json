@@ -35,7 +35,7 @@
             "other": "Não-Binário"
         },
         "continue": "Continuar",
-        "useRunningPower": "Usar Running Power?"
+        "useRunningPower": "Usar Potência de corrida?"
     },
     "disciplineTimes": {
         "title": "Qual é o seu nível de condicionamento físico atual?",
@@ -51,9 +51,9 @@
         "noHoursPerWeek": "Nenhuma hora por semana inserida",
         "noEventDate": "Nenhuma data de evento selecionada",
         "noEventType": "Nenhum tipo de evento selecionado",
-        "powerValueNotInRange": "O valor de Power não está dentro do intervalo",
-        "pace5kNotInRange": "O valor de pace do 5k não está dentro do intervalo",
-        "pace10kNotInRange": "O valor de pace do 10k não está dentro do intervalo"
+        "powerValueNotInRange": "O valor de potência não está dentro do intervalo",
+        "pace5kNotInRange": "O valor de ritmo do 5k não está dentro do intervalo",
+        "pace10kNotInRange": "O valor de ritmo do 10k não está dentro do intervalo"
     },
     "appCard": {
         "disconnectConfirm": "Você tem certeza que deseja desconectar {title}?",
@@ -106,13 +106,13 @@
             "suffix": "Após o seu cadastro inicial, você também pode planejar uma temporada inteira com eventos B e C. Você também pode personalizar seus próprios eventos-alvo e configurar pesos personalizados para cada meta.",
             "cyclist": "Otimize seu FTP (Functional Threshold Power), Critical Cycling Power ou seu Ultra Endurance Power - sua potência em DFA a₁ = 0.75, seu threshold aeróbico de HRV.",
             "runnerPower": "Otimize seu Critical Running Power ou seu Ultra Endurance Power - sua potência em DFA a₁ = 0.75, seu threshold aeróbico de HRV.",
-            "runnerPace": "Escolha desde a distância de 5k até a Maratona. Ou otimize seu Ultra Endurance Pace - seu pace em DFA a₁ = 0.75, seu threshold aeróbico de HRV.",
+            "runnerPace": "Escolha desde a distância de 5k até a Maratona. Ou otimize seu Ultra Endurance Pace - seu ritmo em DFA a₁ = 0.75, seu threshold aeróbico de HRV.",
             "triathlete": "Escolha desde a distância Sprint até a distância Ironman completo. Para as distâncias Sprint e Olímpica, otimizamos seu Critical Cycling Power e seu {runTextSprintOlympic}. Para Meio-Ironman e Ironman, otimizamos sua Potência de Ciclismo Aeróbico e seu {runTextHalfIronman}.",
             "selectDiscipline": "Por favor, selecione uma modalidade para continuar.",
             "runTextSprintOlympicPower": "Critical Running Power",
-            "runTextSprintOlympicPace": "pace de 5k ou 10k",
+            "runTextSprintOlympicPace": "ritmo de 5k ou 10k",
             "runTextHalfIronmanPower": "Potência de Corrida Aeróbica",
-            "runTextHalfIronmanPace": "pace de Meia Maratona ou Maratona"
+            "runTextHalfIronmanPace": "ritmo de Meia Maratona ou Maratona"
         }
     }
 }

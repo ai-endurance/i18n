@@ -23,7 +23,7 @@
         },
         "q2": {
             "title": "¿Con qué precisión puede AI Endurance predecir el rendimiento?",
-            "content": "Podemos predecir tu rendimiento futuro con una precisión de aproximadamente el 5 % si tienes al menos 100 carreras con datos de GPS o salidas en bici con datos de Power."
+            "content": "Podemos predecir tu rendimiento futuro con una precisión de aproximadamente el 5 % si tienes al menos 100 carreras con datos de GPS o salidas en bici con datos de potencia."
         },
         "q3": {
             "title": "¿Con qué frecuencia entrenáis la IA?",
@@ -39,19 +39,19 @@
         },
         "q6": {
             "title": "¿Qué es GAP y cómo lo utiliza AI Endurance?",
-            "content": "<p><link>Grade Adjusted Pace</link> (GAP) tiene en cuenta los desniveles positivos y negativos durante tu carrera y normaliza tu ritmo de carrera a un ritmo equivalente en un recorrido plano. Por ejemplo, si estás corriendo cuesta arriba en una pendiente pronunciada, tu ritmo bruto puede ser lento, pero tu GAP puede ser alto, ya que tiene en cuenta la inclinación de la cuesta. AI Endurance utiliza GAP para predecir tu rendimiento en carrera. Tus instrucciones de ritmo siempre están en GAP.</p><p>Como alternativa a GAP, puedes usar Running Power.</p>"
+            "content": "<p><link>Grade Adjusted Pace</link> (GAP) tiene en cuenta los desniveles positivos y negativos durante tu carrera y normaliza tu ritmo de carrera a un ritmo equivalente en un recorrido plano. Por ejemplo, si estás corriendo cuesta arriba en una pendiente pronunciada, tu ritmo bruto puede ser lento, pero tu GAP puede ser alto, ya que tiene en cuenta la inclinación de la cuesta. AI Endurance utiliza GAP para predecir tu rendimiento en carrera. Tus instrucciones de ritmo siempre están en GAP.</p><p>Como alternativa a GAP, puedes usar Potencia de carrera.</p>"
         },
         "q7": {
-            "title": "¿Puedo usar AI Endurance con Running Power?",
-            "content": "<p>Sí. Importamos tus datos de Running Power desde Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu y Strava.</p><p>Puedes basar tu plan de entrenamiento completamente en Running Power y exportar tus entrenamientos a Garmin Connect, Guías de Suunto, Coros, TrainingPeaks, Apple Watch a través de Watchletic, Intervals.icu y Nolio.</p>"
+            "title": "¿Puedo usar AI Endurance con Potencia de carrera?",
+            "content": "<p>Sí. Importamos tus datos de Potencia de carrera desde Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu y Strava.</p><p>Puedes basar tu plan de entrenamiento completamente en Potencia de carrera y exportar tus entrenamientos a Garmin Connect, Guías de Suunto, Coros, TrainingPeaks, Apple Watch a través de Watchletic, Intervals.icu y Nolio.</p>"
         },
         "q8": {
-            "title": "¿Cómo puedo usar los entrenamientos de Running Power de AI Endurance con Garmin y Stryd?",
-            "content": "Simplemente instala el campo de datos de Stryd en tu reloj, conecta AI Endurance a la Carga de Garmin en Apps y usa Running Power para tu plan de entrenamiento."
+            "title": "¿Cómo puedo usar los entrenamientos de Potencia de carrera de AI Endurance con Garmin y Stryd?",
+            "content": "Simplemente instala el campo de datos de Stryd en tu reloj, conecta AI Endurance a la Carga de Garmin en Apps y usa Potencia de carrera para tu plan de entrenamiento."
         },
         "q9": {
-            "title": "¿Necesito datos de Power para ciclismo?",
-            "content": "<p>Sí, al menos para algunas actividades. Power es la única métrica en ciclismo que hemos encontrado que sea predictiva. Hay demasiadas variaciones en los datos de velocidad y frecuencia cardíaca que no son indicativas del rendimiento. No necesitas que todas tus actividades se registren con un medidor de potencia. Si tu actividad tiene datos de frecuencia cardíaca y Cadence, <link>estimamos el Power a partir de esas mediciones.</link> Sí que necesitamos algunas actividades con al menos datos de Power y frecuencia cardíaca para poder entrenar un modelo individualizado para ti que prediga tu Power a partir de tu frecuencia cardíaca y otras métricas como la Cadence.</p>"
+            "title": "¿Necesito datos de potencia para ciclismo?",
+            "content": "<p>Sí, al menos para algunas actividades. La potencia es la única métrica en ciclismo que hemos encontrado que sea predictiva. Hay demasiadas variaciones en los datos de velocidad y frecuencia cardíaca que no son indicativas del rendimiento. No necesitas que todas tus actividades se registren con un medidor de potencia. Si tu actividad tiene datos de frecuencia cardíaca y Cadence, <link>estimamos la potencia a partir de esas mediciones.</link> Sí que necesitamos algunas actividades con al menos datos de potencia y frecuencia cardíaca para poder entrenar un modelo individualizado para ti que prediga tu potencia a partir de tu frecuencia cardíaca y otras métricas como la Cadence.</p>"
         },
         "q10": {
             "title": "¿Detectáis mis rendimientos en carrera y mis tests de FTP?",
@@ -67,11 +67,15 @@
         },
         "q13": {
             "title": "¿Por qué mi error de predicción es grande?",
-            "content": "<p>Aquí tienes algunas posibles razones:</p><p>1. Si entra basura, sale basura: ¿son tus datos limpios, es decir, de un dispositivo GPS o medidor de potencia bien calibrado? Si no, puedes excluir los intervalos de tiempo en los que se tomaron datos erróneos en 'Exclusiones de datos' en el Dashboard. Un culpable común son las carreras guardadas que en realidad son salidas en bici. Normalmente puedes identificarlas por los picos de Pace en tu gráfico 'Mis datos pasados' en el Dashboard.</p><p>2. Para ciclismo, ¿has estado usando varias bicicletas y no todas están equipadas con un medidor de potencia? Si registras una actividad sin medidor de potencia pero llevas tu monitor de frecuencia cardíaca y preferiblemente tienes un sensor de Cadence instalado, estimamos tu Power a partir de esas mediciones. Sin embargo, si hay muchas salidas en bici sin datos de frecuencia cardíaca, el modelo estaría ciego a una fracción significativa del entrenamiento real. También puede causar problemas si tienes/has tenido varios medidores de potencia/rodillos inteligentes y sus lecturas son inconsistentes entre sí.</p><p>3. Del mismo modo, si no registras todas tus carreras con un dispositivo GPS, el modelo está ciego a esas actividades que no estás registrando.</p>"
+            "content": "<p>Aquí tienes algunas posibles razones:</p><p>1. Si entra basura, sale basura: ¿son tus datos limpios, es decir, de un dispositivo GPS o medidor de potencia bien calibrado? Si no, puedes excluir los intervalos de tiempo en los que se tomaron datos erróneos en 'Exclusiones de datos' en el Dashboard. Un culpable común son las carreras guardadas que en realidad son salidas en bici. Normalmente puedes identificarlas por los picos de Ritmo en tu gráfico 'Mis datos pasados' en el Dashboard.</p><p>2. Para ciclismo, ¿has estado usando varias bicicletas y no todas están equipadas con un medidor de potencia? Si registras una actividad sin medidor de potencia pero llevas tu monitor de frecuencia cardíaca y preferiblemente tienes un sensor de Cadence instalado, estimamos tu Potencia a partir de esas mediciones. Sin embargo, si hay muchas salidas en bici sin datos de frecuencia cardíaca, el modelo estaría ciego a una fracción significativa del entrenamiento real. También puede causar problemas si tienes/has tenido varios medidores de potencia/rodillos inteligentes y sus lecturas son inconsistentes entre sí.</p><p>3. Del mismo modo, si no registras todas tus carreras con un dispositivo GPS, el modelo está ciego a esas actividades que no estás registrando.</p>"
         },
         "q14": {
             "title": "¿Puedo usar unidades imperiales?",
             "content": "Sí, en 'Account' puedes elegir entre el sistema métrico (min/km) y el imperial (min/millas)."
+        },
+        "q15": {
+            "title": "¿Cómo puedo cambiar el idioma o ayudar con las traducciones?",
+            "content": "<p>Puedes establecer tu idioma preferido en la <link>página de Cuenta</link>. Si tu idioma no está soportado, puedes ayudar a crear traducciones - crearemos el primer borrador con IA y tú puedes afinar las traducciones. Puedes contribuir o reportar problemas de traducción en nuestro <link2>repositorio GitHub i18n</link2> o enviando un correo electrónico a <link3>info@aiendurance.com</link3>.</p>"
         }
     },
     "plans": {
@@ -86,7 +90,7 @@
         },
         "q3": {
             "title": "¿Cómo se prescriben los entrenamientos?",
-            "content": "Prescribimos los entrenamientos principalmente a través de Pace/GAP o Running Power (carrera), Power (ciclismo) y Pace (natación). Para los entrenamientos de Endurance de baja intensidad en carrera y ciclismo, también prescribimos objetivos secundarios de frecuencia cardíaca si estás recopilando datos de HRV de alta calidad que nos permitan determinar tu frecuencia cardíaca del umbral aeróbico. Los objetivos primarios de Pace o Power son siempre los más importantes a seguir, mientras que la frecuencia cardíaca puede usarse como una guía secundaria, especialmente si el terreno dificulta seguir con precisión el objetivo primario."
+            "content": "Prescribimos los entrenamientos principalmente a través de Ritmo/GAP o Potencia de carrera (carrera), Potencia (ciclismo) y Ritmo (natación). Para los entrenamientos de Endurance de baja intensidad en carrera y ciclismo, también prescribimos objetivos secundarios de frecuencia cardíaca si estás recopilando datos de HRV de alta calidad que nos permitan determinar tu frecuencia cardíaca del umbral aeróbico. Los objetivos primarios de Ritmo o Potencia son siempre los más importantes a seguir, mientras que la frecuencia cardíaca puede usarse como una guía secundaria, especialmente si el terreno dificulta seguir con precisión el objetivo primario."
         },
         "q4": {
             "title": "¿Debo seguir el plan de entrenamiento si estoy lesionado o recuperándome de una lesión?",
@@ -118,7 +122,7 @@
         },
         "q11": {
             "title": "¿Cuándo se adapta el plan de entrenamiento?",
-            "content": "Si tu Readiness no es suficiente para el próximo entrenamiento, recomendamos cambios en tu calendario de entrenamientos. Si te has saltado un entrenamiento, proponemos adaptaciones que mantengan tu estado de forma en el buen camino. Si has hecho más trabajo de intervalos de lo prescrito, recomendamos trabajo de Endurance en su lugar para reequilibrar tu plan de entrenamiento. Además, si no has estado siguiendo tu plan actual, podría haber una mejor opción disponible para tu estado de forma actual. Si tu entrenamiento prescrito se desvía significativamente de tu entrenamiento real, te proponemos que solicites un nuevo plan que incluya la información actualizada sobre tu estado de forma."
+            "content": "Si tu preparación no es suficiente para el próximo entrenamiento, recomendamos cambios en tu calendario de entrenamientos. Si te has saltado un entrenamiento, proponemos adaptaciones que mantengan tu estado de forma en el buen camino. Si has hecho más trabajo de intervalos de lo prescrito, recomendamos trabajo de Endurance en su lugar para reequilibrar tu plan de entrenamiento. Además, si no has estado siguiendo tu plan actual, podría haber una mejor opción disponible para tu estado de forma actual. Si tu entrenamiento prescrito se desvía significativamente de tu entrenamiento real, te proponemos que solicites un nuevo plan que incluya la información actualizada sobre tu estado de forma."
         },
         "q12": {
             "title": "¿Por qué no hay entrenamientos de test en mi plan de entrenamiento?",
@@ -126,7 +130,7 @@
         },
         "q13": {
             "title": "¿Cómo calculáis automáticamente mis zonas de entrenamiento de carrera y ciclismo?",
-            "content": "Podemos calcular automáticamente tus zonas de carrera y ciclismo a partir de tus datos históricos. Usamos el siguiente sistema para estimar tus zonas: primero, intentamos encontrar suficientes datos del umbral de DFA a₁ para establecer tus zonas. En un segundo intento, usamos la distribución de tus datos históricos de Power/Pace para establecer tus zonas. También puedes ajustar tus zonas manualmente."
+            "content": "Podemos calcular automáticamente tus zonas de carrera y ciclismo a partir de tus datos históricos. Usamos el siguiente sistema para estimar tus zonas: primero, intentamos encontrar suficientes datos del umbral de DFA a₁ para establecer tus zonas. En un segundo intento, usamos la distribución de tus datos históricos de Potencia/Ritmo para establecer tus zonas. También puedes ajustar tus zonas manualmente."
         },
         "q14": {
             "title": "¿Cómo calculáis automáticamente mis zonas de entrenamiento de natación?",
@@ -142,7 +146,7 @@
         },
         "q17": {
             "title": "Si estoy entrenando para una maratón u otro evento de larga distancia, ¿desarrolláis la duración de mi tirada larga?",
-            "content": "<p>Sí, si sabemos que estás entrenando para una (media) maratón o un (medio) Ironman o un evento de ultra Endurance, intentaremos acomodar un aumento constante en la duración de tu tirada larga. Generalmente, intentaremos programar la tirada larga en el día con la mayor disponibilidad para correr. Si tienes un día específico que prefieres para tu tirada larga, puedes establecerlo en la página 'Plan' en 'Disponibilidad diaria'. El punto de partida de la duración de tu tirada larga depende de tu carrera más larga en las últimas 6 semanas. La duración máxima de tu tirada larga está determinada por el tiempo de finalización que AI Endurance estima para tu evento objetivo.</p><p>Si usas Running Power y estás entrenando para una (media) maratón, asegúrate de poner la palabra \"(media) maratón\" en el campo del nombre de tu evento objetivo, por ejemplo, \"Maratón de Berlín\". Esto es necesario ya que para Running Power no predecimos directamente tu tiempo de finalización, sino que optimizamos Critical Power y/o Endurance Power, por lo que no sabremos directamente que estás entrenando para un evento en particular a menos que nos lo digas.</p>"
+            "content": "<p>Sí, si sabemos que estás entrenando para una (media) maratón o un (medio) Ironman o un evento de ultra Endurance, intentaremos acomodar un aumento constante en la duración de tu tirada larga. Generalmente, intentaremos programar la tirada larga en el día con la mayor disponibilidad para correr. Si tienes un día específico que prefieres para tu tirada larga, puedes establecerlo en la página 'Plan' en 'Disponibilidad diaria'. El punto de partida de la duración de tu tirada larga depende de tu carrera más larga en las últimas 6 semanas. La duración máxima de tu tirada larga está determinada por el tiempo de finalización que AI Endurance estima para tu evento objetivo.</p><p>Si usas Potencia de carrera y estás entrenando para una (media) maratón, asegúrate de poner la palabra \"(media) maratón\" en el campo del nombre de tu evento objetivo, por ejemplo, \"Maratón de Berlín\". Esto es necesario ya que para Potencia de carrera no predecimos directamente tu tiempo de finalización, sino que optimizamos Critical Power y/o Endurance Power, por lo que no sabremos directamente que estás entrenando para un evento en particular a menos que nos lo digas.</p>"
         },
         "q18": {
             "title": "¿Por qué la opción 'Usar capa secundaria de entrenamiento para Digital Twin' está habilitada automáticamente?",
@@ -184,8 +188,8 @@
             "content": "Si falta un entrenamiento de Garmin, puedes descargar el archivo FIT original desde Garmin Connect y subirlo manualmente usando la opción de subir archivo FIT en la <link>página de Apps.</link>"
         },
         "q6": {
-            "title": "¿Cómo registro los datos de Running Power de Stryd y no los de Garmin?",
-            "content": "Si usas Stryd y un reloj Garmin que registra el Running Power nativo de Garmin, ambas grabaciones de potencia se almacenarán en el archivo FIT de tus actividades. Para desactivar el Running Power de Garmin, ve a 'Seleccionar actividad de carrera' -> 'Configuración de actividad de carrera' -> 'Desactivar grabación de datos de Running Power de Garmin'. Te recomendamos que uses de forma consistente una única fuente de potencia, ya que los diferentes fabricantes tienen algoritmos distintos para calcular el Running Power que pueden dar valores muy diferentes."
+            "title": "¿Cómo registro los datos de Potencia de carrera de Stryd y no los de Garmin?",
+            "content": "Si usas Stryd y un reloj Garmin que registra la Potencia de carrera nativa de Garmin, ambas grabaciones de potencia se almacenarán en el archivo FIT de tus actividades. Para desactivar la Potencia de carrera de Garmin, ve a 'Seleccionar actividad de carrera' -> 'Configuración de actividad de carrera' -> 'Desactivar grabación de datos de Potencia de carrera de Garmin'. Te recomendamos que uses de forma consistente una única fuente de potencia, ya que los diferentes fabricantes tienen algoritmos distintos para calcular la Potencia de carrera que pueden dar valores muy diferentes."
         },
         "q7": {
             "title": "¿Por qué no se importan los datos de mi actividad desde TrainingPeaks?",
@@ -196,11 +200,11 @@
         "title": "Frecuencia cardíaca y variabilidad de la frecuencia cardíaca",
         "q1": {
             "title": "¿Qué hay de la frecuencia cardíaca?",
-            "content": "<p>Usamos tus datos de frecuencia cardíaca para medir tu rendimiento. Por ejemplo, si pudiste correr a 5 min/km o a 200 W durante una hora con una frecuencia cardíaca significativamente más baja que la semana pasada, la IA lo percibe como una mejora en tu rendimiento. Sin embargo, generalmente la frecuencia cardíaca es un predictor de rendimiento mucho peor que el Power y el GAP.</p><p>Calculamos tus umbrales de frecuencia cardíaca aeróbico y anaeróbico a partir de tus datos de DFA alpha 1, consulta <link>esta entrada del blog.</link></p><p>Para tus actividades de ciclismo sin Power, usamos la frecuencia cardíaca y la Cadence para estimar tu Power a través de un <link>modelo de aprendizaje automático personalizado.</link></p>"
+            "content": "<p>Usamos tus datos de frecuencia cardíaca para medir tu rendimiento. Por ejemplo, si pudiste correr a 5 min/km o a 200 W durante una hora con una frecuencia cardíaca significativamente más baja que la semana pasada, la IA lo percibe como una mejora en tu rendimiento. Sin embargo, generalmente la frecuencia cardíaca es un predictor de rendimiento mucho peor que la potencia y el GAP.</p><p>Calculamos tus umbrales de frecuencia cardíaca aeróbico y anaeróbico a partir de tus datos de DFA alpha 1, consulta <link>esta entrada del blog.</link></p><p>Para tus actividades de ciclismo sin potencia, usamos la frecuencia cardíaca y la Cadence para estimar tu potencia a través de un <link>modelo de aprendizaje automático personalizado.</link></p>"
         },
         "q2": {
             "title": "¿Qué hay de la variabilidad de la frecuencia cardíaca (HRV)?",
-            "content": "<p>Hacemos un seguimiento de los datos de HRV de tu actividad si tienes conectado Suunto o Garmin Download y el registro de HRV activado en tu dispositivo Garmin. Puedes seguir fácilmente tus umbrales aeróbico y anaeróbico a partir de tus datos de HRV a través de <link>DFA alpha 1.</link> Para más información, consulta también <link>esta entrada del blog.</link></p><p>También usamos DFA alpha 1 para hacer un seguimiento de tu <link>Readiness para entrenar</link>, <link>Durability</link> y mejoras generales de tu estado de forma.</p>"
+            "content": "<p>Hacemos un seguimiento de los datos de HRV de tu actividad si tienes conectado Suunto o Garmin Download y el registro de HRV activado en tu dispositivo Garmin. Puedes seguir fácilmente tus umbrales aeróbico y anaeróbico a partir de tus datos de HRV a través de <link>DFA alpha 1.</link> Para más información, consulta también <link>esta entrada del blog.</link></p><p>También usamos DFA alpha 1 para hacer un seguimiento de tu <link>preparación para entrenar</link>, <link>Durability</link> y mejoras generales de tu estado de forma.</p>"
         },
         "q3": {
             "title": "¿Cómo puedo registrar el HRV de la actividad con dispositivos Garmin o Suunto?",
@@ -223,7 +227,7 @@
             "content": "Lamentablemente, en este momento Strava no transmite los datos de HRV de la actividad. Si quieres hacer un seguimiento de tus datos de HRV, por favor, conecta Garmin Connect o Suunto directamente a AI Endurance."
         },
         "q8": {
-            "title": "¿Cómo puedo determinar mi umbral de Power/Pace/frecuencia cardíaca de DFA alpha 1?",
+            "title": "¿Cómo puedo determinar mi umbral de Potencia/Ritmo/frecuencia cardíaca de DFA alpha 1?",
             "content": "<p>Intentamos detectar automáticamente tu umbral de DFA alpha 1 para cada actividad con datos de HRV que importas a AI Endurance. Para un test de umbral, simplemente exporta el Ramp Test de DFA alpha 1 a Zwift o a tu dispositivo Garmin desde la <link>página de Apps.</link></p>"
         },
         "q9": {
@@ -231,12 +235,12 @@
             "content": "<p>Ve a la <link>página de Account</link> y configura tus zonas de intensidad.</p><p>- Si se determinó tu techo de Endurance (aeróbico/VT1), establece el primer punto (límite Endurance - Tempo) en el valor determinado.</p><p>- Si se determinó tu techo de Threshold (anaeróbico/VT2), establece el tercer punto (límite Threshold - VO2Max) en el valor determinado.</p><p>También hacemos un seguimiento automático para ver si tus umbrales no están en sintonía con tus zonas actuales y te notificamos si es apropiado actualizarlos.</p>"
         },
         "q10": {
-            "title": "¿Por qué no se calculó automáticamente mi umbral de Power/Pace/frecuencia cardíaca de DFA alpha 1?",
-            "content": "<p>Para detectar los umbrales de DFA alpha 1 automáticamente, AI Endurance tiene que detectar una rampa de intensidad durante tu actividad, ya que este es el método respaldado por la <link>investigación actual sobre la detección de umbrales de DFA alpha 1.</link> Nuestro algoritmo debe ser capaz de identificar un marco de tiempo que cumpla los siguientes criterios para la detección automática de umbrales:</p><p>1. Aumento constante y suave de la intensidad, es decir, valores de alpha 1 monótonamente decrecientes y valores de Pace/Power monótonamente crecientes.</p><p>2. Suficientes puntos de datos a ambos lados del umbral, por ejemplo, alpha 1 < 0.5 y alpha 1 > 0.5 para la detección del umbral anaeróbico.</p><p>3. Una velocidad de rampa no demasiado alta para aumentar la intensidad. Si aumentas la intensidad demasiado rápido, hay un retraso en tu respuesta cardiovascular en relación con tu Power/Pace que llevaría a umbrales de Power/Pace sobreestimados.</p><p>También tienes la opción de descargar los datos de la actividad desde la página de la actividad como un archivo csv y realizar la detección de la rampa manualmente.</p>"
+            "title": "¿Por qué no se calculó automáticamente mi umbral de Potencia/Ritmo/frecuencia cardíaca de DFA alpha 1?",
+            "content": "<p>Para detectar los umbrales de DFA alpha 1 automáticamente, AI Endurance tiene que detectar una rampa de intensidad durante tu actividad, ya que este es el método respaldado por la <link>investigación actual sobre la detección de umbrales de DFA alpha 1.</link> Nuestro algoritmo debe ser capaz de identificar un marco de tiempo que cumpla los siguientes criterios para la detección automática de umbrales:</p><p>1. Aumento constante y suave de la intensidad, es decir, valores de alpha 1 monótonamente decrecientes y valores de Ritmo/Potencia monótonamente crecientes.</p><p>2. Suficientes puntos de datos a ambos lados del umbral, por ejemplo, alpha 1 < 0.5 y alpha 1 > 0.5 para la detección del umbral anaeróbico.</p><p>3. Una velocidad de rampa no demasiado alta para aumentar la intensidad. Si aumentas la intensidad demasiado rápido, hay un retraso en tu respuesta cardiovascular en relación con tu Potencia/Ritmo que llevaría a umbrales de Potencia/Ritmo sobreestimados.</p><p>También tienes la opción de descargar los datos de la actividad desde la página de la actividad como un archivo csv y realizar la detección de la rampa manualmente.</p>"
         },
         "q11": {
             "title": "¿Cuál es el umbral de calidad para analizar los datos de HRV?",
-            "content": "Corrupción de artefactos del 5-10 %. La corrupción de artefactos indica la calidad de tus datos de HRV. Para una mínima corrupción de artefactos, recomendamos el monitor de frecuencia cardíaca Polar H10. En la página de tu actividad, mostramos tu umbral de DFA alpha 1 para cualquier corrupción de artefactos, pero para analizar tu Readiness para entrenar solo tenemos en cuenta las actividades con menos del 10 % de corrupción. Para ser tenidas en cuenta en las predicciones de la IA, requerimos menos del 5 % de corrupción."
+            "content": "Corrupción de artefactos del 5-10 %. La corrupción de artefactos indica la calidad de tus datos de HRV. Para una mínima corrupción de artefactos, recomendamos el monitor de frecuencia cardíaca Polar H10. En la página de tu actividad, mostramos tu umbral de DFA alpha 1 para cualquier corrupción de artefactos, pero para analizar tu preparación para entrenar solo tenemos en cuenta las actividades con menos del 10 % de corrupción. Para ser tenidas en cuenta en las predicciones de la IA, requerimos menos del 5 % de corrupción."
         },
         "q12": {
             "title": "¿Cuál es un buen monitor de frecuencia cardíaca para registrar datos de HRV de alta calidad?",
@@ -255,12 +259,12 @@
             "content": "<p>Las <link>FAQ sobre DFA alpha 1 de Bruce Roger</link> son un recurso excelente para todos los temas relacionados con DFA alpha 1.</p>"
         },
         "q16": {
-            "title": "¿Por qué no se calculó mi puntuación de Readiness de DFA alpha 1 para una actividad específica?",
-            "content": "Para que se calcule una puntuación de Readiness de DFA alpha 1, la actividad debe tener menos del 10 % de corrupción de artefactos. Además, al menos 4 actividades en las últimas 3 semanas también deben tener una corrupción de artefactos por debajo del 10 % para permitir una comparación significativa."
+            "title": "¿Por qué no se calculó mi puntuación de preparación de DFA alpha 1 para una actividad específica?",
+            "content": "Para que se calcule una puntuación de preparación de DFA alpha 1, la actividad debe tener menos del 10 % de corrupción de artefactos. Además, al menos 4 actividades en las últimas 3 semanas también deben tener una corrupción de artefactos por debajo del 10 % para permitir una comparación significativa."
         },
         "q17": {
-            "title": "¿Por qué no se calcula mi puntuación de Readiness del Dashboard aunque he conectado datos de HRV en reposo y/o de DFA alpha 1?",
-            "content": "Para calcular tu puntuación de Readiness, requerimos un mínimo de 10 días de datos de FC/HRV en reposo o datos de DFA alpha 1, junto con al menos 10 días de datos de entrenamiento que incluyan puntuaciones de Stress calculadas (ESS). Esto asegura que el modelo de recuperación tenga suficientes datos para proporcionar resultados significativos."
+            "title": "¿Por qué no se calcula mi puntuación de preparación del Dashboard aunque he conectado datos de HRV en reposo y/o de DFA alpha 1?",
+            "content": "Para calcular tu puntuación de preparación, requerimos un mínimo de 10 días de datos de FC/HRV en reposo o datos de DFA alpha 1, junto con al menos 10 días de datos de entrenamiento que incluyan puntuaciones de Stress calculadas (ESS). Esto asegura que el modelo de recuperación tenga suficientes datos para proporcionar resultados significativos."
         }
     },
     "moreSupport": {

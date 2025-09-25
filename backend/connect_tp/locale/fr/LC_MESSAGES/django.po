@@ -12,13 +12,13 @@ msgid "Set your TrainingPeaks Bike Power Threshold Value to "
 msgstr "Définis ta valeur de seuil de puissance vélo TrainingPeaks à "
 
 msgid "Set your TrainingPeaks Run Power Threshold Value "
-msgstr "Définis ta valeur de seuil de puissance course TrainingPeaks "
+msgstr "Définis ta valeur de seuil de puissance de course à pied TrainingPeaks "
 
 msgid "and your Stryd CP to "
 msgstr "et ton CP Stryd à "
 
 msgid "Set your TrainingPeaks Pace Threshold Value to "
-msgstr "Définis ta valeur de seuil de rythme TrainingPeaks à "
+msgstr "Définis ta valeur de seuil de allure TrainingPeaks à"
 
 msgid "Set your TrainingPeaks Swim Speed Threshold to "
 msgstr "Définis ton seuil de vitesse de nage TrainingPeaks à "

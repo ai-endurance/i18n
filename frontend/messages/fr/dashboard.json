@@ -27,37 +27,46 @@
         "yearHistory": "Historique sur 365 jours",
         "date": "Date :",
         "duration": "Durée :",
-        "na": "N/A"
+        "na": "N/A",
+        "planCompliance": "Adhérence au plan"
     },
     "nextWorkout": {
         "noWorkoutsScheduled": "Tu n'as pas encore d'entraînements planifiés !",
         "nextWorkout": "Prochain entraînement",
         "calendar": "Calendrier",
-        "warmup": "Warmup",
+        "warmup": "Échauffement",
         "mainSet": "Corps de séance",
-        "cooldown": "Cooldown",
+        "cooldown": "Retour au calme",
         "date": "Date",
         "totalTime": "Temps total",
         "estDistance": "Distance est.",
-        "timeAtIntensity": "Temps à intensité",
-        "avgPace": "Pace moy.",
-        "avgPower": "Power moy.",
+        "timeAtIntensity": "Durée à l'intensité",
+        "avgPace": "Allure moy.",
+        "avgPower": "Puissance moy.",
         "estTime": "Temps est.",
         "distance": "Distance"
     },
     "recovery": {
-        "connectHeartRateData": "Connecte tes données de fréquence cardiaque pour voir ta Recovery",
+        "connectHeartRateData": "Connecte tes données de fréquence cardiaque pour voir ta récupération",
         "history": "Historique",
         "dataNotUpToDate": "Les données ne semblent pas à jour ?",
         "refreshData": "Actualiser les données",
-        "recoveryDataRefreshed": "Données de Recovery actualisées !",
-        "failedToRefresh": "Échec de l'actualisation des données de Recovery",
+        "recoveryDataRefreshed": "Données de récupération actualisées !",
+        "failedToRefresh": "Échec de l'actualisation des données de récupération",
         "notUsingDfa": "Tu n'utilises pas le DFA a₁ !",
         "notTrackingHrv": "Tu ne suis pas ta HRV !",
         "notTrackingRestingHr": "Tu ne suis pas ta FC au repos !",
         "notTrainingOrNoHrData": "Tu ne t'entraînes pas, ou tu n'as pas connecté de données de FC !",
         "makeMostOfAiEndurance": "Tire le meilleur parti d'AI Endurance",
-        "essOn": "ESS le {date}"
+        "essOn": "ESS le {date}",
+        "drivingAerobicRecovery": "Récupération aérobie déterminante",
+        "cardTitles": {
+            "hrRest": "FC au repos"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Récupération aérobie",
+            "muscleJointRecovery": "Récupération musculaire/articulaire"
+        }
     },
     "thisWeek": {
         "title": "L'entraînement de cette semaine",
@@ -95,7 +104,7 @@
         "distance": "Distance",
         "time": "Temps",
         "elevationGain": "Dénivelé positif",
-        "averagePower": "Power moyenne",
+        "averagePower": "Puissance moyenne",
         "noDetails": "Aucun détail"
     },
     "checkInSnackbar": {
@@ -111,20 +120,21 @@
     "languageDisclaimer": {
         "translationWarning": "Nous travaillons à améliorer la version {language} d'AI Endurance. Nous apprécions tout feedback - envoyez à ",
         "emailSubject": "Feedback sur l'application AI Endurance",
-        "emailBody": "Bonjour l'équipe AI Endurance :\n\nVoici ce qui ne va pas avec le texte de votre application {language} :"
+        "emailBody": "Bonjour l'équipe AI Endurance :\n\nVoici ce qui ne va pas avec le texte de votre application {language} :",
+        "orHelp": "ou aide à améliorer les traductions sur GitHub"
     },
     "labels": {
         "recoveryDisplay": "Tes valeurs de récupération historiques basées sur tes données de HRV au repos (RMSSD/SDNN et FC au repos) et tes données d'entraînement DFA a₁. Si ta montre Garmin collecte des données de HRV la nuit, connecte ton compte Garmin Connect et coche 'Daily Health Stats'. Garmin enverra tes données automatiquement après ton réveil. Si tu utilises la bague Oura ou un Whoop, connecte ton compte Oura ou Whoop. Si tu utilises une montre Suunto, Coros ou Polar qui enregistre la HRV nocturne, connecte ton compte Suunto, Coros ou Polar. Pour importer d'autres données de HRV au repos dans AI Endurance, connecte ton application de HRV préférée à TrainingPeaks, puis connecte TrainingPeaks à AI Endurance. Basé sur les données les plus récentes de tes applications connectées.",
         "prediction": "Les prédictions de l'IA pour tes performances futures si tu suis ton plan d'entraînement. Celles-ci incluent l'erreur de prédiction de ton modèle d'apprentissage automatique - ton Digital Twin.",
         "checkIn": "Indique-nous tes courbatures et ta motivation et nous adapterons ton plan au cas où tu ne serais pas prêt pour un entraînement. Nous utilisons ChatGPT pour évaluer ta motivation à faire de l'exercice et te donner un retour sur ta journée d'entraînement. Dis-nous comment tu te sens, comme tu le ferais avec un coach ou un ami. Par exemple : 'Le travail est vraiment stressant en ce moment' ou 'Je suis tellement fatigué' ou 'Je ne le sens vraiment pas aujourd'hui' ou 'Prêt à tout déchirer aujourd'hui !'. Nous prenons également en compte tes données de HRV au repos (RMSSD/SDNN et FC au repos) et tes données d'entraînement DFA a₁. Tu peux faire un check-in toutes les 12 heures.",
-        "recoveryAerobic": "Ton score de Aerobic Recovery. C'est la valeur la plus basse parmi ton score de Recovery DFA a₁, ton score de Recovery RMSSD/SDNN, ton score de Recovery HR rest et ton score de Recovery induit par l'ESS.",
-        "recoveryMuscleJoint": "Ton score de Muscle/Joint Recovery. Nous modélisons l'impact de chaque entraînement sur tes muscles et articulations en fonction de tes données d'entraînement historiques. En fonction du type d'entraînement, de l'intensité et de la durée, nous calculons le score de Muscle/Joint Recovery.",
-        "recoveryAlpha1": "Plus tes valeurs de DFA a₁ sont basses pour un Pace/Power donné, plus ton score de Recovery est bas. Nous comparons une moyenne mobile de tes valeurs des 7 derniers jours à une normale sur 60 jours pour évaluer ton score de Recovery DFA a₁. Si tu suis le DFA a₁ et que tu ne vois pas de résultat, c'est peut-être parce que a) tu n'as pas terminé d'activité avec le DFA a₁ aujourd'hui ou b) nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
-        "recoveryRmssd": "Plus la racine carrée de la moyenne des carrés des différences successives (RMSSD) de ta variabilité de la fréquence cardiaque (HRV) est basse, plus ton score de Recovery est bas. Nous comparons une moyenne mobile de tes valeurs des 7 derniers jours à une normale sur 60 jours pour évaluer ton score de Recovery RMSSD. Si tu suis la HRV au repos et que tu ne vois pas de résultat, c'est peut-être parce que nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
-        "recoverySdnn": "Plus l'écart-type des intervalles NN (SDNN) de ta variabilité de la fréquence cardiaque (HRV) est bas, plus ton score de Recovery est bas. Nous comparons une moyenne mobile de tes valeurs des 7 derniers jours à une normale sur 60 jours pour évaluer ton score de Recovery SDNN. Si tu suis la HRV au repos et que tu ne vois pas de résultat, c'est peut-être parce que nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
-        "recoveryHrRest": "Plus ta fréquence cardiaque au repos est élevée par rapport à ta fréquence cardiaque au repos habituelle, plus ton score de Recovery est bas. Nous comparons la valeur d'aujourd'hui à une normale sur 30 jours pour évaluer l'écart de ta fréquence cardiaque au repos par rapport à la normale. Si tu suis ta fréquence cardiaque au repos et que tu ne vois pas de résultat, c'est peut-être parce que nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
-        "recoveryEss": "Le External Stress Score (ESS) de tes activités passées a un impact direct sur ton score de Recovery global. Une accumulation plus élevée d'ESS entraîne une plus grande réduction de la Recovery. Cette réduction est calculée à l'aide de notre modèle de Recovery personnalisé, qui est adapté à tes données historiques uniques d'exercice et de Recovery. Pour générer un score de Recovery précis, nous avons besoin d'au moins 10 jours d'activités avec un ESS mesuré pour entraîner ton modèle de Recovery.",
-        "lastFourWeeks": "Tes données d'entraînement des quatre dernières semaines. Ton score de compliance est de 100 % si, au cours d'une semaine donnée, tu as effectué tous les entraînements prévus exactement comme prescrit. Si tu as effectué les entraînements mais pas exactement comme prescrit, ton score de compliance est plus bas. Cela te donne une indication de la manière dont tu suis ton plan d'entraînement. Si tu vois N/A, cela signifie que ton plan n'avait pas encore commencé ou que nous n'avons pas encore assez de données pour calculer ton score de compliance.",
+        "recoveryAerobic": "Ton score de récupération aérobie. C'est la valeur la plus basse parmi ton score de récupération DFA a₁, ton score de récupération RMSSD/SDNN, ton score de récupération FC repos et ton score de récupération induit par l'ESS.",
+        "recoveryMuscleJoint": "Ton score de récupération musculaire/articulaire. Nous modélisons l'impact de chaque entraînement sur tes muscles et articulations en fonction de tes données d'entraînement historiques. En fonction du type d'entraînement, de l'intensité et de la durée, nous calculons le score de récupération musculaire/articulaire.",
+        "recoveryAlpha1": "Plus tes valeurs de DFA a₁ sont basses pour une allure/puissance donnée, plus ton score de récupération est bas. Nous comparons une moyenne mobile de tes valeurs des 7 derniers jours à une normale sur 60 jours pour évaluer ton score de récupération DFA a₁. Si tu suis le DFA a₁ et que tu ne vois pas de résultat, c'est peut-être parce que a) tu n'as pas terminé d'activité avec le DFA a₁ aujourd'hui ou b) nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
+        "recoveryRmssd": "Plus la racine carrée de la moyenne des carrés des différences successives (RMSSD) de ta variabilité de la fréquence cardiaque (HRV) est basse, plus ton score de récupération est bas. Nous comparons une moyenne mobile de tes valeurs des 7 derniers jours à une normale sur 60 jours pour évaluer ton score de récupération RMSSD. Si tu suis la HRV au repos et que tu ne vois pas de résultat, c'est peut-être parce que nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
+        "recoverySdnn": "Plus l'écart-type des intervalles NN (SDNN) de ta variabilité de la fréquence cardiaque (HRV) est bas, plus ton score de récupération est bas. Nous comparons une moyenne mobile de tes valeurs des 7 derniers jours à une normale sur 60 jours pour évaluer ton score de récupération SDNN. Si tu suis la HRV au repos et que tu ne vois pas de résultat, c'est peut-être parce que nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
+        "recoveryHrRest": "Plus ta fréquence cardiaque au repos est élevée par rapport à ta fréquence cardiaque au repos habituelle, plus ton score de récupération est bas. Nous comparons la valeur d'aujourd'hui à une normale sur 30 jours pour évaluer l'écart de ta fréquence cardiaque au repos par rapport à la normale. Si tu suis ta fréquence cardiaque au repos et que tu ne vois pas de résultat, c'est peut-être parce que nous avons besoin d'au moins 10 jours de mesures pour établir une tendance fiable.",
+        "recoveryEss": "Le External Stress Score (ESS) de tes activités passées a un impact direct sur ton score de récupération global. Une accumulation plus élevée d'ESS entraîne une plus grande réduction de la récupération. Cette réduction est calculée à l'aide de notre modèle de récupération personnalisé, qui est adapté à tes données historiques uniques d'exercice et de récupération. Pour générer un score de récupération précis, nous avons besoin d'au moins 10 jours d'activités avec un ESS mesuré pour entraîner ton modèle de récupération.",
+        "lastFourWeeks": "Tes données d'entraînement des quatre dernières semaines. Ton score d'adhérence est de 100 % si, au cours d'une semaine donnée, tu as effectué tous les entraînements prévus exactement comme prescrit. Si tu as effectué les entraînements mais pas exactement comme prescrit, ton score d'adhérence est plus bas. Cela te donne une indication de la manière dont tu suis ton plan d'entraînement. Si tu vois N/A, cela signifie que ton plan n'avait pas encore commencé ou que nous n'avons pas encore assez de données pour calculer ton score d'adhérence.",
         "yearHistory": "Tes données d'entraînement de la dernière année. Chaque bloc représente un jour et la couleur représente la durée totale de ton entraînement pour chaque jour.",
         "learnMore": "En savoir plus."
     },

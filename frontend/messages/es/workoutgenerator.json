@@ -42,10 +42,10 @@
     "suggestions": {
         "title": "Sugerencias de Prompt:",
         "strength": {
-            "hipWithEquipment": "entrenamiento de fortalecimiento de cadera de bajo impacto (con equipo de gimnasio)",
-            "hipWithoutEquipment": "entrenamiento de fortalecimiento de cadera de bajo impacto (sin equipo de gimnasio)",
-            "triathlete": "entrenamiento de 30 min para maximizar la fuerza para triatletas",
-            "core": "entrenamiento de core para corredores"
+            "hipWithEquipment": "entrenamiento de fuerza de cadera de bajo impacto (con equipo de gimnasio)",
+            "hipWithoutEquipment": "entrenamiento de fuerza de cadera de bajo impacto (sin equipo de gimnasio)",
+            "triathlete": "entrenamiento de fuerza de 30 min para maximizar la fuerza para triatletas",
+            "core": "entrenamiento de fuerza de core para corredores"
         },
         "run": {
             "tempo": "entrenamiento de Tempo duro",
@@ -114,17 +114,17 @@
         "estDistance": "Distancia est.",
         "timeAtIntensity": "Tiempo en intensidad",
         "target": "Objetivo",
-        "avgPace": "Pace promedio"
+        "avgPace": "Ritmo promedio"
     },
     "steps": {
         "title": "Pasos:",
         "run": {
-            "between": "Corre a un Pace entre {low} y {high} por {unit} durante {duration}",
-            "noFaster": "Corre a un Pace no más rápido de {high} por {unit} durante {duration}"
+            "between": "Corre a un ritmo entre {low} y {high} por {unit} durante {duration}",
+            "noFaster": "Corre a un ritmo no más rápido de {high} por {unit} durante {duration}"
         },
         "ride": {
-            "between": "Pedalea a una Power entre {low} y {high} durante {duration}",
-            "noHigher": "Pedalea a una Power no superior a {high} durante {duration}"
+            "between": "Pedalea a una potencia entre {low} y {high} durante {duration}",
+            "noHigher": "Pedalea a una potencia no superior a {high} durante {duration}"
         },
         "units": {
             "imperial": "milla",

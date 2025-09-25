@@ -8,24 +8,24 @@
         "description": "Optimise ta nutrition avec notre tableau de bord nutritionnel."
     },
     "nutritionCard": {
-        "title": "Ton Modèle Nutritionnel"
+        "title": "Ton modèle nutritionnel"
     },
     "weeklyNutritionTotals": {
-        "title": "Apport Quotidien Moyen",
+        "title": "Apport quotidien moyen",
         "calories": "Calories",
         "protein": "Protéines",
         "carbs": "Glucides",
         "fat": "Lipides"
     },
     "mealPlanCard": {
-        "title": "Ton Plan de Repas"
+        "title": "Tes repas"
     },
     "mealPlanForm": {
         "dietaryPreferences": "Préférences alimentaires",
         "dateForMealPlan": "Date pour le plan de repas",
         "placeholder": "sans gluten, végétalien, etc.",
-        "requestMealPlan": "Demander un Plan de Repas",
-        "dismissCurrentMealPlan": "Rejeter le Plan de Repas Actuel"
+        "requestMealPlan": "Demander un plan de repas",
+        "dismissCurrentMealPlan": "Rejeter le plan de repas actuel"
     },
     "mealPlanDisplay": {
         "noMealPlanAvailable": "Aucun plan de repas disponible. Crées-en un maintenant !",

@@ -42,10 +42,10 @@
     "suggestions": {
         "title": "Sugestões de Prompt:",
         "strength": {
-            "hipWithEquipment": "treino de fortalecimento de quadril de baixo impacto (com equipamentos de academia)",
-            "hipWithoutEquipment": "treino de fortalecimento de quadril de baixo impacto (sem equipamentos de academia)",
-            "triathlete": "treino de 30 min para maximizar a força para triatletas",
-            "core": "treino de core para corredores"
+            "hipWithEquipment": "treino de força de quadril de baixo impacto (com equipamentos de academia)",
+            "hipWithoutEquipment": "treino de força de quadril de baixo impacto (sem equipamentos de academia)",
+            "triathlete": "treino de força de 30 min para maximizar a força para triatletas",
+            "core": "treino de força de core para corredores"
         },
         "run": {
             "tempo": "treino de Tempo forte",
@@ -114,17 +114,17 @@
         "estDistance": "Dist. Estimada",
         "timeAtIntensity": "Tempo na Intensidade",
         "target": "Alvo",
-        "avgPace": "Pace médio"
+        "avgPace": "Ritmo médio"
     },
     "steps": {
         "title": "Etapas:",
         "run": {
-            "between": "Corra em um pace entre {low} e {high} por {unit} por {duration}",
-            "noFaster": "Corra em um pace não mais rápido que {high} por {unit} por {duration}"
+            "between": "Corra em um ritmo entre {low} e {high} por {unit} por {duration}",
+            "noFaster": "Corra em um ritmo não mais rápido que {high} por {unit} por {duration}"
         },
         "ride": {
-            "between": "Pedale com uma power entre {low} e {high} por {duration}",
-            "noHigher": "Pedale com uma power não superior a {high} por {duration}"
+            "between": "Pedale com uma potência entre {low} e {high} por {duration}",
+            "noHigher": "Pedale com uma potência não superior a {high} por {duration}"
         },
         "units": {
             "imperial": "milha",

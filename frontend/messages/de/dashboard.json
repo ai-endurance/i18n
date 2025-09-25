@@ -27,7 +27,8 @@
         "yearHistory": "365-Tage-Verlauf",
         "date": "Datum:",
         "duration": "Dauer:",
-        "na": "N/A"
+        "na": "N/A",
+        "planCompliance": "Plan Compliance"
     },
     "nextWorkout": {
         "noWorkoutsScheduled": "Du hast noch keine Workouts geplant!",
@@ -57,7 +58,15 @@
         "notTrackingRestingHr": "Du trackst deine Ruhe-HF nicht!",
         "notTrainingOrNoHrData": "Du trainierst nicht oder hast keine HF-Daten verbunden!",
         "makeMostOfAiEndurance": "Hol das Beste aus AI Endurance heraus",
-        "essOn": "ESS am {date}"
+        "essOn": "ESS am {date}",
+        "drivingAerobicRecovery": "Bestimmende Aerobic Recovery",
+        "cardTitles": {
+            "hrRest": "HR Rest"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Aerobic Recovery",
+            "muscleJointRecovery": "Muscle/Joint Recovery"
+        }
     },
     "thisWeek": {
         "title": "Das Training dieser Woche",
@@ -111,7 +120,8 @@
     "languageDisclaimer": {
         "translationWarning": "Wir arbeiten daran, die {language}-Version von AI Endurance zu verbessern. Wir freuen uns über Feedback - bitte senden an ",
         "emailSubject": "Feedback zur AI Endurance App",
-        "emailBody": "Hallo AI Endurance Team:\n\nHier ist, was mit Ihrem {language} App-Text nicht stimmt:"
+        "emailBody": "Hallo AI Endurance Team:\n\nHier ist, was mit Ihrem {language} App-Text nicht stimmt:",
+        "orHelp": "oder hilf mit, die Übersetzungen auf GitHub zu verbessern"
     },
     "labels": {
         "recoveryDisplay": "Deine historischen Recovery-Werte, basierend auf deinen HRV-Ruhedaten (RMSSD/SDNN und HR Rest) und DFA a₁-Trainingsdaten. Wenn deine Garmin-Uhr nachts HRV-Daten sammelt, verbinde dein Garmin Connect-Konto und aktiviere 'Tägliche Gesundheitsstatistiken'. Garmin sendet deine Daten automatisch, nachdem du aufgewacht bist. Wenn du den Oura-Ring oder Whoop verwendest, verbinde dein Oura- oder Whoop-Konto. Wenn du eine Suunto-, Coros- oder Polar-Uhr verwendest, die über Nacht die HRV aufzeichnet, verbinde dein Suunto-, Coros- oder Polar-Konto. Um andere HRV-Ruhedaten in AI Endurance zu importieren, verbinde deine bevorzugte HRV-App mit TrainingPeaks und verbinde TrainingPeaks mit AI Endurance. Basierend auf den neuesten Daten deiner verbundenen Apps.",

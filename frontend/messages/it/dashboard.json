@@ -50,21 +50,22 @@
         "yearHistory": "Storico 365 giorni",
         "date": "Data:",
         "duration": "Durata:",
-        "na": "N/A"
+        "na": "N/A",
+        "planCompliance": "Aderenza al piano"
     },
     "nextWorkout": {
         "noWorkoutsScheduled": "Non hai ancora nessun allenamento in programma!",
         "nextWorkout": "Prossimo allenamento",
         "calendar": "Calendario",
-        "warmup": "Warmup",
+        "warmup": "Riscaldamento",
         "mainSet": "Fase centrale",
-        "cooldown": "Cooldown",
+        "cooldown": "Defaticamento",
         "date": "Data",
         "totalTime": "Tempo totale",
         "estDistance": "Distanza stimata",
         "timeAtIntensity": "Tempo in intensità",
-        "avgPace": "Pace medio",
-        "avgPower": "Power medio",
+        "avgPace": "Passo medio",
+        "avgPower": "Potenza media",
         "estTime": "Tempo stimato",
         "distance": "Distanza"
     },
@@ -80,7 +81,15 @@
         "notTrackingRestingHr": "Non stai monitorando la tua FC a riposo!",
         "notTrainingOrNoHrData": "Non ti stai allenando o non hai collegato i dati della FC!",
         "makeMostOfAiEndurance": "Sfrutta al massimo AI Endurance",
-        "essOn": "ESS il {date}"
+        "essOn": "ESS il {date}",
+        "drivingAerobicRecovery": "Recupero aerobico determinante",
+        "cardTitles": {
+            "hrRest": "FC a riposo"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Recupero aerobico",
+            "muscleJointRecovery": "Recupero muscolare/articolare"
+        }
     },
     "thisWeek": {
         "title": "L'allenamento di questa settimana",
@@ -118,7 +127,7 @@
         "distance": "Distanza",
         "time": "Tempo",
         "elevationGain": "Dislivello positivo",
-        "averagePower": "Power medio",
+        "averagePower": "Potenza media",
         "noDetails": "Nessun dettaglio"
     },
     "checkInSnackbar": {
@@ -134,20 +143,21 @@
     "languageDisclaimer": {
         "translationWarning": "Stiamo lavorando per migliorare la versione in {language} di AI Endurance. Apprezziamo qualsiasi feedback - invialo a ",
         "emailSubject": "Feedback sull'app AI Endurance",
-        "emailBody": "Ciao Team di AI Endurance:\n\nEcco cosa non va nel testo della vostra app in {language}:"
+        "emailBody": "Ciao Team di AI Endurance:\n\nEcco cosa non va nel testo della vostra app in {language}:",
+        "orHelp": "o aiuta a migliorare le traduzioni su GitHub"
     },
     "labels": {
         "recoveryDisplay": "I valori storici del tuo recupero basati sui dati HRV a riposo (RMSSD/SDNN e FC a riposo) e sui dati di allenamento DFA a₁. Se il tuo orologio Garmin raccoglie dati HRV durante la notte, collega il tuo account Garmin Connect e seleziona 'Statistiche di salute giornaliere'. Garmin invierà i tuoi dati automaticamente dopo il risveglio. Se usi l'anello Oura o Whoop, collega il tuo account Oura o Whoop. Se usi un orologio Suunto, Coros o Polar che registra l'HRV notturno, collega il tuo account Suunto, Coros o Polar. Per importare altri dati HRV a riposo in AI Endurance, collega la tua app HRV preferita a TrainingPeaks e collega TrainingPeaks ad AI Endurance. Basato sui dati più recenti delle tue app collegate.",
         "prediction": "Le previsioni dell'IA per le tue prestazioni future se segui il tuo piano di allenamento. Queste includono l'errore di previsione per il tuo modello di machine learning - il tuo Digital Twin.",
         "checkIn": "Dicci il tuo livello di indolenzimento e motivazione e adatteremo il tuo piano nel caso in cui tu non sia pronto per un allenamento. Usiamo ChatGPT per valutare la tua motivazione ad allenarti e darti un feedback sulla tua giornata di allenamento. Dicci come ti senti, proprio come lo diresti a un coach o a un amico. Ad esempio: 'Il lavoro è molto stressante in questo momento' o 'Sono così stanco' o 'Oggi non me la sento proprio' o 'Pronto a spaccare tutto oggi!'. Teniamo anche conto dei tuoi dati HRV a riposo (RMSSD/SDNN e FC a riposo) e dei dati di allenamento DFA a₁. Puoi fare il check-in ogni 12 ore.",
-        "recoveryAerobic": "Il tuo punteggio di recupero aerobico. Questo è il valore più basso tra il tuo punteggio di recupero DFA a₁, il punteggio di recupero RMSSD/SDNN, il punteggio di recupero HR rest e il punteggio di recupero indotto da ESS.",
+        "recoveryAerobic": "Il tuo punteggio di recupero aerobico. Questo è il valore più basso tra il tuo punteggio di recupero DFA a₁, il punteggio di recupero RMSSD/SDNN, il punteggio di recupero FC a riposo e il punteggio di recupero indotto da ESS.",
         "recoveryMuscleJoint": "Il tuo punteggio di recupero muscolare e articolare. Modelliamo l'impatto di ogni allenamento sui tuoi muscoli e articolazioni basandoci sui tuoi dati di allenamento storici. A seconda del tipo di allenamento, dell'intensità e della durata, calcoliamo il punteggio di recupero muscolare e articolare.",
-        "recoveryAlpha1": "Più bassi sono i tuoi valori di DFA a₁ per un dato pace/power, più basso sarà il tuo punteggio di recupero. Confrontiamo una media mobile dei valori degli ultimi 7 giorni con una norma di 60 giorni per valutare il tuo punteggio di recupero DFA a₁. Se stai monitorando il DFA a₁ e non vedi un risultato, potrebbe essere perché a) non hai completato un'attività con DFA a₁ oggi o b) abbiamo bisogno di almeno 10 giorni di misurazioni per stabilire una tendenza affidabile.",
+        "recoveryAlpha1": "Più bassi sono i tuoi valori di DFA a₁ per un dato passo/potenza, più basso sarà il tuo punteggio di recupero. Confrontiamo una media mobile dei valori degli ultimi 7 giorni con una norma di 60 giorni per valutare il tuo punteggio di recupero DFA a₁. Se stai monitorando il DFA a₁ e non vedi un risultato, potrebbe essere perché a) non hai completato un'attività con DFA a₁ oggi o b) abbiamo bisogno di almeno 10 giorni di misurazioni per stabilire una tendenza affidabile.",
         "recoveryRmssd": "Più basso è il tuo valore di radice quadrata della media delle differenze successive al quadrato (RMSSD) della tua variabilità della frequenza cardiaca (HRV), più basso sarà il tuo punteggio di recupero. Confrontiamo una media mobile dei valori degli ultimi 7 giorni con una norma di 60 giorni per valutare il tuo punteggio di recupero RMSSD. Se stai monitorando l'HRV a riposo e non vedi un risultato, potrebbe essere perché abbiamo bisogno di almeno 10 giorni di misurazioni per stabilire una tendenza affidabile.",
         "recoverySdnn": "Più bassa è la tua deviazione standard degli intervalli NN (SDNN) della tua variabilità della frequenza cardiaca (HRV), più basso sarà il tuo punteggio di recupero. Confrontiamo una media mobile dei valori degli ultimi 7 giorni con una norma di 60 giorni per valutare il tuo punteggio di recupero SDNN. Se stai monitorando l'HRV a riposo e non vedi un risultato, potrebbe essere perché abbiamo bisogno di almeno 10 giorni di misurazioni per stabilire una tendenza affidabile.",
         "recoveryHrRest": "Più alta è la tua frequenza cardiaca a riposo rispetto alla tua solita frequenza cardiaca a riposo, più basso sarà il tuo punteggio di recupero. Confrontiamo il valore di oggi con una norma di 30 giorni per valutare la deviazione della tua frequenza cardiaca a riposo dal solito. Se stai monitorando la frequenza cardiaca a riposo e non vedi un risultato, potrebbe essere perché abbiamo bisogno di almeno 10 giorni di misurazioni per stabilire una tendenza affidabile.",
         "recoveryEss": "L'External Stress Score (ESS) delle tue attività passate influisce direttamente sul tuo punteggio di recupero complessivo. Un accumulo maggiore di ESS comporta una maggiore riduzione del recupero. Questa riduzione è calcolata utilizzando il nostro modello di recupero personalizzato, che è adattato ai tuoi dati storici unici di esercizio e recupero. Per generare un punteggio di recupero accurato, abbiamo bisogno di almeno 10 giorni di attività con ESS misurato per addestrare il tuo modello di recupero.",
-        "lastFourWeeks": "I dati di allenamento delle tue ultime quattro settimane. Il tuo punteggio di compliance è del 100% se in una data settimana hai completato tutti gli allenamenti pianificati esattamente come prescritto. Se hai completato gli allenamenti ma non esattamente come prescritto, il tuo punteggio di compliance è più basso. Questo ti dà un'indicazione di quanto bene stai seguendo il tuo piano di allenamento. Se vedi N/A, significa che il tuo piano non era ancora iniziato o non abbiamo ancora dati sufficienti per calcolare il tuo punteggio di compliance.",
+        "lastFourWeeks": "I dati di allenamento delle tue ultime quattro settimane. Il tuo punteggio di aderenza è del 100% se in una data settimana hai completato tutti gli allenamenti pianificati esattamente come prescritto. Se hai completato gli allenamenti ma non esattamente come prescritto, il tuo punteggio di aderenza è più basso. Questo ti dà un'indicazione di quanto bene stai seguendo il tuo piano di allenamento. Se vedi N/A, significa che il tuo piano non era ancora iniziato o non abbiamo ancora dati sufficienti per calcolare il tuo punteggio di aderenza.",
         "yearHistory": "I dati di allenamento del tuo ultimo anno. Ogni blocco rappresenta un giorno e il colore rappresenta la durata totale del tuo allenamento in quel giorno.",
         "learnMore": "Scopri di più."
     }

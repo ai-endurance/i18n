@@ -26,7 +26,7 @@ msgstr "Qual è il tuo sentimento?"
 
 #: mysite/checkin/get_feedback.py:89
 msgid "What is your %(r_name)s recovery status?"
-msgstr "Qual è il tuo stato di Recovery %(r_name)s?"
+msgstr "Qual è il tuo stato di recupero %(r_name)s?"
 
 #: mysite/checkin/get_feedback.py:95
 msgid "It's %(percentage)s%%."
@@ -42,15 +42,15 @@ msgstr "Sì, di più di un grado."
 
 #: mysite/checkin/get_feedback.py:119
 msgid "Please summarize each of my recovery statuses and highlight the importance of the smallest value in deciding my activities for today."
-msgstr "Per favore riassumi ognuno dei miei stati di Recovery ed evidenzia l'importanza del valore più piccolo nel decidere le mie attività per oggi."
+msgstr "Per favore riassumi ognuno dei miei stati di recupero ed evidenzia l'importanza del valore più piccolo nel decidere le mie attività per oggi."
 
 #: mysite/checkin/get_feedback.py:123
 msgid "Also, summarize my sentiment and explain how it may affect my readiness."
-msgstr "Inoltre, riassumi il mio sentimento e spiega come potrebbe influenzare il mio Readiness."
+msgstr "Inoltre, riassumi il mio sentimento e spiega come potrebbe influenzare la mia prontezza."
 
 #: mysite/checkin/get_feedback.py:132
 msgid "Please summarize my sentiment and explain how it may affect my readiness."
-msgstr "Per favore riassumi il mio sentimento e spiega come potrebbe influenzare il mio Readiness."
+msgstr "Per favore riassumi il mio sentimento e spiega come potrebbe influenzare la mia prontezza."
 
 #: mysite/checkin/get_feedback.py:155
 msgid "Today's workout is %(workout)s."

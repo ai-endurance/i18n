@@ -68,7 +68,7 @@
     },
     "advanced": {
         "title": "Avanzado",
-        "maintenanceMode": "Maintenance Mode"
+        "maintenanceMode": "Modo de mantenimiento"
     },
     "planFindingControls": {
         "preferEnduranceWorkouts": "Preferir entrenamientos de Endurance",
@@ -99,17 +99,17 @@
     },
     "labels": {
         "goalSelect": {
-            "cyclist": "Optimiza tu FTP (Functional Threshold Power), Critical Cycling Power o tu Ultra Endurance Power - tu Power en DFA a₁ = 0.75, tu threshold aeróbico de HRV. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
-            "runnerWithPower": "Optimiza tu Critical Running Power o tu Ultra Endurance Power - tu Power en DFA a₁ = 0.75, tu threshold aeróbico de HRV. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
-            "runnerWithoutPower": "Elige desde 5k hasta la distancia de Maratón. O optimiza tu Ultra Endurance Pace - tu Pace en DFA a₁ = 0.75, tu threshold aeróbico de HRV. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
-            "triathlete": "Elige desde la distancia Sprint hasta la distancia Ironman completa. Para la distancia Sprint y Olímpica, optimizamos tu Critical Cycling Power y tu {runTextSprintOlympic}. Para Media distancia y Ironman, optimizamos tu Power de ciclismo aeróbico y tu {runTextHalfIronman}. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
+            "cyclist": "Optimiza tu FTP (Functional Threshold Power), Critical Cycling Power o tu Ultra Endurance Power - tu potencia en DFA a₁ = 0.75, tu threshold aeróbico de HRV. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
+            "runnerWithPower": "Optimiza tu Critical Running Power o tu Ultra Endurance Power - tu potencia en DFA a₁ = 0.75, tu threshold aeróbico de HRV. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
+            "runnerWithoutPower": "Elige desde 5k hasta la distancia de Maratón. O optimiza tu Ultra Endurance Pace - tu ritmo en DFA a₁ = 0.75, tu threshold aeróbico de HRV. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
+            "triathlete": "Elige desde la distancia Sprint hasta la distancia Ironman completa. Para la distancia Sprint y Olímpica, optimizamos tu Critical Cycling Power y tu {runTextSprintOlympic}. Para Media distancia y Ironman, optimizamos tu potencia de ciclismo aeróbico y tu {runTextHalfIronman}. También puedes personalizar tu propio evento objetivo y configurar pesos personalizados para cada objetivo para priorizar una disciplina sobre las otras. Un peso de 1 significa que la disciplina tiene la máxima prioridad, mientras que un peso de 0 significa que no se prioriza en absoluto.",
             "runTextSprintOlympic": "Critical Running Power",
-            "runTextSprintOlympicNoPower": "Pace de 5k o 10k",
-            "runTextHalfIronman": "Running Power aeróbico",
-            "runTextHalfIronmanNoPower": "Pace de Media Maratón o Maratón"
+            "runTextSprintOlympicNoPower": "Ritmo de 5k o 10k",
+            "runTextHalfIronman": "Potencia de carrera aeróbica",
+            "runTextHalfIronmanNoPower": "Ritmo de Media Maratón o Maratón"
         },
         "secondaryEvent": {
-            "paragraph1": "Añade eventos B y C para complementar tu evento principal. Para los eventos B, la IA optimiza tu entrenamiento con un énfasis moderado, proporcionando un breve taper antes y días de recovery después del evento. Los eventos C reemplazan el entrenamiento programado el día del evento, sin entrenamientos planificados el día anterior o posterior.",
+            "paragraph1": "Añade eventos B y C para complementar tu evento principal. Para los eventos B, la IA optimiza tu entrenamiento con un énfasis moderado, proporcionando un breve taper antes y días de recuperación después del evento. Los eventos C reemplazan el entrenamiento programado el día del evento, sin entrenamientos planificados el día anterior o posterior.",
             "paragraph2": "Para eventos de Custom Configuration, puedes priorizar cada disciplina en tu plan de entrenamiento asignando pesos entre 0 (baja prioridad) y 1 (alta prioridad).",
             "paragraph3": "Los eventos C se añaden directamente a tu calendario, mientras que los eventos A y B requieren que hagas clic en &apos;Solicitar Plan&apos; para recalcular y optimizar tu programa de entrenamiento para estos eventos.",
             "paragraph4": "Si añades un evento C y no solicitas un nuevo plan, es posible que tengas que eliminar algunos entrenamientos en la fecha del evento C o en fechas cercanas."

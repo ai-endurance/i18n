@@ -20,20 +20,20 @@
             "outlinedButton": "Quão Personalizado?"
         },
         "recovery": {
-            "title": "Recovery e Readiness para treinar",
-            "text": "Antes de cada treino, você deve saber se está realmente pronto para ele. Todos respondem de forma diferente ao stress, sono ruim e fadiga do exercício - nosso novo modelo de recovery toma decisões baseadas em dados sobre quando você deve ou não treinar. Usamos uma combinação do seu feedback do treino, feedback sobre dores em grupos musculares importantes, HRV e frequência cardíaca em repouso para fornecer uma pontuação de recovery simples e fácil de entender, e oferecer modificações no plano de treino, se necessário.",
+            "title": "Recuperação e Prontidão para treinar",
+            "text": "Antes de cada treino, você deve saber se está realmente pronto para ele. Todos respondem de forma diferente ao stress, sono ruim e fadiga do exercício - nosso novo modelo de recuperação toma decisões baseadas em dados sobre quando você deve ou não treinar. Usamos uma combinação do seu feedback do treino, feedback sobre dores em grupos musculares importantes, HRV e frequência cardíaca em repouso para fornecer uma pontuação de recuperação simples e fácil de entender, e oferecer modificações no plano de treino, se necessário.",
             "ctaButton": "Comece Agora!",
-            "outlinedButton": "Como o Recovery Funciona?"
+            "outlinedButton": "Como a Recuperação Funciona?"
         },
         "adaptation": {
             "title": "Adapte seu plano à sua vida",
-            "text": "Longos dias de trabalho, imprevistos, viagens e doenças podem atrapalhar um treino sério. Como se manter no caminho certo quando a vida interfere? Nossa IA adapta seu plano de treino em tempo real, sugerindo modificações nos treinos em caso de recovery abaixo do ideal ou sessões perdidas, garantindo que você permaneça focado em seu objetivo. Entendemos que nenhum plano se desenrola perfeitamente e nos esforçamos para te encontrar onde você está, acomodando a natureza imprevisível da vida cotidiana.",
+            "text": "Longos dias de trabalho, imprevistos, viagens e doenças podem atrapalhar um treino sério. Como se manter no caminho certo quando a vida interfere? Nossa IA adapta seu plano de treino em tempo real, sugerindo modificações nos treinos em caso de recuperação abaixo do ideal ou sessões perdidas, garantindo que você permaneça focado em seu objetivo. Entendemos que nenhum plano se desenrola perfeitamente e nos esforçamos para te encontrar onde você está, acomodando a natureza imprevisível da vida cotidiana.",
             "ctaButton": "Comece Agora!",
             "outlinedButton": "Como Ele se Adapta?"
         },
         "runningPower": {
-            "title": "Running Power",
-            "text": "Já usa running power e está procurando um plano de treino personalizado para otimizar seu critical running power? Nós temos a solução! Prevemos seus ganhos em seu critical running power se você seguir nosso plano de treino adaptativo de IA. Quer arrasar na sua próxima ultra? Somos o único aplicativo que otimiza diretamente seu ultra endurance power, a potência no seu limiar aeróbico. Usamos a mais nova tecnologia de variabilidade da frequência cardíaca - DFA alpha 1 - para medir seu limiar aeróbico. Basta exportar seu plano de running power para o TrainingPeaks ou Suunto Guides e executar seus treinos diretamente do seu relógio.",
+            "title": "Potência de corrida",
+            "text": "Já usa potência de corrida e está procurando um plano de treino personalizado para otimizar seu critical running power? Nós temos a solução! Prevemos seus ganhos em seu critical running power se você seguir nosso plano de treino adaptativo de IA. Quer arrasar na sua próxima ultra? Somos o único aplicativo que otimiza diretamente seu ultra endurance power, a potência no seu limiar aeróbico. Usamos a mais nova tecnologia de variabilidade da frequência cardíaca - DFA alpha 1 - para medir seu limiar aeróbico. Basta exportar seu plano de potência de corrida para o TrainingPeaks ou Suunto Guides e executar seus treinos diretamente do seu relógio.",
             "ctaButton": "Comece Agora!",
             "outlinedButton": "O que é DFA alpha 1?"
         },
@@ -45,7 +45,7 @@
         },
         "integrations": {
             "title": "Integrações",
-            "text": "Nós nos integramos com muitas plataformas de treino populares. Podemos importar seus dados de treino e recovery do Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop e Stryd, e exportar seus treinos para Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift, ou nossa própria plataforma no AI Endurance. Dessa forma, você pode utilizar o AI Endurance da maneira que funciona melhor para você! Se a biblioteca de treinos do Zwift está ficando chata, ou se você é viciado na análise de dados do Intervals.icu, nós podemos ajudar!",
+            "text": "Nós nos integramos com muitas plataformas de treino populares. Podemos importar seus dados de treino e recuperação do Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop e Stryd, e exportar seus treinos para Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift, ou nossa própria plataforma no AI Endurance. Dessa forma, você pode utilizar o AI Endurance da maneira que funciona melhor para você! Se a biblioteca de treinos do Zwift está ficando chata, ou se você é viciado na análise de dados do Intervals.icu, nós podemos ajudar!",
             "ctaButton": "Comece Agora!"
         }
     },
@@ -62,18 +62,18 @@
             },
             "predictions": {
                 "title": "Previsões Precisas",
-                "text": "Nossos modelos de IA preveem e otimizam seu desempenho analisando cada segundo do seu histórico de treinos, cobrindo tudo, desde o pace de 5k e FTP até Ironman e endurance power."
+                "text": "Nossos modelos de IA preveem e otimizam seu desempenho analisando cada segundo do seu histórico de treinos, cobrindo tudo, desde o ritmo de 5k e FTP até Ironman e endurance power."
             },
             "hrv": {
                 "title": "Heart Rate Variability",
-                "text": "Somos pioneiros em uma nova e empolgante ciência em torno da HRV, e adotamos o DFA alpha 1 como uma métrica de treino valiosa para detecção de threshold, readiness para treinar e durability."
+                "text": "Somos pioneiros em uma nova e empolgante ciência em torno da HRV, e adotamos o DFA alpha 1 como uma métrica de treino valiosa para detecção de threshold, prontidão para treinar e durability."
             }
         }
     },
     "threeCards": {
         "optimize": {
             "title": "Otimize seu plano de treino",
-            "text": "Existem muitas maneiras de treinar: intervalos curtos/longos, treinos fortes/leves, recovery longo/curto. Como saber o que é certo para você? Nossa IA encontra o plano que possibilita seu melhor desempenho no tempo que você tem para treinar. Cada treino que você faz é uma mina de ouro de dados; nossa IA os utiliza para prever seu desempenho futuro e criar um plano de treino que diminui a diferença entre seu desempenho atual e o de sua prova ideal.",
+            "text": "Existem muitas maneiras de treinar: intervalos curtos/longos, treinos fortes/leves, recuperação longa/curta. Como saber o que é certo para você? Nossa IA encontra o plano que possibilita seu melhor desempenho no tempo que você tem para treinar. Cada treino que você faz é uma mina de ouro de dados; nossa IA os utiliza para prever seu desempenho futuro e criar um plano de treino que diminui a diferença entre seu desempenho atual e o de sua prova ideal.",
             "button": "Como Otimizamos"
         },
         "simplify": {

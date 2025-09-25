@@ -9,16 +9,16 @@
     "language": "Lingua",
     "updateStravaDescription": "Aggiorna descrizione Strava",
     "useDataForResearch": "Usa i dati per la ricerca",
-    "useRunningPower": "Usa Running Power",
+    "useRunningPower": "Usa Potenza di corsa",
     "useHrvDerivedThresholds": "Usa soglie derivate da HRV",
     "controlGarminWorkoutsWithLapButton": "Controlla gli allenamenti Garmin con il pulsante Lap",
     "controlIntervalsicuWorkoutsWithLapButton": "Controlla gli allenamenti di Intervals.icu con il pulsante Lap",
-    "estimatePowerFromHr": "Stima Power da FC",
+    "estimatePowerFromHr": "Stima potenza da FC",
     "useSecondaryLayerOfTrainingForDigitalTwin": "Usa livello di allenamento secondario per il Digital Twin",
     "useSdnnInsteadOfRmssdHrv": "Usa SDNN invece di RMSSD HRV",
     "manuallySetZones": "Imposta Zone Manualmente",
     "cyclingZones": "Zone Ciclismo (W)",
-    "runningPowerZones": "Zone Running Power (W)",
+    "runningPowerZones": "Zone Potenza di corsa (W)",
     "runningZones": "Zone Corsa (min{unit})",
     "enduranceCeiling": "Soglia Endurance",
     "tempoCeiling": "Soglia Tempo",
@@ -26,6 +26,8 @@
     "vo2maxCeiling": "Soglia VO2Max",
     "detectedAerobicThresholdForCycling": "Soglia aerobica rilevata per il ciclismo:",
     "detectedAerobicThresholdForRunning": "Soglia aerobica rilevata per la corsa:",
+    "ftpSettingForZwift": "Impostazione FTP per Zwift",
+    "ftpSettingForZwiftAndTrainingPeaks": "Impostazione FTP per Zwift e TrainingPeaks",
     "changeUserType": "Cambia Tipo di Utente",
     "runner": "Corridore",
     "cyclist": "Ciclista",
@@ -34,7 +36,7 @@
     "accountUpdated": "Account aggiornato!",
     "accountUpdateFailed": "Aggiornamento account fallito",
     "pleaseWaitForPlanSearch": "Attendi il completamento della ricerca del piano attuale per salvare le modifiche.",
-    "confirmRunningPowerChange": "Sei sicuro di voler cambiare l'impostazione del Running Power? Questo eliminerà il tuo piano di allenamento attuale e ne creerà uno nuovo basato sulla nuova impostazione del Running Power. Potrai modificare il piano una volta aggiornata l'impostazione. Poiché potremmo dover addestrare un nuovo modello di IA, l'operazione potrebbe richiedere alcuni minuti. Ricarica questa pagina qualche minuto dopo aver salvato le modifiche.",
+    "confirmRunningPowerChange": "Sei sicuro di voler cambiare l'impostazione della Potenza di corsa? Questo eliminerà il tuo piano di allenamento attuale e ne creerà uno nuovo basato sulla nuova impostazione della Potenza di corsa. Potrai modificare il piano una volta aggiornata l'impostazione. Poiché potremmo dover addestrare un nuovo modello di IA, l'operazione potrebbe richiedere alcuni minuti. Ricarica questa pagina qualche minuto dopo aver salvato le modifiche.",
     "confirmUserTypeChange": "Sei sicuro di voler cambiare il tuo tipo di utente? Questo eliminerà il tuo piano di allenamento attuale e creerà un piano di allenamento predefinito di 6 settimane per il tuo nuovo tipo di utente. Potrai modificare il piano una volta completato il cambio. Poiché dobbiamo addestrare un nuovo modello di IA, l'operazione potrebbe richiedere alcuni minuti. Ricarica questa pagina qualche minuto dopo aver salvato le modifiche.",
     "resetCheckIn": "Resetta Check In",
     "reset": "Resetta",
@@ -51,7 +53,7 @@
     "notSubscribedToAnyPlan": "Non sei iscritto a nessun piano",
     "onTheYearlyPlan": "Hai un piano annuale",
     "onTheMonthlyPlan": "Hai un piano mensile",
-    "downloadRecoveryHistory": "Scarica Cronologia Recovery",
+    "downloadRecoveryHistory": "Scarica Cronologia Recupero",
     "download": "Scarica",
     "dangerZone": "ZONA PERICOLO",
     "deleteAccount": "Elimina Account",
@@ -102,7 +104,7 @@
             "paragraph1": "Possiamo calcolare automaticamente le tue zone dai tuoi dati storici. Usiamo il seguente sistema per stimare le tue zone: Primo, cerchiamo performance recenti in test e livelli di performance che hai impostato manualmente negli ultimi 14 giorni.",
             "paragraph2": "Secondo, se stai usando soglie derivate da HRV, cerchiamo di trovare dati di soglia DFA a₁ sufficienti per impostare le tue zone. Proviamo con i dati degli ultimi 30 giorni e, se non ci sono dati sufficienti, usiamo i dati degli ultimi 90 giorni.",
             "paragraph3": "Terzo, usiamo le misurazioni di Critical Power delle ultime 4 settimane per impostare le tue zone.",
-            "paragraph4": "Quarto, usiamo la distribuzione dei tuoi dati storici di power/pace degli ultimi mesi per impostare le tue zone.",
+            "paragraph4": "Quarto, usiamo la distribuzione dei tuoi dati storici di potenza/passo degli ultimi mesi per impostare le tue zone.",
             "paragraph5": "In una fase finale, eseguiamo vari controlli di coerenza rispetto alle tue performance recenti per garantire che le zone siano accurate. Ciò include l'impostazione indipendente della tua zona di Endurance tramite i dati della soglia aerobica DFA a₁ se disponibili.",
             "paragraph6": "L'intero processo potrebbe richiedere alcuni minuti.",
             "paragraph7": "In alternativa, puoi usare la Chat per impostare le tue zone basandoti su attività recenti selezionate e altri input personalizzati. Questa è l'opzione più personalizzabile disponibile."
@@ -124,7 +126,7 @@
             "learnMore": "spiegazione delle zone di allenamento."
         },
         "phrLabel": {
-            "appended": "La nostra IA può prevedere il tuo power nel ciclismo dalla tua frequenza cardiaca, cadenza e/o DFA a₁ per le pedalate senza un misuratore di potenza. Se sono presenti dati di cadenza o a₁, l'accuratezza del power stimato generalmente migliora in modo significativo. A volte le misurazioni della frequenza cardiaca sono molto imprecise, ad esempio con i sensori ottici da polso. Questo può causare stime di power molto imprecise. In questo caso, puoi disattivare questa funzione e prenderemo in considerazione solo le pedalate con misurazioni da un misuratore di potenza per la nostra IA. Per poter prevedere il power dalla frequenza cardiaca, richiediamo almeno 1 ora di attività con dati di power e frequenza cardiaca nella tua cronologia.",
+            "appended": "La nostra IA può prevedere la tua potenza nel ciclismo dalla tua frequenza cardiaca, cadenza e/o DFA a₁ per le pedalate senza un misuratore di potenza. Se sono presenti dati di cadenza o a₁, l'accuratezza della potenza stimata generalmente migliora in modo significativo. A volte le misurazioni della frequenza cardiaca sono molto imprecise, ad esempio con i sensori ottici da polso. Questo può causare stime di potenza molto imprecise. In questo caso, puoi disattivare questa funzione e prenderemo in considerazione solo le pedalate con misurazioni da un misuratore di potenza per la nostra IA. Per poter prevedere la potenza dalla frequenza cardiaca, richiediamo almeno 1 ora di attività con dati di potenza e frequenza cardiaca nella tua cronologia.",
             "learnMore": "Scopri di più.",
             "estimationError": "Il tuo errore di stima:",
             "fromHeartRateCadenceDfa": "da frequenza cardiaca + cadenza + DFA a₁",
@@ -133,17 +135,17 @@
             "fromHeartRateOnly": "solo da frequenza cardiaca"
         },
         "runningPowerLabel": {
-            "base": "Se selezionato, basiamo il tuo allenamento sul Running Power. Altrimenti, usiamo il GAP (Grade Adjusted Pace). Se cambi l'impostazione del Running Power, questo eliminerà il tuo piano di allenamento attuale e ne creerà uno nuovo basato sulla nuova impostazione una volta confermate le modifiche. Potremmo dover addestrare un nuovo modello di IA nel caso in cui cambi le impostazioni. Ricarica la pagina dopo qualche minuto. Attualmente hai {nRunningPower} corse con Running Power su un totale di {nRunning} corse su AI Endurance.",
-            "insufficientData": " Al momento non hai abbastanza dati di Running Power, quindi siamo tornati al GAP. Hai bisogno di alcune corse con dati di potenza per alcune settimane per poter usare il Running Power in AI Endurance."
+            "base": "Se selezionato, basiamo il tuo allenamento sulla Potenza di corsa. Altrimenti, usiamo il GAP (Grade Adjusted Pace). Se cambi l'impostazione della Potenza di corsa, questo eliminerà il tuo piano di allenamento attuale e ne creerà uno nuovo basato sulla nuova impostazione una volta confermate le modifiche. Potremmo dover addestrare un nuovo modello di IA nel caso in cui cambi le impostazioni. Ricarica la pagina dopo qualche minuto. Attualmente hai {nRunningPower} corse con Potenza di corsa su un totale di {nRunning} corse su AI Endurance.",
+            "insufficientData": " Al momento non hai abbastanza dati di Potenza di corsa, quindi siamo tornati al GAP. Hai bisogno di alcune corse con dati di potenza per alcune settimane per poter usare la Potenza di corsa in AI Endurance."
         },
         "pretrainLabel": {
             "paragraph1": "Se selezionato, pre-addestriamo il tuo modello di machine learning Digital Twin con i dati accumulati di {userType} simili a te per età, peso, sesso e livello di forma fisica generale. Se non selezionato, il tuo Digital Twin viene addestrato solo con i tuoi dati. Abilitare il pre-addestramento può comportare una maggiore discrepanza tra i livelli di performance rilevati e previsti, poiché la risposta all'allenamento modellata tramite dati accumulati potrebbe differire dalla tua risposta personale."
         },
         "garminLapLabel": {
-            "paragraph1": "Se selezionato, le fasi di Warmup, Cooldown e riposo del tuo intervallo termineranno quando premi il pulsante Lap anziché al termine della loro durata. Questo può essere utile se ti alleni all'aperto e desideri un maggiore controllo sull'orario di inizio del tuo intervallo, ad esempio a causa di restrizioni del percorso o del traffico."
+            "paragraph1": "Se selezionato, le fasi di riscaldamento, defaticamento e riposo del tuo intervallo termineranno quando premi il pulsante Lap anziché al termine della loro durata. Questo può essere utile se ti alleni all'aperto e desideri un maggiore controllo sull'orario di inizio del tuo intervallo, ad esempio a causa di restrizioni del percorso o del traffico."
         },
         "intervalsicuLapLabel": {
-            "paragraph1": "Se selezionato, le fasi di Warmup, Cooldown e riposo del tuo intervallo termineranno quando premi il pulsante Lap anziché al termine della loro durata. Questo può essere utile se ti alleni all'aperto e desideri un maggiore controllo sull'orario di inizio del tuo intervallo, ad esempio a causa di restrizioni del percorso o del traffico."
+            "paragraph1": "Se selezionato, le fasi di riscaldamento, defaticamento e riposo del tuo intervallo termineranno quando premi il pulsante Lap anziché al termine della loro durata. Questo può essere utile se ti alleni all'aperto e desideri un maggiore controllo sull'orario di inizio del tuo intervallo, ad esempio a causa di restrizioni del percorso o del traffico."
         },
         "userTypeLabel": {
             "paragraph1": "Questo eliminerà il tuo piano di allenamento attuale. Cambia il tuo tipo di atleta per avere accesso a diversi eventi obiettivo. Ciclista: FTP; Corridore: 5k, 10k, (Mezza) Maratona; Triatleta: Sprint, Olimpico, (Mezzo) Ironman. La modifica creerà un piano di allenamento di 6 settimane che potrai modificare nella pagina del piano. Potremmo dover addestrare un nuovo modello di IA - ricarica questa pagina qualche minuto dopo aver salvato le modifiche."
@@ -155,10 +157,10 @@
             "paragraph1": "Il nostro programma di inviti è un modo semplice ma efficace per guadagnare credito per il tuo abbonamento a AI Endurance. Condividendo un codice di invito unico con i tuoi amici, non solo presenti loro uno strumento che può aiutarli a raggiungere i loro obiettivi di fitness, ma guadagni anche 10$ USD di credito per ogni amico che si iscrive e diventa un abbonato pagante. Questo credito riduce direttamente i costi del tuo abbonamento - può essere applicato solo ai pagamenti futuri dell'abbonamento e non può essere erogato in contanti. È una situazione vantaggiosa per te e per i tuoi amici. Più amici inviti, più risparmi, senza alcun limite massimo al credito che puoi accumulare. Questo programma è il nostro modo di ringraziarti per essere un membro prezioso della community di AI Endurance e per aiutarci a crescere."
         },
         "recoveryHistoryLabel": {
-            "paragraph1": "Scarica i tuoi dati storici di recovery in formato csv."
+            "paragraph1": "Scarica i tuoi dati storici di recupero in formato csv."
         },
         "useSdnnInsteadRmssd": {
-            "paragraph1": "Se raccogli dati HRV notturni con un Apple Watch, potresti voler usare SDNN invece di RMSSD per i tuoi dati HRV. Questo perché l'Apple Watch non fornisce dati RMSSD. SDNN è una misura della variabilità della frequenza cardiaca non correlata al ciclo respiratorio. È un buon indicatore dello stress e del recovery generali. Se usi un dispositivo diverso, dovresti usare RMSSD."
+            "paragraph1": "Se raccogli dati HRV notturni con un Apple Watch, potresti voler usare SDNN invece di RMSSD per i tuoi dati HRV. Questo perché l'Apple Watch non fornisce dati RMSSD. SDNN è una misura della variabilità della frequenza cardiaca non correlata al ciclo respiratorio. È un buon indicatore dello stress e del recupero generali. Se usi un dispositivo diverso, dovresti usare RMSSD."
         }
     }
 }

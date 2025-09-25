@@ -9,16 +9,16 @@
     "language": "Idioma",
     "updateStravaDescription": "Atualizar descrição do Strava",
     "useDataForResearch": "Usar dados para pesquisa",
-    "useRunningPower": "Usar Running Power",
+    "useRunningPower": "Usar Potência de corrida",
     "useHrvDerivedThresholds": "Usar thresholds derivados de HRV",
     "controlGarminWorkoutsWithLapButton": "Controlar treinos Garmin com o botão de volta (lap)",
     "controlIntervalsicuWorkoutsWithLapButton": "Controlar treinos do Intervals.icu com o botão de volta (lap)",
-    "estimatePowerFromHr": "Estimar Power a partir da FC",
+    "estimatePowerFromHr": "Estimar Potência a partir da FC",
     "useSecondaryLayerOfTrainingForDigitalTwin": "Usar camada secundária de treino para o Digital Twin",
     "useSdnnInsteadOfRmssdHrv": "Usar SDNN em vez de RMSSD HRV",
     "manuallySetZones": "Definir Zonas Manualmente",
     "cyclingZones": "Zonas de Ciclismo (W)",
-    "runningPowerZones": "Zonas de Running Power (W)",
+    "runningPowerZones": "Zonas de Potência de corrida (W)",
     "runningZones": "Zonas de Corrida (min{unit})",
     "enduranceCeiling": "Teto de Endurance",
     "tempoCeiling": "Teto de Tempo",
@@ -26,6 +26,8 @@
     "vo2maxCeiling": "Teto de VO2Max",
     "detectedAerobicThresholdForCycling": "Threshold aeróbico detectado para ciclismo:",
     "detectedAerobicThresholdForRunning": "Threshold aeróbico detectado para corrida:",
+    "ftpSettingForZwift": "Configuração FTP para Zwift",
+    "ftpSettingForZwiftAndTrainingPeaks": "Configuração FTP para Zwift e TrainingPeaks",
     "changeUserType": "Mudar Tipo de Usuário",
     "runner": "Corredor(a)",
     "cyclist": "Ciclista",
@@ -34,7 +36,7 @@
     "accountUpdated": "Conta atualizada!",
     "accountUpdateFailed": "Falha ao atualizar a conta",
     "pleaseWaitForPlanSearch": "Por favor, aguarde a busca de plano atual terminar para salvar quaisquer alterações.",
-    "confirmRunningPowerChange": "Tem certeza de que deseja alterar sua configuração de Running Power? Isso excluirá seu plano de treino atual e criará um novo plano com base na sua nova configuração de Running Power. Você poderá editar o plano assim que a configuração de Running Power for atualizada. Como talvez precisemos treinar um novo modelo de IA para isso, pode levar alguns minutos. Por favor, atualize esta página alguns minutos após salvar as alterações.",
+    "confirmRunningPowerChange": "Tem certeza de que deseja alterar sua configuração de Potência de corrida? Isso excluirá seu plano de treino atual e criará um novo plano com base na sua nova configuração de Potência de corrida. Você poderá editar o plano assim que a configuração de Potência de corrida for atualizada. Como talvez precisemos treinar um novo modelo de IA para isso, pode levar alguns minutos. Por favor, atualize esta página alguns minutos após salvar as alterações.",
     "confirmUserTypeChange": "Tem certeza de que deseja alterar seu tipo de usuário? Isso excluirá seu plano de treino atual e criará um plano de treino padrão de 6 semanas para seu novo tipo de usuário. Você poderá editar o plano assim que a mudança de tipo de usuário for concluída. Como temos que treinar um novo modelo de IA para isso, pode levar alguns minutos. Por favor, atualize esta página alguns minutos após salvar as alterações.",
     "resetCheckIn": "Redefinir Check-in",
     "reset": "Redefinir",
@@ -51,7 +53,7 @@
     "notSubscribedToAnyPlan": "Você não está inscrito em nenhum plano",
     "onTheYearlyPlan": "Você está no plano anual",
     "onTheMonthlyPlan": "Você está no plano mensal",
-    "downloadRecoveryHistory": "Baixar Histórico de Recovery",
+    "downloadRecoveryHistory": "Baixar Histórico de Recuperação",
     "download": "Baixar",
     "dangerZone": "ZONA DE PERIGO",
     "deleteAccount": "Excluir Conta",
@@ -102,7 +104,7 @@
             "paragraph1": "Podemos calcular automaticamente suas zonas para você a partir de seus dados históricos. Usamos o seguinte sistema para estimar suas zonas: Primeiro, procuramos por desempenhos em testes recentes e níveis de desempenho que você definiu manualmente nos últimos 14 dias.",
             "paragraph2": "Segundo, se você estiver usando thresholds derivados de HRV, tentamos encontrar dados de threshold de DFA a₁ suficientes para definir suas zonas. Tentamos com os dados dos últimos 30 dias e, se não houver dados suficientes, usamos os dados dos últimos 90 dias.",
             "paragraph3": "Terceiro, usamos medições de Critical Power das últimas 4 semanas para definir suas zonas.",
-            "paragraph4": "Quarto, usamos a distribuição de seus dados históricos de power/pace dos últimos meses para definir suas zonas.",
+            "paragraph4": "Quarto, usamos a distribuição de seus dados históricos de potência/ritmo dos últimos meses para definir suas zonas.",
             "paragraph5": "Num passo final, realizamos várias verificações de consistência com seus desempenhos recentes para garantir que as zonas sejam precisas. Isso inclui definir sua zona de Endurance de forma independente através de dados de threshold aeróbico de DFA a₁ se disponíveis.",
             "paragraph6": "O processo inteiro pode levar alguns minutos.",
             "paragraph7": "Alternativamente, você pode usar o Chat para definir suas zonas com base em atividades recentes selecionadas e outras entradas personalizadas. Esta é a opção mais personalizável disponível."
@@ -116,7 +118,7 @@
             "learnMore": "Saiba mais."
         },
         "swimmingLabel": {
-            "paragraph1": "Podemos calcular automaticamente sua velocidade crítica de natação (CSS) para você a partir da distribuição do seu histórico de pace de natação. Ou você pode ajustar manualmente seu CSS. Seu CSS é o pace que você teoricamente pode manter sem exaustão.",
+            "paragraph1": "Podemos calcular automaticamente sua velocidade crítica de natação (CSS) para você a partir da distribuição do seu histórico de ritmo de natação. Ou você pode ajustar manualmente seu CSS. Seu CSS é o ritmo que você teoricamente pode manter sem exaustão.",
             "learnMore": "Saiba mais sobre um teste de CSS."
         },
         "disciplineLabel": {
@@ -124,7 +126,7 @@
             "learnMore": "explicação das zonas de treino."
         },
         "phrLabel": {
-            "appended": "Nossa IA pode prever seu Power de ciclismo a partir da sua frequência cardíaca, cadência e/ou DFA a₁ para pedaladas sem medidor de potência. Se houver dados de cadência ou a₁, a precisão do Power estimado geralmente melhora significativamente. Às vezes, as medições de frequência cardíaca são muito imprecisas, por exemplo, com sensores ópticos de pulso. Isso pode resultar em estimativas de Power muito imprecisas. Nesse caso, você pode desativar este recurso e levaremos em conta apenas as pedaladas com medições de um medidor de potência para nossa IA. Para poder prever o Power a partir da frequência cardíaca, exigimos pelo menos 1 hora de tempo de atividade com Power e frequência cardíaca em seu histórico.",
+            "appended": "Nossa IA pode prever sua potência de ciclismo a partir da sua frequência cardíaca, cadência e/ou DFA a₁ para pedaladas sem medidor de potência. Se houver dados de cadência ou a₁, a precisão da potência estimada geralmente melhora significativamente. Às vezes, as medições de frequência cardíaca são muito imprecisas, por exemplo, com sensores ópticos de pulso. Isso pode resultar em estimativas de potência muito imprecisas. Nesse caso, você pode desativar este recurso e levaremos em conta apenas as pedaladas com medições de um medidor de potência para nossa IA. Para poder prever a potência a partir da frequência cardíaca, exigimos pelo menos 1 hora de tempo de atividade com potência e frequência cardíaca em seu histórico.",
             "learnMore": "Saiba mais.",
             "estimationError": "Seu erro de estimativa:",
             "fromHeartRateCadenceDfa": "de frequência cardíaca + cadence + DFA a₁",
@@ -133,8 +135,8 @@
             "fromHeartRateOnly": "apenas de frequência cardíaca"
         },
         "runningPowerLabel": {
-            "base": "Se marcado, baseamos seu treino em Running Power. Caso contrário, usamos GAP (Grade Adjusted Pace). Se você alterar sua configuração de Running Power, isso excluirá seu plano de treino atual e criará um novo plano com base na sua nova configuração de Running Power assim que você confirmar as alterações. Podemos ter que treinar um novo modelo de IA caso você altere suas configurações. Por favor, atualize após alguns minutos. Atualmente, você tem {nRunningPower} corridas com Running Power de um total de {nRunning} corridas na AI Endurance.",
-            "insufficientData": " Atualmente, você não tem dados suficientes de Running Power, por isso voltamos para o padrão GAP. Você precisa de algumas corridas com Power ao longo de algumas semanas para poder usar o Running Power na AI Endurance."
+            "base": "Se marcado, baseamos seu treino em Potência de corrida. Caso contrário, usamos GAP (Grade Adjusted Pace). Se você alterar sua configuração de Potência de corrida, isso excluirá seu plano de treino atual e criará um novo plano com base na sua nova configuração de Potência de corrida assim que você confirmar as alterações. Podemos ter que treinar um novo modelo de IA caso você altere suas configurações. Por favor, atualize após alguns minutos. Atualmente, você tem {nRunningPower} corridas com Potência de corrida de um total de {nRunning} corridas na AI Endurance.",
+            "insufficientData": " Atualmente, você não tem dados suficientes de Potência de corrida, por isso voltamos para o padrão GAP. Você precisa de algumas corridas com potência ao longo de algumas semanas para poder usar a Potência de corrida na AI Endurance."
         },
         "pretrainLabel": {
             "paragraph1": "Se marcado, pré-treinamos seu modelo de aprendizado de máquina Digital Twin com os dados acumulados de {userType}s que são semelhantes a você em idade, peso, gênero e nível geral de condicionamento físico. Se desmarcado, seu Digital Twin é treinado apenas com seus dados. Habilitar o pré-treinamento pode resultar em uma maior discrepância entre os níveis de desempenho detectados e previstos, pois a resposta ao treinamento modelada através de dados acumulados pode diferir da sua resposta pessoal."
@@ -155,10 +157,10 @@
             "paragraph1": "Nosso programa de indicação é uma maneira simples e eficaz de você ganhar crédito para sua assinatura da AI Endurance. Ao compartilhar um código de indicação exclusivo com seus amigos, você não está apenas apresentando a eles uma ferramenta que pode ajudar a alcançar seus objetivos de condicionamento físico, mas também ganhando $10 USD em crédito para cada amigo que se inscrever e se tornar um assinante pagante. Este crédito reduz diretamente os custos da sua assinatura - ele só pode ser aplicado a pagamentos futuros da assinatura e não pode ser pago em dinheiro. É uma situação vantajosa para você e seus amigos. Quanto mais amigos você indicar, mais você economiza, sem limite máximo de crédito que pode acumular. Este programa é nossa forma de agradecer por ser um membro valioso da comunidade AI Endurance e por nos ajudar a crescer."
         },
         "recoveryHistoryLabel": {
-            "paragraph1": "Baixe seus dados históricos de Recovery em formato csv."
+            "paragraph1": "Baixe seus dados históricos de Recuperação em formato csv."
         },
         "useSdnnInsteadRmssd": {
-            "paragraph1": "Se você está coletando dados de HRV noturnos com um Apple Watch, talvez queira usar SDNN em vez de RMSSD para seus dados de HRV. Isso ocorre porque o Apple Watch não fornece dados de RMSSD. SDNN é uma medida da variabilidade da frequência cardíaca que não está relacionada ao ciclo respiratório. É um bom indicador de stress e recovery gerais. Se você estiver usando um dispositivo diferente, deve usar RMSSD."
+            "paragraph1": "Se você está coletando dados de HRV noturnos com um Apple Watch, talvez queira usar SDNN em vez de RMSSD para seus dados de HRV. Isso ocorre porque o Apple Watch não fornece dados de RMSSD. SDNN é uma medida da variabilidade da frequência cardíaca que não está relacionada ao ciclo respiratório. É um bom indicador de stress e recuperação gerais. Se você estiver usando um dispositivo diferente, deve usar RMSSD."
         }
     }
 }

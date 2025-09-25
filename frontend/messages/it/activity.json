@@ -46,11 +46,11 @@
         "distance": "Distanza",
         "elevationGain": "Dislivello positivo",
         "kcal": "kcal",
-        "averagePower": "Power medio",
+        "averagePower": "Potenza media",
         "averageHeartRate": "Frequenza cardiaca media",
-        "powerEstimation": "Stima Power",
+        "powerEstimation": "Stima potenza",
         "averageGap": "GAP medio",
-        "averagePace": "Pace medio",
+        "averagePace": "Passo medio",
         "ess": "ESS",
         "artifactPercentage": "Percentuale di artefatti",
         "artifactPercentageLocal": "Percentuale di artefatti locale",
@@ -60,19 +60,19 @@
         "enduranceCeilingCluster": "Soglia Endurance cluster",
         "thresholdCeilingRamp": "Soglia Threshold ramp",
         "thresholdCeilingCluster": "Soglia Threshold cluster",
-        "rAlphaRide": "Rₐ (readiness)",
+        "rAlphaRide": "Rₐ (prontezza)",
         "dAlphaRide": "Dₐ (durability)",
-        "paceRAlpha": "Pace Rₐ (readiness)",
-        "paceDAlpha": "Pace Dₐ (durability)",
-        "powerRAlpha": "Power Rₐ (readiness)",
-        "powerDAlpha": "Power Dₐ (durability)",
-        "best20MinPower": "Miglior Power 20 min",
-        "best15MinPower": "Miglior Power 15 min",
-        "best30MinPower": "Miglior Power 30 min",
+        "paceRAlpha": "Passo Rₐ (prontezza)",
+        "paceDAlpha": "Passo Dₐ (durability)",
+        "powerRAlpha": "Potenza Rₐ (prontezza)",
+        "powerDAlpha": "Potenza Dₐ (durability)",
+        "best20MinPower": "Migliore potenza 20 min",
+        "best15MinPower": "Migliore potenza 15 min",
+        "best30MinPower": "Migliore potenza 30 min",
         "best15MinGap": "Miglior GAP 15 min",
         "best30MinGap": "Miglior GAP 30 min",
         "detailRecoveryAlpha": {
-            "text": "La tua {pName} readiness all'allenamento per questa attività basata su DFA a₁. Valori positivi indicano che eri pronto ad allenarti. Valori negativi possono indicare il contrario, ad esempio a causa di affaticamento e/o stress.",
+            "text": "La tua {pName} prontezza all'allenamento per questa attività basata su DFA a₁. Valori positivi indicano che eri pronto ad allenarti. Valori negativi possono indicare il contrario, ad esempio a causa di affaticamento e/o stress.",
             "learnMore": "Scopri di più."
         },
         "detailDriftAlpha": {
@@ -91,7 +91,7 @@
             "learnMore": "Scopri di più."
         },
         "detailEndHrvCluster": {
-            "text": "Il limite superiore della tua Zona Endurance, la tua soglia aerobica, è calcolato dai tuoi dati DFA a₁. È l'intensità in cui il tuo Power o Pace si raggruppano vicino alla soglia aerobica (a₁ = 0.75) durante i primi 30 minuti di attività.",
+            "text": "Il limite superiore della tua Zona Endurance, la tua soglia aerobica, è calcolato dai tuoi dati DFA a₁. È l'intensità in cui la tua potenza o passo si raggruppano vicino alla soglia aerobica (a₁ = 0.75) durante i primi 30 minuti di attività.",
             "learnMore": "Scopri di più."
         },
         "detailThrHrv": {
@@ -107,17 +107,17 @@
             "learnMore": "Scopri di più sulla posizione ideale della fascia HRM."
         },
         "detailArtifactsLocal": {
-            "text": "La percentuale di misurazioni HRV che includevano artefatti e hanno dovuto essere corrette solo durante i periodi in cui sono state valutate le soglie o la readiness."
+            "text": "La percentuale di misurazioni HRV che includevano artefatti e hanno dovuto essere corrette solo durante i periodi in cui sono state valutate le soglie o la prontezza."
         },
         "detailKcal": {
             "text": "La misurazione o previsione accurata del fabbisogno energetico durante l'esercizio è intrinsecamente complessa e soggetta a errori, indipendentemente dalla metodologia scelta. Ai fini di questa app, il costo energetico dell'esercizio è stato stimato utilizzando equazioni basate sull'evidenza scientifica, specifiche per il tipo di esercizio. Questi calcoli dovrebbero essere usati come una linea guida approssimativa del costo energetico di ogni sessione di allenamento, tenendo presente che il costo energetico reale dell'esercizio può variare in base a fattori come età, sesso, stato di salute e forma fisica dell'individuo, massa e composizione corporea, stile di vita, genetica e così via.",
             "learnMore": "Scopri di più."
         },
         "detailEss": {
-            "text": "Il tuo External Stress Score (ESS) per questa attività, derivato dai tuoi dati di Power. Più lunga è l'attività, più alta è la potenza erogata e più intenso è l'allenamento, più alto sarà l'ESS. Ad esempio, un'ora alla soglia anaerobica corrisponde a 100 ESS."
+            "text": "Il tuo External Stress Score (ESS) per questa attività, derivato dai tuoi dati di potenza. Più lunga è l'attività, più alta è la potenza erogata e più intenso è l'allenamento, più alto sarà l'ESS. Ad esempio, un'ora alla soglia anaerobica corrisponde a 100 ESS."
         },
         "powerSource": {
-            "text": "Il tuo Power è previsto dalla tua frequenza cardiaca e, se presenti, dalla Cadence e/o da DFA a₁. La nostra IA impara a prevedere il tuo Power dalle tue attività passate con dati di Power, frequenza cardiaca, Cadence e a₁.",
+            "text": "La tua potenza è prevista dalla tua frequenza cardiaca e, se presenti, dalla Cadence e/o da DFA a₁. La nostra IA impara a prevedere la tua potenza dalle tue attività passate con dati di potenza, frequenza cardiaca, Cadence e a₁.",
             "learnMore": "Scopri di più."
         },
         "activityTitle": {

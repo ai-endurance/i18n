@@ -26,6 +26,8 @@
     "vo2maxCeiling": "VO2Max-Obergrenze",
     "detectedAerobicThresholdForCycling": "Erkannter aerober Threshold für Radfahren:",
     "detectedAerobicThresholdForRunning": "Erkannter aerober Threshold für Laufen:",
+    "ftpSettingForZwift": "FTP-Einstellung für Zwift",
+    "ftpSettingForZwiftAndTrainingPeaks": "FTP-Einstellung für Zwift und TrainingPeaks",
     "changeUserType": "Benutzertyp ändern",
     "runner": "Läufer",
     "cyclist": "Radfahrer",

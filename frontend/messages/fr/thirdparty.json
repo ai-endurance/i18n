@@ -32,7 +32,7 @@
             "intervalsicuSuccess": "Ramp Test envoyé vers Intervals.icu"
         },
         "refreshExports": {
-            "label": "Actualiser les exportations",
+            "label": "Mettre à jour l'export vers le dispositif d'entrainement",
             "button": "Actualiser les exportations",
             "success": "Exportations actualisées !",
             "error": "Échec de l'actualisation des exportations"

@@ -59,8 +59,8 @@
         "totalTime": "Tempo Total",
         "timeAtIntensity": "Tempo em Intensidade",
         "estDistance": "Dist. Estimada",
-        "avgPower": "Power médio",
-        "avgPace": "Pace médio",
+        "avgPower": "Potência média",
+        "avgPace": "Ritmo médio",
         "order": "Ordem",
         "estTime": "Tempo Estimado",
         "distance": "Distância"

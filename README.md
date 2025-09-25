@@ -9,6 +9,7 @@ Please note that you cannot add new keys or rename existing keys. Only modify th
 ## Thanks To
 
 * Benjamin Nicolle (fr)
+* Bruna Maia (pt)
 
 (Your name here! Send us a PR!)
 

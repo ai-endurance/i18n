@@ -46,11 +46,11 @@
         "distance": "Distance",
         "elevationGain": "Dénivelé positif",
         "kcal": "kcal",
-        "averagePower": "Power moyen",
+        "averagePower": "Puissance moyenne",
         "averageHeartRate": "Fréquence cardiaque moyenne",
-        "powerEstimation": "Estimation de Power",
+        "powerEstimation": "Estimation de puissance",
         "averageGap": "GAP moyen",
-        "averagePace": "Pace moyen",
+        "averagePace": "Allure moyenne",
         "ess": "ESS",
         "artifactPercentage": "Pourcentage d'artefacts",
         "artifactPercentageLocal": "Pourcentage d'artefacts local",
@@ -60,19 +60,19 @@
         "enduranceCeilingCluster": "Plafond Endurance cluster",
         "thresholdCeilingRamp": "Plafond Threshold rampe",
         "thresholdCeilingCluster": "Plafond Threshold cluster",
-        "rAlphaRide": "Rₐ (readiness)",
+        "rAlphaRide": "Rₐ (préparation)",
         "dAlphaRide": "Dₐ (durability)",
-        "paceRAlpha": "Pace Rₐ (readiness)",
-        "paceDAlpha": "Pace Dₐ (durability)",
-        "powerRAlpha": "Power Rₐ (readiness)",
-        "powerDAlpha": "Power Dₐ (durability)",
-        "best20MinPower": "Meilleur Power sur 20 min",
-        "best15MinPower": "Meilleur Power sur 15 min",
-        "best30MinPower": "Meilleur Power sur 30 min",
+        "paceRAlpha": "Allure Rₐ (préparation)",
+        "paceDAlpha": "Allure Dₐ (durability)",
+        "powerRAlpha": "Puissance Rₐ (préparation)",
+        "powerDAlpha": "Puissance Dₐ (durability)",
+        "best20MinPower": "Meilleure puissance sur 20 min",
+        "best15MinPower": "Meilleure puissance sur 15 min",
+        "best30MinPower": "Meilleure puissance sur 30 min",
         "best15MinGap": "Meilleur GAP sur 15 min",
         "best30MinGap": "Meilleur GAP sur 30 min",
         "detailRecoveryAlpha": {
-            "text": "Ta {pName} readiness à t'entraîner pour cette activité, basée sur le DFA a₁. Des valeurs positives indiquent que tu étais prêt à t'entraîner. Des valeurs négatives peuvent indiquer le contraire, par exemple en raison de la fatigue et/ou du stress.",
+            "text": "Ta {pName} préparation à t'entraîner pour cette activité, basée sur le DFA a₁. Des valeurs positives indiquent que tu étais prêt à t'entraîner. Des valeurs négatives peuvent indiquer le contraire, par exemple en raison de la fatigue et/ou du stress.",
             "learnMore": "En savoir plus."
         },
         "detailDriftAlpha": {
@@ -91,7 +91,7 @@
             "learnMore": "En savoir plus."
         },
         "detailEndHrvCluster": {
-            "text": "La limite supérieure de ta zone d'Endurance, ton aerobic Threshold, est calculée à partir de tes données DFA a₁. C'est l'intensité où ton power ou ton pace se regroupent (cluster) près de l'aerobic Threshold (a₁ = 0.75) pendant les 30 premières minutes de l'activité.",
+            "text": "La limite supérieure de ta zone d'Endurance, ton aerobic Threshold, est calculée à partir de tes données DFA a₁. C'est l'intensité où ta puissance ou ton allure se regroupent (cluster) près de l'aerobic Threshold (a₁ = 0.75) pendant les 30 premières minutes de l'activité.",
             "learnMore": "En savoir plus."
         },
         "detailThrHrv": {
@@ -107,17 +107,17 @@
             "learnMore": "En savoir plus sur la position idéale de la sangle HRM."
         },
         "detailArtifactsLocal": {
-            "text": "Le pourcentage de mesures HRV qui contenaient des artefacts et ont dû être corrigées uniquement pendant les périodes où les thresholds ou la readiness étaient évalués."
+            "text": "Le pourcentage de mesures HRV qui contenaient des artefacts et ont dû être corrigées uniquement pendant les périodes où les thresholds ou la préparation étaient évalués."
         },
         "detailKcal": {
             "text": "La mesure ou la prédiction précise des besoins énergétiques pendant l'exercice est intrinsèquement complexe et sujette à des erreurs, quelle que soit la méthodologie choisie. Pour les besoins de cette application, le coût énergétique de l'exercice a été estimé à l'aide d'équations fondées sur des preuves, spécifiques au type d'exercice. Ces calculs doivent être utilisés comme une indication approximative du coût énergétique de chaque séance d'exercice, en gardant à l'esprit que le coût énergétique réel de l'exercice est susceptible de varier en fonction de facteurs tels que l'âge, le sexe, l'état de santé et de forme physique de l'individu, la masse et la composition corporelle, le mode de vie, la génétique, etc.",
             "learnMore": "En savoir plus."
         },
         "detailEss": {
-            "text": "Ton External Stress Score (ESS) pour cette activité, dérivé de tes données de power. Plus l'activité est longue, plus la sortie de power est élevée et plus l'entraînement est intense, plus l'ESS est élevé. Par exemple, une heure à l'Anaerobic Threshold correspond à 100 ESS."
+            "text": "Ton External Stress Score (ESS) pour cette activité, dérivé de tes données de puissance. Plus l'activité est longue, plus la sortie de puissance est élevée et plus l'entraînement est intense, plus l'ESS est élevé. Par exemple, une heure à l'Anaerobic Threshold correspond à 100 ESS."
         },
         "powerSource": {
-            "text": "Ton power est prédit à partir de ta fréquence cardiaque et - si présents - de la cadence et/ou du DFA a₁. Notre IA apprend à prédire ton power à partir de tes activités passées avec power, fréquence cardiaque, cadence et a₁.",
+            "text": "Ta puissance est prédite à partir de ta fréquence cardiaque et - si présents - de la cadence et/ou du DFA a₁. Notre IA apprend à prédire ta puissance à partir de tes activités passées avec puissance, fréquence cardiaque, cadence et a₁.",
             "learnMore": "En savoir plus."
         },
         "activityTitle": {
@@ -125,7 +125,7 @@
             "textCycling": "Tu peux personnaliser le titre de ton activité pour mettre en évidence un entraînement test ou une course. Assure-toi que les titres de tes tests FTP incluent à la fois le mot 'test' et la durée du test pour que l'application puisse le reconnaître. Par exemple, utilise 'Test FTP 20 min' pour un test FTP de 20 minutes. Pour les Ramp Tests, inclus 'ramp' et 'test' dans le titre, comme par exemple 'Ramp Test'."
         },
         "gap": {
-            "text": "Le Grade Adjusted Pace (GAP) fait référence au pace ajusté pour tenir compte des effets des changements de dénivelé pendant une activité. Au lieu de simplement mesurer la vitesse, le pace moyen ajusté à la pente prend en compte l'impact des montées (côtes) et des descentes sur l'effort requis pour maintenir une certaine vitesse. Par exemple, si tu cours sur une colline escarpée, ton pace brut peut être lent, mais ton GAP peut être élevé car il prend en compte la raideur de la colline. En normalisant le pace en fonction de ces changements de dénivelé, il fournit un reflet plus précis de l'effort fourni sur des terrains variés, ce qui en fait une métrique utile pour comparer les performances sur différents parcours ou pour comprendre l'impact des collines sur ton pace global."
+            "text": "L'allure ajustée à la pente (GAP) fait référence à l'allure ajustée pour tenir compte des effets des changements de dénivelé pendant une activité. Au lieu de simplement mesurer la vitesse, l'allure moyenne ajustée à la pente prend en compte l'impact des montées (côtes) et des descentes sur l'effort requis pour maintenir une certaine vitesse. Par exemple, si tu cours sur une colline escarpée, ton allure brute peut être lente, mais ton GAP peut être élevé car il prend en compte la raideur de la colline. En normalisant l'allure en fonction de ces changements de dénivelé, il fournit un reflet plus précis de l'effort fourni sur des terrains variés, ce qui en fait une métrique utile pour comparer les performances sur différents parcours ou pour comprendre l'impact des collines sur ton allure globale."
         },
         "markAsRace": {
             "text": "Lorsque tu marques une activité comme une course, le modèle d'IA accorde une plus grande importance aux données de cette activité en augmentant sa pondération lors de l'entraînement du modèle."

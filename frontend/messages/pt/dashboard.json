@@ -50,37 +50,46 @@
         "yearHistory": "Histórico de 365 Dias",
         "date": "Data:",
         "duration": "Duração:",
-        "na": "N/A"
+        "na": "N/A",
+        "planCompliance": "Adesão ao plano"
     },
     "nextWorkout": {
         "noWorkoutsScheduled": "Você ainda não tem nenhum treino agendado!",
         "nextWorkout": "Próximo Treino",
         "calendar": "Calendário",
-        "warmup": "Warmup",
+        "warmup": "Aquecimento",
         "mainSet": "Série Principal",
-        "cooldown": "Cooldown",
+        "cooldown": "Volta à calma",
         "date": "Data",
         "totalTime": "Tempo Total",
         "estDistance": "Dist. Estimada",
         "timeAtIntensity": "Tempo em Intensidade",
-        "avgPace": "Pace médio",
-        "avgPower": "Power médio",
+        "avgPace": "Ritmo médio",
+        "avgPower": "Potência média",
         "estTime": "Tempo Estimado",
         "distance": "Distância"
     },
     "recovery": {
-        "connectHeartRateData": "Conecte seus dados de frequência cardíaca para ver sua recovery",
+        "connectHeartRateData": "Conecte seus dados de frequência cardíaca para ver sua recuperação",
         "history": "Histórico",
         "dataNotUpToDate": "Os dados não parecem atualizados?",
         "refreshData": "Atualizar Dados",
-        "recoveryDataRefreshed": "Dados de recovery atualizados!",
-        "failedToRefresh": "Falha ao atualizar os dados de recovery",
+        "recoveryDataRefreshed": "Dados de recuperação atualizados!",
+        "failedToRefresh": "Falha ao atualizar os dados de recuperação",
         "notUsingDfa": "Você não está usando DFA a₁!",
         "notTrackingHrv": "Você não está monitorando o HRV!",
         "notTrackingRestingHr": "Você não está monitorando sua FC de repouso!",
         "notTrainingOrNoHrData": "Você não está treinando ou não conectou dados de FC!",
         "makeMostOfAiEndurance": "Aproveite ao máximo o AI Endurance",
-        "essOn": "ESS em {date}"
+        "essOn": "ESS em {date}",
+        "drivingAerobicRecovery": "Recuperação aeróbica determinante",
+        "cardTitles": {
+            "hrRest": "FC de Repouso"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Recuperação aeróbica",
+            "muscleJointRecovery": "Recuperação muscular/articular"
+        }
     },
     "thisWeek": {
         "title": "Treino Desta Semana",
@@ -95,7 +104,7 @@
         "tryOurAiChat": "Experimente nosso AI Chat",
         "answerHere": "Responda aqui",
         "enterHrvManually": "Insira os valores de HRV manualmente",
-        "restingHeartRate": "Frequência Cardíaca de Repouso",
+        "restingHeartRate": "Frequência cardíaca de repouso",
         "submit": "Enviar",
         "checkinSubmitted": "Check-in enviado com sucesso",
         "feedbackDismissed": "Feedback dispensado!",
@@ -118,7 +127,7 @@
         "distance": "Distância",
         "time": "Tempo",
         "elevationGain": "Ganho de Elevação",
-        "averagePower": "Power médio",
+        "averagePower": "Potência média",
         "noDetails": "Sem Detalhes"
     },
     "checkInSnackbar": {
@@ -134,20 +143,21 @@
     "languageDisclaimer": {
         "translationWarning": "Estamos trabalhando para melhorar a versão em {language} do AI Endurance. Agradecemos qualquer feedback - por favor, envie para ",
         "emailSubject": "Feedback sobre o App AI Endurance",
-        "emailBody": "Olá Equipe AI Endurance:\n\nAqui está o que há de errado com o texto do seu aplicativo em {language}:"
+        "emailBody": "Olá Equipe AI Endurance:\n\nAqui está o que há de errado com o texto do seu aplicativo em {language}:",
+        "orHelp": "ou ajude a melhorar as traduções no GitHub"
     },
     "labels": {
-        "recoveryDisplay": "Seus valores históricos de recovery com base nos seus dados de HRV em repouso (RMSSD/SDNN e FC de Repouso) e dados de treino de DFA a₁. Se o seu relógio Garmin coleta dados de HRV durante a noite, conecte sua conta Garmin Connect e marque 'Estatísticas de Saúde Diárias'. A Garmin enviará seus dados automaticamente depois que você acordar. Se você estiver usando o anel Oura ou Whoop, conecte sua conta Oura ou Whoop. Se você estiver usando um relógio Suunto, Coros ou Polar que registra HRV noturno, conecte sua conta Suunto, Coros ou Polar. Para obter outros dados de HRV em repouso no AI Endurance, conecte seu aplicativo de HRV favorito ao TrainingPeaks e conecte o TrainingPeaks ao AI Endurance. Com base nos dados mais recentes dos seus aplicativos conectados.",
+        "recoveryDisplay": "Seus valores históricos de recuperação com base nos seus dados de HRV em repouso (RMSSD/SDNN e FC de Repouso) e dados de treino de DFA a₁. Se o seu relógio Garmin coleta dados de HRV durante a noite, conecte sua conta Garmin Connect e marque 'Estatísticas de Saúde Diárias'. A Garmin enviará seus dados automaticamente depois que você acordar. Se você estiver usando o anel Oura ou Whoop, conecte sua conta Oura ou Whoop. Se você estiver usando um relógio Suunto, Coros ou Polar que registra HRV noturno, conecte sua conta Suunto, Coros ou Polar. Para obter outros dados de HRV em repouso no AI Endurance, conecte seu aplicativo de HRV favorito ao TrainingPeaks e conecte o TrainingPeaks ao AI Endurance. Com base nos dados mais recentes dos seus aplicativos conectados.",
         "prediction": "As previsões da IA para o seu desempenho futuro se você seguir seu plano de treino. Elas incluem o erro de previsão do seu modelo de aprendizado de máquina - seu digital twin.",
         "checkIn": "Diga-nos seu nível de dor e motivação e adaptaremos seu plano caso você não esteja pronto para um treino. Usamos o ChatGPT para avaliar sua motivação para se exercitar e dar feedback sobre seu dia de treino. Diga-nos como você se sente, assim como diria a um treinador ou amigo. Por exemplo: 'O trabalho está muito estressante agora' ou 'Estou tão cansado' ou 'Hoje não estou com vontade' ou 'Pronto para arrebentar hoje!'. Também levamos em conta seus dados de HRV em repouso (RMSSD/SDNN e FC de Repouso) e dados de treino de DFA a₁. Você pode fazer check-in a cada 12 horas.",
-        "recoveryAerobic": "Sua pontuação de aerobic recovery. Este é o menor valor entre sua pontuação de recovery de DFA a₁, pontuação de recovery de RMSSD/SDNN, pontuação de recovery de HR rest e pontuação de recovery induzida por ESS.",
-        "recoveryMuscleJoint": "Sua pontuação de muscle and joint recovery. Modelamos o impacto de cada treino em seus músculos e articulações com base em seus dados históricos de treinamento. Dependendo do tipo de treino, intensidade e duração, calculamos a pontuação de muscle and joint recovery.",
-        "recoveryAlpha1": "Quanto menores seus valores de DFA a₁ para um determinado pace/power, menor sua pontuação de recovery. Comparamos uma média móvel dos valores dos seus últimos 7 dias com uma normal de 60 dias para avaliar sua pontuação de recovery de DFA a₁. Se você está monitorando o DFA a₁ e não vê um resultado, pode ser porque a) você não completou uma atividade com DFA a₁ hoje ou b) precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
-        "recoveryRmssd": "Quanto menor a sua raiz quadrada da média das diferenças sucessivas (RMSSD) da sua variabilidade da frequência cardíaca (HRV), menor sua pontuação de recovery. Comparamos uma média móvel dos valores dos seus últimos 7 dias com uma normal de 60 dias para avaliar sua pontuação de recovery de RMSSD. Se você está monitorando o HRV em repouso e não vê um resultado, pode ser porque precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
-        "recoverySdnn": "Quanto menor o seu desvio padrão dos intervalos NN (SDNN) da sua variabilidade da frequência cardíaca (HRV), menor sua pontuação de recovery. Comparamos uma média móvel dos valores dos seus últimos 7 dias com uma normal de 60 dias para avaliar sua pontuação de recovery de SDNN. Se você está monitorando o HRV em repouso e não vê um resultado, pode ser porque precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
-        "recoveryHrRest": "Quanto maior sua frequência cardíaca de repouso em comparação com sua frequência cardíaca de repouso habitual, menor sua pontuação de recovery. Comparamos o valor de hoje com uma normal de 30 dias para avaliar o desvio de sua frequência cardíaca de repouso do habitual. Se você está monitorando a frequência cardíaca de repouso e não vê um resultado, pode ser porque precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
-        "recoveryEss": "O External Stress Score (ESS) de suas atividades passadas impacta diretamente sua pontuação geral de recovery. Um acúmulo maior de ESS resulta em uma redução maior na recovery. Essa redução é calculada usando nosso modelo de recovery personalizado, que é adaptado aos seus dados históricos únicos de exercício e recovery. Para gerar uma pontuação de recovery precisa, exigimos pelo menos 10 dias de atividades com ESS medido para treinar seu modelo de recovery.",
-        "lastFourWeeks": "Seus dados de treino das últimas quatro semanas. Sua pontuação de compliance é de 100% se, em uma determinada semana, você completou todos os treinos planejados exatamente como prescrito. Se você completou os treinos, mas não exatamente como prescrito, sua pontuação de compliance é menor. Isso lhe dá uma indicação de quão bem você está seguindo seu plano de treino. Se você está vendo N/A, significa que seu plano ainda não começou ou não temos dados suficientes para calcular sua pontuação de compliance ainda.",
+        "recoveryAerobic": "Sua pontuação de aerobic recuperação. Este é o menor valor entre sua pontuação de recuperação de DFA a₁, pontuação de recuperação de RMSSD/SDNN, pontuação de recuperação de FC em repouso e pontuação de recuperação induzida por ESS.",
+        "recoveryMuscleJoint": "Sua pontuação de muscle and joint recuperação. Modelamos o impacto de cada treino em seus músculos e articulações com base em seus dados históricos de treinamento. Dependendo do tipo de treino, intensidade e duração, calculamos a pontuação de muscle and joint recuperação.",
+        "recoveryAlpha1": "Quanto menores seus valores de DFA a₁ para um determinado ritmo/potência, menor sua pontuação de recuperação. Comparamos uma média móvel dos valores dos seus últimos 7 dias com uma normal de 60 dias para avaliar sua pontuação de recuperação de DFA a₁. Se você está monitorando o DFA a₁ e não vê um resultado, pode ser porque a) você não completou uma atividade com DFA a₁ hoje ou b) precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
+        "recoveryRmssd": "Quanto menor a sua raiz quadrada da média das diferenças sucessivas (RMSSD) da sua variabilidade da frequência cardíaca (HRV), menor sua pontuação de recuperação. Comparamos uma média móvel dos valores dos seus últimos 7 dias com uma normal de 60 dias para avaliar sua pontuação de recuperação de RMSSD. Se você está monitorando o HRV em repouso e não vê um resultado, pode ser porque precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
+        "recoverySdnn": "Quanto menor o seu desvio padrão dos intervalos NN (SDNN) da sua variabilidade da frequência cardíaca (HRV), menor sua pontuação de recuperação. Comparamos uma média móvel dos valores dos seus últimos 7 dias com uma normal de 60 dias para avaliar sua pontuação de recuperação de SDNN. Se você está monitorando o HRV em repouso e não vê um resultado, pode ser porque precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
+        "recoveryHrRest": "Quanto maior sua frequência cardíaca de repouso em comparação com sua frequência cardíaca de repouso habitual, menor sua pontuação de recuperação. Comparamos o valor de hoje com uma normal de 30 dias para avaliar o desvio de sua frequência cardíaca de repouso do habitual. Se você está monitorando a frequência cardíaca de repouso e não vê um resultado, pode ser porque precisamos de pelo menos 10 dias de medições para estabelecer uma tendência confiável.",
+        "recoveryEss": "O External Stress Score (ESS) de suas atividades passadas impacta diretamente sua pontuação geral de recuperação. Um acúmulo maior de ESS resulta em uma redução maior na recuperação. Essa redução é calculada usando nosso modelo de recuperação personalizado, que é adaptado aos seus dados históricos únicos de exercício e recuperação. Para gerar uma pontuação de recuperação precisa, exigimos pelo menos 10 dias de atividades com ESS medido para treinar seu modelo de recuperação.",
+        "lastFourWeeks": "Seus dados de treino das últimas quatro semanas. Sua pontuação de adesão é de 100% se, em uma determinada semana, você completou todos os treinos planejados exatamente como prescrito. Se você completou os treinos, mas não exatamente como prescrito, sua pontuação de adesão é menor. Isso lhe dá uma indicação de quão bem você está seguindo seu plano de treino. Se você está vendo N/A, significa que seu plano ainda não começou ou não temos dados suficientes para calcular sua pontuação de adesão ainda.",
         "yearHistory": "Seus dados de treino do último ano. Cada bloco representa um dia e a cor representa a duração total do seu treino em cada dia.",
         "learnMore": "Saiba mais."
     }

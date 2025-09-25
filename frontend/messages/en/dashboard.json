@@ -50,7 +50,8 @@
         "yearHistory": "365 Day History",
         "date": "Date:",
         "duration": "Duration:",
-        "na": "N/A"
+        "na": "N/A",
+        "planCompliance": "Plan Compliance"
     },
     "nextWorkout": {
         "noWorkoutsScheduled": "You don't have any workouts scheduled yet!",
@@ -80,7 +81,15 @@
         "notTrackingRestingHr": "You're not tracking your resting HR!",
         "notTrainingOrNoHrData": "You're not training, or you haven't connected HR data!",
         "makeMostOfAiEndurance": "Make the most of AI Endurance",
-        "essOn": "ESS on {date}"
+        "essOn": "ESS on {date}",
+        "drivingAerobicRecovery": "Driving Aerobic Recovery",
+        "cardTitles": {
+            "hrRest": "HR Rest"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Aerobic Recovery",
+            "muscleJointRecovery": "Muscle/Joint Recovery"
+        }
     },
     "thisWeek": {
         "title": "This Week's Training",
@@ -134,7 +143,8 @@
     "languageDisclaimer": {
         "translationWarning": "We're working on improving the {language} version of AI Endurance. We appreciate any feedback - please send to ",
         "emailSubject": "Feedback on AI Endurance App",
-        "emailBody": "Hi AI Endurance Team:\n\nHere's what's wrong with your {language} app text:"
+        "emailBody": "Hi AI Endurance Team:\n\nHere's what's wrong with your {language} app text:",
+        "orHelp": "or help improve translations on GitHub"
     },
     "labels": {
         "recoveryDisplay": "Your historical recovery values based on your HRV at rest data (RMSSD/SDNN and Resting HR) and DFA a₁ workout data. If your Garmin watch collects HRV data at night, connect your Garmin Connect account and check 'Daily Health Stats'. Garmin will send your data automatically after you wake up. If you are using the Oura ring or Whoop, connect your Oura or Whoop account. If you are using a Suunto, Coros or Polar watch that records overnight HRV, connect your Suunto, Coros or Polar account. To get other HRV at rest data into AI Endurance, connect your favourite HRV app to TrainingPeaks and connect TrainingPeaks to AI Endurance. Based on the most recent data from your connected apps.",

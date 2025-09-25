@@ -11,7 +11,7 @@
         "newChat": "Nuova Chat"
     },
     "overview": {
-        "welcome": "Benvenuto nel tuo assistente di allenamento basato sull'IA! Puoi fare domande sul tuo piano di allenamento, strategie nutrizionali, stato di Recovery e analizzare le attività passate. Puoi anche chiedergli di modificare il tuo piano di allenamento, creare o cambiare singoli allenamenti."
+        "welcome": "Benvenuto nel tuo assistente di allenamento basato sull'IA! Puoi fare domande sul tuo piano di allenamento, strategie nutrizionali, stato di recupero e analizzare le attività passate. Puoi anche chiedergli di modificare il tuo piano di allenamento, creare o cambiare singoli allenamenti."
     },
     "models": {
         "small": {
@@ -152,8 +152,8 @@
         },
         "recoveryStatus": {
             "title": "Riepilogo dettagliato",
-            "label": "del mio stato di Recovery attuale",
-            "action": "Riepilogo dettagliato del mio stato di Recovery attuale"
+            "label": "del mio stato di recupero attuale",
+            "action": "Riepilogo dettagliato del mio stato di recupero attuale"
         }
     },
     "toolResults": {
@@ -168,7 +168,7 @@
         "runningActivityDetails": "Dettagli attività di corsa recuperati",
         "swimmingActivities": "Attività di nuoto recuperate",
         "swimmingActivityDetails": "Dettagli attività di nuoto recuperati",
-        "recoveryModel": "Modello di Recovery recuperato",
+        "recoveryModel": "Modello di recupero recuperato",
         "goalEvents": "Eventi obiettivo recuperati",
         "planProgress": "Progressi del piano recuperati"
     },

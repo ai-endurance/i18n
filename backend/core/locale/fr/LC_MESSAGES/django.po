@@ -23,10 +23,10 @@ msgstr "Durée : {}."
 
 # Workout descriptions - complete sentences
 msgid "Warm up for {} minutes at {}."
-msgstr "Warm up pendant {} minutes à {}."
+msgstr "Échauffement pendant {} minutes à {}."
 
 msgid "Cool down for {} minutes at {}."
-msgstr "Cool down pendant {} minutes à {}."
+msgstr "Retour au calme pendant {} minutes à {}."
 
 msgid "{} for {} at {}."
 msgstr "{} pendant {} à {}."
@@ -51,7 +51,7 @@ msgid "less than {} W"
 msgstr "moins de {} W"
 
 msgid "slower than {} {} pace"
-msgstr "plus lent que {} {} de rythme"
+msgstr "plus lent que {} {} d'allure"
 
 msgid "(more than {} W)"
 msgstr "(plus de {} W)"
@@ -73,7 +73,7 @@ msgstr "(plus lent que {} {})"
 
 # Swimming descriptions - complete sentences
 msgid "Warm up for {}"
-msgstr "Warm up pour {}"
+msgstr "Échauffement pour {}"
 
 msgid "Main set {}:"
 msgstr "Série principale {} :"
@@ -82,17 +82,17 @@ msgid "Preparation set {}:"
 msgstr "Série de préparation {} :"
 
 msgid "Cool down for {}"
-msgstr "Cool down pour {}"
+msgstr "Retour au calme pour {}"
 
 msgid "{} seconds rest. "
 msgstr "{} secondes de repos. "
 
 # Swim interval descriptions - complete sentences
 msgid "{} at {} pace {}"
-msgstr "{} à {} pace {}"
+msgstr "{} à {} allure {}"
 
 msgid " at {} pace {}."
-msgstr " à {} pace {}"
+msgstr " à {} allure {}"
 
 msgid " Recommended as free ride."
 msgstr " Recommandé comme sortie libre."
@@ -101,7 +101,7 @@ msgid " or less than "
 msgstr " ou moins de "
 
 msgid "pace"
-msgstr "pace"
+msgstr "allure"
 
 # Gear list email translations
 msgid "How to get the most out of AI Endurance, {}"

@@ -68,7 +68,7 @@
     },
     "advanced": {
         "title": "Avanzate",
-        "maintenanceMode": "Maintenance Mode"
+        "maintenanceMode": "Mantenimento"
     },
     "planFindingControls": {
         "preferEnduranceWorkouts": "Preferisci allenamenti di Endurance",
@@ -101,12 +101,12 @@
         "goalSelect": {
             "cyclist": "Ottimizza la tua FTP (Functional Threshold Power), la tua Critical Cycling Power o la tua Ultra Endurance Power - la tua potenza a DFA a₁ = 0.75, la tua soglia aerobica HRV. Puoi anche personalizzare il tuo evento obiettivo e configurare pesi personalizzati per ogni obiettivo per dare priorità a una disciplina rispetto alle altre. Un peso di 1 significa che la disciplina ha la massima priorità, mentre un peso di 0 significa che non ha alcuna priorità.",
             "runnerWithPower": "Ottimizza la tua Critical Running Power o la tua Ultra Endurance Power - la tua potenza a DFA a₁ = 0.75, la tua soglia aerobica HRV. Puoi anche personalizzare il tuo evento obiettivo e configurare pesi personalizzati per ogni obiettivo per dare priorità a una disciplina rispetto alle altre. Un peso di 1 significa che la disciplina ha la massima priorità, mentre un peso di 0 significa che non ha alcuna priorità.",
-            "runnerWithoutPower": "Scegli dalla 5k fino alla distanza della Maratona. Oppure ottimizza la tua Ultra Endurance Pace - la tua Pace a DFA a₁ = 0.75, la tua soglia aerobica HRV. Puoi anche personalizzare il tuo evento obiettivo e configurare pesi personalizzati per ogni obiettivo per dare priorità a una disciplina rispetto alle altre. Un peso di 1 significa che la disciplina ha la massima priorità, mentre un peso di 0 significa che non ha alcuna priorità.",
+            "runnerWithoutPower": "Scegli dalla 5k fino alla distanza della Maratona. Oppure ottimizza la tua Ultra Endurance Pace - il tuo passo a DFA a₁ = 0.75, la tua soglia aerobica HRV. Puoi anche personalizzare il tuo evento obiettivo e configurare pesi personalizzati per ogni obiettivo per dare priorità a una disciplina rispetto alle altre. Un peso di 1 significa che la disciplina ha la massima priorità, mentre un peso di 0 significa che non ha alcuna priorità.",
             "triathlete": "Scegli dalla distanza Sprint fino alla distanza completa dell'Ironman. Per le distanze Sprint e Olimpica, ottimizziamo la tua Critical Cycling Power e la tua {runTextSprintOlympic}. Per Mezzo Ironman e Ironman, ottimizziamo la tua Aerobic Cycling Power e la tua {runTextHalfIronman}. Puoi anche personalizzare il tuo evento obiettivo e configurare pesi personalizzati per ogni obiettivo per dare priorità a una disciplina rispetto alle altre. Un peso di 1 significa che la disciplina ha la massima priorità, mentre un peso di 0 significa che non ha alcuna priorità.",
             "runTextSprintOlympic": "Critical Running Power",
-            "runTextSprintOlympicNoPower": "Pace 5k o 10k",
+            "runTextSprintOlympicNoPower": "Passo 5k o 10k",
             "runTextHalfIronman": "Aerobic Running Power",
-            "runTextHalfIronmanNoPower": "Pace Mezza Maratona o Maratona"
+            "runTextHalfIronmanNoPower": "Passo Mezza Maratona o Maratona"
         },
         "secondaryEvent": {
             "paragraph1": "Aggiungi eventi B e C per integrare il tuo evento principale. Per gli eventi B, l'IA ottimizza il tuo allenamento con un'enfasi moderata, prevedendo un breve taper prima e giorni di recupero dopo l'evento. Gli eventi C sostituiscono l'allenamento programmato nel giorno dell'evento, senza allenamenti pianificati il giorno prima o dopo.",

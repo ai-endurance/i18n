@@ -26,6 +26,8 @@
     "vo2maxCeiling": "VO2Max ceiling",
     "detectedAerobicThresholdForCycling": "Detected aerobic threshold for cycling:",
     "detectedAerobicThresholdForRunning": "Detected aerobic threshold for running:",
+    "ftpSettingForZwift": "FTP setting for Zwift",
+    "ftpSettingForZwiftAndTrainingPeaks": "FTP setting for Zwift and TrainingPeaks",
     "changeUserType": "Change User Type",
     "runner": "Runner",
     "cyclist": "Cyclist",

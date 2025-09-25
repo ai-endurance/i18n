@@ -27,10 +27,10 @@ msgstr "Duración: {}."
 
 # Workout descriptions - complete sentences
 msgid "Warm up for {} minutes at {}."
-msgstr "Calienta durante {} minutos a {}."
+msgstr "Calentamiento durante {} minutos a {}."
 
 msgid "Cool down for {} minutes at {}."
-msgstr "Enfría durante {} minutos a {}."
+msgstr "Vuelta a la calma durante {} minutos a {}."
 
 msgid "{} for {} at {}."
 msgstr "{} durante {} a {}."
@@ -39,10 +39,10 @@ msgid "{} a {} time trial to test your current performance level."
 msgstr "{} una contrarreloj de {} para probar tu nivel de rendimiento actual."
 
 msgid " No target power, try to maximize your {} average power."
-msgstr " Sin Power objetivo, trata de maximizar tu Power promedio de {}."
+msgstr " Sin potencia objetivo, trata de maximizar tu potencia promedio de {}."
 
 msgid " No target pace, try to maximize your {} average pace."
-msgstr " Sin Pace objetivo, trata de maximizar tu Pace promedio de {}."
+msgstr " Sin ritmo objetivo, trata de maximizar tu ritmo promedio de {}."
 
 msgid "Do {} {} intervals of {} {} on {} recovery {}."
 msgstr "Haz {} intervalos de {} de {} {} con {} de recuperación {}."
@@ -55,7 +55,7 @@ msgid "less than {} W"
 msgstr "menos de {} W"
 
 msgid "slower than {} {} pace"
-msgstr "más lento que {} {} pace"
+msgstr "más lento que {} {} de ritmo"
 
 msgid "(more than {} W)"
 msgstr "(más de {} W)"
@@ -77,7 +77,7 @@ msgstr "(más lento que {} {})"
 
 # Swimming descriptions - complete sentences
 msgid "Warm up for {}"
-msgstr "Calienta durante {}"
+msgstr "Calentamiento durante {}"
 
 msgid "Main set {}:"
 msgstr "Serie principal {}:"
@@ -86,17 +86,17 @@ msgid "Preparation set {}:"
 msgstr "Serie de preparación {}:"
 
 msgid "Cool down for {}"
-msgstr "Enfría durante {}"
+msgstr "Vuelta a la calma durante {}"
 
 msgid "{} seconds rest. "
 msgstr "{} segundos de descanso. "
 
 # Swim interval descriptions - complete sentences
 msgid "{} at {} pace {}"
-msgstr "{} a {} pace {}"
+msgstr "{} a {} ritmo {}"
 
 msgid " at {} pace {}."
-msgstr " a {} pace {}."
+msgstr " a {} ritmo {}."
 
 msgid " Recommended as free ride."
 msgstr " Recomendado como salida libre."
@@ -105,7 +105,7 @@ msgid " or less than "
 msgstr " o menos de "
 
 msgid "pace"
-msgstr "pace"
+msgstr "ritmo"
 
 # Gear list email translations
 msgid "How to get the most out of AI Endurance, {}"
