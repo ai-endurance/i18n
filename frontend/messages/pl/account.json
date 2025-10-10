@@ -1,0 +1,166 @@
+{
+    "metadata": {
+        "title": "Account",
+        "description": "Zarządzaj tutaj ustawieniami swojego konta"
+    },
+    "accountSettings": "Ustawienia konta",
+    "weight": "Waga (kg)",
+    "height": "Wzrost (cm)",
+    "language": "Język",
+    "updateStravaDescription": "Aktualizuj opis na Strava",
+    "useDataForResearch": "Używaj danych do badań naukowych",
+    "useRunningPower": "Używaj mocy biegowej",
+    "useHrvDerivedThresholds": "Używaj progów wyznaczonych na podstawie HRV",
+    "controlGarminWorkoutsWithLapButton": "Steruj treningami Garmin przyciskiem okrążenia",
+    "controlIntervalsicuWorkoutsWithLapButton": "Steruj treningami Intervals.icu przyciskiem okrążenia",
+    "estimatePowerFromHr": "Szacuj moc na podstawie tętna",
+    "useSecondaryLayerOfTrainingForDigitalTwin": "Używaj dodatkowej warstwy treningu dla Digital Twin",
+    "useSdnnInsteadOfRmssdHrv": "Używaj SDNN zamiast RMSSD HRV",
+    "manuallySetZones": "Ustaw strefy ręcznie",
+    "cyclingZones": "Strefy kolarskie (W)",
+    "runningPowerZones": "Strefy mocy biegowej (W)",
+    "runningZones": "Strefy biegowe (min{unit})",
+    "enduranceCeiling": "Pułap Endurance",
+    "tempoCeiling": "Pułap Tempo",
+    "thresholdCeiling": "Pułap Threshold",
+    "vo2maxCeiling": "Pułap VO2Max",
+    "detectedAerobicThresholdForCycling": "Wykryty próg tlenowy dla kolarstwa:",
+    "detectedAerobicThresholdForRunning": "Wykryty próg tlenowy dla biegania:",
+    "ftpSettingForZwift": "Ustawienie FTP dla Zwift",
+    "ftpSettingForZwiftAndTrainingPeaks": "Ustawienie FTP dla Zwift i TrainingPeaks",
+    "changeUserType": "Zmień typ użytkownika",
+    "runner": "Biegacz",
+    "cyclist": "Kolarz",
+    "triathlete": "Triathlonista",
+    "saveChanges": "Zapisz zmiany",
+    "accountUpdated": "Konto zaktualizowane!",
+    "accountUpdateFailed": "Aktualizacja konta nie powiodła się",
+    "pleaseWaitForPlanSearch": "Poczekaj na zakończenie bieżącego wyszukiwania planu, aby zapisać zmiany.",
+    "confirmRunningPowerChange": "Czy na pewno chcesz zmienić ustawienie mocy biegowej? Spowoduje to usunięcie bieżącego planu treningowego i utworzenie nowego planu na podstawie nowego ustawienia mocy biegowej. Możesz edytować plan po zaktualizowaniu ustawienia. Ponieważ może to wymagać wytrenowania nowego modelu AI, może to potrwać kilka minut. Odśwież tę stronę kilka minut po zapisaniu zmian.",
+    "confirmUserTypeChange": "Czy na pewno chcesz zmienić typ użytkownika? Spowoduje to usunięcie bieżącego planu treningowego i utworzenie domyślnego 6-tygodniowego planu dla nowego typu użytkownika. Możesz edytować plan po zakończeniu zmiany typu użytkownika. Ponieważ musimy wytrenować nowy model AI, może to potrwać kilka minut. Odśwież tę stronę kilka minut po zapisaniu zmian.",
+    "resetCheckIn": "Zresetuj Check In",
+    "reset": "Resetuj",
+    "checkInReset": "Check In zresetowany!",
+    "checkInResetFailed": "Resetowanie Check In nie powiodło się!",
+    "referAFriend": "Poleć znajomym",
+    "referralBodyText": "Zdobądź 10 USD kredytu za każdego poleconego znajomego, który zostanie płatnym subskrybentem. Udostępnij swój unikalny link polecający i zacznij oszczędzać na subskrypcji już dziś. Twój link polecający:",
+    "referralLinkCopied": "Link polecający skopiowany!",
+    "subscription": "Subskrypcja",
+    "pleaseWaitForPlanSearchToManageSubscription": "Poczekaj na zakończenie bieżącego wyszukiwania planu, aby zarządzać subskrypcją",
+    "manageSubscriptionInAppleIosApp": "Zarządzaj subskrypcją w aplikacji Apple iOS",
+    "manageSubscriptionOnAiEnduranceWebsite": "Zarządzaj subskrypcją na stronie AI Endurance",
+    "youHaveCreditOf": "Masz ${credit} USD kredytu",
+    "notSubscribedToAnyPlan": "Nie subskrybujesz żadnego planu",
+    "onTheYearlyPlan": "Korzystasz z planu rocznego",
+    "onTheMonthlyPlan": "Korzystasz z planu miesięcznego",
+    "downloadRecoveryHistory": "Pobierz historię regeneracji",
+    "download": "Pobierz",
+    "dangerZone": "STREFA NIEBEZPIECZNA",
+    "deleteAccount": "Usuń konto",
+    "pleaseWaitForPlanSearchToDeleteAccount": "Poczekaj na zakończenie bieżącego wyszukiwania planu, aby usunąć konto",
+    "errorDeletingAccount": "Błąd podczas usuwania konta",
+    "confirmDeleteAccount": "Jeśli coś jest nie tak z Twoim kontem, najpierw skontaktuj się z pomocą techniczną. Nie usuwaj konta w celu jego ponownego utworzenia. Garmin pozwala na jednorazowy import historii. Możesz nie być w stanie ponownie zaimportować swoich danych. Czy na pewno chcesz usunąć swoje konto?",
+    "poolLength": "Długość basenu",
+    "unit": "Jednostka",
+    "setPerformanceLevels": "Ustaw poziomy wydolności",
+    "performanceOn": "Wydolność w dniu",
+    "swimmingData": "Dane pływackie",
+    "autocalcCss": "Autokalculacja CSS",
+    "pleaseWaitForPlanSearchToUpdateCss": "Poczekaj na zakończenie bieżącego wyszukiwania planu, aby zaktualizować CSS",
+    "criticalSwimSpeed": "Critical Swim Speed",
+    "per100m": "na 100 m",
+    "per100yd": "na 100 yd",
+    "criticalSwimSpeedUpdated": "Critical Swim Speed zaktualizowany!",
+    "criticalSwimSpeedUpdateFailed": "Aktualizacja Critical Swim Speed nie powiodła się!",
+    "billing": "Płatności",
+    "billingSettings": "Ustawienia płatności",
+    "errorConnectingToStripe": "Błąd połączenia ze Stripe",
+    "cancelSubscription": "Anuluj subskrypcję",
+    "confirmCancelSubscription": "Czy na pewno chcesz anulować subskrypcję?",
+    "subscriptionCancelledSuccessfully": "Subskrypcja anulowana pomyślnie",
+    "failedToCancelSubscription": "Anulowanie subskrypcji nie powiodło się",
+    "subscriptionCanceledMessage": "Twoja subskrypcja została anulowana i pozostanie aktywna do końca bieżącego cyklu rozliczeniowego.",
+    "reactivateSubscription": "Aktywuj ponownie subskrypcję",
+    "subscriptionReactivated": "Subskrypcja ponownie aktywowana!",
+    "failedToReactivateSubscription": "Ponowna aktywacja subskrypcji nie powiodła się",
+    "successfullyResubscribed": "Subskrypcja wznowiona pomyślnie! Witaj z powrotem!",
+    "subscriptionExpiresMessage": "Anulowano subskrypcję, która wygaśnie z końcem bieżącego cyklu rozliczeniowego.",
+    "calculateZones": "Oblicz strefy",
+    "pleaseWaitForPlanSearchToRecalculateZones": "Poczekaj na zakończenie bieżącego wyszukiwania planu przed ponownym obliczeniem stref.",
+    "autocalcZones": "Autokalculacja stref",
+    "failedToAutocalculateZones": "Automatyczne obliczanie stref nie powiodło się. Spróbuj ponownie później.",
+    "successfullyAutocalculatedZones": "Strefy obliczone automatycznie.",
+    "changeSubscription": "Zmień subskrypcję",
+    "subscribe": "Subskrybuj",
+    "units": "Jednostki",
+    "imperial": "Imperialne",
+    "metric": "Metryczne",
+    "labels": {
+        "zonesLabel": {
+            "paragraph1": "Możesz ręcznie ustawić swoje strefy intensywności. Tlenowe progi tętna są obliczane na podstawie danych DFA a₁, jeśli są dostępne z ostatnich 90 dni. Aby uzyskać więcej wyjaśnień, zobacz",
+            "learnMore": "wyjaśnienie stref treningowych."
+        },
+        "autocalcZonesLabel": {
+            "paragraph1": "Możemy automatycznie obliczyć Twoje strefy na podstawie danych historycznych. Używamy następującego systemu do ich oszacowania: Po pierwsze, szukamy ostatnich wyników testów i poziomów wydolności ustawionych ręcznie w ciągu ostatnich 14 dni.",
+            "paragraph2": "Po drugie, jeśli używasz progów opartych na HRV, próbujemy znaleźć wystarczającą ilość danych progowych DFA a₁, aby ustawić Twoje strefy. Próbujemy z danymi z ostatnich 30 dni, a jeśli nie ma wystarczającej ilości danych, używamy danych z ostatnich 90 dni.",
+            "paragraph3": "Po trzecie, używamy pomiarów Critical Power z ostatnich 4 tygodni do ustawienia Twoich stref.",
+            "paragraph4": "Po czwarte, używamy rozkładu Twoich historycznych danych mocy/tempa z ostatnich kilku miesięcy do ustawienia Twoich stref.",
+            "paragraph5": "W ostatnim kroku przeprowadzamy różne kontrole spójności z Twoimi ostatnimi wynikami, aby upewnić się, że strefy są dokładne. Obejmuje to niezależne ustawienie strefy Endurance za pomocą danych progu tlenowego DFA a₁, jeśli są dostępne.",
+            "paragraph6": "Cały proces może potrwać do kilku minut.",
+            "paragraph7": "Alternatywnie, możesz użyć Chat, aby ustawić swoje strefy na podstawie wybranych ostatnich aktywności i innych niestandardowych danych wejściowych. Jest to najbardziej elastyczna dostępna opcja."
+        },
+        "researchLabel": {
+            "paragraph1": "Zezwól nam na wykorzystanie Twoich danych do publikowania badań naukowych na temat skuteczności treningu wytrzymałościowego, które mogą przyczynić się do postępu w badaniach nad wysiłkiem fizycznym i pomóc innym sportowcom w osiąganiu ich celów. Jesteśmy niezwykle świadomi Twoich obaw dotyczących prywatności. Twoje dane zawsze pozostaną anonimowe, tzn. Twoje imię i nazwisko ani żadne wartości dotyczące wydolności nigdy nie zostaną opublikowane. Dane będą publikowane wyłącznie w formie zagregowanej, na przykład: „Średnio kompozycja treningu x pomogła sportowcom poprawić wyniki o y procent”. Domyślnie to pole jest odznaczone, co oznacza, że Twoje dane nigdy nie zostaną wykorzystane w żadnych publicznych badaniach bez Twojej zgody. Przykładowe badanie znajdziesz tutaj:",
+            "learnMore": "to badanie."
+        },
+        "hrvThresholdsLabel": {
+            "paragraph1": "Jeśli zaznaczone, używamy Twoich progów DFA a₁ uzyskanych z danych HRV do trenowania modelu AI i przewidywania Twojej wydolności.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "swimmingLabel": {
+            "paragraph1": "Możemy automatycznie obliczyć Twój Critical Swim Speed (CSS) na podstawie historycznego rozkładu tempa pływania. Możesz też ręcznie dostosować swój CSS. Twój CSS to tempo, które teoretycznie możesz utrzymać bez wyczerpania.",
+            "learnMore": "Dowiedz się więcej o teście CSS."
+        },
+        "disciplineLabel": {
+            "paragraph1": "Możesz ręcznie ustawić poziomy wydolności, jeśli uważasz, że dane nie odzwierciedlają dobrze Twojego stanu kondycji, na przykład jeśli od dłuższego czasu nie wykonywałeś testu. Należy używać tej opcji oszczędnie. Nasza AI automatycznie wykrywa większość wyników z zawodów i testów (zobacz FAQ). Aby uzyskać więcej wyjaśnień, zobacz",
+            "learnMore": "wyjaśnienie stref treningowych."
+        },
+        "phrLabel": {
+            "appended": "Nasza AI może przewidywać Twoją moc kolarską na podstawie tętna, kadencji i/lub DFA a₁ dla jazd bez miernika mocy. Jeśli dostępne są dane dotyczące kadencji lub a₁, dokładność szacowanej mocy znacznie wzrasta. Czasami pomiary tętna są bardzo niedokładne, np. w przypadku optycznych czujników nadgarstkowych. Może to prowadzić do bardzo niedokładnych szacunków mocy. W takim przypadku możesz wyłączyć tę funkcję, a nasza AI będzie uwzględniać tylko jazdy z pomiarami z miernika mocy. Aby móc przewidywać moc na podstawie tętna, wymagamy co najmniej 1 godziny aktywności z danymi o mocy i tętnie w Twojej historii.",
+            "learnMore": "Dowiedz się więcej.",
+            "estimationError": "Twój błąd szacowania:",
+            "fromHeartRateCadenceDfa": "z tętna + kadencji + DFA a₁",
+            "fromHeartRateDfa": "z tętna + DFA a₁",
+            "fromHeartRateCadence": "z tętna + kadencji",
+            "fromHeartRateOnly": "tylko z tętna"
+        },
+        "runningPowerLabel": {
+            "base": "Jeśli zaznaczone, Twój trening będzie oparty na mocy biegowej. W przeciwnym razie używamy GAP (Grade Adjusted Pace). Jeśli zmienisz ustawienie mocy biegowej, spowoduje to usunięcie bieżącego planu treningowego i utworzenie nowego planu na podstawie nowego ustawienia po potwierdzeniu zmian. W przypadku zmiany ustawień może być konieczne wytrenowanie nowego modelu AI. Odśwież stronę po kilku minutach. Obecnie masz {nRunningPower, plural, one {# bieg} few {# biegi} many {# biegów} other {# biegu}} z mocą biegową spośród wszystkich {nRunning, plural, one {# biegu} few {# biegów} many {# biegów} other {# biegu}} w AI Endurance.",
+            "insufficientData": " Obecnie nie masz wystarczającej ilości danych o mocy biegowej, dlatego domyślnie wróciliśmy do GAP. Potrzebujesz kilku biegów z pomiarem mocy w ciągu kilku tygodni, aby móc korzystać z mocy biegowej w AI Endurance."
+        },
+        "pretrainLabel": {
+            "paragraph1": "Jeśli zaznaczone, wstępnie trenujemy Twój model uczenia maszynowego Digital Twin na zgromadzonych danych {userType}ów podobnych do Ciebie pod względem wieku, wagi, płci i ogólnego poziomu sprawności. Jeśli odznaczone, Twój Digital Twin jest trenowany wyłącznie na Twoich danych. Włączenie wstępnego trenowania może skutkować większą rozbieżnością między wykrytymi a przewidywanymi poziomami wydolności, ponieważ reakcja na trening modelowana na podstawie zgromadzonych danych może różnić się od Twojej osobistej reakcji."
+        },
+        "garminLapLabel": {
+            "paragraph1": "Jeśli zaznaczone, części treningu takie jak rozgrzewka, schłodzenie i odpoczynek zakończą się po naciśnięciu przycisku okrążenia, a nie po upływie ich czasu trwania. Może to być przydatne podczas treningu na zewnątrz, gdy chcesz mieć większą kontrolę nad czasem rozpoczęcia interwału, na przykład z powodu ograniczeń na trasie lub w ruchu drogowym."
+        },
+        "intervalsicuLapLabel": {
+            "paragraph1": "Jeśli zaznaczone, części treningu takie jak rozgrzewka, schłodzenie i odpoczynek zakończą się po naciśnięciu przycisku okrążenia, a nie po upływie ich czasu trwania. Może to być przydatne podczas treningu na zewnątrz, gdy chcesz mieć większą kontrolę nad czasem rozpoczęcia interwału, na przykład z powodu ograniczeń na trasie lub w ruchu drogowym."
+        },
+        "userTypeLabel": {
+            "paragraph1": "Spowoduje to usunięcie bieżącego planu treningowego. Zmień typ sportowca, aby mieć dostęp do różnych zawodów docelowych. Kolarz: FTP; Biegacz: 5k, 10k, (pół)maraton; Triathlonista: Sprint, Olimpijski, (pół)Ironman. Zmiana utworzy 6-tygodniowy plan treningowy, który możesz edytować na stronie planu. Może być konieczne wytrenowanie nowego modelu AI - odśwież tę stronę kilka minut po zapisaniu zmian."
+        },
+        "checkinLabel": {
+            "paragraph1": "Zazwyczaj oferujemy Ci Check In co 12 godzin. Jeśli jednak chcesz zrobić dodatkowy Check In lub przypadkowo go odrzuciłeś, możesz zresetować harmonogram Check In tutaj, a Check In pojawi się ponownie na górze Twojego Dashboard."
+        },
+        "referralLabel": {
+            "paragraph1": "Nasz program poleceń to prosty, ale skuteczny sposób na zdobycie kredytu na subskrypcję AI Endurance. Dzieląc się unikalnym kodem polecającym ze znajomymi, nie tylko przedstawiasz im narzędzie, które może pomóc w osiągnięciu ich celów fitness, ale także zdobywasz 10 USD kredytu za każdego znajomego, który zarejestruje się i zostanie płatnym subskrybentem. Kredyt ten bezpośrednio obniża koszty subskrypcji - może być wykorzystany tylko na przyszłe płatności za subskrypcję i nie może być wypłacony w gotówce. To sytuacja korzystna dla Ciebie i Twoich znajomych. Im więcej znajomych polecisz, tym więcej zaoszczędzisz, bez górnego limitu gromadzonego kredytu. Ten program to nasz sposób na podziękowanie za bycie cenionym członkiem społeczności AI Endurance i za pomoc w naszym rozwoju."
+        },
+        "recoveryHistoryLabel": {
+            "paragraph1": "Pobierz swoje historyczne dane dotyczące regeneracji w formacie CSV."
+        },
+        "useSdnnInsteadRmssd": {
+            "paragraph1": "Jeśli zbierasz nocne dane HRV za pomocą Apple Watch, możesz chcieć używać SDNN zamiast RMSSD dla swoich danych HRV. Dzieje się tak, ponieważ Apple Watch nie dostarcza danych RMSSD. SDNN jest miarą zmienności tętna, która nie jest związana z cyklem oddechowym. Jest to dobry wskaźnik ogólnego stresu i regeneracji. Jeśli używasz innego urządzenia, powinieneś używać RMSSD."
+        }
+    }
+}

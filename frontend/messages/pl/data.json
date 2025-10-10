@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "Szczegóły danych",
+        "description": "Zapoznaj się z zaawansowanymi danymi dotyczącymi Twojego Digital Twin, importowania danych i HRV."
+    },
+    "pastData": {
+        "title": "Twoje historyczne dane",
+        "actual": "Rzeczywiste",
+        "morePastData": "Więcej historycznych danych",
+        "displayed": "Wyświetlane",
+        "weight": "Waga"
+    },
+    "dataExclusions": {
+        "title": "Wykluczenia danych",
+        "saveChanges": "Zapisz zmiany",
+        "dataExclusionsSaved": "Wykluczenia danych zapisane",
+        "errorSavingDataExclusions": "Wystąpił błąd podczas zapisywania wykluczeń danych",
+        "startDate": "Data rozpoczęcia",
+        "endDate": "Data zakończenia"
+    },
+    "hrvTrends": {
+        "title": "Twoje trendy HRV a₁",
+        "date": "Data"
+    },
+    "labels": {
+        "alpha": {
+            "paragraph1": "Twoje trendy pₐ – iloczyn Twojego tempa/mocy i wartości DFA a₁ podczas pierwszych 30 minut każdej aktywności. Wartości wyższe niż średnia mogą wskazywać na szczególnie dobrą gotowość do treningu, a niższe niż średnia – na jej brak. Aby zobaczyć wartości threshold dla HRV aerobic (a₁ = 0,75) i anaerobic (a₁ = 0,5), kliknij legendę lub wybierz tętno. Wyświetlane są Thresholds z wykrytych ramp oraz z clusterów. Cluster threshold to średnia wszystkich wartości tempa/mocy/tętna zarejestrowanych podczas pierwszych 30 minut aktywności z wartościami a₁ bliskimi 0,75 (0,5). Ogólny trend (pₐ smooth) wskazuje na długoterminowe trendy w Twojej wydolności. Wyświetlane są tylko aktywności z zakłóceniami artefaktów poniżej 10%.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "pastData": {
+            "cyclist": "Model uczenia maszynowego – Twój Digital Twin – został wytrenowany na podstawie do {nCycling} Twoich jazd rowerowych z pomiarem mocy lub mocą szacowaną na podstawie tętna.",
+            "runnerWithoutPower": "Model uczenia maszynowego – Twój Digital Twin – został wytrenowany na podstawie do {nRunning} Twoich biegów.",
+            "runnerWithPower": "Model uczenia maszynowego – Twój Digital Twin – został wytrenowany na podstawie do {nRunningPower} Twoich biegów z pomiarem mocy biegowej.",
+            "triathleteWithoutPower": "Model uczenia maszynowego – Twój Digital Twin – został wytrenowany na podstawie do {nCycling} Twoich jazd rowerowych z pomiarem mocy lub mocą szacowaną na podstawie tętna oraz {nRunning} Twoich biegów.",
+            "triathleteWithPower": "Model uczenia maszynowego – Twój Digital Twin – został wytrenowany na podstawie do {nCycling} Twoich jazd rowerowych z pomiarem mocy lub mocą szacowaną na podstawie tętna oraz {nRunningPower} Twoich biegów z pomiarem mocy biegowej.",
+            "paragraph4": "Poniższy wykres przedstawia historię Twojej wydolności w czasie.",
+            "paragraph5": "Wyświetlane są również prognozy modelu uczenia maszynowego jako AI Fit. Ogólnie rzecz biorąc, im bliżej siebie znajdują się obie krzywe, tym lepiej model przewiduje Twoją wydolność. Jeśli włączono wstępne trenowanie dla Twojego Digital Twin (&apos;Use secondary layer of training for digital twin&apos;), może to skutkować większą rozbieżnością między wykrytymi a przewidywanymi poziomami wydolności, ponieważ reakcja treningowa modelowana na podstawie zgromadzonych danych może różnić się od Twojej osobistej reakcji.",
+            "paragraph6": "Wyświetlana jest również względna waga przypisana do każdego punktu danych w modelu. Domyślna waga wynosi 1. Waga 0,1 wskazuje na ograniczoną dostępność danych o wydolności, podczas gdy waga 10 odzwierciedla bezpośredni pomiar, taki jak HRV threshold, test sprawnościowy, wyścig lub ręczne wprowadzenie danych. Dodatkowo, punkty danych z odległej przeszłości mają mniejszą wagę niż te najnowsze, co odzwierciedla ich zmniejszony wpływ."
+        },
+        "dataExclusion": {
+            "paragraph1": "W tym miejscu można wykluczyć przeszłe okresy z procesu trenowania algorytmu AI. Warto rozważyć tę opcję dla okresów, w których dane były rejestrowane za pomocą źle skalibrowanego urządzenia lub jeśli są one zbyt odległe w czasie, aby reprezentować Twoje obecne możliwości fizyczne."
+        }
+    }
+}

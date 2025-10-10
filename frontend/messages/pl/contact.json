@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "title": "Kontakt | {partner}",
+        "description": "Skontaktuj się bezpośrednio z {partner}, jeśli masz pytania lub potrzebujesz pomocy."
+    },
+    "display": {
+        "title": "Masz pytanie? Wyślij nam wiadomość!",
+        "imageAlt": "Kontakt"
+    },
+    "form": {
+        "fields": {
+            "firstName": "Imię",
+            "lastName": "Nazwisko",
+            "email": "Email",
+            "message": "Wiadomość"
+        },
+        "submit": "Wyślij",
+        "success": "Dziękujemy za kontakt z {partner}!"
+    }
+}

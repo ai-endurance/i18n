@@ -1,0 +1,164 @@
+{
+    "metadata": {
+        "title": "Dashboard",
+        "description": "Analizuj swoje dane w {partnerTitle} dashboard."
+    },
+    "recalculatingPlan": {
+        "creatingPredictions": "Tworzenie prognoz planu...",
+        "creatingWorkouts": "Tworzenie treningów...",
+        "recalculatingPlan": "Przeliczanie planu"
+    },
+    "notifications": {
+        "messages": {
+            "notificationActionSuccessful": "Akcja powiadomienia zakończona pomyślnie!",
+            "notificationDeclined": "Powiadomienie odrzucone!",
+            "feedbackDismissed": "Opinia odrzucona!",
+            "failedToRefresh": "Nie udało się odświeżyć powiadomień"
+        },
+        "display": {
+            "title": "Powiadomienia",
+            "allSet": "Wszystko gotowe!",
+            "nothingNeedsAttention": "Obecnie nic nie wymaga Twojej uwagi",
+            "done": "Gotowe"
+        },
+        "item": {
+            "accept": "Akceptuj",
+            "decline": "Odrzuć",
+            "dismiss": "Odrzuć",
+            "acceptChange": "Akceptuj zmianę",
+            "declineTooltip": "Odrzuć",
+            "dismissTooltip": "Odrzuć",
+            "feedbackFromCoach": "Informacja zwrotna od trenera AI"
+        }
+    },
+    "event": {
+        "yourPredictions": "Twoje prognozy",
+        "mainGoalEvent": "Główny cel",
+        "eventDate": "Data wydarzenia",
+        "predicted": "Prognozowany {discipline}",
+        "weeks": "{weeks, plural, one {# tydzień} few {# tygodnie} many {# tygodni} other {# tygodnia}}",
+        "displayed": "Wyświetlane",
+        "weight": "Waga: {weight}",
+        "morePredictions": "Więcej prognoz",
+        "upperMargin": "Górny margines:",
+        "prediction": "Prognoza:",
+        "lowerMargin": "Dolny margines:"
+    },
+    "history": {
+        "lastFourWeeks": "Ostatnie 4 tygodnie",
+        "calendar": "Kalendarz",
+        "yearHistory": "Historia 365 dni",
+        "date": "Data:",
+        "duration": "Czas trwania:",
+        "na": "N/A",
+        "planCompliance": "Realizacja planu"
+    },
+    "nextWorkout": {
+        "noWorkoutsScheduled": "Nie masz jeszcze zaplanowanych żadnych treningów!",
+        "nextWorkout": "Następny trening",
+        "calendar": "Kalendarz",
+        "warmup": "Rozgrzewka",
+        "mainSet": "Część główna",
+        "cooldown": "Schłodzenie",
+        "date": "Data",
+        "totalTime": "Całkowity czas",
+        "estDistance": "Szac. dystans",
+        "timeAtIntensity": "Czas w strefach intensywności",
+        "avgPace": "Średnie tempo",
+        "avgPower": "Średnia moc",
+        "estTime": "Szac. czas",
+        "distance": "Dystans"
+    },
+    "recovery": {
+        "connectHeartRateData": "Połącz dane tętna, aby zobaczyć swoją regenerację",
+        "history": "Historia",
+        "dataNotUpToDate": "Dane nieaktualne?",
+        "refreshData": "Odśwież dane",
+        "recoveryDataRefreshed": "Dane regeneracji odświeżone!",
+        "failedToRefresh": "Nie udało się odświeżyć danych regeneracji",
+        "notUsingDfa": "Nie używasz DFA a₁!",
+        "notTrackingHrv": "Nie śledzisz HRV!",
+        "notTrackingRestingHr": "Nie śledzisz tętna spoczynkowego!",
+        "notTrainingOrNoHrData": "Nie trenujesz lub nie masz połączonych danych tętna!",
+        "makeMostOfAiEndurance": "Wykorzystaj w pełni AI Endurance",
+        "essOn": "ESS w dniu {date}",
+        "drivingAerobicRecovery": "Kluczowe dla regeneracji tlenowej",
+        "cardTitles": {
+            "hrRest": "Tętno spoczynkowe"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Regeneracja tlenowa",
+            "muscleJointRecovery": "Regeneracja mięśni/stawów"
+        }
+    },
+    "thisWeek": {
+        "title": "Trening w tym tygodniu",
+        "viewFullCalendar": "Zobacz pełny kalendarz"
+    },
+    "checkIn": {
+        "title": "Samopoczucie",
+        "dismiss": "Odrzuć",
+        "feedbackTitle": "Informacja zwrotna do Twojego samopoczucia",
+        "howDoYouFeel": "Jak się dziś czujesz?",
+        "forMoreDiscussion": "Aby uzyskać bardziej szczegółową dyskusję -",
+        "tryOurAiChat": "Wypróbuj nasz AI Chat",
+        "answerHere": "Odpowiedz tutaj",
+        "enterHrvManually": "Wprowadź wartości HRV ręcznie",
+        "restingHeartRate": "Tętno spoczynkowe",
+        "submit": "Wyślij",
+        "checkinSubmitted": "Samopoczucie wysłane pomyślnie",
+        "feedbackDismissed": "Informacja zwrotna odrzucona!",
+        "sorenessQuestions": {
+            "armsShoulders": "Jak obolałe są Twoje ramiona/barki? (0-10)",
+            "core": "Jak obolały jest Twój korpus? (0-10)",
+            "legs": "Jak obolałe są Twoje nogi? (0-10)",
+            "cyclingSoreness": "Jaka jest Twoja obolałość po jeździe na rowerze? (0-10)",
+            "runningSoreness": "Jaka jest Twoja obolałość po bieganiu? (0-10)"
+        }
+    },
+    "latestWorkout": {
+        "title": "Ostatnia aktywność",
+        "noWorkoutsYet": "Wygląda na to, że nie masz jeszcze żadnych aktywności!",
+        "noWorkoutsDescription": "Połącz swoje dane z AI Endurance lub wykonaj i zarejestruj swoją pierwszą aktywność!",
+        "analysis": "Analiza"
+    },
+    "activityDetails": {
+        "startTime": "Czas rozpoczęcia",
+        "distance": "Dystans",
+        "time": "Czas",
+        "elevationGain": "Przewyższenie",
+        "averagePower": "Średnia moc",
+        "noDetails": "Brak szczegółów"
+    },
+    "checkInSnackbar": {
+        "notCheckedInRecently": "Dawno nie zgłaszano samopoczucia!",
+        "checkIn": "Zgłoś samopoczucie",
+        "dismiss": "Odrzuć"
+    },
+    "freeTrial": {
+        "trialActive": "Obecnie korzystasz z bezpłatnego okresu próbnego! Okres próbny kończy się za {daysLeft, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}.",
+        "trialEnded": "Twój bezpłatny okres próbny zakończył się! Zasubskrybuj, aby dalej korzystać z AI Endurance!",
+        "subscribeNow": "Subskrybuj teraz!"
+    },
+    "languageDisclaimer": {
+        "translationWarning": "Pracujemy nad ulepszeniem wersji {language} AI Endurance. Będziemy wdzięczni za wszelkie uwagi - prosimy o przesyłanie ich na adres ",
+        "emailSubject": "Opinia o aplikacji AI Endurance",
+        "emailBody": "Cześć zespole AI Endurance:\n\nOto co jest nie tak z tekstem w waszej aplikacji w wersji {language}:",
+        "orHelp": "lub pomóż ulepszyć tłumaczenia na GitHub"
+    },
+    "labels": {
+        "recoveryDisplay": "Twoje historyczne wartości regeneracji oparte na danych HRV w spoczynku (RMSSD/SDNN i tętno spoczynkowe) oraz danych z treningów DFA a₁. Jeśli Twój zegarek Garmin zbiera dane HRV w nocy, połącz swoje konto Garmin Connect i zaznacz 'Daily Health Stats'. Garmin automatycznie prześle Twoje dane po przebudzeniu. Jeśli używasz pierścienia Oura lub opaski Whoop, połącz swoje konto Oura lub Whoop. Jeśli używasz zegarka Suunto, Coros lub Polar, który rejestruje nocne HRV, połącz swoje konto Suunto, Coros lub Polar. Aby przenieść inne dane HRV w spoczynku do AI Endurance, połącz swoją ulubioną aplikację HRV z TrainingPeaks, a następnie połącz TrainingPeaks z AI Endurance. Na podstawie najnowszych danych z połączonych aplikacji.",
+        "prediction": "Prognozy AI dotyczące Twoich przyszłych wyników, jeśli będziesz postępować zgodnie z planem treningowym. Obejmują one błąd predykcji dla Twojego modelu uczenia maszynowego - Twojego Digital Twin.",
+        "checkIn": "Poinformuj nas o swojej obolałości i motywacji, a my dostosujemy plan, jeśli nie będzie gotowości na trening. Używamy ChatGPT do oceny motywacji do ćwiczeń i przekazania informacji zwrotnej na temat dnia treningowego. Opisz swoje samopoczucie, tak jak w rozmowie z trenerem lub przyjacielem. Na przykład: 'Praca jest teraz bardzo stresująca' lub 'Czuję duże zmęczenie' lub 'Naprawdę nie mam dziś ochoty' lub 'Gotowość do działania!'. Bierzemy również pod uwagę dane HRV w spoczynku (RMSSD/SDNN i tętno spoczynkowe) oraz dane z treningów DFA a₁. Można zgłaszać samopoczucie co 12 godzin.",
+        "recoveryAerobic": "Twój wskaźnik regeneracji tlenowej. Jest to najniższa wartość spośród wskaźnika regeneracji DFA a₁, wskaźnika regeneracji RMSSD/SDNN, wskaźnika regeneracji tętna spoczynkowego oraz wskaźnika regeneracji wywołanej przez ESS.",
+        "recoveryMuscleJoint": "Twój wskaźnik regeneracji mięśni i stawów. Modelujemy wpływ każdego treningu na mięśnie i stawy na podstawie Twoich historycznych danych treningowych. W zależności od rodzaju, intensywności i czasu trwania treningu, obliczamy wskaźnik regeneracji mięśni i stawów.",
+        "recoveryAlpha1": "Im niższe wartości DFA a₁ dla danego tempa/mocy, tym niższy wskaźnik regeneracji. Porównujemy kroczącą średnią z ostatnich 7 dni z 60-dniową normą, aby ocenić wskaźnik regeneracji DFA a₁. Jeśli śledzisz DFA a₁ i nie widzisz wyniku, może to być spowodowane tym, że a) nie ukończono dziś aktywności z DFA a₁ lub b) potrzebujemy co najmniej 10 dni pomiarów, aby ustalić wiarygodny trend.",
+        "recoveryRmssd": "Im niższa wartość pierwiastka kwadratowego ze średniej kwadratów różnic między kolejnymi odstępami RR (RMSSD) Twojej zmienności rytmu serca (HRV), tym niższy wskaźnik regeneracji. Porównujemy kroczącą średnią z ostatnich 7 dni z 60-dniową normą, aby ocenić wskaźnik regeneracji RMSSD. Jeśli śledzisz HRV w spoczynku i nie widzisz wyniku, może to być spowodowane tym, że potrzebujemy co najmniej 10 dni pomiarów, aby ustalić wiarygodny trend.",
+        "recoverySdnn": "Im niższe odchylenie standardowe odstępów między kolejnymi załamkami R (SDNN) Twojej zmienności rytmu serca (HRV), tym niższy wskaźnik regeneracji. Porównujemy kroczącą średnią z ostatnich 7 dni z 60-dniową normą, aby ocenić wskaźnik regeneracji SDNN. Jeśli śledzisz HRV w spoczynku i nie widzisz wyniku, może to być spowodowane tym, że potrzebujemy co najmniej 10 dni pomiarów, aby ustalić wiarygodny trend.",
+        "recoveryHrRest": "Im wyższe tętno spoczynkowe w porównaniu do zwykłego tętna spoczynkowego, tym niższy wskaźnik regeneracji. Porównujemy dzisiejszą wartość z 30-dniową normą, aby ocenić odchylenie tętna spoczynkowego od normy. Jeśli śledzisz tętno spoczynkowe i nie widzisz wyniku, może to być spowodowane tym, że potrzebujemy co najmniej 10 dni pomiarów, aby ustalić wiarygodny trend.",
+        "recoveryEss": "External Stress Score (ESS) z Twoich przeszłych aktywności bezpośrednio wpływa na ogólny wskaźnik regeneracji. Wyższa akumulacja ESS skutkuje większym obniżeniem regeneracji. Redukcja ta jest obliczana przy użyciu naszego spersonalizowanego modelu regeneracji, który jest dostosowany do Twoich unikalnych historycznych danych dotyczących ćwiczeń i regeneracji. Aby wygenerować dokładny wskaźnik regeneracji, wymagamy co najmniej 10 dni aktywności z zmierzonym ESS w celu wytrenowania Twojego modelu regeneracji.",
+        "lastFourWeeks": "Dane treningowe z ostatnich czterech tygodni. Wskaźnik realizacji planu wynosi 100%, jeśli w danym tygodniu wszystkie zaplanowane treningi zostały ukończone dokładnie zgodnie z zaleceniami. Jeśli treningi zostały ukończone, ale nie dokładnie zgodnie z zaleceniami, wskaźnik realizacji planu jest niższy. Daje to obraz tego, jak dobrze realizowany jest plan treningowy. Jeśli widzisz N/A, oznacza to, że plan jeszcze się nie rozpoczął lub nie mamy jeszcze wystarczającej ilości danych do obliczenia wskaźnika realizacji planu.",
+        "yearHistory": "Dane treningowe z ostatniego roku. Każdy blok reprezentuje jeden dzień, a kolor oznacza całkowity czas trwania treningu w danym dniu.",
+        "learnMore": "Dowiedz się więcej."
+    }
+}

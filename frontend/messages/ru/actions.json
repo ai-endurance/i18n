@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "Произошла ошибка. Пожалуйста, попробуйте еще раз.",
+        "networkError": "Ошибка сети. Проверьте подключение и попробуйте еще раз.",
+        "userDataNotFound": "Данные пользователя не найдены.",
+        "pleaseFilOutForm": "Пожалуйста, заполните форму.",
+        "invalidHrvInput": "Неверный ввод HRV.",
+        "noValidQueryString": "Не найдена действительная строка запроса.",
+        "invalidEventDate": "Неверная дата события.",
+        "noEventType": "Не выбран тип события.",
+        "userIdNotProvided": "ID пользователя не указан для завершения подписки."
+    },
+    "notifications": {
+        "dismissNotification": "Не удалось скрыть уведомление.",
+        "cleanupFailed": "Не удалось очистить уведомления.",
+        "switchWorkoutsFailed": "Не удалось запустить задачу переключения тренировок.",
+        "updateZonesFailed": "Не удалось обновить зоны.",
+        "findNewPlanFailed": "Не удалось найти новый план.",
+        "notSupported": "Уведомления не поддерживаются."
+    },
+    "account": {
+        "updateFailed": "Не удалось обновить Account.",
+        "deleteError": "Произошла ошибка при удалении вашего аккаунта.",
+        "reactivateSubscriptionFailed": "Не удалось возобновить подписку."
+    },
+    "activity": {
+        "changeNameFailed": "Не удалось изменить название активности.",
+        "changeRaceStatusFailed": "Не удалось изменить статус гонки для активности.",
+        "deleteFailed": "Не удалось удалить активность."
+    },
+    "auth": {
+        "logoutFailed": "Не удалось выполнить Logout."
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Не удалось вернуться к предыдущему плану."
+    },
+    "data": {
+        "addExclusionsFailed": "Не удалось добавить исключения данных.",
+        "deleteExclusionsFailed": "Не удалось удалить исключения данных.",
+        "exclusionsSavedSuccessfully": "Исключения данных успешно сохранены.",
+        "submitTaskFailed": "Не удалось отправить задачу.",
+        "noExclusionsChanged": "Исключения не были добавлены или удалены."
+    },
+    "events": {
+        "deleteFailed": "Не удалось удалить событие.",
+        "storeFailed": "Не удалось сохранить событие."
+    },
+    "feedback": {
+        "dismissFailed": "Не удалось скрыть отметку о самочувствии.",
+        "deleteFailed": "Не удалось удалить отзыв.",
+        "resetFailed": "Не удалось сбросить отметку о самочувствии."
+    },
+    "onboarding": {
+        "connectToAppFailed": "Не удалось подключиться к {appName}.",
+        "connectToStrava": "Не удалось подключиться к Strava.",
+        "connectToGarmin": "Не удалось подключиться к Garmin.",
+        "connectToOura": "Не удалось подключиться к Oura.",
+        "connectToPolar": "Не удалось подключиться к Polar.",
+        "connectToCoros": "Не удалось подключиться к Coros.",
+        "connectToIntervalsicu": "Не удалось подключиться к Intervals.icu.",
+        "connectToNolio": "Не удалось подключиться к Nolio.",
+        "connectToTp": "Не удалось подключиться к TP.",
+        "connectToSuunto": "Не удалось подключиться к Suunto.",
+        "connectToWahoo": "Не удалось подключиться к Wahoo.",
+        "connectToWhoop": "Не удалось подключиться к Whoop.",
+        "stravaPermissions": "Отметьте все флажки при подключении к Strava.",
+        "garminPermissions": "Нажмите 'Согласен' при подключении к Garmin.",
+        "ouraPermissions": "Отметьте все флажки при подключении к Oura.",
+        "handleNewUserFailed": "Не удалось запустить задачу обработки нового пользователя.",
+        "onboardingPostFailed": "Не удалось отправить данные о завершении регистрации.",
+        "invalidForm": "Неверно заполнена форма.",
+        "submitFailed": "Не удалось отправить форму."
+    },
+    "password": {
+        "resetError": "Произошла ошибка при сбросе пароля. Пожалуйста, попробуйте позже."
+    },
+    "payment": {
+        "noPaymentMethod": "Способ оплаты не указан.",
+        "createSubscriptionFailed": "Не удалось создать подписку.",
+        "paymentDeclined": "Платеж не прошел, ваша карта была отклонена.",
+        "paymentFailed": "Платеж не прошел.",
+        "iapActivationFailed": "Активация подписки через IAP не была завершена."
+    },
+    "recovery": {
+        "refreshFailed": "Не удалось обновить данные о восстановлении.",
+        "fetchModelDetailFailed": "Не удалось загрузить подробные данные модели восстановления."
+    },
+    "register": {
+        "emailRequired": "Требуется адрес электронной почты. ",
+        "passwordRequired": "Требуется пароль. ",
+        "firstNameRequired": "Требуется имя. ",
+        "lastNameRequired": "Требуется фамилия. ",
+        "passwordValidation": "Пароль должен содержать не менее 8 символов, включая хотя бы одну цифру, одну заглавную букву, одну строчную букву и один специальный символ.",
+        "createAccountFailed": "Не удалось создать аккаунт. Если у вас уже есть аккаунт, пожалуйста, войдите или воспользуйтесь опцией восстановления пароля."
+    },
+    "subscriptions": {
+        "endFailed": "Не удалось отменить подписку.",
+        "activationFailed": "Активация подписки не была завершена."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Не удалось обновить экспорт."
+    },
+    "workouts": {
+        "skipFailed": "Не удалось пропустить тренировку.",
+        "completeFailed": "Не удалось завершить тренировку.",
+        "autoCalcFailed": "Автоматический расчет не удался.",
+        "createFailed": "Произошла непредвиденная ошибка при создании тренировки.",
+        "fetchDetailsFailed": "Не удалось загрузить детали созданной тренировки."
+    },
+    "zones": {
+        "resetFailed": "Ошибка при сбросе зон."
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Не удалось загрузить данные Zwift workouts."
+    }
+}

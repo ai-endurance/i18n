@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "title": "Szczegóły regeneracji",
+        "description": "Szczegółowe informacje o stanie regeneracji."
+    },
+    "titles": {
+        "yourRecovery": "Twoja regeneracja",
+        "yourDfaReadiness": "Twoja gotowość DFA a₁",
+        "yourRecoveryMeasurements": "Twoje pomiary regeneracji",
+        "yourRmssdTrends": "Twoje trendy RMSSD",
+        "yourSdnnTrends": "Twoje trendy SDNN",
+        "yourHrRestTrends": "Twoje trendy tętna spoczynkowego"
+    },
+    "recovery": {
+        "todaysAerobicRecovery": "Dzisiejsza<linebreak>regeneracja</linebreak>tlenowa",
+        "todaysMuscleJointRecovery": "Dzisiejsza<linebreak>regeneracja</linebreak>mięśni/stawów",
+        "noRecoveryDataAvailable": "Brak danych o regeneracji. Aby zobaczyć swoją regenerację tlenową oraz mięśni i stawów, zbieraj nocne dane HRV za pomocą kompatybilnego urządzenia i zacznij korzystać z funkcji check-in w AI Endurance.",
+        "makeTheMostOfAiEndurance": "Wykorzystaj w pełni AI Endurance",
+        "noRecoveryMetricsFound": "Nie znaleziono metryk regeneracji"
+    },
+    "measurements": {
+        "source": "Źródło",
+        "delete": "Usuń",
+        "measurementDeletedSuccessfully": "Pomiar usunięto pomyślnie",
+        "errorDeletingMeasurement": "Błąd podczas usuwania pomiaru",
+        "deleteConfirmation": "Czy na pewno chcesz usunąć ten pomiar? Tej operacji nie można cofnąć."
+    },
+    "chart": {
+        "measuredA1": "Zmierzona wartość a₁",
+        "expectedA1": "Oczekiwana wartość a₁",
+        "notCalculatedBecause": "Nie obliczono dla ostatniej aktywności, ponieważ: "
+    },
+    "labels": {
+        "a1Readiness": {
+            "paragraph1": "Gotowość jest oparta na pomiarach HRV (DFA a₁) z ostatnich aktywności, z uwzględnieniem tylko tych aktywności, w których zniekształcenie artefaktów jest mniejsze niż 10%. Jest ona obliczana za pomocą modelu regresji liniowej (ciągła czerwona linia), który koreluje efektywną średnią moc/tempo (‹Moc/Tempo›) i efektywne wartości DFA a₁ (‹a₁›) z pierwszych 10 minut biegu lub 20 minut jazdy na rowerze z ostatnich 21 treningów (czerwone krzyżyki, ze słupkami błędów reprezentującymi zmienność danych). Wartości efektywne nie uwzględniają okresów, w których ‹Moc/Tempo› wynosi zero, co zapewnia wykorzystanie miarodajnych danych. Tempo zawsze odnosi się do GAP (Grade Adjusted Pace).",
+            "paragraph2": "Dla ostatniego treningu, ‹Moc/Tempo› i ‹a₁› są porównywane z modelem regresji. Gotowość odzwierciedla względne odchylenie (pionowa czerwona linia przerywana) obserwowanej wartości ‹a₁› (niebieski krzyżyk) od przewidywanej wartości ‹a₁› przy tej samej ‹Mocy/Tempie› (czerwona kropka).",
+            "paragraph3": "Gotowość nie jest obliczana, jeśli: zniekształcenie artefaktów bieżącego treningu jest większe lub równe 10%; w ciągu ostatnich 21 dni istnieją mniej niż 4 prawidłowe aktywności; ‹a₁› przekracza 1,4 (aby uniknąć wpływu na model aktywności znacznie wykraczających poza dynamiczny zakres a₁); ‹a₁› lub ‹Moc/Tempo› bieżącego treningu odbiega o ponad 20% od danych historycznych; lub czas jazdy bez pedałowania/zerowej ‹Mocy/Tempa› przekracza 5 minut w ciągu pierwszych 10 minut (bieg) lub 20 minut (jazda na rowerze), z wyłączeniem czasu pauzy.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "rmssdNormalVsBaseline": {
+            "paragraph1": "Twoja regeneracja jest oceniana przy użyciu pierwiastka kwadratowego ze średniej kolejnych różnic (RMSSD) w twojej zmienności rytmu serca. Bazowe RMSSD (czerwona linia) jest obliczane jako 7-dniowa średnia krocząca twoich indywidualnych wartości RMSSD (niebieskie słupki). Ta linia bazowa jest porównywana z twoim normalnym zakresem RMSSD (szary pas), który reprezentuje 60-dniową średnią kroczącą plus minus jedno odchylenie standardowe. Regeneracja jest uważana za niską, gdy twoje bazowe RMSSD spada poniżej normalnego zakresu RMSSD.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "sdnnNormalVsBaseline": {
+            "paragraph1": "Twoja regeneracja jest oceniana przy użyciu odchylenia standardowego odstępów NN (SDNN) w twojej zmienności rytmu serca. Bazowe SDNN (czerwona linia) jest obliczane jako 7-dniowa średnia krocząca twoich indywidualnych wartości SDNN (niebieskie słupki). Ta linia bazowa jest porównywana z twoim normalnym zakresem SDNN (szary pas), który reprezentuje 60-dniową średnią kroczącą plus minus jedno odchylenie standardowe. Regeneracja jest uważana za niską, gdy twoje bazowe SDNN spada poniżej normalnego zakresu SDNN.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "hrRestNormalVsBaseline": {
+            "paragraph1": "Twoja regeneracja jest oceniana na podstawie twojego tętna spoczynkowego. Twoje tętno spoczynkowe z danego dnia (niebieski słupek) jest porównywane z twoim normalnym zakresem tętna spoczynkowego (szary pas), który reprezentuje 30-dniową średnią kroczącą plus minus jedno odchylenie standardowe. Regeneracja jest uważana za niską, gdy twoje tętno spoczynkowe przekracza normalny zakres.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "recoveryMetricInspection": {
+            "paragraph1": "Tutaj podsumowano twoje dane dotyczące regeneracji z ostatnich 14 dni, w tym nocne odczyty tętna/HRV z aplikacji firm trzecich, takich jak Oura, Whoop, Garmin, Suunto, Coros i Polar, a także pomiary tętna/HRV zarejestrowane w AI Endurance za pomocą funkcji check-in. Uwzględniono również metryki zsynchronizowane z Intervals.icu lub TrainingPeaks. Możesz usunąć wszelkie pomiary, które uważasz za niedokładne lub niereprezentatywne dla twojego stanu regeneracji.",
+            "paragraph2": "W szczególności Garmin może dostarczać wiele pomiarów dziennie. Nie stanowi to jednak problemu, ponieważ dla każdego dnia w modelu regeneracji używamy tylko najniższego tętna spoczynkowego (HR Rest) i najwyższej wartości HRV (domyślnie RMSSD lub SDNN, jeśli wybrano tę opcję w ustawieniach konta). Pamiętaj, że usunięcie pomiaru nie zaktualizuje wstecznie przeszłych wartości regeneracji."
+        }
+    }
+}

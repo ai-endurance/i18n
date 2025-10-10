@@ -1,0 +1,46 @@
+{
+    "metadata": {
+        "title": "{partner}: AI-coach voor hardlopen, fietsen en triatlon",
+        "description": "Behaal de resultaten die voor jou tellen. {partner} gebruikt kunstmatige intelligentie om gepersonaliseerde trainingsplannen te maken voor hardlopers, fietsers en triatleten."
+    },
+    "whatIsAI": {
+        "title": "Wat is AI Endurance?",
+        "text": "Ontketen je topprestaties met AI Endurance! Onze geavanceerde AI analyseert je persoonlijke fitnessdata om een trainingsplan op maat voor jou te maken. Zeg vaarwel tegen standaard schema's en omarm een AI-programma dat is geoptimaliseerd voor jouw unieke fysiologie. Vertrouwd door fietsers, hardlopers en triatleten wereldwijd, is AI Endurance jouw geheime wapen voor superieure resultaten. Sluit je aan en train slimmer, niet harder!",
+        "button": "Ontdek hoe het werkt"
+    },
+    "integrations": {
+        "title": "Onze integraties",
+        "text": "Ontgrendel elitetraining met AI Endurance! We analyseren je data van Garmin, Suunto, Coros, Polar, Wahoo, Intervals.icu, Strava, Oura, Whoop en Stryd diepgaand. Vervolgens sturen we automatisch geoptimaliseerde trainingen rechtstreeks naar Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio en Zwift. Duik in geavanceerde AI-inzichten en voer ze met precisie uit op je favoriete platforms. AI Endurance - waar data wordt omgezet in topprestaties.",
+        "button": "Laten we beginnen!"
+    },
+    "banner": {
+        "title1": "AI-gestuurde training.",
+        "title2": "Individueel voor jou.",
+        "subtitle": "Een wetenschappelijk, datagedreven trainingsplan dat je prestaties daadwerkelijk verbetert - en we hebben de data om dat te bewijzen. Of je nu een hardloper, fietser of triatleet bent, AI-coaching geeft je een voorsprong.",
+        "cta": "Begin nu!",
+        "secondary": "Wat is het?"
+    },
+    "stepper": {
+        "connect": "VERBINDEN",
+        "learn": "LEREN",
+        "train": "TRAINEN"
+    },
+    "quotes": {
+        "title": "Wat zeggen anderen?"
+    },
+    "connectPane": {
+        "title": "Verbind je data",
+        "text": "Gebruik een van onze geïntegreerde applicaties om je eerdere activiteitendata te importeren in AI Endurance, zodat we kunnen leren hoe je reageert op, herstelt van en je aanpast aan verschillende trainingen. Als je net begint, geen probleem! We hebben een kort leerprotocol met verschillende fitnesstests, zodat we zo snel mogelijk aan de slag kunnen.",
+        "button": "Alle integraties"
+    },
+    "learnPane": {
+        "title": "AI Endurance leert je kennen",
+        "text": "Nadat je trainingsdata in AI Endurance is geïmporteerd, creëren we een aangepast AI-model speciaal voor jou. Dit model analyseert de door jou verstrekte data en leert hoe je reageert op bepaalde soorten trainingen, hoe snel je herstelt en wat je algehele fitnessniveau is. Dit model is altijd specifiek voor jou; het is geen generieke trainingsplangenerator. De aangeboden trainingen zijn altijd gebaseerd op jouw specifieke fysiologie en doelen.",
+        "button": "Duik er dieper in"
+    },
+    "trainPane": {
+        "title": "Ontvang je trainingen",
+        "text": "Na het invullen van een korte vragenlijst over je doelen, je beschikbaarheid voor trainingen en een paar andere zaken, geeft je model je een trainingsschema en een geschatte verbetering. Je kunt ons dashboard en analyseportaal gebruiken, of je kunt je trainingen exporteren naar een van onze exportintegraties. De laatste stap? Train hard en heb plezier!",
+        "button": "Laten we beginnen!"
+    }
+}

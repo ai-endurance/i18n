@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "title": "Onboarding voltooid",
+        "description": "Je onboarding is succesvol voltooid"
+    },
+    "onboardingSuccess": {
+        "title": "Gefeliciteerd - je hebt je account ingesteld!",
+        "description": "Afhankelijk van de hoeveelheid data die we importeren, duurt het enkele minuten tot een paar uur om je trainingsplan op te stellen. Bekijk in de tussentijd onze blog! Je ontvangt een e-mail zodra je account klaar is voor gebruik.",
+        "checkOutBlog": "Bekijk de blog"
+    },
+    "importProgressLog": {
+        "title": "Voortgang import & AI-training",
+        "lastUpdated": "Laatst bijgewerkt: {timestamp}",
+        "complete": "Voltooid!",
+        "inProgress": "Bezig...",
+        "waiting": "Wachten...",
+        "unknown": "Onbekend"
+    }
+}

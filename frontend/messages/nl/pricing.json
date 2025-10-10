@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "title": "Prijzen",
+        "description": "Probeer {partner} 2 weken gratis en zet je reis daarna voort voor een fractie van de kosten van traditionele coaching"
+    },
+    "banner": {
+        "title": "Wat kost AI Endurance?",
+        "description": "Om te beginnen: het is 14 dagen gratis. Geen betaalgegevens nodig, je kunt vandaag nog gratis starten met AI Endurance. Nadat je het hebt geprobeerd, kun je kiezen voor een maandelijks of jaarlijks abonnement. Zelfs met een maandelijks abonnement kost AI Endurance slechts een fractie van de prijs van een traditionele coach. Probeer het vandaag nog!",
+        "cta": "Start nu!",
+        "imageAlt": "Wielrenner op de weg"
+    },
+    "cards": {
+        "title": "Welk abonnement wil je?"
+    },
+    "card": {
+        "types": {
+            "monthly": "Maandelijks",
+            "yearly": "Jaarlijks"
+        },
+        "monthly": {
+            "price": "{price} per maand",
+            "billing": "Maandelijks gefactureerd in {currency}"
+        },
+        "yearly": {
+            "price": "{price} per jaar",
+            "billing": "Jaarlijks gefactureerd in {currency}",
+            "savings": "Bespaar {currency}{amount}!"
+        },
+        "cta": "Probeer gratis",
+        "bestValue": "Beste deal!"
+    }
+}

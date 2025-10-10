@@ -1,0 +1,19 @@
+{
+    "athletes": {
+        "title": "Moi zawodnicy",
+        "emptyState": "Nie masz jeszcze żadnych zawodników",
+        "loadError": "Nie udało się wczytać zawodników. Spróbuj odświeżyć stronę.",
+        "loadErrorShort": "Nie udało się wczytać zawodników",
+        "selectError": "Nie udało się wybrać zawodnika. Spróbuj ponownie.",
+        "buttons": {
+            "manage": "Zarządzaj",
+            "loading": "Wczytywanie..."
+        }
+    },
+    "managing": {
+        "banner": "Zarządzanie: {athleteName}",
+        "exitButton": "Zakończ podgląd zawodnika",
+        "exitError": "Nie udało się zakończyć podglądu zawodnika. Spróbuj ponownie.",
+        "exiting": "Zamykanie..."
+    }
+}

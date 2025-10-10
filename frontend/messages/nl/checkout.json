@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Afrekenen",
+        "description": "Reken af om AI Endurance te blijven gebruiken"
+    },
+    "title": "Reken af om AI Endurance te blijven gebruiken",
+    "subscriptionTypes": {
+        "monthly": "Maandelijks",
+        "yearly": "Jaarlijks"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "Je hebt nog geen abonnement.",
+        "yearlyPlan": "Je hebt een jaarabonnement. Als je een nieuw abonnement afsluit, wordt je huidige abonnement opgezegd en vervangen door het nieuwe.",
+        "monthlyPlan": "Je hebt een maandabonnement. Als je een nieuw abonnement afsluit, wordt je huidige abonnement opgezegd en vervangen door het nieuwe."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Maandabonnement",
+            "prices": "per maand",
+            "billing": "Maandelijks gefactureerd in {currency}"
+        },
+        "yearly": {
+            "title": "Jaarabonnement",
+            "prices": "per jaar",
+            "billing": "Jaarlijks gefactureerd in {currency}",
+            "save": "Bespaar {currencySymbol}{savings}!"
+        },
+        "bestValue": "Beste keuze!",
+        "select": "Selecteren",
+        "selected": "Geselecteerd"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Je abonnement start direct",
+        "creditApplied": "Een tegoed van ${credit} USD wordt verrekend.",
+        "amountDue": "Nu te betalen bedrag:",
+        "subscriptionType": "Abonnementstype:",
+        "nameLabel": "Voor- en achternaam",
+        "couponLabel": "Kortingscode",
+        "subscribe": "Abonneren",
+        "errors": {
+            "invalidCoupon": "Je kortingscode is ongeldig.",
+            "fillRequiredFields": "Vul alsjeblieft alle verplichte velden in.",
+            "stripeFailed": "Stripe kon niet worden geladen",
+            "paymentFailed": "Betaling mislukt: {message}",
+            "successMessage": "Je hebt je succesvol geabonneerd! Welkom!"
+        }
+    }
+}

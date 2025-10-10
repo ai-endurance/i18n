@@ -1,0 +1,166 @@
+{
+    "metadata": {
+        "title": "Account",
+        "description": "Beheer hier je accountinstellingen"
+    },
+    "accountSettings": "Accountinstellingen",
+    "weight": "Gewicht (kg)",
+    "height": "Lengte (cm)",
+    "language": "Taal",
+    "updateStravaDescription": "Strava-omschrijving bijwerken",
+    "useDataForResearch": "Gegevens gebruiken voor onderzoek",
+    "useRunningPower": "Hardloopvermogen gebruiken",
+    "useHrvDerivedThresholds": "Van HRV afgeleide drempels gebruiken",
+    "controlGarminWorkoutsWithLapButton": "Garmin-trainingen bedienen met de rondeknop",
+    "controlIntervalsicuWorkoutsWithLapButton": "Intervals.icu-trainingen bedienen met de rondeknop",
+    "estimatePowerFromHr": "Vermogen schatten op basis van hartslag",
+    "useSecondaryLayerOfTrainingForDigitalTwin": "Secundaire trainingslaag gebruiken voor Digital Twin",
+    "useSdnnInsteadOfRmssdHrv": "SDNN gebruiken in plaats van RMSSD HRV",
+    "manuallySetZones": "Zones handmatig instellen",
+    "cyclingZones": "Fietszones (W)",
+    "runningPowerZones": "Hardloopvermogenzones (W)",
+    "runningZones": "Hardloopzones (min{unit})",
+    "enduranceCeiling": "Endurance-plafond",
+    "tempoCeiling": "Tempo-plafond",
+    "thresholdCeiling": "Threshold-plafond",
+    "vo2maxCeiling": "VO2Max-plafond",
+    "detectedAerobicThresholdForCycling": "Gedetecteerde aerobe drempel voor fietsen:",
+    "detectedAerobicThresholdForRunning": "Gedetecteerde aerobe drempel voor hardlopen:",
+    "ftpSettingForZwift": "FTP-instelling voor Zwift",
+    "ftpSettingForZwiftAndTrainingPeaks": "FTP-instelling voor Zwift en TrainingPeaks",
+    "changeUserType": "Gebruikerstype wijzigen",
+    "runner": "Hardloper",
+    "cyclist": "Fietser",
+    "triathlete": "Triatleet",
+    "saveChanges": "Wijzigingen opslaan",
+    "accountUpdated": "Account bijgewerkt!",
+    "accountUpdateFailed": "Bijwerken van account mislukt",
+    "pleaseWaitForPlanSearch": "Wacht tot de huidige zoekopdracht naar een plan is voltooid voordat je wijzigingen opslaat.",
+    "confirmRunningPowerChange": "Weet je zeker dat je de instelling voor hardloopvermogen wilt wijzigen? Dit verwijdert je huidige trainingsplan en maakt een nieuw plan op basis van je nieuwe instelling. Je kunt het plan bewerken zodra de instelling is bijgewerkt. Omdat we hiervoor mogelijk een nieuw AI-model moeten trainen, kan dit enkele minuten duren. Ververs deze pagina een paar minuten na het opslaan van de wijzigingen.",
+    "confirmUserTypeChange": "Weet je zeker dat je je gebruikerstype wilt wijzigen? Dit verwijdert je huidige trainingsplan en maakt een standaard trainingsplan van 6 weken voor je nieuwe gebruikerstype. Je kunt het plan bewerken zodra de wijziging is voltooid. Omdat we hiervoor een nieuw AI-model moeten trainen, kan dit enkele minuten duren. Ververs deze pagina een paar minuten na het opslaan van de wijzigingen.",
+    "resetCheckIn": "Check-in resetten",
+    "reset": "Reset",
+    "checkInReset": "Check-in gereset!",
+    "checkInResetFailed": "Resetten van check-in mislukt!",
+    "referAFriend": "Vrienden uitnodigen",
+    "referralBodyText": "Verdien $10 USD aan tegoed voor elke vriend die je uitnodigt en die een betalende abonnee wordt. Deel je unieke verwijzingslink en begin vandaag nog met besparen op je abonnement. Je verwijzingslink:",
+    "referralLinkCopied": "Verwijzingslink gekopieerd!",
+    "subscription": "Abonnement",
+    "pleaseWaitForPlanSearchToManageSubscription": "Wacht tot de huidige zoekopdracht naar een plan is voltooid voordat je je abonnement beheert.",
+    "manageSubscriptionInAppleIosApp": "Beheer je abonnement in de Apple iOS-app",
+    "manageSubscriptionOnAiEnduranceWebsite": "Beheer je abonnement op de AI Endurance-website",
+    "youHaveCreditOf": "Je hebt een tegoed van ${credit} USD",
+    "notSubscribedToAnyPlan": "Je hebt geen abonnement op een plan",
+    "onTheYearlyPlan": "Je hebt een jaarabonnement",
+    "onTheMonthlyPlan": "Je hebt een maandabonnement",
+    "downloadRecoveryHistory": "Herstelgeschiedenis downloaden",
+    "download": "Downloaden",
+    "dangerZone": "GEVARENZONE",
+    "deleteAccount": "Account verwijderen",
+    "pleaseWaitForPlanSearchToDeleteAccount": "Wacht tot de huidige zoekopdracht naar een plan is voltooid voordat je je account verwijdert.",
+    "errorDeletingAccount": "Fout bij het verwijderen van account",
+    "confirmDeleteAccount": "Als er iets mis is met je account, neem dan eerst contact op met de support. Verwijder je account niet om een nieuw account aan te maken. Garmin staat slechts één keer toe om je geschiedenis te importeren. Het is mogelijk dat je je gegevens niet opnieuw kunt importeren. Weet je zeker dat je je account wilt verwijderen?",
+    "poolLength": "Badlengte",
+    "unit": "Eenheid",
+    "setPerformanceLevels": "Prestatieniveaus instellen",
+    "performanceOn": "Prestatie op",
+    "swimmingData": "Zwemgegevens",
+    "autocalcCss": "CSS automatisch berekenen",
+    "pleaseWaitForPlanSearchToUpdateCss": "Wacht tot de huidige zoekopdracht naar een plan is voltooid om CSS bij te werken.",
+    "criticalSwimSpeed": "Critical Swim Speed",
+    "per100m": "per 100m",
+    "per100yd": "per 100yd",
+    "criticalSwimSpeedUpdated": "Critical Swim Speed bijgewerkt!",
+    "criticalSwimSpeedUpdateFailed": "Bijwerken van Critical Swim Speed mislukt!",
+    "billing": "Facturering",
+    "billingSettings": "Factureringsinstellingen",
+    "errorConnectingToStripe": "Fout bij verbinden met Stripe",
+    "cancelSubscription": "Abonnement opzeggen",
+    "confirmCancelSubscription": "Weet je zeker dat je je abonnement wilt opzeggen?",
+    "subscriptionCancelledSuccessfully": "Abonnement succesvol opgezegd",
+    "failedToCancelSubscription": "Opzeggen van abonnement mislukt",
+    "subscriptionCanceledMessage": "Je abonnement is opgezegd en blijft actief tot het einde van de huidige factureringscyclus.",
+    "reactivateSubscription": "Abonnement heractiveren",
+    "subscriptionReactivated": "Abonnement hergeactiveerd!",
+    "failedToReactivateSubscription": "Heractiveren van abonnement mislukt",
+    "successfullyResubscribed": "Je hebt je succesvol opnieuw geabonneerd! Welkom terug!",
+    "subscriptionExpiresMessage": "Je hebt je abonnement opgezegd. Het verloopt aan het einde van de huidige factureringscyclus.",
+    "calculateZones": "Zones berekenen",
+    "pleaseWaitForPlanSearchToRecalculateZones": "Wacht tot de huidige zoekopdracht naar een plan is voltooid voordat je de zones opnieuw berekent.",
+    "autocalcZones": "Zones automatisch berekenen",
+    "failedToAutocalculateZones": "Automatisch berekenen van zones mislukt. Probeer het later opnieuw.",
+    "successfullyAutocalculatedZones": "Zones succesvol automatisch berekend.",
+    "changeSubscription": "Abonnement wijzigen",
+    "subscribe": "Abonneren",
+    "units": "Eenheden",
+    "imperial": "Imperiaal",
+    "metric": "Metrisch",
+    "labels": {
+        "zonesLabel": {
+            "paragraph1": "Je kunt je intensiteitszones handmatig instellen. De aerobe hartslagdrempels worden berekend op basis van je DFA a₁-gegevens van de afgelopen 90 dagen, indien aanwezig. Zie voor meer uitleg",
+            "learnMore": "uitleg over trainingszones."
+        },
+        "autocalcZonesLabel": {
+            "paragraph1": "We kunnen je zones automatisch voor je berekenen op basis van je historische gegevens. We gebruiken het volgende systeem om je zones te schatten: Ten eerste kijken we naar recente testprestaties en prestatieniveaus die je de afgelopen 14 dagen handmatig hebt ingesteld.",
+            "paragraph2": "Ten tweede, als je van HRV afgeleide drempels gebruikt, proberen we voldoende DFA a₁-drempelgegevens te vinden om je zones in te stellen. We proberen het met de gegevens van de laatste 30 dagen en als er niet genoeg gegevens zijn, gebruiken we de gegevens van de laatste 90 dagen.",
+            "paragraph3": "Ten derde gebruiken we Critical Power-metingen van de afgelopen 4 weken om je zones in te stellen.",
+            "paragraph4": "Ten vierde gebruiken we de verdeling van je historische vermogens-/tempogegevens van de afgelopen maanden om je zones in te stellen.",
+            "paragraph5": "In een laatste stap voeren we verschillende consistentiecontroles uit ten opzichte van je recente prestaties om ervoor te zorgen dat de zones nauwkeurig zijn. Dit omvat het onafhankelijk instellen van je Endurance-zone via aerobe drempelgegevens van DFA a₁, indien beschikbaar.",
+            "paragraph6": "Het hele proces kan enkele minuten duren.",
+            "paragraph7": "Als alternatief kun je de Chat gebruiken om je zones in te stellen op basis van geselecteerde recente activiteiten en andere aangepaste invoer. Dit is de meest aanpasbare optie die beschikbaar is."
+        },
+        "researchLabel": {
+            "paragraph1": "Sta ons toe je gegevens te gebruiken om onderzoeksstudies te publiceren over de effectiviteit van duurtraining. Dit kan helpen om het onderzoek naar lichaamsbeweging vooruit te helpen en je mede-atleten te ondersteunen bij het bereiken van hun doelen. We zijn ons zeer bewust van je privacy. Je gegevens blijven altijd anoniem, d.w.z. je naam of prestatiewaarden worden nooit gepubliceerd. De gegevens worden alleen in geaggregeerde vorm gepubliceerd, zoals: 'Gemiddeld hielp trainingssamenstelling x atleten om met y procent te verbeteren.' Standaard is dit vakje niet aangevinkt, wat betekent dat je gegevens nooit zonder jouw toestemming in openbaar onderzoek worden gebruikt. Zie voor een voorbeeldstudie",
+            "learnMore": "deze studie."
+        },
+        "hrvThresholdsLabel": {
+            "paragraph1": "Indien aangevinkt, gebruiken we je DFA a₁-drempels, afgeleid van je HRV-gegevens, om je AI-model te trainen en je prestaties te voorspellen.",
+            "learnMore": "Meer informatie."
+        },
+        "swimmingLabel": {
+            "paragraph1": "We kunnen je critical swim speed (CSS) automatisch voor je berekenen op basis van de verdeling van je historische zwemtempo's. Of je kunt je CSS handmatig aanpassen. Je CSS is het tempo dat je theoretisch kunt volhouden zonder uitgeput te raken.",
+            "learnMore": "Meer informatie over een CSS-test."
+        },
+        "disciplineLabel": {
+            "paragraph1": "Je kunt handmatig prestatieniveaus instellen als je het gevoel hebt dat de gegevens je conditie niet goed weergeven, bijvoorbeeld als je een tijdje geen test hebt gedaan. Gebruik dit met mate. Onze AI herkent automatisch de meeste wedstrijd- en testprestaties (zie FAQ). Zie voor meer uitleg",
+            "learnMore": "uitleg over trainingszones."
+        },
+        "phrLabel": {
+            "appended": "Onze AI kan je fietsvermogen voorspellen op basis van je hartslag, cadans en/of DFA a₁ voor ritten zonder vermogensmeter. Als er cadans- of a₁-gegevens aanwezig zijn, verbetert de nauwkeurigheid van het geschatte vermogen over het algemeen aanzienlijk. Soms zijn hartslagmetingen zeer onnauwkeurig, bijvoorbeeld met optische polssensoren. Dit kan op zijn beurt leiden tot zeer onnauwkeurige vermogensschattingen. In dat geval kun je deze functie uitschakelen en houden we voor onze AI alleen rekening met ritten met metingen van een vermogensmeter. Om vermogen te kunnen voorspellen op basis van hartslag, hebben we minimaal 1 uur activiteitstijd met vermogen en hartslag in je geschiedenis nodig.",
+            "learnMore": "Meer informatie.",
+            "estimationError": "Jouw schattingsfout:",
+            "fromHeartRateCadenceDfa": "van hartslag + cadans + DFA a₁",
+            "fromHeartRateDfa": "van hartslag + DFA a₁",
+            "fromHeartRateCadence": "van hartslag + cadans",
+            "fromHeartRateOnly": "alleen van hartslag"
+        },
+        "runningPowerLabel": {
+            "base": "Indien aangevinkt, baseren we je training op hardloopvermogen. Anders gebruiken we GAP (Grade Adjusted Pace). Als je de instelling voor hardloopvermogen wijzigt, wordt je huidige trainingsplan verwijderd en wordt er een nieuw plan gemaakt op basis van je nieuwe instelling zodra je de wijzigingen bevestigt. Mogelijk moeten we een nieuw AI-model trainen als je je instellingen wijzigt. Ververs de pagina na een paar minuten. Je hebt momenteel {nRunningPower} hardloopsessies met hardloopvermogen van je totaal van {nRunning} hardloopsessies op AI Endurance.",
+            "insufficientData": " Je hebt momenteel niet genoeg gegevens over hardloopvermogen, daarom zijn we teruggevallen op GAP. Je hebt een aantal hardloopsessies met vermogen over een paar weken nodig om hardloopvermogen in AI Endurance te kunnen gebruiken."
+        },
+        "pretrainLabel": {
+            "paragraph1": "Indien aangevinkt, trainen we je Digital Twin machine learning-model voor met de verzamelde gegevens van {userType}s die vergelijkbaar zijn met jou in leeftijd, gewicht, geslacht en algemeen fitnessniveau. Indien niet aangevinkt, wordt je Digital Twin alleen met jouw gegevens getraind. Het inschakelen van voortraining kan resulteren in een grotere discrepantie tussen gedetecteerde en voorspelde prestatieniveaus, omdat de trainingsrespons die is gemodelleerd via verzamelde gegevens kan afwijken van jouw persoonlijke respons."
+        },
+        "garminLapLabel": {
+            "paragraph1": "Indien aangevinkt, eindigen de warming-up, cooling-down en rustgedeelten van je interval wanneer je op de rondeknop drukt, in plaats van wanneer hun respectievelijke duur voorbij is. Dit kan handig zijn als je buiten traint en meer controle wilt over de starttijd van je interval, bijvoorbeeld vanwege route- of verkeersbeperkingen."
+        },
+        "intervalsicuLapLabel": {
+            "paragraph1": "Indien aangevinkt, eindigen de warming-up, cooling-down en rustgedeelten van je interval wanneer je op de rondeknop drukt, in plaats van wanneer hun respectievelijke duur voorbij is. Dit kan handig zijn als je buiten traint en meer controle wilt over de starttijd van je interval, bijvoorbeeld vanwege route- of verkeersbeperkingen."
+        },
+        "userTypeLabel": {
+            "paragraph1": "Dit verwijdert je huidige trainingsplan. Wijzig je atleettype om toegang te krijgen tot andere doelevenementen. Fietser: FTP; Hardloper: 5k, 10k, (halve) marathon; Triatleet: Sprint, Olympisch, (halve) Ironman. Een wijziging maakt een trainingsplan van 6 weken aan dat je kunt bewerken op de plan-pagina. Mogelijk moeten we een nieuw AI-model trainen - ververs deze pagina een paar minuten na het opslaan van de wijzigingen."
+        },
+        "checkinLabel": {
+            "paragraph1": "Normaal gesproken bieden we je elke 12 uur een check-in aan. Als je echter een extra check-in wilt doen of de check-in per ongeluk hebt overgeslagen, kun je hier het check-in-schema resetten. De check-in verschijnt dan weer bovenaan je dashboard."
+        },
+        "referralLabel": {
+            "paragraph1": "Ons verwijzingsprogramma is een eenvoudige maar effectieve manier om tegoed te verdienen voor je AI Endurance-abonnement. Door een unieke verwijzingscode met je vrienden te delen, introduceer je hen niet alleen bij een tool die kan helpen hun fitnessdoelen te bereiken, maar verdien je ook $10 USD aan tegoed voor elke vriend die zich aanmeldt en een betalende abonnee wordt. Dit tegoed verlaagt direct je abonnementskosten - het kan alleen worden toegepast op toekomstige abonnementsbetalingen en kan niet in contanten worden uitbetaald. Het is een win-winsituatie voor zowel jou als je vrienden. Hoe meer vrienden je uitnodigt, hoe meer je bespaart, zonder limiet aan het tegoed dat je kunt verzamelen. Dit programma is onze manier om je te bedanken voor je gewaardeerde lidmaatschap van de AI Endurance-community en voor je hulp bij onze groei."
+        },
+        "recoveryHistoryLabel": {
+            "paragraph1": "Download je historische herstelgegevens in csv-formaat."
+        },
+        "useSdnnInsteadRmssd": {
+            "paragraph1": "Als je 's nachts HRV-gegevens verzamelt met een Apple Watch, wil je mogelijk SDNN gebruiken in plaats van RMSSD voor je HRV-gegevens. Dit komt omdat de Apple Watch geen RMSSD-gegevens levert. SDNN is een maat voor de variabiliteit in de hartslag die niet gerelateerd is aan de ademhalingscyclus. Het is een goede indicator van algehele stress en herstel. Als je een ander apparaat gebruikt, moet je RMSSD gebruiken."
+        }
+    }
+}

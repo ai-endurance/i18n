@@ -1,0 +1,53 @@
+# English translations for connect_suunto package.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the connect_suunto package.
+msgid ""
+msgstr ""
+"Project-Id-Version: connect_suunto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: suunto_export_ramp.py:42
+msgid "DFA alpha1 cycling ramp test"
+msgstr "Велосипедный Ramp Test DFA alpha1"
+
+#: suunto_export_ramp.py:44
+msgid "DFA alpha1 running ramp test"
+msgstr "Беговой Ramp Test DFA alpha1"
+
+#: suunto_export_ramp.py:43
+msgid ""
+"Ramp test to determine your power and heart rate zones via ventilatory "
+"thresholds from HRV data (DFA alpha1)"
+msgstr ""
+"Ramp Test для определения ваших зон мощности и частоты сердечных сокращений "
+"(ЧСС) через вентиляторные пороги по данным HRV (DFA alpha1)"
+
+#: suunto_export_ramp.py:47
+msgid "run power"
+msgstr "Мощность бега"
+
+#: suunto_export_ramp.py:50
+msgid ""
+"Ramp test to determine your %(p_str)s and heart rate zones via ventilatory "
+"thresholds from HRV data (DFA alpha1)"
+msgstr ""
+"Ramp Test для определения ваших зон %(p_str)s и частоты сердечных сокращений"
+" (ЧСС) через вентиляторные пороги по данным HRV (DFA alpha1)"
+
+#: suunto_export_ramp.py:75
+msgid "DFA alpha1 Ramp Test"
+msgstr "DFA alpha1 Ramp Test"
+
+#: suunto_export_ramp.py:82
+msgid "Well done!"
+msgstr "Отлично"

@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Płatność",
+        "description": "Dokonaj płatności, aby dalej korzystać z AI Endurance"
+    },
+    "title": "Dokonaj płatności, aby dalej korzystać z AI Endurance",
+    "subscriptionTypes": {
+        "monthly": "Miesięczny",
+        "yearly": "Roczny"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "Nie masz jeszcze aktywnej subskrypcji.",
+        "yearlyPlan": "Masz subskrypcję roczną. Jeśli zakupisz nową subskrypcję, obecna zostanie anulowana i zastąpiona nową.",
+        "monthlyPlan": "Masz subskrypcję miesięczną. Jeśli zakupisz nową subskrypcję, obecna zostanie anulowana i zastąpiona nową."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Plan miesięczny",
+            "prices": "miesięcznie",
+            "billing": "Płatność co miesiąc w {currency}"
+        },
+        "yearly": {
+            "title": "Plan roczny",
+            "prices": "rocznie",
+            "billing": "Płatność co rok w {currency}",
+            "save": "Oszczędzasz {currencySymbol}{savings}!"
+        },
+        "bestValue": "Najlepsza oferta!",
+        "select": "Wybierz",
+        "selected": "Wybrano"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Subskrypcja rozpocznie się teraz",
+        "creditApplied": "Zostanie naliczony kredyt w wysokości ${credit} USD.",
+        "amountDue": "Kwota do zapłaty teraz:",
+        "subscriptionType": "Rodzaj subskrypcji:",
+        "nameLabel": "Imię i nazwisko",
+        "couponLabel": "Kod rabatowy",
+        "subscribe": "Subskrybuj",
+        "errors": {
+            "invalidCoupon": "Kod rabatowy jest nieprawidłowy.",
+            "fillRequiredFields": "Wypełnij wszystkie wymagane pola.",
+            "stripeFailed": "Nie udało się załadować Stripe.",
+            "paymentFailed": "Płatność nie powiodła się: {message}",
+            "successMessage": "Subskrypcja zakończona pomyślnie! Witamy!"
+        }
+    }
+}

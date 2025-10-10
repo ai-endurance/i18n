@@ -1,0 +1,127 @@
+{
+    "connectApps": {
+        "title": "Połącz aplikacje, aby w pełni wykorzystać swój trening",
+        "continue": "Kontynuuj",
+        "iosMessage": "Aby dokończyć rejestrację, użyj",
+        "webVersion": "wersji internetowej AI Endurance"
+    },
+    "chooseDiscipline": {
+        "title": "Jakim typem sportowca jesteś?",
+        "disciplines": {
+            "runner": "Biegacz",
+            "cyclist": "Kolarz",
+            "triathlete": "Triathlonista"
+        },
+        "continue": "Kontynuuj"
+    },
+    "athleteInformation": {
+        "title": "Ile czasu tygodniowo możesz poświęcić na trening?",
+        "selectDiscipline": "Wybierz dyscyplinę sportu!",
+        "goBack": "Wróć",
+        "volumeDescription": "Jaką objętość treningową chcesz realizować? Model będzie dążył do osiągnięcia tej objętości, jednocześnie dbając o to, by nie trenować zbyt intensywnie na początku.",
+        "hoursPerWeek": {
+            "run": "Ile godzin tygodniowo możesz przeznaczyć na bieganie?",
+            "bike": "Ile godzin tygodniowo możesz przeznaczyć na jazdę na rowerze?",
+            "swim": "Ile godzin tygodniowo możesz przeznaczyć na pływanie?",
+            "ride": "Ile godzin tygodniowo możesz przeznaczyć na jazdę na rowerze?"
+        },
+        "gender": "Płeć",
+        "birthYear": "Rok urodzenia",
+        "weight": "Waga (kg)",
+        "invalidBirthYear": "Wprowadź prawidłowy rok urodzenia",
+        "genderOptions": {
+            "male": "Mężczyzna",
+            "female": "Kobieta",
+            "other": "Osoba niebinarna"
+        },
+        "continue": "Kontynuuj",
+        "useRunningPower": "Używać mocy biegowej?"
+    },
+    "disciplineTimes": {
+        "title": "Jaki jest Twój obecny poziom sprawności?",
+        "selectDiscipline": "Wybierz dyscyplinę sportu!",
+        "selectEvent": "Wybierz zawody!",
+        "goBack": "Wróć",
+        "finish": "Zakończ"
+    },
+    "validation": {
+        "noUserType": "Nie wybrano typu użytkownika",
+        "noBirthYear": "Nie wprowadzono roku urodzenia",
+        "noWeight": "Nie wprowadzono wagi",
+        "noHoursPerWeek": "Nie wprowadzono liczby godzin tygodniowo",
+        "noEventDate": "Nie wybrano daty zawodów",
+        "noEventType": "Nie wybrano typu zawodów",
+        "powerValueNotInRange": "Wartość mocy jest poza zakresem",
+        "pace5kNotInRange": "Wartość tempa na 5k jest poza zakresem",
+        "pace10kNotInRange": "Wartość tempa na 10k jest poza zakresem"
+    },
+    "appCard": {
+        "disconnectConfirm": "Czy na pewno chcesz odłączyć {title}?",
+        "connectedTooltip": "{title} jest połączone! Kliknij, aby odłączyć",
+        "disconnectSuccess": {
+            "strava": "Dane Strava pomyślnie odłączone!",
+            "polar": "Polar pomyślnie odłączony!",
+            "oura": "Dane Oura pomyślnie odłączone!",
+            "intervalsicu": "Intervals.icu pomyślnie odłączone!",
+            "wahoo": "Wahoo pomyślnie odłączony!",
+            "nolio": "Nolio pomyślnie odłączone!",
+            "suunto": "Dane Suunto pomyślnie odłączone!",
+            "coros": "Coros pomyślnie odłączony!",
+            "trainingpeaks": "Dane TrainingPeaks pomyślnie odłączone!",
+            "whoop": "Whoop pomyślnie odłączony!",
+            "garmin": "Dane Garmin {type} pomyślnie odłączone!"
+        }
+    },
+    "labels": {
+        "ftp": "FTP (Functional Threshold Power) to najwyższa moc, jaką możesz utrzymać w stanie równowagi przez jedną godzinę.",
+        "5k": "Czas na 5k to czas potrzebny na przebiegnięcie 5 kilometrów.",
+        "10k": "Czas na 10k to czas potrzebny na przebiegnięcie 10 kilometrów."
+    },
+    "disciplineMap": {
+        "ftp": "Aktualne FTP (W)",
+        "5k": "Aktualny czas na 5k (mm:ss)",
+        "10k": "Aktualny czas na 10k (mm:ss)",
+        "halfMarathon": "Aktualny czas w półmaratonie (g:mm:ss)",
+        "marathon": "Aktualny czas w maratonie (g:mm:ss)"
+    },
+    "error": {
+        "somethingWentWrong": "Coś poszło nie tak!",
+        "returnToDashboard": "Wróć do panelu"
+    },
+    "metadata": {
+        "title": "Wprowadzenie",
+        "description": "Uzupełnijmy Twoje dane, aby dokończyć rejestrację"
+    },
+    "eventInfo": {
+        "title": "Do czego trenujesz?",
+        "continue": "Kontynuuj",
+        "selectDiscipline": "Wybierz dyscyplinę sportu!",
+        "goBack": "Wróć",
+        "primaryEventQuestion": "Jaki jest główny cel, do którego trenujesz?",
+        "event": "Zawody",
+        "eventDateQuestion": "Jaka jest data Twoich następnych głównych zawodów?",
+        "infoTitle": "Co oznaczają te opcje?",
+        "close": "Zamknij",
+        "details": {
+            "suffix": "Po pierwszej rejestracji możesz również zaplanować cały sezon z celami B i C. Możesz także dostosować własne cele i skonfigurować niestandardowe wagi dla każdego z nich.",
+            "cyclist": "Optymalizuj FTP (Functional Threshold Power), Critical Cycling Power lub Ultra Endurance Power – Twoją moc przy DFA a₁ = 0,75, Twój tlenowy threshold HRV.",
+            "runnerPower": "Optymalizuj Critical Running Power lub Ultra Endurance Power – Twoją moc przy DFA a₁ = 0,75, Twój tlenowy threshold HRV.",
+            "runnerPace": "Wybierz dystans od 5k aż do maratonu. Lub optymalizuj Ultra Endurance Pace – Twoje tempo przy DFA a₁ = 0,75, Twój tlenowy threshold HRV.",
+            "triathlete": "Wybierz dystans od sprintu aż do pełnego Ironmana. Dla dystansu sprinterskiego i olimpijskiego optymalizujemy Critical Cycling Power oraz {runTextSprintOlympic}. Dla dystansu Half-Ironman i Ironman optymalizujemy tlenową moc kolarską oraz {runTextHalfIronman}.",
+            "selectDiscipline": "Wybierz dyscyplinę, aby kontynuować.",
+            "runTextSprintOlympicPower": "Critical Running Power",
+            "runTextSprintOlympicPace": "tempo na 5k lub 10k",
+            "runTextHalfIronmanPower": "Tlenowa moc biegowa",
+            "runTextHalfIronmanPace": "Tempo półmaratońskie lub maratońskie"
+        }
+    },
+    "coachSelection": {
+        "title": "Wybierz trenera",
+        "description": "Wybierz trenera, który poprowadzi Twój trening",
+        "selectCoach": "Wybierz trenera",
+        "noCoachesAvailable": "Brak dostępnych trenerów dla tej organizacji",
+        "continue": "Kontynuuj",
+        "loading": "Ładowanie trenerów...",
+        "error": "Nie udało się załadować trenerów. Spróbuj ponownie."
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Gratis AI Endurance Workout Generator | {partner}",
+        "description": "De kracht van AI, gratis voor je training. Probeer {partner} en begin met het maken van trainingen die zijn afgestemd op jouw unieke fysiologie en doelen."
+    },
+    "description": {
+        "title": "Gratis AI Endurance Workout Generator voor hardlopen en fietsen",
+        "subtitle": "Genereer een gratis Endurance hardloop- of fietstraining met behulp van kunstmatige intelligentie. Beschrijf je training in woorden en AI Endurance gebruikt GPT-technologie om een training voor je te genereren. Je kunt de training zo vaak aanpassen als je wilt door te beschrijven hoe je deze wilt wijzigen. Als je tevreden bent met je training, kun je deze exporteren naar je favoriete trainingsplatform."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "Via Prompt",
+            "stress": "Via Stress"
+        }
+    },
+    "formTitle": "Gratis AI Endurance Workout Generator",
+    "displayTitle": "Jouw training",
+    "setZones": "Stel je zones in:",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Endurance-plafond"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Tempo-plafond"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Threshold-plafond"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "VO2Max-plafond"
+        }
+    },
+    "units": {
+        "label": "Eenheden",
+        "imperial": "Imperiaal ({unit})",
+        "metric": "Metrisch ({unit})"
+    },
+    "suggestions": {
+        "title": "Prompt-suggesties:",
+        "strength": {
+            "hipWithEquipment": "heupversterkende krachttraining met lage impact (met fitnessapparatuur)",
+            "hipWithoutEquipment": "heupversterkende krachttraining met lage impact (zonder fitnessapparatuur)",
+            "triathlete": "30 min krachttraining om kracht voor triatleten te maximaliseren",
+            "core": "core-training voor hardlopers"
+        },
+        "run": {
+            "tempo": "zware Tempo-training",
+            "vo2max": "30 min VO2Max-training",
+            "threshold": "gematigde Threshold-training"
+        },
+        "ride": {
+            "tempo": "zware Tempo-training",
+            "vo2max": "30 min VO2Max-training",
+            "threshold": "gematigde Threshold-training"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Training wijzigen:",
+            "describe": "Beschrijf je training:"
+        },
+        "label": {
+            "change": "Hoe wil je je training aanpassen?",
+            "describe": "Wat voor soort training zoek je?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Training wijzigen:",
+            "describe": "Beschrijf je training:"
+        },
+        "label": {
+            "change": "Hoe wil je je training aanpassen?",
+            "describe": "Wat voor soort training zoek je?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Selecteer de intensiteit van je training:"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Voer het aantal intervallen voor je training in (optioneel):"
+        },
+        "timeAtIntensity": {
+            "title": "Voer de gewenste tijd op intensiteit voor je training in:"
+        },
+        "ess": {
+            "title": "Voer de gewenste Stress Score voor je training in:"
+        }
+    },
+    "submitButton": {
+        "create": "Training aanmaken!",
+        "reset": "Reset"
+    },
+    "exportWorkout": {
+        "title": "Exporteren naar:",
+        "signup": "Meld je aan!",
+        "appleWatch": {
+            "text": "Apple Watch: Koppel je",
+            "link": "Watchletic",
+            "suffix": "account aan AI Endurance en haal de trainingen op in Watchletic."
+        },
+        "messages": {
+            "success": "Training succesvol geëxporteerd!",
+            "error": "Fout bij exporteren van training"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Totale tijd",
+        "estDistance": "Geschatte afstand",
+        "timeAtIntensity": "Tijd op intensiteit",
+        "target": "Doel",
+        "avgPace": "Gem. tempo"
+    },
+    "steps": {
+        "title": "Stappen:",
+        "run": {
+            "between": "Loop in een tempo tussen {low} en {high} per {unit} gedurende {duration}",
+            "noFaster": "Loop in een tempo niet sneller dan {high} per {unit} gedurende {duration}"
+        },
+        "ride": {
+            "between": "Fiets met een vermogen tussen {low} en {high} gedurende {duration}",
+            "noHigher": "Fiets met een vermogen niet hoger dan {high} gedurende {duration}"
+        },
+        "units": {
+            "imperial": "mijl",
+            "metric": "km"
+        }
+    }
+}

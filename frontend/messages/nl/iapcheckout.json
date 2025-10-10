@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "title": "Apple Checkout",
+        "description": "Afrekenen"
+    },
+    "subscriptionSelectForm": {
+        "title": "Reken af om AI Endurance te blijven gebruiken",
+        "manageSubscription": "Beheer je abonnement op de AI Endurance website",
+        "planStatus": {
+            "notSubscribed": "Je hebt nog geen abonnement.",
+            "yearlySubscribed": "Je hebt een jaarabonnement. Als je een nieuw abonnement afsluit, wordt je oude abonnement opgezegd en vervangen door het nieuwe.",
+            "monthlySubscribed": "Je hebt een maandabonnement. Als je een nieuw abonnement afsluit, wordt je oude abonnement opgezegd en vervangen door het nieuwe."
+        },
+        "errors": {
+            "processingError": "Er is een fout opgetreden bij het verwerken van je abonnement. Probeer het opnieuw.",
+            "purchaseCanceled": "Aankoop geannuleerd."
+        },
+        "links": {
+            "privacyPolicy": "Privacybeleid",
+            "termsOfUse": "Gebruiksvoorwaarden (EULA)"
+        }
+    },
+    "subscriptionCard": {
+        "monthly": "Maandelijks gefactureerd",
+        "yearly": "Jaarlijks gefactureerd",
+        "perMonth": "per maand",
+        "perYear": "per jaar",
+        "save17": "Bespaar 17%!",
+        "purchase": "Aankopen",
+        "bestValue": "Beste deal!",
+        "plan": "Plan"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "toolbar": {
+        "getStarted": "Начать"
+    },
+    "menuButton": {
+        "title": "Навигационное меню"
+    },
+    "logo": {
+        "alt": "Логотип AIEndurance"
+    },
+    "links": {
+        "product": "Продукт",
+        "pricing": "Цены",
+        "contact": "Контакты",
+        "calendar": "Календарь",
+        "nutrition": "Питание",
+        "recovery": "Восстановление"
+    }
+}

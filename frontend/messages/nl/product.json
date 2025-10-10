@@ -1,0 +1,94 @@
+{
+    "banner": {
+        "title": "Hoe werkt AI Endurance?",
+        "description": "AI Endurance is het enige trainingsplatform dat écht wordt aangedreven door kunstmatige intelligentie. We passen geen vooraf gedefinieerde trainingsplannen aan voor onze atleten. Ons platform is ongelooflijk persoonlijk voor elke atleet die het gebruikt en leert je fysiologie op een zeer diep niveau kennen. We houden rekening met zaken als hoe snel je herstelt, op welke soorten intervallen je het beste reageert en je specifieke doelen om plannen te creëren die uniek zijn afgestemd op jouw lichaam en jouw doelen."
+    },
+    "buttons": {
+        "getStarted": "Begin nu!"
+    },
+    "rows": {
+        "scientific": {
+            "title": "Echt wetenschappelijk, datagedreven en voorspellend",
+            "text": "Vertelt je huidige app je hoeveel hun atleten zijn verbeterd? Of hoeveel jij gaat verbeteren? Zo niet, dan is dat omdat het ofwel niet werkt, ofwel omdat ze geen wetenschappelijke en datagedreven aanpak hanteren. Verspil je kostbare trainingstijd niet met een plan dat gebaseerd is op iemands mening, zonder rekening te houden met al jouw data. We weten dat AI Endurance werkt, want we hebben het niet alleen vergeleken met het meest recente peer-reviewed onderzoek in inspanningsfysiologie, we hebben ook aangetoond hoe onze door AI geoptimaliseerde training zelfs de beste 'one-size-fits-all'-aanpak uit huidig onderzoek moeiteloos overtreft.",
+            "ctaButton": "Begin nu!",
+            "outlinedButton": "Zo weten we het"
+        },
+        "personalized": {
+            "title": "Jouw persoonlijke plan",
+            "text": "AI Endurance past machine learning toe op de data van je gps-horloge, smartphone en vermogensmeter. Het resultaat is een trainingsplan dat voor jou, je sport en je doelwedstrijd is gepersonaliseerd en geoptimaliseerd. We helpen je je doelen te bereiken met onze wetenschappelijke aanpak en datagedreven training, waarbij we de nieuwste ontwikkelingen in AI gebruiken. Train slimmer met een datagedreven, resultaatgericht en gebruiksvriendelijk trainingsplan. Kunstmatige intelligentie is jouw voorsprong.",
+            "ctaButton": "Begin nu!",
+            "outlinedButton": "Hoe persoonlijk?"
+        },
+        "recovery": {
+            "title": "Herstel en gereedheid om te trainen",
+            "text": "Voor elke training moet je weten of je er echt klaar voor bent. Iedereen reageert anders op stress, slechte slaap en trainingsvermoeidheid. Ons nieuwe herstelmodel neemt datagedreven beslissingen over wanneer je wel en niet moet trainen. We gebruiken een combinatie van je trainingsfeedback, feedback over spierpijn in belangrijke spiergroepen, HRV en je rusthartslag om je een eenvoudige, begrijpelijke herstelscore te geven en bieden indien nodig aanpassingen aan je trainingsplan.",
+            "ctaButton": "Begin nu!",
+            "outlinedButton": "Hoe werkt herstel?"
+        },
+        "adaptation": {
+            "title": "Pas je plan aan op je leven",
+            "text": "Lange werkdagen, onverwachte gebeurtenissen, reizen en ziekte kunnen serieuze training verstoren. Hoe blijf je op koers als het leven je plannen doorkruist? Onze AI past je trainingsplan direct aan en stelt aanpassingen voor bij onvoldoende herstel of gemiste trainingen, zodat je gefocust blijft op je doel. We begrijpen dat geen enkel plan perfect verloopt en proberen je te ondersteunen waar je bent, rekening houdend met de onvoorspelbaarheid van het dagelijks leven.",
+            "ctaButton": "Begin nu!",
+            "outlinedButton": "Hoe past het zich aan?"
+        },
+        "runningPower": {
+            "title": "Running Power",
+            "text": "Gebruik je al hardloopvermogen en zoek je een persoonlijk trainingsplan om je Critical Running Power te optimaliseren? Dan ben je bij ons aan het juiste adres! We voorspellen je winst in je Critical Running Power als je je aan ons adaptieve AI-trainingsplan houdt. Wil je je volgende ultra verpletteren? Wij zijn de enige app die direct je Ultra Endurance Power optimaliseert, het vermogen op je aerobe drempel. We gebruiken de nieuwste hartslagvariabiliteitstechnologie - DFA alpha 1 - om je aerobe drempel te meten. Exporteer eenvoudig je hardloopvermogensplan naar TrainingPeaks of Suunto Guides en voer je trainingen direct vanaf je horloge uit.",
+            "ctaButton": "Begin nu!",
+            "outlinedButton": "Wat is DFA alpha 1?"
+        },
+        "nutrition": {
+            "title": "Sportvoeding",
+            "text": "We hebben samengewerkt met vooraanstaande sportvoedingsdeskundigen om je een dagelijkse hoeveelheid calorieën en macronutriënten te bieden, afhankelijk van je voltooide en geplande trainingen. Bovendien stellen we een door AI aangedreven maaltijdplan op om je te helpen elke dag optimaal te presteren. Gebruik de kracht van Large Language Models (denk aan ChatGPT) en beschrijf simpelweg welk type maaltijdplan je wilt. We ondersteunen vegetarische, veganistische, glutenvrije of andere dieetwensen of -voorkeuren.",
+            "ctaButton": "Begin nu!",
+            "outlinedButton": "Meer over sportvoeding"
+        },
+        "integrations": {
+            "title": "Integraties",
+            "text": "We integreren met veel populaire trainingsplatforms. We kunnen je trainings- en hersteldata importeren van Garmin, Suunto, Coros, Polar, Intervals.icu, Strava, Wahoo, Oura, Whoop en Stryd, en je trainingen exporteren naar Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu, Nolio, Zwift, of ons eigen platform bij AI Endurance. Zo kun je AI Endurance gebruiken op de manier die voor jou het beste werkt! Als de workout-bibliotheek van Zwift saai wordt, of als je verslaafd bent aan de data-analyse in Intervals.icu, kunnen wij je helpen!",
+            "ctaButton": "Begin nu!"
+        }
+    },
+    "fourCards": {
+        "title": "Geavanceerde data-analyse",
+        "cards": {
+            "zoneDetection": {
+                "title": "Automatische zonedetectie",
+                "text": "AI Endurance detecteert automatisch je trainingszones via automatische aerobe en anaerobe drempeldetectie, met behulp van HRV en andere belangrijke variabelen."
+            },
+            "noTests": {
+                "title": "Geen tests nodig",
+                "text": "We gebruiken je trainingsdata om je prestaties te voorspellen en je trainingsplan te optimaliseren. Geen Ramp Tests, tijdritten of 20-minutentests nodig."
+            },
+            "predictions": {
+                "title": "Nauwkeurige voorspellingen",
+                "text": "Onze AI-modellen voorspellen en optimaliseren je prestaties door elke seconde van je trainingsgeschiedenis te analyseren, van 5k-tempo en FTP tot Ironman en Endurance Power."
+            },
+            "hrv": {
+                "title": "Heart Rate Variability",
+                "text": "We zijn pioniers in de opwindende nieuwe wetenschap rond HRV en omarmen DFA alpha 1 als een waardevolle trainingsmaatstaf voor drempeldetectie, gereedheid om te trainen en durability."
+            }
+        }
+    },
+    "threeCards": {
+        "optimize": {
+            "title": "Optimaliseer je trainingsplan",
+            "text": "Er zijn zoveel manieren om te trainen: korte/lange intervallen, zware/lichte trainingen, lang/kort herstel. Hoe weet je wat goed is voor jou? Onze AI vindt het plan dat je beste prestatie mogelijk maakt in de tijd die je hebt om te trainen. Elke training die je doet is een goudmijn aan data; onze AI gebruikt dit om je toekomstige prestaties te voorspellen en een trainingsplan te maken dat de kloof dicht tussen je huidige en je optimale wedstrijdprestatie.",
+            "button": "Hoe we optimaliseren"
+        },
+        "simplify": {
+            "title": "Vereenvoudig je trainingsfocus",
+            "text": "Veel factoren, groot en klein, beïnvloeden je prestaties op een bepaalde dag. Het is overweldigend om met alles rekening te houden. Wat moet je echt weten om efficiënt te trainen? Onze AI bepaalt welke trainingen je op welke dag moet doen. De focus ligt op het gebruiken van de tijd die je vandaag hebt om je doelprestatie te bereiken, in je doelwedstrijd. We hebben ook een onderhoudsplan om je in vorm te houden.",
+            "button": "Welke training echt werkt"
+        },
+        "adapt": {
+            "title": "Ons plan past zich met je mee aan",
+            "text": "Of je het plan nu volgt of niet - elke training die je doet, wordt gebruikt om je optimale plan te berekenen. Elke dag. We laten je weten als we een betere optie voor je doel hebben gevonden. Of - als het leven te veel in de weg zit - wanneer het tijd is om te resetten en een nieuw plan te starten.",
+            "button": "Hoe we ons aan jou aanpassen"
+        }
+    },
+    "metadata": {
+        "title": "Hoe werkt {partner}? | {partner}",
+        "description": "{partner} is het enige échte AI-gedreven trainingsplatform. Geen generieke, vooraf gedefinieerde plannen hier."
+    }
+}

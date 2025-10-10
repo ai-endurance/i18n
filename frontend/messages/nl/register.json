@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "title": "Registreren",
+        "description": "Registreer je voor AI Endurance"
+    },
+    "form": {
+        "title": "Meld je aan voor AI Endurance",
+        "fields": {
+            "firstName": {
+                "label": "Voornaam"
+            },
+            "lastName": {
+                "label": "Achternaam"
+            },
+            "email": {
+                "label": "E-mailadres"
+            },
+            "password": {
+                "label": "Wachtwoord",
+                "error": "Wachtwoord moet minimaal 8 tekens lang zijn en ten minste één cijfer, één hoofdletter, één kleine letter en één speciaal teken bevatten."
+            },
+            "confirmPassword": {
+                "label": "Bevestig wachtwoord",
+                "error": "De wachtwoorden komen niet overeen."
+            },
+            "referral": {
+                "label": "Hoe heb je van ons gehoord?"
+            }
+        },
+        "terms": {
+            "text": "Ik ga akkoord met het",
+            "privacyPolicy": "Privacybeleid",
+            "and": "en de",
+            "termsOfService": "Gebruiksvoorwaarden",
+            "error": "Accepteer het privacybeleid en de gebruiksvoorwaarden."
+        },
+        "buttons": {
+            "signUp": "Aanmelden",
+            "goToLogin": "Ga naar Log In"
+        },
+        "errors": {
+            "generic": "Er is een fout opgetreden."
+        }
+    }
+}

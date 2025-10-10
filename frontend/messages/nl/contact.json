@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "title": "Contact | {partner}",
+        "description": "Neem rechtstreeks contact op met {partner} als je vragen hebt."
+    },
+    "display": {
+        "title": "Heb je een vraag? Stuur ons een bericht!",
+        "imageAlt": "Contact"
+    },
+    "form": {
+        "fields": {
+            "firstName": "Voornaam",
+            "lastName": "Achternaam",
+            "email": "E-mailadres",
+            "message": "Bericht"
+        },
+        "submit": "Versturen",
+        "success": "Bedankt dat je contact hebt opgenomen met {partner}!"
+    }
+}

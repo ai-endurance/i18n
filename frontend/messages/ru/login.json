@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "title": "Login",
+        "description": "Login, чтобы получить доступ к вашему Dashboard"
+    },
+    "form": {
+        "title": "Login в AI Endurance",
+        "fields": {
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Пароль"
+            }
+        },
+        "buttons": {
+            "login": "Log In",
+            "goToRegister": "Перейти к регистрации",
+            "forgotPassword": "Забыли пароль?"
+        },
+        "errors": {
+            "generic": "Произошла ошибка. Пожалуйста, попробуйте еще раз или свяжитесь с нами, если проблема не устранена.",
+            "invalidCredentials": "Неверный email или пароль",
+            "coachLogin": "Тренеры должны использовать страницу входа для тренеров. Пожалуйста, войдите здесь."
+        }
+    },
+    "coach": {
+        "title": "Вход для тренеров в AI Endurance",
+        "metadata": {
+            "title": "Вход для тренеров",
+            "description": "Login, чтобы получить доступ к вашему порталу тренера"
+        }
+    }
+}

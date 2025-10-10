@@ -1,0 +1,116 @@
+# English translations for AI Endurance
+msgid ""
+msgstr ""
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mysite/checkin/get_feedback.py:60
+msgid ""
+"You give encouraging feedback. You don't ask questions, you don't offer "
+"follow up, you don't make recommendations."
+msgstr ""
+"Udzielaj motywujących informacji zwrotnych. Nie zadawaj pytań, nie proponuj "
+"dalszych kroków ani nie udzielaj zaleceń."
+
+#: mysite/checkin/get_feedback.py:62
+msgid ""
+"You give encouraging feedback. Respond in the same language as the user's "
+"input. You don't ask questions, you don't offer follow up, you don't make "
+"recommendations."
+msgstr ""
+"Udzielaj motywujących informacji zwrotnych. Odpowiadaj w języku użytkownika."
+" Nie zadawaj pytań, nie proponuj dalszych kroków ani nie udzielaj zaleceń."
+
+#: mysite/checkin/get_feedback.py:68
+msgid "How do you feel about exercising today?"
+msgstr "Jak się czujesz na myśl o dzisiejszym treningu?"
+
+#: mysite/checkin/get_feedback.py:76
+msgid "What is your sentiment?"
+msgstr "Jakie jest Twoje nastawienie?"
+
+#: mysite/checkin/get_feedback.py:89
+msgid "What is your %(r_name)s recovery status?"
+msgstr "Jaki jest Twój status regeneracji %(r_name)s?"
+
+#: mysite/checkin/get_feedback.py:95
+msgid "It's %(percentage)s%%."
+msgstr "Wynosi %(percentage)s%%."
+
+#: mysite/checkin/get_feedback.py:109
+msgid ""
+"Is your body temperature elevated in a way that would make it inadvisable to"
+" exercise today?"
+msgstr ""
+"Czy Twoja temperatura ciała jest na tyle podwyższona, że dzisiejszy trening "
+"jest niewskazany?"
+
+#: mysite/checkin/get_feedback.py:114
+msgid "Yes, by more than one degree."
+msgstr "Tak, o więcej niż jeden stopień."
+
+#: mysite/checkin/get_feedback.py:119
+msgid ""
+"Please summarize each of my recovery statuses and highlight the importance "
+"of the smallest value in deciding my activities for today."
+msgstr ""
+"Podsumuj każdy z moich statusów regeneracji i podkreśl znaczenie najniższej "
+"wartości przy podejmowaniu decyzji o dzisiejszych aktywnościach."
+
+#: mysite/checkin/get_feedback.py:123
+msgid ""
+"Also, summarize my sentiment and explain how it may affect my readiness."
+msgstr ""
+"Podsumuj również moje nastawienie i wyjaśnij, jak może ono wpłynąć na moją "
+"gotowość."
+
+#: mysite/checkin/get_feedback.py:132
+msgid ""
+"Please summarize my sentiment and explain how it may affect my readiness."
+msgstr ""
+"Podsumuj moje samopoczucie i wyjaśnij, jak może to wpłynąć na moją gotowość."
+
+#: mysite/checkin/get_feedback.py:155
+msgid "Today's workout is %(workout)s."
+msgstr "Dzisiejszy trening to %(workout)s."
+
+#: mysite/checkin/get_feedback.py:164
+msgid "Today's workouts are: %(workouts)s."
+msgstr "Dzisiejsze treningi to: %(workouts)s."
+
+#: mysite/checkin/get_feedback.py:170
+msgid "There is no workout planned today."
+msgstr "Na dzisiaj nie zaplanowano żadnego treningu."
+
+#: mysite/checkin/get_feedback.py:189
+msgid "Explain why it may be beneficial to skip today's %(workout)s."
+msgstr "Wyjaśnij, dlaczego warto pominąć dzisiejszy trening %(workout)s."
+
+#: mysite/checkin/get_feedback.py:201
+msgid ""
+"Explain why it may be a good idea to replace today's %(workout)s with an "
+"easy Endurance %(act_type)s."
+msgstr ""
+"Wyjaśnij, dlaczego warto zastąpić dzisiejszy trening %(workout)s łatwym "
+"treningiem Endurance %(act_type)s."
+
+#: mysite/checkin/get_feedback.py:210
+msgid ""
+"Explain why it may be a good idea to reduce the duration of today's "
+"%(workout)s."
+msgstr ""
+"Wyjaśnij, dlaczego warto skrócić czas trwania dzisiejszego treningu "
+"%(workout)s."
+
+#: mysite/checkin/get_feedback.py:226
+msgid ""
+"I have apparently done too much %(zone)s work. Explain why it may be a good "
+"idea to replace today's %(workout)s with an Endurance %(act_type)s."
+msgstr ""
+"Najwyraźniej zrealizowano zbyt dużo pracy w strefie %(zone)s. Wyjaśnij, "
+"dlaczego warto zastąpić dzisiejszy trening %(workout)s treningiem Endurance "
+"%(act_type)s."

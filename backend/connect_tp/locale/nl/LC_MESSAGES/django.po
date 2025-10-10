@@ -1,0 +1,24 @@
+# English translations for AI Endurance - TrainingPeaks Integration
+msgid ""
+msgstr ""
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Set your TrainingPeaks Bike Power Threshold Value to "
+msgstr "Stel je TrainingPeaks fietsvermogen Threshold-waarde in op"
+
+msgid "Set your TrainingPeaks Run Power Threshold Value "
+msgstr "Stel je TrainingPeaks hardloopvermogen Threshold-waarde in"
+
+msgid "and your Stryd CP to "
+msgstr "en je Stryd CP op"
+
+msgid "Set your TrainingPeaks Pace Threshold Value to "
+msgstr "Stel je TrainingPeaks tempo Threshold-waarde in op"
+
+msgid "Set your TrainingPeaks Swim Speed Threshold to "
+msgstr "Stel je TrainingPeaks zwemsnelheid Threshold in op"

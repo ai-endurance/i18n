@@ -1,0 +1,119 @@
+# English translations for AI Endurance
+msgid ""
+msgstr ""
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mysite/checkin/get_feedback.py:60
+msgid ""
+"You give encouraging feedback. You don't ask questions, you don't offer "
+"follow up, you don't make recommendations."
+msgstr ""
+"Je geeft bemoedigende feedback. Je stelt geen vragen, geeft geen vervolg en "
+"doet geen aanbevelingen."
+
+#: mysite/checkin/get_feedback.py:62
+msgid ""
+"You give encouraging feedback. Respond in the same language as the user's "
+"input. You don't ask questions, you don't offer follow up, you don't make "
+"recommendations."
+msgstr ""
+"Je geeft bemoedigende feedback. Reageer in dezelfde taal als de input van de"
+" gebruiker. Je stelt geen vragen, geeft geen vervolg en doet geen "
+"aanbevelingen."
+
+#: mysite/checkin/get_feedback.py:68
+msgid "How do you feel about exercising today?"
+msgstr "Hoe voel je je om vandaag te sporten?"
+
+#: mysite/checkin/get_feedback.py:76
+msgid "What is your sentiment?"
+msgstr "Wat is je sentiment?"
+
+#: mysite/checkin/get_feedback.py:89
+msgid "What is your %(r_name)s recovery status?"
+msgstr "Wat is je %(r_name)s herstelstatus?"
+
+#: mysite/checkin/get_feedback.py:95
+msgid "It's %(percentage)s%%."
+msgstr "Het is %(percentage)s%%."
+
+#: mysite/checkin/get_feedback.py:109
+msgid ""
+"Is your body temperature elevated in a way that would make it inadvisable to"
+" exercise today?"
+msgstr ""
+"Is je lichaamstemperatuur zodanig verhoogd dat het onverstandig is om "
+"vandaag te sporten?"
+
+#: mysite/checkin/get_feedback.py:114
+msgid "Yes, by more than one degree."
+msgstr "Ja, met meer dan één graad."
+
+#: mysite/checkin/get_feedback.py:119
+msgid ""
+"Please summarize each of my recovery statuses and highlight the importance "
+"of the smallest value in deciding my activities for today."
+msgstr ""
+"Vat elk van mijn herstelstatussen samen en benadruk het belang van de "
+"laagste waarde bij het bepalen van mijn activiteiten voor vandaag."
+
+#: mysite/checkin/get_feedback.py:123
+msgid ""
+"Also, summarize my sentiment and explain how it may affect my readiness."
+msgstr ""
+"Vat ook mijn sentiment samen en leg uit hoe dit mijn gereedheid kan "
+"beïnvloeden."
+
+#: mysite/checkin/get_feedback.py:132
+msgid ""
+"Please summarize my sentiment and explain how it may affect my readiness."
+msgstr ""
+"Vat mijn sentiment samen en leg uit hoe dit mijn gereedheid kan beïnvloeden."
+
+#: mysite/checkin/get_feedback.py:155
+msgid "Today's workout is %(workout)s."
+msgstr "De training van vandaag is %(workout)s."
+
+#: mysite/checkin/get_feedback.py:164
+msgid "Today's workouts are: %(workouts)s."
+msgstr "De trainingen van vandaag zijn: %(workouts)s."
+
+#: mysite/checkin/get_feedback.py:170
+msgid "There is no workout planned today."
+msgstr "Er staat vandaag geen training gepland."
+
+#: mysite/checkin/get_feedback.py:189
+msgid "Explain why it may be beneficial to skip today's %(workout)s."
+msgstr ""
+"Leg uit waarom het een goed idee kan zijn om de %(workout)s van vandaag over"
+" te slaan."
+
+#: mysite/checkin/get_feedback.py:201
+msgid ""
+"Explain why it may be a good idea to replace today's %(workout)s with an "
+"easy Endurance %(act_type)s."
+msgstr ""
+"Leg uit waarom het een goed idee kan zijn om de %(workout)s van vandaag te "
+"vervangen door een rustige Endurance %(act_type)s."
+
+#: mysite/checkin/get_feedback.py:210
+msgid ""
+"Explain why it may be a good idea to reduce the duration of today's "
+"%(workout)s."
+msgstr ""
+"Leg uit waarom het een goed idee kan zijn om de duur van de %(workout)s van "
+"vandaag te verkorten."
+
+#: mysite/checkin/get_feedback.py:226
+msgid ""
+"I have apparently done too much %(zone)s work. Explain why it may be a good "
+"idea to replace today's %(workout)s with an Endurance %(act_type)s."
+msgstr ""
+"Ik heb blijkbaar te veel %(zone)s-werk gedaan. Leg uit waarom het een goed "
+"idee kan zijn om de %(workout)s van vandaag te vervangen door een Endurance "
+"%(act_type)s."

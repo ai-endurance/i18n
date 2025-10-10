@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "Gegevensdetails",
+        "description": "Duik in geavanceerde gegevens over je digital twin, het importeren van data en HRV."
+    },
+    "pastData": {
+        "title": "Je historische gegevens",
+        "actual": "Werkelijk",
+        "morePastData": "Meer historische gegevens",
+        "displayed": "Weergegeven",
+        "weight": "Gewicht"
+    },
+    "dataExclusions": {
+        "title": "Gegevensuitsluitingen",
+        "saveChanges": "Wijzigingen opslaan",
+        "dataExclusionsSaved": "Gegevensuitsluitingen opgeslagen",
+        "errorSavingDataExclusions": "Er is een fout opgetreden bij het opslaan van je gegevensuitsluitingen",
+        "startDate": "Startdatum",
+        "endDate": "Einddatum"
+    },
+    "hrvTrends": {
+        "title": "Je HRV a₁-trends",
+        "date": "Datum"
+    },
+    "labels": {
+        "alpha": {
+            "paragraph1": "Je trends in pₐ - het product van je tempo/vermogen vermenigvuldigd met de DFA a₁-waarden tijdens de eerste 30 minuten van elke activiteit. Hogere waarden dan gemiddeld kunnen duiden op een bijzonder goede gereedheid om te trainen, lagere waarden op een gebrek daaraan. Om je HRV aerobe (a₁ = 0,75) en Anaerobic (a₁ = 0,5) drempels te zien, klik je op de legenda of selecteer je hartslag. Drempels van gedetecteerde ramps en van clusters worden weergegeven. Een cluster drempel is het gemiddelde van alle tempo-, vermogen- en hartslagwaarden die zijn vastgelegd tijdens de eerste 30 minuten van een activiteit met a₁-waarden dicht bij 0,75 (0,5). De algemene trend (pₐ smooth) geeft langetermijntrends in je prestaties aan. Alleen activiteiten met artefactverstoring van minder dan 10% worden weergegeven.",
+            "learnMore": "Meer informatie."
+        },
+        "pastData": {
+            "cyclist": "Het machinelearningmodel – je digital twin – is getraind met maximaal {nCycling} van je fietsritten met vermogen of op hartslag geschat vermogen.",
+            "runnerWithoutPower": "Het machinelearningmodel – je digital twin – is getraind met maximaal {nRunning} van je hardloopsessies.",
+            "runnerWithPower": "Het machinelearningmodel – je digital twin – is getraind met maximaal {nRunningPower} van je hardloopsessies met hardloopvermogen.",
+            "triathleteWithoutPower": "Het machinelearningmodel – je digital twin – is getraind met maximaal {nCycling} van je fietsritten met vermogen of op hartslag geschat vermogen en {nRunning} van je hardloopsessies.",
+            "triathleteWithPower": "Het machinelearningmodel – je digital twin – is getraind met maximaal {nCycling} van je fietsritten met vermogen of op hartslag geschat vermogen en {nRunningPower} van je hardloopsessies met hardloopvermogen.",
+            "paragraph4": "De volgende grafiek toont een overzicht van je prestaties door de tijd heen.",
+            "paragraph5": "Ook worden de voorspellingen van het machinelearningmodel weergegeven als AI Fit. Hoe dichter de twee curven elkaar volgen, hoe beter het model je prestaties kan voorspellen. Als je pre-training voor je digital twin hebt ingeschakeld (&apos;Gebruik secundaire trainingslaag voor digital twin&apos;), kan dit leiden tot een grotere afwijking tussen gedetecteerde en voorspelde prestatieniveaus, omdat de trainingsrespons die is gemodelleerd op basis van verzamelde gegevens kan verschillen van je persoonlijke respons.",
+            "paragraph6": "We geven ook het relatieve gewicht weer dat aan elk datapunt in het model is toegewezen. Een gewicht van 1 is de standaard. Een gewicht van 0,1 geeft aan dat er beperkte prestatiegegevens beschikbaar waren, terwijl een gewicht van 10 een directe meting weerspiegelt, zoals een HRV-drempel, fitheidstest, wedstrijd of handmatige invoer. Bovendien wegen datapunten uit het verre verleden minder zwaar dan recente, waarbij kleinere gewichten hun verminderde invloed vertegenwoordigen."
+        },
+        "dataExclusion": {
+            "paragraph1": "Hier kun je tijdsintervallen uit het verleden uitsluiten van het trainen van het AI-algoritme. Je kunt deze optie overwegen voor periodes waarin je opnam met een slecht gekalibreerd apparaat, of als het te ver in het verleden ligt om je huidige fysieke capaciteiten te vertegenwoordigen."
+        }
+    }
+}

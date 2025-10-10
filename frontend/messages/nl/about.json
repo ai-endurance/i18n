@@ -1,0 +1,22 @@
+{
+    "banner": {
+        "title": "Waar AI Endurance voor staat",
+        "description": "Bij AI Endurance geloven we dat iedereen een moderne methode voor endurance-training verdient. Daarom bieden we een meer gepersonaliseerde, wetenschappelijke aanpak om atleten van alle niveaus te helpen hun potentieel te ontsluiten. En dat doen we voor een fractie van de kosten van traditionele coaching. We zijn gespecialiseerd in kunstmatige intelligentie en we brengen dit naar de voorhoede van training. We vinden het geweldig om training te vereenvoudigen en het 'one size fits all'-principe van trainingsschema's te doorbreken. We streven ernaar om trainingsschema's te maken die responsief, geïndividualiseerd en makkelijk te volgen zijn.",
+        "ctaButton": "Start nu!"
+    },
+    "team": {
+        "markus": {
+            "title": "Markus Rummel",
+            "text": "Hoi, ik ben Markus - de oprichter van AI Endurance en zelf een gepassioneerd triatleet (2:06 Olympische afstand, 4:34 halve Ironman), hardloper en fietser. Ik ben ook deeltjesfysicus en heb gewerkt bij wereldwijd toonaangevende instituten zoals de Universiteit van Oxford. Sinds ik in mijn natuurkundig onderzoek met machine learning-methoden begon te werken, heb ik me afgevraagd hoe ik deze methoden kan inzetten voor een meer datagestuurde, voorspellende en geoptimaliseerde trainingsroutine. Dat is waar AI Endurance om draait: het benutten van het grote potentieel van machine learning en de big data die we dagelijks verzamelen tijdens onze trainingen, om de uitdaging aan te gaan van het selecteren van de 'juiste' training voor elke atleet met zijn of haar zeer individuele reactie op training.",
+            "button": "Meer over Markus"
+        },
+        "chris": {
+            "title": "Chris St. Jean",
+            "text": "Hé! Ik ben Chris, mede-oprichter van AI Endurance en ultramarathonloper. Ik woon in Colorado Springs, CO, met de prachtige Rocky Mountains als mijn speeltuin. Ik ben gespecialiseerd in trailwedstrijden van 100 mijl, maar mijn verste afstand is 250 mijl. Ik ben bij AI Endurance gekomen om mijn passie voor hardlopen en mijn ervaring in software engineering samen te brengen. Mijn expertise ligt in het bouwen van mooie UI's, gebruiksvriendelijke dashboards, en ervoor zorgen dat jij - onze gebruiker - de best mogelijke ervaring hebt op ons platform. Wat ik het allerliefste wil, is dat mensen makkelijker toegang krijgen tot de prachtige wereld van duursport, omdat het mijn leven zo diepgaand ten goede heeft veranderd. Ik vind het geweldig om deel uit te maken van het AI Endurance-team en je te helpen je doelen te bereiken!",
+            "button": "Meer over Chris"
+        }
+    },
+    "partners": {
+        "title": "Onze partners"
+    }
+}

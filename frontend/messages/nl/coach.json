@@ -1,0 +1,19 @@
+{
+    "athletes": {
+        "title": "Mijn atleten",
+        "emptyState": "Je hebt nog geen atleten",
+        "loadError": "Kon atleten niet laden. Probeer de pagina opnieuw te laden.",
+        "loadErrorShort": "Kon atleten niet laden",
+        "selectError": "Kon atleet niet selecteren. Probeer het opnieuw.",
+        "buttons": {
+            "manage": "Beheren",
+            "loading": "Laden..."
+        }
+    },
+    "managing": {
+        "banner": "Beheer van: {athleteName}",
+        "exitButton": "Atletenweergave verlaten",
+        "exitError": "Kon atletenweergave niet verlaten. Probeer het opnieuw.",
+        "exiting": "Verlaten..."
+    }
+}

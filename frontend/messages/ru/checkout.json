@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Оформление подписки",
+        "description": "Оформите подписку, чтобы продолжить использовать AI Endurance"
+    },
+    "title": "Оформите подписку, чтобы продолжить использовать AI Endurance",
+    "subscriptionTypes": {
+        "monthly": "Ежемесячно",
+        "yearly": "Ежегодно"
+    },
+    "subscriptionStatus": {
+        "notSubscribed": "У вас еще нет активной подписки.",
+        "yearlyPlan": "У вас оформлена годовая подписка. При покупке новой подписки ваша старая подписка будет отменена и заменена новой.",
+        "monthlyPlan": "У вас оформлена ежемесячная подписка. При покупке новой подписки ваша старая подписка будет отменена и заменена новой."
+    },
+    "subscriptionCard": {
+        "monthly": {
+            "title": "Ежемесячный план",
+            "prices": "в месяц",
+            "billing": "Оплата ежемесячно в {currency}"
+        },
+        "yearly": {
+            "title": "Годовой план",
+            "prices": "в год",
+            "billing": "Оплата ежегодно в {currency}",
+            "save": "Экономия {currencySymbol}{savings}!"
+        },
+        "bestValue": "Лучшее предложение!",
+        "select": "Выбрать",
+        "selected": "Выбрано"
+    },
+    "checkoutForm": {
+        "subscriptionStart": "Ваша подписка начнется сейчас",
+        "creditApplied": "Будет применен кредит в размере ${credit} USD.",
+        "amountDue": "Сумма к оплате сейчас:",
+        "subscriptionType": "Тип подписки:",
+        "nameLabel": "Имя и фамилия",
+        "couponLabel": "Промокод",
+        "subscribe": "Подписаться",
+        "errors": {
+            "invalidCoupon": "Ваш промокод недействителен.",
+            "fillRequiredFields": "Пожалуйста, заполните все обязательные поля.",
+            "stripeFailed": "Не удалось загрузить Stripe",
+            "paymentFailed": "Платеж не прошел: {message}",
+            "successMessage": "Вы успешно оформили подписку! Добро пожаловать!"
+        }
+    }
+}

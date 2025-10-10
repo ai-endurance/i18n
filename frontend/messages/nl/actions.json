@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "Er is een fout opgetreden. Probeer het opnieuw.",
+        "networkError": "Netwerkfout. Controleer je verbinding en probeer het opnieuw.",
+        "userDataNotFound": "Gebruikersgegevens niet gevonden.",
+        "pleaseFilOutForm": "Vul het formulier in.",
+        "invalidHrvInput": "Ongeldige HRV-invoer.",
+        "noValidQueryString": "Geen geldige query string gevonden.",
+        "invalidEventDate": "Ongeldige datum voor het evenement.",
+        "noEventType": "Geen evenementtype geselecteerd.",
+        "userIdNotProvided": "Gebruikers-ID niet opgegeven voor het voltooien van het abonnement."
+    },
+    "notifications": {
+        "dismissNotification": "Melding verbergen is mislukt.",
+        "cleanupFailed": "Opschonen van meldingen is mislukt.",
+        "switchWorkoutsFailed": "Taaktrigger voor het wisselen van trainingen is mislukt.",
+        "updateZonesFailed": "Bijwerken van zones is mislukt.",
+        "findNewPlanFailed": "Nieuw plan zoeken is mislukt.",
+        "notSupported": "Melding niet ondersteund."
+    },
+    "account": {
+        "updateFailed": "Account bijwerken is mislukt.",
+        "deleteError": "Er is een fout opgetreden bij het verwijderen van je account.",
+        "reactivateSubscriptionFailed": "Abonnement opnieuw activeren is mislukt."
+    },
+    "activity": {
+        "changeNameFailed": "Naam van activiteit wijzigen is mislukt.",
+        "changeRaceStatusFailed": "Wedstrijdstatus van activiteit wijzigen is mislukt.",
+        "deleteFailed": "Activiteit verwijderen is mislukt."
+    },
+    "auth": {
+        "logoutFailed": "Logout mislukt."
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Teruggaan naar vorig plan is mislukt."
+    },
+    "data": {
+        "addExclusionsFailed": "Toevoegen van data-uitsluitingen is mislukt.",
+        "deleteExclusionsFailed": "Verwijderen van data-uitsluitingen is mislukt.",
+        "exclusionsSavedSuccessfully": "Data-uitsluitingen succesvol opgeslagen.",
+        "submitTaskFailed": "Taak verzenden is mislukt.",
+        "noExclusionsChanged": "Geen uitsluitingen toegevoegd of verwijderd."
+    },
+    "events": {
+        "deleteFailed": "Evenement verwijderen is mislukt.",
+        "storeFailed": "Evenement opslaan is mislukt."
+    },
+    "feedback": {
+        "dismissFailed": "Check-in verbergen is mislukt.",
+        "deleteFailed": "Feedback verwijderen is mislukt.",
+        "resetFailed": "Check-in resetten is mislukt."
+    },
+    "onboarding": {
+        "connectToAppFailed": "Verbinden met {appName} is mislukt.",
+        "connectToStrava": "Verbinden met Strava is mislukt.",
+        "connectToGarmin": "Verbinden met Garmin is mislukt.",
+        "connectToOura": "Verbinden met Oura is mislukt.",
+        "connectToPolar": "Verbinden met Polar is mislukt.",
+        "connectToCoros": "Verbinden met Coros is mislukt.",
+        "connectToIntervalsicu": "Verbinden met Intervals.icu is mislukt.",
+        "connectToNolio": "Verbinden met Nolio is mislukt.",
+        "connectToTp": "Verbinden met TP is mislukt.",
+        "connectToSuunto": "Verbinden met Suunto is mislukt.",
+        "connectToWahoo": "Verbinden met Wahoo is mislukt.",
+        "connectToWhoop": "Verbinden met Whoop is mislukt.",
+        "stravaPermissions": "Vink alle vakjes aan bij het verbinden met Strava.",
+        "garminPermissions": "Selecteer 'Akkoord' bij het verbinden met Garmin.",
+        "ouraPermissions": "Vink alle vakjes aan bij het verbinden met Oura.",
+        "handleNewUserFailed": "Taaktrigger voor nieuwe gebruiker verwerken is mislukt.",
+        "onboardingPostFailed": "Posten van voltooide onboarding is mislukt.",
+        "invalidForm": "Ongeldig formulier.",
+        "submitFailed": "Formulier verzenden is mislukt."
+    },
+    "password": {
+        "resetError": "Er is een fout opgetreden bij het resetten van je wachtwoord. Probeer het later opnieuw."
+    },
+    "payment": {
+        "noPaymentMethod": "Geen betaalmethode opgegeven.",
+        "createSubscriptionFailed": "Aanmaken van abonnement is mislukt.",
+        "paymentDeclined": "Betaling mislukt, je kaart is geweigerd.",
+        "paymentFailed": "Betaling mislukt.",
+        "iapActivationFailed": "Activering van IAP-abonnement is niet voltooid."
+    },
+    "recovery": {
+        "refreshFailed": "Herstelgegevens vernieuwen is mislukt.",
+        "fetchModelDetailFailed": "Ophalen van detailgegevens van het herstelmodel is mislukt."
+    },
+    "register": {
+        "emailRequired": "E-mailadres is verplicht. ",
+        "passwordRequired": "Wachtwoord is verplicht. ",
+        "firstNameRequired": "Voornaam is verplicht. ",
+        "lastNameRequired": "Achternaam is verplicht. ",
+        "passwordValidation": "Wachtwoord moet minimaal 8 tekens lang zijn en ten minste één cijfer, één hoofdletter, één kleine letter en één speciaal teken bevatten.",
+        "createAccountFailed": "Kan geen account aanmaken. Als je al een account hebt, log dan in of gebruik de optie 'wachtwoord vergeten'."
+    },
+    "subscriptions": {
+        "endFailed": "Abonnement beëindigen is mislukt.",
+        "activationFailed": "Activering van abonnement is niet voltooid."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Exports vernieuwen is mislukt."
+    },
+    "workouts": {
+        "skipFailed": "Training overslaan is mislukt.",
+        "completeFailed": "Training voltooien is mislukt.",
+        "autoCalcFailed": "Automatische berekening mislukt.",
+        "createFailed": "Er is een onverwachte fout opgetreden bij het aanmaken van de training.",
+        "fetchDetailsFailed": "Details van de aangemaakte training ophalen is mislukt."
+    },
+    "zones": {
+        "resetFailed": "Fout bij het resetten van zones."
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Ophalen van Zwift workouts-gegevens is mislukt."
+    }
+}

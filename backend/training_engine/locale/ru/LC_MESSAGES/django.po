@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "You missed a workout. Do you want us to adapt your plan?"
+msgstr "Вы пропустили тренировку. Хотите, чтобы мы адаптировали ваш plan?"
+
+msgid ""
+"You decided to skip a future workout. Do you want us to adapt your plan?"
+msgstr ""
+"Вы решили пропустить будущую тренировку. Хотите, чтобы мы адаптировали ваш "
+"plan?"
+
+msgid "Do you want us to adapt your plan?"
+msgstr "Хотите, чтобы мы адаптировали ваш plan?"
+
+msgid ""
+"We will move the missed workout '%(title)s' originally scheduled for "
+"%(original_date)s to %(new_date)s."
+msgstr ""
+"Мы перенесём пропущенную тренировку '%(title)s', запланированную на "
+"%(original_date)s, на %(new_date)s."
+
+msgid ""
+"We will move the skipped workout '%(title)s' originally scheduled for "
+"%(original_date)s to %(new_date)s."
+msgstr ""
+"Мы перенесём пропущенную тренировку '%(title)s', запланированную на "
+"%(original_date)s, на %(new_date)s."
+
+msgid ""
+"We will switch the missed workout '%(title)s' with the endurance workout "
+"'%(endurance_title)s' originally scheduled for %(date)s."
+msgstr ""
+"Мы заменим пропущенную тренировку '%(title)s' на тренировку Endurance "
+"'%(endurance_title)s', запланированную на %(date)s."
+
+msgid ""
+"We will switch the skipped workout '%(title)s' with the endurance workout "
+"'%(endurance_title)s' originally scheduled for %(date)s."
+msgstr ""
+"Мы заменим пропущенную тренировку '%(title)s' на тренировку Endurance "
+"'%(endurance_title)s', запланированную на %(date)s."
+
+msgid ""
+"We will increase the volume of '%(title)s' on %(date)s by %(percentage)s%%."
+msgstr ""
+"Мы увеличим объём тренировки '%(title)s' от %(date)s на %(percentage)s%%."
+
+msgid "Your recovery is lower than expected."
+msgstr "Ваше восстановление ниже ожидаемого."
+
+msgid "Your sentiment towards exercising is not ideal."
+msgstr "Ваш настрой на тренировки не идеален."
+
+msgid "Your body temperature is elevated."
+msgstr "Ваша температура тела повышена."
+
+msgid "Do you want to skip today's workout?"
+msgstr "Вы хотите пропустить сегодняшнюю тренировку?"
+
+msgid "We will delete today's workout '%(title)s'."
+msgstr "Мы удалим сегодняшнюю тренировку «%(title)s»."
+
+msgid "We recommend an Endurance %(act_type)s instead."
+msgstr "Вместо этого рекомендуем Endurance %(act_type)s."
+
+msgid ""
+"We will replace today's workout '%(title)s' with a %(duration)s easy "
+"Endurance %(act_type)s."
+msgstr ""
+"Мы заменим сегодняшнюю тренировку «%(title)s» на лёгкую Endurance "
+"%(act_type)s длительностью %(duration)s."
+
+msgid "We recommend reducing the duration of today's workout."
+msgstr "Рекомендуем сократить длительность сегодняшней тренировки."
+
+msgid ""
+"We will change today's workout '%(title)s' to a %(duration)s easy Endurance "
+"%(act_type)s."
+msgstr ""
+"Мы изменим сегодняшнюю тренировку «%(title)s» на лёгкую Endurance "
+"%(act_type)s длительностью %(duration)s."
+
+msgid "Your recovery is low. Stay towards the lower end of your zones."
+msgstr "Ваше восстановление низкое. Придерживайтесь нижней границы ваших зон."

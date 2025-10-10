@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Kalendarz",
+        "description": "Zarządzaj swoim planem treningowym za pomocą interaktywnego kalendarza."
+    },
+    "layout": {
+        "title": "Kalendarz"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Ponieważ korzystasz z bezpłatnego okresu próbnego, wyświetlamy tylko pierwsze 8 tygodni Twojego planu treningowego.",
+        "getTheWholeThing": "Uzyskaj pełny dostęp"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Wróć do poprzedniego planu",
+        "confirmationText": "Czy na pewno chcesz wrócić do poprzedniego planu? Spowoduje to usunięcie bieżącego planu.",
+        "successMessage": "Powrót do poprzedniego planu!",
+        "errorMessage": "Powrót do poprzedniego planu nie powiódł się!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Pomiń trening",
+        "confirmationText": "Czy na pewno chcesz pominąć ten trening? Tej operacji nie można cofnąć. Możesz również zmieniać kolejność treningów, przeciągając je.",
+        "successMessage": "Trening pominięty",
+        "errorMessage": "Nie udało się pominąć treningu"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Oznacz jako ukończony",
+        "markAsNotCompleted": "Oznacz jako nieukończony",
+        "successCompleted": "Trening oznaczony jako ukończony",
+        "successNotCompleted": "Trening oznaczony jako nieukończony",
+        "errorMessage": "Nie udało się oznaczyć treningu"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Ukończono",
+        "skipped": "Pominięto",
+        "done": "Gotowe"
+    },
+    "commentButton": {
+        "dialogTitle": "Twoja opinia z dnia {date}",
+        "done": "Gotowe"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Data",
+            "distance": "Dystans",
+            "duration": "Czas trwania",
+            "calories": "Kalorie"
+        },
+        "buttons": {
+            "deleteActivity": "Usuń aktywność",
+            "analysis": "Analiza",
+            "done": "Gotowe"
+        },
+        "confirmationText": "Czy na pewno chcesz usunąć tę aktywność? Tej operacji nie można cofnąć.",
+        "successMessage": "Aktywność usunięta pomyślnie",
+        "errorMessage": "Błąd podczas usuwania aktywności"
+    },
+    "workoutDetails": {
+        "date": "Data",
+        "totalTime": "Całkowity czas",
+        "timeAtIntensity": "Czas w strefie intensywności",
+        "estDistance": "Szac. dystans",
+        "avgPower": "Śr. moc",
+        "avgPace": "Śr. tempo",
+        "order": "Kolejność",
+        "estTime": "Szac. czas",
+        "distance": "Dystans"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Ramiona/barki",
+            "coreSoreness": "Bolesność korpusu",
+            "legSoreness": "Bolesność nóg",
+            "soreness": "Bolesność"
+        },
+        "labels": {
+            "yourCheckIn": "Twoje odczucia:",
+            "aiCoachFeedback": "Opinia trenera AI:"
+        },
+        "buttons": {
+            "deleteFeedback": "Usuń opinię"
+        },
+        "confirmationText": "Czy na pewno chcesz usunąć tę opinię? Tej operacji nie można cofnąć.",
+        "successMessage": "Opinia usunięta pomyślnie",
+        "errorMessages": {
+            "deleteError": "Błąd podczas usuwania opinii",
+            "fetchError": "Błąd podczas pobierania szczegółów opinii"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "Całkowity ESS",
+        "totalDuration": "Całkowity czas trwania",
+        "runEss": "Bieg – ESS",
+        "runDuration": "Czas trwania biegu",
+        "rideEss": "Jazda – ESS",
+        "rideDuration": "Czas trwania jazdy",
+        "swimEss": "Pływanie – ESS",
+        "swimDistance": "Dystans pływania",
+        "noDataMessage": "Brak danych dla tego tygodnia!"
+    },
+    "labels": {
+        "calendar": "Możesz przesuwać zaplanowane treningi, przeciągając je.",
+        "scheduledWorkout": "Możesz oznaczyć trening jako ukończony lub cofnąć oznaczenie. Jeśli chcesz usunąć trening z planu, kliknij 'Pomiń trening'. W przypadku pominięcia treningu odnotujemy to i możemy zasugerować zmiany w planie, aby pomóc Ci utrzymać kurs na cel. Korekty te są dostarczane za pośrednictwem naszych powiadomień."
+    }
+}

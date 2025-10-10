@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Details van activiteit",
+        "description": "Bekijk gedetailleerde informatie over je voltooide activiteit"
+    },
+    "errors": {
+        "workoutNotFound": "Training niet gevonden",
+        "updateFailed": "Naam van activiteit bijwerken mislukt",
+        "updateSuccess": "Naam van activiteit bijgewerkt",
+        "deleteFailed": "Fout bij verwijderen van activiteit",
+        "deleteSuccess": "Activiteit succesvol verwijderd",
+        "raceStatusChangeFailed": "Fout bij wijzigen van wedstrijdstatus",
+        "raceStatusChangeSuccess": "Wedstrijdstatus succesvol gewijzigd"
+    },
+    "sections": {
+        "activityDetails": "Details van activiteit",
+        "bestEfforts": "Beste prestaties",
+        "hrvData": "HRV Data"
+    },
+    "components": {
+        "showActivityButton": {
+            "displayed": "Weergegeven",
+            "average": "Gem: {average}"
+        },
+        "viewOnStravaCard": {
+            "title": "Bekijk op Strava"
+        },
+        "deleteActivityCard": {
+            "title": "Activiteit verwijderen",
+            "confirmationText": "Weet je zeker dat je deze activiteit wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+        },
+        "downloadCSV": {
+            "title": "Downloaden als CSV"
+        },
+        "markAsRace": {
+            "title": "Wedstrijd"
+        },
+        "sourceCard": {
+            "title": "Bron",
+            "manualUpload": "Handmatige upload"
+        }
+    },
+    "labels": {
+        "notMoving": "Niet in beweging",
+        "movingTime": "Bewegingstijd",
+        "distance": "Afstand",
+        "elevationGain": "Hoogtemeters",
+        "kcal": "kcal",
+        "averagePower": "Gemiddeld vermogen",
+        "averageHeartRate": "Gemiddelde hartslag",
+        "powerEstimation": "Vermogensschatting",
+        "averageGap": "Gemiddelde GAP",
+        "averagePace": "Gemiddeld tempo",
+        "ess": "ESS",
+        "artifactPercentage": "Artefactpercentage",
+        "artifactPercentageLocal": "Lokaal artefactpercentage",
+        "iss": "ISS",
+        "averageA1": "Gemiddelde a₁",
+        "enduranceCeilingRamp": "Endurance-plafond ramp",
+        "enduranceCeilingCluster": "Endurance-plafond cluster",
+        "thresholdCeilingRamp": "Threshold-plafond ramp",
+        "thresholdCeilingCluster": "Threshold-plafond cluster",
+        "rAlphaRide": "Rₐ (gereedheid)",
+        "dAlphaRide": "Dₐ (durability)",
+        "paceRAlpha": "Tempo Rₐ (gereedheid)",
+        "paceDAlpha": "Tempo Dₐ (durability)",
+        "powerRAlpha": "Vermogen Rₐ (gereedheid)",
+        "powerDAlpha": "Vermogen Dₐ (durability)",
+        "best20MinPower": "Beste 20 min vermogen",
+        "best15MinPower": "Beste 15 min vermogen",
+        "best30MinPower": "Beste 30 min vermogen",
+        "best15MinGap": "Beste 15 min GAP",
+        "best30MinGap": "Beste 30 min GAP",
+        "detailRecoveryAlpha": {
+            "text": "Jouw {pName} gereedheid om te trainen voor deze activiteit, gebaseerd op DFA a₁. Positieve waarden geven aan dat je klaar was om te trainen. Negatieve waarden kunnen het tegenovergestelde aangeven, bijvoorbeeld door vermoeidheid en/of stress.",
+            "learnMore": "Meer informatie."
+        },
+        "detailDriftAlpha": {
+            "text": "Jouw {pName} durability voor deze activiteit, gebaseerd op DFA a₁. Waarden hoger dan -5% kunnen erop wijzen dat je goed aangepast bent aan het type en de duur van deze activiteit. Grote negatieve waarden kunnen duiden op een gebrek aan durability.",
+            "learnMore": "Meer informatie."
+        },
+        "detailAvAlpha": {
+            "text": "DFA a₁ is een maat voor de fractaal-achtige correlatie-eigenschappen van je hartslagvariabiliteit (HRV) signaal. Hoe lager je DFA a₁, hoe hoger de intensiteit waarmee je traint. Waarden boven 1,0 komen voor bij lage intensiteiten, waarden onder 0,75 komen overeen met intensiteiten boven de aerobe drempel. Waarden onder 0,5 duiden op anaerobe intensiteiten.",
+            "learnMore": "Meer informatie."
+        },
+        "detailIss": {
+            "text": "Jouw Internal Stress Score (ISS) voor deze activiteit, afgeleid van je DFA a₁-data. Hoe langer de activiteit, hoe lager de a₁ en hoe intensiever de training, des te hoger de ISS. Bijvoorbeeld, een uur op de anaerobe drempel met a₁=0,5 komt overeen met 100 ISS."
+        },
+        "detailEndHrv": {
+            "text": "De bovengrens van je Endurance-zone, je aerobe drempel, wordt berekend op basis van je DFA a₁-data. Het is de intensiteit waarop je de aerobe drempel (a₁ = 0,75) overschrijdt tijdens een geleidelijke intensiteitstoename in de eerste 30 minuten van de activiteit.",
+            "learnMore": "Meer informatie."
+        },
+        "detailEndHrvCluster": {
+            "text": "De bovengrens van je Endurance-zone, je aerobe drempel, wordt berekend op basis van je DFA a₁-data. Het is de intensiteit waarbij je vermogen of tempo clustert rond de aerobe drempel (a₁ = 0,75) tijdens de eerste 30 minuten van de activiteit.",
+            "learnMore": "Meer informatie."
+        },
+        "detailThrHrv": {
+            "text": "De bovengrens van je Threshold-zone, je anaerobe drempel, wordt berekend op basis van je DFA a₁-data. Het is de intensiteit waarop je de anaerobe drempel (a₁ = 0,5) overschrijdt tijdens een geleidelijke intensiteitstoename in de eerste 30 minuten van de activiteit.",
+            "learnMore": "Meer informatie."
+        },
+        "detailThrHrvCluster": {
+            "text": "De bovengrens van je Threshold-zone, je anaerobe drempel, wordt berekend op basis van je DFA a₁-data. Het is de intensiteit waarbij je meetwaarden clusteren rond de anaerobe drempel (a₁ = 0,5) tijdens de eerste 30 minuten van de activiteit.",
+            "learnMore": "Meer informatie."
+        },
+        "detailArtifacts": {
+            "text": "Het aantal HRV (hartslagvariabiliteit) metingen dat artefacten bevatte en gecorrigeerd moest worden. Artefacten kunnen lange, korte, gemiste, extra en ectopische slagen zijn. Voor een nauwkeurige meting moet de activiteit minder dan 5% artefacten bevatten. Als je hogere artefactpercentages krijgt, zorg er dan voor dat je:\n- een Polar H10 of Suunto hartslagmeter (HRM) gebruikt\n- je HRM via Bluetooth verbindt in plaats van Ant+\n- de elektroden van de HRM voor elke activiteit bevochtigt met speeksel of ultrasone gel\n- de band na elke activiteit afspoelt onder koud water en de band eenmaal per week in de wasmachine wast op lage temperatuur, idealiter in een waszakje\n- de positie van je band optimaliseert (zie link hieronder)\nAls je de batterij van je HRM moet vervangen, gebruik dan nieuwe batterijen van hoge kwaliteit.\nZodra de band het einde van zijn levensduur bereikt, kun je ALLEEN de band vervangen in plaats van de hele HRM.",
+            "learnMore": "Meer informatie over de ideale positie van de HRM-band."
+        },
+        "detailArtifactsLocal": {
+            "text": "Het percentage HRV-metingen dat artefacten bevatte en gecorrigeerd moest worden, alleen tijdens de periodes waarin drempels of gereedheid werden beoordeeld."
+        },
+        "detailKcal": {
+            "text": "Nauwkeurige meting of voorspelling van de energiebehoefte tijdens inspanning is inherent complex en foutgevoelig, ongeacht de gekozen methodologie. Voor deze app zijn de energiekosten van inspanning geschat met behulp van wetenschappelijk onderbouwde vergelijkingen die specifiek zijn voor het type inspanning. Deze berekeningen moeten worden gebruikt als een ruwe richtlijn voor de energiekosten van elke trainingssessie, waarbij je in gedachten moet houden dat de werkelijke energiekosten van inspanning waarschijnlijk variëren op basis van factoren zoals leeftijd, geslacht, gezondheid en fitnessstatus, lichaamsgewicht en -samenstelling, levensstijl, genetica, enzovoort.",
+            "learnMore": "Meer informatie."
+        },
+        "detailEss": {
+            "text": "Jouw External Stress Score (ESS) voor deze activiteit, afgeleid van je vermogensdata. Hoe langer de activiteit, hoe hoger het vermogen en hoe intensiever de training, des te hoger de ESS. Bijvoorbeeld, een uur op de anaerobe drempel komt overeen met 100 ESS."
+        },
+        "powerSource": {
+            "text": "Je vermogen wordt voorspeld op basis van je hartslag en - indien aanwezig - cadence en/of DFA a₁. Onze AI leert je vermogen te voorspellen op basis van je eerdere activiteiten met vermogen, hartslag, cadence en a₁.",
+            "learnMore": "Meer informatie."
+        },
+        "activityTitle": {
+            "text": "Je kunt de titel van je activiteit aanpassen om een testtraining of wedstrijd te benadrukken.",
+            "textCycling": "Je kunt de titel van je activiteit aanpassen om een testtraining of wedstrijd te benadrukken. Zorg ervoor dat de titels van je FTP-testen zowel het woord 'test' als de duur van de test bevatten, zodat de app deze kan herkennen. Gebruik bijvoorbeeld '20 min FTP test' voor een 20-minuten FTP-test. Voor Ramp Tests, neem zowel 'ramp' als 'test' op in de titel, zoals 'Ramp Test'."
+        },
+        "gap": {
+            "text": "Grade Adjusted Pace (GAP) verwijst naar het tempo dat is aangepast om rekening te houden met de effecten van hoogteverschillen tijdens een activiteit. In plaats van alleen de snelheid te meten, houdt het voor helling gecorrigeerde tempo rekening met hoe hellingen (bergop) en dalingen (bergaf) de inspanning beïnvloeden die nodig is om een bepaalde snelheid aan te houden. Als je bijvoorbeeld een steile heuvel op rent, kan je ruwe tempo laag zijn, maar je GAP kan hoog zijn omdat het rekening houdt met de steilheid van de heuvel. Door het tempo te normaliseren op basis van deze hoogteverschillen, geeft het een nauwkeuriger beeld van de geleverde inspanning op wisselend terrein, wat het een nuttige meetwaarde maakt voor het vergelijken van prestaties op verschillende routes of het begrijpen van de impact van heuvels op je algehele tempo."
+        },
+        "markAsRace": {
+            "text": "Wanneer je een activiteit als een wedstrijd markeert, kent het AI-model meer gewicht toe aan de data van die activiteit tijdens het trainen van het model."
+        }
+    }
+}

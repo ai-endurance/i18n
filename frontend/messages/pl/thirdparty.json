@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "title": "Ustawienia aplikacji zewnętrznych",
+        "description": "Skonfiguruj tutaj ustawienia aplikacji zewnętrznych"
+    },
+    "page": {
+        "title": "Połączenia z aplikacjami zewnętrznymi",
+        "lockedMessage": "Poczekaj na zakończenie wyszukiwania bieżącego planu, aby połączyć aplikacje zewnętrzne.",
+        "iosMessage": "Aby połączyć aplikacje zewnętrzne z AI Endurance, użyj",
+        "webVersionButton": "wersji internetowej AI Endurance"
+    },
+    "components": {
+        "downloadZwift": {
+            "button": "Pobierz Zwift Workouts"
+        },
+        "uploadFitFile": {
+            "label": "Prześlij swój plik .FIT",
+            "button": "Prześlij",
+            "maxFilesError": "Można przesłać maksymalnie 3 pliki",
+            "uploadSuccess": "Plik przesłany pomyślnie",
+            "moreFiles": "dodatkowy plik",
+            "moreFilesPlural": "dodatkowe pliki"
+        },
+        "rampTests": {
+            "label": "DFA a₁ ramp tests",
+            "zwiftButton": "Pobierz Zwift Ramp Test",
+            "garminButton": "Wyślij do Garmin",
+            "suuntoButton": "Wyślij do Suunto",
+            "intervalsicuButton": "Wyślij do Intervals.icu",
+            "garminSuccess": "Ramp test wysłany do Garmin",
+            "suuntoSuccess": "Ramp test wysłany do Suunto",
+            "intervalsicuSuccess": "Ramp test wysłany do Intervals.icu"
+        },
+        "refreshExports": {
+            "label": "Odśwież eksporty",
+            "button": "Odśwież eksporty",
+            "success": "Eksporty odświeżone!",
+            "error": "Nie udało się odświeżyć eksportów"
+        },
+        "disconnectSuccess": {
+            "garminHealth": "Pomyślnie odłączono Garmin Health!",
+            "garminTraining": "Pomyślnie odłączono Garmin Training!",
+            "coros": "Pomyślnie odłączono Coros!",
+            "polar": "Pomyślnie odłączono Polar!",
+            "intervalsicu": "Pomyślnie odłączono Intervals.icu!",
+            "whoop": "Pomyślnie odłączono dane Whoop!",
+            "nolio": "Pomyślnie odłączono Nolio!",
+            "trainingpeaks": "Pomyślnie odłączono TrainingPeaks!",
+            "suunto": "Pomyślnie odłączono Suunto!",
+            "oura": "Pomyślnie odłączono dane Oura!",
+            "strava": "Pomyślnie odłączono dane Strava!",
+            "wahoo": "Pomyślnie odłączono Wahoo!"
+        }
+    },
+    "labels": {
+        "apps": {
+            "paragraph1": "Kliknij, aby połączyć lub odłączyć aplikacje zewnętrzne. Stale eksportujemy Twoje treningi do Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu i Nolio z wyprzedzeniem do jednego tygodnia. Może być wymagane konto TrainingPeaks Premium, aby uzyskać dostęp do treningów AI Endurance w TrainingPeaks.",
+            "paragraph2": "Pobieranie aktywności z aplikacji zewnętrznych może zająć trochę czasu. Jeśli nie widzisz od razu swoich przeszłych aktywności w kalendarzu, sprawdź ponownie po kilku godzinach od nawiązania połączenia.",
+            "paragraph3": "Jeśli połączysz swoje konto TrainingPeaks, pamiętaj, że nie pobieramy historii Twoich aktywności z TrainingPeaks, ponieważ ich API nie dostarcza szczegółowych informacji o treningach.",
+            "paragraph4": "Odpowiedzi na częste pytania dotyczące aplikacji zewnętrznych znajdziesz w naszym FAQ.",
+            "seeFAQ": "Zobacz nasze FAQ."
+        },
+        "zwift": {
+            "paragraph1": "Wystarczy rozpakować pobrany plik zip do folderu z treningami Zwift. Wszystkie Twoje treningi AI Endurance pojawią się teraz w Zwift w sekcji 'Custom Workouts'. Jeśli zaktualizujesz swój plan AI Endurance, pliki do pobrania tutaj również zostaną automatycznie zaktualizowane.",
+            "learnMore": "Kliknij tutaj, aby uzyskać bardziej szczegółowe instrukcje."
+        },
+        "dfaRamp": {
+            "paragraph1": "To jest ramp test służący do określenia progów wentylacyjnych na podstawie danych zmienności rytmu serca (HRV). Twój próg tlenowy znajduje się w miejscu, gdzie a₁ przekracza 0,75. Twój próg beztlenowy znajduje się w miejscu, gdzie a₁ przekracza 0,5. Wartość a₁ jest obliczana na podstawie danych HRV za pomocą analizy odchyleń fluktuacji (DFA). Możesz wykonać ramp test na Zwift, jako trening Garmin lub jako trening Suunto, jeśli urządzenia są połączone. Pamiętaj, aby zarejestrować tę aktywność za pomocą urządzenia Garmin lub Suunto z włączonym zapisem HRV, ponieważ Zwift nie rejestruje danych HRV. Twoje konto Garmin lub Suunto musi być połączone z AI Endurance, aby określić Twoje progi.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "fitFile": "Możesz ręcznie przesłać plik FIT, jeśli powyższe opcje importu nie obsługują Twojego urządzenia rejestrującego. Obecnie obsługujemy tylko pliki FIT z pływania, jazdy na rowerze i biegania.",
+        "refreshExports": "Jeśli Twoje eksporty w aplikacjach zewnętrznych nie są aktualne, możesz je tutaj ręcznie odświeżyć."
+    }
+}

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "You missed a workout. Do you want us to adapt your plan?"
+msgstr "Pominięto trening. Czy dostosować plan?"
+
+msgid ""
+"You decided to skip a future workout. Do you want us to adapt your plan?"
+msgstr "Oznaczono przyszły trening jako pominięty. Czy dostosować plan?"
+
+msgid "Do you want us to adapt your plan?"
+msgstr "Czy dostosować plan?"
+
+msgid ""
+"We will move the missed workout '%(title)s' originally scheduled for "
+"%(original_date)s to %(new_date)s."
+msgstr ""
+"Pominięty trening '%(title)s', pierwotnie zaplanowany na %(original_date)s, "
+"zostanie przeniesiony na %(new_date)s."
+
+msgid ""
+"We will move the skipped workout '%(title)s' originally scheduled for "
+"%(original_date)s to %(new_date)s."
+msgstr ""
+"Trening '%(title)s' oznaczony jako pominięty, pierwotnie zaplanowany na "
+"%(original_date)s, zostanie przeniesiony na %(new_date)s."
+
+msgid ""
+"We will switch the missed workout '%(title)s' with the endurance workout "
+"'%(endurance_title)s' originally scheduled for %(date)s."
+msgstr ""
+"Pominięty trening '%(title)s' zostanie zamieniony z treningiem Endurance "
+"'%(endurance_title)s' zaplanowanym na %(date)s."
+
+msgid ""
+"We will switch the skipped workout '%(title)s' with the endurance workout "
+"'%(endurance_title)s' originally scheduled for %(date)s."
+msgstr ""
+"Trening '%(title)s' oznaczony jako pominięty zostanie zamieniony z "
+"treningiem Endurance '%(endurance_title)s' zaplanowanym na %(date)s."
+
+msgid ""
+"We will increase the volume of '%(title)s' on %(date)s by %(percentage)s%%."
+msgstr ""
+"Objętość treningu '%(title)s' w dniu %(date)s zostanie zwiększona o "
+"%(percentage)s%%."
+
+msgid "Your recovery is lower than expected."
+msgstr "Poziom regeneracji jest niższy niż oczekiwano."
+
+msgid "Your sentiment towards exercising is not ideal."
+msgstr "Nastawienie do ćwiczeń nie jest idealne."
+
+msgid "Your body temperature is elevated."
+msgstr "Temperatura ciała jest podwyższona."
+
+msgid "Do you want to skip today's workout?"
+msgstr "Pominąć dzisiejszy trening?"
+
+msgid "We will delete today's workout '%(title)s'."
+msgstr "Dzisiejszy trening '%(title)s' zostanie usunięty."
+
+msgid "We recommend an Endurance %(act_type)s instead."
+msgstr "Zalecamy w zamian trening Endurance (%(act_type)s)."
+
+msgid ""
+"We will replace today's workout '%(title)s' with a %(duration)s easy "
+"Endurance %(act_type)s."
+msgstr ""
+"Dzisiejszy trening '%(title)s' zostanie zastąpiony łatwym treningiem "
+"Endurance (%(act_type)s) o czasie trwania %(duration)s."
+
+msgid "We recommend reducing the duration of today's workout."
+msgstr "Zalecamy skrócenie czasu trwania dzisiejszego treningu."
+
+msgid ""
+"We will change today's workout '%(title)s' to a %(duration)s easy Endurance "
+"%(act_type)s."
+msgstr ""
+"Dzisiejszy trening '%(title)s' zostanie zmieniony na łatwy trening Endurance"
+" (%(act_type)s) o czasie trwania %(duration)s."
+
+msgid "Your recovery is low. Stay towards the lower end of your zones."
+msgstr ""
+"Poziom regeneracji jest niski. Należy trzymać się dolnych zakresów stref."

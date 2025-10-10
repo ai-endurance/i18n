@@ -1,0 +1,164 @@
+{
+    "metadata": {
+        "title": "Dashboard",
+        "description": "Duik hier in je gegevens op het {partnerTitle} dashboard."
+    },
+    "recalculatingPlan": {
+        "creatingPredictions": "Planvoorspellingen aan het maken...",
+        "creatingWorkouts": "Trainingen aan het maken...",
+        "recalculatingPlan": "Je plan wordt opnieuw berekend"
+    },
+    "notifications": {
+        "messages": {
+            "notificationActionSuccessful": "Notificatieactie geslaagd!",
+            "notificationDeclined": "Notificatie geweigerd!",
+            "feedbackDismissed": "Feedback genegeerd!",
+            "failedToRefresh": "Kon notificaties niet vernieuwen"
+        },
+        "display": {
+            "title": "Notificaties",
+            "allSet": "Je bent helemaal bij!",
+            "nothingNeedsAttention": "Er is op dit moment niets dat je aandacht nodig heeft",
+            "done": "Klaar"
+        },
+        "item": {
+            "accept": "Accepteren",
+            "decline": "Weigeren",
+            "dismiss": "Negeren",
+            "acceptChange": "Wijziging accepteren",
+            "declineTooltip": "Weigeren",
+            "dismissTooltip": "Negeren",
+            "feedbackFromCoach": "Feedback van je AI-coach"
+        }
+    },
+    "event": {
+        "yourPredictions": "Jouw voorspellingen",
+        "mainGoalEvent": "Hoofddoel",
+        "eventDate": "Datum van evenement",
+        "predicted": "Voorspelde {discipline}",
+        "weeks": "{weeks, plural, one {# week} other {# weken}}",
+        "displayed": "Weergegeven",
+        "weight": "Gewicht: {weight}",
+        "morePredictions": "Meer voorspellingen",
+        "upperMargin": "Bovenmarge:",
+        "prediction": "Voorspelling:",
+        "lowerMargin": "Ondermarge:"
+    },
+    "history": {
+        "lastFourWeeks": "Laatste 4 weken",
+        "calendar": "Kalender",
+        "yearHistory": "Geschiedenis 365 dagen",
+        "date": "Datum:",
+        "duration": "Duur:",
+        "na": "N/A",
+        "planCompliance": "Plan-naleving"
+    },
+    "nextWorkout": {
+        "noWorkoutsScheduled": "Je hebt nog geen trainingen gepland!",
+        "nextWorkout": "Volgende training",
+        "calendar": "Kalender",
+        "warmup": "Warming-up",
+        "mainSet": "Kern",
+        "cooldown": "Cooling-down",
+        "date": "Datum",
+        "totalTime": "Totale tijd",
+        "estDistance": "Geschatte afstand",
+        "timeAtIntensity": "Tijd op intensiteit",
+        "avgPace": "Gem. tempo",
+        "avgPower": "Gem. vermogen",
+        "estTime": "Geschatte tijd",
+        "distance": "Afstand"
+    },
+    "recovery": {
+        "connectHeartRateData": "Koppel je hartslaggegevens om je herstel te zien",
+        "history": "Geschiedenis",
+        "dataNotUpToDate": "Gegevens niet up-to-date?",
+        "refreshData": "Gegevens vernieuwen",
+        "recoveryDataRefreshed": "Herstelgegevens vernieuwd!",
+        "failedToRefresh": "Kon herstelgegevens niet vernieuwen",
+        "notUsingDfa": "Je gebruikt geen DFA a₁!",
+        "notTrackingHrv": "Je meet geen HRV!",
+        "notTrackingRestingHr": "Je meet je rusthartslag niet!",
+        "notTrainingOrNoHrData": "Je traint niet, of je hebt geen hartslaggegevens gekoppeld!",
+        "makeMostOfAiEndurance": "Haal het maximale uit AI Endurance",
+        "essOn": "ESS op {date}",
+        "drivingAerobicRecovery": "Sturend voor aeroob herstel",
+        "cardTitles": {
+            "hrRest": "Rusthartslag"
+        },
+        "bigCardTitles": {
+            "aerobicRecovery": "Aeroob herstel",
+            "muscleJointRecovery": "Spier- en gewrichtsherstel"
+        }
+    },
+    "thisWeek": {
+        "title": "Training van deze week",
+        "viewFullCalendar": "Volledige kalender bekijken"
+    },
+    "checkIn": {
+        "title": "Check-in",
+        "dismiss": "Negeren",
+        "feedbackTitle": "Feedback op je check-in",
+        "howDoYouFeel": "Hoe voel je je vandaag?",
+        "forMoreDiscussion": "Voor een meer gedetailleerde bespreking -",
+        "tryOurAiChat": "Probeer onze AI Chat",
+        "answerHere": "Antwoord hier",
+        "enterHrvManually": "Voer HRV-waarden handmatig in",
+        "restingHeartRate": "Rusthartslag",
+        "submit": "Verzenden",
+        "checkinSubmitted": "Check-in succesvol verzonden",
+        "feedbackDismissed": "Feedback genegeerd!",
+        "sorenessQuestions": {
+            "armsShoulders": "Hoeveel spierpijn heb je in je armen/schouders? (0-10)",
+            "core": "Hoeveel spierpijn heb je in je core? (0-10)",
+            "legs": "Hoeveel spierpijn heb je in je benen? (0-10)",
+            "cyclingSoreness": "Hoeveel spierpijn heb je van het fietsen? (0-10)",
+            "runningSoreness": "Hoeveel spierpijn heb je van het hardlopen? (0-10)"
+        }
+    },
+    "latestWorkout": {
+        "title": "Meest recente activiteit",
+        "noWorkoutsYet": "Het lijkt erop dat je nog geen activiteiten hebt!",
+        "noWorkoutsDescription": "Koppel je gegevens aan AI Endurance, of ga naar buiten en registreer je eerste activiteit!",
+        "analysis": "Analyse"
+    },
+    "activityDetails": {
+        "startTime": "Starttijd",
+        "distance": "Afstand",
+        "time": "Tijd",
+        "elevationGain": "Hoogtemeters",
+        "averagePower": "Gemiddeld vermogen",
+        "noDetails": "Geen details"
+    },
+    "checkInSnackbar": {
+        "notCheckedInRecently": "Je hebt recent niet ingecheckt!",
+        "checkIn": "Check-in",
+        "dismiss": "Negeren"
+    },
+    "freeTrial": {
+        "trialActive": "Je hebt momenteel een gratis proefperiode! Je proefperiode eindigt over {daysLeft, plural, one {# dag} other {# dagen}}.",
+        "trialEnded": "Je gratis proefperiode is afgelopen! Neem een abonnement om AI Endurance te blijven gebruiken!",
+        "subscribeNow": "Neem nu een abonnement!"
+    },
+    "languageDisclaimer": {
+        "translationWarning": "We werken aan het verbeteren van de {language} versie van AI Endurance. We stellen alle feedback op prijs - stuur deze naar ",
+        "emailSubject": "Feedback over de AI Endurance App",
+        "emailBody": "Hallo AI Endurance Team,\n\nDit is er mis met de {language} app-tekst:",
+        "orHelp": "of help de vertalingen te verbeteren op GitHub"
+    },
+    "labels": {
+        "recoveryDisplay": "Jouw historische herstelwaarden gebaseerd op je HRV-rustgegevens (RMSSD/SDNN en rusthartslag) en DFA a₁-trainingsgegevens. Als je Garmin-horloge 's nachts HRV-gegevens verzamelt, koppel dan je Garmin Connect-account en vink 'Dagelijkse gezondheidsstatistieken' aan. Garmin stuurt je gegevens automatisch door nadat je wakker wordt. Als je een Oura-ring of Whoop gebruikt, koppel dan je Oura- of Whoop-account. Als je een Suunto-, Coros- of Polar-horloge gebruikt dat 's nachts HRV registreert, koppel dan je Suunto-, Coros- of Polar-account. Om andere HRV-rustgegevens in AI Endurance te krijgen, koppel je je favoriete HRV-app aan TrainingPeaks en koppel je TrainingPeaks aan AI Endurance. Gebaseerd op de meest recente gegevens van je gekoppelde apps.",
+        "prediction": "De AI-voorspellingen voor je toekomstige prestaties als je je trainingsplan volgt. Deze omvatten de voorspellingsfout voor je machine learning-model - je digital twin.",
+        "checkIn": "Vertel ons over je spierpijn en motivatie, en we passen je plan aan als je niet klaar bent voor een training. We gebruiken ChatGPT om je trainingsmotivatie te evalueren en je feedback te geven over je trainingsdag. Vertel ons hoe je je voelt, net zoals je dat tegen een coach of een vriend zou doen. Bijvoorbeeld: 'Werk is momenteel erg stressvol' of 'Ik ben zo moe' of 'Ik heb er vandaag echt geen zin in' of 'Klaar om te knallen vandaag!'. We houden ook rekening met je HRV-rustgegevens (RMSSD/SDNN en rusthartslag) en DFA a₁-trainingsgegevens. Je kunt elke 12 uur inchecken.",
+        "recoveryAerobic": "Je aerobe herstelscore. Dit is de laagste waarde van je DFA a₁-herstelscore, RMSSD/SDNN-herstelscore, rusthartslag-herstelscore en door ESS veroorzaakte herstelscore.",
+        "recoveryMuscleJoint": "Je spier- en gewrichtsherstelscore. We modelleren de impact van elke training op je spieren en gewrichten op basis van je historische trainingsgegevens. Afhankelijk van het trainingstype, de intensiteit en de duur, berekenen we de spier- en gewrichtsherstelscore.",
+        "recoveryAlpha1": "Hoe lager je DFA a₁-waarden voor een bepaald tempo/vermogen, hoe lager je herstelscore. We vergelijken een voortschrijdend gemiddelde van je waarden van de laatste 7 dagen met een 60-daags normaal om je DFA a₁-herstelscore te bepalen. Als je DFA a₁ meet en geen resultaat ziet, kan dit komen doordat a) je vandaag geen activiteit met DFA a₁ hebt voltooid of b) we ten minste 10 dagen aan metingen nodig hebben om een betrouwbare trend vast te stellen.",
+        "recoveryRmssd": "Hoe lager je root mean square of successive differences (RMSSD) van je hartslagvariabiliteit (HRV), hoe lager je herstelscore. We vergelijken een voortschrijdend gemiddelde van je waarden van de laatste 7 dagen met een 60-daags normaal om je RMSSD-herstelscore te bepalen. Als je HRV in rust meet en geen resultaat ziet, kan dit komen doordat we ten minste 10 dagen aan metingen nodig hebben om een betrouwbare trend vast te stellen.",
+        "recoverySdnn": "Hoe lager je standard deviation of NN intervals (SDNN) van je hartslagvariabiliteit (HRV), hoe lager je herstelscore. We vergelijken een voortschrijdend gemiddelde van je waarden van de laatste 7 dagen met een 60-daags normaal om je SDNN-herstelscore te bepalen. Als je HRV in rust meet en geen resultaat ziet, kan dit komen doordat we ten minste 10 dagen aan metingen nodig hebben om een betrouwbare trend vast te stellen.",
+        "recoveryHrRest": "Hoe hoger je rusthartslag in vergelijking met je gebruikelijke rusthartslag, hoe lager je herstelscore. We vergelijken de waarde van vandaag met een 30-daags normaal om de afwijking van je rusthartslag ten opzichte van het gebruikelijke te bepalen. Als je je rusthartslag meet en geen resultaat ziet, kan dit komen doordat we ten minste 10 dagen aan metingen nodig hebben om een betrouwbare trend vast te stellen.",
+        "recoveryEss": "De External Stress Score (ESS) van je eerdere activiteiten heeft een directe invloed op je algehele herstelscore. Een hogere ESS-accumulatie leidt tot een grotere vermindering van het herstel. Deze vermindering wordt berekend met ons gepersonaliseerde herstelmodel, dat is afgestemd op jouw unieke historische trainings- en herstelgegevens. Om een nauwkeurige herstelscore te genereren, hebben we ten minste 10 dagen aan activiteiten met gemeten ESS nodig om je herstelmodel te trainen.",
+        "lastFourWeeks": "Je trainingsgegevens van de laatste vier weken. Je nalevingsscore is 100% als je in een bepaalde week alle geplande trainingen precies zoals voorgeschreven hebt voltooid. Als je de trainingen hebt voltooid, maar niet precies zoals voorgeschreven, is je nalevingsscore lager. Dit geeft je een indicatie van hoe goed je je trainingsplan volgt. Als je N/A ziet, betekent dit dat je plan nog niet was gestart of dat we nog niet genoeg gegevens hebben om je plan-naleving te berekenen.",
+        "yearHistory": "Je trainingsgegevens van het afgelopen jaar. Elk blok vertegenwoordigt een dag en de kleur geeft de totale duur van je training op die dag weer.",
+        "learnMore": "Meer informatie."
+    }
+}

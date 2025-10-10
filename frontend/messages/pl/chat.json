@@ -1,0 +1,197 @@
+{
+    "metadata": {
+        "title": "Chat",
+        "description": "Porozmawiaj tutaj ze swoim trenerem AI"
+    },
+    "layout": {
+        "title": "Chat",
+        "description": "Porozmawiaj tutaj ze swoim trenerem AI"
+    },
+    "header": {
+        "newChat": "Nowy Chat"
+    },
+    "overview": {
+        "welcome": "Witaj w asystencie treningowym opartym na AI! Możesz zadawać pytania dotyczące planu treningowego, strategii żywieniowych, statusu regeneracji i analizować przeszłe aktywności. Możesz również poprosić o modyfikację planu treningowego, utworzenie lub zmianę poszczególnych treningów."
+    },
+    "models": {
+        "small": {
+            "name": "Mały model",
+            "description": "Do szybkich, prostych zadań: gemini-2.5-flash"
+        },
+        "large": {
+            "name": "Duży model",
+            "description": "Do złożonych, wieloetapowych zadań: gemini-2.5-pro"
+        },
+        "reasoning": {
+            "name": "Model rozumowania",
+            "description": "Używa zaawansowanego rozumowania"
+        }
+    },
+    "toolConfirmations": {
+        "changeWorkoutDate": {
+            "message": "Zmienić {title} na {date}?",
+            "confirmText": "Tak",
+            "denyText": "Nie",
+            "confirmResult": "Tak, potwierdzono.",
+            "denyResult": "Nie, odrzucono."
+        },
+        "skipWorkout": {
+            "message": "Pominąć {title}? Trening zostanie usunięty z kalendarza.",
+            "confirmText": "Pomiń",
+            "denyText": "Zostaw",
+            "confirmResult": "Tak, pomiń.",
+            "denyResult": "Nie, zostaw."
+        },
+        "createWorkout": {
+            "message": "Utworzyć {intensity_type} {act_type} na {date_str}?",
+            "confirmText": "Utwórz",
+            "denyText": "Anuluj",
+            "confirmResult": "Tak, utwórz.",
+            "denyResult": "Nie, anuluj."
+        },
+        "changeWorkoutIntensity": {
+            "message": "Zmienić intensywność {title} na {intensity}?",
+            "confirmText": "Zmień",
+            "denyText": "Anuluj",
+            "confirmResult": "Tak, zmień.",
+            "denyResult": "Nie, anuluj."
+        },
+        "setZones": {
+            "message": "Ustawić strefy dla {actType} na:\nEndurance: {endurance}\nTempo: {tempo}\nThreshold: {threshold}\nVO2Max: {vo2max}?",
+            "confirmText": "Ustaw strefy",
+            "denyText": "Anuluj",
+            "confirmResult": "Tak, ustaw strefy.",
+            "denyResult": "Nie, anuluj."
+        },
+        "createSwimWorkout": {
+            "message": "Utworzyć trening pływacki \"{title}\" na {date_str}?",
+            "confirmText": "Utwórz",
+            "denyText": "Anuluj",
+            "confirmResult": "Tak, utwórz.",
+            "denyResult": "Nie, anuluj."
+        },
+        "changeWorkoutAdvice": {
+            "message": "Zaktualizować wskazówkę treningową: \"{advice}\"?",
+            "confirmText": "Zaktualizuj",
+            "denyText": "Anuluj",
+            "confirmResult": "Tak, zaktualizuj.",
+            "denyResult": "Nie, anuluj."
+        }
+    },
+    "sidebar": {
+        "history": "Historia",
+        "newChat": "Nowy Chat",
+        "delete": "Usuń",
+        "share": "Udostępnij",
+        "private": "Prywatny",
+        "public": "Publiczny",
+        "more": "Więcej",
+        "toggle": "Przełącz pasek boczny"
+    },
+    "sidebarHistory": {
+        "today": "Dzisiaj",
+        "yesterday": "Wczoraj",
+        "lastWeek": "Ostatnie 7 dni",
+        "lastMonth": "Ostatnie 30 dni",
+        "older": "Starsze",
+        "deleteDialog": {
+            "title": "Czy na pewno?",
+            "description": "Tej operacji nie można cofnąć. Spowoduje to trwałe usunięcie czatu z naszych serwerów.",
+            "cancel": "Anuluj",
+            "continue": "Kontynuuj"
+        },
+        "toast": {
+            "deleting": "Usuwanie czatu...",
+            "deleted": "Chat usunięty pomyślnie",
+            "failed": "Nie udało się usunąć czatu"
+        }
+    },
+    "visibility": {
+        "private": "Prywatny",
+        "public": "Publiczny",
+        "privateDescription": "Tylko ty masz dostęp do tego czatu",
+        "publicDescription": "Każdy, kto ma link, może uzyskać dostęp do tego czatu"
+    },
+    "messageActions": {
+        "copy": "Kopiuj",
+        "copied": "Skopiowano do schowka!",
+        "editMessage": "Edytuj wiadomość",
+        "upvote": "Oceń pozytywnie",
+        "downvote": "Oceń negatywnie",
+        "upvoting": "Ocenianie pozytywne...",
+        "downvoting": "Ocenianie negatywne...",
+        "upvoted": "Oceniono pozytywnie!",
+        "downvoted": "Oceniono negatywnie!",
+        "upvoteFailed": "Nie udało się ocenić pozytywnie.",
+        "downvoteFailed": "Nie udało się ocenić negatywnie."
+    },
+    "messageEditor": {
+        "cancel": "Anuluj",
+        "send": "Wyślij",
+        "sending": "Wysyłanie..."
+    },
+    "multimodalInput": {
+        "placeholder": "Wyślij wiadomość...",
+        "waitForResponse": "Poczekaj, aż model zakończy odpowiadać!"
+    },
+    "suggestedActions": {
+        "weatherWorkout": {
+            "title": "Na podstawie prognozy pogody",
+            "label": "czy zmienić daty treningów?",
+            "action": "Na podstawie prognozy pogody, czy powinienem zmienić daty moich treningów?"
+        },
+        "planProgress": {
+            "title": "Na podstawie postępów w planie",
+            "label": "zmodyfikuj treningi na najbliższe 7 dni",
+            "action": "Na podstawie moich postępów w planie, zmodyfikuj treningi na najbliższe 7 dni"
+        },
+        "nutritionStrategy": {
+            "title": "Strategia żywieniowa",
+            "label": "na mój następny wyścig",
+            "action": "Strategia żywieniowa na mój następny wyścig na podstawie moich celów"
+        },
+        "recoveryStatus": {
+            "title": "Szczegółowe podsumowanie",
+            "label": "mojego obecnego statusu regeneracji",
+            "action": "Szczegółowe podsumowanie mojego obecnego statusu regeneracji"
+        }
+    },
+    "toolResults": {
+        "accountInfo": "Pobrano informacje o koncie",
+        "information": "Pobrano informacje",
+        "availability": "Pobrano harmonogram dostępności",
+        "predictions": "Pobrano prognozy wydolności",
+        "plannedWorkouts": "Pobrano zaplanowane treningi",
+        "cyclingActivities": "Pobrano aktywności rowerowe",
+        "cyclingActivityDetails": "Pobrano szczegóły aktywności rowerowej",
+        "runningActivities": "Pobrano aktywności biegowe",
+        "runningActivityDetails": "Pobrano szczegóły aktywności biegowej",
+        "swimmingActivities": "Pobrano aktywności pływackie",
+        "swimmingActivityDetails": "Pobrano szczegóły aktywności pływackiej",
+        "recoveryModel": "Pobrano model regeneracji",
+        "goalEvents": "Pobrano wydarzenia docelowe",
+        "planProgress": "Pobrano postępy w planie"
+    },
+    "workoutActions": {
+        "dateUpdated": "Data treningu zaktualizowana pomyślnie.",
+        "viewInCalendar": "Zobacz w kalendarzu",
+        "viewCalendar": "Zobacz kalendarz",
+        "workoutSkipped": "Trening pominięty pomyślnie.",
+        "statusUpdated": "Status treningu zaktualizowany.",
+        "workoutCreated": "Trening utworzony pomyślnie.",
+        "intensityUpdated": "Intensywność treningu zaktualizowana pomyślnie.",
+        "adviceUpdated": "Wskazówka treningowa zaktualizowana pomyślnie.",
+        "zonesUpdated": "Strefy treningowe zaktualizowane pomyślnie.",
+        "swimWorkoutCreated": "Trening pływacki utworzony pomyślnie."
+    },
+    "confirmation": {
+        "yes": "Tak",
+        "no": "Nie",
+        "yesConfirmed": "Tak, potwierdzono.",
+        "noDenied": "Nie, odrzucono."
+    },
+    "thinking": "Myślę...",
+    "errors": {
+        "general": "Wystąpił błąd, spróbuj ponownie!"
+    }
+}

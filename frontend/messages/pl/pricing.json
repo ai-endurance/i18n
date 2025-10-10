@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "title": "Cennik",
+        "description": "Wypróbuj {partner} za darmo przez 2 tygodnie, a następnie kontynuuj swoją podróż za ułamek kosztów tradycyjnego treningu"
+    },
+    "banner": {
+        "title": "Ile kosztuje AI Endurance?",
+        "description": "Na początek: przez 14 dni jest za darmo. Nie wymagamy danych do płatności, możesz zacząć korzystać z AI Endurance bezpłatnie już dziś. Po okresie próbnym możesz kontynuować, wybierając subskrypcję miesięczną lub roczną. Nawet w opcji miesięcznej AI Endurance kosztuje ułamek ceny tradycyjnego trenera. Wypróbuj już dziś!",
+        "cta": "Rozpocznij!",
+        "imageAlt": "Kolarz szosowy"
+    },
+    "cards": {
+        "title": "Który plan wybierasz?"
+    },
+    "card": {
+        "types": {
+            "monthly": "Miesięczny",
+            "yearly": "Roczny"
+        },
+        "monthly": {
+            "price": "{price} miesięcznie",
+            "billing": "Płatność co miesiąc w {currency}"
+        },
+        "yearly": {
+            "price": "{price} rocznie",
+            "billing": "Płatność raz w roku w {currency}",
+            "savings": "Oszczędzasz {currency}{amount}!"
+        },
+        "cta": "Wypróbuj za darmo",
+        "bestValue": "Najlepsza oferta!"
+    }
+}

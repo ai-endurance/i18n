@@ -1,0 +1,116 @@
+{
+    "errors": {
+        "generic": "Wystąpił błąd. Spróbuj ponownie.",
+        "networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
+        "userDataNotFound": "Nie znaleziono danych użytkownika.",
+        "pleaseFilOutForm": "Wypełnij formularz.",
+        "invalidHrvInput": "Nieprawidłowe dane HRV.",
+        "noValidQueryString": "Nie znaleziono prawidłowego ciągu zapytania.",
+        "invalidEventDate": "Nieprawidłowa data wydarzenia.",
+        "noEventType": "Nie wybrano typu wydarzenia.",
+        "userIdNotProvided": "Nie podano ID użytkownika do sfinalizowania subskrypcji."
+    },
+    "notifications": {
+        "dismissNotification": "Nie udało się odrzucić powiadomienia.",
+        "cleanupFailed": "Nie udało się wyczyścić powiadomień.",
+        "switchWorkoutsFailed": "Nie udało się uruchomić zadania zmiany treningów.",
+        "updateZonesFailed": "Nie udało się zaktualizować stref.",
+        "findNewPlanFailed": "Nie udało się znaleźć nowego planu.",
+        "notSupported": "Powiadomienie nie jest obsługiwane."
+    },
+    "account": {
+        "updateFailed": "Nie udało się zaktualizować konta.",
+        "deleteError": "Wystąpił błąd podczas usuwania konta.",
+        "reactivateSubscriptionFailed": "Nie udało się ponownie aktywować subskrypcji."
+    },
+    "activity": {
+        "changeNameFailed": "Nie udało się zmienić nazwy aktywności.",
+        "changeRaceStatusFailed": "Nie udało się zmienić statusu wyścigu dla aktywności.",
+        "deleteFailed": "Nie udało się usunąć aktywności."
+    },
+    "auth": {
+        "logoutFailed": "Wylogowanie nie powiodło się."
+    },
+    "calendar": {
+        "goBackToPreviousPlanFailed": "Powrót do poprzedniego planu nie powiódł się."
+    },
+    "data": {
+        "addExclusionsFailed": "Nie udało się dodać wykluczeń danych.",
+        "deleteExclusionsFailed": "Nie udało się usunąć wykluczeń danych.",
+        "exclusionsSavedSuccessfully": "Wykluczenia danych zapisano pomyślnie.",
+        "submitTaskFailed": "Nie udało się przesłać zadania.",
+        "noExclusionsChanged": "Nie dodano ani nie usunięto żadnych wykluczeń."
+    },
+    "events": {
+        "deleteFailed": "Nie udało się usunąć wydarzenia.",
+        "storeFailed": "Nie udało się zapisać wydarzenia."
+    },
+    "feedback": {
+        "dismissFailed": "Nie udało się odrzucić meldunku.",
+        "deleteFailed": "Nie udało się usunąć opinii.",
+        "resetFailed": "Nie udało się zresetować meldunku."
+    },
+    "onboarding": {
+        "connectToAppFailed": "Połączenie z {appName} nie powiodło się.",
+        "connectToStrava": "Połączenie ze Strava nie powiodło się.",
+        "connectToGarmin": "Połączenie z Garmin nie powiodło się.",
+        "connectToOura": "Połączenie z Oura nie powiodło się.",
+        "connectToPolar": "Połączenie z Polar nie powiodło się.",
+        "connectToCoros": "Połączenie z Coros nie powiodło się.",
+        "connectToIntervalsicu": "Połączenie z Intervals.icu nie powiodło się.",
+        "connectToNolio": "Połączenie z Nolio nie powiodło się.",
+        "connectToTp": "Połączenie z TP nie powiodło się.",
+        "connectToSuunto": "Połączenie z Suunto nie powiodło się.",
+        "connectToWahoo": "Połączenie z Wahoo nie powiodło się.",
+        "connectToWhoop": "Połączenie z Whoop nie powiodło się.",
+        "stravaPermissions": "Zaznacz wszystkie pola podczas łączenia ze Strava.",
+        "garminPermissions": "Wybierz 'Zgadzam się' podczas łączenia z Garmin.",
+        "ouraPermissions": "Zaznacz wszystkie pola podczas łączenia z Oura.",
+        "handleNewUserFailed": "Nie udało się uruchomić zadania obsługi nowego użytkownika.",
+        "onboardingPostFailed": "Nie udało się opublikować informacji o zakończeniu onboardingu.",
+        "invalidForm": "Nieprawidłowy formularz.",
+        "submitFailed": "Przesłanie formularza nie powiodło się."
+    },
+    "password": {
+        "resetError": "Wystąpił błąd podczas resetowania hasła. Spróbuj ponownie później."
+    },
+    "payment": {
+        "noPaymentMethod": "Nie podano metody płatności.",
+        "createSubscriptionFailed": "Nie udało się utworzyć subskrypcji.",
+        "paymentDeclined": "Płatność nie powiodła się, Twoja karta została odrzucona.",
+        "paymentFailed": "Płatność nie powiodła się.",
+        "iapActivationFailed": "Aktywacja subskrypcji IAP nie została ukończona."
+    },
+    "recovery": {
+        "refreshFailed": "Nie udało się odświeżyć danych regeneracji.",
+        "fetchModelDetailFailed": "Nie udało się pobrać szczegółowych danych modelu regeneracji."
+    },
+    "register": {
+        "emailRequired": "Adres e-mail jest wymagany. ",
+        "passwordRequired": "Hasło jest wymagane. ",
+        "firstNameRequired": "Imię jest wymagane. ",
+        "lastNameRequired": "Nazwisko jest wymagane. ",
+        "passwordValidation": "Hasło musi mieć co najmniej 8 znaków i zawierać co najmniej jedną cyfrę, jedną wielką literę, jedną małą literę i jeden znak specjalny.",
+        "createAccountFailed": "Nie można utworzyć konta. Jeśli masz już konto, zaloguj się lub użyj opcji 'nie pamiętam hasła'."
+    },
+    "subscriptions": {
+        "endFailed": "Nie udało się zakończyć subskrypcji.",
+        "activationFailed": "Aktywacja subskrypcji nie została ukończona."
+    },
+    "thirdParty": {
+        "refreshExportsFailed": "Nie udało się odświeżyć eksportów."
+    },
+    "workouts": {
+        "skipFailed": "Nie udało się pominąć treningu.",
+        "completeFailed": "Nie udało się ukończyć treningu.",
+        "autoCalcFailed": "Automatyczne obliczenia nie powiodły się.",
+        "createFailed": "Wystąpił nieoczekiwany błąd podczas tworzenia treningu.",
+        "fetchDetailsFailed": "Nie udało się pobrać szczegółów utworzonego treningu."
+    },
+    "zones": {
+        "resetFailed": "Błąd podczas resetowania stref."
+    },
+    "zwift": {
+        "fetchWorkoutsFailed": "Nie udało się pobrać danych treningów Zwift."
+    }
+}

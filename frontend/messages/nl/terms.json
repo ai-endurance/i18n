@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "title": "Gebruiksvoorwaarden",
+        "description": "Gebruiksvoorwaarden van AI Endurance"
+    },
+    "sections": {
+        "privacy": {
+            "title": "1. Privacy",
+            "content": "Door de diensten van AI Endurance te bezoeken of te gebruiken, ga je ermee akkoord dat wij je gegevens kunnen verzamelen, opslaan en verwerken in overeenstemming met ons Privacybeleid."
+        },
+        "conduct": {
+            "title": "2. Gedragsnormen",
+            "content": "Het is niet toegestaan je account of accountrechten te verkopen, over te dragen, toe te wijzen of in licentie te geven. Je bent zelf verantwoordelijk voor het veilig houden van je gebruikersnaam en wachtwoord. Je mag geen account aanmaken voor iemand anders. Je mag niet de account- of inloggegevens van iemand anders vragen, verzamelen of gebruiken. Gebruik de AI Endurance-dienst niet voor illegale of ongeoorloofde doeleinden. Bij het gebruik van AI Endurance moet je je ook houden aan alle toepasselijke wetten, regels en overheidsvoorschriften (zowel federaal, staats-, lokaal of anderszins). Je bent verantwoordelijk voor je eigen gedrag op AI Endurance. Het is verboden om de AI Endurance-dienst of enige andere website te wijzigen, aan te passen, te veranderen of te bewerken om een associatie met AI Endurance te suggereren. Je mag de AI Endurance-dienst of de bijbehorende servers of netwerken niet verstoren of hinderen. Probeer niet om het gebruik of plezier van AI Endurance voor anderen te beperken."
+        },
+        "health": {
+            "title": "3. Gezondheid",
+            "content": "Je gaat er uitdrukkelijk mee akkoord dat AI Endurance via haar diensten geen enkele vorm van medisch advies verstrekt. Je verklaart dat je AI Endurance volledig op eigen verantwoordelijkheid gebruikt. In het bijzonder ben je je ervan bewust dat de informatie en gegevens die beschikbaar zijn op AI Endurance geen vervanging zijn voor het raadplegen van een arts. AI Endurance benadrukt dat alle trainingen en trainingsplannen potentieel schadelijk kunnen zijn en letsel of de dood kunnen veroorzaken. Daarom benadrukt AI Endurance dat je een arts moet raadplegen voordat je de trainingen gebruikt. Je doet vrijwillig afstand van, vrijwaart en ontslaat AI Endurance (wat voor de doeleinden van deze overeenkomst de eigenaars, leden, directeuren, functionarissen, werknemers, agenten of vrijwilligers omvat) van alle claims, aansprakelijkheden, schade, verliezen (inclusief maar niet beperkt tot verlies van tijd, verlies van service en inkomensderving), rechtsvorderingen, rechtszaken, kosten, uitgaven en advocaatkosten die verband houden met alle mogelijke risico's en letsels."
+        },
+        "performance": {
+            "title": "4. Prestatievoorspellingen",
+            "content": "Onze prestatievoorspellingen zijn schattingen en hebben een voorspellingsfout, bovenop oncontroleerbare variabelen zoals het weer, de dagvorm, enz. Wij zijn niet aansprakelijk als een prestatie niet overeenkomt met onze voorspellingen."
+        },
+        "nutrition": {
+            "title": "5. Disclaimer voedingsaanbevelingen",
+            "content": "Het meten en schatten van de energiekosten van verschillende vormen van menselijke voortbeweging is inherent uitdagend en foutgevoelig. Daarom zijn de geschatte waarden voor de energiebehoefte voor een specifieke activiteit, evenals voor het dagelijks onderhoud van de energiebalans, die door AI Endurance worden verstrekt, slechts een globale schatting van de werkelijke energiebehoefte. Daarnaast zijn de doelen voor macronutriënten gebaseerd op de meest recente aanbevelingen voor voeding voor duursporters en -activiteiten; hoewel deze doelen waarschijnlijk voor de meeste mensen geschikt zijn, dien je altijd een sportvoedingsdeskundige of diëtist te raadplegen voor persoonlijk advies.",
+            "additional": "De richtlijnen en informatie in deze app over energie- en voedingsbehoeften zijn niet bedoeld als vervanging voor geïndividualiseerd professioneel of medisch advies van een medische zorgverlener, geregistreerd diëtist of andere geregistreerde zorgverlener. Hoewel de verstrekte informatie wetenschappelijk onderbouwd is, moet deze puur als educatief en informatief worden beschouwd. De informatie in deze app is niet bedoeld als voedings- of medisch advies en is ook niet afgestemd op de gebruiker en diens specifieke omstandigheden (genetica, antropometrie, leefstijlfactoren, enz.). Wij kunnen niet verantwoordelijk worden gehouden voor eventuele fouten of weglatingen, en wij aanvaarden geen enkele aansprakelijkheid voor enig verlies of schade die je zou kunnen oplopen. Vraag altijd medisch of professioneel advies voor je specifieke omstandigheden, indien nodig voor vragen en zorgen die je nu hebt of in de toekomst zou kunnen hebben."
+        },
+        "apple": {
+            "title": "6. Standaard licentieovereenkomst voor eindgebruikers (EULA) van Apple",
+            "content": "Als je de AI Endurance-app hebt gedownload via de Apple App Store, is je gebruik van de app ook onderworpen aan de standaard licentieovereenkomst voor eindgebruikers (EULA) van Apple, die je <appleEulaLink>hier</appleEulaLink> kunt vinden."
+        }
+    }
+}

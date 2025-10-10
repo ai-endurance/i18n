@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Odżywianie",
+        "description": "Dopracuj swoje odżywianie dzięki naszemu panelowi odżywiania."
+    },
+    "layout": {
+        "title": "Odżywianie",
+        "description": "Dopracuj swoje odżywianie dzięki naszemu panelowi odżywiania."
+    },
+    "nutritionCard": {
+        "title": "Twój model odżywiania"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Średnie dzienne spożycie",
+        "calories": "Kalorie",
+        "protein": "Białko",
+        "carbs": "Węglowodany",
+        "fat": "Tłuszcze"
+    },
+    "mealPlanCard": {
+        "title": "Twój plan posiłków"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Preferencje żywieniowe",
+        "dateForMealPlan": "Data planu posiłków",
+        "placeholder": "bezglutenowa, wegańska itp.",
+        "requestMealPlan": "Wygeneruj plan posiłków",
+        "dismissCurrentMealPlan": "Odrzuć obecny plan posiłków"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "Brak dostępnego planu posiłków. Utwórz go teraz!",
+        "mealPlanFor": "Plan posiłków na {date}",
+        "plannedWorkout": "Zaplanowany trening:",
+        "specialDietaryRequests": "Specjalne wymagania lub preferencje żywieniowe: {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Tworzenie planu posiłków..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Suma:",
+            "protein": "Białko:",
+            "carbs": "Węglowodany:",
+            "fat": "Tłuszcze:",
+            "workout": "Trening:"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Twoje dzienne wydatki energetyczne (kilokalorie) i makroskładników na podstawie ukończonych aktywności, zaplanowanych przyszłych treningów oraz szacowanego tempa metabolizmu spoczynkowego.",
+            "paragraph2": "Chociaż wartości te zostały oszacowane przy użyciu równań opartych na dowodach naukowych, specyficznych dla danego rodzaju wysiłku, dokładny pomiar lub przewidywanie zapotrzebowania energetycznego jest z natury złożone i podatne na błędy, niezależnie od wybranej metodologii. Szacunki te należy traktować jako ogólne wytyczne, pamiętając, że rzeczywisty koszt energetyczny wysiłku fizycznego może się różnić w zależności od czynników takich jak wiek, płeć, stan zdrowia i kondycji, masa i skład ciała, styl życia, genetyka itp.",
+            "paragraph3": "Ze względu na złożoność, wyzwania i potencjalne błędy związane z szacowaniem wszystkich tych składników, wartości podawane są w formie zakresu, aby umożliwić elastyczność i dostosowanie.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "mealplan": {
+            "paragraph1": "Otrzymaj plan posiłków od AI, który uwzględnia koszt kaloryczny Twoich przeszłych aktywności i zaplanowanych treningów. Możesz dodać wymagania dietetyczne, takie jak „jestem wegetarianinem”, lub preferencje, np. „mam dziś ochotę na rybę”. Plan posiłków uwzględnia zapotrzebowanie na kalorie i makroskładniki, modelowane na podstawie naszych modeli żywieniowych opartych na dowodach naukowych.",
+            "learnMore": "Dowiedz się więcej."
+        }
+    }
+}

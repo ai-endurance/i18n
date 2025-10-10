@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "title": "Свяжитесь с нами | {partner}",
+        "description": "Свяжитесь напрямую с {partner}, если у вас есть вопросы, с которыми нужна помощь."
+    },
+    "display": {
+        "title": "Есть вопрос? Напишите нам!",
+        "imageAlt": "Связаться с нами"
+    },
+    "form": {
+        "fields": {
+            "firstName": "Имя",
+            "lastName": "Фамилия",
+            "email": "Email",
+            "message": "Сообщение"
+        },
+        "submit": "Отправить",
+        "success": "Спасибо за обращение в {partner}!"
+    }
+}

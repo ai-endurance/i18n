@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "title": "Login",
+        "description": "Login, aby uzyskać dostęp do swojego Dashboard"
+    },
+    "form": {
+        "title": "Login do AI Endurance",
+        "fields": {
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Hasło"
+            }
+        },
+        "buttons": {
+            "login": "Log In",
+            "goToRegister": "Przejdź do rejestracji",
+            "forgotPassword": "Nie pamiętasz hasła?"
+        },
+        "errors": {
+            "generic": "Wystąpił błąd. Spróbuj ponownie lub skontaktuj się z nami, jeśli problem będzie się powtarzał.",
+            "invalidCredentials": "Nieprawidłowy email lub hasło.",
+            "coachLogin": "Trenerzy muszą korzystać ze strony logowania dla trenerów. Prosimy o log in w tym miejscu."
+        }
+    },
+    "coach": {
+        "title": "Coach Login do AI Endurance",
+        "metadata": {
+            "title": "Coach Login",
+            "description": "Login, aby uzyskać dostęp do portalu trenera"
+        }
+    }
+}

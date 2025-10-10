@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "title": "Plan details",
+        "description": "Bekijk en verfijn je plan details"
+    },
+    "primaryEvents": {
+        "title": "Hoofddoelen",
+        "noGoals": "Je hebt geen hoofddoelen ingesteld!",
+        "updateButton": "Hoofddoel bijwerken"
+    },
+    "secondaryEvents": {
+        "title": "B/C-doelen",
+        "noGoals": "Je hebt geen B/C-doelen ingesteld!",
+        "addButton": "Nieuw evenement toevoegen"
+    },
+    "submitButton": {
+        "requestPlan": "Plan aanvragen",
+        "confirmationTitle": "Weet je zeker dat je een nieuw plan wilt aanvragen? Dit overschrijft je huidige plan.",
+        "planSearchStarted": "Zoeken naar plan gestart",
+        "errorUpdatingPlan": "Fout bij het bijwerken van het plan"
+    },
+    "modals": {
+        "close": "Sluiten",
+        "event": "Evenement",
+        "customName": "Aangepaste naam",
+        "overwritePrimaryEvent": "Hoofddoel overschrijven",
+        "addSecondaryEvent": "B/C-doel toevoegen",
+        "updatePrimaryEvent": "Hoofddoel bijwerken"
+    },
+    "messages": {
+        "cEventAdded": "C-evenement toegevoegd aan kalender",
+        "cEventDeleted": "C-evenement verwijderd uit kalender",
+        "failedToDeleteCEvent": "Verwijderen van C-evenement uit kalender mislukt"
+    },
+    "validation": {
+        "dateRange": "Datum moet tussen {minDate} en {maxDate} liggen.",
+        "secondaryEventDateRange": "Datum moet tussen {minDate} en {maxDate} liggen. B/C-doelen moeten minstens 2 weken voor het hoofddoel plaatsvinden om de tapering niet te verstoren. Je kunt geen B/C-doelen toevoegen na het hoofddoel."
+    },
+    "availabilityHours": {
+        "title": "Planinstellingen",
+        "description": "Met welk volume wil je trainen? Je model zal naar dat volume toewerken, terwijl het ervoor zorgt dat je niet te veel te snel doet.",
+        "hoursPerWeek": "Hoeveel uur per week wil je {sport}?",
+        "sports": {
+            "bike": "fietsen",
+            "run": "hardlopen",
+            "swim": "zwemmen",
+            "ride": "fietsen"
+        }
+    },
+    "availabilityDay": {
+        "weekDays": {
+            "mon": "Ma",
+            "tue": "Di",
+            "wed": "Wo",
+            "thu": "Do",
+            "fri": "Vr",
+            "sat": "Za",
+            "sun": "Zo"
+        },
+        "timeFormat": {
+            "zeroHours": "0 uur",
+            "hour": "uur",
+            "hours": "uur",
+            "minute": "min",
+            "minutes": "min"
+        },
+        "enableSportMessage": "Activeer een sport om de beschikbaarheid per uur te kiezen"
+    },
+    "advanced": {
+        "title": "Geavanceerd",
+        "maintenanceMode": "Onderhoudsmodus"
+    },
+    "planFindingControls": {
+        "preferEnduranceWorkouts": "Voorkeur voor Endurance trainingen",
+        "matchRequestedTrainingTime": "Aangevraagde trainingstijd evenaren"
+    },
+    "sportSelectButtons": {
+        "enable": "Activeren",
+        "disable": "Deactiveren",
+        "sports": {
+            "swim": "zwemmen",
+            "ride": "fietsen",
+            "run": "hardlopen"
+        }
+    },
+    "customConfigForm": {
+        "customName": "Aangepaste naam",
+        "expectedDuration": "Verwachte duur (uu:mm)",
+        "invalidFormat": "Ongeldig formaat. Gebruik uu:mm.",
+        "template": "Sjabloon",
+        "discipline": "Discipline"
+    },
+    "availabilityWeek": {
+        "title": "Dagelijkse beschikbaarheid",
+        "description": "Hoeveel uur per dag ben je beschikbaar om te trainen? Dit zorgt ervoor dat het model alleen trainingen maakt die in je schema passen. Je kunt trainingen ook verplaatsen in de kalender.",
+        "descriptionTriathlete": "Hoeveel uur per dag ben je beschikbaar om voor elke sport te trainen? Dit zorgt ervoor dat het model alleen trainingen maakt die in je schema passen. Je kunt trainingen ook verplaatsen in de kalender.",
+        "schedulerFailMessage": "We konden geen gebalanceerd trainingsplan maken met je beschikbaarheidsinstellingen. Verhoog je eerdere dagelijkse beschikbaarheidsinstellingen.",
+        "availabilitySettingsOK": "Beschikbaarheidsinstellingen OK"
+    },
+    "labels": {
+        "goalSelect": {
+            "cyclist": "Optimaliseer je FTP (Functional Threshold Power), Critical Cycling Power of je Ultra Endurance Power - je vermogen bij DFA a₁ = 0,75, je aerobe HRV-drempel. Je kunt ook je eigen doelevenement aanpassen en aangepaste gewichten configureren voor elk doel om de ene discipline te prioriteren ten opzichte van de andere. Een gewicht van 1 betekent dat de discipline de hoogste prioriteit heeft, terwijl een gewicht van 0 betekent dat deze helemaal geen prioriteit heeft.",
+            "runnerWithPower": "Optimaliseer je Critical Running Power of je Ultra Endurance Power - je vermogen bij DFA a₁ = 0,75, je aerobe HRV-drempel. Je kunt ook je eigen doelevenement aanpassen en aangepaste gewichten configureren voor elk doel om de ene discipline te prioriteren ten opzichte van de andere. Een gewicht van 1 betekent dat de discipline de hoogste prioriteit heeft, terwijl een gewicht van 0 betekent dat deze helemaal geen prioriteit heeft.",
+            "runnerWithoutPower": "Kies van 5k tot en met de marathonafstand. Of optimaliseer je Ultra Endurance Pace - je tempo bij DFA a₁ = 0,75, je aerobe HRV-drempel. Je kunt ook je eigen doelevenement aanpassen en aangepaste gewichten configureren voor elk doel om de ene discipline te prioriteren ten opzichte van de andere. Een gewicht van 1 betekent dat de discipline de hoogste prioriteit heeft, terwijl een gewicht van 0 betekent dat deze helemaal geen prioriteit heeft.",
+            "triathlete": "Kies van de Sprint-afstand tot de volledige Ironman-afstand. Voor de Sprint- en Olympische afstand optimaliseren we je Critical Cycling Power en je {runTextSprintOlympic}. Voor de Halve Ironman en Ironman optimaliseren we je Aerobic Cycling Power en je {runTextHalfIronman}. Je kunt ook je eigen doelevenement aanpassen en aangepaste gewichten configureren voor elk doel om de ene discipline te prioriteren ten opzichte van de andere. Een gewicht van 1 betekent dat de discipline de hoogste prioriteit heeft, terwijl een gewicht van 0 betekent dat deze helemaal geen prioriteit heeft.",
+            "runTextSprintOlympic": "Critical Running Power",
+            "runTextSprintOlympicNoPower": "5k of 10k tempo",
+            "runTextHalfIronman": "Aerobic Running Power",
+            "runTextHalfIronmanNoPower": "Halve marathon- of marathontempo"
+        },
+        "secondaryEvent": {
+            "paragraph1": "Voeg B- en C-doelen toe als aanvulling op je hoofddoel. Voor B-doelen optimaliseert de AI je training met een gematigde nadruk, inclusief een korte taper voor en hersteldagen na het evenement. C-doelen vervangen de geplande training op de dag van het evenement, zonder trainingen op de dag ervoor of erna.",
+            "paragraph2": "Voor Custom Configuration-evenementen kun je elke discipline in je trainingsplan prioriteren door gewichten toe te kennen tussen 0 (lage prioriteit) en 1 (hoge prioriteit).",
+            "paragraph3": "C-evenementen worden direct aan je kalender toegevoegd, terwijl A- en B-evenementen vereisen dat je op &apos;Plan aanvragen&apos; klikt om je trainingsschema opnieuw te berekenen en te optimaliseren voor deze evenementen.",
+            "paragraph4": "Als je een C-evenement toevoegt en geen nieuw plan aanvraagt, moet je mogelijk enkele trainingen op of rond de datum van het C-evenement verwijderen."
+        },
+        "availability": {
+            "base": "Stel je beschikbaarheid in om te trainen volgens je tijdsbeperkingen voor elke dag van de week.",
+            "triathleteSuffix": " Je kunt een sport voor een dag blokkeren door op het symbool te klikken."
+        },
+        "maintenance": {
+            "paragraph1": "In de Onderhoudsmodus zoekt onze AI een trainingsplan waarmee je je huidige prestatieniveau kunt behouden in plaats van het te optimaliseren. Je kunt deze optie kiezen als je in je huidige vorm wilt blijven en niet traint voor een evenement.",
+            "learnMore": "Meer informatie."
+        },
+        "dataCollection": "Het dataverzamelingsplan laat je data verzamelen zodat onze AI kan leren hoe je reageert op verschillende trainingsroutines. Het is niet voorspellend.",
+        "preferEndurance": "Draai deze omhoog als je het aantal intervaltrainingen in je trainingsplan wilt verminderen. Hoe hoger de waarde die je selecteert, hoe meer de AI de voorkeur geeft aan lichtere Endurance trainingen boven intervaltrainingen in je plan. De standaardwaarde is 50.",
+        "matchRequested": "Deze schuifregelaar bepaalt hoe nauw je werkelijke trainingsvolume overeenkomt met de wekelijkse uren die je hebt geselecteerd in de Planinstellingen. Je werkelijke trainingsvolume zal altijd lager zijn dan de uren per week die je hebt ingesteld en we zorgen ervoor dat je niet te veel te snel doet. Als je deze regelaar op 0 zet, kiezen we een trainingsvolume dat je doel optimaal ondersteunt, met als enige beperking dat het volume lager moet zijn dan je geselecteerde wekelijkse uren. Als je deze op 100 zet, streven we ernaar om je aangevraagde trainingsvolume in de Planinstellingen exact te evenaren. De standaardinstelling is 80. Na een mogelijke opbouwfase, afhankelijk van je langste trainingen en totale volume over de afgelopen 6 weken, richten we ons doorgaans op ten minste twee derde van je aangevraagde wekelijkse uren bij het bepalen van je optimale trainingsvolume.",
+        "extrapolation": "Selecteer hoe ver je wilt dat we je toekomstige trainingen extrapoleren op basis van je historische trainingsdata. Het gaat ons erom je prestaties nauwkeurig te voorspellen en op basis van die voorspellingen het best mogelijke trainingsplan te selecteren. Voorspellingen kunnen alleen nauwkeurig zijn als ze redelijk dicht bij je historische data liggen. Voor de meest conservatieve extrapolatie-instelling selecteer je 0, als je avontuurlijk bent ingesteld, selecteer je 100. De standaardwaarde is 20."
+    },
+    "availabilityErrors": {
+        "overallAvailabilityTooLow": "Je algehele beschikbaarheid is te laag voor een gebalanceerd plan. Verhoog je beschikbaarheid of verminder je trainingsuren.",
+        "sportAvailabilityTooLow": "Je beschikbaarheid voor {sport} is te laag voor een gebalanceerd plan. Verhoog je beschikbaarheid of verminder je trainingsuren voor {sport}.",
+        "tooManyOffDays": "Je hebt te veel rustdagen ingepland. We kunnen je wekelijkse trainingsuren niet in een gebalanceerd plan onderbrengen.",
+        "tooManySwimmingOffDays": "Je hebt te veel zwemvrije dagen ingepland. We kunnen je wekelijkse zwemtrainingsuren niet in een gebalanceerd plan onderbrengen.",
+        "tooManyCyclingOffDays": "Je hebt te veel fietsvrije dagen ingepland. We kunnen je wekelijkse fietstrainingsuren niet in een gebalanceerd plan onderbrengen.",
+        "tooManyRunningOffDays": "Je hebt te veel hardloopvrije dagen ingepland. We kunnen je wekelijkse hardlooptrainingsuren niet in een gebalanceerd plan onderbrengen.",
+        "needMoreDoubleSportDays": "Je moet meer dagen inplannen met minstens 2 verschillende sporten, zodat we je wekelijkse trainingsuren in een gebalanceerd plan kunnen onderbrengen.",
+        "sports": {
+            "cycling": "fietsen",
+            "running": "hardlopen",
+            "swimming": "zwemmen"
+        }
+    }
+}

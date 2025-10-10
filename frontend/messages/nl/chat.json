@@ -1,0 +1,197 @@
+{
+    "metadata": {
+        "title": "Chat",
+        "description": "Chat hier met je AI-coach"
+    },
+    "layout": {
+        "title": "Chat",
+        "description": "Chat hier met je AI-coach"
+    },
+    "header": {
+        "newChat": "Nieuwe Chat"
+    },
+    "overview": {
+        "welcome": "Welkom bij je AI-trainingsassistent! Je kunt vragen stellen over je trainingsplan, voedingsstrategieën, herstelstatus en eerdere activiteiten analyseren. Je kunt ook vragen om je trainingsplan aan te passen, of om individuele trainingen aan te maken of te wijzigen."
+    },
+    "models": {
+        "small": {
+            "name": "Klein model",
+            "description": "Voor snelle, lichte taken: gemini-2.5-flash"
+        },
+        "large": {
+            "name": "Groot model",
+            "description": "Voor complexe taken met meerdere stappen: gemini-2.5-pro"
+        },
+        "reasoning": {
+            "name": "Redeneermodel",
+            "description": "Gebruikt geavanceerd redeneren"
+        }
+    },
+    "toolConfirmations": {
+        "changeWorkoutDate": {
+            "message": "{title} wijzigen naar {date}?",
+            "confirmText": "Ja",
+            "denyText": "Nee",
+            "confirmResult": "Ja, bevestigd.",
+            "denyResult": "Nee, geweigerd."
+        },
+        "skipWorkout": {
+            "message": "{title} overslaan? Dit verwijdert de training van je kalender.",
+            "confirmText": "Overslaan",
+            "denyText": "Behouden",
+            "confirmResult": "Ja, overslaan.",
+            "denyResult": "Nee, behouden."
+        },
+        "createWorkout": {
+            "message": "{intensity_type} {act_type} aanmaken voor {date_str}?",
+            "confirmText": "Aanmaken",
+            "denyText": "Annuleren",
+            "confirmResult": "Ja, aanmaken.",
+            "denyResult": "Nee, annuleren."
+        },
+        "changeWorkoutIntensity": {
+            "message": "Intensiteit van {title} wijzigen naar {intensity}?",
+            "confirmText": "Wijzigen",
+            "denyText": "Annuleren",
+            "confirmResult": "Ja, wijzigen.",
+            "denyResult": "Nee, annuleren."
+        },
+        "setZones": {
+            "message": "{actType}-zones instellen op:\nEndurance: {endurance}\nTempo: {tempo}\nThreshold: {threshold}\nVO2Max: {vo2max}?",
+            "confirmText": "Zones instellen",
+            "denyText": "Annuleren",
+            "confirmResult": "Ja, zones instellen.",
+            "denyResult": "Nee, annuleren."
+        },
+        "createSwimWorkout": {
+            "message": "Zwemtraining \"{title}\" aanmaken voor {date_str}?",
+            "confirmText": "Aanmaken",
+            "denyText": "Annuleren",
+            "confirmResult": "Ja, aanmaken.",
+            "denyResult": "Nee, annuleren."
+        },
+        "changeWorkoutAdvice": {
+            "message": "Trainingsadvies bijwerken: \"{advice}\"?",
+            "confirmText": "Bijwerken",
+            "denyText": "Annuleren",
+            "confirmResult": "Ja, bijwerken.",
+            "denyResult": "Nee, annuleren."
+        }
+    },
+    "sidebar": {
+        "history": "Geschiedenis",
+        "newChat": "Nieuwe Chat",
+        "delete": "Verwijderen",
+        "share": "Delen",
+        "private": "Privé",
+        "public": "Openbaar",
+        "more": "Meer",
+        "toggle": "Zijbalk tonen/verbergen"
+    },
+    "sidebarHistory": {
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "lastWeek": "Afgelopen 7 dagen",
+        "lastMonth": "Afgelopen 30 dagen",
+        "older": "Ouder",
+        "deleteDialog": {
+            "title": "Weet je het helemaal zeker?",
+            "description": "Deze actie kan niet ongedaan worden gemaakt. Je chat wordt permanent verwijderd van onze servers.",
+            "cancel": "Annuleren",
+            "continue": "Doorgaan"
+        },
+        "toast": {
+            "deleting": "Chat verwijderen...",
+            "deleted": "Chat succesvol verwijderd",
+            "failed": "Verwijderen van chat mislukt"
+        }
+    },
+    "visibility": {
+        "private": "Privé",
+        "public": "Openbaar",
+        "privateDescription": "Alleen jij hebt toegang tot deze chat",
+        "publicDescription": "Iedereen met de link heeft toegang tot deze chat"
+    },
+    "messageActions": {
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd naar klembord!",
+        "editMessage": "Bericht bewerken",
+        "upvote": "Reactie upvoten",
+        "downvote": "Reactie downvoten",
+        "upvoting": "Reactie upvoten...",
+        "downvoting": "Reactie downvoten...",
+        "upvoted": "Reactie ge-upvote!",
+        "downvoted": "Reactie gedownvote!",
+        "upvoteFailed": "Upvoten van reactie mislukt.",
+        "downvoteFailed": "Downvoten van reactie mislukt."
+    },
+    "messageEditor": {
+        "cancel": "Annuleren",
+        "send": "Versturen",
+        "sending": "Versturen..."
+    },
+    "multimodalInput": {
+        "placeholder": "Stuur een bericht...",
+        "waitForResponse": "Wacht alsjeblieft tot het model klaar is met zijn antwoord!"
+    },
+    "suggestedActions": {
+        "weatherWorkout": {
+            "title": "Op basis van weersvoorspelling",
+            "label": "moet ik mijn trainingsdata wijzigen?",
+            "action": "Moet ik op basis van de weersvoorspelling mijn trainingsdata wijzigen?"
+        },
+        "planProgress": {
+            "title": "Op basis van mijn planvoortgang",
+            "label": "pas de trainingen voor de komende 7 dagen aan",
+            "action": "Pas op basis van mijn planvoortgang de trainingen voor de komende 7 dagen aan"
+        },
+        "nutritionStrategy": {
+            "title": "Voedingsstrategie",
+            "label": "voor mijn volgende wedstrijd",
+            "action": "Voedingsstrategie voor mijn volgende wedstrijd op basis van mijn doelen"
+        },
+        "recoveryStatus": {
+            "title": "Gedetailleerd overzicht",
+            "label": "van mijn huidige herstelstatus",
+            "action": "Gedetailleerd overzicht van mijn huidige herstelstatus"
+        }
+    },
+    "toolResults": {
+        "accountInfo": "Accountinformatie opgehaald",
+        "information": "Informatie opgehaald",
+        "availability": "Beschikbaarheidsschema opgehaald",
+        "predictions": "Prestatievoorspellingen opgehaald",
+        "plannedWorkouts": "Geplande trainingen opgehaald",
+        "cyclingActivities": "Fietsactiviteiten opgehaald",
+        "cyclingActivityDetails": "Details van fietsactiviteit opgehaald",
+        "runningActivities": "Hardloopactiviteiten opgehaald",
+        "runningActivityDetails": "Details van hardloopactiviteit opgehaald",
+        "swimmingActivities": "Zwemactiviteiten opgehaald",
+        "swimmingActivityDetails": "Details van zwemactiviteit opgehaald",
+        "recoveryModel": "Herstelmodel opgehaald",
+        "goalEvents": "Doelen opgehaald",
+        "planProgress": "Planvoortgang opgehaald"
+    },
+    "workoutActions": {
+        "dateUpdated": "Trainingsdatum succesvol bijgewerkt.",
+        "viewInCalendar": "Bekijk in kalender",
+        "viewCalendar": "Bekijk kalender",
+        "workoutSkipped": "Training succesvol overgeslagen.",
+        "statusUpdated": "Trainingsstatus bijgewerkt.",
+        "workoutCreated": "Training succesvol aangemaakt.",
+        "intensityUpdated": "Intensiteit van de training succesvol bijgewerkt.",
+        "adviceUpdated": "Trainingsadvies succesvol bijgewerkt.",
+        "zonesUpdated": "Trainingszones succesvol bijgewerkt.",
+        "swimWorkoutCreated": "Zwemtraining succesvol aangemaakt."
+    },
+    "confirmation": {
+        "yes": "Ja",
+        "no": "Nee",
+        "yesConfirmed": "Ja, bevestigd.",
+        "noDenied": "Nee, geweigerd."
+    },
+    "thinking": "Aan het denken...",
+    "errors": {
+        "general": "Er is een fout opgetreden, probeer het opnieuw!"
+    }
+}

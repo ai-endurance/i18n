@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "title": "Instellingen voor externe apps",
+        "description": "Configureer hier je instellingen voor externe apps"
+    },
+    "page": {
+        "title": "Verbindingen met externe apps",
+        "lockedMessage": "Wacht tot het zoeken naar het huidige plan is voltooid om externe apps te verbinden.",
+        "iosMessage": "Om externe apps te verbinden met AI Endurance, gebruik je de",
+        "webVersionButton": "webversie van AI Endurance"
+    },
+    "components": {
+        "downloadZwift": {
+            "button": "Download Zwift Workouts"
+        },
+        "uploadFitFile": {
+            "label": "Upload je .FIT-bestand",
+            "button": "Uploaden",
+            "maxFilesError": "Maximaal 3 bestanden toegestaan",
+            "uploadSuccess": "Bestand succesvol geüpload",
+            "moreFiles": "extra bestand",
+            "moreFilesPlural": "extra bestanden"
+        },
+        "rampTests": {
+            "label": "DFA a₁ ramp tests",
+            "zwiftButton": "Download Zwift Ramp Test",
+            "garminButton": "Verstuur naar Garmin",
+            "suuntoButton": "Verstuur naar Suunto",
+            "intervalsicuButton": "Verstuur naar Intervals.icu",
+            "garminSuccess": "Ramp test verstuurd naar Garmin",
+            "suuntoSuccess": "Ramp test verstuurd naar Suunto",
+            "intervalsicuSuccess": "Ramp test verstuurd naar Intervals.icu"
+        },
+        "refreshExports": {
+            "label": "Exports vernieuwen",
+            "button": "Exports vernieuwen",
+            "success": "Exports vernieuwd!",
+            "error": "Vernieuwen van exports mislukt"
+        },
+        "disconnectSuccess": {
+            "garminHealth": "Garmin Health succesvol losgekoppeld!",
+            "garminTraining": "Garmin Training succesvol losgekoppeld!",
+            "coros": "Coros succesvol losgekoppeld!",
+            "polar": "Polar succesvol losgekoppeld!",
+            "intervalsicu": "Intervals.icu succesvol losgekoppeld!",
+            "whoop": "Whoop-data succesvol losgekoppeld!",
+            "nolio": "Nolio succesvol losgekoppeld!",
+            "trainingpeaks": "TrainingPeaks succesvol losgekoppeld!",
+            "suunto": "Suunto succesvol losgekoppeld!",
+            "oura": "Oura-data succesvol losgekoppeld!",
+            "strava": "Strava-data succesvol losgekoppeld!",
+            "wahoo": "Wahoo succesvol losgekoppeld!"
+        }
+    },
+    "labels": {
+        "apps": {
+            "paragraph1": "Klik om externe apps te verbinden of los te koppelen. We exporteren je trainingen continu naar Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu en Nolio, tot een week vooruit. Mogelijk heb je een TrainingPeaks Premium-account nodig om toegang te krijgen tot je AI Endurance-trainingen in TrainingPeaks.",
+            "paragraph2": "Let op: het kan even duren om je activiteiten van externe apps te downloaden. Controleer na het verbinden na een paar uur opnieuw als je je eerdere activiteiten niet meteen in de kalender ziet.",
+            "paragraph3": "Als je je TrainingPeaks-account verbindt, houd er dan rekening mee dat we je activiteitengeschiedenis niet downloaden van TrainingPeaks, omdat TrainingPeaks via hun API geen gedetailleerde informatie over je activiteiten verstrekt.",
+            "paragraph4": "Veelgestelde vragen over externe apps beantwoorden we in onze FAQ.",
+            "seeFAQ": "Bekijk onze FAQ."
+        },
+        "zwift": {
+            "paragraph1": "Pak het gedownloade zip-bestand uit in je Zwift-trainingenmap. Al je AI Endurance-trainingen verschijnen nu onder 'Custom Workouts' in Zwift. Als je je AI Endurance-plan bijwerkt, updaten we automatisch ook de bestanden die je hier kunt downloaden.",
+            "learnMore": "Klik hier voor meer gedetailleerde instructies."
+        },
+        "dfaRamp": {
+            "paragraph1": "Dit is een ramp test om je ventilatoire drempels te bepalen op basis van hartslagvariabiliteit (HRV) data. Je aerobe drempel is waar a₁ 0,75 kruist. Je anaerobe drempel is waar a₁ 0,5 kruist. a₁ wordt berekend uit je HRV-data via 'detrended fluctuation analysis' (DFA). Je kunt de ramp test uitvoeren op Zwift, als een Garmin-training of als een Suunto-training indien verbonden. Vergeet niet om deze activiteit op te nemen met je Garmin- of Suunto-apparaat met HRV-logging ingeschakeld, aangezien Zwift geen HRV-data opneemt. Je Garmin of Suunto moet verbonden zijn met AI Endurance om je drempels te bepalen.",
+            "learnMore": "Meer informatie."
+        },
+        "fitFile": "Je kunt handmatig een FIT-bestand uploaden als de bovenstaande importopties je opnameapparaat niet ondersteunen. Let op: we ondersteunen momenteel alleen FIT-bestanden voor zwemmen, fietsen of hardlopen.",
+        "refreshExports": "Als je exports in je externe apps niet up-to-date zijn, kun je ze hier handmatig vernieuwen."
+    }
+}

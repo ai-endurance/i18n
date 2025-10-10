@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "title": "Rejestracja zakończona",
+        "description": "Proces rejestracji zakończył się pomyślnie"
+    },
+    "onboardingSuccess": {
+        "title": "Gratulacje – konfiguracja konta została zakończona!",
+        "description": "Przygotowanie planu treningowego, w zależności od ilości importowanych danych, może potrwać od kilku minut do kilku godzin. W międzyczasie sprawdź naszego bloga! Otrzymasz powiadomienie e-mail, gdy konto będzie gotowe do użycia.",
+        "checkOutBlog": "Sprawdź bloga"
+    },
+    "importProgressLog": {
+        "title": "Postęp importu i analizy AI",
+        "lastUpdated": "Ostatnia aktualizacja: {timestamp}",
+        "complete": "Ukończono!",
+        "inProgress": "W toku...",
+        "waiting": "Oczekiwanie...",
+        "unknown": "Nieznany"
+    }
+}

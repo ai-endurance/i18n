@@ -1,0 +1,34 @@
+{
+    "metadata": {
+        "title": "Login",
+        "description": "Login om toegang te krijgen tot je dashboard"
+    },
+    "form": {
+        "title": "Login bij AI Endurance",
+        "fields": {
+            "email": {
+                "label": "E-mail"
+            },
+            "password": {
+                "label": "Wachtwoord"
+            }
+        },
+        "buttons": {
+            "login": "Log In",
+            "goToRegister": "Ga naar registreren",
+            "forgotPassword": "Wachtwoord vergeten?"
+        },
+        "errors": {
+            "generic": "Er is een fout opgetreden. Probeer het opnieuw of neem contact op als het probleem aanhoudt.",
+            "invalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
+            "coachLogin": "Coaches moeten de coach login-pagina gebruiken. Log hier in."
+        }
+    },
+    "coach": {
+        "title": "Coach Login bij AI Endurance",
+        "metadata": {
+            "title": "Coach Login",
+            "description": "Login om toegang te krijgen tot je coachportaal"
+        }
+    }
+}

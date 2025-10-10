@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Darmowy generator treningów AI Endurance | {partner}",
+        "description": "Moc sztucznej inteligencji, za darmo dla Twojego treningu. Wypróbuj {partner} i zacznij tworzyć treningi dopasowane do Twojej unikalnej fizjologii i celów."
+    },
+    "description": {
+        "title": "Darmowy generator treningów biegowych i rowerowych AI Endurance",
+        "subtitle": "Wygeneruj darmowy trening biegowy lub rowerowy Endurance z wykorzystaniem sztucznej inteligencji. Opisz swój trening słowami, a AI Endurance użyje technologii opartej na GPT, aby wygenerować dla Ciebie trening. Możesz modyfikować trening dowolną liczbę razy, opisując, jak chcesz go zmienić. Gdy będziesz zadowolony z treningu, możesz go wyeksportować na swoją ulubioną platformę treningową."
+    },
+    "form": {
+        "tabs": {
+            "prompt": "Według Prompt",
+            "stress": "Według Stress"
+        }
+    },
+    "formTitle": "Darmowy generator treningów AI Endurance",
+    "displayTitle": "Twój trening",
+    "setZones": "Ustaw swoje strefy:",
+    "zones": {
+        "endurance": {
+            "short": "En",
+            "long": "Pułap Endurance"
+        },
+        "tempo": {
+            "short": "Te",
+            "long": "Pułap Tempo"
+        },
+        "threshold": {
+            "short": "Th",
+            "long": "Pułap Threshold"
+        },
+        "vo2max": {
+            "short": "V2",
+            "long": "Pułap VO2Max"
+        }
+    },
+    "units": {
+        "label": "Jednostki",
+        "imperial": "Imperialne ({unit})",
+        "metric": "Metryczne ({unit})"
+    },
+    "suggestions": {
+        "title": "Sugestie Prompt:",
+        "strength": {
+            "hipWithEquipment": "trening wzmacniający biodra o niskiej intensywności (ze sprzętem na siłowni)",
+            "hipWithoutEquipment": "trening wzmacniający biodra o niskiej intensywności (bez sprzętu na siłowni)",
+            "triathlete": "30-minutowy trening maksymalizujący siłę dla triathlonistów",
+            "core": "trening core dla biegaczy"
+        },
+        "run": {
+            "tempo": "ciężki trening Tempo",
+            "vo2max": "30-minutowy trening VO2Max",
+            "threshold": "umiarkowany trening Threshold"
+        },
+        "ride": {
+            "tempo": "ciężki trening Tempo",
+            "vo2max": "30-minutowy trening VO2Max",
+            "threshold": "umiarkowany trening Threshold"
+        }
+    },
+    "strengthPrompt": {
+        "title": {
+            "change": "Zmień trening:",
+            "describe": "Opisz swój trening:"
+        },
+        "label": {
+            "change": "Jak chcesz zmienić swój trening?",
+            "describe": "Jakiego rodzaju treningu szukasz?"
+        }
+    },
+    "workoutPrompt": {
+        "title": {
+            "change": "Zmień trening:",
+            "describe": "Opisz swój trening:"
+        },
+        "label": {
+            "change": "Jak chcesz zmienić swój trening?",
+            "describe": "Jakiego rodzaju treningu szukasz?"
+        }
+    },
+    "intensityButtons": {
+        "title": "Wybierz intensywność treningu:"
+    },
+    "inputs": {
+        "numberOfIntervals": {
+            "title": "Wprowadź liczbę interwałów dla treningu (opcjonalnie):"
+        },
+        "timeAtIntensity": {
+            "title": "Wprowadź docelowy czas w strefie intensywności dla treningu:"
+        },
+        "ess": {
+            "title": "Wprowadź docelowy Stress Score dla treningu:"
+        }
+    },
+    "submitButton": {
+        "create": "Utwórz trening!",
+        "reset": "Resetuj"
+    },
+    "exportWorkout": {
+        "title": "Eksportuj do:",
+        "signup": "Zarejestruj się!",
+        "appleWatch": {
+            "text": "Apple Watch: Połącz swoje konto",
+            "link": "Watchletic",
+            "suffix": "z AI Endurance, a następnie pobierz treningi w Watchletic."
+        },
+        "messages": {
+            "success": "Trening wyeksportowano pomyślnie!",
+            "error": "Błąd eksportowania treningu"
+        }
+    },
+    "aggregations": {
+        "totalTime": "Całkowity czas",
+        "estDistance": "Szac. dystans",
+        "timeAtIntensity": "Czas w strefie intensywności",
+        "target": "Cel",
+        "avgPace": "Średnie tempo"
+    },
+    "steps": {
+        "title": "Kroki:",
+        "run": {
+            "between": "Biegnij w tempie od {low} do {high} na {unit} przez {duration}",
+            "noFaster": "Biegnij w tempie nie szybszym niż {high} na {unit} przez {duration}"
+        },
+        "ride": {
+            "between": "Jedź z mocą od {low} do {high} przez {duration}",
+            "noHigher": "Jedź z mocą nie wyższą niż {high} przez {duration}"
+        },
+        "units": {
+            "imperial": "milę",
+            "metric": "km"
+        }
+    }
+}

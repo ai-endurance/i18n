@@ -1,0 +1,104 @@
+{
+    "metadata": {
+        "title": "Kalender",
+        "description": "Beheer je trainingsplan met onze interactieve kalender."
+    },
+    "layout": {
+        "title": "Kalender"
+    },
+    "freeTrialCalendarMessage": {
+        "message": "Omdat je een gratis proefversie gebruikt, tonen we alleen de eerste 8 weken van je trainingsplan.",
+        "getTheWholeThing": "Krijg volledige toegang"
+    },
+    "previousPlanButton": {
+        "goBackToPreviousPlan": "Terug naar vorig plan",
+        "confirmationText": "Weet je zeker dat je terug wilt naar je vorige plan? Je huidige plan wordt hierdoor verwijderd.",
+        "successMessage": "Terug naar vorig plan!",
+        "errorMessage": "Teruggaan naar vorig plan is mislukt!"
+    },
+    "skipWorkoutButton": {
+        "buttonText": "Training overslaan",
+        "confirmationText": "Weet je zeker dat je deze training wilt overslaan? Dit kan niet ongedaan worden gemaakt. Je kunt trainingen ook herschikken door ze te verslepen.",
+        "successMessage": "Training overgeslagen",
+        "errorMessage": "Overslaan van training mislukt"
+    },
+    "markCompleteButton": {
+        "markAsCompleted": "Markeren als voltooid",
+        "markAsNotCompleted": "Markeren als niet voltooid",
+        "successCompleted": "Training gemarkeerd als voltooid",
+        "successNotCompleted": "Training gemarkeerd als niet voltooid",
+        "errorMessage": "Markeren van training mislukt"
+    },
+    "scheduledWorkoutDisplay": {
+        "completed": "Voltooid",
+        "skipped": "Overgeslagen",
+        "done": "Klaar"
+    },
+    "commentButton": {
+        "dialogTitle": "Jouw feedback voor {date}",
+        "done": "Klaar"
+    },
+    "completedActivityPopup": {
+        "labels": {
+            "date": "Datum",
+            "distance": "Afstand",
+            "duration": "Duur",
+            "calories": "Calorieën"
+        },
+        "buttons": {
+            "deleteActivity": "Activiteit verwijderen",
+            "analysis": "Analyse",
+            "done": "Klaar"
+        },
+        "confirmationText": "Weet je zeker dat je deze activiteit wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
+        "successMessage": "Activiteit succesvol verwijderd",
+        "errorMessage": "Fout bij verwijderen van activiteit"
+    },
+    "workoutDetails": {
+        "date": "Datum",
+        "totalTime": "Totale tijd",
+        "timeAtIntensity": "Tijd op intensiteit",
+        "estDistance": "Gesch. afstand",
+        "avgPower": "Gem. vermogen",
+        "avgPace": "Gem. tempo",
+        "order": "Volgorde",
+        "estTime": "Gesch. tijd",
+        "distance": "Afstand"
+    },
+    "feedbackItem": {
+        "metrics": {
+            "armsShoulders": "Armen/schouders",
+            "coreSoreness": "Spierpijn core",
+            "legSoreness": "Spierpijn benen",
+            "soreness": "Spierpijn"
+        },
+        "labels": {
+            "yourCheckIn": "Jouw check-in:",
+            "aiCoachFeedback": "Feedback van AI Coach:"
+        },
+        "buttons": {
+            "deleteFeedback": "Feedback verwijderen"
+        },
+        "confirmationText": "Weet je zeker dat je deze feedback wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
+        "successMessage": "Feedback succesvol verwijderd",
+        "errorMessages": {
+            "deleteError": "Fout bij verwijderen van feedback",
+            "fetchError": "Fout bij ophalen van feedbackdetails"
+        }
+    },
+    "weekTotals": {
+        "totalEss": "Totaal ESS",
+        "totalDuration": "Totale duur",
+        "runEss": "Hardlopen ESS",
+        "runDuration": "Duur hardlopen",
+        "rideEss": "Fietsen ESS",
+        "rideDuration": "Duur fietsen",
+        "swimEss": "Zwemmen ESS",
+        "swimDistance": "Afstand zwemmen",
+        "noDataMessage": "Je hebt geen gegevens voor deze week!"
+    },
+    "labels": {
+        "calendar": "Je kunt geplande trainingen verplaatsen door ze te verslepen.",
+        "scheduledWorkout": "Je kunt een training als voltooid markeren of de markering opheffen. Als je een training uit je plan wilt verwijderen, kun je op 'Training overslaan' klikken. Als je een training overslaat, noteren we dit en stellen we mogelijk aanpassingen aan je plan voor om je op koers te houden voor je doel. Deze aanpassingen ontvang je via onze meldingen."
+    }
+}

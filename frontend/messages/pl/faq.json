@@ -1,0 +1,277 @@
+{
+    "metadata": {
+        "title": "FAQ",
+        "description": "Często zadawane pytania dotyczące {partnerTitle}"
+    },
+    "banner": {
+        "title": "Często zadawane pytania",
+        "subtitle": "AI Endurance oferuje zaawansowane funkcje, które na początku mogą wydawać się skomplikowane. Zebraliśmy odpowiedzi na najczęstsze pytania naszych użytkowników, aby ułatwić Ci rozpoczęcie. Jeśli nie możesz znaleźć tego, czego szukasz, skontaktuj się z nami lub dołącz do naszej społeczności na Reddit lub Facebooku, aby uzyskać dodatkowe wsparcie!",
+        "getStarted": "Zacznij teraz!",
+        "contactUs": "Skontaktuj się z nami"
+    },
+    "search": {
+        "placeholder": "Szukaj pytań..."
+    },
+    "modal": {
+        "close": "Dzięki!"
+    },
+    "general": {
+        "title": "Pytania ogólne",
+        "q1": {
+            "title": "Czym AI Endurance różni się od innych aplikacji?",
+            "content": "<p>Oferujemy prawdziwie spersonalizowany trening, ponieważ nasz algorytm AI potrafi przewidywać Twoje wyniki na podstawie Twoich danych. Dzięki temu możemy zapewnić najlepsze możliwe rezultaty treningowe w ramach Twoich ograniczeń czasowych i poinformować Cię, jakie wyniki osiągniesz, jeśli będziesz trzymać się planu.</p><p>Kładziemy duży nacisk na podejście naukowe i oparte na danych. Wiemy, że AI Endurance działa, ponieważ nie tylko porównaliśmy je z najnowszymi recenzowanymi badaniami z zakresu fizjologii wysiłku, ale także <link>wykazaliśmy, że nasz trening zoptymalizowany przez AI z łatwością przewyższa nawet najlepsze uniwersalne podejścia, jakie oferują obecne badania</link>.</p>"
+        },
+        "q2": {
+            "title": "Jak dobrze AI Endurance przewiduje wyniki?",
+            "content": "Możemy przewidzieć Twoje przyszłe wyniki z dokładnością do około 5%, jeśli masz co najmniej 100 biegów z danymi GPS lub jazd z danymi mocy."
+        },
+        "q3": {
+            "title": "Jak często trenowany jest algorytm AI?",
+            "content": "W AI Endurance każdy użytkownik otrzymuje swojego 'Digital Twin' – model uczenia maszynowego, który reprezentuje wszystkie możliwe sposoby reakcji organizmu na różne plany treningowe. Model jest aktualizowany co 24 godziny dla każdego użytkownika, uwzględniając każdą nową aktywność przesłaną przez Garmin, Suunto, Coros, Polar, Wahoo, Intervals.icu lub Strava."
+        },
+        "q4": {
+            "title": "Z jakimi sportami mogę używać AI Endurance?",
+            "content": "Bieganie, kolarstwo i triathlon."
+        },
+        "q5": {
+            "title": "Z jakimi aplikacjami do śledzenia aktywności mogę używać AI Endurance?",
+            "content": "Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu, Strava i Apple Watch przez <link>Watchletic</link>."
+        },
+        "q6": {
+            "title": "Czym jest GAP i jak AI Endurance go wykorzystuje?",
+            "content": "<p><link>Grade Adjusted Pace</link> (GAP) uwzględnia przewyższenia i spadki terenu podczas biegu i normalizuje tempo biegu do ekwiwalentnego tempa na płaskiej trasie. Na przykład, jeśli biegniesz pod stromą górę, Twoje surowe tempo może być wolne, ale Twoje GAP może być wysokie, ponieważ uwzględnia stromość wzniesienia. AI Endurance używa GAP do przewidywania Twoich wyników biegowych. Instrukcje dotyczące tempa są zawsze podawane w GAP.</p><p>Alternatywnie do GAP można używać mocy biegowej.</p>"
+        },
+        "q7": {
+            "title": "Czy mogę używać AI Endurance z mocą biegową?",
+            "content": "<p>Tak. Importujemy dane mocy biegowej z Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu i Strava.</p><p>Możesz oprzeć swój plan treningowy w całości na mocy biegowej i eksportować treningi do Garmin Connect, Suunto Guides, Coros, TrainingPeaks, Apple Watch przez Watchletic, Intervals.icu i Nolio.</p>"
+        },
+        "q8": {
+            "title": "Jak używać treningów mocy biegowej AI Endurance z Garmin i Stryd?",
+            "content": "Wystarczy zainstalować pole danych Stryd na zegarku, połączyć AI Endurance z Garmin Upload w zakładce Apps i używać mocy biegowej w swoim planie treningowym."
+        },
+        "q9": {
+            "title": "Czy potrzebuję danych mocy do kolarstwa?",
+            "content": "<p>Tak, przynajmniej dla niektórych aktywności. Moc jest jedyną metryką w kolarstwie, która okazała się predykcyjna. Istnieje zbyt wiele zmienności w danych dotyczących prędkości i tętna, które nie są wskaźnikiem wydajności. Nie wszystkie aktywności muszą być rejestrowane z miernikiem mocy. Jeśli aktywność zawiera dane o tętnie i kadencji, <link>szacujemy moc na podstawie tych pomiarów.</link> Potrzebujemy jednak kilku aktywności z danymi co najmniej mocy i tętna, aby móc wytrenować zindywidualizowany model, który przewiduje moc na podstawie tętna i innych metryk, takich jak kadencja.</p>"
+        },
+        "q10": {
+            "title": "Czy wykrywacie moje wyniki z zawodów i testy FTP?",
+            "content": "<p>Tak. Upewnij się, że Twoje testy FTP mają w tytule aktywności zarówno słowo 'test', jak i czas trwania, np. '20 min FTP test' dla dwudziestominutowego testu FTP. W przypadku Ramp Tests, w tytule powinno znaleźć się słowo 'ramp', np. 'Ramp Test'. Aby zmienić tytuł aktywności, kliknij aktywność w kalendarzu i wybierz 'Zobacz analizę'. Kliknij ikonę ołówka obok tytułu aktywności.</p><p>Możesz oznaczyć swoje wyniki z zawodów, wybierając 'Wyścig' dla biegu lub jazdy na stronie szczegółów aktywności w AI Endurance lub używając opcji 'Edytuj aktywność' na Strava.</p>"
+        },
+        "q11": {
+            "title": "Czy mogę używać AI Endurance, jeśli nie mam wystarczającej ilości danych?",
+            "content": "Tak. Jeśli nie masz jeszcze wystarczającej ilości danych, będziemy przewidywać Twoje wyniki na podstawie zgromadzonych danych sportowców z naszej bazy danych, podobnych do Ciebie. Automatycznie przełączymy się na Twoje osobiste dane, gdy zgromadzisz ich więcej w połączonych aplikacjach."
+        },
+        "q12": {
+            "title": "Dlaczego przewidywany jest spadek moich wyników?",
+            "content": "<p>Po pierwsze, upewnij się, że jeśli ręcznie ustawiasz swój obecny poziom wydolności, odzwierciedla on Twój aktualny stan kondycji, a nie życiowy rekord, który może nie być reprezentatywny. Najlepszym sposobem na ocenę obecnego poziomu jest wykonanie testu FTP dla kolarstwa lub 15-minutowej próby czasowej dla biegania (jeśli trenujesz na krótsze dystanse) lub 30-minutowej próby czasowej (dla dłuższych dystansów). Nasz algorytm automatycznie je wykryje i dostosuje Twój obecny poziom (zobacz <link>Czy wykrywacie moje wyniki z zawodów i testy FTP?</link>). Mogą również wystąpić sytuacje, w których naszemu algorytmowi trudno jest wykryć Twój poziom sprawności, na przykład jeśli rzadko wykonywałeś testy lub dawałeś z siebie wszystko w przeszłości. W takim przypadku nasza AI może systematycznie niedoszacowywać Twojego poziomu – jednak przewidywane postępy w stosunku do wykrytego poziomu zostaną zrealizowane, jeśli będziesz postępować zgodnie z planem. Wreszcie, jeśli zawsze trenowałeś 10 godzin tygodniowo, a prosisz o plan na 3 godziny treningu, utrzymanie obecnego poziomu może być niemożliwe. Nasze prognozy opierają się na wnioskach z Twoich danych, a nie na myśleniu życzeniowym. Możesz być pewien, że w takim przypadku nasz algorytm znajdzie plan, który pozwoli na jak najmniejszy spadek formy przy Twoich ograniczeniach czasowych.</p>"
+        },
+        "q13": {
+            "title": "Dlaczego błąd predykcji jest duży?",
+            "content": "<p>Oto kilka możliwych przyczyn:</p><p>1. Śmieci na wejściu, śmieci na wyjściu – czy Twoje dane są czyste, tj. pochodzą z dobrze skalibrowanego urządzenia GPS lub miernika mocy? Jeśli nie, możesz wykluczyć interwały czasowe, w których zarejestrowano błędne dane, w sekcji 'Wykluczenia danych' na Dashboard. Częstym problemem są zapisane biegi, które w rzeczywistości były jazdą na rowerze. Zazwyczaj można je zidentyfikować po skokach tempa na wykresie 'Moje przeszłe dane' na Dashboard.</p><p>2. W przypadku kolarstwa, czy jeździłeś na wielu rowerach, a nie wszystkie są wyposażone w miernik mocy? Jeśli rejestrujesz aktywność bez miernika mocy, ale nosisz czujnik tętna i najlepiej masz zainstalowany czujnik kadencji, szacujemy Twoją moc na podstawie tych pomiarów. Jednak jeśli jest wiele jazd bez danych o tętnie, model będzie 'ślepy' na znaczną część faktycznego treningu. Problemy mogą również powodować posiadanie wielu mierników mocy/trenażerów, które podają niespójne odczyty względem siebie.</p><p>3. Podobnie, jeśli nie rejestrujesz wszystkich swoich biegów za pomocą urządzenia GPS, model jest 'ślepy' na te nierejestrowane aktywności.</p>"
+        },
+        "q14": {
+            "title": "Czy mogę używać jednostek imperialnych?",
+            "content": "Tak, w zakładce 'Account' można wybrać między systemem metrycznym (min/km) a imperialnym (min/mila)."
+        },
+        "q15": {
+            "title": "Jak mogę zmienić język lub pomóc w tłumaczeniach?",
+            "content": "<p>Możesz ustawić preferowany język na stronie <link>Account</link>. Jeśli Twój język nie jest obsługiwany, możesz pomóc w tworzeniu tłumaczeń – my stworzymy pierwszą wersję za pomocą AI, a Ty możesz ją dopracować. Możesz wnosić swój wkład lub zgłaszać problemy z tłumaczeniem w naszym <link2>repozytorium i18n na GitHubie</link2> lub wysyłając e-mail na adres <link3>info@aiendurance.com</link3>.</p>"
+        }
+    },
+    "plans": {
+        "title": "Plany treningowe AI",
+        "q1": {
+            "title": "Do jakich celów mogę trenować z AI Endurance?",
+            "content": "<p>Bieganie: 5k, 10k, (pół)maraton, Ultra Endurance Pace, Critical Running Power i Ultra Endurance Power.</p><p>Kolarstwo: FTP, Critical Cycling Power i Ultra Endurance Power.</p><p>Triathlon: sprint, olimpijski, (pół)Ironman.</p><p>Możesz również tworzyć Custom Configurations, które mogą zawierać dowolne z powyższych celów z wybranym przez Ciebie priorytetem.</p>"
+        },
+        "q2": {
+            "title": "Czy mogę trenować do wielu celów jednocześnie?",
+            "content": "Tak, można trenować do wielu celów jednocześnie. Oprócz głównego startu A, można trenować do startów o priorytecie B i C w ramach przygotowań do startu A."
+        },
+        "q3": {
+            "title": "Jak są określane treningi?",
+            "content": "Treningi określamy głównie poprzez tempo/GAP lub moc biegową (bieganie), moc (kolarstwo) i tempo (pływanie). W przypadku treningów biegowych i kolarskich o niskiej intensywności (Endurance) podajemy również dodatkowe cele tętna, jeśli zbierasz wysokiej jakości dane HRV, które pozwalają nam określić Twoje tętno na progu tlenowym. Główne cele tempa lub mocy są zawsze najważniejsze, podczas gdy tętno może służyć jako dodatkowy wskaźnik, szczególnie gdy teren utrudnia precyzyjne podążanie za głównym celem."
+        },
+        "q4": {
+            "title": "Czy należy realizować plan treningowy w przypadku kontuzji lub rekonwalescencji?",
+            "content": "Nie – w takim przypadku nie zalecamy żadnego ustrukturyzowanego treningu. Skup się najpierw na powrocie do zdrowia. Im bardziej skoncentrujesz się na zdrowiu, a nie na obawie przed utratą formy, tym bardziej skrócisz czas przerwy od regularnych treningów i startów. Zawsze zalecamy konsultację z lekarzem przed rozpoczęciem jakiegokolwiek planu ćwiczeń. Nasza AI nie wykrywa kontuzji w żadnej formie i bardzo ważne jest, aby słuchać swojego ciała i podejmować decyzje przed i w trakcie treningów, które są najkorzystniejsze dla Twojego zdrowia."
+        },
+        "q5": {
+            "title": "Czy muszę trzymać się planu?",
+            "content": "Zawsze zalecamy konsultację z lekarzem przed rozpoczęciem jakiegokolwiek planu ćwiczeń. Przewidywane wyniki opierają się na dostarczonych przez nas treningach. Jednak bardzo ważne jest, aby słuchać swojego ciała i kierować się własnym osądem przed wykonaniem treningu. Zbyt intensywny wysiłek może prowadzić do kontuzji. Zawsze oferujemy alternatywne instrukcje na łatwiejszy trening, jeśli nie czujesz się najlepiej, a czasami po prostu trzeba pominąć trening dla dodatkowego odpoczynku i regeneracji – i to też jest w porządku!"
+        },
+        "q6": {
+            "title": "Jak mogę wykonywać treningi?",
+            "content": "<p>- <link>Wykonywać treningi bezpośrednio z urządzenia Garmin</link>, jeśli połączysz Garmin Upload z AI Endurance.</p><p>- <link>Wykonywać treningi bezpośrednio z urządzenia Suunto</link>, jeśli połączysz Suunto z AI Endurance.</p><p>- Wykonywać treningi bezpośrednio z zegarka Coros, jeśli połączysz Coros z AI Endurance.</p><p>- Wykonywać treningi bezpośrednio z urządzenia Wahoo, jeśli połączysz Wahoo z AI Endurance.</p><p>- <link>Wykonywać treningi bezpośrednio z Apple Watch</link>, tworząc konto Watchletic i łącząc je z AI Endurance.</p><p>- Eksportować plan treningowy do <link>TrainingPeaks</link>, Intervals.icu i Nolio, skąd można wykonywać treningi z urządzeń, które nie integrują się bezpośrednio z AI Endurance.</p><p>- <link>Pobierać nasze treningi Zwift.</link></p><p>Wystarczy przejść na stronę 'Apps' i połączyć swoje konto. Jeśli wprowadzisz zmiany w planie treningowym AI Endurance, zostaną one automatycznie przesłane do połączonych aplikacji. <i>Stale eksportujemy Twoje treningi z wyprzedzeniem do jednego tygodnia.</i></p><p>Może być wymagane konto TrainingPeaks Premium, aby uzyskać dostęp do pełnego tygodnia treningów AI Endurance w TrainingPeaks.</p>"
+        },
+        "q7": {
+            "title": "Jaki jest harmonogram synchronizacji eksportu treningów z Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu i Nolio?",
+            "content": "Po utworzeniu nowego planu i połączeniu konta Garmin Upload, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu lub Nolio, eksportujemy treningi na tydzień do przodu. Następnie, co 24 godziny, eksportujemy treningi na kolejny dzień, dzięki czemu zawsze masz dostępny tydzień treningów w połączonej aplikacji. Jeśli przeniesiesz trening w kalendarzu AI Endurance lub zaakceptujesz zmianę treningu, natychmiast wyeksportujemy zaktualizowany trening do połączonej aplikacji, jeśli znajduje się on w oknie jednego tygodnia. Jeśli używasz TrainingPeaks, może być wymagane konto Premium, aby uzyskać dostęp do pełnego tygodnia treningów AI Endurance w TrainingPeaks. Możesz również odświeżyć eksport do aplikacji firm trzecich na stronie Apps."
+        },
+        "q8": {
+            "title": "Czy mogę używać AI Endurance z moim Apple Watch?",
+            "content": "Tak, wystarczy połączyć <link>Watchletic</link>, aby przesyłać aktywności do AI Endurance i wykonywać treningi na Apple Watch."
+        },
+        "q9": {
+            "title": "Dlaczego treningi AI Endurance nie pojawiają się na moim koncie Coros?",
+            "content": "<p>Jeśli Twój plan AI Endurance nie pojawia się w kalendarzu Coros, spróbuj odłączyć i ponownie połączyć Coros na stronie swojego konta AI Endurance.</p><p>Jeśli to nie zadziała, przejdź do zakładki Biblioteka Planów Treningowych w aplikacji Coros lub na stronie Coros Training Hub. Stamtąd ręcznie wybierz AI Endurance i rozpocznij plan, a następne 7 dni treningów powinno pojawić się w Twoim kalendarzu Coros.</p>"
+        },
+        "q10": {
+            "title": "Moje treningi w aplikacji zewnętrznej nie są zsynchronizowane z AI Endurance. Jak mogę to naprawić?",
+            "content": "Jeśli Twoje treningi w aplikacji zewnętrznej nie są zsynchronizowane z AI Endurance, możesz odświeżyć eksport do wszystkich połączonych aplikacji na stronie Apps. Wystarczy nacisnąć przycisk 'Odśwież eksporty', a wszystkie połączone aplikacje zostaną zaktualizowane o najnowsze treningi AI Endurance."
+        },
+        "q11": {
+            "title": "Kiedy plan treningowy się dostosowuje?",
+            "content": "Jeśli Twoja gotowość nie jest wystarczająca na nadchodzący trening, zalecamy zmiany w harmonogramie. Jeśli opuściłeś trening, proponujemy adaptacje, które utrzymają Twoją formę na właściwym torze. Jeśli wykonałeś więcej pracy interwałowej niż zalecono, zalecamy zamiast tego trening wytrzymałościowy, aby zrównoważyć plan. Ponadto, jeśli nie realizowałeś obecnego planu, może istnieć lepsza opcja dla Twojego aktualnego stanu kondycji. Jeśli przepisany trening znacznie odbiega od Twojego faktycznego treningu, proponujemy utworzenie nowego planu, który uwzględni zaktualizowane informacje o Twojej kondycji."
+        },
+        "q12": {
+            "title": "Dlaczego w moim planie treningowym nie ma treningów testowych?",
+            "content": "Celowo nie uwzględniamy treningów testowych. Nasza analiza danych jest na tyle zaawansowana, że potrafi wykryć Twój poziom sprawności na podstawie regularnych treningów, wykorzystując kombinację pomiarów Critical Power/pace, danych progowych HRV, wyników z zawodów, rozkładu intensywności i innych."
+        },
+        "q13": {
+            "title": "Jak automatycznie obliczane są moje strefy treningowe dla biegania i kolarstwa?",
+            "content": "Możemy automatycznie obliczyć Twoje strefy biegowe i kolarskie na podstawie danych historycznych. Używamy następującego systemu do szacowania stref: najpierw próbujemy znaleźć wystarczającą ilość danych progu DFA a₁, aby ustawić strefy. W drugiej kolejności używamy rozkładu historycznych danych mocy/tempa do ustawienia stref. Możesz również ręcznie dostosować swoje strefy."
+        },
+        "q14": {
+            "title": "Jak automatycznie obliczane są moje strefy treningowe dla pływania?",
+            "content": "Obliczamy Twoje strefy pływackie na podstawie naszego oszacowania Critical Swim Speed (CSS). Szacujemy Twoje CSS na podstawie historycznego rozkładu tempa pływania. Możesz również ręcznie dostosować swoje CSS."
+        },
+        "q15": {
+            "title": "Czy treningi pływackie w moim planie triathlonowym są oparte na AI?",
+            "content": "Nie. Treningi są obecnie pobierane z bazy danych stworzonej przez doświadczonego trenera. Nie oferujemy (jeszcze) treningów pływackich opartych na AI, ponieważ trudniej jest dostarczyć naszej AI czystych danych do przewidywania wyników w pływaniu, gdyż dane te są z natury bardziej zaszumione i mniej liczne."
+        },
+        "q16": {
+            "title": "Czy mogę trenować do duathlonu?",
+            "content": "Tak, jeśli jesteś duathlonistą, po prostu wybierz opcję 'Triathlonista' i ustaw liczbę godzin pływania tygodniowo na zero. Otrzymasz wtedy plan treningowy dostosowany do Twoich celów duathlonowych."
+        },
+        "q17": {
+            "title": "Jeśli trenuję do maratonu lub innego długodystansowego wydarzenia, czy rozwijacie czas trwania mojego długiego wybiegania?",
+            "content": "<p>Tak, jeśli wiemy, że trenujesz do (pół)maratonu, (pół)Ironmana lub zawodów ultra endurance, postaramy się uwzględnić stały wzrost czasu trwania Twojego długiego biegu. Zazwyczaj staramy się zaplanować długi bieg w dniu o największej dostępności na bieganie. Jeśli masz preferowany dzień na długi bieg, możesz go ustawić na stronie 'Plan' w sekcji 'Dostępność dzienna'. Punktem wyjścia dla czasu trwania długiego biegu jest Twój najdłuższy bieg z ostatnich 6 tygodni. Najdłuższy czas trwania długiego biegu jest określany na podstawie szacowanego przez AI Endurance czasu ukończenia docelowego wydarzenia.</p><p>Jeśli używasz mocy biegowej i trenujesz do (pół)maratonu, upewnij się, że w polu nazwy docelowego wydarzenia umieścisz słowo „(pół)maraton”, na przykład „Maraton Berliński”. Jest to konieczne, ponieważ w przypadku mocy biegowej nie przewidujemy bezpośrednio czasu ukończenia, a zamiast tego optymalizujemy Critical Power i/lub Endurance Power, więc nie będziemy wiedzieć, że trenujesz do konkretnego wydarzenia, chyba że nam o tym powiesz.</p>"
+        },
+        "q18": {
+            "title": "Dlaczego opcja 'Użyj dodatkowej warstwy treningu dla Digital Twin' jest automatycznie włączona?",
+            "content": "Opcja 'Użyj dodatkowej warstwy treningu dla Digital Twin' jest włączana automatycznie, gdy żądany plan treningowy nie może być zrealizowany w inny sposób. Na przykład, jeśli żądana objętość treningowa znacznie odbiega od danych historycznych, funkcja ta jest aktywowana w celu zapewnienia wiarygodnych prognoz. Nawet jeśli ręcznie wyłączysz tę opcję, zostanie ona ponownie włączona w takich przypadkach, aby utrzymać dokładność i zrealizować żądanie planu treningowego."
+        },
+        "q19": {
+            "title": "Nie podoba mi się mój nowy plan. Czy mogę wrócić do poprzedniego?",
+            "content": "Tak, możesz wrócić do poprzedniego planu. Na stronie Kalendarza kliknij ikonę 'oka' obok wyświetlanego miesiąca, aby porównać obecny i poprzedni plan. Przycisk pozwoli Ci wrócić do poprzedniego planu. Pamiętaj, że wszelkie zmiany wprowadzone w obecnym planie zostaną utracone, jeśli zdecydujesz się na powrót."
+        },
+        "q20": {
+            "title": "Optymalizuję Critical Running Power. Z jaką mocą (w watach) powinienem biec (pół)maraton?",
+            "content": "Procent CP, z jakim powinieneś biec, zależy od Twojego całkowitego przewidywanego czasu ukończenia. Przy wyższym CP zajmie Ci to krócej, więc możesz biec z wyższym procentem. Sprawdź ten <link>link od Stryd</link>, aby uzyskać więcej informacji."
+        },
+        "q21": {
+            "title": "Jak aktywować treningi AI Endurance w moim kalendarzu Coros?",
+            "content": "Jeśli treningi AI Endurance nie pojawiają się w kalendarzu aplikacji Coros, może być konieczne włączenie treningów firm trzecich w ustawieniach kalendarza Coros. Przejdź do ustawień aplikacji Coros i poszukaj opcji kalendarza, aby zezwolić na wyświetlanie treningów firm trzecich. Jeśli nadal masz problemy z synchronizacją z aplikacji Coros na zegarek, skontaktuj się bezpośrednio z pomocą techniczną Coros."
+        }
+    },
+    "import": {
+        "title": "Import danych",
+        "q1": {
+            "title": "Czy mogę mieć jednocześnie połączone Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu i/lub Strava?",
+            "content": "Tak, automatycznie unikamy duplikatów aktywności podczas importu. W rzadkich przypadkach, gdy aktywności są importowane dokładnie w tym samym czasie, usuwamy duplikaty co 24 godziny. Aktywności z Garmin Connect i Suunto zawsze zastępują aktywności ze Strava, ponieważ Strava nie przekazuje danych HRV."
+        },
+        "q2": {
+            "title": "Ile czasu zajmuje pojawienie się moich aktywności w AI Endurance?",
+            "content": "<p>Jeśli masz połączone Garmin Download, Suunto, Coros, Wahoo, Polar, Intervals.icu lub Strava, trwa to od kilku sekund do kilku minut po przesłaniu aktywności. Jeśli masz wiele połączeń, najpierw importujemy Twoją aktywność z Garmin/Suunto/Coros/Wahoo/Polar/Intervals.icu, a kilka minut później synchronizujemy ze Strava, aby sprawdzić, czy są jakieś dodatkowe informacje, np. czy aktywność była 'Wyścigiem' lub czy nazwa aktywności informuje nas, że wykonałeś test FTP przed ponownym trenowaniem naszego modelu uczenia maszynowego dla każdego użytkownika. Zapewniamy, że nie ma duplikatów między Garmin, Suunto, Coros, Wahoo, Polar, Intervals.icu i Strava, nawet jeśli masz wiele połączeń.</p><p>Jeśli importowane dane zawierają HRV, pojawienie się aktywności w AI Endurance może potrwać kilka minut, ponieważ analiza DFA alpha 1 jest kosztowna obliczeniowo.</p>"
+        },
+        "q3": {
+            "title": "Dlaczego moja aktywność ze Zwift nie została zaimportowana z Garmin Connect?",
+            "content": "Garmin nie przekazuje aktywności firm trzecich do AI Endurance. Aby zaimportować swoje aktywności ze Zwift lub innych aplikacji firm trzecich, połącz dodatkowo konto z Intervals.icu lub Strava."
+        },
+        "q4": {
+            "title": "Czy mogę ręcznie importować pliki FIT?",
+            "content": "Tak, jeśli Twoje urządzenie rejestrujące nie jest objęte naszymi opcjami importu lub przypadkowo usunąłeś aktywność, możesz przesłać pliki FIT na stronie <link>Apps.</link>"
+        },
+        "q5": {
+            "title": "Co zrobić, jeśli brakuje treningu z Garmin?",
+            "content": "Jeśli brakuje treningu z Garmin, możesz pobrać oryginalny plik FIT z Garmin Connect i przesłać go ręcznie, używając opcji przesyłania plików FIT na stronie <link>Apps.</link>"
+        },
+        "q6": {
+            "title": "Jak rejestrować dane mocy biegowej Stryd, a nie dane mocy biegowej Garmin?",
+            "content": "Jeśli używasz Stryd i zegarka Garmin, który rejestruje natywną moc biegową Garmin, oba zapisy mocy zostaną zapisane w pliku FIT Twojej aktywności. Aby wyłączyć moc biegową Garmin, przejdź do 'Wybierz aktywność biegową' -> 'Ustawienia aktywności biegowej' -> 'Wyłącz rejestrowanie danych mocy biegowej Garmin'. Zalecamy konsekwentne trzymanie się jednego źródła mocy, ponieważ różni producenci mają różne algorytmy obliczania mocy biegowej, które mogą dawać znacznie różniące się wartości."
+        },
+        "q7": {
+            "title": "Dlaczego moje dane aktywności nie są importowane z TrainingPeaks?",
+            "content": "Nie importujemy aktywności z TrainingPeaks, ponieważ API TrainingPeaks nie dostarcza danych niezbędnych do naszej analizy. Zalecamy bezpośrednie połączenie konta Garmin, Suunto, Coros, Wahoo, Polar, Intervals.icu lub Strava z AI Endurance w celu importu aktywności. Z TrainingPeaks importujemy jedynie dane nocnego tętna/HRV i eksportujemy tam Twoje treningi."
+        }
+    },
+    "hr": {
+        "title": "Tętno i zmienność rytmu serca (HRV)",
+        "q1": {
+            "title": "A co z tętnem?",
+            "content": "<p>Używamy danych tętna do oceny Twojej wydolności. Na przykład, jeśli byłeś w stanie biec tempem 5 min/km lub z mocą 200 W przez godzinę przy znacznie niższym tętnie niż w zeszłym tygodniu, AI odnotuje to jako poprawę wydolności. Jednak ogólnie tętno jest znacznie gorszym predyktorem wydolności niż moc i GAP.</p><p>Obliczamy Twoje progi tętna tlenowego i beztlenowego na podstawie danych DFA alpha 1, zobacz <link>ten wpis na blogu.</link></p><p>Dla Twoich aktywności kolarskich bez pomiaru mocy, używamy tętna i kadencji do oszacowania mocy za pomocą <link>spersonalizowanego modelu uczenia maszynowego.</link></p>"
+        },
+        "q2": {
+            "title": "A co ze zmiennością rytmu serca (HRV)?",
+            "content": "<p>Śledzimy Twoje dane HRV z aktywności, jeśli masz połączone Suunto lub Garmin Download i włączone logowanie HRV na urządzeniu Garmin. Możesz łatwo śledzić swoje progi tlenowe i beztlenowe na podstawie danych HRV za pomocą <link>DFA alpha 1.</link> Aby uzyskać więcej informacji, zobacz również <link>ten wpis na blogu.</link></p><p>Używamy również DFA alpha 1 do śledzenia Twojej <link>gotowości do treningu</link>, <link>durability</link> i ogólnej poprawy kondycji.</p>"
+        },
+        "q3": {
+            "title": "Jak mogę rejestrować HRV podczas aktywności na urządzeniach Garmin lub Suunto?",
+            "content": "<p>Włącz rejestrowanie HRV:</p><p>- Suunto: wszystkie urządzenia połączone z pasem piersiowym do pomiaru tętna automatycznie rejestrują HRV.</p><p>- Garmin: Ustawienia -> System -> Zapis danych -> Rejestruj HRV <i>lub</i> Ustawienia -> Pomiary fizjologiczne -> Rejestruj HRV. Połącz z pasem do pomiaru tętna – najlepiej Polar H10 – przez Bluetooth, <i>a nie</i> ANT+.</p><p>Urządzenia:</p><p>- Garmin: m.in. Forerunner 620, 630, 645, 920, 235, 255, 735, 935, 945, 955; Fenix 3, 5, 6, 7; Edge 520, 530, 820, 830, 1000, 1030, 1040, Explore; Epix.</p><p>Uwaga: Optyczne czujniki tętna z nadgarstka nie rejestrują HRV/DFA alpha 1 podczas aktywności na urządzeniach Garmin i Suunto. Musisz użyć kompatybilnego pasa piersiowego (takiego jak Polar H10), aby rejestrować dane HRV podczas aktywności.</p>"
+        },
+        "q4": {
+            "title": "Czy mogę rejestrować HRV podczas aktywności na urządzeniach Coros i Wahoo?",
+            "content": "Niestety, na ten moment urządzenia Coros i Wahoo nie rejestrują danych HRV podczas aktywności."
+        },
+        "q5": {
+            "title": "Czy mogę rejestrować HRV podczas aktywności na urządzeniach Polar?",
+            "content": "Obecnie Polar rejestruje dane HRV podczas aktywności, ale nie uwzględnia ich w plikach FIT udostępnianych aplikacjom firm trzecich, takim jak AI Endurance. Jeśli używasz urządzenia Polar, zachęcamy do skontaktowania się z obsługą klienta Polar i poproszenia o zmianę polityki, aby umożliwić udostępnianie tych cennych danych platformom zewnętrznym."
+        },
+        "q6": {
+            "title": "Czy mogę widzieć dane DFA alpha 1 w czasie rzeczywistym na moim urządzeniu?",
+            "content": "<p>Tak – jeśli masz urządzenie Garmin, możesz widzieć swoje dane DFA alpha 1 w czasie rzeczywistym, instalując aplikację <link>alphaHRV z Connect IQ.</link></p><p>Dla najlepszych rezultatów zalecamy:</p><p>1. Używanie Polar H10 i urządzenia Garmin, które rejestruje HRV</p><p>2. Sparowanie Polar H10 przez BLE (Bluetooth) w ustawieniach urządzenia Garmin (Czujniki -> Dodaj nowy -> Szukaj wszystkich; szukaj czujników BLE, nie ANT+)</p><p>3. W ustawieniach alphaHRV sparowanie alphaHRV z Polar H10 przez ANT+ (w aplikacji <link>Garmin Connect IQ</link>)</p><p>4. Włączenie rejestrowania HRV w Garmin: Ustawienia -> System -> Zapis danych -> Rejestruj HRV lub Ustawienia -> Pomiary fizjologiczne -> Rejestruj HRV.</p>"
+        },
+        "q7": {
+            "title": "Czy Strava przekazuje dane HRV z aktywności z urządzeń Garmin lub Suunto?",
+            "content": "Niestety, na ten moment Strava nie przekazuje danych HRV z aktywności. Jeśli chcesz śledzić swoje dane HRV, połącz Garmin Connect lub Suunto bezpośrednio z AI Endurance."
+        },
+        "q8": {
+            "title": "Jak mogę określić mój próg mocy/tempa/tętna DFA alpha 1?",
+            "content": "<p>Automatycznie próbujemy wykryć Twój próg DFA alpha 1 dla każdej aktywności z danymi HRV, którą importujesz do AI Endurance. Aby przeprowadzić test progowy, po prostu wyeksportuj test rampowy DFA alpha 1 do Zwift lub na swoje urządzenie Garmin ze strony <link>Apps.</link></p>"
+        },
+        "q9": {
+            "title": "Jak ustawić strefy po teście rampowym DFA alpha 1?",
+            "content": "<p>Przejdź na stronę <link>Account</link> i ustaw swoje strefy intensywności.</p><p>- Jeśli określono Twój pułap Endurance (tlenowy/VT1), ustaw pierwszy suwak (granica Endurance - Tempo) na określoną wartość.</p><p>- Jeśli określono Twój pułap Threshold (beztlenowy/VT2), ustaw trzeci suwak (granica Threshold - VO2Max) na określoną wartość.</p><p>Automatycznie śledzimy również, czy Twoje progi są zgodne z obecnymi strefami i powiadamiamy Cię, jeśli wskazana jest aktualizacja.</p>"
+        },
+        "q10": {
+            "title": "Dlaczego mój próg mocy/tempa/tętna DFA alpha 1 nie został obliczony automatycznie?",
+            "content": "<p>Aby automatycznie wykrywać progi DFA alpha 1, AI Endurance musi wykryć rampę intensywności podczas aktywności, ponieważ jest to metoda poparta <link>aktualnymi badaniami nad wykrywaniem progu DFA alpha 1.</link> Nasz algorytm musi być w stanie zidentyfikować przedział czasowy, który spełnia następujące kryteria automatycznego wykrywania progu:</p><p>1. Stabilny i płynny wzrost intensywności, tj. monotonicznie malejące wartości alpha 1 i monotonicznie rosnące wartości tempa/mocy.</p><p>2. Wystarczająca liczba punktów danych po obu stronach progu, np. alpha 1 < 0,5 i alpha 1 > 0,5 dla wykrywania progu beztlenowego.</p><p>3. Niezbyt duża prędkość rampy przy zwiększaniu intensywności. Jeśli zbyt szybko zwiększasz intensywność, występuje opóźnienie w odpowiedzi układu sercowo-naczyniowego w stosunku do mocy/tempa, co prowadziłoby do przeszacowania progów mocy/tempa.</p><p>Masz również możliwość pobrania danych aktywności ze strony aktywności jako plik csv i ręcznego wykonania detekcji rampy.</p>"
+        },
+        "q11": {
+            "title": "Jaki jest próg jakości dla analizy danych HRV?",
+            "content": "5-10% uszkodzeń artefaktów. Uszkodzenie artefaktów wskazuje na jakość danych HRV. Dla minimalnego uszkodzenia artefaktów zalecamy monitor tętna Polar H10. Na stronie aktywności pokazujemy Twój próg DFA alpha 1 dla każdego poziomu uszkodzenia artefaktów, ale do analizy gotowości do treningu bierzemy pod uwagę tylko aktywności z uszkodzeniem poniżej 10%. Aby dane zostały uwzględnione w predykcjach AI, wymagamy uszkodzenia poniżej 5%."
+        },
+        "q12": {
+            "title": "Jaki jest dobry monitor tętna do rejestrowania wysokiej jakości danych HRV?",
+            "content": "Polar H10 niezawodnie rejestruje dane HRV z uszkodzeniem artefaktów poniżej 5%. Inne monitory tętna również mogą w niektórych przypadkach zapewniać taką jakość, ale trzeba to sprawdzić indywidualnie dla każdego monitora."
+        },
+        "q13": {
+            "title": "Czy powinienem połączyć monitor tętna przez Bluetooth czy ANT+?",
+            "content": "Bluetooth. Rejestrowanie przez ANT+ generalnie prowadzi do znacznie niższej jakości danych HRV. Jeśli monitor tętna jest już dodany jako urządzenie ANT+ w Twoim urządzeniu Garmin, najpierw go usuń. Następnie dodaj nowy monitor tętna, pomijając domyślną opcję ANT+ i wybierając wyszukiwanie dalsze lub wyszukiwanie Bluetooth."
+        },
+        "q14": {
+            "title": "Czy mogę przenieść moje nocne dane HRV z Apple Watch do AI Endurance?",
+            "content": "Tak, pośrednio, jeśli masz je w Intervals.icu i połączysz Intervals.icu z AI Endurance."
+        },
+        "q15": {
+            "title": "Gdzie mogę uzyskać więcej informacji na temat najlepszych praktyk rejestrowania danych DFA alpha 1?",
+            "content": "<p><link>FAQ na temat DFA alpha 1 autorstwa Bruce'a Rogera</link> to doskonałe źródło informacji na wszystkie tematy związane z DFA alpha 1.</p>"
+        },
+        "q16": {
+            "title": "Dlaczego mój wskaźnik gotowości DFA alpha 1 nie został obliczony dla konkretnej aktywności?",
+            "content": "Aby wskaźnik gotowości DFA alpha 1 został obliczony, aktywność musi mieć mniej niż 10% uszkodzeń artefaktów. Dodatkowo, co najmniej 4 aktywności w ciągu ostatnich 3 tygodni również muszą mieć uszkodzenie artefaktów poniżej 10%, aby umożliwić sensowne porównanie."
+        },
+        "q17": {
+            "title": "Dlaczego mój wskaźnik gotowości na Dashboard nie jest obliczany, mimo że podłączyłem dane HRV w spoczynku i/lub DFA alpha 1?",
+            "content": "Aby obliczyć wskaźnik gotowości, wymagamy minimum 10 dni danych tętna/HRV w spoczynku lub danych DFA alpha 1, a także co najmniej 10 dni danych treningowych, które zawierają obliczone wskaźniki Stress Score (ESS). Zapewnia to, że model regeneracji ma wystarczającą ilość danych do dostarczenia miarodajnych wyników."
+        }
+    },
+    "moreSupport": {
+        "title": "Dodatkowe wsparcie",
+        "q1": {
+            "title": "Gdzie mogę uzyskać dodatkowe wsparcie?",
+            "content": "<p>Dołącz do naszej <link>społeczności na Reddit</link> i <link2>grupy na Facebooku</link2>.</p>"
+        }
+    }
+}

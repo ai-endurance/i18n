@@ -1,0 +1,22 @@
+{
+    "banner": {
+        "title": "Czym jest AI Endurance",
+        "description": "W AI Endurance wierzymy, że każdy zasługuje na nowoczesne metody treningu wytrzymałościowego. Dlatego oferujemy bardziej spersonalizowane i naukowe podejście, aby pomóc sportowcom na każdym poziomie zaawansowania odkryć nowy potencjał. A wszystko to za ułamek kosztów tradycyjnego coachingu. Specjalizujemy się w sztucznej inteligencji i wprowadzamy ją do czołówki metod treningowych. Z pasją upraszczamy trening i przełamujemy schemat uniwersalnych planów treningowych. Dążymy do tworzenia planów, które są responsywne, zindywidualizowane i łatwe do realizacji.",
+        "ctaButton": "Rozpocznij!"
+    },
+    "team": {
+        "markus": {
+            "title": "Markus Rummel",
+            "text": "Cześć, jestem Markus – założyciel AI Endurance i pasjonat triathlonu (dystans olimpijski w 2:06, Half-Ironman w 4:34), a także biegacz i kolarz. Jestem również fizykiem cząstek elementarnych, który pracował w czołowych światowych instytucjach, takich jak Uniwersytet Oksfordzki. Odkąd zacząłem pracować z metodami uczenia maszynowego w moich badaniach z fizyki, zastanawiałem się, jak wykorzystać te metody do stworzenia bardziej opartego na danych, predykcyjnego i zoptymalizowanego planu treningowego. Na tym właśnie polega AI Endurance: na wykorzystaniu ogromnego potencjału uczenia maszynowego i big data, które zbieramy każdego dnia podczas treningów, aby sprostać wyzwaniu, jakim jest dobór „właściwego” treningu dla każdego sportowca, uwzględniając jego indywidualną reakcję na obciążenia.",
+            "button": "Dowiedz się więcej o Markusie"
+        },
+        "chris": {
+            "title": "Chris St. Jean",
+            "text": "Cześć! Jestem Chris, współzałożyciel AI Endurance i biegacz ultra. Mieszkam w Colorado Springs w stanie Kolorado, a moim placem zabaw są piękne Góry Skaliste. Specjalizuję się w biegach trailowych na 100 mil, ale najdłuższy dystans, jaki pokonałem, to 250 mil. Dołączyłem do AI Endurance, aby połączyć moją pasję do biegania z doświadczeniem w inżynierii oprogramowania. Moja specjalność to tworzenie pięknych interfejsów użytkownika, łatwych w obsłudze Dashboardów i zapewnianie wam – naszym użytkownikom – jak najlepszych wrażeń z korzystania z naszej platformy. Przede wszystkim chcę, aby ludzie mieli łatwiejszy dostęp do pięknego świata sportów wytrzymałościowych, ponieważ tak głęboko zmienił on moje życie na lepsze. Cieszę się, że jestem częścią zespołu AI Endurance i mogę pomóc wam osiągnąć wasze cele!",
+            "button": "Dowiedz się więcej o Chrisie"
+        }
+    },
+    "partners": {
+        "title": "Nasi partnerzy"
+    }
+}

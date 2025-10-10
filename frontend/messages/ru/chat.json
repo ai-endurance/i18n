@@ -1,0 +1,197 @@
+{
+    "metadata": {
+        "title": "Chat",
+        "description": "Общайтесь здесь со своим ИИ-тренером"
+    },
+    "layout": {
+        "title": "Chat",
+        "description": "Общайтесь здесь со своим ИИ-тренером"
+    },
+    "header": {
+        "newChat": "Новый чат"
+    },
+    "overview": {
+        "welcome": "Добро пожаловать в ваш тренировочный ассистент на базе ИИ! Вы можете задавать вопросы о вашем плане тренировок, стратегиях питания, статусе восстановления и анализировать прошлые активности. Вы также можете попросить его изменить ваш план тренировок, создать или изменить отдельные тренировки."
+    },
+    "models": {
+        "small": {
+            "name": "Малая модель",
+            "description": "Для быстрых и простых задач: gemini-2.5-flash"
+        },
+        "large": {
+            "name": "Большая модель",
+            "description": "Для сложных, многоэтапных задач: gemini-2.5-pro"
+        },
+        "reasoning": {
+            "name": "Модель для рассуждений",
+            "description": "Использует продвинутые рассуждения"
+        }
+    },
+    "toolConfirmations": {
+        "changeWorkoutDate": {
+            "message": "Изменить дату тренировки «{title}» на {date}?",
+            "confirmText": "Да",
+            "denyText": "Нет",
+            "confirmResult": "Да, подтверждено.",
+            "denyResult": "Нет, отклонено."
+        },
+        "skipWorkout": {
+            "message": "Пропустить «{title}»? Тренировка будет удалена из вашего календаря.",
+            "confirmText": "Пропустить",
+            "denyText": "Оставить",
+            "confirmResult": "Да, пропустить.",
+            "denyResult": "Нет, оставить."
+        },
+        "createWorkout": {
+            "message": "Создать {intensity_type} {act_type} на {date_str}?",
+            "confirmText": "Создать",
+            "denyText": "Отмена",
+            "confirmResult": "Да, создать.",
+            "denyResult": "Нет, отменить."
+        },
+        "changeWorkoutIntensity": {
+            "message": "Изменить интенсивность тренировки «{title}» на {intensity}?",
+            "confirmText": "Изменить",
+            "denyText": "Отмена",
+            "confirmResult": "Да, изменить.",
+            "denyResult": "Нет, отменить."
+        },
+        "setZones": {
+            "message": "Установить зоны для {actType}:\nEndurance: {endurance}\nTempo: {tempo}\nThreshold: {threshold}\nVO2Max: {vo2max}?",
+            "confirmText": "Установить зоны",
+            "denyText": "Отмена",
+            "confirmResult": "Да, установить зоны.",
+            "denyResult": "Нет, отменить."
+        },
+        "createSwimWorkout": {
+            "message": "Создать тренировку по плаванию «{title}» на {date_str}?",
+            "confirmText": "Создать",
+            "denyText": "Отмена",
+            "confirmResult": "Да, создать.",
+            "denyResult": "Нет, отменить."
+        },
+        "changeWorkoutAdvice": {
+            "message": "Обновить совет к тренировке: «{advice}»?",
+            "confirmText": "Обновить",
+            "denyText": "Отмена",
+            "confirmResult": "Да, обновить.",
+            "denyResult": "Нет, отменить."
+        }
+    },
+    "sidebar": {
+        "history": "История",
+        "newChat": "Новый чат",
+        "delete": "Удалить",
+        "share": "Поделиться",
+        "private": "Личный",
+        "public": "Публичный",
+        "more": "Ещё",
+        "toggle": "Переключить боковую панель"
+    },
+    "sidebarHistory": {
+        "today": "Сегодня",
+        "yesterday": "Вчера",
+        "lastWeek": "Последние 7 дней",
+        "lastMonth": "Последние 30 дней",
+        "older": "Раньше",
+        "deleteDialog": {
+            "title": "Вы абсолютно уверены?",
+            "description": "Это действие необратимо. Ваш чат будет безвозвратно удалён с наших серверов.",
+            "cancel": "Отмена",
+            "continue": "Продолжить"
+        },
+        "toast": {
+            "deleting": "Удаление чата...",
+            "deleted": "Чат успешно удалён",
+            "failed": "Не удалось удалить чат"
+        }
+    },
+    "visibility": {
+        "private": "Личный",
+        "public": "Публичный",
+        "privateDescription": "Только вы имеете доступ к этому чату",
+        "publicDescription": "Любой, у кого есть ссылка, может получить доступ к этому чату"
+    },
+    "messageActions": {
+        "copy": "Копировать",
+        "copied": "Скопировано в буфер обмена!",
+        "editMessage": "Редактировать сообщение",
+        "upvote": "Оценить ответ положительно",
+        "downvote": "Оценить ответ отрицательно",
+        "upvoting": "Оценка ответа...",
+        "downvoting": "Оценка ответа...",
+        "upvoted": "Ответ оценён положительно!",
+        "downvoted": "Ответ оценён отрицательно!",
+        "upvoteFailed": "Не удалось оценить ответ.",
+        "downvoteFailed": "Не удалось оценить ответ."
+    },
+    "messageEditor": {
+        "cancel": "Отмена",
+        "send": "Отправить",
+        "sending": "Отправка..."
+    },
+    "multimodalInput": {
+        "placeholder": "Отправьте сообщение...",
+        "waitForResponse": "Пожалуйста, подождите, пока модель завершит ответ!"
+    },
+    "suggestedActions": {
+        "weatherWorkout": {
+            "title": "На основе прогноза погоды",
+            "label": "стоит ли мне изменить даты тренировок?",
+            "action": "На основе прогноза погоды, стоит ли мне изменить даты тренировок?"
+        },
+        "planProgress": {
+            "title": "На основе моего прогресса по плану",
+            "label": "изменить тренировки на ближайшие 7 дней",
+            "action": "На основе моего прогресса по плану, измените тренировки на ближайшие 7 дней"
+        },
+        "nutritionStrategy": {
+            "title": "Стратегия питания",
+            "label": "для моей следующей гонки",
+            "action": "Стратегия питания для моей следующей гонки на основе моих целевых соревнований"
+        },
+        "recoveryStatus": {
+            "title": "Подробный отчёт",
+            "label": "о моём текущем статусе восстановления",
+            "action": "Подробный отчёт о моём текущем статусе восстановления"
+        }
+    },
+    "toolResults": {
+        "accountInfo": "Информация об аккаунте получена",
+        "information": "Информация получена",
+        "availability": "График доступности получен",
+        "predictions": "Прогнозы производительности получены",
+        "plannedWorkouts": "Запланированные тренировки получены",
+        "cyclingActivities": "Велосипедные активности получены",
+        "cyclingActivityDetails": "Детали велосипедной активности получены",
+        "runningActivities": "Беговые активности получены",
+        "runningActivityDetails": "Детали беговой активности получены",
+        "swimmingActivities": "Активности по плаванию получены",
+        "swimmingActivityDetails": "Детали активности по плаванию получены",
+        "recoveryModel": "Модель восстановления получена",
+        "goalEvents": "Целевые соревнования получены",
+        "planProgress": "Прогресс по плану получен"
+    },
+    "workoutActions": {
+        "dateUpdated": "Дата тренировки успешно обновлена.",
+        "viewInCalendar": "Посмотреть в календаре",
+        "viewCalendar": "Посмотреть календарь",
+        "workoutSkipped": "Тренировка успешно пропущена.",
+        "statusUpdated": "Статус тренировки обновлён.",
+        "workoutCreated": "Тренировка успешно создана.",
+        "intensityUpdated": "Интенсивность тренировки успешно обновлена.",
+        "adviceUpdated": "Совет к тренировке успешно обновлён.",
+        "zonesUpdated": "Тренировочные зоны успешно обновлены.",
+        "swimWorkoutCreated": "Тренировка по плаванию успешно создана."
+    },
+    "confirmation": {
+        "yes": "Да",
+        "no": "Нет",
+        "yesConfirmed": "Да, подтверждено.",
+        "noDenied": "Нет, отклонено."
+    },
+    "thinking": "Думаю...",
+    "errors": {
+        "general": "Произошла ошибка, пожалуйста, попробуйте ещё раз!"
+    }
+}

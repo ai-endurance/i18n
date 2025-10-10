@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Regulamin",
+        "privacy": "Polityka prywatności"
+    },
+    "confirmationPopup": {
+        "yes": "Tak",
+        "no": "Nie"
+    },
+    "expiredDisplay": {
+        "title": "Nie pozwól, by Twoja forma przepadła! <br />Wybierz plan, aby kontynuować postępy.",
+        "cta": "Rozpocznij"
+    },
+    "infoBox": {
+        "defaultTitle": "Warto wiedzieć...",
+        "done": "Gotowe"
+    }
+}

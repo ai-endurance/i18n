@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Szczegóły aktywności",
+        "description": "Zobacz szczegółowe informacje o swojej aktywności treningowej"
+    },
+    "errors": {
+        "workoutNotFound": "Nie znaleziono aktywności",
+        "updateFailed": "Nie udało się zaktualizować nazwy aktywności",
+        "updateSuccess": "Nazwa aktywności zaktualizowana",
+        "deleteFailed": "Błąd podczas usuwania aktywności",
+        "deleteSuccess": "Aktywność usunięta pomyślnie",
+        "raceStatusChangeFailed": "Błąd podczas zmiany statusu wyścigu",
+        "raceStatusChangeSuccess": "Status wyścigu zmieniony pomyślnie"
+    },
+    "sections": {
+        "activityDetails": "Szczegóły aktywności",
+        "bestEfforts": "Najlepsze wyniki",
+        "hrvData": "Dane HRV"
+    },
+    "components": {
+        "showActivityButton": {
+            "displayed": "Wyświetlane",
+            "average": "Śr: {average}"
+        },
+        "viewOnStravaCard": {
+            "title": "Zobacz na Strava"
+        },
+        "deleteActivityCard": {
+            "title": "Usuń aktywność",
+            "confirmationText": "Czy na pewno chcesz usunąć tę aktywność? Tej operacji nie można cofnąć."
+        },
+        "downloadCSV": {
+            "title": "Pobierz jako CSV"
+        },
+        "markAsRace": {
+            "title": "Wyścig"
+        },
+        "sourceCard": {
+            "title": "Źródło",
+            "manualUpload": "Ręcznie dodane"
+        }
+    },
+    "labels": {
+        "notMoving": "Brak ruchu",
+        "movingTime": "Czas w ruchu",
+        "distance": "Dystans",
+        "elevationGain": "Przewyższenie",
+        "kcal": "kcal",
+        "averagePower": "Średnia moc",
+        "averageHeartRate": "Średnie tętno",
+        "powerEstimation": "Szacowanie mocy",
+        "averageGap": "Średnie GAP",
+        "averagePace": "Średnie tempo",
+        "ess": "ESS",
+        "artifactPercentage": "Procent artefaktów",
+        "artifactPercentageLocal": "Lokalny procent artefaktów",
+        "iss": "ISS",
+        "averageA1": "Średnie a₁",
+        "enduranceCeilingRamp": "Pułap Endurance (Ramp)",
+        "enduranceCeilingCluster": "Pułap Endurance (Cluster)",
+        "thresholdCeilingRamp": "Pułap Threshold (Ramp)",
+        "thresholdCeilingCluster": "Pułap Threshold (Cluster)",
+        "rAlphaRide": "Rₐ (gotowość)",
+        "dAlphaRide": "Dₐ (durability)",
+        "paceRAlpha": "Tempo Rₐ (gotowość)",
+        "paceDAlpha": "Tempo Dₐ (durability)",
+        "powerRAlpha": "Moc Rₐ (gotowość)",
+        "powerDAlpha": "Moc Dₐ (durability)",
+        "best20MinPower": "Najlepsza moc z 20 min",
+        "best15MinPower": "Najlepsza moc z 15 min",
+        "best30MinPower": "Najlepsza moc z 30 min",
+        "best15MinGap": "Najlepsze GAP z 15 min",
+        "best30MinGap": "Najlepsze GAP z 30 min",
+        "detailRecoveryAlpha": {
+            "text": "Twoja gotowość {pName} do treningu dla tej aktywności na podstawie DFA a₁. Wartości dodatnie wskazują, że organizm był gotowy na trening. Wartości ujemne mogą wskazywać na coś przeciwnego, na przykład z powodu zmęczenia i/lub stresu.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailDriftAlpha": {
+            "text": "Twoja {pName} durability dla tej aktywności na podstawie DFA a₁. Wartości większe niż -5% mogą wskazywać na dobrą adaptację do rodzaju i czasu trwania tej aktywności. Duże wartości ujemne mogą wskazywać na brak durability.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailAvAlpha": {
+            "text": "DFA a₁ to miara fraktalnych właściwości korelacyjnych sygnału zmienności rytmu serca (HRV). Im niższa wartość DFA a₁, tym wyższa intensywność ćwiczeń. Wartości powyżej 1,0 występują przy niskich intensywnościach, wartości poniżej 0,75 odpowiadają intensywnościom powyżej progu tlenowego. Wartości poniżej 0,5 wskazują na intensywność beztlenową.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailIss": {
+            "text": "Twój Internal Stress Score (ISS) dla tej aktywności, wyliczony na podstawie danych DFA a₁. Im dłuższa aktywność, niższe a₁ i bardziej intensywny trening, tym wyższy ISS. Przykładowo, jedna godzina na progu beztlenowym (a₁=0,5) odpowiada 100 ISS."
+        },
+        "detailEndHrv": {
+            "text": "Górna granica Twojej strefy Endurance, czyli próg tlenowy, jest obliczana na podstawie danych DFA a₁. Jest to intensywność, przy której przekraczasz próg tlenowy (a₁ = 0,75) podczas stopniowego wzrostu intensywności w ciągu pierwszych 30 minut aktywności.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailEndHrvCluster": {
+            "text": "Górna granica Twojej strefy Endurance, czyli próg tlenowy, jest obliczana na podstawie danych DFA a₁. Jest to intensywność, przy której Twoja moc lub tempo grupują się (cluster) blisko progu tlenowego (a₁ = 0,75) w ciągu pierwszych 30 minut aktywności.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailThrHrv": {
+            "text": "Górna granica Twojej strefy Threshold, czyli próg beztlenowy, jest obliczana na podstawie danych DFA a₁. Jest to intensywność, przy której przekraczasz próg beztlenowy (a₁ = 0,5) podczas stopniowego wzrostu intensywności w ciągu pierwszych 30 minut aktywności.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailThrHrvCluster": {
+            "text": "Górna granica Twojej strefy Threshold, czyli próg beztlenowy, jest obliczana na podstawie danych DFA a₁. Jest to intensywność, przy której Twoje metryki grupują się (cluster) blisko progu beztlenowego (a₁ = 0,5) w ciągu pierwszych 30 minut aktywności.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailArtifacts": {
+            "text": "Liczba pomiarów HRV (zmienności rytmu serca), które zawierały artefakty i wymagały korekty. Artefakty mogą obejmować długie, krótkie, pominięte, dodatkowe i ektopowe uderzenia serca. Aby pomiar był dokładny, aktywność powinna zawierać mniej niż 5% artefaktów. Jeśli uzyskujesz wyższy odsetek artefaktów, upewnij się, że:\n- używasz czujnika tętna (HRM) Polar H10 lub Suunto\n- łączysz czujnik HRM przez Bluetooth, a nie Ant+\n- zwilżasz elektrody czujnika śliną lub żelem USG przed każdą aktywnością\n- płuczesz pasek pod zimną wodą po każdej aktywności i pierzesz go raz w tygodniu w pralce w niskiej temperaturze, najlepiej w siatce do prania\n- optymalizujesz pozycję paska (zobacz link poniżej)\nJeśli musisz wymienić baterię w czujniku HRM, użyj nowych baterii wysokiej jakości.\nGdy pasek dobiegnie końca swojej żywotności, możesz wymienić TYLKO pasek, a nie cały czujnik HRM.",
+            "learnMore": "Dowiedz się więcej o idealnej pozycji paska HRM."
+        },
+        "detailArtifactsLocal": {
+            "text": "Procent pomiarów HRV, które zawierały artefakty i wymagały korekty tylko w okresach, w których oceniano progi lub gotowość."
+        },
+        "detailKcal": {
+            "text": "Dokładny pomiar lub przewidywanie zapotrzebowania na energię podczas wysiłku jest z natury złożone i podatne na błędy, niezależnie od wybranej metodologii. Na potrzeby tej aplikacji koszt energetyczny wysiłku został oszacowany przy użyciu opartych na dowodach naukowych równań, specyficznych dla danego rodzaju ćwiczeń. Obliczenia te należy traktować jako przybliżone wytyczne dotyczące kosztu energetycznego każdej sesji treningowej, pamiętając, że rzeczywisty koszt energetyczny wysiłku może się różnić w zależności od czynników takich jak wiek, płeć, stan zdrowia i kondycji fizycznej, masa i skład ciała, styl życia, genetyka itp.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "detailEss": {
+            "text": "Twój External Stress Score (ESS) dla tej aktywności, wyliczony na podstawie danych o mocy. Im dłuższa aktywność, wyższa moc i bardziej intensywny trening, tym wyższy ESS. Przykładowo, jedna godzina na progu beztlenowym odpowiada 100 ESS."
+        },
+        "powerSource": {
+            "text": "Twoja moc jest przewidywana na podstawie tętna oraz – jeśli są dostępne – kadencji i/lub DFA a₁. Nasza sztuczna inteligencja uczy się przewidywać Twoją moc na podstawie poprzednich aktywności z danymi o mocy, tętnie, kadencji i a₁.",
+            "learnMore": "Dowiedz się więcej."
+        },
+        "activityTitle": {
+            "text": "Możesz spersonalizować tytuł aktywności, aby wyróżnić trening testowy lub wyścig.",
+            "textCycling": "Możesz spersonalizować tytuł aktywności, aby wyróżnić trening testowy lub wyścig. Upewnij się, że tytuły testów FTP zawierają zarówno słowo „test”, jak i czas trwania testu, aby aplikacja mogła go rozpoznać. Na przykład, użyj „20 min FTP test” dla 20-minutowego testu FTP. W przypadku Ramp Tests, w tytule umieść zarówno „ramp”, jak i „test”, na przykład „Ramp Test”."
+        },
+        "gap": {
+            "text": "Grade Adjusted Pace (GAP) odnosi się do tempa dostosowanego w celu uwzględnienia wpływu zmian wysokości podczas aktywności. Zamiast mierzyć tylko prędkość, tempo uśrednione pod kątem nachylenia uwzględnia, jak wzniesienia (podbiegi) i spadki (zbiegi) wpływają na wysiłek wymagany do utrzymania określonej prędkości. Na przykład, jeśli biegniesz pod stromą górę, Twoje surowe tempo może być wolne, ale Twoje GAP może być wysokie, ponieważ uwzględnia stromość wzniesienia. Normalizując tempo na podstawie tych zmian wysokości, zapewnia ono dokładniejsze odzwierciedlenie wysiłku włożonego na zróżnicowanym terenie, co czyni je użyteczną metryką do porównywania wyników na różnych trasach lub zrozumienia wpływu wzniesień na ogólne tempo."
+        },
+        "markAsRace": {
+            "text": "Gdy oznaczysz aktywność jako wyścig, model AI przypisuje większą wagę danym z tej aktywności, zwiększając ich znaczenie podczas trenowania modelu."
+        }
+    }
+}

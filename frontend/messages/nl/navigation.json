@@ -1,0 +1,19 @@
+{
+    "toolbar": {
+        "getStarted": "Aan de slag"
+    },
+    "menuButton": {
+        "title": "Navigatiemenu"
+    },
+    "logo": {
+        "alt": "AIEndurance Logo"
+    },
+    "links": {
+        "product": "Product",
+        "pricing": "Prijzen",
+        "contact": "Contact",
+        "calendar": "Kalender",
+        "nutrition": "Voeding",
+        "recovery": "Herstel"
+    }
+}

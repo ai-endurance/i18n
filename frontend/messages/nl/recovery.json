@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "title": "Hersteldetails",
+        "description": "Details over je herstelstatus."
+    },
+    "titles": {
+        "yourRecovery": "Jouw herstel",
+        "yourDfaReadiness": "Jouw DFA a₁ gereedheid",
+        "yourRecoveryMeasurements": "Jouw herstelmetingen",
+        "yourRmssdTrends": "Jouw RMSSD-trends",
+        "yourSdnnTrends": "Jouw SDNN-trends",
+        "yourHrRestTrends": "Jouw trends in rusthartslag"
+    },
+    "recovery": {
+        "todaysAerobicRecovery": "Aerobisch<linebreak>herstel</linebreak>van vandaag",
+        "todaysMuscleJointRecovery": "Spier/gewrichts-<linebreak>herstel</linebreak>van vandaag",
+        "noRecoveryDataAvailable": "Geen herstelgegevens beschikbaar. Om je aerobe en spier/gewrichtsherstel te zien, verzamel je nachtelijke HRV-gegevens met een compatibel apparaat en gebruik je de check-in functie van AI Endurance.",
+        "makeTheMostOfAiEndurance": "Haal het meeste uit AI Endurance",
+        "noRecoveryMetricsFound": "Geen herstelstatistieken gevonden"
+    },
+    "measurements": {
+        "source": "Bron",
+        "delete": "Verwijderen",
+        "measurementDeletedSuccessfully": "Meting succesvol verwijderd",
+        "errorDeletingMeasurement": "Fout bij verwijderen van meting",
+        "deleteConfirmation": "Weet je zeker dat je deze meting wilt verwijderen? Dit kan niet ongedaan worden gemaakt."
+    },
+    "chart": {
+        "measuredA1": "Gemeten a₁",
+        "expectedA1": "Verwachte a₁",
+        "notCalculatedBecause": "Niet berekend voor je laatste activiteit omdat: "
+    },
+    "labels": {
+        "a1Readiness": {
+            "paragraph1": "Gereedheid is gebaseerd op HRV (DFA a₁) metingen van recente activiteiten, waarbij alleen activiteiten met minder dan 10% artefactcorruptie worden gebruikt. Het wordt berekend met een lineair regressiemodel (doorgetrokken rode lijn) dat de relatie legt tussen het effectieve gemiddelde vermogen/tempo (‹Vermogen/Tempo›) en de effectieve DFA a₁-waarden (‹a₁›) van de eerste 10 minuten hardlopen of 20 minuten fietsen in je laatste 21 trainingen (rode kruisjes, met foutbalken die de datavariabiliteit aangeven). Effectieve waarden sluiten periodes uit waarin ‹Vermogen/Tempo› nul is, om te zorgen dat alleen zinvolle data wordt gebruikt. Tempo verwijst altijd naar GAP (Grade Adjusted Pace).",
+            "paragraph2": "Voor de laatste training worden ‹Vermogen/Tempo› en ‹a₁› vergeleken met het regressiemodel. Gereedheid weerspiegelt de relatieve afwijking (verticale rode stippellijn) van de waargenomen ‹a₁› (blauw kruis) ten opzichte van de voorspelde ‹a₁› bij hetzelfde ‹Vermogen/Tempo› (rode stip).",
+            "paragraph3": "Gereedheid wordt niet berekend als: de artefactcorruptie van de huidige training 10% of meer is; er minder dan 4 geldige activiteiten zijn in de laatste 21 dagen; ‹a₁› hoger is dan 1,4 (om te voorkomen dat activiteiten ver buiten het dynamische bereik van a₁ het model beïnvloeden); de ‹a₁› of het ‹Vermogen/Tempo› van de huidige training meer dan 20% afwijkt van historische gegevens; of de tijd zonder inspanning/nul ‹Vermogen/Tempo› langer is dan 5 minuten tijdens de eerste 10 minuten (hardlopen) of 20 minuten (fietsen), exclusief gepauzeerde tijd.",
+            "learnMore": "Meer informatie."
+        },
+        "rmssdNormalVsBaseline": {
+            "paragraph1": "Je herstel wordt beoordeeld aan de hand van de 'root mean square of successive differences' (RMSSD) van je hartslagvariabiliteit. De basislijn-RMSSD (rode lijn) wordt berekend als een 7-daags voortschrijdend gemiddelde van je individuele RMSSD-waarden (blauwe balken). Deze basislijn wordt vergeleken met je normale RMSSD-bereik (grijze band), wat het 60-daags voortschrijdend gemiddelde plus en min één standaarddeviatie vertegenwoordigt. Het herstel wordt als laag beschouwd wanneer je basislijn-RMSSD onder het normale RMSSD-bereik zakt.",
+            "learnMore": "Meer informatie."
+        },
+        "sdnnNormalVsBaseline": {
+            "paragraph1": "Je herstel wordt beoordeeld aan de hand van de standaarddeviatie van NN-intervallen (SDNN) van je hartslagvariabiliteit. De basislijn-SDNN (rode lijn) wordt berekend als een 7-daags voortschrijdend gemiddelde van je individuele SDNN-waarden (blauwe balken). Deze basislijn wordt vergeleken met je normale SDNN-bereik (grijze band), wat het 60-daags voortschrijdend gemiddelde plus en min één standaarddeviatie vertegenwoordigt. Het herstel wordt als laag beschouwd wanneer je basislijn-SDNN onder het normale SDNN-bereik zakt.",
+            "learnMore": "Meer informatie."
+        },
+        "hrRestNormalVsBaseline": {
+            "paragraph1": "Je herstel wordt beoordeeld aan de hand van je rusthartslag. Je rusthartslag van de dag (blauwe balk) wordt vergeleken met je normale bereik voor rusthartslag (grijze band), wat het 30-daags voortschrijdend gemiddelde plus en min één standaarddeviatie vertegenwoordigt. Het herstel wordt als laag beschouwd wanneer je rusthartslag het normale bereik overschrijdt.",
+            "learnMore": "Meer informatie."
+        },
+        "recoveryMetricInspection": {
+            "paragraph1": "Je herstelgegevens van de afgelopen 14 dagen worden hier samengevat, inclusief nachtelijke HR/HRV-metingen van apps van derden zoals Oura, Whoop, Garmin, Suunto, Coros en Polar, evenals HR/HRV check-ins die zijn vastgelegd in AI Endurance. Statistieken die zijn gesynchroniseerd vanuit Intervals.icu of TrainingPeaks worden ook meegenomen. Je kunt metingen verwijderen die volgens jou onnauwkeurig zijn of je herstelstatus niet goed weergeven.",
+            "paragraph2": "Met name Garmin kan meerdere metingen per dag leveren. Dit is echter geen probleem, omdat we voor elke dag alleen de laagste rusthartslag (HR Rest) en de hoogste HRV-waarde (standaard RMSSD, of SDNN als je dat hebt geselecteerd in je accountinstellingen) gebruiken in je herstelmodel. Houd er rekening mee dat het verwijderen van een meting de herstelwaarden uit het verleden niet met terugwerkende kracht bijwerkt."
+        }
+    }
+}

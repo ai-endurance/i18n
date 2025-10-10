@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "title": "Voeding",
+        "description": "Optimaliseer je voeding met ons voedingsdashboard."
+    },
+    "layout": {
+        "title": "Voeding",
+        "description": "Optimaliseer je voeding met ons voedingsdashboard."
+    },
+    "nutritionCard": {
+        "title": "Jouw voedingsmodel"
+    },
+    "weeklyNutritionTotals": {
+        "title": "Gemiddelde dagelijkse inname",
+        "calories": "Calorieën",
+        "protein": "Eiwitten",
+        "carbs": "Koolhydraten",
+        "fat": "Vetten"
+    },
+    "mealPlanCard": {
+        "title": "Jouw maaltijdplan"
+    },
+    "mealPlanForm": {
+        "dietaryPreferences": "Dieetvoorkeuren",
+        "dateForMealPlan": "Datum voor maaltijdplan",
+        "placeholder": "glutenvrij, veganistisch, etc.",
+        "requestMealPlan": "Maaltijdplan aanvragen",
+        "dismissCurrentMealPlan": "Huidig maaltijdplan negeren"
+    },
+    "mealPlanDisplay": {
+        "noMealPlanAvailable": "Geen maaltijdplan beschikbaar. Maak er nu een aan!",
+        "mealPlanFor": "Maaltijdplan voor {date}",
+        "plannedWorkout": "Geplande training:",
+        "specialDietaryRequests": "Speciale dieetwensen of -voorkeuren: {text}"
+    },
+    "mealPlanLoading": {
+        "creatingMealPlan": "Maaltijdplan wordt aangemaakt..."
+    },
+    "nutritionBarChart": {
+        "tooltip": {
+            "total": "Totaal:",
+            "protein": "Eiwitten:",
+            "carbs": "Koolhydraten:",
+            "fat": "Vetten:",
+            "workout": "Training:"
+        }
+    },
+    "labels": {
+        "nutrition": {
+            "paragraph1": "Je dagelijkse energieverbruik (in kilocalorieën) en macronutriëntenverbruik, gebaseerd op je voltooide activiteiten, geplande trainingen en je geschatte rustmetabolisme.",
+            "paragraph2": "Hoewel deze zijn geschat met wetenschappelijk onderbouwde formules die specifiek zijn voor het type inspanning, is een nauwkeurige meting of voorspelling van de energiebehoefte inherent complex en foutgevoelig, ongeacht de gekozen methodologie. De schattingen moeten worden gebruikt als een ruwe richtlijn, waarbij je er rekening mee moet houden dat de werkelijke energiekosten van inspanning waarschijnlijk variëren op basis van factoren zoals leeftijd, geslacht, gezondheid en conditie van het individu, lichaamsgewicht en -samenstelling, levensstijl, genetica, enzovoort.",
+            "paragraph3": "Vanwege de complexiteit, uitdagingen en mogelijke fouten bij het schatten van al deze componenten, worden de schattingen gegeven als een bereik om flexibiliteit en aanpassing mogelijk te maken.",
+            "learnMore": "Meer informatie."
+        },
+        "mealplan": {
+            "paragraph1": "Ontvang een AI-maaltijdplan dat rekening houdt met het calorieverbruik van je voltooide activiteiten en geplande trainingen. Je kunt dieetwensen toevoegen, zoals 'ik ben vegetariër', of voorkeuren, zoals 'ik heb vandaag zin in vis'. Dit maaltijdplan is afgestemd op de calorie- en macronutriëntenbehoeften die door onze wetenschappelijk onderbouwde voedingsmodellen worden berekend.",
+            "learnMore": "Meer informatie."
+        }
+    }
+}

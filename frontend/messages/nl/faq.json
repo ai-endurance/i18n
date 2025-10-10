@@ -1,0 +1,277 @@
+{
+    "metadata": {
+        "title": "FAQ",
+        "description": "Veelgestelde vragen over {partnerTitle}"
+    },
+    "banner": {
+        "title": "Veelgestelde vragen",
+        "subtitle": "AI Endurance biedt krachtige functies die in het begin complex kunnen lijken. We hebben antwoorden verzameld op de meest voorkomende vragen van onze gebruikers om je op weg te helpen. Als je niet kunt vinden wat je zoekt, neem dan gerust contact met ons op of word lid van onze Reddit- of Facebook-community voor extra ondersteuning!",
+        "getStarted": "Begin nu!",
+        "contactUs": "Neem contact op"
+    },
+    "search": {
+        "placeholder": "Zoek vragen..."
+    },
+    "modal": {
+        "close": "Bedankt!"
+    },
+    "general": {
+        "title": "Algemene vragen",
+        "q1": {
+            "title": "Hoe verschilt AI Endurance van andere apps?",
+            "content": "<p>We kunnen je echt gepersonaliseerde training bieden omdat ons AI-algoritme je prestaties kan voorspellen op basis van je data. Zo kunnen we je de best mogelijke trainingsresultaten bieden binnen jouw tijdsbeperkingen en je vertellen welke prestaties je zult bereiken als je je aan het plan houdt.</p><p>We hechten veel waarde aan een wetenschappelijke en datagestuurde aanpak. We weten dat AI Endurance werkt, want we hebben het niet alleen vergeleken met het meest recente peer-reviewed onderzoek in de inspanningsfysiologie, <link>we hebben ook aangetoond hoe onze AI-geoptimaliseerde training zelfs de beste 'one-size-fits-all'-aanpak die het huidige onderzoek te bieden heeft, gemakkelijk overtreft</link>.</p>"
+        },
+        "q2": {
+            "title": "Hoe goed kan AI Endurance prestaties voorspellen?",
+            "content": "We kunnen je toekomstige prestaties voorspellen met een nauwkeurigheid van ongeveer 5% als je minstens 100 hardloopsessies met gps-data of ritten met vermogensdata hebt."
+        },
+        "q3": {
+            "title": "Hoe vaak trainen jullie de AI?",
+            "content": "Met AI Endurance krijgt elke gebruiker zijn eigen 'Digital Twin' - een machine learning-model dat alle mogelijke manieren representeert waarop jij zou reageren op verschillende trainingsroutines. Het model wordt elke 24 uur bijgewerkt voor elke gebruiker, waarbij rekening wordt gehouden met elke nieuwe activiteit die je hebt geüpload via Garmin, Suunto, Coros, Polar, Wahoo, Intervals.icu of Strava."
+        },
+        "q4": {
+            "title": "Voor welke sporten kan ik AI Endurance gebruiken?",
+            "content": "Hardlopen, fietsen en triatlon."
+        },
+        "q5": {
+            "title": "Met welke tracking-apps kan ik AI Endurance gebruiken?",
+            "content": "Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu, Strava en Apple Watch via <link>Watchletic</link>."
+        },
+        "q6": {
+            "title": "Wat is GAP en hoe gebruikt AI Endurance het?",
+            "content": "<p><link>Grade Adjusted Pace</link> houdt rekening met de hoogtemeters (stijgen en dalen) tijdens je hardloopsessie en normaliseert je tempo naar een equivalent tempo op een vlak parcours. Als je bijvoorbeeld een steile heuvel op rent, kan je ruwe tempo laag zijn, maar je GAP kan hoog zijn omdat het rekening houdt met de steilheid van de heuvel. AI Endurance gebruikt GAP om je hardloopprestaties te voorspellen. Je tempo-instructies zijn altijd in GAP.</p><p>Als alternatief voor GAP kun je hardloopvermogen gebruiken.</p>"
+        },
+        "q7": {
+            "title": "Kan ik AI Endurance gebruiken met hardloopvermogen?",
+            "content": "<p>Ja. We importeren je hardloopvermogensdata van Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu en Strava.</p><p>Je kunt je trainingsplan volledig baseren op hardloopvermogen en je trainingen exporteren naar Garmin Connect, Suunto Guides, Coros, TrainingPeaks, Apple Watch via Watchletic, Intervals.icu en Nolio.</p>"
+        },
+        "q8": {
+            "title": "Hoe kan ik AI Endurance-trainingen met hardloopvermogen gebruiken met Garmin en Stryd?",
+            "content": "Installeer simpelweg het Stryd Data Field op je horloge, verbind AI Endurance met Garmin Upload in Apps en gebruik hardloopvermogen voor je trainingsplan."
+        },
+        "q9": {
+            "title": "Heb ik vermogensdata nodig voor fietsen?",
+            "content": "<p>Ja, tenminste voor sommige activiteiten. Vermogen is de enige metriek bij fietsen die we voorspellend hebben bevonden. Er zijn te veel variaties in snelheids- en hartslagdata die niet indicatief zijn voor prestaties. Je hoeft niet al je activiteiten op te nemen met een vermogensmeter. Als je activiteit hartslag- en cadansdata heeft, <link>schatten we het vermogen op basis van die metingen.</link> We hebben wel enkele activiteiten nodig met ten minste vermogens- en hartslagdata om een voor jou geïndividualiseerd model te kunnen trainen dat je vermogen voorspelt op basis van je hartslag en andere metrieken zoals Cadence.</p>"
+        },
+        "q10": {
+            "title": "Detecteren jullie mijn wedstrijdprestaties en FTP-testen?",
+            "content": "<p>Ja. Zorg ervoor dat je FTP-testen zowel het woord 'test' als de duur in de titel van de activiteit hebben, bijv. '20 min FTP test' voor een twintig minuten FTP-test. Voor Ramp Tests, neem het woord 'ramp' op in de titel, bijv. 'Ramp Test'. Om de titel van je activiteit te wijzigen, klik je op de activiteit in de kalender en klik je op 'Analyse bekijken'. Klik op het pen-symbool naast de titel van de activiteit.</p><p>Je kunt je wedstrijdprestaties markeren door 'Wedstrijd' te selecteren voor je hardloopsessie of rit op de detailpagina van de AI Endurance-activiteit of door de optie 'Activiteit bewerken' op Strava te gebruiken.</p>"
+        },
+        "q11": {
+            "title": "Kan ik AI Endurance gebruiken als ik niet genoeg data heb?",
+            "content": "Ja. Als je nog niet genoeg data hebt, voorspellen we je prestaties op basis van de verzamelde data van atleten in onze database die vergelijkbaar zijn met jou. We schakelen automatisch over naar je persoonlijke data zodra je meer data verzamelt op je verbonden apps."
+        },
+        "q12": {
+            "title": "Waarom wordt voorspeld dat mijn prestaties afnemen?",
+            "content": "<p>Zorg er eerst voor dat als je handmatig je huidige prestatieniveau instelt, dit een weerspiegeling is van je daadwerkelijke huidige conditie en niet een 'all-time best' die misschien niet representatief is voor je huidige niveau. De beste manier om je huidige niveau te meten is door een FTP-test te doen voor fietsen of een 15 minuten tijdrit voor hardlopen (als je traint voor kortere afstanden) of een 30 minuten tijdrit (voor langere afstanden). Ons algoritme zal deze automatisch oppikken en je huidige niveau aanpassen (zie <link>Detecteren jullie mijn wedstrijdprestaties en FTP-testen?</link>). Er kunnen ook situaties zijn waarin het voor ons algoritme moeilijk is om je fitnessniveau te detecteren, bijvoorbeeld als je in het verleden zelden een test hebt gedaan of jezelf tot het uiterste hebt gedreven. In dat geval kan onze AI je niveau systematisch onderschatten - maar de voorspelde verbeteringen ten opzichte van het niveau dat we detecteren, zullen nog steeds worden gerealiseerd als je het plan volgt. Ten slotte, als je altijd 10 uur per week hebt getraind en je vraagt een plan aan met 3 uur training, is er misschien geen manier om je huidige niveau te behouden. Onze voorspellingen zijn gebaseerd op de lessen uit jouw data en niet alleen op wensdenken. Wees gerust dat als dit het geval is, ons algoritme het plan vindt dat je het minst laat afnemen binnen jouw tijdsbeperkingen.</p>"
+        },
+        "q13": {
+            "title": "Waarom is mijn voorspellingsfout groot?",
+            "content": "<p>Hier zijn een paar mogelijke redenen:</p><p>1. Garbage in, garbage out - is je data schoon, d.w.z. van een goed gekalibreerd gps-apparaat of vermogensmeter? Zo niet, dan kun je tijdsintervallen waar slechte data is vastgelegd uitsluiten onder 'Data-uitsluitingen' in het Dashboard. Een veelvoorkomende boosdoener zijn opgeslagen hardloopsessies die eigenlijk fietstochten zijn. Je kunt deze meestal identificeren via pieken in tempo in je 'Mijn verleden data'-grafiek in het Dashboard.</p><p>2. Voor fietsen, heb je met meerdere fietsen gereden en zijn niet allemaal uitgerust met een vermogensmeter? Als je een activiteit opneemt zonder vermogensmeter maar wel je hartslagmeter draagt en bij voorkeur een cadanssensor hebt geïnstalleerd, schatten we je vermogen op basis van die metingen. Echter, als er veel ritten zijn zonder hartslagdata, zou het model blind zijn voor een aanzienlijk deel van de daadwerkelijke training. Ook als je meerdere vermogensmeters/smart trainers hebt/had en deze inconsistent meten ten opzichte van elkaar, kan dat problemen veroorzaken.</p><p>3. Evenzo, als je niet al je hardloopsessies opneemt met een gps-apparaat, is het model blind voor de activiteiten die je niet opneemt.</p>"
+        },
+        "q14": {
+            "title": "Kan ik imperiale eenheden gebruiken?",
+            "content": "Ja, onder 'Account' kun je kiezen tussen metrisch (min/km) en imperiaal (min/mijl)."
+        },
+        "q15": {
+            "title": "Hoe kan ik de taal wijzigen of helpen met vertalingen?",
+            "content": "<p>Je kunt je voorkeurstaal instellen op de <link>Account-pagina</link>. Als je taal niet wordt ondersteund, kun je helpen met het maken van vertalingen - wij maken de eerste versie met AI en jij kunt de vertalingen verfijnen. Je kunt bijdragen of vertaalproblemen melden in onze <link2>GitHub i18n repository</link2> of door een e-mail te sturen naar <link3>info@aiendurance.com</link3>.</p>"
+        }
+    },
+    "plans": {
+        "title": "AI-trainingsplannen",
+        "q1": {
+            "title": "Voor welke doelen kan ik trainen met AI Endurance?",
+            "content": "<p>Hardlopen: 5k, 10k, (halve) marathon, Ultra Endurance Pace, Critical Running Power en Ultra Endurance Power.</p><p>Fietsen: FTP, Critical Cycling Power en Ultra Endurance Power.</p><p>Triatlon: Sprint, Olympische afstand, (halve) Ironman.</p><p>Je kunt ook een Custom Configuration aanmaken die elk van de bovenstaande doelen kan bevatten met de door jou gekozen prioriteit.</p>"
+        },
+        "q2": {
+            "title": "Kan ik voor meerdere doelen tegelijk trainen?",
+            "content": "Ja, je kunt voor meerdere doelen tegelijk trainen. Naast je hoofddoel (A-wedstrijd), kun je trainen voor B- en C-doelen in de opbouw naar je A-wedstrijd."
+        },
+        "q3": {
+            "title": "Hoe worden de trainingen voorgeschreven?",
+            "content": "We schrijven trainingen voornamelijk voor via tempo/GAP of hardloopvermogen (hardlopen), vermogen (fietsen) en tempo (zwemmen). Voor lage-intensiteit duurtrainingen (hardlopen en fietsen) schrijven we ook secundaire hartslagdoelen voor als je hoogwaardige HRV-data verzamelt waarmee we je aerobe drempelhartslag kunnen bepalen. De primaire tempo- of vermogensdoelen zijn altijd de belangrijkste doelen om te volgen, terwijl hartslag als secundaire gids kan worden gebruikt, vooral als het terrein het moeilijk maakt om het primaire doel precies te volgen."
+        },
+        "q4": {
+            "title": "Moet ik het trainingsplan volgen als ik geblesseerd ben of herstel van een blessure?",
+            "content": "Nee - we raden in dit geval geen gestructureerde training aan. Richt je eerst op gezond worden. Hoe meer je je richt op gezond worden in plaats van op een gevreesd prestatieverlies, hoe meer je de tijd weg van gestructureerde training en wedstrijden minimaliseert. We adviseren je altijd om je arts te raadplegen voordat je een trainingsplan volgt. Onze AI detecteert geen blessures in welke vorm dan ook en het is erg belangrijk dat je naar je lichaam luistert en voor en tijdens de trainingen beslissingen neemt die het meest gunstig zijn voor je gezondheid."
+        },
+        "q5": {
+            "title": "Moet ik het plan volgen?",
+            "content": "We adviseren je altijd om je arts te raadplegen voordat je een trainingsplan volgt. De voorspelde prestatie is gebaseerd op de trainingen die we aanbieden. Het is echter erg belangrijk dat je naar je lichaam luistert en je eigen oordeel gebruikt voordat je een training doet. Jezelf te veel pushen kan tot blessures leiden. We bieden altijd alternatieve instructies voor een lichtere training als je je niet goed voelt, en soms moet je gewoon een training overslaan voor extra rust en herstel, en dat is ook prima!"
+        },
+        "q6": {
+            "title": "Hoe kan ik de trainingen uitvoeren?",
+            "content": "<p>- <link>Voer de trainingen rechtstreeks uit vanaf je Garmin-toestel</link> als je Garmin Upload verbindt met AI Endurance.</p><p>- <link>Voer de trainingen rechtstreeks uit vanaf je Suunto-toestel</link> als je Suunto verbindt met AI Endurance.</p><p>- Voer de trainingen rechtstreeks uit vanaf je Coros-horloge als je Coros verbindt met AI Endurance.</p><p>- Voer de trainingen rechtstreeks uit vanaf je Wahoo-toestel als je Wahoo verbindt met AI Endurance.</p><p>- <link>Voer de trainingen rechtstreeks uit vanaf je Apple Watch</link> door een Watchletic-account aan te maken en te verbinden met AI Endurance.</p><p>- Exporteer je trainingsplan naar <link>TrainingPeaks</link>, Intervals.icu en Nolio, waar je je trainingen kunt uitvoeren vanaf toestellen die niet rechtstreeks integreren met AI Endurance.</p><p>- <link>Download onze Zwift workouts.</link></p><p>Ga simpelweg naar de 'Apps'-pagina en verbind je account. Als je wijzigingen aanbrengt in je AI Endurance-trainingsplan, worden deze automatisch doorgestuurd naar je verbonden apps. <i>We exporteren je trainingen continu tot een week in de toekomst.</i></p><p>Mogelijk heb je een TrainingPeaks Premium-account nodig om toegang te krijgen tot je volledige week AI Endurance-trainingen in TrainingPeaks.</p>"
+        },
+        "q7": {
+            "title": "Wat is het synchronisatieschema voor het exporteren van trainingen naar Garmin, Suunto, Coros, Wahoo, TrainingPeaks, Intervals.icu en Nolio?",
+            "content": "Wanneer je een nieuw plan aanmaakt en je Garmin Upload-, Suunto-, Coros-, Wahoo-, TrainingPeaks-, Intervals.icu- of Nolio-account hebt verbonden, exporteren we je trainingen voor een week in de toekomst. Daarna exporteren we elke 24 uur je trainingen voor de volgende dag, zodat je altijd een week aan trainingen beschikbaar hebt in je verbonden app. Als je een training verplaatst in je AI Endurance-kalender of een trainingswijziging accepteert, exporteren we de bijgewerkte training onmiddellijk naar je verbonden app als deze binnen het venster van een week valt. Als je TrainingPeaks gebruikt, heb je mogelijk een Premium-account nodig om toegang te krijgen tot je volledige week AI Endurance-trainingen in TrainingPeaks. Je kunt je export naar apps van derden ook vernieuwen op de Apps-pagina."
+        },
+        "q8": {
+            "title": "Kan ik AI Endurance gebruiken met mijn Apple Watch?",
+            "content": "Ja, verbind simpelweg <link>Watchletic</link> om je activiteiten naar AI Endurance te uploaden en je trainingen op je Apple Watch uit te voeren."
+        },
+        "q9": {
+            "title": "Waarom verschijnen de AI Endurance-trainingen niet in mijn Coros-account?",
+            "content": "<p>Als je AI Endurance-plan niet in je Coros-kalender verschijnt, probeer dan Coros los te koppelen en opnieuw te verbinden via je AI Endurance-accountpagina.</p><p>Als dit niet werkt, ga dan naar het tabblad Trainingsplanbibliotheek in de Coros-app of op de Coros Training Hub-website. Selecteer vanaf hier handmatig AI Endurance en start het plan, en je zou de komende 7 dagen aan trainingen in je Coros-kalender moeten zien verschijnen.</p>"
+        },
+        "q10": {
+            "title": "Mijn trainingen in mijn externe app zijn niet synchroon met AI Endurance. Hoe kan ik dit oplossen?",
+            "content": "Als je trainingen in je externe app niet synchroon zijn met AI Endurance, kun je de export naar alle verbonden externe apps vernieuwen op de Apps-pagina. Druk simpelweg op de knop 'Exports vernieuwen' en alle verbonden apps worden bijgewerkt met je laatste AI Endurance-trainingen."
+        },
+        "q11": {
+            "title": "Wanneer past het trainingsplan zich aan?",
+            "content": "Als je gereedheid niet voldoende is voor de komende training, raden we wijzigingen in je trainingsschema aan. Als je een training hebt gemist, stellen we aanpassingen voor die je conditie op peil houden. Als je meer intervalwerk hebt gedaan dan voorgeschreven, raden we in plaats daarvan duurtraining aan om je trainingsplan opnieuw in evenwicht te brengen. Ook als je je huidige plan niet hebt gevolgd, is er mogelijk een betere optie beschikbaar voor je huidige conditie. Als je voorgeschreven training aanzienlijk afwijkt van je daadwerkelijke training, stellen we voor dat je een nieuw plan aanvraagt dat de bijgewerkte informatie over je conditie bevat."
+        },
+        "q12": {
+            "title": "Waarom staan er geen testtrainingen in mijn trainingsplan?",
+            "content": "We nemen bewust geen testtrainingen op. Onze data-analyse is geavanceerd genoeg om je fitnessniveau te detecteren uit je reguliere training via een combinatie van Critical Power/tempo-metingen, HRV-drempeldata, wedstrijden, intensiteitsverdelingen en meer."
+        },
+        "q13": {
+            "title": "Hoe berekenen jullie automatisch mijn hardloop- en fietszones?",
+            "content": "We kunnen je hardloop- en fietszones automatisch voor je berekenen op basis van je historische data. We gebruiken het volgende systeem om je zones te schatten: eerst proberen we voldoende DFA a₁-drempeldata te vinden om je zones in te stellen. In een tweede poging gebruiken we de verdeling van je historische vermogens-/tempodata om je zones in te stellen. Je kunt je zones ook handmatig aanpassen."
+        },
+        "q14": {
+            "title": "Hoe berekenen jullie automatisch mijn zwemzones?",
+            "content": "We berekenen je zwemzones op basis van onze Critical Swim Speed (CSS)-schatting. We schatten je CSS voor je op basis van de verdeling van je historische zwemtempo. Je kunt je CSS ook handmatig aanpassen."
+        },
+        "q15": {
+            "title": "Zijn de zwemtrainingen in mijn triatlonplan gebaseerd op AI?",
+            "content": "Nee. De trainingen komen momenteel uit een trainingsdatabase die is gemaakt door een ervaren coach. We bieden (nog) geen AI-zwemtrainingen aan omdat het moeilijker is om onze AI te voorzien van schone data om zwemprestaties te voorspellen, aangezien de data inherent meer ruis bevat en minder overvloedig is."
+        },
+        "q16": {
+            "title": "Kan ik trainen voor een duatlon?",
+            "content": "Ja, als je een duatleet bent, selecteer dan simpelweg Triatleet en stel je zwemuren per week in op nul. We zullen je dan een trainingsplan geven dat is afgestemd op je duatlondoelen."
+        },
+        "q17": {
+            "title": "Als ik train voor een marathon of een ander langeafstandsevenement, bouwen jullie dan de duur van mijn lange duurloop op?",
+            "content": "<p>Ja, als we weten dat je traint voor een (halve) marathon, (halve) Ironman of een ultra-endurance-evenement, proberen we een gestage toename van de duur van je lange duurloop in te plannen. We proberen de lange duurloop over het algemeen te plannen op de dag met de hoogste beschikbaarheid voor hardlopen. Als je een specifieke dag verkiest voor je lange duurloop, kun je dit instellen op de 'Plan'-pagina onder 'Dagelijkse beschikbaarheid'. Het startpunt van de duur van je lange duurloop hangt af van je langste loop van de afgelopen 6 weken. De langste duur van je lange duurloop wordt bepaald door de eindtijd die AI Endurance schat voor je doelevenement.</p><p>Als je hardloopvermogen gebruikt en traint voor een (halve) marathon, zorg er dan voor dat je het woord \"(halve) marathon\" in het naamveld van je doelevenement zet, bijvoorbeeld \"Marathon van Berlijn\". Dit is nodig omdat we voor hardloopvermogen niet direct je eindtijd voorspellen, maar in plaats daarvan Critical Power en/of Endurance Power optimaliseren, dus we weten niet direct dat je voor een bepaald evenement traint, tenzij je het ons vertelt.</p>"
+        },
+        "q18": {
+            "title": "Waarom is de optie 'Gebruik secundaire trainingslaag voor digital twin' automatisch ingeschakeld?",
+            "content": "De optie 'Gebruik secundaire trainingslaag voor digital twin' wordt automatisch ingeschakeld wanneer je aangevraagde trainingsplan anders niet kan worden gerealiseerd. Als het aangevraagde trainingsvolume bijvoorbeeld aanzienlijk afwijkt van je historische data, wordt deze functie geactiveerd om betrouwbare voorspellingen te garanderen. Zelfs als je deze optie handmatig uitschakelt, wordt deze in dergelijke gevallen opnieuw ingeschakeld om de nauwkeurigheid te behouden en je trainingsplanaanvraag te kunnen verwerken."
+        },
+        "q19": {
+            "title": "Ik vind mijn nieuwe plan niet goed. Kan ik terugkeren naar mijn vorige plan?",
+            "content": "Ja, je kunt terugkeren naar je vorige plan. Klik op de Kalender-pagina op het 'oog'-icoon naast de maandweergave om je huidige en vorige plannen te vergelijken. Een knop stelt je in staat om terug te schakelen naar je vorige plan. Let op: alle wijzigingen die je in je huidige plan hebt aangebracht, gaan verloren als je terugschakelt."
+        },
+        "q20": {
+            "title": "Ik optimaliseer Critical Running Power. Op welk wattage moet ik mijn (halve) marathon lopen?",
+            "content": "Het percentage van CP waarop je zou moeten lopen, hangt af van je totale verwachte eindtijd. Bij een hogere CP doe je er korter over, dus kun je op een hoger percentage lopen. Bekijk deze <link>link van Stryd</link> voor meer informatie."
+        },
+        "q21": {
+            "title": "Hoe activeer ik AI Endurance-trainingen in mijn Coros-kalender?",
+            "content": "Als je AI Endurance-trainingen niet worden weergegeven in je Coros-appkalender, moet je mogelijk trainingen van derden inschakelen in je Coros-kalenderinstellingen. Ga naar de instellingen van je Coros-app en zoek naar kalenderopties om trainingen van derden weer te geven. Als je nog steeds problemen hebt met het synchroniseren van de Coros-app naar je horloge, neem dan rechtstreeks contact op met de Coros-ondersteuning."
+        }
+    },
+    "import": {
+        "title": "Data-import",
+        "q1": {
+            "title": "Kan ik Garmin Connect, Suunto, Coros, Wahoo, Polar, Intervals.icu en/of Strava tegelijkertijd verbonden hebben?",
+            "content": "Ja, we vermijden automatisch dubbele activiteiten tijdens het importeren. In het zeldzame geval dat activiteiten precies op hetzelfde moment worden geïmporteerd, verwijderen we duplicaten elke 24 uur. Activiteiten van Garmin Connect en Suunto overschrijven altijd Strava-activiteiten, omdat Strava geen HRV-data doorgeeft."
+        },
+        "q2": {
+            "title": "Hoe lang duurt het voordat mijn trainingen in AI Endurance verschijnen?",
+            "content": "<p>Als je Garmin Download, Suunto, Coros, Wahoo, Polar, Intervals.icu of Strava hebt verbonden, duurt het slechts enkele seconden tot minuten nadat je de activiteit hebt geüpload. Als je meerdere verbindingen hebt, importeren we eerst je Garmin/Suunto/Coros/Wahoo/Polar/Intervals.icu-activiteit en synchroniseren we een paar minuten later met Strava om te controleren of er aanvullende informatie is, zoals of je activiteit een 'Wedstrijd' was of als de naam van de activiteit ons vertelt dat je een FTP-test hebt gedaan, voordat we ons machine learning-model voor elke gebruiker opnieuw trainen. We zorgen ervoor dat er geen duplicaten zijn tussen Garmin, Suunto, Coros, Wahoo, Polar, Intervals.icu en Strava, zelfs als je meerdere verbindingen hebt.</p><p>Als je importdata HRV bevat, kan het enkele minuten duren voordat je activiteit in AI Endurance verschijnt, omdat de DFA alpha 1-analyse rekenintensief is.</p>"
+        },
+        "q3": {
+            "title": "Waarom is mijn Zwift-activiteit niet geïmporteerd vanuit Garmin Connect?",
+            "content": "Garmin geeft activiteiten van derden niet door aan AI Endurance. Om je Zwift- of andere activiteiten van derden te importeren, maak je ook een verbinding met Intervals.icu of Strava."
+        },
+        "q4": {
+            "title": "Kan ik FIT-bestanden handmatig importeren?",
+            "content": "Ja, als je opnameapparaat niet wordt gedekt door onze importopties of als je per ongeluk een activiteit hebt verwijderd, kun je FIT-bestanden uploaden op de <link>Apps-pagina.</link>"
+        },
+        "q5": {
+            "title": "Wat moet ik doen als een Garmin-training ontbreekt?",
+            "content": "Als een training van Garmin ontbreekt, kun je het originele FIT-bestand downloaden van Garmin Connect en het handmatig uploaden via de optie 'FIT-bestand uploaden' op de <link>Apps-pagina.</link>"
+        },
+        "q6": {
+            "title": "Hoe neem ik Stryd-hardloopvermogensdata op en niet Garmin-hardloopvermogensdata?",
+            "content": "Als je Stryd gebruikt en een Garmin-horloge dat het native hardloopvermogen van Garmin registreert, worden beide vermogensopnames opgeslagen in het FIT-bestand van je activiteit. Om het hardloopvermogen van Garmin uit te schakelen, ga je naar 'Selecteer Hardloopactiviteit' -> 'Instellingen Hardloopactiviteit' -> 'Opname Garmin hardloopvermogen uitschakelen'. We raden je aan om consequent één vermogensbron te gebruiken, omdat verschillende fabrikanten verschillende algoritmen hebben voor het berekenen van hardloopvermogen die sterk verschillende waarden kunnen hebben."
+        },
+        "q7": {
+            "title": "Waarom worden mijn activiteitdata niet geïmporteerd vanuit TrainingPeaks?",
+            "content": "We importeren geen activiteiten van TrainingPeaks omdat de TrainingPeaks API niet de benodigde data levert voor onze analyse. We raden je aan om je Garmin-, Suunto-, Coros-, Wahoo-, Polar-, Intervals.icu- of Strava-account rechtstreeks met AI Endurance te verbinden om je activiteiten te importeren. We importeren alleen je nachtelijke HR/HRV-data van TrainingPeaks en exporteren je trainingen naar TrainingPeaks."
+        }
+    },
+    "hr": {
+        "title": "Hartslag en hartslagvariabiliteit",
+        "q1": {
+            "title": "Hoe zit het met hartslag?",
+            "content": "<p>We gebruiken je hartslagdata om je prestaties te meten. Als je bijvoorbeeld een uur lang 5 min/km kon lopen of 200 W kon trappen met een aanzienlijk lagere hartslag dan vorige week, merkt de AI dit op als een verbetering van je prestaties. Over het algemeen is hartslag echter een veel slechtere voorspeller voor prestaties dan vermogen en GAP.</p><p>We berekenen je aerobe en anaerobe hartslagdrempels op basis van je DFA alpha 1-data, zie <link>deze blogpost.</link></p><p>Voor je fietsactiviteiten zonder vermogen gebruiken we hartslag en cadans om je vermogen te schatten via een <link>gepersonaliseerd machine learning-model.</link></p>"
+        },
+        "q2": {
+            "title": "Hoe zit het met hartslagvariabiliteit (HRV)?",
+            "content": "<p>We volgen je HRV-data tijdens activiteiten als je Suunto of Garmin Download hebt verbonden en HRV-logging hebt ingeschakeld op je Garmin-toestel. Je kunt eenvoudig je aerobe en anaerobe drempels volgen via je HRV-data via <link>DFA alpha 1.</link> Voor meer informatie, zie ook <link>deze blogpost.</link></p><p>We gebruiken DFA alpha 1 ook om je <link>gereedheid om te trainen</link>, <link>durability</link> en algehele conditieverbeteringen te volgen.</p>"
+        },
+        "q3": {
+            "title": "Hoe kan ik HRV tijdens activiteiten loggen met Garmin- of Suunto-toestellen?",
+            "content": "<p>Schakel HRV-logging in:</p><p>- Suunto: alle toestellen die zijn verbonden met een hartslagborstband loggen automatisch HRV.</p><p>- Garmin: Instellingen -> Systeem -> Gegevensregistratie -> Log HRV <i>of</i> Instellingen -> Fysiologische meetwaarden -> Log HRV. Verbind met een hartslagband - bij voorkeur Polar H10 - via Bluetooth <i>niet</i> ANT+.</p><p>Toestellen:</p><p>- Garmin: omvat Forerunner 620, 630, 645, 920, 235, 255, 735, 935, 945, 955; Fenix 3, 5, 6, 7; Edge 520, 530, 820, 830, 1000, 1030, 1040, Explore; Epix.</p><p>Let op: Optische hartslagmeters op de pols registreren geen HRV/DFA alpha 1 tijdens activiteiten voor Garmin- en Suunto-toestellen. Je moet een compatibele borstband gebruiken (zoals de Polar H10) om HRV-data tijdens activiteiten op te nemen.</p>"
+        },
+        "q4": {
+            "title": "Kan ik HRV tijdens activiteiten loggen met Coros- en Wahoo-toestellen?",
+            "content": "Helaas registreren Coros- en Wahoo-toestellen op dit moment geen HRV-data tijdens activiteiten."
+        },
+        "q5": {
+            "title": "Kan ik HRV tijdens activiteiten loggen met Polar-toestellen?",
+            "content": "Op dit moment registreert Polar wel HRV-data tijdens activiteiten, maar neemt deze niet op in de FIT-bestanden die worden gedeeld met apps van derden zoals AI Endurance. Als je een Polar-toestel gebruikt, moedigen we je aan om contact op te nemen met de klantenservice van Polar en een beleidswijziging aan te vragen om het delen van deze waardevolle data met platforms van derden mogelijk te maken."
+        },
+        "q6": {
+            "title": "Kan ik DFA alpha 1-data in realtime op mijn toestel zien?",
+            "content": "<p>Ja - als je een Garmin-toestel hebt, kun je je DFA alpha 1-data in realtime zien door de <link>alphaHRV Connect IQ-app</link> te installeren.</p><p>Voor de beste resultaten raden we aan:</p><p>1. Gebruik een Polar H10 en een Garmin die HRV logt</p><p>2. Koppel de Polar H10 via BLE (Bluetooth) in de instellingen van je Garmin-toestel (Sensoren -> Nieuwe toevoegen -> Alles zoeken; zoek naar BLE-sensoren, niet ANT+)</p><p>3. Koppel in de alphaHRV-instellingen alphaHRV aan de Polar H10 via ANT+ (in de <link>Garmin Connect IQ app</link>)</p><p>4. Laat Garmin HRV loggen: Instellingen -> Systeem -> Gegevensregistratie -> Log HRV of Instellingen -> Fysiologische meetwaarden -> Log HRV.</p>"
+        },
+        "q7": {
+            "title": "Geeft Strava HRV-data van Garmin- of Suunto-toestellen door?",
+            "content": "Helaas geeft Strava op dit moment geen HRV-data van activiteiten door. Als je je HRV-data wilt volgen, verbind dan Garmin Connect of Suunto rechtstreeks met AI Endurance."
+        },
+        "q8": {
+            "title": "Hoe kan ik mijn DFA alpha 1-drempel voor vermogen/tempo/hartslag bepalen?",
+            "content": "<p>We proberen automatisch je DFA alpha 1-drempel te detecteren voor elke activiteit met HRV-data die je importeert in AI Endurance. Voor een drempeltest exporteer je simpelweg de DFA alpha 1 ramp test naar Zwift of je Garmin-toestel vanaf de <link>Apps-pagina.</link></p>"
+        },
+        "q9": {
+            "title": "Hoe moet ik mijn zones instellen na een DFA alpha 1 ramp test?",
+            "content": "<p>Ga naar de <link>Account-pagina</link> en stel je intensiteitszones in.</p><p>- Als je Endurance-plafond (aerobe/VT1) is bepaald, stel dan de eerste bol (grens Endurance - Tempo) in op de vastgestelde waarde.</p><p>- Als je Threshold-plafond (anaerobe/VT2) is bepaald, stel dan de derde bol (grens Threshold - VO2Max) in op de vastgestelde waarde.</p><p>We controleren ook automatisch of je drempels niet in lijn zijn met je huidige zones en stellen je op de hoogte als een update passend is.</p>"
+        },
+        "q10": {
+            "title": "Waarom werd mijn DFA alpha 1-drempel voor vermogen/tempo/hartslag niet automatisch berekend?",
+            "content": "<p>Om DFA alpha 1-drempels automatisch te detecteren, moet AI Endurance een intensiteitsramp tijdens je activiteit detecteren, aangezien dit de methode is die wordt ondersteund door <link>huidig onderzoek naar DFA alpha 1-drempeldetectie.</link> Ons algoritme moet een tijdsbestek kunnen identificeren dat voldoet aan de volgende criteria voor automatische drempeldetectie:</p><p>1. Gelijkmatige en soepele toename van intensiteit, d.w.z. monotoon dalende alpha 1-waarden en monotoon stijgende tempo-/vermogenswaarden.</p><p>2. Voldoende datapunten aan beide zijden van de drempel, bijv. alpha 1 < 0,5 en alpha 1 > 0,5 voor de detectie van de anaerobe drempel.</p><p>3. Een niet te hoge rampsnelheid voor het verhogen van de intensiteit. Als je de intensiteit te snel opvoert, is er een vertraging in je cardiovasculaire respons ten opzichte van je vermogen/tempo, wat zou leiden tot overschatte vermogens-/tempodrempels.</p><p>Je hebt ook de optie om de activiteitdata van de activiteitpagina te downloaden als een csv-bestand en de rampdetectie handmatig uit te voeren.</p>"
+        },
+        "q11": {
+            "title": "Wat is de kwaliteitscutoff voor het analyseren van HRV-data?",
+            "content": "5-10% artefactcorruptie. Artefactcorruptie geeft de kwaliteit van je HRV-data aan. Voor minimale artefactcorruptie raden we de Polar H10-hartslagmeter aan. Op je activiteitpagina tonen we je DFA alpha 1-drempel voor elke artefactcorruptie, maar voor het analyseren van je gereedheid om te trainen houden we alleen rekening met activiteiten met minder dan 10% corruptie. Om meegenomen te worden in AI-voorspellingen, vereisen we minder dan 5% corruptie."
+        },
+        "q12": {
+            "title": "Wat is een goede hartslagmeter voor het opnemen van hoogwaardige HRV-data?",
+            "content": "De Polar H10 registreert betrouwbaar HRV-data met een artefactcorruptie van minder dan 5%. Andere hartslagmeters kunnen in sommige gevallen ook deze kwaliteit leveren, maar dat zul je per geval met je specifieke hartslagmeter moeten controleren."
+        },
+        "q13": {
+            "title": "Moet ik mijn hartslagmeter via Bluetooth of ANT+ verbinden?",
+            "content": "Bluetooth. Opnemen met ANT+ leidt over het algemeen tot aanzienlijk minder kwalitatieve HRV-data. Als de hartslagmeter al als ANT+-apparaat is toegevoegd aan je Garmin-toestel, zorg er dan voor dat je deze eerst ontkoppelt. Voeg vervolgens een nieuwe hartslagmeter toe, sla de standaard ANT+-optie over en selecteer om naar meer te zoeken of naar Bluetooth te zoeken."
+        },
+        "q14": {
+            "title": "Kan ik mijn nachtelijke HRV-data van mijn Apple Watch in AI Endurance krijgen?",
+            "content": "Ja, indirect als je het in Intervals.icu hebt staan en Intervals.icu verbindt met AI Endurance."
+        },
+        "q15": {
+            "title": "Waar kan ik meer informatie vinden over best practices voor het opnemen van DFA alpha 1-data?",
+            "content": "<p>De <link>DFA alpha 1 FAQ van Bruce Roger</link> is een uitstekende bron voor alle onderwerpen met betrekking tot DFA alpha 1.</p>"
+        },
+        "q16": {
+            "title": "Waarom werd mijn DFA alpha 1-gereedheidsscore niet berekend voor een specifieke activiteit?",
+            "content": "Om een DFA alpha 1-gereedheidsscore te berekenen, moet de activiteit minder dan 10% artefactcorruptie hebben. Bovendien moeten ten minste 4 activiteiten in de afgelopen 3 weken ook een artefactcorruptie van minder dan 10% hebben om een zinvolle vergelijking mogelijk te maken."
+        },
+        "q17": {
+            "title": "Waarom wordt mijn dashboard-gereedheidsscore niet berekend, ook al heb ik HRV in rust en/of DFA alpha 1-data verbonden?",
+            "content": "Om je gereedheidsscore te berekenen, hebben we minimaal 10 dagen aan HR/HRV-data in rust of DFA alpha 1-data nodig, samen met ten minste 10 dagen aan trainingsdata die berekende stress scores (ESS) bevatten. Dit zorgt ervoor dat het herstelmodel voldoende data heeft om zinvolle resultaten te leveren."
+        }
+    },
+    "moreSupport": {
+        "title": "Meer ondersteuning",
+        "q1": {
+            "title": "Waar kan ik meer ondersteuning krijgen?",
+            "content": "<p>Word lid van onze <link>Reddit-community</link> en <link2>Facebook-groep</link2>.</p>"
+        }
+    }
+}

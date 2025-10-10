@@ -1,0 +1,18 @@
+{
+    "footer": {
+        "terms": "Voorwaarden",
+        "privacy": "Privacy"
+    },
+    "confirmationPopup": {
+        "yes": "Ja",
+        "no": "Nee"
+    },
+    "expiredDisplay": {
+        "title": "Laat je fitheid niet verlopen! <br />Meld je aan voor een plan om je progressie vast te houden.",
+        "cta": "Aan de slag!"
+    },
+    "infoBox": {
+        "defaultTitle": "Goed om te weten...",
+        "done": "Klaar"
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "connectApps": {
+        "title": "Koppel je apps om alles uit je training te halen",
+        "continue": "Doorgaan",
+        "iosMessage": "Gebruik de ... om je aanmelding te voltooien",
+        "webVersion": "webversie van AI Endurance"
+    },
+    "chooseDiscipline": {
+        "title": "Wat voor type atleet ben je?",
+        "disciplines": {
+            "runner": "Hardloper",
+            "cyclist": "Fietser",
+            "triathlete": "Triatleet"
+        },
+        "continue": "Doorgaan"
+    },
+    "athleteInformation": {
+        "title": "Hoeveel tijd heb je per week om te trainen?",
+        "selectDiscipline": "Selecteer je sportdiscipline!",
+        "goBack": "Terug",
+        "volumeDescription": "Wat is het volume waarmee je wilt trainen? Je model zal naar dat volume toewerken en ervoor zorgen dat je niet te veel te snel doet.",
+        "hoursPerWeek": {
+            "run": "Hoeveel uur per week ben je beschikbaar om te hardlopen?",
+            "bike": "Hoeveel uur per week ben je beschikbaar om te fietsen?",
+            "swim": "Hoeveel uur per week ben je beschikbaar om te zwemmen?",
+            "ride": "Hoeveel uur per week ben je beschikbaar om te fietsen?"
+        },
+        "gender": "Geslacht",
+        "birthYear": "Geboortejaar",
+        "weight": "Gewicht (kg)",
+        "invalidBirthYear": "Voer een geldig geboortejaar in",
+        "genderOptions": {
+            "male": "Man",
+            "female": "Vrouw",
+            "other": "Non-binair"
+        },
+        "continue": "Doorgaan",
+        "useRunningPower": "Hardloopvermogen gebruiken?"
+    },
+    "disciplineTimes": {
+        "title": "Wat is je huidige fitnessniveau?",
+        "selectDiscipline": "Selecteer je sportdiscipline!",
+        "selectEvent": "Selecteer je evenement!",
+        "goBack": "Terug",
+        "finish": "Voltooien"
+    },
+    "validation": {
+        "noUserType": "Geen gebruikerstype geselecteerd",
+        "noBirthYear": "Geen geboortejaar ingevoerd",
+        "noWeight": "Geen gewicht ingevoerd",
+        "noHoursPerWeek": "Geen uren per week ingevoerd",
+        "noEventDate": "Geen evenementdatum geselecteerd",
+        "noEventType": "Geen evenementtype geselecteerd",
+        "powerValueNotInRange": "Vermogenswaarde ligt niet binnen het bereik",
+        "pace5kNotInRange": "5k tempowaarde ligt niet binnen het bereik",
+        "pace10kNotInRange": "10k tempowaarde ligt niet binnen het bereik"
+    },
+    "appCard": {
+        "disconnectConfirm": "Weet je zeker dat je de verbinding met {title} wilt verbreken?",
+        "connectedTooltip": "{title} is gekoppeld! Klik om de verbinding te verbreken",
+        "disconnectSuccess": {
+            "strava": "Strava-gegevens succesvol losgekoppeld!",
+            "polar": "Polar succesvol losgekoppeld!",
+            "oura": "Oura-gegevens succesvol losgekoppeld!",
+            "intervalsicu": "Intervals.icu succesvol losgekoppeld!",
+            "wahoo": "Wahoo succesvol losgekoppeld!",
+            "nolio": "Nolio succesvol losgekoppeld!",
+            "suunto": "Suunto-gegevens succesvol losgekoppeld!",
+            "coros": "Coros succesvol losgekoppeld!",
+            "trainingpeaks": "TrainingPeaks-gegevens succesvol losgekoppeld!",
+            "whoop": "Whoop succesvol losgekoppeld!",
+            "garmin": "Garmin {type}-gegevens succesvol losgekoppeld!"
+        }
+    },
+    "labels": {
+        "ftp": "FTP (Functional Threshold Power) is het hoogste vermogen dat je gedurende een uur in een stabiele toestand kunt volhouden.",
+        "5k": "De 5k-tijd is de tijd die je nodig hebt om 5 kilometer te hardlopen.",
+        "10k": "De 10k-tijd is de tijd die je nodig hebt om 10 kilometer te hardlopen."
+    },
+    "disciplineMap": {
+        "ftp": "Huidige FTP (W)",
+        "5k": "Huidige 5k-tijd (mm:ss)",
+        "10k": "Huidige 10k-tijd (mm:ss)",
+        "halfMarathon": "Huidige halvemarathontijd (u:mm:ss)",
+        "marathon": "Huidige marathontijd (u:mm:ss)"
+    },
+    "error": {
+        "somethingWentWrong": "Er is iets misgegaan!",
+        "returnToDashboard": "Terug naar het dashboard"
+    },
+    "metadata": {
+        "title": "Aan de slag",
+        "description": "Laten we je gegevens instellen om je aanmelding te voltooien"
+    },
+    "eventInfo": {
+        "title": "Waar train je voor?",
+        "continue": "Doorgaan",
+        "selectDiscipline": "Selecteer je sportdiscipline!",
+        "goBack": "Terug",
+        "primaryEventQuestion": "Wat is het hoofddoel waar je voor traint?",
+        "event": "Evenement",
+        "eventDateQuestion": "Wat is de datum van je volgende hoofddoel?",
+        "infoTitle": "Wat betekenen deze opties?",
+        "close": "Sluiten",
+        "details": {
+            "suffix": "Na je eerste aanmelding kun je ook een heel seizoen plannen met B/C-doelen. Je kunt ook je eigen doelevenementen aanpassen en voor elk doel aangepaste gewichten configureren.",
+            "cyclist": "Optimaliseer FTP (Functional Threshold Power), Critical Cycling Power of je Ultra Endurance Power - je vermogen bij DFA a₁ = 0,75, je aerobe HRV-drempel.",
+            "runnerPower": "Optimaliseer je Critical Running Power of je Ultra Endurance Power - je vermogen bij DFA a₁ = 0,75, je aerobe HRV-drempel.",
+            "runnerPace": "Kies van 5k tot en met de marathonafstand. Of optimaliseer je Ultra Endurance Pace - je tempo bij DFA a₁ = 0,75, je aerobe HRV-drempel.",
+            "triathlete": "Kies van de Sprint-afstand tot de volledige Ironman-afstand. Voor de Sprint- en Olympische afstand optimaliseren we je Critical Cycling Power en je {runTextSprintOlympic}. Voor de Halve Ironman en Ironman optimaliseren we je Aerobic Cycling Power en je {runTextHalfIronman}.",
+            "selectDiscipline": "Selecteer een discipline om door te gaan.",
+            "runTextSprintOlympicPower": "Critical Running Power",
+            "runTextSprintOlympicPace": "5k- of 10k-tempo",
+            "runTextHalfIronmanPower": "Aerobic Running Power",
+            "runTextHalfIronmanPace": "Halvemarathon- of marathontempo"
+        }
+    },
+    "coachSelection": {
+        "title": "Selecteer je coach",
+        "description": "Kies de coach die je training zal begeleiden",
+        "selectCoach": "Kies je coach",
+        "noCoachesAvailable": "Geen coaches beschikbaar voor deze organisatie",
+        "continue": "Doorgaan",
+        "loading": "Coaches laden...",
+        "error": "Laden van coaches mislukt. Probeer het opnieuw."
+    }
+}

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "You missed a workout. Do you want us to adapt your plan?"
+msgstr "Je hebt een training gemist. Wil je dat we je plan aanpassen?"
+
+msgid ""
+"You decided to skip a future workout. Do you want us to adapt your plan?"
+msgstr ""
+"Je hebt besloten een toekomstige training over te slaan. Wil je dat we je "
+"plan aanpassen?"
+
+msgid "Do you want us to adapt your plan?"
+msgstr "Wil je dat we je plan aanpassen?"
+
+msgid ""
+"We will move the missed workout '%(title)s' originally scheduled for "
+"%(original_date)s to %(new_date)s."
+msgstr ""
+"We verplaatsen de gemiste training '%(title)s' van %(original_date)s naar "
+"%(new_date)s."
+
+msgid ""
+"We will move the skipped workout '%(title)s' originally scheduled for "
+"%(original_date)s to %(new_date)s."
+msgstr ""
+"We verplaatsen de overgeslagen training '%(title)s' van %(original_date)s "
+"naar %(new_date)s."
+
+msgid ""
+"We will switch the missed workout '%(title)s' with the endurance workout "
+"'%(endurance_title)s' originally scheduled for %(date)s."
+msgstr ""
+"We wisselen de gemiste training '%(title)s' om met de Endurance training "
+"'%(endurance_title)s' van %(date)s."
+
+msgid ""
+"We will switch the skipped workout '%(title)s' with the endurance workout "
+"'%(endurance_title)s' originally scheduled for %(date)s."
+msgstr ""
+"We wisselen de overgeslagen training '%(title)s' om met de Endurance "
+"training '%(endurance_title)s' van %(date)s."
+
+msgid ""
+"We will increase the volume of '%(title)s' on %(date)s by %(percentage)s%%."
+msgstr ""
+"We verhogen het volume van '%(title)s' op %(date)s met %(percentage)s%%."
+
+msgid "Your recovery is lower than expected."
+msgstr "Je herstel is lager dan verwacht."
+
+msgid "Your sentiment towards exercising is not ideal."
+msgstr "Je houding ten opzichte van trainen is niet ideaal."
+
+msgid "Your body temperature is elevated."
+msgstr "Je lichaamstemperatuur is verhoogd."
+
+msgid "Do you want to skip today's workout?"
+msgstr "Wil je de training van vandaag overslaan?"
+
+msgid "We will delete today's workout '%(title)s'."
+msgstr "We verwijderen de training van vandaag '%(title)s'."
+
+msgid "We recommend an Endurance %(act_type)s instead."
+msgstr "We raden in plaats daarvan een Endurance %(act_type)s aan."
+
+msgid ""
+"We will replace today's workout '%(title)s' with a %(duration)s easy "
+"Endurance %(act_type)s."
+msgstr ""
+"We vervangen de training van vandaag '%(title)s' door een rustige Endurance "
+"%(act_type)s van %(duration)s."
+
+msgid "We recommend reducing the duration of today's workout."
+msgstr "We raden aan om de duur van de training van vandaag te verkorten."
+
+msgid ""
+"We will change today's workout '%(title)s' to a %(duration)s easy Endurance "
+"%(act_type)s."
+msgstr ""
+"We wijzigen de training van vandaag '%(title)s' naar een rustige Endurance "
+"%(act_type)s van %(duration)s."
+
+msgid "Your recovery is low. Stay towards the lower end of your zones."
+msgstr "Je herstel is laag. Blijf aan de onderkant van je zones."

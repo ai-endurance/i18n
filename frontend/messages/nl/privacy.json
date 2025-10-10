@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "title": "Privacybeleid",
+        "description": "Privacybeleid van AI Endurance"
+    },
+    "sections": {
+        "protectingData": {
+            "title": "1. Bescherming van je gegevens",
+            "intro": "Bij AI Endurance respecteren we je privacy en zetten we ons in om je persoonlijke gegevens te beschermen. Om je onze op maat gemaakte fitnessdiensten te kunnen bieden, verzamelen we met jouw uitdrukkelijke toestemming de volgende informatie:",
+            "list": {
+                "exerciseData": "Gegevens die je handmatig invoert in AI Endurance over je trainingsschema.",
+                "activityData": "Activiteits- en slaapgegevens van Garmin, Coros, Suunto, Polar, Wahoo, Intervals.icu, Strava, Whoop, Oura en TrainingPeaks waartoe je AI Endurance toegang verleent.",
+                "usageData": "Gebruiksgegevens over de functies die je gebruikt, om je gebruikerservaring te verbeteren."
+            },
+            "consent": "We verwerken en bewaren je gegevens zolang je toestemming geeft. Als je je toestemming wilt intrekken, neem dan contact met ons op via <email>info@aiendurance.com</email>."
+        },
+        "emailAddress": {
+            "title": "2. Je e-mailadres",
+            "content": "Je e-mailadres is veilig bij ons. We zullen het nooit met derden delen en gebruiken het uitsluitend om met je te communiceren over je interacties met AI Endurance."
+        },
+        "googleAnalytics": {
+            "title": "3. Google Analytics",
+            "content": "We gebruiken Google Analytics om anoniem bezoeken en paginaweergaven te volgen. Dit helpt ons het gebruikersgedrag te begrijpen en onze diensten te verbeteren. Deze tracking vindt plaats zonder persoonlijke identificatiegegevens te verzamelen. Bezoek voor meer details <googlePrivacyLink>https://policies.google.com/privacy</googlePrivacyLink>."
+        },
+        "contactUs": {
+            "title": "4. Contact opnemen",
+            "content": "Mocht je vragen of opmerkingen hebben over je privacy, aarzel dan niet om contact met ons op te nemen via <email>info@aiendurance.com</email>."
+        }
+    }
+}
