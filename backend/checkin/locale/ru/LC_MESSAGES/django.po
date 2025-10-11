@@ -36,7 +36,7 @@ msgstr "Какое у вас настроение?"
 
 #: mysite/checkin/get_feedback.py:89
 msgid "What is your %(r_name)s recovery status?"
-msgstr "Какой у вас статус восстановления %(r_name)s?"
+msgstr "Какой у вас статус восстановления, %(r_name)s?"
 
 #: mysite/checkin/get_feedback.py:95
 msgid "It's %(percentage)s%%."

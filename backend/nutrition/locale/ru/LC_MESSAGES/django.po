@@ -12,7 +12,7 @@ msgid ""
 "These meal plan suggestions are created via AI. Calorie and macronutrient "
 "content of ingredients may vary."
 msgstr ""
-"Эти рекомендации по плану питания созданы с помощью ИИ. Калорийность и "
+"Эти рекомендации по плану питания созданы с помощью AI. Калорийность и "
 "содержание макронутриентов в ингредиентах может отличаться."
 
 msgid ""
